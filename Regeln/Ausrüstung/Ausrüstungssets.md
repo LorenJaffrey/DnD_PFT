@@ -1,0 +1,3 @@
+## Entdeckerausrüstung
+
+## Monsterjägerausrüstung
