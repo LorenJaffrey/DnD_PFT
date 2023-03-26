@@ -72,16 +72,24 @@ Manche Zauber haben Wirkungsbereiche. Jeder Wirkungsbereich hat einen festgelegt
 Bestimmte Zauber können normal oder als Ritual gewirkt werden.
 Das Wirken als Ritual dauert 10 Minuten länger, verbraucht aber keinen [[Zauber wirken#Zauberplatz]].
 Die Ritualversion eines Zaubers kann damit aber nicht auf einem höheren [[Zauber wirken#Zaubergrad]] gewirkt werden.
+Um einen Zauber als Ritual wirken zu können, muss dieser bekannt oder vorbereitet sein.
 
-## Bekannte und vorbereitete Zauber
+## Arten der Zauberei
 Ehe ein Zauberwirker einen Spruch einsetzen kann muss er diesen fest in seinem Geist verankern.
-Einige Zauberwirker sowie viele magische Monster besitzen eine begrenzte Anzahl von Zaubern die ihnen immer zur Verfügung stehen.
-Andere Zauberwirker (z.B. Magier, Kleriker) müssen sämtliche ihrer Zauber vorbereiten, haben dafür aber eine größere Auswahl und Flexibilität.
 
-## Zauberplatz
+### Bekannte Zauber
+Einige Zauberwirker (Barden, Hexenmeister, Waldläufer und Zauberer) sowie viele magische Monster besitzen eine begrenzte Anzahl von Zaubern die ihnen immer zur Verfügung stehen.
+
+### Vorbereitete Zauber
+Andere Zauberwirker (Druiden, Kleriker, Magieschmied, Magier und Paladine) müssen ihre Zauber vorbereiten, haben dafür aber eine größere Auswahl und Flexibilität.
+Sie kennen alle Zauber ihrer Klasse (Magier kennen nur die Zauber in ihrem Zauberbuch).
+Die maximale Anzahl der vorbereiteten Zauber ergibt sich aus der entsprechenden Klassentabelle + dem [[_Attribut#Attributsmodifikator]] zum Zauberwirken der jeweiligen Klasse.
+Die Liste der vorbereiteten Zauber kann bei jeder [[Rasten#Lange Rast]] geändert werden. Dies erfordert 1 Minuten in Gebet/Meditation pro Spruch und [[Zauber wirken#Zaubergrad]].
+
+## Zauberplätze
 Charaktere können nur eine bestimmte Anzahl an Zaubern einsetzen bevor sie [[Rasten]] müssen.
 Jeder Charakter hat eine bestimmte Anzahl an Zauberplätzen pro [[Zauber wirken#Zaubergrad]] zur Verfügung. 
-Das Wirken von Zauebrn verbraucht dann einen Zauberplatz des entsprechenden [[Zauber wirken#Zaubergrad]].
+Das Wirken von Zaubern verbraucht dann einen Zauberplatz des entsprechenden [[Zauber wirken#Zaubergrad]].
 Diese Zauberplätze können durch [[Rasten]] wieder aufgefrischt werden.
 
 Manche Charaktere oder Monster haben Spezialfähigkeiten mit denen sie Zauber wirken können ohne Zauberplätze aufwenden zu müssen.
@@ -91,7 +99,7 @@ Manche Zauber können auf einem höheren Grad gewirkt werden um ihren Effekt zu 
 Es wird dann ein entsprechender [[Zauber wirken#Zauberplatz]] verbraucht.
 
 ## Zaubertrick
-EIn Zaubertrick kann jederzeit und ohne Zauberplatz gewirkt werden. Außerdem muss er nicht vorbereitet werden.
+EIn Zaubertrick kann jederzeit und ohne [[Zauber wirken#Zauberplätze]] gewirkt werden. Außerdem muss er nicht vorbereitet werden.
 Der [[Zauber wirken#Zaubergrad]] von Zaubertricks ist 0.
 
 ## In Rüstung zaubern
