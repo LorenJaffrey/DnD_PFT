@@ -16,7 +16,7 @@ Gnome richten sich ihre Heime in hügeligen, waldbewach-senen Gegenden ein. Sie 
 ### Die Welt entdecken
 Neugierige und impulsive Gnome könnten Abenteuer als Weg erachten, die Welt zu entdecken oder ihre Liebe zum Erkunden auszuleben. Als Bewunderer schöner Edelsteine und anderer wertvoller Gegenstände halten manche Gnome das Abenteurerleben für einen schnellen, wenn auch gefährlichen Weg, Reichtum zu erlangen. Gleichgültig, was sie dazu treibt, auf Abenteuer auszuziehen, so versuchen Gnome, die sich für diesen Lebensstil entscheiden, auch daraus so viel Freude wie möglich zu gewinnen. Manchmal macht sie das zu einer großen Belastung für ihre Kameraden.
 
->[!help] Verhältnis zu anderen Völkern
+>[!info] Verhältnis zu anderen Völkern
 >### Immer Dankbar
 >Es ist selten, dass ein Gnom sich feindselig oder bösartig verhalt, außer er ist schwer verwundet oder schwebt in Lebens-gefahr. Gnome wissen, dass die meisten anderen Völker ihren Sinn für Humor nicht teilen, doch sie erfreuen sich an jedermanns Gesellschaft - so wie sie sich an allem erfreuen können.
 
@@ -68,6 +68,10 @@ Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
 
+### Sprachen
+- Gemeinsprache
+- Gnomisch
+
 ## Waldgnome
 Als Waldgnom verfügst du über eine natürliche Begabung für Illusionen, außerdem wohnt dir eine gewisse Schnelligkeit und Heimlichkeit inne. In der Welt von DUNGEONS & DRAGONS sind Waldgnome selten und von einem gewissen Mysterium umgeben. Sie leben in versteckten Gemeinschaften in dunklen Wäldern und nutzen Illusion und Täuschung, um sich vor Bedrohungen zu schützen oder ihre Flucht zu verschleiern, falls sie entdeckt werden. Waldgnome begegnen anderen gutgesinnten Waldbewohnern freundlich, Elfen und gute Feenwesen sehen sie als ihre wichtigsten Verbündeten an. Oft freunden sich diese Gnome mit kleinen Waldtieren an und verlassen sich auf deren Hilfe, um Gefahren frühzeitig zu erkennen, die über ihr Land hereinbrechen könnten.
 ![[gnome_forestgnome.webp|400]]
@@ -97,3 +101,7 @@ Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
+
+### Sprachen
+- Gemeinsprache
+- Gnomisch

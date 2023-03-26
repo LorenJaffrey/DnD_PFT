@@ -1,3 +1,6 @@
+---
+aliases: Zwerg
+---
 ```toc
 ```
 
@@ -19,7 +22,7 @@ Die Königreiche der Zwerge erstrecken sich tief unter den Bergen, wo ihr Volk n
 ### Götter, Gold und Klans
 Zwerge, die ein Abenteurerleben aufnehmen, könnten von der Sehnsucht nach Schätzen getrieben sein, ob nun für sie selbst oder einen bestimmten Zweck - vielleicht sogar aus dem gutherzigen Drang, anderen zu helfen. Andere Zwerge treibt der Befehl oder die Inspiration einer Gottheit an, eine Berufung oder das einfache Verlangen, einem einzelnen Zwergengott Ruhm einzubringen. Auch der Klan und die Vorfahren können wichtige Quellen der Motivation sein. So trachtet der eine Zwerg vielleicht danach, die verlorene Ehre seines Klans wiederherzustellen, eine uralte Schmach, die diesem zugefügt wurde, zu rächen oder sich nach der eigenen Verbannung einen neuen Platz in der Gemeinschaft zu verdienen. Ein anderer Zwerg könnte nach jener Axt suchen, die einer seiner mächtigen Vorfahren führte und die vor Jahrhunderten auf einem Schlachtfeld verloren ging.
 
->[!help] Verhältnis zu anderen Völkern
+>[!info] Verhältnis zu anderen Völkern
 Zwerge kommen ganz passabel mit den meisten Völkern aus. „Zwischen einem Bekannten und einem Freund liegen etwa 100 Jahre" ist ein Sprichwort, das zwar übertrieben ist, doch in jedem Fall aufzeigt, wie schwierig es für die Angehörigen anderer Völker sein kann, das Vertrauen eines Zwerges zu gewinnen.
 >### Elfen 
 "Es ist unklug, sich auf einen Elf zu verlassen. Man kann nie sagen, was er als Nächstes vorhat. Wenn ein Kampf ausbricht, kann er sowohl anfangen, ein Lied zu singen, als auch das Schwert ziehen. Elfen sind flatterhaft und leichtfertig. Zwei Dinge kann man allerdings über sie sagen: Zwar gibt es nicht viele Schmiede unter ihnen, doch die leisten sehr gute Arbeit. Und wenn Orks und Goblins aus den Bergen strömen, ist es gut, einen Elf im Rücken zu haben. Nicht so gut wie einen Zwerg, doch hassen sie die Orks genauso sehr wie wir." 
@@ -42,9 +45,9 @@ Balderk, Heldenhammer, Starkamboss, Dankil, Feuerschmiede, Frostbart, Gorunn, Ho
 
 
 ## Gerbirgszwerge
-Als Gebirgszwerg bist du stark, säh und an ein hartes Leben in rauer Umgebung gewöhnt. Du bist wahrscheinlich eher größer (für einen Zwerg) und neigst au einem helleren Hautton. Die Schildzwerge des nördlichen Faerûn sowie der herrschende Hylar-Klan und der adelige Daewar Klan aus der Welt der Drachenlanze zählen zu dieser Unterart.
+Als Gebirgszwerg bist du stark, zäh und an ein hartes Leben in rauer Umgebung gewöhnt. Du bist wahrscheinlich eher größer (für einen Zwerg) und neigst au einem helleren Hautton. Die Schildzwerge des nördlichen Faerûn sowie der herrschende Hylar-Klan und der adelige Daewar Klan aus der Welt der Drachenlanze zählen zu dieser Unterart.
+![[dwarf_mountain.webp|450]]
 
-![[dwarf_mountain.webp|400]]
 ### Attributswerterhöhung
 - +2 [[Konstitution]]
 - +2 [[Stärke]]
@@ -74,6 +77,10 @@ Zwerge sind zwischen 120 cm und 150 cm groß und wiegen meist um die 150 Pfund.
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
+
+### Sprachen
+- Gemeinsprache
+- Zwergisch
 
 ## Hügelzwerge
 Als Hügelzwerg besitzt du scharfe Sinne, eine starke Intuition und eine bemerkenswerte Widerstandsfähigkeit. Die Goldzwerge aus Faerûn in ihrem mächtigen südlichen Königreich sind ebenso Hügelzwerge wie die verbannten Neidar und die entwurzelten Klar von Krynn in der Welt der Drachenlanze.
@@ -106,3 +113,7 @@ Im Durchschnitt erreichen sie ein Alter von 350 Jahren.
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
+
+### Sprachen
+- Gemeinsprache
+- Zwergisch
