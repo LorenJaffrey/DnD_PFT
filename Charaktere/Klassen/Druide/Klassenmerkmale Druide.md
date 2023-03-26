@@ -9,9 +9,14 @@
 	- entschlüsseln nur mit magischer Hilfe
 
 ## Zauberwirken Druide
-- kennt alle Druidenzauber
-- 
+- kennt zu Beginn 2 [[Zaubertricks]] (weitere siehe [[Druide#Klassentabelle]])
+- ![[Zauber wirken#Vorbereitete Zauber]]
+- Attribut zum Zauberwirken ist [[Weisheit]]
+- kann einen #Druidischen_Fokus als #Zauberfokus verwenden
 
+>[!info]
+>**[[Schwierigkeitsgrad]] für [[Rettungswurf|Rettungswürfe]]** = 8 + [[Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
+>**Modifikator für Zauberangriffe** = [[Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
 
 ## Tiergestalt
 - kann [[Aktionen|Aktion]] einsetzen um Gestalt eines beliebigen Tieres anzunehmen das er bereits gesehen hat
