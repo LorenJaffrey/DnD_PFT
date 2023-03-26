@@ -7,12 +7,12 @@
 - kann nicht mehr [[Zauber wirken]] oder sich [[Zauber wirken#Konzentration]] halten
 - [[Vorteil und Nachteil#Vorteil]] bei [[Stärke|Stärkewürfen]] und [[Rettungswurf|Rettungswürfen]] auf [[Stärke]]
 - [[Schaden und Heilung#Schadensresistenz]] gegen #Schaden/Hieb #Schaden/Wucht #Schaden/Stich 
-- Bonusschaden bei [[Nahkampfangriff|Nahkampfangriffen]] basierend auf [[Stärke]] (siehe [[Klassenübersicht Barbar#Klassentabelle]])
+- Bonusschaden bei [[Nahkampfangriff|Nahkampfangriffen]] basierend auf [[Stärke]] (siehe [[Barbar#Klassentabelle]])
 - endet nach
 	- 1 Minute
 	- wenn in einem Zug kein [[Angriff]] ausgeführt oder Schaden erlitten wurde
 	- wenn der Charakter bewusstlos wird
-- Anzahl der Kampfräusche entsprechend [[Klassenübersicht Barbar#Klassentabelle]] (wird durch [[Rasten#Lange Rast]] regeneriert)
+- Anzahl der Kampfräusche entsprechend [[Barbar#Klassentabelle]] (wird durch [[Rasten#Lange Rast]] regeneriert)
 
 ## Ungerüstete Verteidigung
 - [[Konstitution#Konstitutionsmodifikator]] darf zur Rüstungsklasse addiert werden
