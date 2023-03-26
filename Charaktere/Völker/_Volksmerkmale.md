@@ -65,6 +65,13 @@ Allerdings können im Dunkeln keine Farben gesehen werden.
 - kennt einen Zaubertrick aus der Zauberliste des [[Klassenübersicht Magier|Magier]]
 - wird  mit [[Intelligenz]] gewirkt
 
+## Elfische Waffenvertrautheit
+[[Übung]] im Umgang mit folgenden #Waffe 
+- #Waffe/Langschwert 
+- #Waffe/Kurzschwert 
+- #Waffe/Langbogen 
+- #Waffe/Kurzbogen
+
 ## Empfindlichkeit gegenüber Sonnenlicht
 [[Vorteil und Nachteil#Nachteil]] bei [[Angriff#Angriffswurf]] und Würfen auf [[Weisheit#Wahrnehmung]] die sich aufs Sehen beziehen wenn sich das Ziel in direktem Sonnenlicht befindet.
 
