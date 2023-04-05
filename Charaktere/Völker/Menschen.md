@@ -1,3 +1,6 @@
+---
+aliases: Mensch
+---
 ```toc
 ```
 ## Beschreibung
@@ -36,37 +39,58 @@ In den Vergessenen Reichen sind neun ethnische Gruppen weit verbreitet, auch wen
 ### Calishiten
 Kleiner und schmächtiger gebaut als die meisten anderen Men-schen, besitzen die Calishiten dunkelbraune Haut, Haare und Augen. Man findet sie hauptsächlich im Südwesten Faerûns.
 
-Calishitische Namen: (männliche) Aseir, Bardeid, Haseid, Khe-med, Mehmen, Sudeiman, Zasheir; (weibliche) Atala, Ceidil, Hama, Jasmal, Meilil, Seipora, Yasheira, Zasheida; (Nachna-men) Basha, Dumein, Jassan, Khalid, Mostana, Pashar, Rein
+#### Calishitische Namen
+(männliche) Aseir, Bardeid, Haseid, Khe-med, Mehmen, Sudeiman, Zasheir 
+(weibliche) Atala, Ceidil, Hama, Jasmal, Meilil, Seipora, Yasheira, Zasheida
+(Nachnamen) Basha, Dumein, Jassan, Khalid, Mostana, Pashar, Rein
 
 ### Chondathaner 
-Chondathaner sind ein schlanker Menschenschlag mit gelbbrauner Haut und dunklem Haar, das beinahe blond oder fast schwarz sein kann. Die meisten sind groß und besitzen grüne oder braune Augen, auch wenn dies nicht auf jeden zutrifft. Menschen chon-dathanischer Herkunft beherrschen die zentralen Länder von Faerûn und diejenigen um die See des Sternenregens.
+Chondathaner sind ein schlanker Menschenschlag mit gelbbrauner Haut und dunklem Haar, das beinahe blond oder fast schwarz sein kann. Die meisten sind groß und besitzen grüne oder braune Augen, auch wenn dies nicht auf jeden zutrifft. Menschen chondathanischer Herkunft beherrschen die zentralen Länder von Faerûn und diejenigen um die See des Sternenregens.
 
-Chondathanische Namen: (männliche) Darvin, Dorn, Evendur, Gorstag, Grim, Helm, Malark, Morn, Randal, Stedd; (weib-liche) Arveene, Esvele, Jhessail, Kerri, Lureene, Miri, Rowan, Shandri, Tessele; (Nachnamen) Schlenderkopf, Beuchemann, Falbdrache, Gleichholz, Graufeste, Tallstag
+#### Chondathanische Namen
+(männliche) Darvin, Dorn, Evendur, Gorstag, Grim, Helm, Malark, Morn, Randal, Stedd
+(weib-liche) Arveene, Esvele, Jhessail, Kerri, Lureene, Miri, Rowan, Shandri, Tessele
+(Nachnamen) Schlenderkopf, Beuchemann, Falbdrache, Gleichholz, Graufeste, Tallstag
 
 ### Damaraner
 Die primär im Nordwesten von Faerûn angesiedelten Dama-raner sind von mittlerer Größe und Statur. Ihre Haut ist von heller bis gelbbrauner Farbe, ihr Haar für gewöhnlich braun oder schwarz. Die Augenfarbe variiert, auch wenn braune Augen am häufigsten sind.
 
-Damaranische Namen: (männliche) Bor, Fodel, Glar, Grigor, Igan, Ivor, Kosef, Mival, Orel, Pavel, Sergor; (weibliche) Ale-thra, Kara, Katernin, Mara, Natali, Olma, Tana, Zora; (Nach-namen) Bersk, Chernin, Dotsk, Kulenov, Marsk, Nemetsk, Shemov, Starag
+#### Damaranische Namen
+(männliche) Bor, Fodel, Glar, Grigor, Igan, Ivor, Kosef, Mival, Orel, Pavel, Sergor
+(weibliche) Ale-thra, Kara, Katernin, Mara, Natali, Olma, Tana, Zora
+(Nach-namen) Bersk, Chernin, Dotsk, Kulenov, Marsk, Nemetsk, Shemov, Starag
 
 ### Illuskaner
 Illuskaner sind ein großes hellhäutiges Volk mit blauen bis hin zu stahlgrauen Augen. Die meisten haben rabenschwarzes Haar, nur diejenigen im äußersten Nordwesten besitzen blon-des, rotes oder hellbraunes.
 
-Illuskanische Namen: (männliche) Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth; (weibliche) Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra; (Nachnamen) Blankholz, Helder, Hornrabe, Knappmann, Sturmböe, Flusswind
+#### Illuskanische Namen
+(männliche) Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth
+(weibliche) Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra
+(Nachnamen) Blankholz, Helder, Hornrabe, Knappmann, Sturmböe, Flusswind
 
 ### Mulan
 Vorherrschend an der östlichen und südöstlichen Küste der Inneren See leben die schlanken, groß gewachsenen und bern-steinhäutigen Mulan. Sie haben braune oder hellbraune Augen und ihre Haarfarbe reicht von Schwarz bis Dunkelbraun, wobei in Ländern, in denen die Mulan regieren, die Adeligen und viele andere ihre Köpfe blank rasiert tragen.
 
-Mulanische Namen: (männliche) Aoth, Bareris, Ehput-Ki, Kethoth, Mumed, Ramas, So-Kehur, Thazar-De, Urhur; (weibliche) Arizima, Chathi, Nephis, Nulara, Murithi, Sefris, Thola, Umara, Zolis; (Nachnamen) Ankhalab, Anskuld, Fezim, Hahpet, Nathandem, Sepret, Uuthrakt
+#### Mulanische Namen
+(männliche) Aoth, Bareris, Ehput-Ki, Kethoth, Mumed, Ramas, So-Kehur, Thazar-De, Urhur
+(weibliche) Arizima, Chathi, Nephis, Nulara, Murithi, Sefris, Thola, Umara, Zolis
+(Nachnamen) Ankhalab, Anskuld, Fezim, Hahpet, Nathandem, Sepret, Uuthrakt
 
 ### Rashemi
 Am häufigsten findet man die Rashemi im Osten der Inneren See und oft gemischt lebend mit den Mulan. Sie neigen zu einem kleinen, stämmigen und muskulösen Körperbau. Für gewöhnlich besitzen sie dunkle Haut, dunkle Augen und dickes schwarzes Haar.
 
-Rashemi-Namen: (männliche) Borivik, Faurgar, Jandar, Kanit-har, Madislak, Ralmevik, Shaumar, Vladislak: (weibliche) Fyevarra, Hulmarra, Immith, Imzel, Navarra, Shevarra, Tammith, Yuldra; (Nachnamen) Chergoba, Dyernina, Iltazyara, Murnyethara, Stayanoga, Ulmokina
+#### Rashemi-Namen
+(männliche) Borivik, Faurgar, Jandar, Kanit-har, Madislak, Ralmevik, Shaumar, Vladislak
+(weibliche) Fyevarra, Hulmarra, Immith, Imzel, Navarra, Shevarra, Tammith, Yuldra
+(Nachnamen) Chergoba, Dyernina, Iltazyara, Murnyethara, Stayanoga, Ulmokina
 
 ### Shou
 Die Shou sind die zahlreichste und mächtigste ethnische Gruppe in Kara-Tur, das weit im Osten Faerûns liegt. Sie haben gelblich-bronzefarbene Haut, schwarze Haare und dunkle Augen. Die Nachnamen werden für gewöhnlich vor den Vornamen genannt.
 
-Shou-Namen: (männliche) An, Chen, Chi, Fai, Jiang, Jun, Lian, Long, Meng, On, Shan, Shui, Wen; (weibliche) Bai, Chao, Jia, Lei, Mei, Qiao, Shui, Tai; (Nachnamen) Chien, Huang, Kao, Kung, Lao, Ling, Mei, Pin, Shin, Sum, Tan, Wan
+#### Shou-Namen
+(männliche) An, Chen, Chi, Fai, Jiang, Jun, Lian, Long, Meng, On, Shan, Shui, Wen
+(weibliche) Bai, Chao, Jia, Lei, Mei, Qiao, Shui, Tai
+(Nachnamen) Chien, Huang, Kao, Kung, Lao, Ling, Mei, Pin, Shin, Sum, Tan, Wan
 
 ### Tethyrianer
 Weit verteilt über die Schwertküste am westlichen Rand von Faerûn siedeln die Tethyrianer. Sie sind ein Volk von mittlerer Größe und ihre dunkle Haut wird heller, je weiter man nach Norden kommt. Haar- und Augenfarben variieren stark, am häufigsten jedoch gibt es braune Haare und blaue Augen. Die Tethyrianer verwenden hauptsächlich chondathanische Namen.
@@ -74,8 +98,9 @@ Weit verteilt über die Schwertküste am westlichen Rand von Faerûn siedeln die
 ### Turami
 Das an der Südküste der Inneren See beheimatete Volk der Turami ist im Allgemeinen groß und kräftig gebaut. Es besitzt dunkle, mahagonifarbene Haut, lockige Haare und dunkle Augen.
 
-Turami-Namen: (männliche) Anton, Diero, Marcon, Pieron, Rimardo, Romero, Salazar, Umbero; (weibliche) Balama, Dona, Faila, Jalana, Luisa, Marta, Quara, Selise, Vonda;
-
+#### Turami-Namen
+(männliche) Anton, Diero, Marcon, Pieron, Rimardo, Romero, Salazar, Umbero
+(weibliche) Balama, Dona, Faila, Jalana, Luisa, Marta, Quara, Selise, Vonda
 (Nachnamen) Agosto, Astorio, Calabra, Domine, Falone, Marivaldi, Pisacar, Ramondo
 
 
@@ -90,7 +115,7 @@ Turami-Namen: (männliche) Anton, Diero, Marcon, Pieron, Rimardo, Romero, Salaza
 
 ### Volksmerkmale
 - [[Übung]] in einer beliebigen [[_Fertigkeiten|Fertigkeit]]
-- beliebiges [[_Übersicht Talente|Talent]]
+- beliebiges [[Talente|Talent]]
 
 ### Alter
 Menschen erreichen das Erwachsenenalter mit 16 bis 20 Jahren und leben weniger als ein Jahrhundert.
@@ -107,4 +132,4 @@ Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
 
 ### Sprachen
 - Gemeinsprache
-- beliebige [[Sprachen#Standardsprachen]]
+- eine beliebige [[Sprachen#Standardsprachen]]
