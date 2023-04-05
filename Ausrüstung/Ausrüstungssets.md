@@ -1,0 +1,7 @@
+## Entdeckerausrüstung
+
+## Monsterjägerausrüstung
+
+## Gelehrtenausrüstung
+
+## Gewölbeforscherausrüstung
