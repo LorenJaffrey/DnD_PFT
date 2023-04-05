@@ -33,7 +33,7 @@ Nach Hinweisen suchen oder aufgrund dessen Schlussfolgerungen ziehen.
 Beispiele:
 - Ort eines versteckten Gegenstands herleiten
 - von der Art einer Wunde auf den Gegenstand schließen der sie verursacht hat
-- schwächste Stelle eines Tunnels in Erfahrung bringen an der man ihn eventuell zum EIsnturz bringen könnte
+- schwächste Stelle eines Tunnels in Erfahrung bringen an der man ihn eventuell zum Einsturz bringen könnte
 - uralte Schriftrollen wälzen um eine bestimmte Textstelle zu finden
 - Geheimtüren finden
 - herausfinden ob man Falle auslösen kann ohne getroffen zu werden
@@ -65,4 +65,4 @@ Beispiele:
 - einen Wettstreit in Fachwissen gewinnen
 
 ## Attribut zum Zauberwirken
-[[Klassenübersicht Magier|Magier]] benutzen Intelligenz als [[_Attribut|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte [[Zauber]] und den Bonus auf den [[Zauber wirken#Angriffswurf]].
+[[Magier|Magier]] benutzen Intelligenz als [[_Attribut|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte [[Zauber]] und den Bonus auf den [[Zauber wirken#Angriffswurf]].

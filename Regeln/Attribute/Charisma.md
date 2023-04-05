@@ -46,7 +46,7 @@ Beispiele:
 - dich unter eine Gruppe mischen um ein Gefühl dafür zu bekommen, was gerade die Hauptgesprächsthemen sind
 
 ## Attribut zum Zauberwirken
-[[Klassenübersicht Barde|Barde]], [[Klassenübersicht Hexenmeister|Hexenmeister]], [[Paladin]] und [[Zauberer]] benutzen Charisma als [[_Attribut|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte [[Zauber]] und den Bonus auf den [[Zauber wirken#Angriffswurf]].
+[[Barde]], [[Hexenmeister]], [[Paladin]] und [[Zauberer]] benutzen Charisma als [[_Attribut|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte [[Zauber]] und den Bonus auf den [[Zauber wirken#Angriffswurf]].
 
 ## Roleplaying
 ### Niedriges Charisma
