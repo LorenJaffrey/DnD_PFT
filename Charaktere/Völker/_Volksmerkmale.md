@@ -41,15 +41,15 @@ verschleiert
 
 ## Drow Magie
 beherrscht folgende Zauber die mit [[Charisma]] gewirkt werden und durch eine [[Rasten#Lange Rast]] regeneriert werden:
-- ab Stufe 1: [#Zaubertrick [[Tanzende Lichter]] 
-- ab Stufe 3: [[Zauber]] [[Feenfeuer]]
-- ab Stufe 5: [[Zauber]] [[Dunkelheit]]
+- ab Stufe 1: [[Zauber#Tanzende Lichter]] 
+- ab Stufe 3: [[Zauber#Feenfeuer]]
+- ab Stufe 5: [[Zauber#Dunkelheit]]
 
 ## Drow Waffenvertrautheit
 [[Übung]] im Umgang mit folgenden Waffen:
-- #Waffe/Rapier
-- #Waffe/Kurzschwert 
-- #Waffe/Handarmbrust
+- [[Waffen#Rapier]]
+- [[Waffen#Kurzschwert]] 
+- [[Waffen#Handarmbrust]]
 
 ## Dunkelsicht
 Im Umkreis von 18m:
@@ -58,38 +58,38 @@ Im Umkreis von 18m:
 Allerdings können im Dunkeln keine Farben gesehen werden.
 
 ## Durchhaltevermögen
-- wenn Trefferpunkte auf 0 sinken, sinken sie stattdessen nur auf 1 (außer [[Schaden und Heilung#Sofortiger Tod]])
+- wenn [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf 0 sinken, sinken sie stattdessen nur auf 1 (außer [[Schaden und Heilung#Sofortiger Tod]])
 - nur einmal pro [[Rasten#Lange Rast]] einsetzbar
 
 ## Elfischer Zaubertrick
-- kennt einen Zaubertrick aus der Zauberliste des [[Klassenübersicht Magier|Magier]]
+- kennt einen [[Zauber nach Grad#Zaubertricks]] aus der Zauberliste des [[Magier|Magier]]
 - wird  mit [[Intelligenz]] gewirkt
 
 ## Elfische Waffenvertrautheit
-[[Übung]] im Umgang mit folgenden #Waffe 
-- #Waffe/Langschwert 
-- #Waffe/Kurzschwert 
-- #Waffe/Langbogen 
-- #Waffe/Kurzbogen
+[[Übung]] im Umgang mit folgenden [[Waffen]] 
+- [[Waffen#Langschwert]] 
+- [[Waffen#Kurzschwert]] 
+- [[Waffen#Langbogen]] 
+- [[Waffen#Kurzbogen]]
 
 ## Empfindlichkeit gegenüber Sonnenlicht
 [[Vorteil und Nachteil#Nachteil]] bei [[Angriff#Angriffswurf]] und Würfen auf [[Weisheit#Wahrnehmung]] die sich aufs Sehen beziehen wenn sich das Ziel in direktem Sonnenlicht befindet.
 
 ## Feenblut
-- [[Vorteil und Nachteil#Vorteil]] bei [[Rettungswurf]] gegen #Bezauberung 
-- Immun gegen #Schlafzauber
+- [[Vorteil und Nachteil#Vorteil]] bei [[Rettungswurf]] gegen #Zauber/Bezauberung 
+- Immun gegen #Zauber/Schlaf
 
 ## Flinkheit
 Grundbewegung beträgt 10,5m
 
 ## Geborene Illusionisten
-beherrscht den [[Zauber]] [[Illusion]] (gewirkt mit [[Intelligenz]])
+beherrscht den Zauber [[Zauber#Illusion]] (gewirkt mit [[Intelligenz]])
 
 ## Geschärfte Sinne
 [[Übung]] in [[Weisheit#Wahrnehmung]]
 
 ## Gnomische Gerissenheit
-[[Vorteil und Nachteil#Vorteil]] auf [[Rettungswurf|Rettungswürfe]] gegen #Magie wenn basierend auf
+[[Vorteil und Nachteil#Vorteil]] auf [[Rettungswurf|Rettungswürfe]] gegen [[Zauber]] wenn basierend auf
 - [[Intelligenz]]
 - [[Weisheit]]
 - [[Charisma]]
@@ -111,9 +111,9 @@ Darf jede gewürfelte natürliche 1 bei [[Angriff#Angriffswurf]], [[Rettungswurf
 
 ## Infernalisches Erbe
 beherrscht folgende Zauber die mit [[Charisma]] gewirkt werden und durch eine [[Rasten#Lange Rast]] regeneriert werden:
-- ab Stufe 1: #Zaubertrick[[Thaumaturgie]] 
-- ab Stufe 3: [[Zauber]] [[Höllischer Tadel]] (2. Grad)
-- ab Stufe 5: [[Zauber]] [[Dunkelheit]]
+- ab Stufe 1: [[Zauber#Thaumaturgie]] 
+- ab Stufe 3: [[Zauber#Höllischer Tadel]]
+- ab Stufe 5: [[Zauber#Dunkelheit]]
 
 ## Odemwaffe
 Odemwaffe entsprechend der [[_Volksmerkmale#Drakonische Abstammung]]
@@ -147,7 +147,7 @@ Durch Laute und Gesten kannst du einfache Gedanken mit kleinen oder winzigen Tie
 ## Tüftler
 - Übung mit [[Handwerkszeug#Tüftlerwerkzeug]]
 - kann 1 Stunde und Material im Wert von 10 [[Münzen#Goldmünze]]  investieren um ein winziges aufziehbares Gerät konsturieren
-	- [[Rüstung#Rüstungsklasse]] 5, 1 #Trefferpunkte
+	- [[Rüstung#Rüstungsklasse]] 5, 1 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]]
 	- funktioniert 24 Stunden lang, danach Wartung (1 Stunde) benötigt
 	- durch Demontieren lassen sich die Materialien zurückerhalten
 	- bis zu drei aktive Geräte gleichzeitig
@@ -184,11 +184,11 @@ Allerdings können im Dunkeln keine Farben gesehen werden.
 Bei [[Schaden und Heilung#Kritischer Treffer]] mit Nahkampfwaffe darf ein zusätzlicher Schadenswürfel geworfen werden.
 
 ## Zwergisches Kampftraining
-[[Übung]] im Umgang mit folgenden #Waffe 
-- #Waffe/Streitaxt
-- #Waffe/Beil
-- #Waffe/Leichter_Hammer
-- #Waffe/Kriegshammer
+[[Übung]] im Umgang mit folgenden [[Waffen]] 
+- [[Waffen#Streitaxt]]
+- [[Waffen#Beil]]
+- [[Waffen#Leichter Hammer]]
+- [[Waffen#Kriegshammer]]
 
 ## Zwergische Rüstungsvertrautheit
 [[Rüstung#Übung mit Rüstungen]] der folgenden Rüstungsarten:
@@ -196,4 +196,4 @@ Bei [[Schaden und Heilung#Kritischer Treffer]] mit Nahkampfwaffe darf ein zusät
 - [[Rüstung#Mittlere Rüstung]]
 
 ## Zwergische Zähigkeit
-[[Schaden und Heilung#Trefferpunkte]] erhöhen sich um 1 pro Stufe.
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] erhöhen sich um 1 pro Stufe.

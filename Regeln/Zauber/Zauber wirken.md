@@ -2,7 +2,6 @@
 aliases: Zaubern
 ---
 ```toc
-
 ```
 
 ## Zauberattribute
@@ -39,10 +38,10 @@ Eine Kreatur die geknebelt oder sich in einem Bereich der [[Stille]] befindet, k
 Wenn eine Geste als Komponente erforderlich ist muss der Zaubernde mindestens eine Hand frei haben um die Geste auszuführen.
 
 #### Material (M)
-Ein Zauberer kann einen #Materialkomponentenbeutel oder einen #Zauberfokus anstelle der für einen Zauber angegebenen Komponenten verwenden.
+Ein Zauberer kann einen #Ausrüstung/Materialkomponentenbeutel oder einen #Zauberfokus anstelle der für einen Zauber angegebenen Komponenten verwenden.
 Sind Kosten für eine Komponente angegeben, muss der Zauberer diesen spezifischen Gegenstand besitzen.
 Wenn in der Beschreibung des Zaubers angegeben ist, dass die Komponente verbraucht wird, muss der Zauberer eine separate Komponente für jeden Einsatz zur Hand haben.
-Ein Zauberwirker benötigt mindestens eine freie Hand um die Materialkomponente oder den Zauberfokus zu verwenden. Dies kann jedoch die selbe Hand sein mit der er die Gesten ausführt.
+Ein Zauberwirker benötigt mindestens eine freie Hand um die Materialkomponente oder den #Zauberfokus zu verwenden. Dies kann jedoch die selbe Hand sein mit der er die Gesten ausführt.
 
 ### Wirkungsdauer
 Gibt an wie lange der Effekt dauert. Dies kann Runden, Minuten, Stunden oder sogar Jahre betragen. Manche Zauber sind aktiv bis sie gebannt oder zerstört werden.
@@ -79,6 +78,9 @@ Ehe ein Zauberwirker einen Spruch einsetzen kann muss er diesen fest in seinem G
 
 ### Bekannte Zauber
 Einige Zauberwirker (Barden, Hexenmeister, Waldläufer und Zauberer) sowie viele magische Monster besitzen eine begrenzte Anzahl von Zaubern die ihnen immer zur Verfügung stehen.
+Sie kennen nur die ihnen bekannten Zauber.
+Die maximale Anzahl der bekannten Zauber ergibt sich aus der entsprechenden Klassentabelle.
+
 
 ### Vorbereitete Zauber
 Andere Zauberwirker (Druiden, Kleriker, Magieschmied, Magier und Paladine) müssen ihre Zauber vorbereiten, haben dafür aber eine größere Auswahl und Flexibilität.
