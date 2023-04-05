@@ -37,7 +37,7 @@
 	- [[Weisheit#Wahrnehmung]]
 
 ## Schnelle Bewegung
-- #Bewegungsrate erhöht sich um 3 Meter
+- [[Bewegung#Bewegungsrate]] erhöht sich um 3 Meter
 - nicht möglich wenn [[Rüstung#Schwere Rüstung]] getragen wird
 
 ## Wilder Instinkt
@@ -45,7 +45,7 @@
 - kann [[Überraschung]] ignorieren durch Aktivierung von [[Klassenmerkmale Barbar#Kampfrausch]]
 
 ## Instinktiver Sprung
-- bei Aktivierung von Kampfrausch darf der Charakter sich bis zur Hälfte seiner [[Bewegung im Kampf#Bewegungsrate]] bewegen
+- bei Aktivierung von Kampfrausch darf der Charakter sich bis zur Hälfte seiner [[Bewegung#Bewegungsrate]] bewegen
 
 ## Brutale Kritische Treffer
 - bei [[Schaden und Heilung#Kritischer Treffer]] mit einer Nahkampfwaffe dürfen zusätzliche Schadenswürfel geworfen werden
@@ -54,8 +54,8 @@
 	- ab Stufe 17: 3 zusätzliche Schadenswürfel
 
 ## Unerbittlicher Kampfrausch
-- wenn auf 0 [[Schaden und Heilung#Trefferpunkte]] reduziert während [[Klassenmerkmale Barbar#Kampfrausch]]
-	- wenn [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad]] 10 bestanden wird, werden die [[Schaden und Heilung#Trefferpunkte]] nur auf 1 reduziert
+- wenn auf 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] reduziert während [[Klassenmerkmale Barbar#Kampfrausch]]
+	- wenn [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad]] 10 bestanden wird, werden die [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] nur auf 1 reduziert
 	- [[Schwierigkeitsgrad]] wird bei jedem Einsatz um 5 erhöht
 	- wird durch [[Rasten#Kurze Rast]] oder [[Rasten#Lange Rast]] wieder auf 10 gesenkt
 

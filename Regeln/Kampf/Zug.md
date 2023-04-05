@@ -2,7 +2,7 @@
 
 ```
 
-## [[Bewegung im Kampf]]
+## [[Bewegung]]
 Kreaturen können sich in einem Zug mit ihrer [[Bewegung#Bewegungsrate]] bewegen
 
 ## [[Aktionen|Aktion]]

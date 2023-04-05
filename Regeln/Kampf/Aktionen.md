@@ -7,7 +7,7 @@ alias: Kampfaktion, Kampfaktionen, Aktionen im Kampf, Aktion
 ### Ausweichen
 Bis zum Beginn ihres nächsten Zuges hat jeder [[Angriff#Angriffswurf]] gegen die Kreatur [[Vorteil und Nachteil#Nachteil]].
 Bei [[Rettungswurf]] auf [[Geschicklichkeit]] bekommt die Kreatur einen [[Vorteil und Nachteil#Vorteil]].
-Endet wenn Kreatur #kampfunfähig wird oder [[Bewegung#Bewegungsrate]] auf 0 sinkt.
+Endet wenn Kreatur [[Zustände#Kampfunfähig]] wird oder [[Bewegung#Bewegungsrate]] auf 0 sinkt.
 
 ### Gegenstand verwenden
 Normalerweise [[Zug#Kostenlose Aktion]] außer es ist Konzentration notwendig oder Interaktion mit mehreren Gegenständen.

@@ -29,13 +29,13 @@ Gewicht das Charaktere mit sich herumtragen können.
 
 ### Schieben, Ziehen, Heben
 [[Stärke]] x 30
-Wenn Gewicht geschoben, oder gezogen wird das höher als Traglast ist sinkt [[Bewegung im Kampf]] auf 1,5 Meter
+Wenn Gewicht geschoben, oder gezogen wird das höher als Traglast ist sinkt [[Bewegung#Bewegungsrate]] auf 1,5 Meter
 
 ### Größe und Stärke
 Große Kreaturen verdoppeln Traglast.
 Winzige Kreaturen halbieren Traglast.
 
 ### Belastung
-- Wenn Gewicht der Ausrüstung > [[Stärke]] x 5 -> #Belastet ( [[Bewegung#Bewegungsrate]] -3m)
-- Wenn Gewicht der Ausrüstung > [[Stärke]] x 10 -> #Stark_Belastet ( [[Bewegung#Bewegungsrate]] -6m; Nachteil bei [[_Attribut|Attributswurf]] und [[Rettungswurf]] für [[Stärke]], [[Geschicklichkeit]] und [[Konstitution]])
+- Wenn Gewicht der Ausrüstung > [[Stärke]] x 5 -> Belastet ( [[Bewegung#Bewegungsrate]] -3m)
+- Wenn Gewicht der Ausrüstung > [[Stärke]] x 10 -> Stark_Belastet ( [[Bewegung#Bewegungsrate]] -6m; Nachteil bei [[_Attribut|Attributswurf]] und [[Rettungswurf]] für [[Stärke]], [[Geschicklichkeit]] und [[Konstitution]])
 
