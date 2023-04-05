@@ -1,3 +1,6 @@
+---
+aliases: Sprache
+---
 ## Standardsprachen
 | Sprache       | Typische Völker | Schrift       |
 | ------------- | --------------- | ------------- |
