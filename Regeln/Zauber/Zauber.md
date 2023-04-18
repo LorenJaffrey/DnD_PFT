@@ -1,3 +1,6 @@
+## Befehl
+#TODO 
+
 ## Dunkelheit
 #TODO 
 
@@ -23,6 +26,9 @@
 #TODO
 
 ## Magierhand
+#TODO 
+
+## Schwache Genesung
 #TODO 
 
 ## Schweben
