@@ -1,6 +1,31 @@
 ```toc
 
 ```
+
+## Klassentabelle
+| Stufe | Merkmale                                                                                  |
+|:-----:| ----------------------------------------------------------------------------------------- |
+|   1   | [[Klassenmerkmale Kämpfer#Kampfstil]], [[Klassenmerkmale Kämpfer#Durchschnaufen]]         |
+|   2   | [[Klassenmerkmale Kämpfer#Tatendrang]] (1)                                                |
+|   3   | [[Subklassen Kämpfer]]                                                                    |
+|   4   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                        |
+|   5   | [[Klassenmerkmale#Zusätzlicher Angriff]]                                                  |
+|   6   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                        |
+|   7   | Merkmal: Kampfarchetyp                                                                    |
+|   8   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                        |
+|   9   | [[Klassenmerkmale Kämpfer#Unbeugsamkeit]] (1)                                             |
+|  10   | Merkmal: Kampfarchetyp                                                                    |
+|  11   | [[Klassenmerkmale#Zusätzlicher Angriff]] (2)                                              |
+|  12   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                        |
+|  13   | [[Klassenmerkmale Kämpfer#Unbeugsamkeit]] (2)                                             |
+|  14   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                        |
+|  15   | Merkmal: Kampfarchetyp                                                                    |
+|  16   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                        |
+|  17   | [[Klassenmerkmale Kämpfer#Tatendrang]] (2), [[Klassenmerkmale Kämpfer#Unbeugsamkeit]] (3) |
+|  18   | Merkmal: Kampfarchetyp                                               |
+|  19   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                        |
+|  20   | [[Klassenmerkmale#Zusätzlicher Angriff]]                                                  |
+
 ## Klassenbeschreibung
 #TODO 
 
