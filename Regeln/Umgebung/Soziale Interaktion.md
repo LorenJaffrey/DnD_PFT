@@ -9,7 +9,7 @@ Durch ausspielen der Rollen von #SC und #SL ergeben sich soziale Interaktionen.
 Im Zuge dieser sozialen Interaktionen kann der #SL jederzeit einen [[Charisma|Charismawurf]] fordern.
 
 ### Fertigkeiten
-[[Auftreten]]
-[[Einschüchtern]]
-[[Täuschen]]
-[[Überzeugen]]
+[[Charisma#Auftreten]]
+[[Charisma#Einschüchtern]]
+[[Charisma#Täuschen]]
+[[Charisma#Überzeugen]]

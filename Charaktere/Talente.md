@@ -114,7 +114,7 @@ Es fällt dir leicht, neue Dinge zu lernen. Du erhältst die folgenden Vorzüge:
 - ﻿﻿Wähle eine [[_Fertigkeiten|Fertigkeit]], in der du [[Übung]] hast. Du erhältst [[Übung|Expertise]] im Umgang mit dieser [[_Fertigkeiten|Fertigkeit]].
 
 ### Begabt
-Du hast [[Übung]] in einer beliebigen Kombination aus drei [[_Fertigkeiten|Fertigkeiten]] und/oder [[Werkzeuge]] deiner Wahl.
+Du hast [[Übung]] in einer beliebigen Kombination aus drei [[_Fertigkeiten|Fertigkeiten]] und/oder [[Handwerkszeug]] deiner Wahl.
 
 ### Belastbar
 Suche dir ein [[_Attribut|Attribut]] aus. Du erhältst die folgenden Vorzüge:
@@ -502,6 +502,4 @@ Du hast die Kunst gemeistert, mit zwei Waffen gleichzeitig zu kämpfen, und geni
 #Voraussetzung: [[Zwerge|Zwerg]]
 Das Blut von Zwergenhelden fließt durch deine Adern. Du erhältst die folgenden Vorzüge:
 -   ﻿﻿Erhöhe [[Konstitution]] um 1, bis zu einem Maximalwert von 20.
--   ﻿﻿Immer, wenn du im Kampf [[Aktionen#Ausweichen]] ausführst, kannst du einen Trefferwürfel ausgeben, um dich selbst zu heilen. Würfle mit dem Würfel, addiere deinen Konstitution-smodifikator hinzu und erhalte Trefferpunkte in Höhe des Gesamtergebnisses zurück (mindestens 1).
-
-#TODO 
+-   ﻿﻿Immer, wenn du im Kampf [[Aktionen#Ausweichen]] ausführst, kannst du einen [[Trefferpunkte und Trefferwürfel#Trefferwürfel]] ausgeben, um dich selbst zu heilen. Würfle mit dem Würfel, addiere deinen [[Konstitution#Konstitutionsmodifikator]] hinzu und erhalte [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] in Höhe des Gesamtergebnisses zurück (mindestens 1).

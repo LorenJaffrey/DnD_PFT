@@ -27,6 +27,7 @@
 
 ## Wilder Gefährte
 - kann [[Aktionen|Aktion]] einsetzen um den Zauber [[Zauber#Vertrauten finden]] zu wirken
+	- verbraucht eine Ladung von [[Klassenmerkmale Druide#Tiergestalt]]
 	- benötigt keine [[Zauber wirken#Material (M)]] Komponenten
 	- statt eines Tieres erscheint ein Feenwesen
 	- verschwindet nach einer Anzahl Stunden = Druidenstufe / 2
