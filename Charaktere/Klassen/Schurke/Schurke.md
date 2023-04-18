@@ -4,6 +4,75 @@ aliases: Schurken
 ```toc
 
 ```
+## Klassentabelle
+| Stufe | Hinterhältiger Angriff | Merkmale                                                                                                                             |
+|:-----:|:----------------------:| ------------------------------------------------------------------------------------------------------------------------------------ |
+|   1   |         1 #W6          | [[Klassenmerkmale Schurke#Expertise]], [[Klassenmerkmale Schurke#Hinterhältiger Angriff]], [[Klassenmerkmale Schurke#Diebessprache]] |
+|   2   |         1 #W6          | [[Klassenmerkmale Schurke#Raffinierte Aktion]]                                                                                       |
+|   3   |         2 #W6          | [[Subklassen Schurke\|Schurkenarchetyp]]                                                                                             |
+|   4   |         2 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|   5   |         3 #W6          | [[Klassenmerkmale Schurke#Unglaubliches Ausweichen]]                                                                                 |
+|   6   |         3 #W6          | [[Klassenmerkmale Schurke#Expertise]]                                                                                                |
+|   7   |         4 #W6          | [[Klassenmerkmale Schurke#Entrinnen]]                                                                                                |
+|   8   |         4 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|   9   |         5 #W6          | Merkmal Schurkenarchetyp                                                                                                             |
+|  10   |         5 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  11   |         6 #W6          | [[Klassenmerkmale Schurke#Verlässliches Talent]]                                                                                     |
+|  12   |         6 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  13   |         7 #W6          | Merkmal Schurkenarchetyp                                                                                                             |
+|  14   |         7 #W6          | [[Klassenmerkmale Schurke#Blindgespür]]                                                                                              |
+|  15   |         8 #W6          | [[Klassenmerkmale Schurke#Entschlüpfender Geist]]                                                                                    |
+|  16   |         8 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  17   |         9 #W6          | Merkmal Schurkenarchetyp                                                                                                             |
+|  18   |         9 #W6          | [[Klassenmerkmale Schurke#Schwer zu Fassen]]                                                                                         |
+|  19   |         10 #W6         | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  20   |         10 #W6         | [[Klassenmerkmale Schurke#Glückstreffer]]                                                                                            |
+
+## Trefferpunkte
+[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1 #W8 pro Stufe
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1 #W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
+
+## Übung
+### Rüstungen
+- [[Rüstung#Leichte Rüstung]]
+
+### Waffen
+- [[Waffen nach Kategorie#Einfache Waffen]]
+- [[Waffen#Handarmbrust]]
+- [[Waffen#Langschwert]]
+- [[Waffen#Rapier]]
+- [[Waffen#Kurzschwert]]
+
+### Werkzeug
+- [[Handwerkszeug#Diebeswerkzeug]]
+
+### Rettungswürfe
+- [[Geschicklichkeit]]
+- [[Intelligenz]]
+
+### Fertigkeiten
+- vier nach Wahl:
+	- [[Stärke#Athletik]]
+	- [[Geschicklichkeit#Akrobatik]]
+	- [[Geschicklichkeit#Fingerfertigkeit]]
+	- [[Geschicklichkeit#Heimlichkeit]]
+	- [[Intelligenz#Nachforschungen]]
+	- [[Weisheit#Wahrnehmung]]
+	- [[Weisheit#Motiv erkennen]]
+	- [[Charisma#Auftreten]]
+	- [[Charisma#Einschüchtern]]
+	- [[Charisma#Überzeugen]]
+	- [[Charisma#Täuschen]]
+
+## Ausrüstung
+- ein [[Waffen#Rapier]] oder ein [[Waffen#Kurzschwert]]
+- ein [[Waffen#Kurzbogen]] mit 20 Pfeilen oder ein [[Waffen#Kurzschwert]]
+- [[Ausrüstungssets#Entdeckerausrüstung]] oder [[Ausrüstungssets#Gewölbeforscherausrüstung]] oder [[Ausrüstungssets#Entdeckerausrüstung]]
+- eine Lederrüstung
+- zwei [[Waffen#Dolch]]
+- ein [[Handwerkszeug#Diebeswerkzeug]]
+
 ## Klassenbeschreibung
 #TODO 
 
