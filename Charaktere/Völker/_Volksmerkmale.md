@@ -101,7 +101,7 @@ Kann sich durch Bereiche bewegen, die von Kreaturen eingenommen werden die eine 
 Darf jede gewürfelte natürliche 1 bei [[Angriff#Angriffswurf]], [[Rettungswurf]] und [[_Attribut|Attributswurf]] wiederholen.
 
 ## Handwerkliches Geschick
-[[Übung]] mit [[Werkzeuge]] eines der folgenden Berufe:
+[[Übung]] mit [[Handwerkszeug]] eines der folgenden Berufe:
 - Braumeister
 - Schmied
 - Steinmetz

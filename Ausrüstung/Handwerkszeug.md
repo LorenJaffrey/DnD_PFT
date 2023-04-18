@@ -14,3 +14,9 @@
 
 ## Kochutensilien
 #TODO 
+
+## Diebeswerkzeug
+#TODO 
+
+## Kartographenwerkzeug
+#TODO 
