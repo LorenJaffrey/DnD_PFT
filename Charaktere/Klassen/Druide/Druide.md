@@ -29,9 +29,9 @@ aliases: Druiden
 |  20   | [[Klassenmerkmale Druide#Erzdruide]]                                                                                    |      4       |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
 
 ## Trefferpunkte
-[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1 #W8 pro Stufe
+[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1W8 pro Stufe
 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1 #W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
 
 ## Übung
 Rüstungen:

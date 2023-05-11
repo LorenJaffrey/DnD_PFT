@@ -48,7 +48,7 @@ Wenn Schaden die [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] einer Kreatu
 Die Bewusstlosigkeit endet wenn [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] regeneriert wurden.
 
 ### Todesrettungswurf
-Zu Beginn jedes Zuges mit 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] muss ein Todesrettungswurf mit einem #W20 durchgeführt werden.
+Zu Beginn jedes Zuges mit 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] muss ein Todesrettungswurf mit einem W20 durchgeführt werden.
 Ein Ergebnis von 10 oder höher gilt als Erfolg, unter 10 als Misserfolg. Ein Ergebnis von 1 gilt als zwei Misserfolge. Ein Ergebnis von 20 regeneriert automatisch einen Trefferpunkt.
 Wenn 3 Misserfolge erreicht werden stirbt die Kreatur.
 Bei 3 Erfolgen wird die Kreatur stabilisiert.
@@ -58,10 +58,10 @@ Schaden bei 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] zählt als ein 
 Ein [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] zählt als zwei Misserfolge.
 
 ### Stabilisieren
-Eine Kreatur kann von einer anderen stabilisiert werden. Dies kosten eine [[Aktionen|Aktion]] und erfordert einen [[Weisheit|Weisheitswurf]] ([[Heilkunde]]).
+Eine Kreatur kann von einer anderen stabilisiert werden. Dies kosten eine [[Zug#Aktion]] und erfordert einen [[Weisheit|Weisheitswurf]] ([[Heilkunde]]).
 Eine stabiliserte Kreatur bleibt bewusstlos, aber führt keinen [[Schaden und Heilung#Todesrettungswurf]] mehr durch.
 Wenn eine stabiliserte Kreatur Schaden erleidet muss sie wieder Todesrettungswürfe durchführen.
-Eine stabile Kreatur regeneriert nach #W4 Stunden 1 Trefferpunkt.
+Eine stabile Kreatur regeneriert nach 1W4 Stunden 1 Trefferpunkt.
 
 ## Monster und Tod
 Monster sterben automatisch wenn sie 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] erreichen.

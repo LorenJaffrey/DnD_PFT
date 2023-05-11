@@ -6,33 +6,33 @@ aliases: Barbaren
 ```
 
 ## Klassentabelle
-| Stufe | Anzahl Kampfräusche | Kampfrausch Schaden | Merkmale                                                                                      |
-|:-----:|:-------------------:|:-------------------:| --------------------------------------------------------------------------------------------- |
-|   1   |          2          |         +2          | [[Klassenmerkmale Barbar#Kampfrausch]], [[Klassenmerkmale Barbar#Ungerüstete Verteidigung]]   |
-|   2   |          2          |         +2          | [[Klassenmerkmale Barbar#Rücksichtsloser Angriff]], [[Klassenmerkmale Barbar#Gefahrengespür]] |
-|   3   |          3          |         +2          | [[Subklassen Barbar\|Urtümlicher Pfad]], [[Klassenmerkmale Barbar#Urwissen]]                 |
-|   4   |          3          |         +2          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                 |
-|   5   |          3          |         +2          | [[Klassenmerkmale#Zusätzlicher Angriff]], [[Klassenmerkmale Barbar#Schnelle Bewegung]]        |
-|   6   |          4          |         +2          | Pfadmerkmal                                                                                   |
-|   7   |          4          |         +2          | [[Klassenmerkmale Barbar#Wilder Instinkt]], [[Klassenmerkmale Barbar#Instinktiver Sprung]]    |
-|   8   |          4          |         +2          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                 |
-|   9   |          4          |         +3          | [[Klassenmerkmale Barbar#Brutale Kritische Treffer]] (1 Würfel)                               |
-|  10   |          4          |         +3          | Pfadmerkmal                                                                                   |
-|  11   |          4          |         +3          | [[Klassenmerkmale Barbar#Unerbittlicher Kampfrausch]]                                         |
-|  12   |          5          |         +3          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                 |
-|  13   |          5          |         +3          | [[Klassenmerkmale Barbar#Brutale Kritische Treffer]] (2 Würfel)                               |
-|  14   |          5          |         +3          | Pfadmerkmal                                                                                   |
-|  15   |          5          |         +3          | [[Klassenmerkmale Barbar#Anhaltender Kampfrausch]]                                            |
-|  16   |          5          |         +4          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                 |
-|  17   |          6          |         +4          | [[Klassenmerkmale Barbar#Brutale Kritische Treffer]] (3 Würfel)                               |
-|  18   |          6          |         +4          | [[Klassenmerkmale Barbar#Unbändige Stärke]]                                                   |
-|  19   |          6          |         +4          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                 |
-|  20   |     unbegrenzt      |         +4          | [[Klassenmerkmale Barbar#Meister der Wildnis]]                                                |
+| Stufe | Anzahl Kampfräusche | Kampfrausch Schaden | Merkmale                                                                                                    |
+|:-----:|:-------------------:|:-------------------:| ----------------------------------------------------------------------------------------------------------- |
+|   1   |          2          |         +2          | [[Klassenmerkmale Barbar#Kampfrausch]], [[Klassenmerkmale Barbar#Ungerüstete Verteidigung]]                 |
+|   2   |          2          |         +2          | [[Klassenmerkmale Barbar#Rücksichtsloser Angriff]], [[Klassenmerkmale Barbar#Gefahrengespür]]               |
+|   3   |          3          |         +2          | [[Subklassen Barbar|Urtümlicher Pfad]], [[Klassenmerkmale Barbar#Urwissen]] |
+|   4   |          3          |         +2          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                          |
+|   5   |          3          |         +2          | [[Klassenmerkmale#Zusätzlicher Angriff]], [[Klassenmerkmale Barbar#Schnelle Bewegung]]                      |
+|   6   |          4          |         +2          | Pfadmerkmal                                                                                                 |
+|   7   |          4          |         +2          | [[Klassenmerkmale Barbar#Wilder Instinkt]], [[Klassenmerkmale Barbar#Instinktiver Sprung]]                  |
+|   8   |          4          |         +2          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                          |
+|   9   |          4          |         +3          | [[Klassenmerkmale Barbar#Brutale Kritische Treffer]] (1 Würfel)                                             |
+|  10   |          4          |         +3          | Pfadmerkmal                                                                                                 |
+|  11   |          4          |         +3          | [[Klassenmerkmale Barbar#Unerbittlicher Kampfrausch]]                                                       |
+|  12   |          5          |         +3          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                          |
+|  13   |          5          |         +3          | [[Klassenmerkmale Barbar#Brutale Kritische Treffer]] (2 Würfel)                                             |
+|  14   |          5          |         +3          | Pfadmerkmal                                                                                                 |
+|  15   |          5          |         +3          | [[Klassenmerkmale Barbar#Anhaltender Kampfrausch]]                                                          |
+|  16   |          5          |         +4          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                          |
+|  17   |          6          |         +4          | [[Klassenmerkmale Barbar#Brutale Kritische Treffer]] (3 Würfel)                                             |
+|  18   |          6          |         +4          | [[Klassenmerkmale Barbar#Unbändige Stärke]]                                                                 |
+|  19   |          6          |         +4          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                          |
+|  20   |     unbegrenzt      |         +4          | [[Klassenmerkmale Barbar#Meister der Wildnis]]                                                              |
 
 ## Trefferpunkte
-[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1 #W12 pro Stufe
+[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1W12 pro Stufe
 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf Stufe 1: 12 + [[Konstitution#Konstitutionsmodifikator]]
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1 #W12 (min. 7) + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1W12 (min. 7) + [[Konstitution#Konstitutionsmodifikator]]
 
 ## Übung
 ### Rüstungen

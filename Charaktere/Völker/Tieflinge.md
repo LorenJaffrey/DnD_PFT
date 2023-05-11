@@ -55,7 +55,7 @@ Tieflinge sind etwa so groß wie Menschen und ähnlich gebaut.
 
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 143 cm     | 5 #W8 cm          | 110 Pfund    | 2 #W4 Pfund         |
+| 143 cm     | 5W8 cm            | 110 Pfund    | 2W4 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

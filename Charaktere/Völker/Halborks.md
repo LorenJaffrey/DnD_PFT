@@ -47,9 +47,9 @@ Ihre Lebenserwartung ist jedoch auch deutliche geringer, selten werden sie älte
 Halborks sind etwas größer und stämmiger als Menschen und reichen von 150 cm bis bis weit über 180 cm hinaus
 [[Größenkategorie]]: mittel
 
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 145 cm     | 5 #W10 cm         | 140 Pfund    | 2 #W6 Pfund         |
+| Grundgröße | Größenmodifikator | Grundgewicht | Gewichsmodifikator |
+| ---------- | ----------------- | ------------ | ------------------ |
+| 145 cm     | 5W10 cm           | 140 Pfund    | 2W6 Pfund          |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

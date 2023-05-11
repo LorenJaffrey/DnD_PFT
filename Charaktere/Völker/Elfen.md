@@ -83,7 +83,7 @@ Elfen sind zwischen 150 cm und 180 cm groß und eher schlank gebaut.
 [[Größenkategorie]]: mittel
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 135 cm     | 2 #W10 x 2,5 cm   | 90 Pfund     | 1 #W4 Pfund         |
+| 135 cm     | 2W10 x 2,5 cm   | 90 Pfund     | 1W4 Pfund         |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
@@ -123,7 +123,7 @@ Elfen sind zwischen 150 cm und 180 cm groß und eher schlank gebaut.
 [[Größenkategorie]]: mittel
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 135 cm     | 2 #W10 x 2,5 cm   | 100 Pfund    | 1 #W4 Pfund         |
+| 135 cm     | 2W10 x 2,5 cm     | 100 Pfund    | 1W4 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
@@ -163,7 +163,7 @@ Elfen sind zwischen 150 cm und 180 cm groß und eher schlank gebaut.
 [[Größenkategorie]]: mittel
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 132 cm     | 2 #W6 x 2,5 cm   | 75 Pfund    | 1 #W6 Pfund         |
+| 132 cm     | 2W6 x 2,5 cm      | 75 Pfund     | 1W6 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

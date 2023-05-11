@@ -73,7 +73,7 @@ Zwerge sind zwischen 120 cm und 150 cm groß und wiegen meist um die 150 Pfund.
 [[Größenkategorie]]: mittel
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 120 cm     | 2 #W4 x 2,5 cm    | 130 Pfund    | 2 #W6 Pfund         |
+| 120 cm     | 2W4 x 2,5 cm      | 130 Pfund    | 2W6 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
@@ -109,7 +109,7 @@ Im Durchschnitt erreichen sie ein Alter von 350 Jahren.
 [[Größenkategorie]]: mittel
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 110 cm     | 2 #W4 x 2,5 cm    | 115 Pfund    | 2 #W6 Pfund         |
+| 110 cm     | 2W4 x 2,5 cm      | 115 Pfund    | 2W6 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

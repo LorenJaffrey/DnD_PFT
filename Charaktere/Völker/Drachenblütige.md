@@ -56,7 +56,7 @@ Drachenblütige sind mit ihren über 180 cm und etwa 250 Pfund weit größer und
 
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 165 cm     | 2 #W8 x 2,5 cm   | 175 Pfund    | 2 #W6 Pfund         |
+| 165 cm     | 2W8 x 2,5 cm      | 175 Pfund    | 2W6 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

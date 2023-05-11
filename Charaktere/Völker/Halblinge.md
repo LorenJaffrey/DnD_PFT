@@ -75,7 +75,7 @@ Im Mittel sind Halblinge etwa 90 cm groß und wiegen dabei um die 40 Pfund.
 [[Größenkategorie]]: klein
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 97 cm      | 2 #W4 x 2,5 cm    | 35 Pfund     | 1 Pfund             |
+| 97 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
 
 Größe = Grundgröße + Größenmodifikator  
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
@@ -109,7 +109,7 @@ Im Mittel sind Halblinge etwa 90 cm groß und wiegen dabei um die 40 Pfund.
 [[Größenkategorie]]: klein
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 97 cm      | 2 #W4 x 2,5 cm    | 35 Pfund     | 1 Pfund             |
+| 97 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
 
 Größe = Grundgröße + Größenmodifikator  
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

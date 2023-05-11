@@ -125,7 +125,7 @@ Körperbau und Wuchs der Menschen schwanken stark, sie werden von akum 150 cm bi
 [[Größenkategorie]]: mittel
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 140 cm     | 2 #W10 x 2,5 cm    | 110 Pfund    | 2 #W4 Pfund         |
+| 140 cm     | 2W10 x 2,5 cm     | 110 Pfund    | 2W4 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

@@ -44,7 +44,7 @@ Halbelfen sind etwa so groß wie Menschen, also zwischen 150 cm und 180 cm.
 
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 143 cm     | 2 #W8 x 2,5 cm    | 110 Pfund    | 2 #W4 Pfund         |
+| 143 cm     | 2W8 x 2,5 cm      | 110 Pfund    | 2W4 Pfund           |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

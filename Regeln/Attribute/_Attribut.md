@@ -7,8 +7,8 @@ aliases: Attributswürfe, Attributswurf, Attribute, Attribut, Attributswürfen
 | -------------------- |:---:|:-----:|:-----:|:-----:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:---:|
 | Attributsmodifikator | -5  |  -4   |  -3   |  -2   |  -1   |   +0    |   +1    |   +2    |   +3    |   +4    |   +5    |   +6    |   +7    |   +8    |   +9    | +10 |
 
-Wird fällig wenn eine [[Aktionen|Aktion]] ausgeführt wird bei der die Möglichkeit des Scheiterns besteht.
-#W20 + [[_Attribut|Attributsmodifikator]] +/- Bonus/Malus
+Wird fällig wenn eine [[Aktion]] ausgeführt wird bei der die Möglichkeit des Scheiterns besteht.
+W20 + [[_Attribut|Attributsmodifikator]] +/- Bonus/Malus
 
 ## Attribute
 - [[Stärke]]
@@ -30,5 +30,5 @@ Ein Charakter darf nur bei Tätigkeiten helfen die er auch alleine ausführen k�
 Ein Charakter darf nur bei Tätigkeiten helfen bei denen dies auch Sinn macht.
 
 ### Gruppenwürfe
-Versuchen mehrere #SC zusammen etwas zu vollbringen (z.B. zusammen einen Fels wegschieben) wird ein Gruppenwurf fällig.
-Jeder #SC wirft einen #W20. Sind mindestens 50% der Würfe erfolgreich gilt der Gruppenwurf als erfolgreich. Ansonsten versagt die ganze Gruppe.
+Versuchen mehrere Spieler zusammen etwas zu vollbringen (z.B. zusammen einen Fels wegschieben) wird ein Gruppenwurf fällig.
+Jeder Spieler wirft einen W20. Sind mindestens 50% der Würfe erfolgreich gilt der Gruppenwurf als erfolgreich. Ansonsten versagt die ganze Gruppe.

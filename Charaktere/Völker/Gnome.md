@@ -66,7 +66,7 @@ Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
 [[Größenkategorie]]: klein
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 87 cm     | 2 #W4 x 2,5 cm    | 35 Pfund    | 1 Pfund         |
+| 87 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
@@ -100,7 +100,7 @@ Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
 [[Größenkategorie]]: klein
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
-| 87 cm     | 2 #W4 x 2,5 cm    | 35 Pfund    | 1 Pfund         |
+| 87 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
 
 Größe = Grundgröße + Größenmodifikator
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator

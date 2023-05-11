@@ -7,31 +7,31 @@ aliases: Schurken
 ## Klassentabelle
 | Stufe | Hinterhältiger Angriff | Merkmale                                                                                                                             |
 |:-----:|:----------------------:| ------------------------------------------------------------------------------------------------------------------------------------ |
-|   1   |         1 #W6          | [[Klassenmerkmale Schurke#Expertise]], [[Klassenmerkmale Schurke#Hinterhältiger Angriff]], [[Klassenmerkmale Schurke#Diebessprache]] |
-|   2   |         1 #W6          | [[Klassenmerkmale Schurke#Raffinierte Aktion]]                                                                                       |
-|   3   |         2 #W6          | [[Subklassen Schurke\|Schurkenarchetyp]]                                                                                             |
-|   4   |         2 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
-|   5   |         3 #W6          | [[Klassenmerkmale Schurke#Unglaubliches Ausweichen]]                                                                                 |
-|   6   |         3 #W6          | [[Klassenmerkmale Schurke#Expertise]]                                                                                                |
-|   7   |         4 #W6          | [[Klassenmerkmale Schurke#Entrinnen]]                                                                                                |
-|   8   |         4 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
-|   9   |         5 #W6          | Merkmal Schurkenarchetyp                                                                                                             |
-|  10   |         5 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
-|  11   |         6 #W6          | [[Klassenmerkmale Schurke#Verlässliches Talent]]                                                                                     |
-|  12   |         6 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
-|  13   |         7 #W6          | Merkmal Schurkenarchetyp                                                                                                             |
-|  14   |         7 #W6          | [[Klassenmerkmale Schurke#Blindgespür]]                                                                                              |
-|  15   |         8 #W6          | [[Klassenmerkmale Schurke#Entschlüpfender Geist]]                                                                                    |
-|  16   |         8 #W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
-|  17   |         9 #W6          | Merkmal Schurkenarchetyp                                                                                                             |
-|  18   |         9 #W6          | [[Klassenmerkmale Schurke#Schwer zu Fassen]]                                                                                         |
-|  19   |         10 #W6         | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
-|  20   |         10 #W6         | [[Klassenmerkmale Schurke#Glückstreffer]]                                                                                            |
+|   1   |         1W6          | [[Klassenmerkmale Schurke#Expertise]], [[Klassenmerkmale Schurke#Hinterhältiger Angriff]], [[Klassenmerkmale Schurke#Diebessprache]] |
+|   2   |         1W6          | [[Klassenmerkmale Schurke#Raffinierte Aktion]]                                                                                       |
+|   3   |         2W6          | [[_Subklassen Schurke#Schurkenarchetypen]], [[Klassenmerkmale Schurke#Zielsicher]]                                                                                             |
+|   4   |         2W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|   5   |         3W6          | [[Klassenmerkmale Schurke#Unglaubliches Ausweichen]]                                                                                 |
+|   6   |         3W6          | [[Klassenmerkmale Schurke#Expertise]]                                                                                                |
+|   7   |         4W6          | [[Klassenmerkmale Schurke#Entrinnen]]                                                                                                |
+|   8   |         4W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|   9   |         5W6          | Merkmal Schurkenarchetyp                                                                                                             |
+|  10   |         5W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  11   |         6W6          | [[Klassenmerkmale Schurke#Verlässliches Talent]]                                                                                     |
+|  12   |         6W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  13   |         7W6          | Merkmal Schurkenarchetyp                                                                                                             |
+|  14   |         7W6          | [[Klassenmerkmale Schurke#Blindgespür]]                                                                                              |
+|  15   |         8W6          | [[Klassenmerkmale Schurke#Entschlüpfender Geist]]                                                                                    |
+|  16   |         8W6          | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  17   |         9W6          | Merkmal Schurkenarchetyp                                                                                                             |
+|  18   |         9W6          | [[Klassenmerkmale Schurke#Schwer zu Fassen]]                                                                                         |
+|  19   |         10W6         | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]]                                                                   |
+|  20   |         10W6         | [[Klassenmerkmale Schurke#Glückstreffer]]                                                                                            |
 
 ## Trefferpunkte
-[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1 #W8 pro Stufe
+[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1W8 pro Stufe
 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1 #W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
 
 ## Übung
 ### Rüstungen
