@@ -1,5 +1,5 @@
 ## Inspiration erhalten
-Kann vom #SL verliehen werden wenn ein Spieler besonders im Einklang mit seinem Charakter handelt. 
+Kann vom #GM  verliehen werden wenn ein Spieler besonders im Einklang mit seinem Charakter handelt. 
 Das gilt vor allem wenn der Spieler die [[Persönliche Charakteristika]] Bindungen und Makel ausspielt.
 Kann nur einmal gleichzeitig erhalten werden. Das heißt ein Spieler verfügt über Inspiration oder nicht.
 

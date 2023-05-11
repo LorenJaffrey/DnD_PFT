@@ -45,15 +45,15 @@ Bei Landung in schwierigem Gelände wird erfolgreicher [[Geschicklichkeit|Geschi
 #### Hochsprung
 Maximale Höhe = [[Stärke#Stärkemodifikator]] x 0,3m (min. 3 Meter Anlauf); [[Stärke#Stärkemodifikator]] x 0,15m (ohne Anlauf)
 Jeder gesprungene Meter kostet einen Meter [[Bewegung#Bewegungsrate]] .
-Unter Umständen kann der #SL einen [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) erlauben um höher zu springen.
+Unter Umständen kann der #GM einen [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) erlauben um höher zu springen.
 Arme nach oben strecken um zu greifen ermöglicht maximale Reichweite = Sprunghöhe + 1,5 x Körpergröße
 
 ### Fliegen 
 Wenn fliegende Kreatur zu Boden gestoßen, [[Bewegung#Bewegungsrate]] auf  reduziert, oder auf andere Weise bewegungsunfähig gemacht wird stürzt sie ab
-Wird nur verhindert wenn Kreatur #Schweben kann oder durch Magie in der Luft gehalten wird.
+Wird nur verhindert wenn Kreatur Schweben kann oder durch Magie in der Luft gehalten wird.
 
 ## Stürze
-Kreaturen erleiden 1 #W6 #Schaden/Wucht pro 3 m Fallhöhe (max 2 #W6).
+Kreaturen erleiden 1W6 #Schaden/Wucht pro 3 m Fallhöhe (max 2W6).
 Kreatur erhält Zustand liegend wenn, außer sie erleidet keinen Fallschaden.
 
 ## Schwieriges Gelände

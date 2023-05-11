@@ -28,5 +28,5 @@
 - wie steht er sich selbst oder der Gruppe im Weg?
 
 ## Effekt im Spiel
-- Ausspielen der Persönlichkeit kann vom #SL mit [[Inspiration]] belohnt werden
+- Ausspielen der Persönlichkeit kann vom #GM mit [[Inspiration]] belohnt werden
 - [[Inspiration]] kann eingesetzt werden um Persönlichkeit zu unterdrücken  #experimentell
