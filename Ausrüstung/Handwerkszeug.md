@@ -20,3 +20,6 @@
 
 ## Kartographenwerkzeug
 #TODO 
+
+## Verkleidungsausrüstung
+#TODO
