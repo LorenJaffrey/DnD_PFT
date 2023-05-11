@@ -12,7 +12,7 @@
 - kennt zu Beginn 2 [[Zaubertricks]] (weitere siehe [[Druide#Klassentabelle]])
 - ![[Zauber wirken#Vorbereitete Zauber]]
 - Attribut zum Zauberwirken ist [[Weisheit]]
-- kann einen #Ausrüstung/Druidischen_Fokus als #Zauberfokus verwenden
+- kann einen #Ausrüstung/Druidischer_Fokus als #Ausrüstung/Zauberfokus verwenden
 - alle [[Zauber wirken#Zauberplätze]] werden durch eine [[Rasten#Lange Rast]] regeneriert
 
 >[!info]
@@ -20,13 +20,13 @@
 >**Modifikator für Zauberangriffe** = [[Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
 
 ## Tiergestalt
-- kann [[Aktionen|Aktion]] einsetzen um Gestalt eines beliebigen Tieres anzunehmen das er bereits gesehen hat
+- kann [[Zug#Aktion]] einsetzen um Gestalt eines beliebigen Tieres anzunehmen das er bereits gesehen hat
 	- darf maximal [[Herausforderungsgrad]] 1/4 haben 
 	- darf keine Flug- oder Schwimmbewegung haben
 - kann zweimal einegesetzt werden (wir durch [[Rasten#Kurze Rast]] oder [[Rasten#Lange Rast]] regeneriert)
 
 ## Wilder Gefährte
-- kann [[Aktionen|Aktion]] einsetzen um den Zauber [[Zauber#Vertrauten finden]] zu wirken
+- kann [[Zug#Aktion]] einsetzen um den Zauber [[Zauber#Vertrauten finden]] zu wirken
 	- verbraucht eine Ladung von [[Klassenmerkmale Druide#Tiergestalt]]
 	- benötigt keine [[Zauber wirken#Material (M)]] Komponenten
 	- statt eines Tieres erscheint ein Feenwesen

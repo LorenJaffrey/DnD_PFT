@@ -86,13 +86,13 @@ aliases: Talent
 Dank deines ausgiebigen Trainings mit der [[Waffen#Armbrust]] erhältst du folgende Vorzüge:
 - Du ignorierst  die Waffeneigenschaft [[Waffeneigenschaften#Laden]] bei [[Waffen#Armbrust]], mit denen du [[Übung]] hast.  
 - Du bist nicht im [[Vorteil und Nachteil#Nachteil]] bei [[Fernkampfangriff|Fernkampfangriffen]], die du innerhalb von 1,50 m zu einer feindlichen Kreatur ausführst.
-- ﻿﻿Wenn du deinen [[Aktionen|Aktion]] für einen Angriff mit einer einhändigen [[Waffen|Waffe]] nutzt, kannst du deine [[Zug#Bonusaktion]] aufwenden, um mit einer [[Waffen#Handarmbrust]] anzugreifen, die du hältst.
+- ﻿﻿Wenn du deinen [[Zug#Aktion]] für einen Angriff mit einer einhändigen [[Waffen|Waffe]] nutzt, kannst du deine [[Zug#Bonusaktion]] aufwenden, um mit einer [[Waffen#Handarmbrust]] anzugreifen, die du hältst.
 
 ### Artifizientenlehrling
 Du hast etwas vom Erfindungsreichtum eines [[Magieschmied]] gelernt:
 - ﻿﻿Du lernst einen [[Zauber nach Grad#Zaubertricks]] und einen [[Zauber nach Grad#Zauber des 1. Grades]] deiner Wahl aus der Zauberliste des [[Magieschmied]]. Dein Attribut zum Zauberwirken ist dabei deine [[Intelligenz]].
 - ﻿﻿Du kannst den [[Zauber nach Grad#Zauber des 1. Grades]] ohne [[Zauber wirken#Zauberplätze]] wirken und kannst ihn erst nach einer [[Rasten#Lange Rast]] auf diese Weise erneut wirken. Du kannst den Zauber auch mit einem beliebigen verfügbaren [[Zauber wirken#Zauberplätze]] wirken.
-- Du hast [[Übung]] im Umgang mit einem [[Handwerkszeug]] deiner Wahl und kannst dieses [[Handwerkszeug]] als #Zauberfokus für Zauber verwenden, die du mit [[Intelligenz]] als Attribut zum [[Zauber wirken]] wirkst.
+- Du hast [[Übung]] im Umgang mit einem [[Handwerkszeug]] deiner Wahl und kannst dieses [[Handwerkszeug]] als #Ausrüstung/Zauberfokus für Zauber verwenden, die du mit [[Intelligenz]] als Attribut zum [[Zauber wirken]] wirkst.
 
 ### Athlet
 Du hast dich ausgiebigem körperlichen Training unterworfen und erhältst die folgenden Vorzüge:
@@ -142,7 +142,7 @@ Wenn jemand deinen Zorn erregt, kannst du eine bedrohliche Aura ausstrahlen. Du 
 Dir wachsen Schuppen und Klauen, ähnlich wie die deiner drakonischen Vorfahren. Du erhältst die folgenden Vorzüge:
 - Erhöhe [[Stärke]], [[Konstitution]] oder [[Charisma]] um 1, bis zu einem maximalen Wert von 20.
 - Deine Schuppen verhärten sich. Wenn du keine [[Rüstung]] trägst, beträgt deine [[Rüstung#Rüstungsklasse]] 13 +  [[Geschicklichkeit#Geschicklichkeitsmodifikator]]. Du kannst einen [[Rüstung#Schild]] nutzen und dennoch diesen Vorzug erhalten.
-- Aus den Spitzen deiner Finger wachsen Klauen, die sich einziehen und ausfahren lassen. Die Klauen auszufahren oder einzuziehen, erfordert keine [[Aktionen|Aktion]]. Die Klauen sind natürliche Waffen, mit denen du [[Nahkampfangriff#Waffenloser Schlag]] ausführen kannst. Wenn du mit ihnen triffst, fügst du #Schaden/Hieb  in Höhe von 1 #W4 + dein [[Stärke#Stärkemodifikator]] zu, statt dem normalen #Schaden/Wucht  eines [[Nahkampfangriff#Waffenloser Schlag]].
+- Aus den Spitzen deiner Finger wachsen Klauen, die sich einziehen und ausfahren lassen. Die Klauen auszufahren oder einzuziehen, erfordert keine [[Zug#Aktion]]. Die Klauen sind natürliche Waffen, mit denen du [[Nahkampfangriff#Waffenloser Schlag]] ausführen kannst. Wenn du mit ihnen triffst, fügst du #Schaden/Hieb  in Höhe von 1W4 + dein [[Stärke#Stärkemodifikator]] zu, statt dem normalen #Schaden/Wucht  eines [[Nahkampfangriff#Waffenloser Schlag]].
 
 ### Eingeweihter der Magie
 Wähle eine Klasse: [[Barde]], [[Druide]], [[Kleriker]], [[Magier]], [[Hexenmeister]] oder [[Zauberer]]. Du lernst aus der Spruchliste der entsprechenden Klasse zwei beliebige [[Zauber nach Grad#Zaubertricks]] sowie einen [[Zauber nach Grad#Zauber des 1. Grades]] deiner Wahl.
@@ -179,7 +179,7 @@ Du hast deine [[Übung]] mit bestimmten [[_Fertigkeiten|Fertigkeiten]] optimiert
 Du lernst, Höllenfeuer heraufzubeschwören und es zu kontrollieren. Du erhältst die folgenden Vorzüge:
 - Erhöhe [[Intelligenz]] oder [[Charisma]] um 1, bis zu einem Maximalwert von 20.
 - Wenn du für einen von dir gewirkten [[Zauber]] #Schaden/Feuer auswürfelst, kannst du jede 1 auf den Schadenswürfeln erneut würfeln, musst das neue Ergebnis aber verwenden, selbst wenn es sich wieder um eine 1 handelt.
-- Immer, wenn du einen [[Zauber]] wirkst, der #Schaden/Feuer zufügt, kannst du dich bis zum Ende deines nächsten Zuges von Flammen umhüllen lassen. Die Flammen fügen dir oder deinen Besitztümern keinen Schaden zu, geben in einem Radius von 9 m [[Sicht#Helles Licht]] ab und für weitere 9 m [[Sicht#Dämmriges Licht]]. Solange die Flammen dich umhüllen, erleidet jede Kreatur innerhalb von 1,50 m um dich, die einen [[Nahkampfangriff]] gegen dich durchführt, 1 #W4 #Schaden/Feuer.
+- Immer, wenn du einen [[Zauber]] wirkst, der #Schaden/Feuer zufügt, kannst du dich bis zum Ende deines nächsten Zuges von Flammen umhüllen lassen. Die Flammen fügen dir oder deinen Besitztümern keinen Schaden zu, geben in einem Radius von 9 m [[Sicht#Helles Licht]] ab und für weitere 9 m [[Sicht#Dämmriges Licht]]. Solange die Flammen dich umhüllen, erleidet jede Kreatur innerhalb von 1,50 m um dich, die einen [[Nahkampfangriff]] gegen dich durchführt, 1W4 #Schaden/Feuer.
 
 ### Gewölbeforscher
 Du bist versiert im Aufspüren von versteckten Fallen und Geheimtüren, die man in vielen Gewölben findet, und genießt folgende Vorzüge:
@@ -192,7 +192,7 @@ Du bist versiert im Aufspüren von versteckten Fallen und Geheimtüren, die man 
 Du kannst tödliche Gifte zubereiten und anwenden und erhältst folgende Vorzüge:
 - Wenn du einen [[Schaden und Heilung#Schadenswurf]] ausführst, der #Schaden/Gift verursacht, wird eine etwaige [[Schaden und Heilung#Schadensresistenz]] gegen #Schaden/Gift ignoriert.
 - Du benötigst zum Vergiften einer #Waffe oder eines Geschosses nur eine [[Zug#Bonusaktion]], keine vollständige [[Zug#Aktionen Aktion]].
-- Du hast [[Übung]] im Umgang mit der [[Handwerkszeug#Giftmischerausrüstung]], wenn du es noch nicht sein solltest. Mit einer Stunde Arbeit mit der [[Handwerkszeug#Giftmischerausrüstung]] und Materialien im Wert von 50 #GM kannst du eine Anzahl von Dosen #starkes_Gift herstellen, die deinem [[Übung|Übungsbonus]] entspricht. Sobald das Gift auf eine [[Waffen|Waffe]] oder ein Geschoss aufgetragen wurde, behält es seine Wirksamkeit eine Minute lang oder bis du mit der [[Waffen|Waffe]] oder dem Geschoss triffst. Wenn eine Kreatur #Schaden nach einem Angriff mit dieser [[Waffen|Waffe]] beziehungsweise dem Geschoss Schaden erleidet, muss sie einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad]] 14 ausführen. Misslingt dieser, erleidet sie 2 #W8 #Schaden/Gift und ist bis zum Ende deines nächsten Zugs [[Zustände#Vergiftet]].
+- Du hast [[Übung]] im Umgang mit der [[Handwerkszeug#Giftmischerausrüstung]], wenn du es noch nicht sein solltest. Mit einer Stunde Arbeit mit der [[Handwerkszeug#Giftmischerausrüstung]] und Materialien im Wert von 50 GM kannst du eine Anzahl von Dosen starkes Gift herstellen, die deinem [[Übung|Übungsbonus]] entspricht. Sobald das Gift auf eine [[Waffen|Waffe]] oder ein Geschoss aufgetragen wurde, behält es seine Wirksamkeit eine Minute lang oder bis du mit der [[Waffen|Waffe]] oder dem Geschoss triffst. Wenn eine Kreatur #Schaden nach einem Angriff mit dieser [[Waffen|Waffe]] beziehungsweise dem Geschoss Schaden erleidet, muss sie einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad]] 14 ausführen. Misslingt dieser, erleidet sie 2W8 #Schaden/Gift und ist bis zum Ende deines nächsten Zugs [[Zustände#Vergiftet]].
 
 ### Glückspilz
 Du hast ausgesprochenes Glück, und das immer im richtigen Moment. Mit diesem Talent verfügst du über drei Glückspunkte.
@@ -210,7 +210,7 @@ Du weißt genau, wohin du schlagen musst, um den größten Schaden zuzufügen, w
 ### Heiler
 Du bist ein fähiger Mediziner, was dir erlaubt, Wunden rasch zu behandeln und deine Verbündeten schnell wieder kampfbereit zu machen. Du erhältst folgende Vorzüge:
 - Wenn du eine [[Handwerkszeug#Heilerausrüstung]] einsetzt, um eine sterbende Kreatur zu [[Schaden und Heilung#Stabilisieren]], erhält sie zusätzlich 1 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] zurück.
-- Als [[Zug#Aktionen Aktion]] kannst du eine Anwendung der [[Handwerkszeug#Heilerausrüstung]] aufbrauchen, um eine Kreatur zu behandeln und bei ihr 1 #W6+4 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] wiederherzustellen + so viele [[Trefferpunkte und Trefferwürfel#Trefferpunkte]], wie es ihrer maximalen Anzahl an [[Trefferpunkte und Trefferwürfel#Trefferwürfel]] entspricht.
+- Als [[Zug#Aktionen Aktion]] kannst du eine Anwendung der [[Handwerkszeug#Heilerausrüstung]] aufbrauchen, um eine Kreatur zu behandeln und bei ihr 1 W6+4 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] wiederherzustellen + so viele [[Trefferpunkte und Trefferwürfel#Trefferpunkte]], wie es ihrer maximalen Anzahl an [[Trefferpunkte und Trefferwürfel#Trefferwürfel]] entspricht.
   Die Kreatur kann erst erneut mit diesem Talent geheilt werden, nachdem sie eine [[Rasten#Kurze Rast]] oder [[Rasten#Lange Rast]] beendet hat.
 
 ### Hohe Drowmagie
@@ -231,8 +231,8 @@ Wähle bis zu sechs verbündete Kreaturen (du darfst auch dich selbst bestimmen)
 
 ### Kämpferlehrling
 #Voraussetzung: [[Übung]] mit [[Waffen nach Kategorie#Kriegswaffen]]
-Dein Kampftraining hat dir dabei geholfen, einen ganz bestimmten #Kämpfer/Kampfstil zu entwickeln. Du kannst daher einen #Kämpfer/Kampfstil des [[Kämpfer]] wählen. Wenn du bereits einen besitzt, musst du einen anderen wählen.
-Wenn du mit dieser Klasse eine Stufe erreichst, die dir das Merkmal [[Klassenmerkmale#Attributswerterhöhung]] gewährt, kannst du einen dir bekannten #Kämpfer/Kampfstil durch einen anderen #Kämpfer/Kampfstil ersetzen, der [[Kämpfer]] zur Verfügung steht.
+Dein Kampftraining hat dir dabei geholfen, einen ganz bestimmten [[Klassenmerkmale Kämpfer#Kampfstil]] zu entwickeln. Du kannst daher einen [[Klassenmerkmale Kämpfer#Kampfstil]] des [[Kämpfer]] wählen. Wenn du bereits einen besitzt, musst du einen anderen wählen.
+Wenn du mit dieser Klasse eine Stufe erreichst, die dir das Merkmal [[Klassenmerkmale#Attributswerterhöhung]] gewährt, kannst du einen dir bekannten [[Klassenmerkmale Kämpfer#Kampfstil]] durch einen anderen [[Klassenmerkmale Kämpfer#Kampfstil]] ersetzen, der [[Kämpfer]] zur Verfügung steht.
 
 ### Kampferprobter Zauberwirker
 #Voraussetzung: [[Zauber wirken]]
@@ -245,14 +245,14 @@ Du hast trainiert, Zauber mitten im Kampf zu wirken, wodurch du Techniken erlern
 Du bist an Raufereien gewöhnt und fähig, mit allem zu kämpfen, was dir gerade in die Finger kommt. Du erhältst folgende Vorzüge:
 - Erhöhe deine [[Stärke]] oder [[Konstitution]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 - ﻿﻿Du hast [[Übung]] im Umgang mit improvisierten Waffen.
-- Deine waffenlosen Schläge verursachen 1 #W4 Schaden.  
+- Deine waffenlosen Schläge verursachen 1W4 Schaden.  
 - Wenn du eine Kreatur in deinem Zug mit einer improvisierten Waffe oder einem [[Nahkampfangriff#Waffenloser Schlag]] triffst, kannst du deine [[Zug#Bonusaktion]] für den Versuch verwenden, mit dem Ziel zu [[Nahkampfangriff#Ringen]].
 
 ### Косн
 Die Zeit, die du mit dem Erlernen der Kochkunst verbracht hast, hat sich ausgezahlt und dir folgende Vorzüge gewährt:
 - ﻿﻿Deine [[Konstitution]] oder [[Weisheit]] wird um 1 Punkt erhöht (auf maximal 20).
 - Du hast [[Übung]] im Umgang mit [[Handwerkszeug#Kochutensilien]], wenn du es noch nicht sein solltest.
-- Im Rahmen einer [[Rasten#Kurze Rast]] kannst du spezielle Speisen zubereiten, sofern du die Zutaten und Kochutensilien zur Hand hast. Du kannst Mahlzeiten für eine Gruppe von Kreaturen zubereiten, deren Anzahl 4 + deinem [[Übung|Übungsbonus]] entspricht. Wenn am Ende der [[Rasten#Kurze Rast]] eine Kreatur die Mahlzeit isst und mindestens einen [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] verbraucht, erhält sie 1 #W8 zusätzliche [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] zurück.
+- Im Rahmen einer [[Rasten#Kurze Rast]] kannst du spezielle Speisen zubereiten, sofern du die Zutaten und Kochutensilien zur Hand hast. Du kannst Mahlzeiten für eine Gruppe von Kreaturen zubereiten, deren Anzahl 4 + deinem [[Übung|Übungsbonus]] entspricht. Wenn am Ende der [[Rasten#Kurze Rast]] eine Kreatur die Mahlzeit isst und mindestens einen [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] verbraucht, erhält sie 1W8 zusätzliche [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] zurück.
 - ﻿﻿Mit einer Stunde Arbeit oder nach einer [[Rasten#Lange Rast]] kannst du eine Anzahl von Leckereien zubereiten, die deinem [[Übung|Übungsbonus]] entspricht. Diese Leckereien sind acht Stunden nach der Herstellung genießbar. Eine Kreatur kann mit einer [[Zug#Bonusaktion]] eine dieser Leckereien essen und erhält eine Anzahl von [[Trefferpunkte und Trefferwürfel#Temporäre Trefferpunkte]], die deinem [[Übung|Übungsbonus]] entspricht.
 
 ### Kurzbeinige Behändigkeit
@@ -266,7 +266,7 @@ Du bist ungewöhnlich wendig für einen Angehörigen deines Volkes. Du erhältst
 ### Leichtfüssig
 Du bist außergewöhnlich schnell und agil, was dir die folgenden Vorzüge verleiht:
 - ﻿﻿Deine [[Bewegung#Bewegungsrate]] erhöht sich um 3 m.
-- ﻿﻿Wenn du [[Aktionen#Spurt]] nutzt, kostet dich schwieriges Gelände in dieser Runde keine zusätzliche [[Bewegung#Bewegungsrate]].
+- ﻿﻿Wenn du [[Aktion#Spurt]] nutzt, kostet dich schwieriges Gelände in dieser Runde keine zusätzliche [[Bewegung#Bewegungsrate]].
 - ﻿﻿Führst du einen [[Nahkampfangriff]] gegen eine Kreatur aus, provozierst du für den Rest des Zuges von dieser keinen [[Nahkampfangriff#Gelegenheitsangriff]], ob du triffst oder nicht.
 
 ### Leicht gerüstet
@@ -288,8 +288,8 @@ Du hast Techniken erlernt, die im [[Nahkampfangriff|Nahkampf]] gegen Zauberwirke
 
 ### Meister der Kampfkunst
 Du hast ein intensives Kampftraining absolviert, das dir erlaubt, spezielle #Kämpfer/Kampfmanöver auszuführen. Du erhältst die folgenden Vorzüge:
-- Du lernst zwei #Kämpfer/Kampfmanöver ver deiner Wahl, die dem [[Kampfmeister]]-[[Subklassen Kämpfer|Kampfarchetypen]] dem [[Kämpfer]] zur Verfügung stehen. Wenn das #Kämpfer/Kampfmanöver, das du anwendest, vom Ziel einen [[Rettungswurf]] verlangt, um Effekten des Manövers zu widerstehen, ist der SG des [[Rettungswurf]] gleich 8 + deinem [[Übung|Übungsbonus]] + deinem [[Stärke#Stärkemodifikator]] oder [[Geschicklichkeit#Geschicklichkeitsmodifikator]] (deine Wahl).
-- Du erhältst einen #Kämpfer/Überlegenheitswürfel, der ein #W6 ist. Besitzt du bereits #Kämpfer/Überlegenheitswürfel, wird der W6 diesen hinzugefügt. Dieser Würfel wird verwendet, um deine Manöver zu verstärken und gilt nach der Anwendung als verbraucht. Alle verbrauchten #Kämpfer/Überlegenheitswürfel stehen dir nach Beenden einer [[Rasten#Kurze Rast]]oder [[Rasten#Lange Rast]] wieder zur Verfügung.
+- Du lernst zwei #Kämpfer/Kampfmanöver ver deiner Wahl, die dem [[Kampfmeister]]-[[_Subklassen Kämpfer|Kampfarchetypen]] dem [[Kämpfer]] zur Verfügung stehen. Wenn das #Kämpfer/Kampfmanöver, das du anwendest, vom Ziel einen [[Rettungswurf]] verlangt, um Effekten des Manövers zu widerstehen, ist der SG des [[Rettungswurf]] gleich 8 + deinem [[Übung|Übungsbonus]] + deinem [[Stärke#Stärkemodifikator]] oder [[Geschicklichkeit#Geschicklichkeitsmodifikator]] (deine Wahl).
+- Du erhältst einen #Kämpfer/Überlegenheitswürfel, der ein W6 ist. Besitzt du bereits #Kämpfer/Überlegenheitswürfel, wird der W6 diesen hinzugefügt. Dieser Würfel wird verwendet, um deine Manöver zu verstärken und gilt nach der Anwendung als verbraucht. Alle verbrauchten #Kämpfer/Überlegenheitswürfel stehen dir nach Beenden einer [[Rasten#Kurze Rast]]oder [[Rasten#Lange Rast]] wieder zur Verfügung.
 
 ### Meister der mittelschweren Rüstungen
 #Voraussetzung: [[Übung]] im Umgang mit [[Rüstung#Mittlere Rüstung]]
@@ -317,8 +317,8 @@ Du hast im Kampf eine besondere Präzision mit [[Waffen nach Kategorie#Stichwaff
 ### Metamagie-Adept
 #Voraussetzung: [[Zauber wirken]] oder [[Klassenmerkmale Hexenmeister#Paktmagie]]
 Du hast gelernt, die Funktionsweise deiner [[Zauber]] mit deiner [[Willenskraft]] zu verändern:
-- ﻿﻿Du beherrschst zwei #Metamagie-Optionen deiner Wahl des [[Zauberer]]. Du kannst nur eine #Metamagie-Option auf einen [[Zauber]] anwenden, wenn du ihn wirkst, sofern in der Beschreibung der Option nichts anderes angegeben ist. Wenn du eine Stufe erreichst, die dir das Merkmal [[Klassenmerkmale#Attributswerterhöhung]] gewährt, kannst du eine dir bekannte #Metamagie-Optionen durch eine andere ersetzen, die [[Zauberer]] zur Verfügung steht.
-- ﻿﻿Du erhältst zwei #Zaubereipunkte, die du für #Metamagie verbrauchen kannst. Diese Punkte werden zu deinen bereits aus anderen Quellen verfügbaren #Zaubereipunkte hinzugefügt, können aber nur für #Metamagie verwendet werden. Verbrauchte #Zaubereipunkte stehen dir nach einer [[Rasten#Lange Rast]]wieder zur Verfügung.
+- ﻿﻿Du beherrschst zwei Metamagie-Optionen deiner Wahl des [[Zauberer]]. Du kannst nur eine Metamagie-Option auf einen [[Zauber]] anwenden, wenn du ihn wirkst, sofern in der Beschreibung der Option nichts anderes angegeben ist. Wenn du eine Stufe erreichst, die dir das Merkmal [[Klassenmerkmale#Attributswerterhöhung]] gewährt, kannst du eine dir bekannte  Metamagie-Optionen durch eine andere ersetzen, die [[Zauberer]] zur Verfügung steht.
+- ﻿﻿Du erhältst zwei Zaubereipunkte, die du für Metamagie verbrauchen kannst. Diese Punkte werden zu deinen bereits aus anderen Quellen verfügbaren Zaubereipunkte hinzugefügt, können aber nur für Metamagie verwendet werden. Verbrauchte Zaubereipunkte stehen dir nach einer [[Rasten#Lange Rast]]wieder zur Verfügung.
 
 ### Mittelschwer gerüstet
 #Voraussetzung: [[Übung]] mit [[Rüstung#Leichte Rüstung]]
@@ -337,7 +337,7 @@ Dein innerer Zorn ist unbändig. Du erhältst die folgenden Vorzüge:
 #Voraussetzung: [[Stärke]] 13 oder höher
 Du hast dir beigebracht, dich im [[Nahkampfangriff#Ringen]] durchzusetzen, wodurch du die folgenden Vorzüge erhältst:
 - Du bist bei [[Angriff#Angriffswurf]] gegen Kreaturen im Vorteil, die du [[Zustände#Gepackt]] hast.
-- Du kannst deine [[Aktionen|Aktion]] dazu verwenden, eine Kreatur, die du [[Zustände#Gepackt]] hast, in den Zustand [[Zustände#Festgesetzt]] zu versetzen. Lege dazu einen zweiten [[Nahkampfangriff#Ringen]]-Wurf ab. Wenn dieser erfolgreich ist, erhaltet ihr beide den Zustand [[Zustände#Festgesetzt]], bis der Zustand [[Zustände#Gepackt]] endet.
+- Du kannst deine [[Zug#Aktion]] dazu verwenden, eine Kreatur, die du [[Zustände#Gepackt]] hast, in den Zustand [[Zustände#Festgesetzt]] zu versetzen. Lege dazu einen zweiten [[Nahkampfangriff#Ringen]]-Wurf ab. Wenn dieser erfolgreich ist, erhaltet ihr beide den Zustand [[Zustände#Festgesetzt]], bis der Zustand [[Zustände#Gepackt]] endet.
 
 ### Ritualwirker
 #Voraussetzung: [[Intelligenz]] oder [[Weisheit]] 13 oder höher
@@ -372,15 +372,15 @@ Da du äußerst bewandert in den Künsten der Nachahmung und der Darstellung bis
 
 ### Schildmeister
 Du hast gelernt, [[Rüstung#Schild]] nicht nur zur Verteidigung, sondern auch zum Angriff zu nutzen. Du erhältst die folgenden Vorzüge, solange du einen Schild führst:
-- ﻿﻿Wenn du in deinem Zug die Aktion [[Aktionen#Angriff]] wählst, kannst du deine [[Zug#Bonusaktion]] dazu verwenden, eine Kreatur innerhalb von 1,50 m mit deinem [[Rüstung#Schild]] zurückzustoßen.
+- ﻿﻿Wenn du in deinem Zug die Aktion [[Aktion#Angriff]] wählst, kannst du deine [[Zug#Bonusaktion]] dazu verwenden, eine Kreatur innerhalb von 1,50 m mit deinem [[Rüstung#Schild]] zurückzustoßen.
 - Solange du nicht [[Zustände#Kampfunfähig]] bist, kannst du den [[Rüstung#Rüstungsklasse]]-Bonus deines Schildes zu jedem [[Rettungswurf]] auf [[Geschicklichkeit]] addieren, den du aufgrund eines Zaubereffekts oder dem einer anderen schädlichen Quellen ablegen musst. Diese Effekte dürfen nur dich betreffen.
 - Wirst du von einem Effekt betroffen, der dir erlaubt, durch einen erfolgreichen [[Rettungswurf]]auf [[Geschicklichkeit]] nur den halben Schaden zu nehmen, kannst du deine [[Zug#Reaktion]] aufwenden, um bei einem gelungenen [[Rettungswurf]] keinen Schaden zu erleiden.
 
 ### Schleicher
 #Voraussetzung: [[Geschicklichkeit]] 13 oder höher
 Du bist ein Experte darin, durch die Schatten zu schleichen, und erhältst folgende Vorzüge:
-- ﻿﻿Du kannst versuchen [[Aktionen#Verstecken]] einzusetzen, auch wenn du nur leicht verschleiert bist.
-- ﻿﻿Wenn du [[Aktionen#Verstecken]] einsetzt und mit einem [[Fernkampfangriff]] verfehlst, offenbart der [[Angriff]] nicht deine Position.
+- ﻿﻿Du kannst versuchen [[Aktion#Verstecken]] einzusetzen, auch wenn du nur leicht verschleiert bist.
+- ﻿﻿Wenn du [[Aktion#Verstecken]] einsetzt und mit einem [[Fernkampfangriff]] verfehlst, offenbart der [[Angriff]] nicht deine Position.
 - ﻿﻿[[Sicht#Dämmriges Licht]] sorgt nicht dafür, dass du bei Würfen auf [[Weisheit#Wahrnehmung]] im [[Vorteil und Nachteil#Nachteil]] bist, wenn sie von [[Sicht]] abhängen.
 
 ### Schwer gepanzert
@@ -391,11 +391,11 @@ Du hast trainiert, in schweren Rüstungen zu kämpfen, und erhältst die folgend
 
 ### Stangenwaffenmeister
 Du bist versiert im Kampf mit [[Waffen nach Kategorie#Stangenwaffen]] und erhältst die folgenden Vorzüge:
-- Wenn du die Aktion [[Aktionen#Angriff]] wählst und nur mit [[Waffen nach Kategorie#Stangenwaffen]] angreifst, kannst du deine [[Zug#Bonusaktion]] aufwenden, um einen weiteren Angriff mit dem anderen Ende der Waffe auszuführen. Dieser Angriff verwendet denselben [[_Attribut#Attributsmodifikator]] wie der erste und verursacht 1 #W4 #Schaden/Wucht.
+- Wenn du die Aktion [[Aktion#Angriff]] wählst und nur mit [[Waffen nach Kategorie#Stangenwaffen]] angreifst, kannst du deine [[Zug#Bonusaktion]] aufwenden, um einen weiteren Angriff mit dem anderen Ende der Waffe auszuführen. Dieser Angriff verwendet denselben [[_Attribut#Attributsmodifikator]] wie der erste und verursacht 1W4 #Schaden/Wucht.
 - Solange du [[Waffen nach Kategorie#Stangenwaffen]] führst, provozieren andere Kreaturen einen [[Nahkampfangriff#Gelegenheitsangriff]] durch dich, wenn sie sich in Reichweite der Waffe begeben.
 
 ### Stürmer
-Wenn du deine [[Aktionen|Aktion]] verwendest, um [[Aktionen#Spurt]] einzusetzen, kannst du als [[Zug#Bonusaktion]] einen [[Nahkampfangriff]] ausführen oder eine Kreatur [[Nahkampfangriff#Stossen]]. Hast du vor dieser [[Zug#Bonusaktion]] mindestens 3 m in einer geraden Linie zurückgelegt, erhältst du entweder einen Bonus von +5 auf den [[Schaden und Heilung#Schadenswurf]] (wenn du den [[Nahkampfangriff]] gewählt hast und triffst) oder du stößt das Ziel bis zu 3 m von dir weg (wenn du dich entschieden hast, [[Nahkampfangriff#Stossen]] einzusetzen, und erfolgreich bist).
+Wenn du deine [[Zug#Aktion]] verwendest, um [[Aktion#Spurt]] einzusetzen, kannst du als [[Zug#Bonusaktion]] einen [[Nahkampfangriff]] ausführen oder eine Kreatur [[Nahkampfangriff#Stossen]]. Hast du vor dieser [[Zug#Bonusaktion]] mindestens 3 m in einer geraden Linie zurückgelegt, erhältst du entweder einen Bonus von +5 auf den [[Schaden und Heilung#Schadenswurf]] (wenn du den [[Nahkampfangriff]] gewählt hast und triffst) oder du stößt das Ziel bis zu 3 m von dir weg (wenn du dich entschieden hast, [[Nahkampfangriff#Stossen]] einzusetzen, und erfolgreich bist).
 
 ### Schütze
 Du hast eine schnelle Hand und ein scharfes Auge beim Einsatz von [[Waffen nach Kategorie#Schusswaffen]], was dir folgende Vorzüge gewährt:
@@ -448,7 +448,7 @@ Du hältst immer Ausschau nach Gefahren und erhältst folgende Vorzüge:
 ### Wächter
 Du hast die Technik gemeistert, jegliche Lücke in der Verteidigung deines Gegners zu nutzen, und erhältst folgende Vorzüge:
 - Wenn du eine Kreatur mit einem [[Nahkampfangriff#Gelegenheitsangriff]] triffst, wird die [[Bewegung#Bewegungsrate]] der Kreatur für den restlichen [[Zug]] auf 0 reduziert.
-- Kreaturen provozieren [[Nahkampfangriff#Gelegenheitsangriff]] durch dich, obwohl sie die Aktion [[Aktionen#Rückzug]] gewählt haben, bevor sie deine Reichweite verlassen.
+- Kreaturen provozieren [[Nahkampfangriff#Gelegenheitsangriff]] durch dich, obwohl sie die Aktion [[Aktion#Rückzug]] gewählt haben, bevor sie deine Reichweite verlassen.
 - Wenn eine Kreatur innerhalb von 1,50 m ein anderes Ziel als dich angreift (und das Ziel dieses Talent nicht besitzt), kannst du deine [[Zug#Reaktion]] aufwenden, um einen [[Nahkampfangriff]] gegen diese Kreatur auszuführen.
 
 ### Waffenmeister
@@ -502,4 +502,4 @@ Du hast die Kunst gemeistert, mit zwei Waffen gleichzeitig zu kämpfen, und geni
 #Voraussetzung: [[Zwerge|Zwerg]]
 Das Blut von Zwergenhelden fließt durch deine Adern. Du erhältst die folgenden Vorzüge:
 -   ﻿﻿Erhöhe [[Konstitution]] um 1, bis zu einem Maximalwert von 20.
--   ﻿﻿Immer, wenn du im Kampf [[Aktionen#Ausweichen]] ausführst, kannst du einen [[Trefferpunkte und Trefferwürfel#Trefferwürfel]] ausgeben, um dich selbst zu heilen. Würfle mit dem Würfel, addiere deinen [[Konstitution#Konstitutionsmodifikator]] hinzu und erhalte [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] in Höhe des Gesamtergebnisses zurück (mindestens 1).
+-   ﻿﻿Immer, wenn du im Kampf [[Aktion#Ausweichen]] ausführst, kannst du einen [[Trefferpunkte und Trefferwürfel#Trefferwürfel]] ausgeben, um dich selbst zu heilen. Würfle mit dem Würfel, addiere deinen [[Konstitution#Konstitutionsmodifikator]] hinzu und erhalte [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] in Höhe des Gesamtergebnisses zurück (mindestens 1).

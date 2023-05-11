@@ -5,7 +5,7 @@
 ## [[Bewegung]]
 Kreaturen können sich in einem Zug mit ihrer [[Bewegung#Bewegungsrate]] bewegen
 
-## [[Aktionen|Aktion]]
+## [[Aktion]]
 - Interagieren mit Gegenständen
 - Einsatz magischer oder spezieller Gegenstände
 - [[Angriff|Angreifen]]

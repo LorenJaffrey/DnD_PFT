@@ -8,7 +8,7 @@ Die Bewegunsgrate wird meist durch die [[Rasse]] festgelegt und beträgt in den 
 Es kann auch eine separate Bewegungsrate für eine bestimmte Fortbewegungsart existieren.
 
 ## Bewegung aufteilen
-Bewegung kann beliebig mit [[Aktionen]] kombiniert werden.
+Bewegung kann beliebig mit [[Zug#Aktion]] kombiniert werden.
 - Bewegung -> Aktion
 - Aktion -> Bewegung
 - Bewegung -> Aktion -> Bewegung
@@ -17,7 +17,7 @@ Bewegung kann beliebig mit [[Aktionen]] kombiniert werden.
 ## Um andere Kreaturen herumbewegen
 Kreaturen können sich um befreundete Kreaturen herumbewegen.
 Kreaturen können sich um feindliche Kreaturen herumbewegen wenn diese zwei [[Größenkategorie]] größer oder kleiner sind als sie selbst.
-Wenn eine Kreatur die Angriffsreichweite einer feindlichen Kreatur verlässt provoziert dies einen [[Nahkampfangriff|Nahkampf#Gelegenheitsangriff]].
+Wenn eine Kreatur die #Reichweite/Nahkampfreichweite einer feindlichen Kreatur verlässt provoziert dies einen [[Nahkampfangriff#Gelegenheitsangriff]].
 
 ## Reisen
 Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen
@@ -26,11 +26,11 @@ Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen
 
 ### Klettern
 [[Bewegung#Bewegungsrate]]  halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Klettern.
-#SL entscheidet ob [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) notwendig wird (z.B. Klettern auf rutschiger Oberfläche oder ohne Griffmöglichkeiten).
+#GM entscheidet ob [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) notwendig wird (z.B. Klettern auf rutschiger Oberfläche oder ohne Griffmöglichkeiten).
 
 ### Schwimmen
 [[Bewegung#Bewegungsrate]]  halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Schwimmen.
-#SL entscheidet ob [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) notwenidg wird (z.B. Vorankommen in rauhen Gewässern).
+#GM entscheidet ob [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) notwenidg wird (z.B. Vorankommen in rauhen Gewässern).
 
 ### Kriechen
 [[Bewegung#Bewegungsrate]]  halbiert.

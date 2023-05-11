@@ -4,7 +4,7 @@
 - kennt zu Beginn 2 [[Zaubertricks]] (weitere siehe [[Hexenmeister#Klassentabelle]])
 - ![[Zauber wirken#Bekannte Zauber]]
 - Attribut zum Zauberwirken ist [[Charisma]]
-- kann einen #Ausrüstung/Arkaner_Fokus  als #Zauberfokus verwenden
+- kann einen #Ausrüstung/Arkaner_Fokus  als #Ausrüstung/Zauberfokus verwenden
 - Alle [[Zauber wirken#Zauberplätze]] besitzen den gleichen [[Zauber wirken#Zaubergrad]] (siehe [[Hexenmeister#Klassentabelle]])
 - alle [[Zauber wirken#Zauberplätze]] werden durch eine [[Rasten#Kurze Rast]] regeneriert
 - bei jedem Stufenaufstieg darf ein bereits bekannter [[Zauber]] durch einen anderen ersetzt werden
@@ -30,13 +30,13 @@
 		- Pseudodrache
 		- Quasit
 		- Feengeist
-	- bei Nutzung einer [[Aktionen#Angriff]] Aktion kann statt des Anwenders stattdessen der Vertraute angreifen indem dieser seine [[Zug#Reaktion]] verwendet
+	- bei Nutzung einer [[Aktion#Angriff]] Aktion kann statt des Anwenders stattdessen der Vertraute angreifen indem dieser seine [[Zug#Reaktion]] verwendet
 
 ### Pakt der Klinge
 - kann durch Einsatz einer [[Zug#Aktionen Aktion]] eine #Paktwaffe in der freien Hand erscheinen lassen
 	- Form der #Paktwaffe kann jedes Mal frei bestimmt werden
 	- hat immer [[Übung]] im Umgang mit der Waffe
-	- gilt als #Magische_Waffe bezüglich [[Schaden und Heilung#Schadensresistenz]] gegen nicht-magische Waffen und nicht-magischen Schaden
+	- gilt als #Magischer_Gegenstand/Waffe bezüglich [[Schaden und Heilung#Schadensresistenz]] gegen nicht-magische Waffen und nicht-magischen Schaden
 	- löst sich automatisch auf wenn 
 		- länger als 1 Minute mehr als 1,5 Meter vom Besitzer entfernt
 		- andere #Paktwaffe beschworen wird

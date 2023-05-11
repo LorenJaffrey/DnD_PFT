@@ -10,19 +10,19 @@ aliases: Zaubern
 Jeder Zauber hat einen Zaubergrad von 0-9. Höhere Zaubergrade werden erst mit höheren Charakterstufen freigeschaltet.
 
 ### Zeitaufwand
-Für die meisten Zauber ist nur eine [[Aktionen|Aktion]] nötig, andere Zauber benötigen eine [[Zug#Bonusaktion]], eine [[Zug#Reaktion]] oder einen viel größeren Zeitaufwand.
+Für die meisten Zauber ist nur eine [[Zug#Aktion]] nötig, andere Zauber benötigen eine [[Zug#Bonusaktion]], eine [[Zug#Reaktion]] oder einen viel größeren Zeitaufwand.
 
 #### Bonusaktion
 Ein Zauber der als [[Zug#Bonusaktion]] gewirkt wird ist besonders schnell. Du musst in deinem Zug eine [[Zug#Bonusaktion]] verwenden um den Zauber zu wirken.
 Das geht allerdings nur wenn in diesem Zug noch keine [[Zug#Bonusaktion]] verwendet wurde.
-Außer einem [[Zauber wirken#Zaubertrick]] mit [[Zauber wirken#Zeitaufwand]] von einer [[Aktionen|Aktion]] kann in diesem [[Zug]] kein weiterer Zauber gewirkt werden.
+Außer einem [[Zauber wirken#Zaubertrick]] mit [[Zauber wirken#Zeitaufwand]] von einer [[Zug#Aktion]] kann in diesem [[Zug]] kein weiterer Zauber gewirkt werden.
 
 #### Reaktion
 Wenn ein Zauber als [[Zug#Reaktion]] gewirkt wird, steht in der Zauberbeschreibung genau wann das möglich ist.
 
 #### Längerer Zeitaufwand
 Bestimmte Zauber (z.B. Rituale) sind zeitaufwändiger. Das Wirken kann mehrere Minuten oder sogar Stunden dauern.
-Wenn ein derartiger Zauber im Kampf gewirkt wird, muss in jedem folgenden Zug die [[Aktionen|Aktion]] zum Wirken verwendet werden und die [[Zauber wirken#Konzentration]] aufrechterhalten werden.
+Wenn ein derartiger Zauber im Kampf gewirkt wird, muss in jedem folgenden Zug die [[Zug#Aktion]] zum Wirken verwendet werden und die [[Zauber wirken#Konzentration]] aufrechterhalten werden.
 Wird die [[Zauber wirken#Konzentration]] unterbrochen schlägt der Zauber fehl, der [[Zauber wirken#Zauberplatz]] wird jedoch nicht aufgewendet. 
 
 ### Reichweite
@@ -38,10 +38,10 @@ Eine Kreatur die geknebelt oder sich in einem Bereich der [[Stille]] befindet, k
 Wenn eine Geste als Komponente erforderlich ist muss der Zaubernde mindestens eine Hand frei haben um die Geste auszuführen.
 
 #### Material (M)
-Ein Zauberer kann einen #Ausrüstung/Materialkomponentenbeutel oder einen #Zauberfokus anstelle der für einen Zauber angegebenen Komponenten verwenden.
+Ein Zauberer kann einen #Ausrüstung/Materialkomponentenbeutel oder einen #Ausrüstung/Zauberfokus anstelle der für einen Zauber angegebenen Komponenten verwenden.
 Sind Kosten für eine Komponente angegeben, muss der Zauberer diesen spezifischen Gegenstand besitzen.
 Wenn in der Beschreibung des Zaubers angegeben ist, dass die Komponente verbraucht wird, muss der Zauberer eine separate Komponente für jeden Einsatz zur Hand haben.
-Ein Zauberwirker benötigt mindestens eine freie Hand um die Materialkomponente oder den #Zauberfokus zu verwenden. Dies kann jedoch die selbe Hand sein mit der er die Gesten ausführt.
+Ein Zauberwirker benötigt mindestens eine freie Hand um die Materialkomponente oder den #Ausrüstung/Zauberfokus zu verwenden. Dies kann jedoch die selbe Hand sein mit der er die Gesten ausführt.
 
 ### Wirkungsdauer
 Gibt an wie lange der Effekt dauert. Dies kann Runden, Minuten, Stunden oder sogar Jahre betragen. Manche Zauber sind aktiv bis sie gebannt oder zerstört werden.
@@ -108,7 +108,7 @@ Der [[Zauber wirken#Zaubergrad]] von Zaubertricks ist 0.
 Zauber wirken in Rüstung ist nur möglich wenn man in der getragenen Rüstung geübt ist.
 
 ## Angriffswurf
-#W20 + [[Übung|Übungsbonus]] + [[_Attribut#Attributsmodifikator]] (primäres Zauberattribut)
+W20 + [[Übung|Übungsbonus]] + [[_Attribut#Attributsmodifikator]] (primäres Zauberattribut)
 
-## Rettungswurf
+## Zauberrettungswurf Schwierigkeitsgrad
 8 + [[Übung|Übungsbonus]] des Zaubernden +  [[_Attribut#Attributsmodifikator]] (primäres Zauberattribut des Zaubernden).

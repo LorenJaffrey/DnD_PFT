@@ -9,7 +9,7 @@ Reichweite von Nahkampfangriffen ist normalerweise 1,5m. In Ausnahmefällen auch
 
 ### Gelegenheitsangriff
 Wenn eine Kreatur die Nahkampfreichweite einer anderen Kreatur verlässt, kann diese als [[Zug|Aktion#Reaktion]] einen Gelegenheitsangriff ausführen.
-Gelegenheitsangriffe können durch [[Aktionen#Rückzug]] verhindert werden.
+Gelegenheitsangriffe können durch [[Aktion#Rückzug]] verhindert werden.
 
 ### Kampf mit zwei Waffen
 Wenn eine Kreatur mit einer Waffe mit der Eigenschaft [[Waffeneigenschaften#Leicht]] angreift, kann sie als [[Zug#Bonusaktion]] einen weiteren Angriff mit einer Waffe mit der Eigenschaft [[Waffeneigenschaften#Leicht]] in der anderen Hand ausführen.
@@ -22,7 +22,7 @@ Angreifer führt [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) durch und vergle
 Automatischer Erfolg wenn das Ziel [[Zustände#Kampfunfähig]] ist.
 Bei Erfolg wird das Ziel [[Zustände#Gepackt]].
 Bewegung während ein Ziel [[Zustände#Gepackt]] ist wird halbiert.
-Ziel kann in seinem Zug versuchen sich mit einer [[Aktionen|Aktion]] zu befreien ( [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) des Angreifers gegen [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) oder [[Geschicklichkeit|Geschicklichkeitswurf]] ([[Akrobatik]]) des Ziels nach Wahl des Ziels).
+Ziel kann in seinem Zug versuchen sich mit einer [[Zug#Aktion]] zu befreien ( [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) des Angreifers gegen [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) oder [[Geschicklichkeit|Geschicklichkeitswurf]] ([[Akrobatik]]) des Ziels nach Wahl des Ziels).
 
 ### Stossen
 Gegnerische Kreatur zu Fall bringen oder auf Distanz zu halten.
