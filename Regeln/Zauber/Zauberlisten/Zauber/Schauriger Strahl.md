@@ -1,0 +1,28 @@
+---
+alias: Eldritch Blast
+tags:
+- Zauber/Grad/Zaubertrick
+- Zauber/Schule/Hervorrufung
+- Zauber/Klasse/Hexenmeister
+- Zauber/Skalierbar
+---
+*Zaubertrick der Hervorrufung*
+
+Zeitaufwand: 1 [[Zug#Aktion]]
+Reichweite: 36m
+Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Wirkungsdauer: unmittelbar
+
+## Beschreibung
+Ein Strahl aus knisternder Energie schießt auf eine Kreatur in Reichweite zu. Führe einen Fernkampf-Zauberangriff gegen das Ziel aus. Bei einem Treffer erleidet es 1W10 #Schaden/Energie.
+
+### Auf höheren Stufen
+Der Zauber erschafft mehr als einen Strahl, wenn du höhere Stufen erreichst: 
+- zwei Strahlen auf der 5. Stufe
+- drei Strahlen auf der 11. Stufe
+- vier Strahlen auf der 17. Stufe
+Du kannst die Strahlen auf dasselbe oder unterschiedliche Ziele lenken.
+Mache einen eigenständigen [[Angriff#Angriffswurf]] für jeden Strahl.
+
+## Zauberlisten
+- [[Hexenmeister]]
