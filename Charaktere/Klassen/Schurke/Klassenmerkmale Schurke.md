@@ -24,10 +24,10 @@
 	- Unterschlupf für Diebe auf der Flucht
 
 ## Raffinierte Aktion
-- kann folgende [[Aktionen]] als [[Zug#Bonusaktion]] ausführen:
-	- [[Aktionen#Spurt]]
-	- [[Aktionen#Rückzug]]
-	- [[Aktionen#Verstecken]]
+- kann folgende [[Aktion|Aktionen]] als [[Zug#Bonusaktion]] ausführen:
+	- [[Aktion#Spurt]]
+	- [[Aktion#Rückzug]]
+	- [[Aktion#Verstecken]]
 
 ## Unglaubliches Ausweichen
 #TODO 
