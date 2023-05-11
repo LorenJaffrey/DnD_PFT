@@ -8,8 +8,8 @@ aliases: Druiden
 | Stufe | Merkmale                                                                                                                | Zaubertricks | 1.  | 2.  | 3.  | 4.  | 5.  | 6.  | 7.  | 8.  | 9.  |
 |:-----:| ----------------------------------------------------------------------------------------------------------------------- |:------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |   1   | [[Klassenmerkmale Druide#Druidisch]], [[Klassenmerkmale Druide#Zauberwirken Druide]]                                    |      2       |  2  | --- | --- | --- | --- | --- | --- | --- | --- |
-|   2   | [[Klassenmerkmale Druide#Tiergestalt]], [[Subklassen Druide\|Druidenzirkel]]                                            |      2       |  3  | --- | --- | --- | --- | --- | --- | --- | --- |
-|   3   | [[Klassenmerkmale Druide#Wilder Gefährte]]                                                                              |      2       |  4  |  2  | --- | --- | --- | --- | --- | --- | --- |
+|   2   | [[Klassenmerkmale Druide#Tiergestalt]], [[Klassenmerkmale Druide#Wilder Gefährte]]                                      |      2       |  3  | --- | --- | --- | --- | --- | --- | --- | --- |
+|   3   | [[_Subklassen Druide\|Druidenzirkel]]                                                                                   |      2       |  4  |  2  | --- | --- | --- | --- | --- | --- | --- |
 |   4   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Druide#Vielseitige Zaubertricks]] |      3       |  4  |  3  | --- | --- | --- | --- | --- | --- | --- |
 |   5   | [[Klassenmerkmale Druide#Verbesserte Tiergestalt]]                                                                      |      3       |  4  |  3  |  2  | --- | --- | --- | --- | --- | --- |
 |   6   | Merkmal Druidenzirkel                                                                                                   |      3       |  4  |  3  |  3  | --- | --- | --- | --- | --- | --- |
