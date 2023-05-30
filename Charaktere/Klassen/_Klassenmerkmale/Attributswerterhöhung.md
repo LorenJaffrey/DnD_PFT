@@ -1,0 +1,1 @@
+Darf ein [[_Attribut|Attribut]] um +2 oder zwei [[_Attribut|Attribute]] um +1 erhöhen.

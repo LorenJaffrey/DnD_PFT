@@ -1,0 +1,1 @@
+- wenn eine Stufe mit dem Merkmal [[Attributswerterhöhung]] erreicht wird, kann ein bekannter [[Zauber nach Grad#Zaubertricks]] gegen einen anderen getauscht werden

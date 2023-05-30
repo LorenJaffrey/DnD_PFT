@@ -1,0 +1,1 @@
+Darf einen zusätzlichen [[Angriff]] bei jeder durchgeführten [[Aktion#Angriff]] Aktion ausführen
