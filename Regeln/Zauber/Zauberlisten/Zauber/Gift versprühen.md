@@ -13,7 +13,7 @@ tags:
 *Zaubertrick der Hervorrufung*
 
 Zeitaufwand: 1 [[Zug#Aktion]]
-Reichweite: 3m
+Reichweite: 3m / 2 Kästchen
 Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: unmittelbar
 

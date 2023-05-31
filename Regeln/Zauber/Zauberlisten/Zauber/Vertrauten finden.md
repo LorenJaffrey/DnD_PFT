@@ -10,7 +10,7 @@ tags:
 
 Zeitaufwand: 1 Stunde
 Reichweite: 3m
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]], [[Zauber wirken#Material (M)]] (Holzkohle, Weihrauch und Kräuter im Wert von 10 GM, die in einer Feuerschale aus Messing von Flammen verzehrt werden)
+Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]], [[Zauber wirken#Material (M)]] (Holzkohle, Weihrauch und Kräuter im Wert von 10 [[Münzen#Goldmünzen]], die in einer Feuerschale aus Messing von Flammen verzehrt werden)
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
