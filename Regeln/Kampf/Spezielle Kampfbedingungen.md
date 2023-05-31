@@ -25,12 +25,12 @@ Löst ein Reittier einen [[Nahkampfangriff#Gelegenheitsangriff]] aus kann der An
 
 ## Unterwasserkampf
 Führt eine Kreatur ohne [[Bewegung#Schwimmen]] einen [[Nahkampfangriff]] unter Wasser aus hat dieser Angriff [[Vorteil und Nachteil#Nachteil]] wenn er nicht mit einer der folgenden Waffen durchgeführt wurde:
-- [[Waffen#Dolch]] 
-- [[Waffen#Kurzschwert]] 
-- [[Waffen#Wurfspeer]] 
-- [[Waffen#Dreizack]]
+- [[Dolch]] 
+- [[Kurzschwert]] 
+- [[Wurfspeer]] 
+- [[Dreizack]]
 
 Ein [[Fernkampfangriff]] verfehlt automatisch wenn er außerhalb der #Reichweite/Grundreichweite ausgeführt wird.
-Innerhalb der #Reichweite/Grundreichweite hat der [[Fernkampfangriff]] [[Vorteil und Nachteil#Nachteil]] wenn er nicht mit einer [[Waffen#Armbrust]], oder einer Wurfwaffe ähnlich einem [[Waffen#Wurfspeer]] durchgeführt wurde.
+Innerhalb der #Reichweite/Grundreichweite hat der [[Fernkampfangriff]] [[Vorteil und Nachteil#Nachteil]] wenn er nicht mit einer [[Schwere Armbrust]], oder einer Wurfwaffe ähnlich einem [[Wurfspeer]] durchgeführt wurde.
 
 Kreaturen die sich vollständig im Wasser befinden haben eine [[Schaden und Heilung#Schadensresistenz]] gegen #Schaden/Feuer .

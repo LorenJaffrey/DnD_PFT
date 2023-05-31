@@ -1,7 +1,7 @@
 ## Kampfstil
 
 ### Abfangen
-- muss [[Waffen nach Kategorie#Einfache Waffen]], [[Waffen nach Kategorie#Kriegswaffen]] oder [[Rüstung#Schild]] tragen
+- muss [[Einfache Waffen]], [[Kriegswaffen]] oder [[Rüstung#Schild]] tragen
 - wenn Kreatur in #Reichweite/Nahkampfreichweite angegriffen wird kann [[Zug#Reaktion]] verwendet werden um erlittenen Schden um 1W10 + Übungsbonus zu reduzieren
 
 ### Blinder Kampf
@@ -17,7 +17,7 @@
 - +2 auf Schadenswurf wenn mit einzelner einhändiger Waffe und keiner Waffe in der anderen Hand gekämpft wird
 
 ### Kampf mit großen Waffen
-- bei Waffen mit [[Waffeneigenschaften#Zweihändig]] oder [[Waffeneigenschaften#Vielseitig]]
+- [[Zweihändige Waffen]] oder Waffen mit [[Vielseitig]]
 - Schadenswurf von 1 oder 2 darf wiederholt werden (zweites Ergebnis gilt auch wenn ebenfalls 1 oder 2)
 
 ### Kampf mit zwei Waffen
@@ -38,7 +38,7 @@
 - +1 auf [[Rüstung#Rüstungsklasse]]
 
 ## Durchschnaufen
-- Bonusaktion verwenden um 1W10 + Stufe als [[Kämpfer]] an [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] wiederherzustellen.
+- [[Zug#Bonusaktion]] verwenden um 1W10 + Stufe als [[Kämpfer]] an [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] wiederherzustellen.
 - wird durch [[Rasten#Kurze Rast]] oder [[Rasten#Lange Rast]] regeneriert
 - Zahl in Klammern gibt Anzahl der verfügbaren Einsätze an bevor gerastet werden muss
 

@@ -28,7 +28,7 @@ Wenn mehrere Effekte einer Kreatur den gleichen Zustand auferlegen, besitzt jede
 - ﻿﻿Ein [[Angriff#Angriffswurf]] gegen die Kreatur ist immer im [[Vorteil und Nachteil#Vorteil]], die Kreatur ist bei ihrem [[Angriff#Angriffswurf]] hingegen im [[Vorteil und Nachteil#Nachteil]].
 
 ## Erschöpft
-Einige Spezialfähigkeiten und Umweltgefahren, wie Verhungern und die Langzeiteffekte von eiskalten oder heißen Tempe-raturen, können zu einem besonderen Zustand führen, der Erschöpfung genannt wird. Erschöpfung wird in sechs Stufen gemessen. Ein Effekt kann einer Kreatur eine oder mehrere Stufen Erschöpfung verleihen, wie es in der Beschreibung des Effekts angegeben ist.
+Einige Spezialfähigkeiten und Umweltgefahren, wie Verhungern und die Langzeiteffekte von eiskalten oder heißen Temperaturen, können zu einem besonderen Zustand führen, der Erschöpfung genannt wird. Erschöpfung wird in sechs Stufen gemessen. Ein Effekt kann einer Kreatur eine oder mehrere Stufen Erschöpfung verleihen, wie es in der Beschreibung des Effekts angegeben ist.
 
 | Stufe | Effekt                                       |
 |:-----:| -------------------------------------------- |

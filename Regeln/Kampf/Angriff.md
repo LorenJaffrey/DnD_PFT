@@ -24,7 +24,7 @@ Sowohl Kreaturen als auch Gegenstände, Orte oder Bereiche können als Ziel gew�
 W20 + [[_Attribut#Attributsmodifikator]] + [[Übung|Übungsbonus]] muss größer als [[Rüstung#Rüstungsklasse]] des Ziels sein.
 
 Der [[_Attribut#Attributsmodifikator]] hängt von der verwendeten Waffe ab. 
-Die meisten [[Nahkampfangriff|Nahkampfangriffe]] basieren auf [[Stärke]], manchmal auch auf [[Geschicklichkeit]] (bei Waffen mit der Eigenschaft [[Waffeneigenschaften#Finesse]]).
+Die meisten [[Nahkampfangriff|Nahkampfangriffe]] basieren auf [[Stärke]], manchmal auch auf [[Geschicklichkeit]] (bei Waffen mit der Eigenschaft [[Finesse]]).
 Die meisten [[Fernkampfangriff|Fernkampfangriffe]] basieren auf [[Geschicklichkeit]].
 Auch beim [[Zauber wirken|Zaubern]]  kann ein [[Angriff#Angriffswurf]] fällig werden. Dabei wird meist das primäre Attribut des Zauberwirkers verwendet.
 

@@ -9,7 +9,7 @@
 - nur möglich wenn 
 	- [[Angriff#Angriffswurf]] gegen Ziel wird mit [[Vorteil und Nachteil#Vorteil]] augeführt
 	- Ziel befindet sich in 1,5m Umkreis eines anderen Gegners (nicht [[Zustände#Kampfunfähig]])
-- Angriff muss mit [[Waffen nach Kategorie#Schusswaffen]] oder [[Waffen nach Kategorie#Nahkampfwaffen]] mit [[Waffeneigenschaften#Finesse]] erfolgen 
+- Angriff muss mit [[Fernkampfwaffen]] oder [[Finesse Waffen]] erfolgen 
 - verursacht zusätzlichen Schaden (siehe [[Schurke#Klassentabelle]])
 
 ## Diebessprache

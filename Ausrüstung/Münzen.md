@@ -6,7 +6,7 @@
 | GM    | 100  | 10  | 2   | 1   |     |
 | PM    | 1000 | 100 | 20  | 10  | 1   |
 
-## Kupfermünze
+## Kupfermünzen
 - Geringster Münzwert
 - Gewöhnliches Zahlungsmittel von Arbeitern und Bettlern
 - Vergleichbarer Wert
@@ -14,7 +14,7 @@
 	- eine Fackel
 	- ein Stück Kreide
 
-## Silbermünze
+## Silbermünzen
 - 1 Silbermünze  = 10 Kupfermünzen
 - Gewöhnliches Zahlungsmittel unter dem gemeinen Volk
 - Vergleichbarer Wert
@@ -22,19 +22,19 @@
 	- eine Flasche Lampenöl
 	- Übernahctungskosten in einem ärmlichen Gasthof
 
-## Elektrummünze
+## Elektrummünzen
 - 1 Elektrummünze = 5 Silbermünzen
 - Seltene Münzen aus untergegangenen Königreichen
 - Erregen Verdacht oder Misstrauen
 
-## Goldmünze
+## Goldmünzen
 - 1 Goldmünze = 10 Silbermünzen
 - Vergleichbarer Wert
 	- ein Schlafsack
 	- 15 m gutes Seil
 	- eine Ziege
 	
-## Platinmünze
+## Platinmünzen
 - 1 Platinmünze = 10 Goldmünzen
 - Seltene Münzen aus untergegangenen Königreichen
 - Erregen Verdacht oder Misstrauen

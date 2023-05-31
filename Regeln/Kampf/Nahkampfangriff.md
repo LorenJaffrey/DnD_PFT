@@ -12,9 +12,9 @@ Wenn eine Kreatur die Nahkampfreichweite einer anderen Kreatur verlässt, kann d
 Gelegenheitsangriffe können durch [[Aktion#Rückzug]] verhindert werden.
 
 ### Kampf mit zwei Waffen
-Wenn eine Kreatur mit einer Waffe mit der Eigenschaft [[Waffeneigenschaften#Leicht]] angreift, kann sie als [[Zug#Bonusaktion]] einen weiteren Angriff mit einer Waffe mit der Eigenschaft [[Waffeneigenschaften#Leicht]] in der anderen Hand ausführen.
+Wenn eine Kreatur mit einer Waffe mit der Eigenschaft [[Leicht]] angreift, kann sie als [[Zug#Bonusaktion]] einen weiteren Angriff mit einer Waffe mit der Eigenschaft [[Leicht]] in der anderen Hand ausführen.
 Der zweite Angriff erhält keinen positiven [[_Attribut#Attributsmodifikator]].
-Einer der Angriffe kann auch mit einer Waffe mit der Eigenschaft [[Waffeneigenschaften#Wurfwaffe]] durchgeführt werden.
+Einer der Angriffe kann auch mit einer Waffe mit der Eigenschaft [[Wurfwaffe]] durchgeführt werden.
 
 ### Ringen
 Ziel darf maximal eine [[Größenkategorie]] größer sein und muss sich in Reichweite befinden.

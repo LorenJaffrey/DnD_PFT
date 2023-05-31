@@ -39,7 +39,7 @@ Beispiele:
 ## Angriffswürfe und Schaden
 Der [[Geschicklichkeit#Geschicklichkeitsmodifikator]] wird außerdem verwendet bei:
 - [[Fernkampfangriff|Fernkampfangriffen]]
-- [[Nahkampfangriff|Nahkampfangriffen]] mit Waffen mit [[Waffeneigenschaften#Finesse]]
+- [[Nahkampfangriff|Nahkampfangriffen]] mit Waffen mit [[Finesse]]
 
 ## Rüstungsklasse
 Der [[Geschicklichkeit#Geschicklichkeitsmodifikator]] wird außerdem auf die [[Rüstung#Rüstungsklasse]] angerechnet beim Tragen von [[Rüstung#Leichte Rüstung]] (voll) und [[Rüstung#Mittlere Rüstung]] (max. +2).

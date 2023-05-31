@@ -2,7 +2,7 @@
 aliases: Kampfbewegung, Positionierung, Bewegung im Kampf
 ---
 ## Bewegungsrate
-Bewegungsrate wird meist durch das [[_Völksübersicht|Volk]] bestimmt.
+Bewegungsrate wird meist durch das [[_Übersicht Völker|Volk]] bestimmt.
 
 ## Bewegung aufteilen
 Bewegung kann beliebig mit [[Zug#Aktion]] kombiniert werden.

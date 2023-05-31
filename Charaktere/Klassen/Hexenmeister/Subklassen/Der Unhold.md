@@ -13,6 +13,7 @@ Die folgenden Sprüche gelten für dich als Teil der Zauberliste des Hexenmeiste
 |  5   | [[Flammenschlag]], [[Weihen]]                |
 
 ## Merkmale
+
 | Stufe | Merkmal                                       |
 |:-----:| --------------------------------------------- |
 |   1   | [[Der Unhold#Segen des dunklen Meisters]]     |
