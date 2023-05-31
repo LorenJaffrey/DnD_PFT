@@ -3,41 +3,41 @@
 ```
 
 ## Klassentabelle
-| Stufe | Merkmale                                                                                                                         | Zaubertricks | Bekannte Zauber | Zauberplätze | Grad der Zauberplätze | Bekannte Anrufungen |
-|:-----:| -------------------------------------------------------------------------------------------------------------------------------- |:------------:|:---------------:|:------------:|:---------------------:|:-------------------:|
-|   1   | [[_Subklassen Hexenmeister\|Außerweltlicher Schutzherr]], [[Klassenmerkmale Hexenmeister#Paktmagie]]                             |      2       |        2        |      1       |           1           |         ---         |
-|   2   | [[Klassenmerkmale Hexenmeister#Segen des Pakts]]                                                                                 |      2       |        3        |      2       |           1           |         ---         |
-|   3   | [[Klassenmerkmale Hexenmeister#Schauerliche Anrufungen]]                                                                         |      2       |        4        |      2       |           2           |          2          |
-|   4   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Hexenmeister#Schauerliche Vielseitigkeit]] |      3       |        5        |      2       |           2           |          2          |
-|   5   | ---                                                                                                                              |      3       |        6        |      2       |           3           |          3          |
-|   6   | Merkmal Schutzherr                                                                                                               |      3       |        7        |      2       |           3           |          3          |
-|   7   | ---                                                                                                                              |      3       |        8        |      2       |           4           |          4          |
-|   8   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Hexenmeister#Schauerliche Vielseitigkeit]] |      3       |        9        |      2       |           4           |          4          |
-|   9   | ---                                                                                                                              |      3       |       10        |      2       |           5           |          5          |
-|  10   | Merkmal Schutzherr                                                                                                               |      4       |       10        |      2       |           5           |          5          |
-|  11   | [[Klassenmerkmale Hexenmeister#Mystisches Arkanum]] (6. Grad)                                                                    |      4       |       11        |      3       |           5           |          5          |
-|  12   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Hexenmeister#Schauerliche Vielseitigkeit]] |      4       |       11        |      3       |           5           |          6          |
-|  13   | [[Klassenmerkmale Hexenmeister#Mystisches Arkanum]] (7. Grad)                                                                    |      4       |       12        |      3       |           5           |          6          |
-|  14   | Merkmal Schutzherr                                                                                                               |      4       |       12        |      3       |           5           |          6          |
-|  15   | [[Klassenmerkmale Hexenmeister#Mystisches Arkanum]] (8. Grad)                                                                    |      4       |       13        |      3       |           5           |          7          |
-|  16   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Hexenmeister#Schauerliche Vielseitigkeit]] |      4       |       13        |      3       |           5           |          7          |
-|  17   | [[Klassenmerkmale Hexenmeister#Mystisches Arkanum]] (9. Grad)                                                                    |      4       |       14        |      4       |           5           |          7          |
-|  18   | ---                                                                                                                              |      4       |       14        |      4       |           5           |          8          |
-|  19   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Hexenmeister#Schauerliche Vielseitigkeit]] |      4       |       15        |      4       |           5           |          8          |
-|  20   | [[Klassenmerkmale Hexenmeister#Mystischer Meister]]                                                                              |      4       |       15        |      4       |           5           |          8          |
 
+| Stufe | Merkmale                                                                            | Zaubertricks | Bekannte Zauber | Zauberplätze | Grad der Zauberplätze | Bekannte Anrufungen |
+|:-----:| ----------------------------------------------------------------------------------- |:------------:|:---------------:|:------------:|:---------------------:|:-------------------:|
+|   1   | [[_Subklassen Hexenmeister\|Außerweltlicher Schutzherr]], [[Paktmagie]]             |      2       |        2        |      1       |           1           |         ---         |
+|   2   | [[Segen des Pakts]]                                                                 |      2       |        3        |      2       |           1           |         ---         |
+|   3   | [[Schauerliche Anrufungen]]                                                         |      2       |        4        |      2       |           2           |          2          |
+|   4   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        5        |      2       |           2           |          2          |
+|   5   | ---                                                                                 |      3       |        6        |      2       |           3           |          3          |
+|   6   | Merkmal Schutzherr                                                                  |      3       |        7        |      2       |           3           |          3          |
+|   7   | ---                                                                                 |      3       |        8        |      2       |           4           |          4          |
+|   8   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        9        |      2       |           4           |          4          |
+|   9   | ---                                                                                 |      3       |       10        |      2       |           5           |          5          |
+|  10   | Merkmal Schutzherr                                                                  |      4       |       10        |      2       |           5           |          5          |
+|  11   | [[Mystisches Arkanum]] (6. Grad)                                                    |      4       |       11        |      3       |           5           |          5          |
+|  12   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       11        |      3       |           5           |          6          |
+|  13   | [[Mystisches Arkanum]] (7. Grad)                                                    |      4       |       12        |      3       |           5           |          6          |
+|  14   | Merkmal Schutzherr                                                                  |      4       |       12        |      3       |           5           |          6          |
+|  15   | [[Mystisches Arkanum]] (8. Grad)                                                    |      4       |       13        |      3       |           5           |          7          |
+|  16   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       13        |      3       |           5           |          7          |
+|  17   | [[Mystisches Arkanum]] (9. Grad)                                                    |      4       |       14        |      4       |           5           |          7          |
+|  18   | ---                                                                                 |      4       |       14        |      4       |           5           |          8          |
+|  19   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       15        |      4       |           5           |          8          |
+|  20   | [[Mystischer Meister]]                                                              |      4       |       15        |      4       |           5           |          8          |
 
 ## Trefferpunkte
 [[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1W8 pro Stufe
 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
 
 ## Übung
 Rüstungen:
 - [[Rüstung#Leichte Rüstung]]
 
 Waffen:
-- [[Waffen nach Kategorie#Einfache Waffen]]
+- [[Einfache Waffen]]
 
 Werkzeuge
 - [[Handwerkszeug#Kräuterkunde-Ausrüstung]]
@@ -57,12 +57,12 @@ Fertigkeiten:
 	- [[Charisma#Täuschen]]
 
 ## Ausrüstung
-- [[Waffen#Leichte Armbrust]] oder beliebige [[Waffen nach Kategorie#Einfache Waffen]]
+- [[Leichte Armbrust]] oder beliebige [[Einfache Waffen|Einfache Waffe]]
 - [[Rüstung#Lederrüstung]]
 - [[Ausrüstungssets#Gewölbeforscherausrüstung]] oder [[Ausrüstungssets#Gelehrtenausrüstung]]
 - #Ausrüstung/Materialkomponentenbeutel oder #Ausrüstung/Arkaner_Fokus
-- beliebige [[Waffen nach Kategorie#Einfache Waffen]]
-- zwei [[Waffen#Dolch]] 
+- beliebige [[Einfache Waffen|Einfache Waffe]]
+- zwei [[Dolch]]e 
 
 ## Klassenbeschreibung
 Mit einem auf seiner Schulter zusammengerollten Pseudo-drachen lächelt ein junger, in eine goldene Robe gekleideter Elf freundlich und webt eine magische Bezauberung in seine honigsüßen Worte ein, um die Palastwachen seinem Willen zu beugen.

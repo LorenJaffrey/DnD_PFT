@@ -5,33 +5,34 @@ aliases: Druiden
 
 ```
 ## Klassentabelle
-| Stufe | Merkmale                                                                                                                | Zaubertricks | 1.  | 2.  | 3.  | 4.  | 5.  | 6.  | 7.  | 8.  | 9.  |
-|:-----:| ----------------------------------------------------------------------------------------------------------------------- |:------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|   1   | [[Klassenmerkmale Druide#Druidisch]], [[Klassenmerkmale Druide#Zauberwirken Druide]]                                    |      2       |  2  | --- | --- | --- | --- | --- | --- | --- | --- |
-|   2   | [[Klassenmerkmale Druide#Tiergestalt]], [[Klassenmerkmale Druide#Wilder Gefährte]]                                      |      2       |  3  | --- | --- | --- | --- | --- | --- | --- | --- |
-|   3   | [[_Subklassen Druide\|Druidenzirkel]]                                                                                   |      2       |  4  |  2  | --- | --- | --- | --- | --- | --- | --- |
-|   4   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Druide#Vielseitige Zaubertricks]] |      3       |  4  |  3  | --- | --- | --- | --- | --- | --- | --- |
-|   5   | [[Klassenmerkmale Druide#Verbesserte Tiergestalt]]                                                                      |      3       |  4  |  3  |  2  | --- | --- | --- | --- | --- | --- |
-|   6   | Merkmal Druidenzirkel                                                                                                   |      3       |  4  |  3  |  3  | --- | --- | --- | --- | --- | --- |
-|   7   |                                                                                                                         |      3       |  4  |  3  |  3  |  1  | --- | --- | --- | --- | --- |
-|   8   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Druide#Vielseitige Zaubertricks]] |      3       |  4  |  3  |  3  |  2  | --- | --- | --- | --- | --- |
-|   9   | [[Klassenmerkmale Druide#Überlegene Tiergestalt]]                                                                       |      3       |  4  |  3  |  3  |  3  |  1  | --- | --- | --- | --- |
-|  10   | Merkmal Druidenzirkel                                                                                                   |      4       |  4  |  3  |  3  |  3  |  2  | --- | --- | --- | --- |
-|  11   | ---                                                                                                                     |      4       |  4  |  3  |  3  |  3  |  2  |  1  | --- | --- | --- |
-|  12   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Druide#Vielseitige Zaubertricks]] |      4       |  4  |  3  |  3  |  3  |  2  |  1  | --- | --- | --- |
-|  13   | ---                                                                                                                     |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --- | --- |
-|  14   | Merkmal Druidenzirkel                                                                                                   |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --- | --- |
-|  15   | ---                                                                                                                     |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --- |
-|  16   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Druide#Vielseitige Zaubertricks]] |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --- |
-|  17   | ---                                                                                                                     |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
-|  18   | [[Klassenmerkmale Druide#Zeitloser Körper]], [[Klassenmerkmale Druide#In Tiergestalt zaubern]]                          |      4       |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
-|  19   | [[Klassenmerkmale#Attributswerterhöhung]] oder [[Talente\|Talent]], [[Klassenmerkmale Druide#Vielseitige Zaubertricks]] |      4       |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
-|  20   | [[Klassenmerkmale Druide#Erzdruide]]                                                                                    |      4       |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
+
+| Stufe | Merkmale                                                                         | Zaubertricks | 1.  | 2.  | 3.  | 4.  | 5.  | 6.  | 7.  | 8.  | 9.  |
+|:-----:| -------------------------------------------------------------------------------- |:------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|   1   | [[Druidisch]], [[Zauberwirken Druide]]                                           |      2       |  2  | --- | --- | --- | --- | --- | --- | --- | --- |
+|   2   | [[Tiergestalt]], [[Wilder Gefährte]]                                             |      2       |  3  | --- | --- | --- | --- | --- | --- | --- | --- |
+|   3   | [[Druidenzirkel|Druidenzirkel]]                                            |      2       |  4  |  2  | --- | --- | --- | --- | --- | --- | --- |
+|   4   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Vielseitige Zaubertricks]] |      3       |  4  |  3  | --- | --- | --- | --- | --- | --- | --- |
+|   5   | [[Verbesserte Tiergestalt]]                                                      |      3       |  4  |  3  |  2  | --- | --- | --- | --- | --- | --- |
+|   6   | Merkmal Druidenzirkel                                                            |      3       |  4  |  3  |  3  | --- | --- | --- | --- | --- | --- |
+|   7   |                                                                                  |      3       |  4  |  3  |  3  |  1  | --- | --- | --- | --- | --- |
+|   8   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Vielseitige Zaubertricks]] |      3       |  4  |  3  |  3  |  2  | --- | --- | --- | --- | --- |
+|   9   | [[Überlegene Tiergestalt]]                                                       |      3       |  4  |  3  |  3  |  3  |  1  | --- | --- | --- | --- |
+|  10   | Merkmal Druidenzirkel                                                            |      4       |  4  |  3  |  3  |  3  |  2  | --- | --- | --- | --- |
+|  11   | ---                                                                              |      4       |  4  |  3  |  3  |  3  |  2  |  1  | --- | --- | --- |
+|  12   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Vielseitige Zaubertricks]] |      4       |  4  |  3  |  3  |  3  |  2  |  1  | --- | --- | --- |
+|  13   | ---                                                                              |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --- | --- |
+|  14   | Merkmal Druidenzirkel                                                            |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --- | --- |
+|  15   | ---                                                                              |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --- |
+|  16   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Vielseitige Zaubertricks]] |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --- |
+|  17   | ---                                                                              |      4       |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
+|  18   | [[Zeitloser Körper]], [[In Tiergestalt zaubern]]                                 |      4       |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
+|  19   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Vielseitige Zaubertricks]] |      4       |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
+|  20   | [[Erzdruide]]                                                                    |      4       |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
 
 ## Trefferpunkte
 [[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1W8 pro Stufe
 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro #Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
 
 ## Übung
 Rüstungen:
@@ -41,16 +42,16 @@ Rüstungen:
 - darf keine Metallrüstungen tragen
 
 Waffen:
-- [[Waffen#Knüppel]]
-- [[Waffen#Dolch]] 
-- [[Waffen#Wurfpfeil]]
-- [[Waffen#Wurfspeer]] 
-- [[Waffen#Streitkolben]]
-- [[Waffen#Kampfstab]]
-- [[Waffen#Krummsäbel]]
-- [[Waffen#Sichel]] 
-- [[Waffen#Schleuder]]
-- [[Waffen#Speer]]
+- [[Knüppel]]
+- [[Dolch]] 
+- [[Wurfpfeil]]
+- [[Wurfspeer]] 
+- [[Streitkolben]]
+- [[Kampfstab]]
+- [[Krummsäbel]]
+- [[Sichel]] 
+- [[Schleuder]]
+- [[Speer]]
 
 Werkzeuge
 - [[Handwerkszeug#Kräuterkunde-Ausrüstung]]
@@ -71,8 +72,8 @@ Fertigkeiten:
 	- [[Weisheit#Wahrnehmung]]
 
 ## Ausrüstung
-- [[Rüstung#Schild]] oder beliebige [[Waffen nach Kategorie#Einfache Waffen]]
-- [[Waffen#Krummsäbel]]  oder beliebige Nahkampf [[Waffen nach Kategorie#Einfache Waffen]]
+- [[Rüstung#Schild]] oder beliebige [[Einfache Waffen|Einfache Waffe]]
+- [[Krummsäbel]]  oder beliebige Nahkampf [[Einfache Waffen|Einfache Waffe]]
 - [[Rüstung#Lederrüstung]]
 - [[Ausrüstungssets#Entdeckerausrüstung]]
 - Druidischer Fokus
