@@ -1,0 +1,2 @@
+Kleine oder winzige Kreaturen sind bei einem [[Angriffswurf]] mit schweren Waffen im [[Vorteil und Nachteil#Nachteil]]. 
+Masse und Sperrigkeit einer schweren Waffe machen sie zu unhandlich, als dass sie von kleinen oder winzigen Kreaturen effektiv eingesetzt werden können.

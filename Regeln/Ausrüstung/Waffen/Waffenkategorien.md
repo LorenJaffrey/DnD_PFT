@@ -1,3 +1,0 @@
-## Einfache Waffen
-
-## Kriegswaffen

@@ -1,0 +1,1 @@
+Eine Waffe mit der Eigenschaft Speziell verfügt über ungewöhnliche Regeln, die ihre Anwendung betreffen und die in der Waffenbeschreibung angegeben werden (siehe weiter unten in diesem Abschnitt).
