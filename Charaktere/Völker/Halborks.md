@@ -34,10 +34,10 @@ Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Vol
 - 9 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Bedrohlich]]
-- [[_Volksmerkmale#Durchhaltevermögen]]
-- [[_Volksmerkmale#Wilde Angriffe]]
+- [[Dunkelsicht]]
+- [[Bedrohlich]]
+- [[Durchhaltevermögen]]
+- [[Wilde Angriffe]]
 
 ### Alter
 Halborks sind etwas schneller ausgewachsen als Menschen, sie erreichen das Erwachsenenalter mit etwa 14 Jahren.

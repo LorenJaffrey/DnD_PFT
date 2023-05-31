@@ -52,10 +52,10 @@ Als Felsengnom besitzt du einen natürlichen Einfallsreichtum und eine Zähigkei
 - 7,5 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Gnomische Gerissenheit]]
-- [[_Volksmerkmale#Artefaktkunde]]
-- [[_Volksmerkmale#Tüftler]]
+- [[Dunkelsicht]]
+- [[Gnomische Gerissenheit]]
+- [[Artefaktkunde]]
+- [[Tüftler]]
 
 ### Alter
 Gnome sind genauso schnell entwickelt wie Menschen und erreichen mit ungefähr 40 Jahren das Erwachsenenalter.
@@ -86,10 +86,10 @@ Als Waldgnom verfügst du über eine natürliche Begabung für Illusionen, auße
 - 7,5 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Gnomische Gerissenheit]]
-- [[_Volksmerkmale#Geborene Illusionisten]]
-- [[_Volksmerkmale#Tierflüsterer]]
+- [[Dunkelsicht]]
+- [[Gnomische Gerissenheit]]
+- [[Geborene Illusionisten]]
+- [[Tierflüsterer]]
 
 ### Alter
 Gnome sind genauso schnell entwickelt wie Menschen und erreichen mit ungefähr 40 Jahren das Erwachsenenalter.

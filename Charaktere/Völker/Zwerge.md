@@ -57,12 +57,12 @@ Als Gebirgszwerg bist du stark, zäh und an ein hartes Leben in rauer Umgebung g
 - wird nicht durch das Tragen von schwerer Rüstung reduziert
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Unempfindlichkeit]]
-- [[_Volksmerkmale#Zwergisches Kampftraining]]
-- [[_Volksmerkmale#Handwerkliches Geschick]]
-- [[_Volksmerkmale#Steingespür]]
-- [[_Volksmerkmale#Zwergische Rüstungsvertrautheit]]
+- [[Dunkelsicht]]
+- [[Unempfindlichkeit]]
+- [[Zwergisches Kampftraining]]
+- [[Handwerkliches Geschick]]
+- [[Steingespür]]
+- [[Zwergische Rüstungsvertrautheit]]
 
 ### Alter
 Gebirgszwerge reifen in der gleichen Geschwindigketi wie Menschen heran, doch werden sie bis zu ihrem 50. Sommer als jung angesehen.
@@ -94,12 +94,12 @@ Als Hügelzwerg besitzt du scharfe Sinne, eine starke Intuition und eine bemerke
 - wird nicht durch das Tragen von schwerer Rüstung reduziert
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Unempfindlichkeit]]
-- [[_Volksmerkmale#Zwergisches Kampftraining]]
-- [[_Volksmerkmale#Handwerkliches Geschick]]
-- [[_Volksmerkmale#Steingespür]]
-- [[_Volksmerkmale#Zwergische Zähigkeit]]
+- [[Dunkelsicht]]
+- [[Unempfindlichkeit]]
+- [[Zwergisches Kampftraining]]
+- [[Handwerkliches Geschick]]
+- [[Steingespür]]
+- [[Zwergische Zähigkeit]]
 
 ### Alter
 Gebirgszwerge reifen in der gleichen Geschwindigketi wie Menschen heran, doch werden sie bis zu ihrem 50. Sommer als jung angesehen.

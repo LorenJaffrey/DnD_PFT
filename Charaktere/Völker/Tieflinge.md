@@ -42,9 +42,9 @@ Aas, Aufgabe, Bedauern, Exzellenz, Frech-heit, Furcht, Gebet, Hoffnung, Hoffnung
 - 9 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Höllische Resistenz]]
-- [[_Volksmerkmale#Infernalisches Erbe]]
+- [[Dunkelsicht]]
+- [[Höllische Resistenz]]
+- [[Infernalisches Erbe]]
 
 ### Alter
 Tieflinge werden genauso schnell erwachsen wie Menschen, leben jedoch einige wenige Jahre länger.

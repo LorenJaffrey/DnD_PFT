@@ -62,10 +62,10 @@ Als Leichtfuß-Halbling kannst du dich mühelos verstecken und sogar andere Leut
 -   7,5 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Halblingglück]]
-- [[_Volksmerkmale#Tapferkeit]]
-- [[_Volksmerkmale#Halblinggewandheit]]
-- [[_Volksmerkmale#Angeborene Verstohlenheit]]
+- [[Halblingglück]]
+- [[Tapferkeit]]
+- [[Halblinggewandheit]]
+- [[Angeborene Verstohlenheit]]
 
 ### Alter
 Ein Halbling erreicht mit 20 Jahren das Erwachsenenalter und lebt etwa 150 Jahre.
@@ -96,10 +96,10 @@ Als Stämmiger bist du zäher als andere Halblinge und verfügst über eine gewi
 -   7,5 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Halblingglück]]
-- [[_Volksmerkmale#Tapferkeit]]
-- [[_Volksmerkmale#Halblinggewandheit]]
-- [[_Volksmerkmale#Unempfindlichkeit]]
+- [[Halblingglück]]
+- [[Tapferkeit]]
+- [[Halblinggewandheit]]
+- [[Unempfindlichkeit]]
 
 ### Alter
 Ein Halbling erreicht mit 20 Jahren das Erwachsenenalter und lebt etwa 150 Jahre.

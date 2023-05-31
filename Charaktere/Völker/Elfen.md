@@ -67,12 +67,12 @@ Mondelfen (auch Silber- oder Grauelfen genannt) weisen eine wesentlich blassere,
 - 9 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Geschärfte Sinne]]
-- [[_Volksmerkmale#Feenblut]]
-- [[_Volksmerkmale#Trance]]
-- [[_Volksmerkmale#Elfische Waffenvertrautheit]]
-- [[_Volksmerkmale#Elfischer Zaubertrick]]
+- [[Dunkelsicht]]
+- [[Geschärfte Sinne]]
+- [[Feenblut]]
+- [[Trance]]
+- [[Elfische Waffenvertrautheit]]
+- [[Elfischer Zaubertrick]]
 
 ### Alter
 Obwohl Elfen etwa zur gleichen Zeit wie Menschen die körperliche Reife erreichen, geht ihr Verständnis des Erwachsenseins über rein physische Aspekte hinaus und schließt die Lebenserfahrung mit ein.
@@ -107,12 +107,12 @@ Die Haut der Waldelfen neigt zu kupferfarbenen Tönen, manchmal mit Spuren von G
 - 10,5 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Geschärfte Sinne]]
-- [[_Volksmerkmale#Feenblut]]
-- [[_Volksmerkmale#Trance]]
-- [[_Volksmerkmale#Elfische Waffenvertrautheit]]
-- [[_Volksmerkmale#Deckmantel der Wildnis]]
+- [[Dunkelsicht]]
+- [[Geschärfte Sinne]]
+- [[Feenblut]]
+- [[Trance]]
+- [[Elfische Waffenvertrautheit]]
+- [[Deckmantel der Wildnis]]
 
 ### Alter
 Obwohl Elfen etwa zur gleichen Zeit wie Menschen die körperliche Reife erreichen, geht ihr Verständnis des Erwachsenseins über rein physische Aspekte hinaus und schließt die Lebenserfahrung mit ein.
@@ -146,13 +146,13 @@ Der Kult der Göttin Lolth, der Königin der Spinnen, hat einige der ältestren 
 - 9 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Überlegene Dunkelsicht]]
-- [[_Volksmerkmale#Geschärfte Sinne]]
-- [[_Volksmerkmale#Feenblut]]
-- [[_Volksmerkmale#Trance]]
-- [[_Volksmerkmale#Empfindlichkeit gegenüber Sonnenlicht]]
-- [[_Volksmerkmale#Drow Magie]]
-- [[_Volksmerkmale#Drow Waffenvertrautheit]]
+- [[Überlegene Dunkelsicht]]
+- [[Geschärfte Sinne]]
+- [[Feenblut]]
+- [[Trance]]
+- [[Empfindlichkeit gegenüber Sonnenlicht]]
+- [[Drow Magie]]
+- [[Drow Waffenvertrautheit]]
 
 ### Alter
 Obwohl Elfen etwa zur gleichen Zeit wie Menschen die körperliche Reife erreichen, geht ihr Verständnis des Erwachsenseins über rein physische Aspekte hinaus und schließt die Lebenserfahrung mit ein.

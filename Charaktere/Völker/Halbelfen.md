@@ -31,9 +31,9 @@ Halbelfen verwenden entweder die menschliche oder die elfische Namensgebung. Als
 - 9 Meter
 
 ### Volksmerkmale
-- [[_Volksmerkmale#Dunkelsicht]]
-- [[_Volksmerkmale#Feenblut]]
-- [[_Volksmerkmale#Vielseitigkeit]]
+- [[Dunkelsicht]]
+- [[Feenblut]]
+- [[Vielseitigkeit]]
 
 ### Alter
 Halbelfen entwickeln sich in der gleichen Geschwindigkeit wie Menschen und erreichen das Erwachsenenalter mit etwas 20 Jahren. Sie leben jedoch viel länger als Menschen und werden oft älter als 180 Jahre.
