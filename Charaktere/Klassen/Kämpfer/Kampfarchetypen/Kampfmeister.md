@@ -94,7 +94,7 @@ Wähle eine verbündete Kreatur aus, die dich sehen oder hören kann, und wende 
 Bewegt sich eine Kreatur in Reichweite einer von dir geführten Nahkampfwaffe, kannst du die Kreatur mit dieser Waffe als [[Zug#Reaktion]] angreifen, wenn du dafür einen [[Kampfmeister#Überlegenheitswürfel]] verbrauchst. Trifft dein Angriff, füge das Ergebnis des [[Kampfmeister#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]] der Waffe hinzu.
 
 #### Schneller Wurf
-Du kannst einen [[Kampfmeister#Überlegenheitswürfel]] verbrauchen, um als [[Zug#Bonusaktion]] einen [[Fernkampfangriff]] mit einer #Waffe/Wurf auszuführen. Die Waffe zu ziehen darf dabei Teil des Angriffs sein. 
+Du kannst einen [[Kampfmeister#Überlegenheitswürfel]] verbrauchen, um als [[Zug#Bonusaktion]] einen [[Fernkampfangriff]] mit [[Wurfwaffen]] auszuführen. Die Waffe zu ziehen darf dabei Teil des Angriffs sein. 
 Triffst du, addiere das Ergebnis des [[Kampfmeister#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]] deiner Waffe.
 
 #### Schwitzkasten

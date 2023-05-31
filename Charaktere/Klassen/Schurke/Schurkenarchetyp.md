@@ -1,8 +1,6 @@
 ---
-aliases: Schurkenarchetyp, Schurkenarchetypen, Subklasse Schurke, Subklassen Schurke
+aliases: Schurkenarchetypen, Subklasse Schurke, Subklassen Schurke
 ---
-## Schurkenarchetypen
-
 | Schurkenarchetyp | Beschreibung                                | Quelle                                     |
 | ---------------- | ------------------------------------------- | ------------------------------------------ |
 | Arkaner Betrüger | Zauber (Verzauberung, Illusion)             | #Source/Players_Handbook S.107             |
