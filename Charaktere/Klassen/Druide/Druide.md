@@ -44,7 +44,7 @@ Rüstungen:
 Waffen:
 - [[Knüppel]]
 - [[Dolch]] 
-- [[Wurfpfeil]]
+- [[Wurfmesser]]
 - [[Wurfspeer]] 
 - [[Streitkolben]]
 - [[Kampfstab]]

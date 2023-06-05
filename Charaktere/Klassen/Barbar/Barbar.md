@@ -59,7 +59,7 @@ aliases: Barbaren
 	- [[Weisheit#Wahrnehmung]]
 
 ## Ausrüstung
-- [[Zweihändige Axt]] oder beliebige [[Kriegswaffen|Kriegswaffe]]
+- [[Zweihandaxt]] oder beliebige [[Kriegswaffen|Kriegswaffe]]
 - zwei [[Beil]] oder beliebige [[Einfache Waffen]]
 - 4 [[Wurfspeer]]e 
 - [[Ausrüstungssets#Entdeckerausrüstung]]
