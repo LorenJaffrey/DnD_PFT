@@ -1,4 +1,4 @@
-siehe auch #Source/Players_Handbook  S.145
+siehe auch Players Handbook  S.145
 
 ## Rüstungsklasse
 Das Tragen von Rüstungen verleiht dem Träger einen entsprechend Basis-Rüstungsklasse (RK).

@@ -11,7 +11,7 @@ aliases: Barbaren
 |:-----:|:-------------------:|:-------------------:| --------------------------------------------------------------- |
 |   1   |          2          |         +2          | [[Kampfrausch]], [[Ungerüstete Verteidigung]]                   |
 |   2   |          2          |         +2          | [[Rücksichtsloser Angriff]], [[Gefahrengespür]]                 |
-|   3   |          3          |         +2          | [[Urtümliche Pfade|Urtümlicher Pfad]], [[Urwissen]]          |
+|   3   |          3          |         +2          | [[Urtümlicher Pfad]], [[Urwissen]]          |
 |   4   |          3          |         +2          | [[Attributswerterhöhung]] oder [[Talente\|Talent]]   |
 |   5   |          3          |         +2          | [[Zusätzlicher Angriff]], [[Schnelle Bewegung]] |
 |   6   |          4          |         +2          | Pfadmerkmal                                                     |

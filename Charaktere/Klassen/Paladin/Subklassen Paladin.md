@@ -7,14 +7,14 @@ aliases: Heiliger Schwur, Heilige Schwüre, Subklasse Paladin
 
 ## Klostertraditionen
 
-| Klostertradition     | Beschreibung                              | Quelle                                     |
-| -------------------- | ----------------------------------------- | ------------------------------------------ |
-| Schwur der Alten     | Naturfokus, Resistenz                     | #Source/Players_Handbook S.100             |
-| Schwur der Hingabe   | Heiliger Ritter, Schutz vor Beeinflussung | #Source/Players_Handbook S.101             |
-| Schwur der Rache     | Schaden, Debuffs                          | #Source/Players_Handbook S.102             |
-| Schwur der Eroberung | Schrecken, Psychischer Schaden            | #Source/Xanathars_Ratgeber_für_Alles  S.45 |
-| Schwur der Läuterung | Pazifismus, Tank, Resistenz               | #Source/Xanathars_Ratgeber_für_Alles S.46  |
-| Schwur des Ruhmes    | Heldentum, Buffs                          | #Source/Tashas_Kessel_mit_Allem S.62       |
-| Schwur der Wachsamen | Magie- und Elementarabwehr                | #Source/Tashas_Kessel_mit_Allem S.63       |
-| Eidbrecher           | Schrecken, Nekromantie, Resistenz         | #Source/Dungeon_Masters_Guide S.97         |
-| Schwur der Krone     |                                           | #Source/Die_Schwertküste_Reisehandbuch            |
+| Klostertradition     | Beschreibung                              | Quelle                             |
+| -------------------- | ----------------------------------------- | ---------------------------------- |
+| Schwur der Alten     | Naturfokus, Resistenz                     | Players Handbook S.100             |
+| Schwur der Hingabe   | Heiliger Ritter, Schutz vor Beeinflussung | Players Handbook S.101             |
+| Schwur der Rache     | Schaden, Debuffs                          | Players Handbook S.102             |
+| Schwur der Eroberung | Schrecken, Psychischer Schaden            | Xanathars Ratgeber für Alles  S.45 |
+| Schwur der Läuterung | Pazifismus, Tank, Resistenz               | Xanathars Ratgeber für Alles S.46  |
+| Schwur des Ruhmes    | Heldentum, Buffs                          | Tashas Kessel mit_Allem S.62       |
+| Schwur der Wachsamen | Magie- und Elementarabwehr                | Tashas Kessel mit_Allem S.63       |
+| Eidbrecher           | Schrecken, Nekromantie, Resistenz         | Dungeon Masters Guide S.97         |
+| Schwur der Krone     |                                           | Die Schwertküste Reisehandbuch     |

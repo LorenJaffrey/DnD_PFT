@@ -1,14 +1,14 @@
 ---
 aliases: Schurkenarchetypen, Subklasse Schurke, Subklassen Schurke
 ---
-| Schurkenarchetyp | Beschreibung                                | Quelle                                     |
-| ---------------- | ------------------------------------------- | ------------------------------------------ |
-| Arkaner Betrüger | Zauber (Verzauberung, Illusion)             | #Source/Players_Handbook S.107             |
-| [[Assassine]]    | Verkleidung, Gift, Todesstoß                | #Source/Players_Handbook S.108             |
-| [[Dieb]]         | Beweglichkeit, Fingerfertigkeit, Schleichen | #Source/Players_Handbook S.108             |
-| Ermittler        | Wahrnehmung, Nachforschungen                | #Source/Xanathars_Ratgeber_für_Alles  S.49 |
-| Strippenzieher   | Verkleidung, Unterstützung, Fälschung       | #Source/Xanathars_Ratgeber_für_Alles S.50  |
-| Späher           | Beweglichkeit, Hinterhalt                   | #Source/Xanathars_Ratgeber_für_Alles S.51  |
-| Draufgänger      | Zweikampf, Charme                           | #Source/Xanathars_Ratgeber_für_Alles S.51  |
-| Phantom          | Geister, Todesessenz, Spektralgestalt       | #Source/Tashas_Kessel_mit_Allem S.65       |
-| Seelenmesser     | Telepathie, Psi-Klingen                     | #Source/Tashas_Kessel_mit_Allem S.66       |
+| Schurkenarchetyp | Beschreibung                                | Quelle                             |
+| ---------------- | ------------------------------------------- | ---------------------------------- |
+| Arkaner Betrüger | Zauber (Verzauberung, Illusion)             | Players Handbook S.107             |
+| [[Assassine]]    | Verkleidung, Gift, Todesstoß                | Players Handbook S.108             |
+| [[Dieb]]         | Beweglichkeit, Fingerfertigkeit, Schleichen | Players Handbook S.108             |
+| Ermittler        | Wahrnehmung, Nachforschungen                | Xanathars Ratgeber für Alles  S.49 |
+| Strippenzieher   | Verkleidung, Unterstützung, Fälschung       | Xanathars Ratgeber für Alles S.50  |
+| Späher           | Beweglichkeit, Hinterhalt                   | Xanathars Ratgeber für Alles S.51  |
+| Draufgänger      | Zweikampf, Charme                           | Xanathars Ratgeber für Alles S.51  |
+| Phantom          | Geister, Todesessenz, Spektralgestalt       | Tashas Kessel mit Allem S.65       |
+| Seelenmesser     | Telepathie, Psi-Klingen                     | Tashas Kessel mit Allem S.66       |
