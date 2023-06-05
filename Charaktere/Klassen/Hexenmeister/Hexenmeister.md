@@ -6,7 +6,7 @@
 
 | Stufe | Merkmale                                                                            | Zaubertricks | Bekannte Zauber | Zauberplätze | Grad der Zauberplätze | Bekannte Anrufungen |
 |:-----:| ----------------------------------------------------------------------------------- |:------------:|:---------------:|:------------:|:---------------------:|:-------------------:|
-|   1   | [[_Subklassen Hexenmeister\|Außerweltlicher Schutzherr]], [[Paktmagie]]             |      2       |        2        |      1       |           1           |         ---         |
+|   1   | [[Außerweltlicher Schutzherr|Außerweltlicher Schutzherr]], [[Paktmagie]]             |      2       |        2        |      1       |           1           |         ---         |
 |   2   | [[Segen des Pakts]]                                                                 |      2       |        3        |      2       |           1           |         ---         |
 |   3   | [[Schauerliche Anrufungen]]                                                         |      2       |        4        |      2       |           2           |          2          |
 |   4   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        5        |      2       |           2           |          2          |

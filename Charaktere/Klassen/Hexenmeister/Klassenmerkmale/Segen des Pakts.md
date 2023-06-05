@@ -11,7 +11,7 @@ tags:
 	- bei Tod des Besitzers zerfällt das Buch zu Asche
 
 ## Pakt der Kette
-- erlernt den Zauber [[Zauber#Vertrauten finden]] der als [[Zauber wirken#Ritual]] gewirkt werden kann
+- erlernt den Zauber [[Vertrauten finden]] der als [[Zauber wirken#Ritual]] gewirkt werden kann
 	- zählt nicht gegen die maximale Zahl der bekannten Zauber und verbraucht keine [[Zauber wirken#Zauberplätze]]
 	- neben den normalen Formen kann außerdem eine der folgenden gewählt werden:
 		- Imp (Teufelchen)

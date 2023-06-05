@@ -19,7 +19,6 @@ Sowohl Kreaturen als auch Gegenstände, Orte oder Bereiche können als Ziel gew�
 ### Angriff ausführen
 [[Angriff#Angriffswurf]] ausführen. Bei einem Treffer wird der Effekt (meist Schaden) abgehandelt.
 
-
 ## Angriffswurf
 W20 + [[_Attribut#Attributsmodifikator]] + [[Übung|Übungsbonus]] muss größer als [[Rüstung#Rüstungsklasse]] des Ziels sein.
 
