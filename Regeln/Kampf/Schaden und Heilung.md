@@ -10,7 +10,19 @@ Bei Waffenangriffen wird der [[_Attribut#Attributsmodifikator]] der auf den [[An
 Fügt ein Zauber oder Effekt mehreren Zielen Schaden zu, wird der Schaden einmal für alle Ziele ausgewürfelt.
 
 ## Kritischer Treffer
-Bei kritischen Treffern wird die doppelte Anzahl an Würfeln für den Schaden geworfen. Modifikatoren werden nicht verdoppelt.
+Kritische Treffer verursachen den maximalen Schaden der zu werfenden Würfel.
+Zusätzlich wird die gleiche Zahl an Schadenswürfeln zusätzlich geworfen und zum verursachten Schaden addiert.
+Außerdem wird ein zusätzlicher Effekt basierend auf der Schadensart der benutzten Waffe
+
+### Niederschlag (Wucht)
+Ein kritischer Treffer mit #Schaden/Wucht schlägt den Gegner mit einem massiven Schlag zu Boden. Das Ziel erhält den Zustand [[Zustände#Liegend]]und wird 1,5m in einen angrenzenden, nicht besetzten Bereich zurückgedrängt.
+
+### Erschöpfender Treffer (Stich)
+Ein kritischer Treffer mit #Schaden/Stich fügt dem Gegner eine tiefe erschöpfende Wunde zu.
+Das Ziel erhält eine Stufe [[Zustände#Erschöpft]]
+
+### Spalten (Hieb)
+Wenn das Ziel auf 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] reduziert wurde durch den  Angriff, überschüssiger Schaden verbleibt und der [[Angriff#Angriffswurf]] ausreicht einen weiteren angrenzenden Gegner in #Reichweite/Nahkampfreichweite zu treffen wird der überschüssige Schaden auf diesen übertragen.
 
 ## Schadensarten
 - #Schaden/Säure 
