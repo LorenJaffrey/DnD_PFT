@@ -8,6 +8,7 @@ aliases: Talent, Talente
 ## Übersicht
 
 ```dataview
-TABLE voraussetzung as "Voraussetzung", alias AS "Alis"
+TABLE voraussetzung as "Voraussetzung", alias AS "Alias"
 FROM #Talent
+SORT file.name ASC
 ```
