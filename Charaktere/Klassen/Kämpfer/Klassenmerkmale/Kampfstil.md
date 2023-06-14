@@ -1,5 +1,8 @@
-## Kampfstil
-
+---
+aliases:
+tags:
+- Merkmale/Klasse/Kämpfer
+---
 ### Abfangen
 - muss [[Einfache Waffen]], [[Kriegswaffen]] oder [[Rüstung#Schild]] tragen
 - wenn Kreatur in #Reichweite/Nahkampfreichweite angegriffen wird kann [[Zug#Reaktion]] verwendet werden um erlittenen Schden um 1W10 + Übungsbonus zu reduzieren
