@@ -19,7 +19,7 @@ Kreaturen können sich in einem Zug mit ihrer [[Bewegung#Bewegungsrate]] bewegen
 
 ## Bonusaktion
 - maximal 1 Bonusaktion pro Zug
-- kann eingesetzt werden wenn eine Fähigkeit, ein Merkmal oder [[Zauber]] dies ausdrücklich erwähnt
+- kann eingesetzt werden wenn eine Fähigkeit, ein Merkmal oder Zauber dies ausdrücklich erwähnt
 
 ## Reaktion
 Bestimmte Spezialfähigkeiten, Zauber und Situationen ermöglichen eine besondere Reaktion.

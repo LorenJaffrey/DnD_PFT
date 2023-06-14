@@ -4,7 +4,7 @@ tags:
 - Talent/Zauber
 voraussetzung: "Fähigkeit, mindestens einen Zauber zu wirken"
 ---
-Voraussetzung: Fähigkeit, mindestens einen [[Zauber]] zu wirken
+Voraussetzung: Fähigkeit, mindestens einen Zauber zu wirken
 
 Wähle eine der folgenden Schadensarten: #Schaden/Feuer, #Schaden/Kälte, #Schaden/Blitz, #Schaden/Säure oder #Schaden/Schall. 
 - Deine Zauber ignorieren [[Schaden und Heilung#Schadensresistenz]] der gewählten Schadensart. 

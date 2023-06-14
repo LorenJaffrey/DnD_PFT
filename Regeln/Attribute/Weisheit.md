@@ -53,4 +53,4 @@ Beispiele:
 - herausfinden ob eine scheinbar lebende oder tote Kreatur untot ist
 
 ## Attribut zum Zauberwirken
-[[Druide|Druide]], [[Kleriker|Kleriker]] und [[Waldläufer]] benutzen Weisheit als [[_Attribut|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte [[Zauber]] und den Bonus auf den [[Zauber wirken#Angriffswurf]].
+[[Druide|Druide]], [[Kleriker|Kleriker]] und [[Waldläufer]] benutzen Weisheit als [[_Attribut|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauber wirken#Angriffswurf]].

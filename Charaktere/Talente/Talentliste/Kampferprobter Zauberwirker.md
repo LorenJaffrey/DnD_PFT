@@ -4,7 +4,7 @@ tags:
 - Talent/Zauber
 voraussetzung: "Fähigkeit, mindestens einen Zauber zu wirken"
 ---
-Voraussetzung: Fähigkeit, mindestens einen [[Zauber]] zu wirken
+Voraussetzung: Fähigkeit, mindestens einen Zauber zu wirken
 
 Du hast trainiert, Zauber mitten im Kampf zu wirken, wodurch du Techniken erlernt hast, die dir folgende Vorzüge gewähren:
 - Du bist bei [[Rettungswurf]] auf [[Konstitution]] im [[Vorteil und Nachteil#Vorteil]], um beim Erleiden von Schaden nicht die [[Zauber wirken#Konzentration]] auf einen Zauber zu verlieren.
