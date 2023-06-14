@@ -27,11 +27,13 @@ Jeder kann Rüstung tragen, aber ohne entsprechende [[Übung]] gelten folgende N
 | gefütterte Rüstung       | [[Rüstung#Leichte Rüstung]]  |       11       |        |                                   | 8       | 5 [[Münzen#Goldmünzen]]    |
 | Lederrüstung             | [[Rüstung#Leichte Rüstung]]  |       11       |        | [[Vorteil und Nachteil#Nachteil]] | 10      | 10 [[Münzen#Goldmünzen]]   |
 | beschlagene Lederrüstung | [[Rüstung#Leichte Rüstung]]  |       12       |        |                                   | 13      | 45 [[Münzen#Goldmünzen]]   |
+|                          |                              |                |        |                                   |         |                            |
 | Fellrüstung              | [[Rüstung#Mittlere Rüstung]] |       12       |        |                                   | 12      | 10 [[Münzen#Goldmünzen]]   |
 | Kettenhemd               | [[Rüstung#Mittlere Rüstung]] |       13       |        |                                   | 20      | 50 [[Münzen#Goldmünzen]]   |
 | Schuppenpanzer           | [[Rüstung#Mittlere Rüstung]] |       14       |        | [[Vorteil und Nachteil#Nachteil]] | 45      | 50 [[Münzen#Goldmünzen]]   |
 | Brustplatte              | [[Rüstung#Mittlere Rüstung]] |       14       |        |                                   | 20      | 400 [[Münzen#Goldmünzen]]  |
 | Plattenpanzer            | [[Rüstung#Mittlere Rüstung]] |       15       |        | [[Vorteil und Nachteil#Nachteil]] | 40      | 750 [[Münzen#Goldmünzen]]  |
+|                          |                              |                |        |                                   |         |                            |
 | Ringpanzer               | [[Rüstung#Schwere Rüstung]]  |       14       |        | [[Vorteil und Nachteil#Nachteil]] | 40      | 30 [[Münzen#Goldmünzen]]   |
 | Kettenpanzer             | [[Rüstung#Schwere Rüstung]]  |       16       |        | [[Vorteil und Nachteil#Nachteil]] | 55      | 75 [[Münzen#Goldmünzen]]   |
 | Schienenpanzer           | [[Rüstung#Schwere Rüstung]]  |       17       | 13     | [[Vorteil und Nachteil#Nachteil]] | 60      | 200 [[Münzen#Goldmünzen]]  |
