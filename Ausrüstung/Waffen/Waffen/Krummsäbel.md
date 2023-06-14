@@ -16,9 +16,9 @@ verfügbarkeit: "Selten"
 ---
 ## Krummsäbel
 
-| Waffe      | Schaden | Art  | Hände | Größe | Eigenschaften                | 
-| ---------- | ------- | ---- |:-----:|:-----:| ---------------------------- |
-| Krummsäbel | 1W6     | Hieb |   1   |   2   | [[Finesse]], [[Schlaghagel]] |
+| Waffe      | Schaden | Art  | Hände | Größe | Eigenschaften                          |
+| ---------- | ------- | ---- |:-----:|:-----:| -------------------------------------- |
+| Krummsäbel | 1W6     | Hieb |   1   |   2   | [[Finesse]], [[Parieren]], [[Tödlich]] |
 
 ## Handel
 

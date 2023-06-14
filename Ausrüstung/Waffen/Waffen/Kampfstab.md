@@ -5,7 +5,7 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Einfache_Waffe
 - Waffe/Größe/Großwaffe
-schaden: "1W6"
+schaden: "1W8"
 schadensart: "Wucht"
 hände: 2
 größe: 4
@@ -18,7 +18,7 @@ verfügbarkeit: "häufig"
 
 | Waffe     | Schaden | Art   | Hände | Größe | Kategorie      | Eigenschaften             |
 | --------- | ------- | ----- |:-----:|:-----:| -------------- | ------------------------- |
-| Kampfstab | 1W6     | Wucht |   2   |   4   | Einfache Waffe | [[Parieren]], [[Finesse]] |
+| Kampfstab | 1W8     | Wucht |   2   |   4   | Einfache Waffe | [[Parieren]], [[Finesse]] |
 
 ## Handel
 

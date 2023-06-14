@@ -5,7 +5,7 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
-schaden: "1W8"
+schaden: "1W6"
 schadensart: "Hieb"
 hände: 1
 größe: 2
@@ -18,7 +18,7 @@ verfügbarkeit: "Selten"
 
 | Waffe    | Schaden | Art  | Hände | Größe | Eigenschaften             |
 | -------- | ------- | ---- |:-----:|:-----:| ------------------------- |
-| Falchion | 1W8     | Hieb |   1   |   2   | [[Finesse]], [[Parieren]] |
+| Falchion | 1W6     | Hieb |   1   |   2   | [[Parieren]], [[Tödlich]] |
 
 ## Handel
 

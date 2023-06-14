@@ -30,9 +30,9 @@ range3: "18(12)"
 
 ## Wurfmesser (Wurf)
 
-| Waffe      | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften                                                         |
-| ---------- | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | --------------------------------------------------------------------- |
-| Wurfmesser | 1W4     | Stich |   1   |   1   | 1,5(1) | 6(4)   | 18(12) | [[Wurfwaffe]], [[Leicht]], [[Finesse]], [[Kritisch]], [[Schlaghagel]] |
+| Waffe      | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften                                        |
+| ---------- | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | ---------------------------------------------------- |
+| Wurfmesser | 1W4     | Stich |   1   |   1   | 1,5(1) | 6(4)   | 18(12) | [[Wurfwaffe]], [[Leicht]], [[Finesse]], [[Kritisch]] |
 
 ## Handel
 
