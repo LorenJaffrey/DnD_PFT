@@ -10,5 +10,5 @@ aliases: Urtümliche Pfade, Subklasse Barbar, Subklassen Barbar
 | Pfad des Zeloten           | Religiöser Fanatiker, schwer zu töten, Buffs       | Offensiv / Tank | Xanathars Ratgeber für Alles S.11 |
 | Pfad der Bestie            | Verwandlung in Bestie                              | Offensiv        | Tashas Kessel mit Allem S.25      |
 | Pfad der wilden Magie      | Wilde Magie bricht im Kampfrausch aus              | Offensiv / Tank | Tashas Kessel mit Allem S.26      |
-| Pfad des Slayers (TBD)     | Kampf gegen Monster, Immun gegen Angst             | Offensiv        | Homebrew                          |
+| [[Pfad des Slayers]] (TBD)     | Kampf gegen Monster, Immun gegen Angst             | Offensiv        | Homebrew                          |
 | Pfad des Schlachtenwüters  |                                                    | Offensiv        | Die Schwertküste Reisehandbuch    |
