@@ -6,7 +6,7 @@ aliases: Barden
 ```
 
 ## Klassenbeschreibung
-#TODO 
+
 
 ## Origin Hooks
 

@@ -5,7 +5,7 @@ aliases: Paladine
 
 ```
 ## Klassenbeschreibung
-#TODO 
+
 
 ## Origin Hooks
 
