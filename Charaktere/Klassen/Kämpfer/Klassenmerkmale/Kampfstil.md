@@ -10,8 +10,8 @@ tags:
 ### Blinder Kampf
 - erhält Blindsicht mit 3m Reichweite
 - kann effektiv alles sehen was nicht in vollständiger Deckung ist
-- auch bei [[Zustände#Blind]] oder [[Sicht#Dunkelheit]]
-- wrikt sogar gegen [[Zustände#Unsichtbar]]e Kreaturen denen es nicht gelingt sich erfolgreich zu verstecken
+- auch bei [[Blind]] oder [[Sicht#Dunkelheit]]
+- wrikt sogar gegen [[Unsichtbar]]e Kreaturen denen es nicht gelingt sich erfolgreich zu verstecken
 
 ### Bogenschießen
 - +2 auf [[Angriff#Angriffswurf]] mit Fernkampfwaffen
