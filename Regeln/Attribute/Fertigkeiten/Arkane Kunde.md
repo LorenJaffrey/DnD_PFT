@@ -1,0 +1,11 @@
+---
+tags:
+- Fertigkeit/Intelligenz
+---
+Situationen in denen man sich an arkanes Wissen erinnern muss.
+Beispiele:
+- Zaubersprüche
+- magische Gegenstände
+- mystische Symbole
+- magische Schulen
+- Ebenen der Existenz und deren Bewohner

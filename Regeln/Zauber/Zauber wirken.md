@@ -85,7 +85,7 @@ Die maximale Anzahl der bekannten Zauber ergibt sich aus der entsprechenden Klas
 ### Vorbereitete Zauber
 Andere Zauberwirker (Druiden, Kleriker, Magieschmied, Magier und Paladine) müssen ihre Zauber vorbereiten, haben dafür aber eine größere Auswahl und Flexibilität.
 Sie kennen alle Zauber ihrer Klasse (Magier kennen nur die Zauber in ihrem Zauberbuch).
-Die maximale Anzahl der vorbereiteten Zauber ergibt sich aus der entsprechenden Klassentabelle + dem [[_Attribut#Attributsmodifikator]] zum Zauberwirken der jeweiligen Klasse.
+Die maximale Anzahl der vorbereiteten Zauber ergibt sich aus der entsprechenden Klassentabelle + dem [[Attribute#Attributsmodifikator]] zum Zauberwirken der jeweiligen Klasse.
 Die Liste der vorbereiteten Zauber kann bei jeder [[Rasten#Lange Rast]] geändert werden. Dies erfordert 1 Minuten in Gebet/Meditation pro Spruch und [[Zauber wirken#Zaubergrad]].
 
 ## Zauberplätze
@@ -108,7 +108,7 @@ Der [[Zauber wirken#Zaubergrad]] von Zaubertricks ist 0.
 Zauber wirken in Rüstung ist nur möglich wenn man in der getragenen Rüstung geübt ist.
 
 ## Angriffswurf
-W20 + [[Übung|Übungsbonus]] + [[_Attribut#Attributsmodifikator]] (primäres Zauberattribut)
+W20 + [[Übung|Übungsbonus]] + [[Attribute#Attributsmodifikator]] (primäres Zauberattribut)
 
 ## Zauberrettungswurf Schwierigkeitsgrad
-8 + [[Übung|Übungsbonus]] des Zaubernden +  [[_Attribut#Attributsmodifikator]] (primäres Zauberattribut des Zaubernden).
+8 + [[Übung|Übungsbonus]] des Zaubernden +  [[Attribute#Attributsmodifikator]] (primäres Zauberattribut des Zaubernden).

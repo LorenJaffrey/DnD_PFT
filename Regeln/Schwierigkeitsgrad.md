@@ -1,7 +1,6 @@
 ---
 aliases: SG
 ---
-
 | Schwierigkeit  | SG  |
 | -------------- | :-: |
 | Sehr einfach   | 5   |

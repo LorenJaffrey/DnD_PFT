@@ -26,9 +26,9 @@ Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Za
 Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je [[Zauber wirken#Zaubergrad]] pro Spruch.
 
 ## Attribut zum Zauberwirken
-Das [[_Attribut|Attribut]], mit dem du deine Druidenzauber wirkst, ist [[Weisheit]], da du deine Magie aus der Hingabe zur Natur und der Einheit mit ihr schöpfst.
+Das [[Attribute|Attribut]], mit dem du deine Druidenzauber wirkst, ist [[Weisheit]], da du deine Magie aus der Hingabe zur Natur und der Einheit mit ihr schöpfst.
 
-Immer wenn sich ein Zauber auf das zum Zauberwirken nötige [[_Attribut|Attribut]] bezieht, verwendest du [[Weisheit]]. 
+Immer wenn sich ein Zauber auf das zum Zauberwirken nötige [[Attribute|Attribut]] bezieht, verwendest du [[Weisheit]]. 
 Wird der [[Schwierigkeitsgrad]] für einen [[Rettungswurf]] gegen deine Druidenzauber bestimmt, ziehst du deinen [[Weisheit#Weisheitsmodifikator]] hinzu. Bei Angriffen mit deinen Druidenzaubern findet ebenfalls der [[Weisheit#Weisheitsmodifikator]] Anwendung.
 
 >[!info]

@@ -15,7 +15,7 @@ Außerdem musst du dein [[Handwerkszeug#Tüftlerwerkzeug]] einsetzen und den bei
 >[[Schwierigkeitsgrad|SG]] für Herstellung von [[Meistertüftler#Apparaturen]] = W20 + dein [[Übung|Übungsbonus]] mit [[Handwerkszeug#Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
 
 #### Vorbereitungswürfel
-Du besitzt 4 Vorbereitungswürfel, die W6 sind. Ein Vorbereitungswürfel wird nur bei einem erfolgreichen [[_Attribut|Attributswurf]] oder [[Angriff#Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Vorbereitungswürfel wenn du eine [[Rasten#Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Vorbereitungswürfel.
+Du besitzt 4 Vorbereitungswürfel, die W6 sind. Ein Vorbereitungswürfel wird nur bei einem erfolgreichen [[Attribute|Attributswurf]] oder [[Angriff#Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Vorbereitungswürfel wenn du eine [[Rasten#Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Vorbereitungswürfel.
 
 #### Rettungswürfe
 Manche deiner [[Meistertüftler#Apparaturen]] erfordern von deinem Ziel einen [[Rettungswurf]], um den Auswirkungen der [[Meistertüftler#Apparaturen]] zu widerstehen. Der [[Schwierigkeitsgrad]] des [[Rettungswurf]]s wird folgendermaßen berechnet:

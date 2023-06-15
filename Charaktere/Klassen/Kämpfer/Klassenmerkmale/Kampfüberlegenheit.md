@@ -27,7 +27,7 @@ Du kannst einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um ein
 
 ### Bedrohlicher Angriff
 Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] für den Versuch aufwenden, das Ziel zu verängstigen. Addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]]. Zusätzlich muss das Ziel des Angriffs einen [[Rettungswurf]] auf [[Weisheit]] ablegen. 
-Bei einem Misserfolg ist dein Gegner bis zum Ende deines nächsten Zuges von dir [[Zustände#Verängstigt]].
+Bei einem Misserfolg ist dein Gegner bis zum Ende deines nächsten Zuges von dir [[Verängstigt]].
 
 ### Doppelschlag
 Wenn du eine Kreatur mit einem Nahkampf-Waffenangriff triffst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um mit demselben Schlag eine zweite Kreatur zu treffen. Bestimme eine andere Kreatur innerhalb von 1,50 m um das ursprüngliche Ziel und innerhalb deiner #Reichweite.
@@ -40,16 +40,16 @@ Bei einem Misserfolg lässt dein Gegner einen Gegenstand, den du bestimmen darfs
 
 ### Fällender Angriff
 Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] für den Versuch aufwenden, das Ziel zu Fall zu bringen. Addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]].
-Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen [[Rettungswurf]] auf [[Stärke]] ablegen. Misslingt der Rettungswurf, wird das Ziel zu Boden geworfen und erhält den Zustand [[Zustände#Liegend]].
+Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen [[Rettungswurf]] auf [[Stärke]] ablegen. Misslingt der Rettungswurf, wird das Ziel zu Boden geworfen und erhält den Zustand [[Liegend]].
 
 ### Finte
 Du kannst in deinem [[Zug]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] und eine [[Zug#Bonusaktion]] aufwenden, um eine Finte zu schlagen. Bestimme eine Kreatur innerhalb einer Reichweite von 1,50 m als Ziel. In diesem [[Zug]] bist du bei deinem nächsten Angriff gegen diese Kreatur im [[Vorteil und Nachteil#Vorteil]]. Wenn der Angriff trifft, addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]].
 
 ### Gebieterische Erscheinung
-Wenn du einen Wurf auf [[Charisma#Auftreten]], [[Charisma#Einschüchtern]] oder [[Charisma#Überzeugen]] durchführst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis zu dem deines [[_Attribut|Attributswurf]]s addieren.
+Wenn du einen Wurf auf [[Auftreten]], [[Einschüchtern]] oder [[Überzeugen]] durchführst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis zu dem deines [[Attribute|Attributswurf]]s addieren.
 
 ### Hinterhalt
-Führst du einen Wurf auf [[Geschicklichkeit#Heimlichkeit]] oder einen [[Initiative|Initiativewurf]] aus, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und zum Ergebnis addieren, es sei denn, du bist [[Zustände#Kampfunfähig]].
+Führst du einen Wurf auf [[Heimlichkeit]] oder einen [[Initiative|Initiativewurf]] aus, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und zum Ergebnis addieren, es sei denn, du bist [[Kampfunfähig]].
 
 ### Lockvogeltaktik
 Innerhalb von 1,5 Metern einer bereitwilligen Kreatur kannst du in deinem Zug einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und den Platz mit dieser Kreatur wechseln.
@@ -92,13 +92,13 @@ Triffst du, addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfe
 
 ### Schwitzkasten
 Hast du in deinem Zug einen [[Nahkampfangriff]] gegen eine Kreatur durchgeführt, kannst du sofort danach versuchen, die Kreatur mit einer [[Zug#Bonusaktion]] zu packen, indem du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchst (siehe [[Nahkampfangriff#Ringen]]).
-Addiere das Ergebnis deines [[Kampfüberlegenheit#Überlegenheitswürfel]]s zu deinem Wurf auf [[Stärke#Athletik]].
+Addiere das Ergebnis deines [[Kampfüberlegenheit#Überlegenheitswürfel]]s zu deinem Wurf auf [[Athletik]].
 
 ### Stoßangriff
 Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um das Ziel zurückzudrängen. Addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]]. Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen [[Rettungswurf]] auf [[Stärke]] ablegen. Sollte der [[Rettungswurf]] misslingen, stößt du das Ziel bis zu 4,50 m von dir weg.
 
 ### Taktisches Abschätzen
-Du kannst bei einem Wurf auf [[Intelligenz#Geschichte]], [[Intelligenz#Nachforschungen]] oder [[Weisheit#Motiv erkennen]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis dem [[_Attribut|Attributswurf]] hinzufügen.
+Du kannst bei einem Wurf auf [[Geschichte]], [[Nachforschungen]] oder [[Motiv erkennen]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis dem [[Attribute|Attributswurf]] hinzufügen.
 
 ### Tänzelnde Beinarbeit
 Wenn du dich bewegst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um dessen Ergebnis für die Dauer dieser Bewegung deiner [[Rüstung#Rüstungsklasse]] hinzuzufügen.

@@ -1,5 +1,5 @@
 ---
-aliases: Attributswürfe, Attributswurf, Attribute, Attribut, Attributswürfen
+aliases: Attribut, Attributswurf, Attributswürfe, Attributswürfen
 ---
 ## Attributsmodifikator
 
@@ -8,7 +8,7 @@ aliases: Attributswürfe, Attributswurf, Attribute, Attribut, Attributswürfen
 | Attributsmodifikator | -5  |  -4   |  -3   |  -2   |  -1   |   +0    |   +1    |   +2    |   +3    |   +4    |   +5    |   +6    |   +7    |   +8    |   +9    | +10 |
 
 Wird fällig wenn eine Aktion ausgeführt wird bei der die Möglichkeit des Scheiterns besteht.
-W20 + [[_Attribut|Attributsmodifikator]] +/- Bonus/Malus
+W20 + Attributsmodifikator +/- Bonus/Malus
 
 ## Attribute
 - [[Stärke]]
@@ -19,13 +19,13 @@ W20 + [[_Attribut|Attributsmodifikator]] +/- Bonus/Malus
 - [[Charisma]]
 
 ## Passiver Attributswurf 
-10 + [[_Attribut#Attributsmodifikator]] + [[Vorteil und Nachteil#Vorteil]] (+5) + [[Vorteil und Nachteil#Nachteil]] (-5) + [[Übung|Übungsbonus]]
+10 + [[Attribute#Attributsmodifikator]] + [[Vorteil und Nachteil#Vorteil]] (+5) + [[Vorteil und Nachteil#Nachteil]] (-5) + [[Übung|Übungsbonus]]
 
 ## Wettstreit
-Gegeneinander gerichtete Attributswürfe (inkl Bonus/Malus und [[_Attribut|Attributsmodifikator]])
+Gegeneinander gerichtete Attributswürfe (inkl Bonus/Malus und [[Attribute|Attributsmodifikator]])
 
 ## Zusammenarbeit
-Verleiht [[Vorteil und Nachteil#Vorteil]] bei [[_Attribut|Attributswurf]] wenn ein Charakter einen anderen unterstützt.
+Verleiht [[Vorteil und Nachteil#Vorteil]] bei [[Attribute|Attributswurf]] wenn ein Charakter einen anderen unterstützt.
 Ein Charakter darf nur bei Tätigkeiten helfen die er auch alleine ausführen könnte.
 Ein Charakter darf nur bei Tätigkeiten helfen bei denen dies auch Sinn macht.
 

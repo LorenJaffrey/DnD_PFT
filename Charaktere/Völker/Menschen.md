@@ -108,13 +108,13 @@ Das an der Südküste der Inneren See beheimatete Volk der Turami ist im Allgeme
 ![[human.png|300]]
 
 ### Attributswerterhöhung
-- +1 auf zwei beliebige [[_Attribut|Attribute]]
+- +1 auf zwei beliebige [[Attribute]]
 
 ### Bewegungsrate
 - 9 Meter
 
 ### Volksmerkmale
-- [[Übung]] in einer beliebigen [[_Fertigkeiten|Fertigkeit]]
+- [[Übung]] in einer beliebigen [[Fertigkeiten|Fertigkeit]]
 - beliebiges [[Talente|Talent]]
 
 ### Alter

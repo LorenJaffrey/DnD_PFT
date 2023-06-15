@@ -9,7 +9,7 @@ Durch ausspielen der Rollen von Spieler und #GM ergeben sich soziale Interaktion
 Im Zuge dieser sozialen Interaktionen kann der #GM jederzeit einen [[Charisma|Charismawurf]] fordern.
 
 ### Fertigkeiten
-[[Charisma#Auftreten]]
-[[Charisma#Einschüchtern]]
-[[Charisma#Täuschen]]
-[[Charisma#Überzeugen]]
+[[Auftreten]]
+[[Einschüchtern]]
+[[Täuschen]]
+[[Überzeugen]]

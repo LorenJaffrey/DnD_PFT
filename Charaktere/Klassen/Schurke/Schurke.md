@@ -54,17 +54,17 @@ aliases: Schurken
 
 ### Fertigkeiten
 - vier nach Wahl:
-	- [[Stärke#Athletik]]
-	- [[Geschicklichkeit#Akrobatik]]
-	- [[Geschicklichkeit#Fingerfertigkeit]]
-	- [[Geschicklichkeit#Heimlichkeit]]
-	- [[Intelligenz#Nachforschungen]]
-	- [[Weisheit#Wahrnehmung]]
-	- [[Weisheit#Motiv erkennen]]
-	- [[Charisma#Auftreten]]
-	- [[Charisma#Einschüchtern]]
-	- [[Charisma#Überzeugen]]
-	- [[Charisma#Täuschen]]
+	- [[Athletik]]
+	- [[Akrobatik]]
+	- [[Fingerfertigkeit]]
+	- [[Heimlichkeit]]
+	- [[Nachforschungen]]
+	- [[Wahrnehmung]]
+	- [[Motiv erkennen]]
+	- [[Auftreten]]
+	- [[Einschüchtern]]
+	- [[Überzeugen]]
+	- [[Täuschen]]
 
 ## Ausrüstung
 - ein [[Rapier]] oder ein [[Kurzschwert]]

@@ -15,7 +15,7 @@ Bei magischen Gegenständen ist immer eine [[Aktion|Aktion]] notwendig.
 
 ### Helfen
 Einer anderen Kreatur bei einer [[Aktion|Aktion]] in diesem Zug helfen.
-Zielkreatur erhält [[Vorteil und Nachteil#Vorteil]] bei nächstem [[_Attribut|Attributswurf]].
+Zielkreatur erhält [[Vorteil und Nachteil#Vorteil]] bei nächstem [[Attribute|Attributswurf]].
 Beispiel: Finte ausführen um feindliche Kreatur abzulenken.
 
 ### Rückzug
@@ -30,10 +30,10 @@ Auch manche Monster haben Spezialfähigkeiten.
 
 ### Suchen
 Darauf konzentrieren etwas zu finden.
-Eventuell wird ein Wurf auf [[Weisheit]] ([[Wahrnehmung]]) oder [[Intelligenz#Nachforschungen]] fällig.
+Eventuell wird ein Wurf auf [[Weisheit]] ([[Wahrnehmung]]) oder [[Nachforschungen]] fällig.
 
 ### Verstecken
-Um sich zu verstecken wird ein Wurf auf [[Geschicklichkeit#Heimlichkeit]] fällig.
+Um sich zu verstecken wird ein Wurf auf [[Heimlichkeit]] fällig.
 Gewährt Vorzüge im Kampf ([[Angriff#Ungesehene Angreifer / Verteidiger]])
 
 ### Vorbereiten

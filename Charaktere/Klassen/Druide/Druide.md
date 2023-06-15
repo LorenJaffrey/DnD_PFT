@@ -62,14 +62,14 @@ Rettungswürfe:
 
 Fertigkeiten:
 - zwei nach Wahl:
-	- [[Intelligenz#Arkane Kunde]]
-	- [[Weisheit#Heilkunde]]
-	- [[Weisheit#Mit Tieren umgehen]]
-	- [[Weisheit#Motiv erkennen]]
-	- [[Intelligenz#Naturkunde]]
-	- [[Intelligenz#Religion]]
-	- [[Weisheit#Überlebenskunst]]
-	- [[Weisheit#Wahrnehmung]]
+	- [[Arkane Kunde]]
+	- [[Heilkunde]]
+	- [[Mit Tieren umgehen]]
+	- [[Motiv erkennen]]
+	- [[Naturkunde]]
+	- [[Religion]]
+	- [[Überlebenskunst]]
+	- [[Wahrnehmung]]
 
 ## Ausrüstung
 - [[Rüstung#Schild]] oder beliebige [[Einfache Waffen|Einfache Waffe]]

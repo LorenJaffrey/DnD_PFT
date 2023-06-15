@@ -11,4 +11,4 @@ Wähle eine der folgenden Arten von Kreaturen:
 - Unholde
 - Monstrositäten
 
-Während dein [[Kampfrausch]] aktiv ist, kannst du dessen Schadensbonus gegen die gewählte Art von Kreatur verdoppeln. Außerdem bist du im Vorteil auf Würfe auf [[Weisheit#Überlebenskunst]] um diese Kreaturen aufzuspüren.
+Während dein [[Kampfrausch]] aktiv ist, kannst du dessen Schadensbonus gegen die gewählte Art von Kreatur verdoppeln. Außerdem bist du im Vorteil auf Würfe auf [[Überlebenskunst]] um diese Kreaturen aufzuspüren.

@@ -25,7 +25,7 @@ Halbelfen verwenden entweder die menschliche oder die elfische Namensgebung. Als
 
 ### Attributswerterhöhung
 - +2 [[Charisma]]
-- +1 auf zwei beliebige [[_Attribut|Attribute]]
+- +1 auf zwei beliebige [[Attribute]]
 
 ### Bewegungsrate
 - 9 Meter

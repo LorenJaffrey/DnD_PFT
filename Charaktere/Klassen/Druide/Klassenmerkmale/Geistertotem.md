@@ -16,9 +16,9 @@ Zusätzlich sind du und deine Verbündeten in der Aura im [[Vorteil und Nachteil
 ## Geist des Falken
 Der Geist des Falken ist ein vollendeter Jäger, der dir und deinen Verbündeten mit seinen scharfen Augen beisteht. 
 Wenn eine Kreatur einen [[Angriff#Angriffswurf]] gegen ein Ziel in der Geisteraura durchführt, kannst du deine [[Zug#Reaktion]] nutzen, damit die Kreatur bei dem [[Angriff#Angriffswurf]] im [[Vorteil und Nachteil#Vorteil]] ist.
-Zusätzlich sind du und deine Verbündeten in der Aura im [[Vorteil und Nachteil#Vorteil]] bei Würfen auf [[Weisheit#Wahrnehmung]].
+Zusätzlich sind du und deine Verbündeten in der Aura im [[Vorteil und Nachteil#Vorteil]] bei Würfen auf [[Wahrnehmung]].
 
 ## Geist des Einhorns
 Der Geist des Einhorns gewährt jenen in seiner Nähe Schutz. 
-Du und deine Verbündeten sind im Vorteil bei allen [[_Attribut|Attributswürfen]], um Kreaturen in der Geisteraura zu entdecken. 
+Du und deine Verbündeten sind im Vorteil bei allen [[Attribute|Attributswürfen]], um Kreaturen in der Geisteraura zu entdecken. 
 Wenn du außerdem einen Zauber wirkst, der [[Zauber wirken#Zauberplätze]] verbraucht und bei einer Kreatur innerhalb oder außerhalb der Aura [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] wiederherstellt, erhält jede Kreatur deiner Wahl in der Aura zusätzlich [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] in Höhe deiner Druidenstufe zurück.

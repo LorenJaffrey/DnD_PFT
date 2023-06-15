@@ -5,10 +5,10 @@ Es könnte sich als Schatten an der Wand manifestieren, als haarsträubender Alp
 
 ## Übung
 - zwei der folgenden Fertigkeiten:
-	- [[Intelligenz#Arkane Kunde]]
-	- [[Intelligenz#Nachforschungen]]
-	- [[Intelligenz#Religion]]
-	- [[Weisheit#Überlebenskunst]]
+	- [[Arkane Kunde]]
+	- [[Nachforschungen]]
+	- [[Religion]]
+	- [[Überlebenskunst]]
 
 ## Sprachen
 - eine beliebige [[Sprachen#Standardsprachen]]

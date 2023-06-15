@@ -51,12 +51,12 @@ aliases: Barbaren
 
 ### Fertigkeiten
 - zwei nach Wahl:
-	- [[Stärke#Athletik]]
-	- [[Charisma#Einschüchtern]]
-	- [[Weisheit#Mit Tieren umgehen]]
-	- [[Intelligenz#Naturkunde]]
-	- [[Weisheit#Überlebenskunst]]
-	- [[Weisheit#Wahrnehmung]]
+	- [[Athletik]]
+	- [[Einschüchtern]]
+	- [[Mit Tieren umgehen]]
+	- [[Naturkunde]]
+	- [[Überlebenskunst]]
+	- [[Wahrnehmung]]
 
 ## Ausrüstung
 - [[Zweihandaxt]] oder beliebige [[Kriegswaffen|Kriegswaffe]]

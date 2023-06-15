@@ -1,7 +1,7 @@
 ---
 alias: Übungsbonus, Expertise, Expertisebonus
 ---
-Bonus auf bestimmte geübte [[_Attribut|Attributswürfe]], [[Angriff#Angriffswurf]] und [[Rettungswurf|Rettungswürfe]]  abhängig von der Stufe.
+Bonus auf bestimmte geübte [[Attribute|Attributswürfe]], [[Angriff#Angriffswurf]] und [[Rettungswurf|Rettungswürfe]]  abhängig von der Stufe.
 
 |  Stufe  | Übungsbonus | Expertisebonus |
 |:-------:|:-----------:|:--------------:|

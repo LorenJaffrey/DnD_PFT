@@ -48,13 +48,13 @@ Rettungswürfe:
 
 Fertigkeiten:
 - zwei nach Wahl:
-	- [[Intelligenz#Arkane Kunde]]
-	- [[Charisma#Einschüchtern]]
-	- [[Intelligenz#Geschichte]]
-	- [[Intelligenz#Nachforschungen]]
-	- [[Intelligenz#Naturkunde]]
-	- [[Intelligenz#Religion]]
-	- [[Charisma#Täuschen]]
+	- [[Arkane Kunde]]
+	- [[Einschüchtern]]
+	- [[Geschichte]]
+	- [[Nachforschungen]]
+	- [[Naturkunde]]
+	- [[Religion]]
+	- [[Täuschen]]
 
 ## Ausrüstung
 - [[Leichte Armbrust]] oder beliebige [[Einfache Waffen|Einfache Waffe]]

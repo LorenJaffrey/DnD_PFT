@@ -26,11 +26,11 @@ Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen
 
 ### Klettern
 [[Bewegung#Bewegungsrate]]  halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Klettern.
-#GM entscheidet ob [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) notwendig wird (z.B. Klettern auf rutschiger Oberfläche oder ohne Griffmöglichkeiten).
+#GM entscheidet ob Wurf auf [[Athletik]] notwendig wird (z.B. Klettern auf rutschiger Oberfläche oder ohne Griffmöglichkeiten).
 
 ### Schwimmen
 [[Bewegung#Bewegungsrate]]  halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Schwimmen.
-#GM entscheidet ob [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) notwenidg wird (z.B. Vorankommen in rauhen Gewässern).
+#GM entscheidet ob Wurf auf [[Athletik]] notwendig wird (z.B. Vorankommen in rauhen Gewässern).
 
 ### Kriechen
 [[Bewegung#Bewegungsrate]]  halbiert.
@@ -39,13 +39,13 @@ Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen
 #### Weitsprung
 Maximale Entfernung = [[Stärke]] x 0,3m (min. 3 Meter Anlauf); [[Stärke]] x 0,15m (ohne Anlauf)
 Jeder gesprungene Meter kostet einen Meter [[Bewegung#Bewegungsrate]].
-Überspringen eines niedrigen Hindernisses erfordert [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) gegen [[Schwierigkeitsgrad]] 10.
-Bei Landung in schwierigem Gelände wird erfolgreicher [[Geschicklichkeit|Geschicklichkeitswurf]] ([[Geschicklichkeit#Akrobatik]]) gegen [[Schwierigkeitsgrad]] 10 nötig.
+Überspringen eines niedrigen Hindernisses erfordert Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad]] 10.
+Bei Landung in schwierigem Gelände wird erfolgreicher Wurf auf [[Akrobatik]] gegen [[Schwierigkeitsgrad]] 10 nötig.
 
 #### Hochsprung
 Maximale Höhe = [[Stärke#Stärkemodifikator]] x 0,3m (min. 3 Meter Anlauf); [[Stärke#Stärkemodifikator]] x 0,15m (ohne Anlauf)
 Jeder gesprungene Meter kostet einen Meter [[Bewegung#Bewegungsrate]] .
-Unter Umständen kann der #GM einen [[Stärke|Stärkewurf]] ([[Stärke#Athletik]]) erlauben um höher zu springen.
+Unter Umständen kann der #GM einen Wurf auf [[Athletik]] erlauben um höher zu springen.
 Arme nach oben strecken um zu greifen ermöglicht maximale Reichweite = Sprunghöhe + 1,5 x Körpergröße
 
 ### Fliegen 
