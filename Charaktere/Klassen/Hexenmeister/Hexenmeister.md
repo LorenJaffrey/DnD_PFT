@@ -40,7 +40,7 @@ Waffen:
 - [[Einfache Waffen]]
 
 Werkzeuge
-- [[Handwerkszeug#Kräuterkunde-Ausrüstung]]
+- [[Kräuterkunde-Ausrüstung]]
 
 Rettungswürfe:
 - [[Weisheit]]

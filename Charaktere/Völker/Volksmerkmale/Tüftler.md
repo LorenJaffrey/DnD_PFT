@@ -3,7 +3,7 @@ alias:
 tags:
 - Merkmale/Volk
 ---
-- Übung mit [[Handwerkszeug#Tüftlerwerkzeug]]
+- Übung mit [[Tüftlerwerkzeug]]
 - kann 1 Stunde und Material im Wert von 10 [[Münzen#Goldmünzen]]  investieren um ein winziges aufziehbares Gerät konstruieren
 	- [[Rüstung#Rüstungsklasse]] 5
 	- 1 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]]

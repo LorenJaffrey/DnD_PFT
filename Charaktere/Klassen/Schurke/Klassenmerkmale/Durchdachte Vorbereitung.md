@@ -9,10 +9,10 @@ Du kannst außerdem eine dir bekannte Apparatur durch eine andere ersetzen nachd
 
 #### Herstellung
 Um eine [[Meistertüftler#Apparaturen]] herzustellen benötigst du dort gelisteten Materialien und Zeit.
-Außerdem musst du dein [[Handwerkszeug#Tüftlerwerkzeug]] einsetzen und den beim Apparat angegebenen [[Schwierigkeitsgrad]] überbieten.
+Außerdem musst du dein [[Tüftlerwerkzeug]] einsetzen und den beim Apparat angegebenen [[Schwierigkeitsgrad]] überbieten.
 
 >[!info]
->[[Schwierigkeitsgrad|SG]] für Herstellung von [[Meistertüftler#Apparaturen]] = W20 + dein [[Übung|Übungsbonus]] mit [[Handwerkszeug#Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
+>[[Schwierigkeitsgrad|SG]] für Herstellung von [[Meistertüftler#Apparaturen]] = W20 + dein [[Übung|Übungsbonus]] mit [[Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
 
 #### Vorbereitungswürfel
 Du besitzt 4 Vorbereitungswürfel, die W6 sind. Ein Vorbereitungswürfel wird nur bei einem erfolgreichen [[Attribute|Attributswurf]] oder [[Angriff#Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Vorbereitungswürfel wenn du eine [[Rasten#Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Vorbereitungswürfel.

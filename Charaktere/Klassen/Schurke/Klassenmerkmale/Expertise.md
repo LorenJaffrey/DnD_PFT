@@ -3,4 +3,4 @@ aliases:
 tags:
 - Merkmale/Klasse/Schurke
 ---
-Du erhältst [[Übung|Expertise]] in zwei [[Fertigkeiten]] oder [[Handwerkszeug#Diebeswerkzeug]] in denen du [[Übung]] hast.
+Du erhältst [[Übung|Expertise]] in zwei [[Fertigkeiten]] oder [[Diebeswerkzeug]] in denen du [[Übung]] hast.

@@ -54,7 +54,7 @@ Waffen:
 - [[Speer]]
 
 Werkzeuge
-- [[Handwerkszeug#Kräuterkunde-Ausrüstung]]
+- [[Kräuterkunde-Ausrüstung]]
 
 Rettungswürfe:
 - [[Intelligenz]]
