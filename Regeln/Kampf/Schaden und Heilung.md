@@ -14,15 +14,18 @@ Kritische Treffer verursachen den maximalen Schaden der zu werfenden Würfel.
 Zusätzlich wird die gleiche Zahl an Schadenswürfeln zusätzlich geworfen und zum verursachten Schaden addiert.
 Außerdem wird ein zusätzlicher Effekt basierend auf der Schadensart der benutzten Waffe
 
-### Niederschlag (Wucht)
-Ein kritischer Treffer mit #Schaden/Wucht schlägt den Gegner mit einem massiven Schlag zu Boden. Das Ziel erhält den Zustand [[Zustände#Liegend]]und wird 1,5m in einen angrenzenden, nicht besetzten Bereich zurückgedrängt.
+### Erschüttern (Wucht)
+Wenn du einen [[Schaden und Heilung#Kritischer Treffer]] erzielst, der einer Kreatur #Schaden/Wucht zufügt, wird ein [[Angriff#Angriffswurf]] gegen diese Kreatur bis zum Beginn deines nächsten Zugs mit einem [[Vorteil und Nachteil#Vorteil]] ausgeführt.
+Dieser Effekt kann nur bei Kreaturen eingesetzt werden die nicht mehr als eine [[Größenkategorie]] größer sind als du.
 
 ### Erschöpfender Treffer (Stich)
 Ein kritischer Treffer mit #Schaden/Stich fügt dem Gegner eine tiefe erschöpfende Wunde zu.
-Das Ziel erhält eine Stufe [[Zustände#Erschöpft]]
+Das Ziel erhält eine Stufe [[Erschöpft]].
+Dieser Effekt kann nur bei Kreaturen eingesetzt werden die nicht mehr als eine [[Größenkategorie]] größer sind als du.
 
 ### Spalten (Hieb)
-Wenn das Ziel auf 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] reduziert wurde durch den  Angriff, überschüssiger Schaden verbleibt und der [[Angriff#Angriffswurf]] ausreicht einen weiteren angrenzenden Gegner in #Reichweite/Nahkampfreichweite zu treffen wird der überschüssige Schaden auf diesen übertragen.
+Wenn du einen [[Schaden und Heilung#Kritischer Treffer]] erzielst, der #Schaden/Hieb verursacht ist das Ziel bis zum Beginn deines nächsten Zugs bei allen [[Angriff#Angriffswurf]] im [[Vorteil und Nachteil#Nachteil]].
+Dieser Effekt kann nur bei Kreaturen eingesetzt werden die nicht mehr als eine [[Größenkategorie]] größer sind als du.
 
 ## Schadensarten
 - #Schaden/Säure 
