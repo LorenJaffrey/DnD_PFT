@@ -8,11 +8,19 @@ tags:
 - Zauber/Klasse/Magier
 - Zauber/Klasse/Zauberer
 - Zauber/Skalierbar
+grad: 1
+schule: "Hervorrufung"
+zeitaufwand: "Aktion"
+reichweite: "Würfel 4,5 Meter"
+verbal: "X"
+geste: "X"
+dauer: "unmittelbar"
+skalierbar: "X"
 ---
 *Zauber des 1. Grades der Hervorrufung*
 
 Zeitaufwand: 1 [[Zug#Aktion]]
-Reichweite: selbst (Würfel mit 4,5m Kantenlänge)
+Reichweite: selbst (Würfel mit 4,5m / 3 Kästchen Kantenlänge)
 Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: unmittelbar
 

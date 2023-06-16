@@ -6,6 +6,16 @@ tags:
 - Zauber/Klasse/Barde
 - Zauber/Klasse/Kleriker
 - Zauber/Skalierbar
+grad: 1
+schule: "Verzauberung"
+zeitaufwand: "Aktion"
+reichweite: "9 Meter"
+verbal: "X"
+geste: "X"
+material: "X"
+dauer: "1m"
+konzentration: "X"
+skalierbar: "X"
 ---
 *Zauber des 1. Grades der Verzauberung*
 

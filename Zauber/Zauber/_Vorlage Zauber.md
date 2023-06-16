@@ -5,6 +5,18 @@ tags:
 - Zauber/Schule
 - Zauber/Klasse
 - Zauber/Skalierbar
+- Zauber/Ritual
+grad: X
+schule: "Schule"
+zeitaufwand: "Aktion"
+reichweite: "Kegel 4,5 Meter"
+verbal: "X"
+geste: "X"
+material: "X"
+dauer: "unmittelbar"
+konzentration: "X"
+ritual: "X"
+skalierbar: "X"
 ---
 *Zauber des x. Grades der ...*
 

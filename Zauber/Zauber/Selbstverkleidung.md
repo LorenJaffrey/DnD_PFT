@@ -7,6 +7,13 @@ tags:
 - Zauber/Klasse/Magier
 - Zauber/Klasse/Magieschmied
 - Zauber/Klasse/Zauberer
+grad: 1
+schule: "Illusion"
+zeitaufwand: "Aktion"
+reichweite: "selbst"
+verbal: "X"
+geste: "X"
+dauer: "1h"
 ---
 *Zauber des 1. Grades der Illusion*
 

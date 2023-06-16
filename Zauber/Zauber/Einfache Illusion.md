@@ -7,11 +7,18 @@ tags:
 - Zauber/Klasse/Hexenmeister
 - Zauber/Klasse/Magier
 - Zauber/Klasse/Zauberer
+grad: 0
+schule: "Illusion"
+zeitaufwand: "Aktion"
+reichweite: "9 Meter"
+geste: "X"
+material: "X"
+dauer: "unmittelbar"
 ---
 *Zaubertrick der Illusion*
 
 Zeitaufwand: 1 [[Zug#Aktion]]
-Reichweite: 9m
+Reichweite: 9m / 6 Kästchen
 Komponenten: [[Zauber wirken#Geste (G)]], [[Zauber wirken#Material (M)]] (ein Stück Vlies), 
 Wirkungsdauer: unmittelbar
 

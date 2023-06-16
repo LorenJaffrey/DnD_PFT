@@ -4,11 +4,18 @@ tags:
 - Zauber/Grad/Zaubertrick
 - Zauber/Schule/Verwandlung
 - Zauber/Klasse/Druide
+grad: 0
+schule: "Verwandlung"
+zeitaufwand: "Aktion"
+reichweite: "9 Meter"
+verbal: "X"
+geste: "X"
+dauer: "unmittelbar"
 ---
 *Zaubertrick der Verwandlung*
 
 Zeitaufwand: 1 [[Zug#Aktion]]
-Reichweite: 9m
+Reichweite: 9m / 6 Kästchen
 Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: unmittelbar
 

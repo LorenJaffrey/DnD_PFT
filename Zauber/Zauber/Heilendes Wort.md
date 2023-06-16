@@ -7,6 +7,13 @@ tags:
 - Zauber/Klasse/Druide
 - Zauber/Klasse/Kleriker
 - Zauber/Skalierbar
+grad: 1
+schule: "Hervorrufung"
+zeitaufwand: "Bonusaktion"
+reichweite: "18 Meter"
+verbal: "X"
+dauer: "unmittelbar"
+skalierbar: "X"
 ---
 *Zauber des 1. Grades der Hervorrufung*
 

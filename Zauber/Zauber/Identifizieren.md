@@ -7,6 +7,14 @@ tags:
 - Zauber/Klasse/Magier
 - Zauber/Klasse/Magieschmied
 - Zauber/Skalierbar
+grad: 1
+schule: "Erkenntnis"
+zeitaufwand: "1m"
+reichweite: "Berührung"
+verbal: "X"
+geste: "X"
+material: "100 GM"
+dauer: "unmittelbar"
 ---
 *Zauber des 1. Grades der Erkenntnismagie*
 

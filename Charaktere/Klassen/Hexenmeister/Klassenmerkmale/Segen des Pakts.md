@@ -5,7 +5,7 @@ tags:
 ---
 ## Pakt des Buches
 - erhält #Ausrüstung/Zauberbuch 
-	- enthält drei [[Zauber nach Grad#Zaubertricks]] von beliebigen Klassen
+	- enthält drei [[Zaubertricks]] von beliebigen Klassen
 	- können beliebig gewirkt werden solange im Besitz des Buches
 	- bei Verlust kann eine Zeremonie von 1 Stunde Dauer ausgeführt werden (im Rahmen einer [[Rasten#Kurze Rast]] oder [[Rasten#Lange Rast]]) um eine neue Kopie zu erhalten und die alte zu zerstören
 	- bei Tod des Besitzers zerfällt das Buch zu Asche

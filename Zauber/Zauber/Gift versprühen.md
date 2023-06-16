@@ -9,6 +9,14 @@ tags:
 - Zauber/Klasse/Magieschmied
 - Zauber/Klasse/Zauberer
 - Zauber/Skalierbar
+grad: 0
+schule: "Hervorrufung"
+zeitaufwand: "Aktion"
+reichweite: "3 Meter"
+verbal: "X"
+geste: "X"
+dauer: "unmittelbar"
+skalierbar: "X"
 ---
 *Zaubertrick der Hervorrufung*
 

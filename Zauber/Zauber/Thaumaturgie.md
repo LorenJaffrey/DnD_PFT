@@ -4,6 +4,12 @@ tags:
 - Zauber/Grad/Zaubertrick
 - Zauber/Schule/Verwandlung
 - Zauber/Klasse/Kleriker
+grad: 0
+schule: "Verwandlung"
+zeitaufwand: "Aktion"
+reichweite: "9 Meter"
+verbal: "X"
+dauer: "1m"
 ---
 *Zaubertrick der Verwandlung*
 

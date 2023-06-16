@@ -6,12 +6,19 @@ tags:
 - Zauber/Klasse/Magier
 - Zauber/Klasse/Zauberer
 - Zauber/Skalierbar
+grad: 1
+schule: "Hervorrufung"
+zeitaufwand: "Aktion"
+reichweite: "Kegel 4,5 Meter"
+verbal: "X"
+geste: "X"
+dauer: "unmittelbar"
+skalierbar: "X"
 ---
-[[Zauber nach Schule#Hervorrufungszauber]]
-[[Zauber nach Grad#Zauber des 1. Grades]]
+*Zauber des 1. Grades der Hervorrufung*
 
 Zeitaufwand: 1 [[Zug#Aktion]]
-Reichweite: selbst (Kegel von 4,5m)
+Reichweite: selbst (Kegel von 4,5m / 3 Kästchen)
 Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: unmittelbar
 
@@ -22,3 +29,7 @@ Das Feuer entzündet alle brennbaren Gegenstände im [[Zauber wirken#Wirkungsber
 
 ### Auf höheren Graden
 Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W6.
+
+## Zauberlisten
+- [[Magier]]
+- [[Zauberer]]

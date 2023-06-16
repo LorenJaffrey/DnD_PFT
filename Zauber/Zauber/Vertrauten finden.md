@@ -5,6 +5,14 @@ tags:
 - Zauber/Schule/Beschwörung
 - Zauber/Klasse/Magier
 - Zauber/Ritual
+grad: 1
+schule: "Beschwörung"
+zeitaufwand: "1h"
+reichweite: "3 Meter"
+verbal: "X"
+geste: "X"
+material: "10 GM"
+dauer: "unmittelbar"
 ---
 *Zauber des 1. Grades der Beschwörung*
 

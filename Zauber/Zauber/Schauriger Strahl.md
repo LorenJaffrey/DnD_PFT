@@ -5,6 +5,14 @@ tags:
 - Zauber/Schule/Hervorrufung
 - Zauber/Klasse/Hexenmeister
 - Zauber/Skalierbar
+grad: 0
+schule: "Hervorrufung"
+zeitaufwand: "Aktion"
+reichweite: "36 Meter"
+verbal: "X"
+geste: "X"
+dauer: "unmittelbar"
+skalierbar: "X"
 ---
 *Zaubertrick der Hervorrufung*
 

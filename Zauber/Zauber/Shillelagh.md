@@ -3,6 +3,13 @@ tags:
 - Zauber/Grad/Zaubertrick
 - Zauber/Schule/Verwandlung
 - Zauber/Klasse/Druide
+grad: 0
+schule: "Verwandlung"
+zeitaufwand: "Bonusaktion"
+reichweite: "Berührung"
+verbal: "X"
+geste: "X"
+dauer: "1m"
 ---
 *Zaubertrick der Verwandlung*
 
