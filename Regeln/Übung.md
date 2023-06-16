@@ -1,5 +1,5 @@
 ---
-alias: Übungsbonus, Expertise, Expertisebonus
+alias: Übungsbonus, Expertise, Expertisebonus, geübt
 ---
 Bonus auf bestimmte geübte [[Attribute|Attributswürfe]], [[Angriff#Angriffswurf]] und [[Rettungswurf|Rettungswürfe]]  abhängig von der Stufe.
 

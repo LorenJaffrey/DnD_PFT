@@ -6,7 +6,7 @@
 Jeder Charakter hat ein Maximum an [[Trefferpunkte und Trefferwürfel#Trefferpunkte]].
 
 ## Schadenswurf
-Bei Waffenangriffen wird der [[_Attribut#Attributsmodifikator]] der auf den [[Angriff#Angriffswurf]] angewendet wurde auch auf den Schaden angerechnet.
+Bei Waffenangriffen wird der [[Attribute#Attributsmodifikator]] der auf den [[Angriff#Angriffswurf]] angewendet wurde auch auf den Schaden angerechnet.
 Fügt ein Zauber oder Effekt mehreren Zielen Schaden zu, wird der Schaden einmal für alle Ziele ausgewürfelt.
 
 ## Kritischer Treffer

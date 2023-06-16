@@ -65,7 +65,6 @@ aliases: Barbaren
 - [[Ausrüstungssets#Entdeckerausrüstung]]
 
 ## Klassenbeschreibung
-
 Ein großer Stammeskrieger der Menschen schreitet in Felle gehüllt und mit seiner Axt in der Hand durch den Schneesturm. Er lacht, als er auf den Frostriesen zustürmt, der es gewagt hat, die Elchherde seiner Leute zu rauben.
 Eine Halborkin knurrt den neuesten Herausforderer an, der ihre Autorität über den wilden Stamm anzweifelt, und bereitet sich darauf vor, sein Genick mit bloßen Händen zu brechen - so wie bei den sechs vorherigen Rivalen.
 Mit Schaum vor dem Mund donnert ein Zwerg seinen Helm in das Gesicht eines Drow-Kriegers, wirbelt dann herum und treibt seinen gepanzerten Ellbogen in den Magen eines weiteren Gegners.
