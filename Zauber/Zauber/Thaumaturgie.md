@@ -19,7 +19,9 @@ Komponenten: [[Zauber wirken#Verbal (V)]]
 Wirkungsdauer: bis zu 1 Minute
 
 ## Beschreibung
-Du manifestierst ein kleines Wunder in Reichweite, ein Zeichen übernatürlicher Macht. Du kannst einen der folgenden magischen Effekte erzeugen:
+*Du manifestierst ein kleines Wunder in Reichweite, ein Zeichen übernatürlicher Macht.*
+
+Du kannst einen der folgenden magischen Effekte erzeugen:
 - Deine Stimme dröhnt für 1 Minute dreimal so laut wie normal.
 - Du lässt Flammen flackern, heller oder dunkler werden oder die Farbe wechseln. Der Effekt hält 1 Minute an.
 - Du erzeugst für 1 Minute harmlose Erschütterungen des Bodens.

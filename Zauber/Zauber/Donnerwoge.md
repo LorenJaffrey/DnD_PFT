@@ -8,6 +8,8 @@ tags:
 - Zauber/Klasse/Magier
 - Zauber/Klasse/Zauberer
 - Zauber/Skalierbar
+- Zauber/Art/Schaden/Schall
+- Zauber/Wirkungsbereich/Bereich/Würfel
 grad: 1
 schule: "Hervorrufung"
 zeitaufwand: "Aktion"
@@ -25,7 +27,9 @@ Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
-Eine Woge aus donnernder Kraft geht von dir aus. Jede Kreatur in einem Würfel mit 4,50 m Kantenlänge muss einen [[Rettungswurf]] auf [[Konstitution]] ablegen. Bei einem Misserfolg erleidet eine Kreatur 2W8 #Schaden/Schall und wird 3 m von dir weggestoßen.
+*Eine Woge aus donnernder Kraft geht von dir aus.* 
+
+Jede Kreatur in einem Würfel mit 4,50 m Kantenlänge muss einen [[Rettungswurf]] auf [[Konstitution]] ablegen. Bei einem Misserfolg erleidet eine Kreatur 2W8 #Schaden/Schall und wird 3 m von dir weggestoßen.
 
 Bei einem erfolgreichen [[Rettungswurf]] erleidet die Kreatur nur den halben Schaden und wird nicht weggestoßen.
 

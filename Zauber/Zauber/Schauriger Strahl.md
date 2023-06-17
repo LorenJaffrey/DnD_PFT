@@ -5,6 +5,8 @@ tags:
 - Zauber/Schule/Hervorrufung
 - Zauber/Klasse/Hexenmeister
 - Zauber/Skalierbar
+- Zauber/Art/Schaden/Energie
+- Zauber/Wirkungsbereich/Geschoss
 grad: 0
 schule: "Hervorrufung"
 zeitaufwand: "Aktion"
@@ -22,7 +24,9 @@ Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
-Ein Strahl aus knisternder Energie schießt auf eine Kreatur in Reichweite zu. Führe einen Fernkampf-Zauberangriff gegen das Ziel aus. Bei einem Treffer erleidet es 1W10 #Schaden/Energie.
+*Ein Strahl aus knisternder Energie schießt auf eine Kreatur in Reichweite zu.*
+
+Führe einen Fernkampf-Zauberangriff gegen das Ziel aus. Bei einem Treffer erleidet es 1W10 #Schaden/Energie.
 
 ### Auf höheren Stufen
 Der Zauber erschafft mehr als einen Strahl, wenn du höhere Stufen erreichst: 

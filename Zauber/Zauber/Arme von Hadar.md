@@ -5,6 +5,8 @@ tags:
 - Zauber/Schule/Beschwörung
 - Zauber/Klasse/Hexenmeister
 - Zauber/Skalierbar
+- Zauber/Art/Schaden/Nekrotisch
+- Zauber/Wirkungsbereich/Bereich/Kreis
 grad: 1
 schule: "Beschwörung"
 zeitaufwand: "Aktion"
@@ -26,6 +28,7 @@ Wirkungsdauer: unmittelbar
 
 ## Beschreibung
 *Du berufst dich auf die Macht Hadars, des Dunklen Hungers.*
+
 Tentakel aus finsterer Energie brechen aus dir hervor und schlagen auf alle Kreaturen innerhalb von 3 m ein. Jede Kreatur in diesem Bereich muss einen [[Rettungswurf]] auf [[Stärke]] ablegen. 
 Bei einem Misserfolg erleidet ein Ziel 2W6 #Schaden/Nekrotisch und kann bis zu seinem nächsten [[Zug]] keine [[Zug#Reaktion]] verwenden. Bei einem erfolgreichen [[Rettungswurf]] nimmt die Kreatur halben Schaden, erleidet aber keine anderen Auswirkungen.
 

@@ -7,6 +7,7 @@ tags:
 - Zauber/Klasse/Druide
 - Zauber/Klasse/Kleriker
 - Zauber/Skalierbar
+- Zauber/Art/Heilung
 grad: 1
 schule: "Hervorrufung"
 zeitaufwand: "Bonusaktion"

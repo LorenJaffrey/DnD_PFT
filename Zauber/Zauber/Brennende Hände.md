@@ -6,6 +6,8 @@ tags:
 - Zauber/Klasse/Magier
 - Zauber/Klasse/Zauberer
 - Zauber/Skalierbar
+- Zauber/Art/Schaden/Feuer
+- Zauber/Wirkungsbereich/Bereich/Kegel
 grad: 1
 schule: "Hervorrufung"
 zeitaufwand: "Aktion"
@@ -23,7 +25,9 @@ Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
-Du streckst die Hände aus, mit sich berührenden Daumen und ausgebreiteten Fingern, und eine dünne Fläche aus Feuer schießt aus deinen ausgestreckten Fingerspitzen. Jede Kreatur in einem Kegel von 4,50 m muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] ablegen. Bei einem Misserfolg erleidet das Ziel 3W6 #Schaden/Feuer oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
+*Du streckst die Hände aus, mit sich berührenden Daumen und ausgebreiteten Fingern, und eine dünne Fläche aus Feuer schießt aus deinen ausgestreckten Fingerspitzen.*
+
+Jede Kreatur in einem Kegel von 4,50 m muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] ablegen. Bei einem Misserfolg erleidet das Ziel 3W6 #Schaden/Feuer oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
 
 Das Feuer entzündet alle brennbaren Gegenstände im [[Zauber wirken#Wirkungsbereich]], die nicht getragen oder in der Hand gehalten werden.
 

@@ -23,7 +23,9 @@ Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
 Wirkungsdauer: 1 Stunde
 
 ## Beschreibung
-Mit diesem Zauber veränderst du dein Aussehen - inklusive deiner Kleidung, Rüstung, Waffen und anderen Besitztümer an deiner Person. Er bleibt für die Wirkungsdauer bestehen, wenn du keine [[Zug#Aktion]] verwendest, um ihn vorzeitig aufzuheben.
+*Mit diesem Zauber veränderst du dein Aussehen - inklusive deiner Kleidung, Rüstung, Waffen und anderen Besitztümer an deiner Person.*
+
+Er bleibt für die Wirkungsdauer bestehen, wenn du keine [[Zug#Aktion]] verwendest, um ihn vorzeitig aufzuheben.
 
 Du kannst dich bis zu 30 cm kleiner oder größer erscheinen lassen sowie dick oder dünn beziehungsweise irgendetwas dazwischen. Deinen grundlegenden Körpertyp kannst du nicht ändern, du musst also eine Gestalt annehmen, welche die gleiche Anordnung von Gliedmaßen besitzt. Ansonsten bestimmst du, wie die Illusion aussieht.
 
