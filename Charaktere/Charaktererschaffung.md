@@ -1,4 +1,4 @@
-1. [[_Übersicht Völker|Volk]]
+1. [[Völker|Volk]]
 	1. Eine Attributserhöhung darf gegen eine andere getauscht werden die noch nicht erhöht wurde.
 2. [[Klassenübersicht|Klasse]]
 	1. [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] zu Beginn = Maximaler Würfelwert

@@ -20,7 +20,7 @@ Manche deiner Manöver erfordern von deinem Ziel einen [[Rettungswurf]], um den 
 
 ### Ablenkender Schlag
 Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um deinen Gegner abzulenken und deinen Verbündeten eine Angriffsfläche zu verschaffen. Addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]] zum [[Schaden und Heilung#Schadenswurf]].
-Der nächste [[Angriff#Angriffswurf]] gegen das Ziel von einem anderen Angreifer als dir selbst ist im [[Vorteil und Nachteil#Vorteil]], falls die entsprechende [[Zug#Aktion]] vor Beginn deines nächsten [[Zug]]es ausgeführt wird.
+Der nächste [[Angriff#Angriffswurf]] gegen das Ziel von einem anderen Angreifer als dir selbst ist im [[Vorteil und Nachteil|Vorteil]], falls die entsprechende [[Zug#Aktion]] vor Beginn deines nächsten [[Zug]]es ausgeführt wird.
 
 ### Ausfallschritt
 Du kannst einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um einem Nahkampf-Waffenangriff in deinem Zug 1,50 m mehr Reichweite zu verleihen. Wenn du triffst, zählst du das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]] hinzu.
@@ -43,7 +43,7 @@ Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüb
 Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen [[Rettungswurf]] auf [[Stärke]] ablegen. Misslingt der Rettungswurf, wird das Ziel zu Boden geworfen und erhält den Zustand [[Liegend]].
 
 ### Finte
-Du kannst in deinem [[Zug]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] und eine [[Zug#Bonusaktion]] aufwenden, um eine Finte zu schlagen. Bestimme eine Kreatur innerhalb einer Reichweite von 1,50 m als Ziel. In diesem [[Zug]] bist du bei deinem nächsten Angriff gegen diese Kreatur im [[Vorteil und Nachteil#Vorteil]]. Wenn der Angriff trifft, addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]].
+Du kannst in deinem [[Zug]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] und eine [[Zug#Bonusaktion]] aufwenden, um eine Finte zu schlagen. Bestimme eine Kreatur innerhalb einer Reichweite von 1,50 m als Ziel. In diesem [[Zug]] bist du bei deinem nächsten Angriff gegen diese Kreatur im [[Vorteil und Nachteil|Vorteil]]. Wenn der Angriff trifft, addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]].
 
 ### Gebieterische Erscheinung
 Wenn du einen Wurf auf [[Auftreten]], [[Einschüchtern]] oder [[Überzeugen]] durchführst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis zu dem deines [[Attribute|Attributswurf]]s addieren.
@@ -62,14 +62,14 @@ Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüb
 Diese Kreatur kann ihre [[Zug#Reaktion]] nutzen, um sich die Hälfte ihrer [[Bewegung#Bewegungsrate]] zu bewegen, ohne [[Nahkampfangriff#Gelegenheitsangriff]] durch das Ziel deines [[Angriff]]s auszulösen.
 
 ### Parieren
-Wenn eine andere Kreatur dir Schaden mit einem Waffenangriff zufügt, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] und deine Reaktion aufwenden, um den Schaden zu reduzieren. Senke den Schaden um das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s + deinen Geschicklich-keitsmodifikator.
+Wenn eine andere Kreatur dir Schaden mit einem Waffenangriff zufügt, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] und deine Reaktion aufwenden, um den Schaden zu reduzieren. Senke den Schaden um das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s + deinen Geschicklichkeitsmodifikator.
 
 ### Präzisionsangriff
 Wenn du einen Waffenangriff gegen eine Kreatur ausführst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um dessen Ergebnis zum Angriffswurf zu addieren. Du kannst dieses Manöver vor oder nach dem [[Angriff#Angriffswurf]] ausführen, musst es jedoch bevor die Auswirkungen des Angriffs angewendet werden.
 
 ### Provozierender Angriff
 Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um das Ziel zu einer Attacke gegen dich zu verleiten. Addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]]. Zusätzlich muss das Ziel einen [[Rettungswurf]] auf [[Weisheit]] ablegen. 
-Bei einem Misserfolg ist das Ziel bis zum Ende deines nächsten Zuges bei jedem [[Angriff#Angriffswurf]], der nicht dir gilt, im [[Vorteil und Nachteil#Nachteil]].
+Bei einem Misserfolg ist das Ziel bis zum Ende deines nächsten Zuges bei jedem [[Angriff#Angriffswurf]], der nicht dir gilt, im [[Vorteil und Nachteil|Nachteil]].
 
 ### Riposte
 Wenn eine Kreatur dich mit einem Nahkampf-Waffenangriff verfehlt, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] und deine [[Zug#Reaktion]] aufwenden, um einen Nahkampf-Waffenangriff gegen die Kreatur auszuführen. Triffst du, addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]].
@@ -80,7 +80,7 @@ Wähle eine verbündete Kreatur aus, die dich sehen oder hören kann.
 Diese Kreatur erhält [[Trefferpunkte und Trefferwürfel#Temporäre Trefferpunkte]] in Höhe des Ergebnisses des [[Kampfüberlegenheit#Überlegenheitswürfel]]s + deines [[Charisma#Charismamodifikator]]s.
 
 ### Schlag des Befehlshabers
-Wenn du in deinem [[Zug]] als [[Zug#Aktion]] [[Aktion#Angriff]] wählst, kannst du auf einen deiner Angriffe verzichten und eine [[Zug#Bonusaktion]] verwenden, um einen Kameraden zum Ausfall zu motivieren. 
+Wenn du in deinem [[Zug]] als [[Zug#Aktion]] [[Angriff]] wählst, kannst du auf einen deiner Angriffe verzichten und eine [[Zug#Bonusaktion]] verwenden, um einen Kameraden zum Ausfall zu motivieren. 
 Wähle eine verbündete Kreatur aus, die dich sehen oder hören kann, und wende einen [[Kampfüberlegenheit#Überlegenheitswürfel]] auf. Die Kreatur kann sofort ihre [[Zug#Reaktion]] verwenden, um einen Waffenangriff auszuführen, bei dem das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s auf den [[Schaden und Heilung#Schadenswurf]] addiert wird.
 
 ### Schlagfertig

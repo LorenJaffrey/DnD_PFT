@@ -28,7 +28,7 @@ tags:
 
 ### Leibwache
 - muss [[Rüstung#Schild]] tragen
-- wenn Kreatur in #Reichweite/Nahkampfreichweite angegriffen wird kann [[Zug#Reaktion]] verwendet werden damit [[Angriff#Angriffswurf]] im [[Vorteil und Nachteil#Nachteil]] ist
+- wenn Kreatur in #Reichweite/Nahkampfreichweite angegriffen wird kann [[Zug#Reaktion]] verwendet werden damit [[Angriff#Angriffswurf]] im [[Vorteil und Nachteil|Nachteil]] ist
 
 ### Überlegene Technik
 #TODO 

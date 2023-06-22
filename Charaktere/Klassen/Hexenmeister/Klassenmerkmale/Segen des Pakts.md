@@ -18,10 +18,10 @@ tags:
 		- Pseudodrache
 		- Quasit
 		- Feengeist
-	- bei Nutzung einer [[Aktion#Angriff]] Aktion kann statt des Anwenders stattdessen der Vertraute angreifen indem dieser seine [[Zug#Reaktion]] verwendet
+	- bei Nutzung einer [[Angriff]] Aktion kann statt des Anwenders stattdessen der Vertraute angreifen indem dieser seine [[Zug#Reaktion]] verwendet
 
 ## Pakt der Klinge
-- kann durch Einsatz einer [[Zug#Aktionen Aktion]] eine Paktwaffe in der freien Hand erscheinen lassen
+- kann durch Einsatz einer [[Zug#Aktion]] eine Paktwaffe in der freien Hand erscheinen lassen
 	- Form der Paktwaffe kann jedes Mal frei bestimmt werden
 	- hat immer [[Übung]] im Umgang mit der Waffe
 	- gilt als #Magischer_Gegenstand/Waffe bezüglich [[Schaden und Heilung#Schadensresistenz]] gegen nicht-magische Waffen und nicht-magischen Schaden

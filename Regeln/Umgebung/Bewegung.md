@@ -4,23 +4,8 @@ aliases: Bewegen
 ```toc
 ```
 ## Bewegungsrate
-Die Bewegunsgrate wird meist durch die [[Rasse]] festgelegt und beträgt in den meisten Fällen 9m pro [[Zug]].
+Die Bewegungsgrate wird meist durch die [[Rasse]] festgelegt und beträgt in den meisten Fällen 9m pro [[Zug]].
 Es kann auch eine separate Bewegungsrate für eine bestimmte Fortbewegungsart existieren.
-
-## Bewegung aufteilen
-Bewegung kann beliebig mit [[Zug#Aktion]] kombiniert werden.
-- Bewegung -> Aktion
-- Aktion -> Bewegung
-- Bewegung -> Aktion -> Bewegung
-- Bewegung -> Angriff -> Bewegung -> Angriff -> Bewegung
-
-## Um andere Kreaturen herumbewegen
-Kreaturen können sich um befreundete Kreaturen herumbewegen.
-Kreaturen können sich um feindliche Kreaturen herumbewegen wenn diese zwei [[Größenkategorie]] größer oder kleiner sind als sie selbst.
-Wenn eine Kreatur die #Reichweite/Nahkampfreichweite einer feindlichen Kreatur verlässt provoziert dies einen [[Nahkampfangriff#Gelegenheitsangriff]].
-
-## Reisen
-Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen
 
 ## Spezielle Bewegungsarten
 
@@ -30,12 +15,13 @@ Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen
 
 ### Schwimmen
 [[Bewegung#Bewegungsrate]]  halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Schwimmen.
-#GM entscheidet ob Wurf auf [[Athletik]] notwendig wird (z.B. Vorankommen in rauhen Gewässern).
+#GM entscheidet ob Wurf auf [[Athletik]] notwendig wird (z.B. Vorankommen in rauen Gewässern).
 
 ### Kriechen
 [[Bewegung#Bewegungsrate]]  halbiert.
 
 ### Springen
+
 #### Weitsprung
 Maximale Entfernung = [[Stärke]] x 0,3m (min. 3 Meter Anlauf); [[Stärke]] x 0,15m (ohne Anlauf)
 Jeder gesprungene Meter kostet einen Meter [[Bewegung#Bewegungsrate]].
@@ -71,3 +57,6 @@ Beispiele:
 Zu Boden fallen verbraucht keine [[Bewegung#Bewegungsrate]].
 Aufstehen kostet halbe maximale [[Bewegung#Bewegungsrate]].
 Liegend bewegen entspricht [[Bewegung#Kriechen]].
+
+## Reisen
+Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen

@@ -10,7 +10,7 @@ aliases: Druiden
 |:-----:| -------------------------------------------------------------------------------- |:------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |   1   | [[Druidisch]], [[Zauberwirken Druide]]                                           |      2       |  2  | --- | --- | --- | --- | --- | --- | --- | --- |
 |   2   | [[Tiergestalt]], [[Wilder Gefährte]]                                             |      2       |  3  | --- | --- | --- | --- | --- | --- | --- | --- |
-|   3   | [[Druidenzirkel|Druidenzirkel]]                                            |      2       |  4  |  2  | --- | --- | --- | --- | --- | --- | --- |
+|   3   | [[Druidenzirkel\|Druidenzirkel]]                                                 |      2       |  4  |  2  | --- | --- | --- | --- | --- | --- | --- |
 |   4   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Vielseitige Zaubertricks]] |      3       |  4  |  3  | --- | --- | --- | --- | --- | --- | --- |
 |   5   | [[Verbesserte Tiergestalt]]                                                      |      3       |  4  |  3  |  2  | --- | --- | --- | --- | --- | --- |
 |   6   | Merkmal Druidenzirkel                                                            |      3       |  4  |  3  |  3  | --- | --- | --- | --- | --- | --- |

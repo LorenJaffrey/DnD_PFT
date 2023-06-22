@@ -4,4 +4,4 @@ tags:
 - Merkmale/Klasse/Hexenmeister/Schauerliche_Anrufungen
 mindeststufe: 1
 ---
-Du hast jetzt [[Vorteil und Nachteil#Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] zum Aufrechterhalten der [[Zauber wirken#Konzentration]] auf einen Zauber.
+Du hast jetzt [[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] zum Aufrechterhalten der [[Zauber wirken#Konzentration]] auf einen Zauber.

@@ -11,12 +11,12 @@ Der Effekt der Geisteraura hängt davon ab, welchen der folgenden Geister du bes
 ## Geist des Bären
 Der Geist des Bären verleiht dir und deinen Verbündeten Stärke und Ausdauer. 
 Jede Kreatur deiner Wahl, die sich in der Aura befindet, wenn der Geist erscheint, erhält [[Trefferpunkte und Trefferwürfel#Temporäre Trefferpunkte]] in Höhe von 5 + deine Druidenstufe. 
-Zusätzlich sind du und deine Verbündeten in der Aura im [[Vorteil und Nachteil#Vorteil]] bei [[Stärke|Stärkewürfen]] und [[Rettungswurf|Rettungswürfen]] auf [[Stärke]].
+Zusätzlich sind du und deine Verbündeten in der Aura im [[Vorteil und Nachteil|Vorteil]] bei [[Stärke|Stärkewürfen]] und [[Rettungswurf|Rettungswürfen]] auf [[Stärke]].
 
 ## Geist des Falken
 Der Geist des Falken ist ein vollendeter Jäger, der dir und deinen Verbündeten mit seinen scharfen Augen beisteht. 
-Wenn eine Kreatur einen [[Angriff#Angriffswurf]] gegen ein Ziel in der Geisteraura durchführt, kannst du deine [[Zug#Reaktion]] nutzen, damit die Kreatur bei dem [[Angriff#Angriffswurf]] im [[Vorteil und Nachteil#Vorteil]] ist.
-Zusätzlich sind du und deine Verbündeten in der Aura im [[Vorteil und Nachteil#Vorteil]] bei Würfen auf [[Wahrnehmung]].
+Wenn eine Kreatur einen [[Angriff#Angriffswurf]] gegen ein Ziel in der Geisteraura durchführt, kannst du deine [[Zug#Reaktion]] nutzen, damit die Kreatur bei dem [[Angriff#Angriffswurf]] im [[Vorteil und Nachteil|Vorteil]] ist.
+Zusätzlich sind du und deine Verbündeten in der Aura im [[Vorteil und Nachteil|Vorteil]] bei Würfen auf [[Wahrnehmung]].
 
 ## Geist des Einhorns
 Der Geist des Einhorns gewährt jenen in seiner Nähe Schutz. 

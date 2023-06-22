@@ -3,5 +3,5 @@ tags:
 - Zustände
 ---
 - ﻿﻿Die [[Bewegung#Bewegungsrate]] einer festgesetzten Kreatur ist 0 und kann durch keinen Bonus erhöht werden.
-- ﻿﻿Ein [[Angriff#Angriffswurf]] gegen die Kreatur ist immer im [[Vorteil und Nachteil#Vorteil]], die Kreatur ist bei ihrem [[Angriff#Angriffswurf]] hingegen im [[Vorteil und Nachteil#Nachteil]].
-- ﻿﻿Die Kreatur ist im [[Vorteil und Nachteil#Nachteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Geschicklichkeit]].
+- ﻿﻿Ein [[Angriff#Angriffswurf]] gegen die Kreatur ist immer im [[Vorteil und Nachteil|Vorteil]], die Kreatur ist bei ihrem [[Angriff#Angriffswurf]] hingegen im [[Vorteil und Nachteil|Nachteil]].
+- ﻿﻿Die Kreatur ist im [[Vorteil und Nachteil|Nachteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Geschicklichkeit]].

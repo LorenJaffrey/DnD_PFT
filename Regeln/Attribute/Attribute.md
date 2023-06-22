@@ -19,13 +19,13 @@ W20 + Attributsmodifikator +/- Bonus/Malus
 - [[Charisma]]
 
 ## Passiver Attributswurf 
-10 + [[Attribute#Attributsmodifikator]] + [[Vorteil und Nachteil#Vorteil]] (+5) + [[Vorteil und Nachteil#Nachteil]] (-5) + [[Übung|Übungsbonus]]
+10 + [[Attribute#Attributsmodifikator]] + [[Vorteil und Nachteil|Vorteil]] (+5) + [[Vorteil und Nachteil|Nachteil]] (-5) + [[Übung|Übungsbonus]]
 
 ## Wettstreit
 Gegeneinander gerichtete Attributswürfe (inkl Bonus/Malus und [[Attribute|Attributsmodifikator]])
 
 ## Zusammenarbeit
-Verleiht [[Vorteil und Nachteil#Vorteil]] bei [[Attribute|Attributswurf]] wenn ein Charakter einen anderen unterstützt.
+Verleiht [[Vorteil und Nachteil|Vorteil]] bei [[Attribute|Attributswurf]] wenn ein Charakter einen anderen unterstützt.
 Ein Charakter darf nur bei Tätigkeiten helfen die er auch alleine ausführen könnte.
 Ein Charakter darf nur bei Tätigkeiten helfen bei denen dies auch Sinn macht.
 

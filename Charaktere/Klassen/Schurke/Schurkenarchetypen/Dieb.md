@@ -4,7 +4,7 @@ Du verfeinerst deine Fertigkeiten in den Diebeskünsten. Einbrecher, Banditen, B
 
 | Stufe | Merkmal                           |
 |:-----:| --------------------------------- |
-|   3   | [[Flinke Finger]] [[Kletteraffe]] |
+|   3   | [[Flinke Finger]], [[Kletteraffe]] |
 |   9   | [[Außerordentliches Schleichen]]  |
 |  13   | [[Magischen Gegenstand benutzen]] |
 |  17   | [[Die Reflexe des Diebes]]        |
