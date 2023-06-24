@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Intelligenz
+attribut: Intelligenz
 ---
 Erinnern an natürlich Ereignisse oder Abläufe.
 Beispiele:

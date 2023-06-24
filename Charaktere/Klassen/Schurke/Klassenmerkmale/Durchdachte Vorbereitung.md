@@ -8,7 +8,7 @@ Du lernst zwei Apparaturen herzustellen und vorzubereiten, die unter [[Meistert�
 Du kannst außerdem eine dir bekannte Apparatur durch eine andere ersetzen nachdem du eine [[Rasten#Lange Rast]] beendet hast.
 
 ## Vorbereitungswürfel
-Du besitzt 4 Vorbereitungswürfel, die W6 sind. Ein Vorbereitungswürfel wird nur bei einem erfolgreichen [[Attribute|Attributswurf]] oder [[Angriff#Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Vorbereitungswürfel wenn du eine [[Rasten#Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Vorbereitungswürfel.
+Du besitzt 4 Vorbereitungswürfel, die W6 sind. Ein Vorbereitungswürfel wird nur bei einem erfolgreichen [[Attribute#Attributswurf]] oder [[Angriff#Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Vorbereitungswürfel wenn du eine [[Rasten#Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Vorbereitungswürfel.
 
 ## Benutzung
 Um eine [[Meistertüftler#Apparaturen]] zu benutzen ist ein Wurf auf [[Intelligenz]] gegen den [[Schwierigkeitsgrad]] der Apparatur notwendig. 

@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Geschicklichkeit
+attribut: Geschicklichkeit
 ---
 Alle Versuche in schwierigen Situationen auf den Beinen zu bleiben.
 Beispiele:

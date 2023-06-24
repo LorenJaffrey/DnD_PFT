@@ -1,5 +1,7 @@
 ---
 aliases: Intelligenzwurf, Intelligenzwürfe, Intelligenzwürfen, IN, INT
+tags:
+- Attribut
 ---
 Misst die geistige Schärfe, Präzision der Erinnerung, logisches Denken.
 Intelligenzwurf wird notwendig wenn Logik, Buildung, Gedächtnis oder deduktives Denken erforderlich sind.

@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Charisma
+attribut: Charisma
 ---
 Andere mit Taktgefühl, Einfühlungsvermögen oder wohlwollendem Wesen beeinflussen.
 Beispiele:

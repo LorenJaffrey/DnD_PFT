@@ -4,5 +4,5 @@ Das gilt vor allem wenn der Spieler die [[Persönliche Charakteristika]] Bindung
 Kann nur einmal gleichzeitig erhalten werden. Das heißt ein Spieler verfügt über Inspiration oder nicht.
 
 ## Inspiration einsetzen
-Ein Spieler mit Inspiration kann diese einsetzen um bei einem [[Angriff#Angriffswurf]], [[Rettungswurf]], oder [[Attribute|Attributswurf]] im Vorteil zu sein.
+Ein Spieler mit Inspiration kann diese einsetzen um bei einem [[Angriff#Angriffswurf]], [[Rettungswurf]], oder [[Attribute#Attributswurf]] im Vorteil zu sein.
 Kann auch an andere Spieler weitergegeben werden für besonderes Verhalten.

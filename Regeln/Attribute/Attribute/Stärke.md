@@ -1,5 +1,7 @@
 ---
 aliases: Stärkewurf, Stärkewürfe, Stärkewürfen, Stärkewurfs, ST
+tags:
+- Attribut
 ---
 Misst die körperliche Kraft, das athletische Training und das Maß in dem du rohe Gewalt ausüben kannst.
 
@@ -25,5 +27,5 @@ Winzige Kreaturen halbieren Traglast.
 
 ### Belastung
 - Wenn Gewicht der Ausrüstung > [[Stärke]] x 5 -> Belastet ( [[Bewegung#Bewegungsrate]] -3m)
-- Wenn Gewicht der Ausrüstung > [[Stärke]] x 10 -> Stark_Belastet ( [[Bewegung#Bewegungsrate]] -6m; Nachteil bei [[Attribute|Attributswurf]] und [[Rettungswurf]] für [[Stärke]], [[Geschicklichkeit]] und [[Konstitution]])
+- Wenn Gewicht der Ausrüstung > [[Stärke]] x 10 -> Stark_Belastet ( [[Bewegung#Bewegungsrate]] -6m; Nachteil bei [[Attribute#Attributswurf]] und [[Rettungswurf]] für [[Stärke]], [[Geschicklichkeit]] und [[Konstitution]])
 

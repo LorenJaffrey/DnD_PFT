@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Intelligenz
+attribut: Intelligenz
 ---
 Situationen in denen man sich an historische Ereignisse erinnern muss.
 Beispiele:

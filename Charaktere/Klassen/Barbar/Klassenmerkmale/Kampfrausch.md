@@ -6,7 +6,7 @@ tags:
 Auf dem Schlachtfeld kämpfst du mit urtümlicher Wildheit.
 
 In deinem Zug kannst du dich mit einer [[Zug#Bonusaktion]] in einen Kampfrausch versetzen. Während du dich in diesem befindest, erhältst du die folgenden Vorteile, solange du keine [[Rüstung#Schwere Rüstung]] trägst:
-- ﻿﻿Du bist bei [[Attribute|Attributswürfen]] und [[Rettungswurf|Rettungswürfen]], die auf [[Stärke]] basieren, im [[Vorteil und Nachteil|Vorteil]].
+- ﻿﻿Du bist bei jedem[[Attribute#Attributswurf]] und [[Rettungswurf]], der auf [[Stärke]] basiert, im [[Vorteil und Nachteil|Vorteil]].
 - ﻿﻿Führst du einen [[Nahkampfangriff]] mit einer Waffe durch, die deinen [[Stärke#Stärkemodifikator]] verwendet, erhältst du auf deinen Schadenswurf den Bonus, der in der [[Barbar#Klassentabelle]] unter Kampfrausch-Schaden angegeben ist. Dieser Wert erhöht sich, wenn du weiter als Barbar aufsteigst.
 - ﻿﻿Du besitzt eine [[Schaden und Heilung#Schadensresistenz]] gegen #Schaden/Hieb, #Schaden/Stich und #Schaden/Wucht.
 

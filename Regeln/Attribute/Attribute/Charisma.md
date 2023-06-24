@@ -1,5 +1,7 @@
 ---
 aliases: Charismawurf, Charismawürfe, CH
+tags:
+- Attribut
 ---
 Misst die Fähigkeit effektiv mit anderen zu agieren
 Dazu gehören Faktoren wie Selbstvertrauen und Beredsamkeit.

@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Charisma
+attribut: Charisma
 ---
 Jemanden täuschen oder die Wahrheit verschleiern.
 Beispiele:

@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Intelligenz
+attribut: Intelligenz
 ---
 Religiöses Wissen.
 Beispiele:

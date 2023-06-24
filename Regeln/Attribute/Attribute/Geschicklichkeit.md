@@ -1,5 +1,7 @@
 ---
 aliases: Geschicklichkeitswurf, Geschicklichkeitswürfe, Geschicklichkeitswürfen, GE
+tags:
+- Attribut
 ---
 Umfasst Beweglichkeit, Reflexe und Gleichgewichtssinn.
 

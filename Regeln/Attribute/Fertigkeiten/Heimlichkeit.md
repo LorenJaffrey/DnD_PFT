@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Geschicklichkeit
+attribut: Geschicklichkeit
 ---
 Beispiele:
 - vor Gegnern verstecken

@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Geschicklichkeit
+attribut: Geschicklichkeit
 ---
 Eine Aktion die Fingerspitzengefühl oder eine schnelle Hand erfordert.
 Beispiele:

@@ -14,7 +14,7 @@ Einige Spezialfähigkeiten und Umweltgefahren, wie Verhungern und die Langzeitef
 |   6   | Tod                                          |
 
 Erleidet eine bereits erschöpfte Kreatur einen weiteren Effekt, der Erschöpfung verursacht, steigt seine aktuelle Erschöpfungsstufe um den in der Beschreibung des Effekts angegebenen Wert.
-Eine Kreatur erhält den Effekt der aktuellen Erschöpfungsstufe sowie aller niedrigeren Stufen. Eine Kreatur, die unter Erschöpfungsstufe 2 leidet, halbiert somit ihre [[Bewegung#Bewegungsrate]] und ist im [[Vorteil und Nachteil|Nachteil]] bei [[Attribute|Attributswürfen]].
+Eine Kreatur erhält den Effekt der aktuellen Erschöpfungsstufe sowie aller niedrigeren Stufen. Eine Kreatur, die unter Erschöpfungsstufe 2 leidet, halbiert somit ihre [[Bewegung#Bewegungsrate]] und ist im [[Vorteil und Nachteil|Nachteil]] bei [[Attribute#Attributswurf]].
 Ein Effekt, der Erschöpfung verringert, verringert die Stufe um die Menge, die im Effekt beschrieben ist. Alle Erschöpfungseffekte enden, wenn die Erschöpfungsstufe unter 1 fällt.
 
 Eine lange Rast verringert die Erschöpfungsstufe einer Kreatur um 1, vorausgesetzt sie verfügt über Essen und Trinken. Gleiches gilt, wenn die Kreatur wiederbelebt wird.

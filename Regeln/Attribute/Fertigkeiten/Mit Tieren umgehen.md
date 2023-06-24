@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Weisheit
+attribut: Weisheit
 ---
 Beispiele:
 - domestiziertes Tier beruhigen

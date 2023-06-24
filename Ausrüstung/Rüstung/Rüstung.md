@@ -5,7 +5,7 @@ Das Tragen von Rüstungen verleiht dem Träger einen entsprechend Basis-Rüstung
 
 ## Übung mit Rüstungen
 Jeder kann Rüstung tragen, aber ohne entsprechende [[Übung]] gelten folgende Nachteile:
-- [[Vorteil und Nachteil|Nachteil]] bei sämtlichen [[Attribute|Attributswurf]], [[Rettungswurf|Rettungswürfen]], und [[Angriff#Angriffswurf]] basierend auf [[Stärke]] und [[Geschicklichkeit]]
+- [[Vorteil und Nachteil|Nachteil]] bei jedem [[Attribute#Attributswurf]], [[Rettungswurf]], und [[Angriff#Angriffswurf]] basierend auf [[Stärke]] und [[Geschicklichkeit]]
 - [[Zauber wirken|Zaubern]] ist nicht möglich
 
 ## Schild

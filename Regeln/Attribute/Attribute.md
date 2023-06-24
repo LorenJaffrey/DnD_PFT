@@ -8,15 +8,14 @@ aliases: Attribut, Attributswurf, Attributswürfe, Attributswürfen
 | Attributsmodifikator | -5  |  -4   |  -3   |  -2   |  -1   |   +0    |   +1    |   +2    |   +3    |   +4    |   +5    |   +6    |   +7    |   +8    |   +9    | +10 |
 
 Wird fällig wenn eine Aktion ausgeführt wird bei der die Möglichkeit des Scheiterns besteht.
-W20 + Attributsmodifikator +/- Bonus/Malus
 
-## Attribute
-- [[Stärke]]
-- [[Geschicklichkeit]]
-- [[Konstitution]]
-- [[Intelligenz]]
-- [[Weisheit]]
-- [[Charisma]]
+## Attributswurf
+W20 + [[Attribute#Attributsmodifikator]] + Bonus/Malus
+
+```dataview
+TABLE
+FROM #Attribut
+```
 
 ## Passiver Attributswurf 
 10 + [[Attribute#Attributsmodifikator]] + [[Vorteil und Nachteil|Vorteil]] (+5) + [[Vorteil und Nachteil|Nachteil]] (-5) + [[Übung|Übungsbonus]]

@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Weisheit
+attribut: Weisheit
 ---
 Stellt die generelle Aufmerksamkeit dar und die Schärfe der Sinne.
 Beispiele:

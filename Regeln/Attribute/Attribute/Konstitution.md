@@ -1,5 +1,7 @@
 ---
 aliases: Konstitutionswurf, Konstitutionswürfe, KO
+tags:
+- Attribut
 ---
 Misst Gesundheit, Ausdauer und Lebenskraft. Kann den Versuch darstellen über die persönlichen Grenzen hinaus zu gehen.
 

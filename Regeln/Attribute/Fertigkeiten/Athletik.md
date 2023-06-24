@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Stärke
+attribut: Stärke
 ---
 Schwierige Situationen in denen du [[Bewegung#Klettern]], [[Bewegung#Springen]] oder [[Bewegung#Schwimmen]] musst.
 Beispiele:

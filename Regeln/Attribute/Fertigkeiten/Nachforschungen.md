@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Intelligenz
+attribut: Intelligenz
 ---
 Nach Hinweisen suchen oder aufgrund dessen Schlussfolgerungen ziehen.
 Beispiele:

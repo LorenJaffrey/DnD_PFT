@@ -1,6 +1,7 @@
 ---
 tags:
 - Fertigkeit/Charisma
+attribut: Charisma
 ---
 Jemanden durch Drohungen, feindselige Gesten oder körperliche Gewalt beeinflussen.
 Beispiele:

@@ -1,5 +1,7 @@
 ---
 aliases: Weisheitswurf, Weisheitswürfe, WE
+tags:
+- Attribut
 ---
 Stellt dar wie gut du auf die Welt um dich herum eingestimmt bist.
 Repräsentiert Wahrnehmung und Intuition.

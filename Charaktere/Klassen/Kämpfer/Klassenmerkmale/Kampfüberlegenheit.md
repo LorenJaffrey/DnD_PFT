@@ -46,7 +46,7 @@ Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner bes
 Du kannst in deinem [[Zug]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] und eine [[Zug#Bonusaktion]] aufwenden, um eine Finte zu schlagen. Bestimme eine Kreatur innerhalb einer Reichweite von 1,50 m als Ziel. In diesem [[Zug]] bist du bei deinem nächsten Angriff gegen diese Kreatur im [[Vorteil und Nachteil|Vorteil]]. Wenn der Angriff trifft, addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]].
 
 ### Gebieterische Erscheinung
-Wenn du einen Wurf auf [[Auftreten]], [[Einschüchtern]] oder [[Überzeugen]] durchführst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis zu dem deines [[Attribute|Attributswurf]]s addieren.
+Wenn du einen Wurf auf [[Auftreten]], [[Einschüchtern]] oder [[Überzeugen]] durchführst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis zu dem deines [[Attribute#Attributswurf]]s addieren.
 
 ### Hinterhalt
 Führst du einen Wurf auf [[Heimlichkeit]] oder einen [[Initiative|Initiativewurf]] aus, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und zum Ergebnis addieren, es sei denn, du bist [[Kampfunfähig]].
@@ -98,7 +98,7 @@ Addiere das Ergebnis deines [[Kampfüberlegenheit#Überlegenheitswürfel]]s zu d
 Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um das Ziel zurückzudrängen. Addiere das Ergebnis des [[Kampfüberlegenheit#Überlegenheitswürfel]]s zum [[Schaden und Heilung#Schadenswurf]]. Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen [[Rettungswurf]] auf [[Stärke]] ablegen. Sollte der [[Rettungswurf]] misslingen, stößt du das Ziel bis zu 4,50 m von dir weg.
 
 ### Taktisches Abschätzen
-Du kannst bei einem Wurf auf [[Geschichte]], [[Nachforschungen]] oder [[Motiv erkennen]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis dem [[Attribute|Attributswurf]] hinzufügen.
+Du kannst bei einem Wurf auf [[Geschichte]], [[Nachforschungen]] oder [[Motiv erkennen]] einen [[Kampfüberlegenheit#Überlegenheitswürfel]] verbrauchen und das Ergebnis dem [[Attribute#Attributswurf]] hinzufügen.
 
 ### Tänzelnde Beinarbeit
 Wenn du dich bewegst, kannst du einen [[Kampfüberlegenheit#Überlegenheitswürfel]] aufwenden, um dessen Ergebnis für die Dauer dieser Bewegung deiner [[Rüstung#Rüstungsklasse]] hinzuzufügen.

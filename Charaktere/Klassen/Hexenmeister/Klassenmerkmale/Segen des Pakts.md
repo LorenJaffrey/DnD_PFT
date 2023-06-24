@@ -41,7 +41,7 @@ tags:
 
 ## Pakt des Talismans
 - erhält #Ausrüstung/Amulett 
-	- wenn [[Attribute|Attributswurf]] scheitert, kann W4 zum Ergebnis addiert werden
+	- wenn [[Attribute#Attributswurf]] scheitert, kann W4 zum Ergebnis addiert werden
 	- Anzahl der Nutzungen = [[Übung|Übungsbonus]]
 	- Nutzungen werden durch [[Rasten#Lange Rast]] regeneriert werden
 	- bei Verlust kann eine Zeremonie von 1 Stunde Dauer ausgeführt werden (im Rahmen einer [[Rasten#Kurze Rast]] oder [[Rasten#Lange Rast]]) um eine neue Kopie zu erhalten und die alte zu zerstören
