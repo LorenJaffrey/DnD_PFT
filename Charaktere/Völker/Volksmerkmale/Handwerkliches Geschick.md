@@ -3,7 +3,7 @@ alias:
 tags:
 - Merkmale/Volk
 ---
-[[Übung]] mit [[Handwerkszeug]] eines der folgenden Berufe:
+[[Übung]] mit [[Werkzeuge]] eines der folgenden Berufe:
 - Braumeister
 - Schmied
 - Steinmetz
