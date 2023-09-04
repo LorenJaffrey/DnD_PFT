@@ -24,7 +24,7 @@ skalierbar: "X"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: 3m / 2 Kästchen
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung

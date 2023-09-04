@@ -5,5 +5,5 @@ tags:
 mindeststufe: 7
 ---
 Voraussetzung: Stufe 7
-Du kannst [[Verwirrung]] einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. 
-Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine [[Rasten#Lange Rast]] beendet hast.
+Du kannst [[Verwirrung]] einmal wirken, indem du einen [[Zauberplätze|Zauberplatz]] verbrauchst. 
+Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine [[Lange Rast]] beendet hast.

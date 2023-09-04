@@ -5,23 +5,35 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
-schaden: "1W6"
-schadensart: "Stich"
-hände: 1
-größe: 2
-kategorie: Kriegswaffe
-gewicht: 2
-kosten: "25 GM"
-verfügbarkeit: "Selten"
----
-## Rapier
+Schaden: 1W6
+Schadensart: Stich
+Eigenschaften:
+- "[[Finesse]]"
+- "[[Parieren]]"
+- "[[Kritisch]]"
 
-| Waffe  | Schaden | Art   | Hände | Größe | Eigenschaften                           |
-| ------ | ------- | ----- |:-----:|:-----:| --------------------------------------- |
-| Rapier | 1W6     | Stich |   1   |   2   | [[Finesse]], [[Parieren]], [[Kritisch]] |
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 2
+Gewicht: 2 Pfund
+Kosten: 25 GM
+Verfügbarkeit: Selten
+---
+## `=this.file.name`
+
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe  | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
-| ------ | -------:| ------:| ----------- | --------------------- |
-| Rapier |       2 |  25 GM | Kriegswaffe | #Verfügbarkeit/selten |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

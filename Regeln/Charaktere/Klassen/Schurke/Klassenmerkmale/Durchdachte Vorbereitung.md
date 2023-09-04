@@ -5,12 +5,12 @@ tags:
 ---
 *Du lernst Apparaturen zu erschaffen die dir einen Vorteil im Kampf und außerhalb gewähren können.* 
 Du lernst zwei Apparaturen herzustellen und vorzubereiten, die unter [[Meistertüftler#Apparaturen]] beschrieben sind. Einige dieser [[Meistertüftler#Apparaturen]] verstärken deinen [[Angriff]]. Du kannst nur eine einzelne [[Meistertüftler#Apparaturen]] pro [[Angriff]] einsetzen. 
-Du kannst außerdem eine dir bekannte Apparatur durch eine andere ersetzen nachdem du eine [[Rasten#Lange Rast]] beendet hast.
+Du kannst außerdem eine dir bekannte Apparatur durch eine andere ersetzen nachdem du eine [[Lange Rast]] beendet hast.
 
-## Vorbereitungswürfel
-Du besitzt 4 Vorbereitungswürfel, die W6 sind. Ein Vorbereitungswürfel wird nur bei einem erfolgreichen [[Attribute#Attributswurf]] oder [[Angriff#Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Vorbereitungswürfel wenn du eine [[Rasten#Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Vorbereitungswürfel.
+## Engergiekerne
+Du besitzt 4 Engergiekerne, die W6 sind. Ein Engergiekerne wird nur bei einem erfolgreichen [[Attribute#Attributswurf]] oder [[Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Engergiekerne wenn du eine [[Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Engergiekerne.
 
-## Benutzung
+## Tüftlerwurf
 Um eine [[Meistertüftler#Apparaturen]] zu benutzen ist ein Wurf auf [[Intelligenz]] gegen den [[Schwierigkeitsgrad]] der Apparatur notwendig. 
 Eine Apparatur kann theoretisch von anderen Kreaturen benutzt werden, jedoch besitzen diese normalerweise keine [[Durchdachte Vorbereitung#Vorbereitungswürfel]] und [[Übung]] mit [[Tüftlerwerkzeug]], was die Benutzung erschwert.
 
@@ -21,9 +21,35 @@ Eine Apparatur kann theoretisch von anderen Kreaturen benutzt werden, jedoch bes
 Manche deiner [[Meistertüftler#Apparaturen]] erfordern von deinem Ziel einen [[Rettungswurf]], um den Auswirkungen der [[Meistertüftler#Apparaturen]] zu widerstehen. Der [[Schwierigkeitsgrad]] des [[Rettungswurf]]s wird folgendermaßen berechnet:
 
 >[!info]
->[[Schwierigkeitsgrad|SG]] für [[Rettungswurf]] gegen [[Meistertüftler#Apparaturen]] = 8 + dein [[Übung|Übungsbonus]] + dein [[Intelligenz#Intelligenzmodifikator]]
+>[[Schwierigkeitsgrad|SG]] für [[Rettungswurf]] gegen [[Meistertüftler#Apparaturen]] = 8 + dein [[Übung|Übungsbonus]] für [[Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
 
 ## Apparaturen
+
+### Gnomischer Schlossknacker
+*Diese kleine Sprengladung kann ich jeder normale Schloss geschoben und dort mehr oder weniger kontrolliert zur Explosion gebracht werden.*
+[[Schwierigkeitsgrad|SG]]: 13
+Wenn der [[Fertigkeiten#Fertigkeitswurf]] gelingt wird jedes nicht-magische Schloss automatisch geknackt. Es wird in diesem Zuge aber auch irreparabel beschädigt.
+Ein kritischer Fehlschlag bewirkt, dass das Gerät frühzeitig detoniert und dir 1W6 #Schaden/Energie zufügt.
+
+### Gnomisches Überbrückungskabel
+[[Schwierigkeitsgrad|SG]]: 13
+Kann benutzt werden um einen kampfunfähigen Charakter 1 [[Trefferpunkte]] zurückzugeben.
+Ein kritischer Fehlschlag zählt als Misserfolg bei einem Todesrettungswurf.
+
+### Flammenwerfer
+[[Schwierigkeitsgrad|SG]]: 15
+Benutze deinen tragbaren Flammenwerfer um deine Feinde zu verbrennen!
+Kann als [[Zug#Aktion]] benutzt werden. Schießt einen Feuerkegel mit 4,5m Länge. Jeder betroffene Gegner muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] absolvieren. Bei einem Misserfolg erleidet er 3W6 #Schaden/Feuer . Bei Gelingen die Hälfte.
+
+### Blitzwerfer
+[[Schwierigkeitsgrad|SG]]: 15
+Benutze deinen tragbaren Blitzwerfer um deine Feinde zu elektrisieren!
+Kann als [[Zug#Aktion]] benutzt werden. Schießt einen Blitz mit 9m Länge. Jeder betroffene Gegner muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] absolvieren. Bei einem Misserfolg erleidet er 2W8 #Schaden/Blitz . Bei Gelingen die Hälfte.
+
+
+
+
+## Ideen
 - Kampf
 	- Flammenwerfer
 	- Elektroschocker
@@ -34,26 +60,6 @@ Manche deiner [[Meistertüftler#Apparaturen]] erfordern von deinem Ziel einen [[
 - Brillen
 - Fernrohre
 - A.M.P. (Anti-Magischer-Puls)
-
-
-### Gnomischer Schlossknacker
-*Diese kleine Sprengladung kann ich jeder normale Schloss geschoben und dort mehr oder weniger kontrolliert zur Explosion gebracht werden.*
-[[Schwierigkeitsgrad|SG]]: 13
-Wenn der [[Fertigkeiten#Fertigkeitswurf]] gelingt wird jedes nicht-magische Schloss automatisch geknackt. Es wird in diesem Zuge aber auch irreparabel beschädigt.
-Ein kritischer Fehlschlag bewirkt, dass das Gerät frühzeitig detoniert und dir 1W6 #Schaden/Energie zufügt
-
-### Gnomisches Überbrückungskabel
-[[Schwierigkeitsgrad|SG]]: 13
-Kann benutzt werden um einen kampfunfähigen Charakter 1 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] zurückzugeben.
-Ein kritischer Fehlschlag zählt als Misserfolg bei einem Todesrettungswurf.
-
-### Flammenwerfer
-[[Schwierigkeitsgrad|SG]]: 15
-Benutze deinen tragbaren Flammenwerfer um deine Feinde zu verbrennen!
-Kann als [[Zug#Aktion]] benutzt werden. Schießt einen Feuerkegel mit 4,5m Länge. Jeder betroffene Gegner muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] absolvieren. Bei einem Misserfolg erleidet er 3W6 #Schaden/Feuer . Bei Gelingen die Hälfte.
-
-
-
 
 ### Mine
 

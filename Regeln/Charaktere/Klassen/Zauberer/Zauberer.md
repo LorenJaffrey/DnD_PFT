@@ -1,3 +1,6 @@
+---
+aliases: Zauberin
+---
 ```toc
 
 ```

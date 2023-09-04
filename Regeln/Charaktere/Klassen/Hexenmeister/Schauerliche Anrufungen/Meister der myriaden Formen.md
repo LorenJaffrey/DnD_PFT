@@ -5,4 +5,4 @@ tags:
 mindeststufe: 15
 ---
 Voraussetzung: Stufe 15
-Du kannst [[Gestalt verändern]] nach Belieben wirken, ohne dafür [[Zauber wirken#Zauberplätze]] oder [[Zauber wirken#Material (M)]] aufwenden zu müssen.
+Du kannst [[Gestalt verändern]] nach Belieben wirken, ohne dafür einen [[Zauberplätze|Zauberplatz]] oder [[Materialkomponenten]]] aufwenden zu müssen.

@@ -1,29 +1,37 @@
 ---
 tags:
-- Waffe/Art/Stichwaffe
-- Waffe/Gruppe/Armbrust
-- Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-- Waffe/Kategorie/Einfache_Waffe
-- Waffe/Größe/Anderthalbhänder
-schaden: "2W4"
-schadensart: "Stich"
-gewicht: 5
-kosten: "25 GM"
-kategorie: "Einfache Waffe"
-verfügbarkeit: "gewöhnlich"
-hände: 2
-mindestreichweite: "1,5m (1 Kästchen)"
-grundreichweite: "24m (16 Kästchen)"
-maximalreichweite: "96m (64 Kästchen)"
+  - Waffe/Art/Stichwaffe
+  - Waffe/Gruppe/Armbrust
+  - Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+  - Waffe/Kategorie/Einfache_Waffe
+  - Waffe/Größe/Anderthalbhänder
+Schaden: 
+Schadensart: 
+Eigenschaften: 
+SchadenFern: 2W4
+SchadensartFern: Stich
+Range1: 1,5(1)
+Range2: 24(16)
+Range3: 96(64)
+EigenschaftenFern:
+  - "[[Laden]]"
+  - "[[Geschosse]] (Bolzen)"
+  - "[[Rüstungsbrechend]] (1)"
+Kategorie: "[[Einfache Waffen]]"
+Hände: 2
+Größe: 3
+Gewicht: 5 Pfund
+Kosten: 25 GM
+Verfügbarkeit: gewöhnlich
 ---
-## Handarmbrust
+## `=this.file.name` (Fernkampf)
 
-| Waffe        | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften                                               |
-| ------------ | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | ----------------------------------------------------------- |
-| Handarmbrust | 2W4     | Stich |   2   |   3   | 1,5(1) | 24(16) | 96(64) | [[Geschosse]] (Bolzen), [[Laden]], [[Rüstungsbrechend]] (1) |
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe        | Gewicht | Kosten | Kategorie      | Verfügbarkeit         |
-| ------------ | -------:| ------:| -------------- | --------------------- |
-| Handarmbrust |       5 |  25 GM | Einfache Waffe | #Verfügbarkeit/gewöhnlich  |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

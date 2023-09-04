@@ -23,7 +23,7 @@ skalierbar: "X"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: selbst (Würfel mit 4,5m / 3 Kästchen Kantenlänge)
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
@@ -36,7 +36,7 @@ Bei einem erfolgreichen [[Rettungswurf]] erleidet die Kreatur nur den halben Sch
 Nicht gesicherte oder befestigte Gegenstände, die sich vollständig innerhalb des Wirkungsbereichs befinden, werden automatisch 3 m von dir weggestoßen. Der Zauber erzeugt ein donnerndes Dröhnen, das bis in 90 m Entfernung hörbar ist.
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W8.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W8.
 
 ## Zauberlisten
 - [[Barde]]

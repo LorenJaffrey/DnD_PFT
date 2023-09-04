@@ -1,4 +1,4 @@
 ---
-tags: Kampf/Aktion
+tags: Zug/Aktion
 ---
-Deine [[Bewegung]] in diesem Zug löst keinen [[Nahkampfangriff#Gelegenheitsangriff]] aus.
+Deine [[Bewegung]] in diesem Zug löst keinen [[Gelegenheitsangriff]] aus.

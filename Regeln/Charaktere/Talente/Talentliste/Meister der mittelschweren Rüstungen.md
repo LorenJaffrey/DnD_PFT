@@ -4,8 +4,8 @@ tags:
 - Talent/Kampf
 voraussetzung: "Übung im Umgang mit Mittlerer Rüstung"
 ---
-Voraussetzung: [[Übung]] im Umgang mit [[Rüstung#Mittlere Rüstung]]
+Voraussetzung: [[Übung]] im Umgang mit [[Mittelschwere Rüstung|Mittelschwerer Rüstung]]
 
-Du hast den Kampf in [[Rüstung#Mittlere Rüstung]] gemeistert und erhältst die folgenden Vorzüge:
-- Du bist durch das Tragen von [[Rüstung#Mittlere Rüstung]] bei Würfen auf [[Heimlichkeit]] nicht im [[Vorteil und Nachteil|Nachteil]].
-- Wenn du eine [[Rüstung#Mittlere Rüstung]] trägst darfst du maximal 3 Punkte anstatt 2 auf deine [[Rüstung#Rüstungsklasse]] addieren.
+Du hast den Kampf in [[Mittelschwere Rüstung|Mittelschwerer Rüstung]] gemeistert und erhältst die folgenden Vorzüge:
+- ﻿﻿Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+- Wenn du eine [[Mittelschwere Rüstung|Mittelschwerer Rüstung]] trägst darfst du einen zusätzlichen Punkt deines [[Geschicklichkeit#Geschicklichkeitsmodifikator]]s nutzen.

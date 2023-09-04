@@ -1,1 +1,0 @@
-Darf ein [[Attribute|Attribut]] um +2 oder zwei [[Attribute]] um +1 erhöhen.

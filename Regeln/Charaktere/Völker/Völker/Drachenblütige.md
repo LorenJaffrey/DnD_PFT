@@ -45,7 +45,7 @@ Clethtinthiallor, Daardendrian, Delmirev, Dra-chedandion, Fenkenkabradon, Kepesh
 ### Volksmerkmale
 - [[Drakonische Abstammung]]
 - [[Odemwaffe]]
-- [[Schadensresistenz]]
+- [[Drakonische Resistenz]]
 
 ### Alter
 Junge Drachenblütige wachsen schnell heran. Bereits wenige Stunden nach dem Schlüpfen können sie aufrecht gehen, und mit drei Jahren sehen sie aus wie ein menschliches Kind mit zehn. Als Erwachsene gelten sie mit etwa 15. Sie erreichen ein Alter von bis zu 80 Jahren.

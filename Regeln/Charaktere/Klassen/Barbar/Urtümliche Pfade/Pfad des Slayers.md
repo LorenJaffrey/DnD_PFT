@@ -2,18 +2,18 @@ Zwerge sind unsagbar stolz und nehmen sich einen persönlichen Fehlschlag oder V
 
 ## Merkmale
 
-| Stufe | Merkmal                                                      |
-|:-----:| ------------------------------------------------------------ |
+| Stufe | Merkmal                                                    |
+|:-----:| ---------------------------------------------------------- |
 |   3   | [[Waffen des Slayers]], [[Furchtlos und Unerschütterlich]] |
-|   6   | [[Ruhm oder Tod]]                                            |
-|  10   | [[Des Slayers Beute]]                                        |
-|  14   | [[Bestienslayer]]                                                             |
+|   6   | [[Ruhm oder Tod]]                                          |
+|  10   | [[Des Slayers Beute]]                                      |
+|  14   | [[Bestienslayer]]                                          |
 
 ![[Waffen des Slayers]]
 
-![[Ruhm oder Tod]]
-
 ![[Furchtlos und Unerschütterlich]]
+
+![[Ruhm oder Tod]]
 
 ![[Des Slayers Beute]]
 

@@ -1,29 +1,39 @@
 ---
 tags:
-- Waffe/Art/Stichwaffe
-- Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-- Waffe/Kategorie/Kriegswaffe
-- Waffe/Gruppe/Blasrohr
-- Waffe/Größe/Einhandwaffe
-schaden: "1"
-schadensart: "Stich"
-gewicht: 1
-kosten: "10 GM"
-verfügbarkeit: "gewöhnlich"
-hände: 1
-kategorie: "Kriegswaffe"
-mindestreichweite: "1,5m (1 Kästchen)"
-grundreichweite: "6m (4 Kästchen)"
-maximalreichweite: "30m (20 Kästchen)"
----
-## Blasrohr
+  - Waffe/Art/Stichwaffe
+  - Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+  - Waffe/Kategorie/Kriegswaffe
+  - Waffe/Gruppe/Blasrohr
+  - Waffe/Größe/Einhandwaffe
+Schaden: 
+Schadensart: 
+Eigenschaften: []
 
-| Waffe    | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften                                         |
-| -------- | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | ----------------------------------------------------- |
-| Blasrohr | 1       | Stich |   1   |   1   | 1,5(1) | 6(4)   | 30(20) | [[Geschosse]] (Blasrohrpfeile), [[Leicht]], [[Laden]] |
+SchadenFern: 1
+SchadensartFern: Stich
+Range1: 1,5(1)
+Range2: 6(4)
+Range3: 30(20)
+EigenschaftenFern: 
+- "[[Leicht]]"
+- "[[Geschosse]] (Blasrohrpfeile)"
+- "[[Laden]]"
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 1
+Gewicht: 1 Pfund
+Kosten: 10 GM
+Verfügbarkeit: gewöhnlich
+---
+## `=this.file.name` (Fernkampf)
+
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe    | Gewicht | Kosten | Kategorie   | Verfügbarkeit             |
-| -------- | -------:| ------:| ----------- | ------------------------- |
-| Blasrohr |       1 |  10 GM | Kriegswaffe | #Verfügbarkeit/gewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

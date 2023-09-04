@@ -5,25 +5,37 @@ tags:
 - Waffe/Klasse/Fernkampfwaffe/Schusswaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Großwaffe
-schaden: "2W5"
-schadensart: "Stich"
-gewicht: 10
-kosten: "50 GM"
-kategorie: "Kriegswaffe"
-hände: 2
-mindestreichweite: "1,5m (1 Kästchen)"
-grundreichweite: "30m (20 Kästchen)"
-maximalreichweite: "120m (80 Kästchen)"
-verfügbarkeit: "ungewöhnlich"
----
-## Handarmbrust
+- Waffe/Schwer
+Schaden:
+Schadensart:
+Eigenschaften:
 
-| Waffe        | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW  | Eigenschaften                                               |
-| ------------ | ------- | ----- |:-----:|:-----:| ------ | ------ | ------- | ----------------------------------------------------------- |
-| Handarmbrust | 2W5     | Stich |   2   |   4   | 1,5(1) | 30(20) | 120(80) | [[Geschosse]] (Bolzen), [[Laden]], [[Rüstungsbrechend]] (1) |
+SchadenFern: 2W5
+SchadensartFern: Stich
+Range1: 1,5(1)
+Range2: 30(20)
+Range3: 120(80)
+EigenschaftenFern:
+  - "[[Laden]]"
+  - "[[Geschosse]] (Bolzen)"
+  - "[[Rüstungsbrechend]] (3)"
+  - "[[Schwer]] (12)"
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 4
+Gewicht: 10 Pfund
+Kosten: 50 GM
+Verfügbarkeit: ungewöhnlich
+---
+## `=this.file.name` (Fernkampf)
+
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe        | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
-| ------------ | -------:| ------:| ----------- | --------------------- |
-| Handarmbrust |      10 |  50 GM | Kriegswaffe | #Verfügbarkeit/ungewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

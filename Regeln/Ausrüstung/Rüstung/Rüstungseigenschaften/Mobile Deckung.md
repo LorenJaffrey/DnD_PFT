@@ -1,0 +1,2 @@
+- [[Zug#Bonusaktion]] um Schild auf- bzw. abzustellen. 
+- Zählt als Deckung.

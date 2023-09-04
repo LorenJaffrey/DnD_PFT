@@ -5,8 +5,8 @@ tags:
 ---
 - Übung mit [[Tüftlerwerkzeug]]
 - kann 1 Stunde und Material im Wert von 10 [[Münzen#Goldmünzen]]  investieren um ein winziges aufziehbares Gerät konstruieren
-	- [[Rüstung#Rüstungsklasse]] 5
-	- 1 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]]
+	- [[Rüstungsklasse]] 5
+	- 1 [[Trefferpunkte|Trefferpunkt]]
 	- funktioniert 24 Stunden lang, danach Wartung (1 Stunde) benötigt
 	- durch Demontieren lassen sich die Materialien zurückerhalten
 	- bis zu drei aktive Geräte gleichzeitig

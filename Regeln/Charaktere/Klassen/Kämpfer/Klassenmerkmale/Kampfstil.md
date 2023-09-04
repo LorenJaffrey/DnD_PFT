@@ -4,7 +4,7 @@ tags:
 - Merkmale/Klasse/Kämpfer
 ---
 ### Abfangen
-- muss [[Einfache Waffen]], [[Kriegswaffen]] oder [[Rüstung#Schild]] tragen
+- muss [[Einfache Waffen]], [[Kriegswaffen]] oder [[Schilde]] tragen
 - wenn Kreatur in #Reichweite/Nahkampfreichweite angegriffen wird kann [[Zug#Reaktion]] verwendet werden um erlittenen Schden um 1W10 + Übungsbonus zu reduzieren
 
 ### Blinder Kampf
@@ -14,7 +14,7 @@ tags:
 - wrikt sogar gegen [[Unsichtbar]]e Kreaturen denen es nicht gelingt sich erfolgreich zu verstecken
 
 ### Bogenschießen
-- +2 auf [[Angriff#Angriffswurf]] mit Fernkampfwaffen
+- +2 auf [[Angriffswurf]] mit Fernkampfwaffen
 
 ### Duellieren
 - +2 auf Schadenswurf wenn mit einzelner einhändiger Waffe und keiner Waffe in der anderen Hand gekämpft wird
@@ -27,8 +27,8 @@ tags:
 - darf Attributsmodifikator zum Schaden der Nebenhandwaffe addieren
 
 ### Leibwache
-- muss [[Rüstung#Schild]] tragen
-- wenn Kreatur in #Reichweite/Nahkampfreichweite angegriffen wird kann [[Zug#Reaktion]] verwendet werden damit [[Angriff#Angriffswurf]] im [[Vorteil und Nachteil|Nachteil]] ist
+- muss [[Schilde]] tragen
+- wenn Kreatur in #Reichweite/Nahkampfreichweite angegriffen wird kann [[Zug#Reaktion]] verwendet werden damit [[Angriffswurf]] im [[Vorteil und Nachteil|Nachteil]] ist
 
 ### Überlegene Technik
 #TODO 
@@ -37,5 +37,5 @@ tags:
 #TODO 
 
 ### Verteidigung
-- muss [[Rüstung]] tragen
-- +1 auf [[Rüstung#Rüstungsklasse]]
+- muss [[Rüstungen|Rüstung]] tragen
+- +1 auf [[Rüstungsklasse]]

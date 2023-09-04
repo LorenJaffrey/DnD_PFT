@@ -25,9 +25,9 @@ ritual: "X"
 ---
 *Zauber des 1. Grades der Erkenntnismagie*
 
-Zeitaufwand: 1 [[Zug#Aktion]] / [[Zauber wirken#Ritual]]
+Zeitaufwand: 1 [[Zug#Aktion]] / [[Rituale|Ritual]]
 Reichweite: 36m
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: Konzentration (bis zu 10 Minuten)
 
 ## Beschreibung

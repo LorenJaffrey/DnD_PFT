@@ -3,6 +3,6 @@ alias:
 tags:
 - Merkmale/Volk
 ---
-[[Rüstung#Übung mit Rüstungen]] der folgenden Rüstungsarten:
-- [[Rüstung#Leichte Rüstung]]
-- [[Rüstung#Mittlere Rüstung]]
+Du erhältst [[Übung]] mit den folgenden Rüstungsarten:
+- [[Leichte Rüstung]]
+- [[Mittelschwere Rüstung]]

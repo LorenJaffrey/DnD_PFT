@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion/Angriff
+tags: Zug/Aktion/Angriff
 ---
 *Stoße eine Kreatur, entweder um sie zu Boden zu werfen oder von dir fort zu schieben.*
 

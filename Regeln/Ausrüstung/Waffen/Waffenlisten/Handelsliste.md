@@ -1,4 +1,4 @@
 ```dataview
-TABLE kategorie AS "Kategorie", gewicht AS "Gewicht", kosten as "Kosten", verfügbarkeit AS "Verfügbarkeit"
+TABLE Kategorie, Gewicht, Kosten, Verfügbarkeit
 FROM "_DnD/Ausrüstung/Waffen/Waffen"
 ```

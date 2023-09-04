@@ -13,4 +13,4 @@ Odemwaffe entsprechend der [[Drakonische Abstammung]]
 	- 3W6 ab Stufe 6
 	- 4W6 ab Stufe 11
 	- 5W6 ab Stufe 16
-- ein Einsatz pro [[Rasten#Kurze Rast]] oder [[Rasten#Lange Rast]]
+- ein Einsatz pro [[Kurze Rast]] oder [[Lange Rast]]

@@ -1,4 +1,6 @@
 ```dataview
-TABLE schaden as "Schaden", schadensart AS "Schadensart", größe AS "Größe"
-FROM "_DnD/Ausrüstung/Waffen/Waffen" AND #Waffe/Größe/Einhandwaffe AND #Waffe/Klasse/Nahkampfwaffe AND #Waffe/Größe/Einhandwaffe OR #Waffe/Größe/Anderthalbhänder 
+TABLE Schaden, Schadensart, Größe, Eigenschaften
+FROM "_DnD/Ausrüstung/Waffen/Waffen" AND #Waffe/Klasse/Nahkampfwaffe 
+WHERE Hände < 2
+SORT file.name
 ```

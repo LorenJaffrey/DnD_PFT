@@ -5,8 +5,8 @@ Die meisten Schurken haben eine Vorliebe für Gerätschaften, doch diese Vorlieb
 | Stufe | Merkmal                                              | Anzahl Apparaturen | Vorbereitungswürfel |
 |:-----:| ---------------------------------------------------- |:------------------:|:-------------------:|
 |   3   | [[Tools of the Trade]], [[Durchdachte Vorbereitung]] |         2          |         4W6         |
-|   9   | [[Tüftler, Gauner, Halunke, Spion]]                  |         3          |         5W8         |
-|  13   | [[Verblüffende Vorbereitung]]                        |         4          |         6W8         |
+|   9   | [[Energieabsorber]]                                  |         3          |         5W8         |
+|  13   | [[Tüftler, Gauner, Halunke, Spion]]                  |         4          |         6W8         |
 |  17   | [[Auf Armeslänge]]                                   |         5          |        6W10         |
 
 ![[Tools of the Trade]]
@@ -15,6 +15,6 @@ Die meisten Schurken haben eine Vorliebe für Gerätschaften, doch diese Vorlieb
 
 ![[Tüftler, Gauner, Halunke, Spion]]
 
-![[Verblüffende Vorbereitung]]
+![[Energieabsorber]]
 
 ![[Auf Armeslänge]]

@@ -5,25 +5,34 @@ tags:
 - Waffe/Klasse/Fernkampfwaffe/Schusswaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Großwaffe
-schaden: "1W8"
-schadensart: "Stich"
-gewicht: 3
-kosten: "50 GM"
-kategorie: "Kriegswaffe"
-verfügbarkeit: "ungewöhnlich"
-hände: 2
-mindestreichweite: "4,5m (3 Kästchen)"
-grundreichweite: "48m (32 Kästchen)"
-maximalreichweite: "135m (90 Kästchen)"
----
-## Langbogen
+Schaden: 
+Schadensart: 
+Eigenschaften: []
 
-| Waffe     | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW  | Eigenschaften                           |
-| --------- | ------- | ----- |:-----:|:-----:| ------ | ------ | ------- | --------------------------------------- |
-| Langbogen | 1W8     | Stich |   2   |   4   | 3(2)   | 48(32) | 135(90) | [[Geschosse]] (Pfeile), [[Schwer]] (12) |
+SchadenFern: 1W8
+SchadensartFern: Stich
+Range1: 4,5(3)
+Range2: 48(32)
+Range3: 135(90)
+EigenschaftenFern: 
+- "[[Geschosse]] (Pfeile)"
+- "[[Schwer]] (12)"
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 4
+Gewicht: 3 Pfund
+Kosten: 50 GM
+Verfügbarkeit: ungewöhnlich
+---
+## `=this.file.name` (Fernkampf)
+
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe     | Gewicht | Kosten | Kategorie   | Verfügbarkeit             |
-| --------- | -------:| ------:| ----------- | ------------------------- |
-| Langbogen |       3 |  50 GM | Kriegswaffe | #Verfügbarkeit/ungewöhnlich  |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

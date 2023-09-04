@@ -6,5 +6,5 @@ mindeststufe: 5
 ---
 Voraussetzung: Stufe 5
 
-Du kannst [[Verlangsamen]] einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. 
-Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine [[Rasten#Lange Rast]] beendet hast.
+Du kannst [[Verlangsamen]] einmal wirken, indem du einen [[Zauberplätze|Zauberplatz]] verbrauchst. 
+Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine [[Lange Rast]] beendet hast.

@@ -1,5 +1,5 @@
 ## Schaden
-GIbt an wieviel Schaden ein Waffe verursacht.
+Gibt an wieviel Schaden ein Waffe verursacht.
 
 ## Schadensart
 Gibt an welche Art von Schaden eine Waffe verursacht.

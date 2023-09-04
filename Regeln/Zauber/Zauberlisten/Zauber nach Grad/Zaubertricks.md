@@ -1,6 +1,11 @@
 ---
 aliases: Zaubertrick
 ---
+Ein Zaubertrick kann jederzeit und ohne einen [[Zauberplätze|Zauberplatz]] gewirkt werden. 
+Außerdem muss er nicht vorbereitet werden.
+Der [[Zaubergrad]] von Zaubertricks ist 0.
+
+## Liste der Zaubetricks
 ```dataview
 TABLE schule AS "Schule", zeitaufwand AS "Zeitaufwand", reichweite AS "Reichweite", verbal AS "Verbal", geste AS "Geste", material AS "Material", dauer AS "Dauer", konzentration AS "Konzentration", ritual AS "Ritual", skalierbar AS "Skalierbar" 
 FROM #Zauber/Grad/Zaubertrick

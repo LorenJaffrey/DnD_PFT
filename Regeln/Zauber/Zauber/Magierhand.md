@@ -23,7 +23,7 @@ skalierbar: "X"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: 9m
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: 1 Minute
 
 ## Beschreibung

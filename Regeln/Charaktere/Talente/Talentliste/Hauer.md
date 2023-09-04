@@ -1,5 +1,5 @@
 ---
-aliases: Slasher
+alias: Slasher
 tags: 
 - Talent/Kampf
 ---
@@ -7,4 +7,4 @@ tags:
 Du erhältst folgende Vorzüge:
 - Deine [[Stärke]] oder [[Geschicklichkeit]] wird um 1 Punkt erhöht (auf maximal 20).
 - Wenn du eine Kreatur mit einem Angriff triffst, der #Schaden/Hieb verursacht, kannst du einmal pro [[Zug]] einen der Schadenswürfel erneut würfeln. Du musst das neue Ergebnis verwenden.
-- Wenn das Ziel auf 0 [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] reduziert wurde durch den  Angriff, überschüssiger Schaden verbleibt und der [[Angriff#Angriffswurf]] ausreicht einen weiteren angrenzenden Gegner in #Reichweite/Nahkampfreichweite zu treffen wird der überschüssige Schaden auf diesen übertragen.
+- Wenn das Ziel auf 0 [[Trefferpunkte]] reduziert wurde durch den  Angriff, überschüssiger Schaden verbleibt und der [[Angriffswurf]] ausreicht einen weiteren angrenzenden Gegner in #Reichweite/Nahkampfreichweite zu treffen wird der überschüssige Schaden auf diesen übertragen.

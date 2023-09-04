@@ -4,14 +4,13 @@ aliases: Zuges
 In einem Zug kann eine Kreatur jeweils eine der folgenden Aktivitäten ausführen:
 ## Bewegung
 
-
 ## Aktion
 ![[Aktionen]]
 
 ## Kostenlose Aktion
 - einfache Gesten
 - sprechen
-- Waffe ziehen
+- einzelne Waffe ziehen
 - Tür öffnen
 
 ## Bonusaktion

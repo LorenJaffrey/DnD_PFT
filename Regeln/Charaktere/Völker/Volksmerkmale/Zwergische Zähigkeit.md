@@ -3,4 +3,4 @@ alias:
 tags:
 - Merkmale/Volk
 ---
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] erhöhen sich um 1 pro Stufe.
+[[Trefferpunkte]] erhöhen sich zusätzlich um 1 pro Stufe.

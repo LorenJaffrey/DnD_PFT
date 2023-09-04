@@ -6,23 +6,35 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
-schaden: "2W3"
-schadensart: "Hieb/Stich"
-hände: 1
-größe: 2
-kategorie: Kriegswaffe
-gewicht: 2
-kosten: "15 GM"
-verfügbarkeit: "gewöhnlich"
----
-## Kurzschwert
+Schaden: 2W3
+Schadensart: Hieb/Stich
+Eigenschaften:
+- "[[Leicht]]"
+- "[[Finesse]]"
+- "[[Parieren]]"
 
-| Waffe       | Schaden | Art        | Hände | Größe | Eigenschaften                         |
-| ----------- | ------- | ---------- |:-----:|:-----:| ------------------------------------- |
-| Kurzschwert | 2W3     | Hieb/Stich |   1   |   2   | [[Leicht]], [[Finesse]], [[Parieren]] |
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 2
+Gewicht: 2 Pfund
+Kosten: 15 GM
+Verfügbarkeit: gewöhnlich
+---
+## `=this.file.name`
+
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe       | Gewicht | Kosten | Kategorie   | Verfügbarkeit             |
-| ----------- | -------:| ------:| ----------- | ------------------------- |
-| Kurzschwert |       2 |  15 GM | Kriegswaffe | #Verfügbarkeit/gewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

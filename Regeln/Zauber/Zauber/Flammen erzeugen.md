@@ -7,7 +7,7 @@ tags:
 - Zauber/Skalierbar
 - Zauber/Art/Schaden/Feuer
 - Zauber/Wirkungsbereich/Geschoss
-grad: X
+grad: 0
 schule: "Schule"
 zeitaufwand: "Aktion"
 reichweite: "9 Meter"
@@ -22,7 +22,7 @@ skalierbar: "X"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: 36m
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: 10 Minuten
 
 ## Beschreibung

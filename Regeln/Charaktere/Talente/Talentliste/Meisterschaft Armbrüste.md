@@ -7,3 +7,4 @@ Dank deines ausgiebigen Trainings mit der Armbrust erhältst du folgende Vorzüg
 - Du bist im Umgang mit [[Armbrüste|Armbrüsten]] geübt.
 - Du ignorierst  die Waffeneigenschaft [[Laden]] bei [[Armbrüste|Armbrüsten]], mit denen du [[Übung]] hast.  
 - Du bist nicht im [[Vorteil und Nachteil|Nachteil]] bei [[Fernkampfangriff|Fernkampfangriffen]], die du innerhalb von #Reichweite/Nahkampfreichweite einer feindlichen Kreatur ausführst.
+- Wenn du eine [[Armbrüste|Armbrust]] mit der Eigenschaft [[Leicht]] bei einem [[Angriff mit zwei Waffen]] einsetzt, erhält diese den normalen [[Attribute#Attributsmodifikator]] auf den [[Angriffswurf]] und [[Schadenswurf]]

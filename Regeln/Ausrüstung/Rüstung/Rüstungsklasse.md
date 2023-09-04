@@ -1,0 +1,1 @@
+Die Rüstungsklasse einer Kreatur ergibt sich aus der Basis-[[Rüstungsklasse]] der Kreatur plus die [[Rüstungspunkte]] der getragenen [[Rüstungen|Rüstung]].

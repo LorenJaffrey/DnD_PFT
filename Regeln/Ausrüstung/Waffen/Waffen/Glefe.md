@@ -5,24 +5,34 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Großwaffe
-schaden: "2W5"
-schadensart: "Hieb"
-hände: 2
-größe: 4
-kategorie: Kriegswaffe
-gewicht: 7
-kosten: "30 GM"
-verfügbarkeit: "selten"
+Schaden: 2W5
+Schadensart: Hieb
+Eigenschaften:
+- "[[Weitreichend]]"
+- "[[Tödlich]]"
+
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 4
+Gewicht: 7 Pfund
+Kosten: 30 GM
+Verfügbarkeit: selten
 ---
+## `=this.file.name`
 
-## Glefe
-
-| Waffe | Schaden | Art  | Hände | Größe | Eigenschaften                 |
-| ----- | ------- | ---- |:-----:|:-----:| ----------------------------- |
-| Glefe | 2W5     | Hieb |   2   |   4   | [[Weitreichend]], [[Tödlich]] |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
-| ----- | -------:| ------:| ----------- | --------------------- |
-| Glefe |       7 |  30 GM | Kriegswaffe | #Verfügbarkeit/selten |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

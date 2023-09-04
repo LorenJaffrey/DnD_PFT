@@ -10,3 +10,10 @@ Beispiele:
 - mystische Symbole
 - magische Schulen
 - Ebenen der Existenz und deren Bewohner
+	- [[Aberrationen]]
+	- [[Konstrukte]]
+	- [[Monster Manual/Typen/Drachen]]
+	- [[Elementare]]
+	- [[Feenwesen]]
+	- [[Monstrositäten]]
+	- [[Schlicke]])

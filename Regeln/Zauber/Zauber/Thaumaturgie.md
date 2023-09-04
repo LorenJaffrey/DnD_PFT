@@ -15,7 +15,7 @@ dauer: "1m"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: 9m
-Komponenten: [[Zauber wirken#Verbal (V)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]]
 Wirkungsdauer: bis zu 1 Minute
 
 ## Beschreibung

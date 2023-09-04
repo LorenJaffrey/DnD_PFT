@@ -20,7 +20,7 @@ skalierbar: "X"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: 36m
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
@@ -34,7 +34,7 @@ Der Zauber erschafft mehr als einen Strahl, wenn du höhere Stufen erreichst:
 - drei Strahlen auf der 11. Stufe
 - vier Strahlen auf der 17. Stufe
 Du kannst die Strahlen auf dasselbe oder unterschiedliche Ziele lenken.
-Mache einen eigenständigen [[Angriff#Angriffswurf]] für jeden Strahl.
+Mache einen eigenständigen [[Zauberangriffswürfe|Zauberangriffswurf]] für jeden Strahl.
 
 ## Zauberlisten
 - [[Hexenmeister]]

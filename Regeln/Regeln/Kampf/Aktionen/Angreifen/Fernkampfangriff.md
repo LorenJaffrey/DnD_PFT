@@ -1,6 +1,6 @@
 ---
 aliases: Fernkampfangriffe, Fernkampf, Fernkampfangriffen
-tags: Kampf/Aktion/Angriff
+tags: Zug/Aktion/Angriff
 ---
 - Fernkampfangriffe können nur gegen Ziele in Reichweite ausgeführt werden.
 - Fernkampfwaffen haben drei Reichweiten, die #Reichweite/Mindestreichweite, die #Reichweite/Grundreichweite und die #Reichweite/Maximalreichweite.

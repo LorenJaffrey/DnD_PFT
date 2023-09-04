@@ -5,23 +5,34 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
-schaden: "2W3"
-schadensart: "Wucht"
-hände: 1
-größe: 2
-kategorie: "Kriegswaffe"
-gewicht: 3
-kosten: "5 GM"
-verfügbarkeit: "ungewöhnlich"
----
-## Streitflegel
+Schaden: 2W3
+Schadensart: Wucht
+Eigenschaften:
+- "[[Leicht]]"
+- "[[Heimtückisch]]"
 
-| Waffe        | Schaden | Art   | Hände | Größe | Eigenschaften                |
-| ------------ | ------- | ----- |:-----:|:-----:| ---------------------------- |
-| Streitflegel | 2W3     | Wucht |   1   |   2   | [[Leicht]], [[Heimtückisch]] |
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 2
+Gewicht: 3 Pfund
+Kosten: 5 GM
+Verfügbarkeit: ungewöhnlich
+---
+## `=this.file.name`
+
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe        | Gewicht | Kosten | Kategorie   | Verfügbarkeit               |
-| ------------ | -------:| ------:| ----------- | --------------------------- |
-| Streitflegel |       3 |   5 GM | Kriegswaffe | #Verfügbarkeit/ungewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

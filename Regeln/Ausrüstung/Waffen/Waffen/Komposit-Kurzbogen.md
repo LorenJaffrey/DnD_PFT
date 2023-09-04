@@ -1,29 +1,35 @@
 ---
 tags:
-- Waffe/Art/Stichwaffe
-- Waffe/Gruppe/Bogen
-- Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-- Waffe/Kategorie/Einfache_Waffe
-- Waffe/Größe/Einhandwaffe
-schaden: "1W6"
-schadensart: "Stich"
-gewicht: 2
-kosten: "50 GM"
-kategorie: "Einfache Waffe"
-verfügbarkeit: "selten"
-hände: 2
-mindestreichweite: "1,5m (1 Kästchen)"
-grundreichweite: "24m (16 Kästchen)"
-maximalreichweite: "96m (64 Kästchen)"
+  - Waffe/Art/Stichwaffe
+  - Waffe/Gruppe/Bogen
+  - Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+  - Waffe/Kategorie/Einfache_Waffe
+  - Waffe/Größe/Einhandwaffe
+Schaden: 
+Schadensart: 
+Eigenschaften: []
+SchadenFern: 1W6
+SchadensartFern: Stich
+Range1: 1,5(1)
+Range2: 24(16)
+Range3: 96(64)
+EigenschaftenFern:
+  - "[[Geschosse]] (Pfeile)"
+Kategorie: "[[Einfache Waffen]]"
+Hände: 2
+Größe: 1
+Gewicht: 2 Pfund
+Kosten: 50 GM
+Verfügbarkeit: selten
 ---
-## Komposit-Kurzbogen
+## `=this.file.name` (Fernkampf)
 
-| Waffe              | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften          |
-| ------------------ | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | ---------------------- |
-| Komposit-Kurzbogen | 1W6     | Stich |   2   |   2   | 1,5(1) | 24(16) | 96(64) | [[Geschosse]] (Pfeile) |
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe              | Gewicht | Kosten | Kategorie      | Verfügbarkeit             |
-| ------------------ | -------:| ------:| -------------- | ------------------------- |
-| Komposit-Kurzbogen |       2 |  50 GM | Einfache Waffe | #Verfügbarkeit/gewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

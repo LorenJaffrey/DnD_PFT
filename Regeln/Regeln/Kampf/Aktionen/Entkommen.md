@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion
+tags: Zug/Aktion
 ---
 *Entkomme einem Haltegriff*
 

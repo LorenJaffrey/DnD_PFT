@@ -1,27 +1,37 @@
 ---
 tags:
-- Waffe/Art/Hiebwaffe
-- Waffe/Gruppe/?
-- Waffe/Klasse/Nahkampfwaffe
-- Waffe/Kategorie/Einfache_Waffe
-- Waffe/Größe/Kleine_Waffe
-schaden: "1W4"
-schadensart: "Hieb"
-hände: 1
-größe: 1
-kategorie: Einfache Waffe
-gewicht: 1
-kosten: "1 GM"
-verfügbarkeit: "gewöhnlich"
+  - Waffe/Art/Hiebwaffe
+  - Waffe/Gruppe/?
+  - Waffe/Klasse/Nahkampfwaffe
+  - Waffe/Kategorie/Einfache_Waffe
+  - Waffe/Größe/Kleine_Waffe
+Schaden: 1W4
+Schadensart: Hieb
+Eigenschaften:
+  - "[[Leicht]]"
+  - "[[Finesse]]"
+  - "[[Tödlich]]"
+SchadenFern: 
+SchadensartFern: 
+Range1: 
+Range2: 
+Range3: 
+EigenschaftenFern: 
+Kategorie: "[[Einfache Waffen]]"
+Hände: 1
+Größe: 1
+Gewicht: 1 Pfund
+Kosten: 1 GM
+Verfügbarkeit: gewöhnlich
 ---
-## Sichel
+## `=this.file.name`
 
-| Waffe  | Schaden | Art  | Hände | Größe | Eigenschaften                        |
-| ------ | ------- | ---- |:-----:|:-----:| ------------------------------------ |
-| Sichel | 1W4     | Hieb |   1   |   1   | [[Leicht]], [[Finesse]], [[Tödlich]] |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe  | Gewicht | Kosten | Kategorie      | Verfügbarkeit             |
-| ------ | -------:| ------:| -------------- | ------------------------- |
-| Sichel |       1 |   1 GM | Einfache Waffe | #Verfügbarkeit/gewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

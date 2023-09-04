@@ -20,7 +20,7 @@ dauer: "unmittelbar"
 
 Zeitaufwand: 1 Minute
 Reichweite: #Reichweite/Berührung 
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]], [[Zauber wirken#Material (M)]] (eine Perle im Wert von mindestens 100 GM und eine Eulenfeder)
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]] (eine Perle im Wert von mindestens 100 GM und eine Eulenfeder)
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
@@ -34,7 +34,7 @@ Du erlangst auch Kenntnis darüber, ob Zauber auf dem Gegenstand liegen und welc
 
 Wenn du stattdessen eine Kreatur berührst, während du den Zauber wirkst, erfährst du, welche Zauber das Ziel augenblicklich beeinflussen.
 
-Wenn du beim Identifizieren eines Gegenstands auf diese Weise scheiterst, kannst du es nach einer [[Rasten#Kurze Rast]] erneut versuchen.
+Wenn du beim Identifizieren eines Gegenstands auf diese Weise scheiterst, kannst du es nach einer [[Kurze Rast|Kurzen Rast]] erneut versuchen.
 
 ## Zauberlisten
 - [[Barde]]

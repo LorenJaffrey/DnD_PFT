@@ -1,5 +1,5 @@
 ```dataview
 TABLE
-FROM #Kampf/Reaktion
+FROM #Zug/Reaktion
 SORT file.name
 ```

@@ -38,3 +38,6 @@
 - 1 Platinmünze = 10 Goldmünzen
 - Seltene Münzen aus untergegangenen Königreichen
 - Erregen Verdacht oder Misstrauen
+
+## Gewicht
+50 Münzen wiegen ca. 1 Pfund

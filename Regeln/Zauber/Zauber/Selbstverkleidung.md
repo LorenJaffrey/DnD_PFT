@@ -19,7 +19,7 @@ dauer: "1h"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: selbst
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: 1 Stunde
 
 ## Beschreibung

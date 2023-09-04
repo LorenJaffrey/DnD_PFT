@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion
+tags: Zug/Aktion
 ---
 *Interagiere mit einem zweiten Objekt oder nutze besondere Merkmale eines Objektes.*
 

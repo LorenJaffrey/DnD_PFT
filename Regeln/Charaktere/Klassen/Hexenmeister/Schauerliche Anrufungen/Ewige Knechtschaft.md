@@ -5,5 +5,5 @@ tags:
 mindeststufe: 5
 ---
 Voraussetzung: Stufe 5
-Du musst keine [[Zauber wirken#Zauberplätze]] verbrauchen, um [[Tote beleben]] zu wirken. 
-Du kannst diese Option erst nach einer [[Rasten#Lange Rast]] erneut verwenden.
+Du musst keinen [[Zauberplätze|Zauberplatz]] verbrauchen, um [[Tote beleben]] zu wirken. 
+Du kannst diese Option erst nach einer [[Lange Rast]] erneut verwenden.

@@ -10,15 +10,15 @@ Es kann auch eine separate Bewegungsrate für eine bestimmte Fortbewegungsart ex
 ## Spezielle Bewegungsarten
 
 ### Klettern
-[[Bewegung#Bewegungsrate]]  halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Klettern.
-#GM entscheidet ob Wurf auf [[Athletik]] notwendig wird (z.B. Klettern auf rutschiger Oberfläche oder ohne Griffmöglichkeiten).
+[[Bewegung#Bewegungsrate]] halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Klettern.
+DM entscheidet ob Wurf auf [[Athletik]] oder [[Akrobatik]] notwendig wird (z.B. Klettern auf rutschiger Oberfläche oder ohne Griffmöglichkeiten).
 
 ### Schwimmen
-[[Bewegung#Bewegungsrate]]  halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Schwimmen.
-#GM entscheidet ob Wurf auf [[Athletik]] notwendig wird (z.B. Vorankommen in rauen Gewässern).
+[[Bewegung#Bewegungsrate]] halbiert, außer es gibt extra [[Bewegung#Bewegungsrate]] für Schwimmen.
+DM entscheidet ob Wurf auf [[Athletik]] notwendig wird (z.B. Vorankommen in rauen Gewässern).
 
 ### Kriechen
-[[Bewegung#Bewegungsrate]]  halbiert.
+[[Bewegung#Bewegungsrate]] halbiert.
 
 ### Springen
 
@@ -57,6 +57,3 @@ Beispiele:
 Zu Boden fallen verbraucht keine [[Bewegung#Bewegungsrate]].
 Aufstehen kostet halbe maximale [[Bewegung#Bewegungsrate]].
 Liegend bewegen entspricht [[Bewegung#Kriechen]].
-
-## Reisen
-Charaktere können ca. 38 km pro Tag zu Fuß zurücklegen

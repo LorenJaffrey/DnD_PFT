@@ -1,40 +1,47 @@
 ---
 tags:
-- Waffe/Art/Hiebwaffe
-- Waffe/Gruppe/Axt
-- Waffe/Klasse/Nahkampfwaffe
-- Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
-- Waffe/Kategorie/Kriegswaffe
-- Waffe/Größe/Einhandwaffe
-schaden: "1W6"
-schadensart: "Hieb"
-hände: 1
-größe: 2
-kategorie: Kriegswaffe
-gewicht: 2
-kosten: "2 GM"
-verfügbarkeit: "häufig"
-schadenFern: "1W6"
-schadensartFern: "Hieb"
-händeFern: 1
-range1: "1,5(1)"
-range2: "6(4)"
-range3: "18(12)"
+  - Waffe/Art/Hiebwaffe
+  - Waffe/Gruppe/Axt
+  - Waffe/Klasse/Nahkampfwaffe
+  - Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
+  - Waffe/Kategorie/Kriegswaffe
+  - Waffe/Größe/Einhandwaffe
+Schaden: 1W6
+Schadensart: Hieb
+Eigenschaften:
+- "[[Leicht]]"
+- "[[Tödlich]]"
+
+SchadenFern: 1W6
+SchadensartFern: Hieb
+Range1: 1,5(1)
+Range2: 6(4)
+Range3: 18(12)
+EigenschaftenFern:
+- "[[Leicht]]"
+- "[[Wurfwaffe]]"
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 2
+Gewicht: 2 Pfund
+Kosten: 2 GM
+Verfügbarkeit: häufig
 ---
-## Beil
+## `=this.file.name`
 
-| Waffe | Schaden | Art  | Hände | Größe | Kategorie   | Eigenschaften           |
-| ----- | ------- | ---- |:-----:|:-----:| ----------- | ----------------------- |
-| Beil  | 1W6     | Hieb |   1   |   2   | Kriegswaffe | [[Leicht]], [[Tödlich]] |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
-## Beil (Wurf)
+## `=this.file.name` (Wurf)
 
-| Waffe | Schaden | Art  | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften             |
-| ----- | ------- | ---- |:-----:| ----- | ------ | ------ | ------ | ------------------------- |
-| Beil  | 1W6     | Hieb |   1   | 2     | 1,5(1) | 6(4)   | 18(12) | [[Wurfwaffe]], [[Leicht]] |
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
-| ----- | -------:| ------:| ----------- | --------------------- |
-| Beil  |       2 |   2 GM | Kriegswaffe | #Verfügbarkeit/häufig |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

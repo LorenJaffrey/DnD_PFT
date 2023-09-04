@@ -1,41 +1,47 @@
 ---
 tags:
-- Waffe/Art/Stichwaffe
-- Waffe/Gruppe/Messer
-- Waffe/Klasse/Nahkampfwaffe
-- Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
-- Waffe/Kategorie/Einfache_Waffe
-- Waffe/Größe/Kleine_Waffe
-schaden: "1W3"
-schadenFern: "1W4"
-schadensart: "Stich"
-hände: 1
-größe: 1
-kategorie: Einfache Waffe
-gewicht: 0,25
-kosten: "5 KM"
-verfügbarkeit: "häufig"
-schadenFern: "1W4"
-schadensartFern: "Stich"
-händeFern: 1
-range1: "1,5(1)"
-range2: "6(4)"
-range3: "18(12)"
+  - Waffe/Art/Stichwaffe
+  - Waffe/Gruppe/Messer
+  - Waffe/Klasse/Nahkampfwaffe
+  - Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
+  - Waffe/Kategorie/Einfache_Waffe
+  - Waffe/Größe/Kleine_Waffe
+Schaden: 1W3
+Schadensart: Stich
+Eigenschaften:
+  - "[[Leicht]]"
+  - "[[Finesse]]"
+SchadenFern: 1W4
+SchadensartFern: Stich
+Range1: 1,5(1)
+Range2: 6(4)
+Range3: 18(12)
+EigenschaftenFern:
+  - "[[Leicht]]"
+  - "[[Finesse]]"
+  - "[[Wurfwaffe]]"
+  - "[[Kritisch]]"
+Kategorie: "[[Einfache Waffen]]"
+Hände: 1
+Größe: 1
+Gewicht: 0,25 Pfund
+Kosten: 5 KM
+Verfügbarkeit: häufig
 ---
-## Wurfmesser
+## `=this.file.name`
 
-| Waffe      | Schaden | Art   | Hände | Größe | Eigenschaften           |
-| ---------- | ------- | ----- |:-----:|:-----:| ----------------------- |
-| Wurfmesser | 1W3     | Stich |   1   |   1   | [[Leicht]], [[Finesse]] |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
-## Wurfmesser (Wurf)
+## `=this.file.name` (Wurf)
 
-| Waffe      | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften                                        |
-| ---------- | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | ---------------------------------------------------- |
-| Wurfmesser | 1W4     | Stich |   1   |   1   | 1,5(1) | 6(4)   | 18(12) | [[Wurfwaffe]], [[Leicht]], [[Finesse]], [[Kritisch]] |
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe      | Gewicht | Kosten | Kategorie      | Größe | Verfügbarkeit                         |
-| ---------- | -------:| ------:| -------------- |:-----:| ------------------------------------- |
-| Wurfmesser |    0,25 |   5 KM | Einfache Waffe |   1   | #Verfügbarkeit/häufig  |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

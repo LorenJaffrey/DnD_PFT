@@ -4,8 +4,8 @@ tags:
 - Talent/Kampf
 voraussetzung: "Übung mit Leichter Rüstung"
 ---
-Voraussetzung: [[Übung]] mit [[Rüstung#Leichte Rüstung]]
+Voraussetzung: [[Übung]] mit [[Leichte Rüstung|Leichter Rüstung]]
 
-Du hast trainiert, in [[Rüstung#Mittlere Rüstung]] und mit [[Rüstung#Schild]] zu kämpfen, und erhältst die folgenden Vorzüge:
+Du hast trainiert, in [[Mittelschwere Rüstung|Mittelschwerer Rüstung]] und mit [[Schilde]]n zu kämpfen, und erhältst die folgenden Vorzüge:
 - Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
-- Du hast [[Übung]] mit [[Rüstung#Mittlere Rüstung]] und [[Rüstung#Schild]].
+- Du hast [[Übung]] mit [[Mittelschwere Rüstung|Mittelschwerer Rüstung]] und [[Schilde]]n.

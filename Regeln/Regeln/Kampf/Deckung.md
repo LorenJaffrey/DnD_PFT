@@ -1,9 +1,9 @@
 ### Halbe Deckung
-+2 auf [[Rüstung#Rüstungsklasse]] und [[Rettungswurf]] auf [[Geschicklichkeit]]
++2 auf [[Rüstungsklasse]] und [[Rettungswurf]] auf [[Geschicklichkeit]]
 Mindestens die Hälfte des Ziels muss verdeckt sein.
 
 ### Dreiviertel Deckung
-+5 auf [[Rüstung#Rüstungsklasse]] und [[Rettungswurf]] auf [[Geschicklichkeit]]
++5 auf [[Rüstungsklasse]] und [[Rettungswurf]] auf [[Geschicklichkeit]]
 Mindestens dreiviertel des Ziels muss verdeckt sein.
 
 ### Vollständige Deckung

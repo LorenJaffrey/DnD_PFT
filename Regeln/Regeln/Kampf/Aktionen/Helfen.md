@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion
+tags: Zug/Aktion
 ---
 *Gewähre einem Verbündeten Vorteil auf eine Fähigkeitenprobe oder einen Angriff.*
 

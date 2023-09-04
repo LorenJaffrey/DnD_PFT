@@ -29,4 +29,4 @@ Intelligenzwurf wird notwendig wenn Logik, Buildung, Gedächtnis oder deduktives
 - einen Wettstreit in Fachwissen gewinnen
 
 ## Attribut zum Zauberwirken
-[[Magier|Magier]] benutzen Intelligenz als [[Attribute|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauber wirken#Angriffswurf]].
+[[Magier|Magier]] benutzen Intelligenz als [[Attribute|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswürfe|Zauberangriffswurf]].

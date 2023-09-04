@@ -19,7 +19,7 @@ dauer: "1m"
 
 Zeitaufwand: 1 [[Zug#Aktion]]
 Reichweite: 9m / 6 Kästchen
-Komponenten: [[Zauber wirken#Geste (G)]], [[Zauber wirken#Material (M)]] (ein Stück Vlies), 
+Komponenten: [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]] (ein Stück Vlies), 
 Wirkungsdauer: 1 Minute
 
 ## Beschreibung

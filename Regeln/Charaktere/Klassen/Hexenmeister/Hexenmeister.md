@@ -4,37 +4,37 @@
 
 ## Klassentabelle
 
-| Stufe | Merkmale                                                                            | Zaubertricks | Bekannte Zauber | Zauberplätze | Grad der Zauberplätze | Bekannte Anrufungen |
-|:-----:| ----------------------------------------------------------------------------------- |:------------:|:---------------:|:------------:|:---------------------:|:-------------------:|
-|   1   | [[Außerweltlicher Schutzherr]], [[Paktmagie]]                                       |      2       |        2        |      1       |           1           |         ---         |
-|   2   | [[Segen des Pakts]]                                                                 |      2       |        3        |      2       |           1           |         ---         |
-|   3   | [[Schauerliche Anrufungen]]                                                         |      2       |        4        |      2       |           2           |          2          |
-|   4   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        5        |      2       |           2           |          2          |
-|   5   | ---                                                                                 |      3       |        6        |      2       |           3           |          3          |
-|   6   | Merkmal Schutzherr                                                                  |      3       |        7        |      2       |           3           |          3          |
-|   7   | ---                                                                                 |      3       |        8        |      2       |           4           |          4          |
-|   8   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        9        |      2       |           4           |          4          |
-|   9   | ---                                                                                 |      3       |       10        |      2       |           5           |          5          |
-|  10   | Merkmal Schutzherr                                                                  |      4       |       10        |      2       |           5           |          5          |
-|  11   | [[Mystisches Arkanum]] (6. Grad)                                                    |      4       |       11        |      3       |           5           |          5          |
-|  12   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       11        |      3       |           5           |          6          |
-|  13   | [[Mystisches Arkanum]] (7. Grad)                                                    |      4       |       12        |      3       |           5           |          6          |
-|  14   | Merkmal Schutzherr                                                                  |      4       |       12        |      3       |           5           |          6          |
-|  15   | [[Mystisches Arkanum]] (8. Grad)                                                    |      4       |       13        |      3       |           5           |          7          |
-|  16   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       13        |      3       |           5           |          7          |
-|  17   | [[Mystisches Arkanum]] (9. Grad)                                                    |      4       |       14        |      4       |           5           |          7          |
-|  18   | ---                                                                                 |      4       |       14        |      4       |           5           |          8          |
-|  19   | [[Attributswerterhöhung]] oder [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       15        |      4       |           5           |          8          |
-|  20   | [[Mystischer Meister]]                                                              |      4       |       15        |      4       |           5           |          8          |
+| Stufe | Merkmale                                             | Zaubertricks | Bekannte Zauber | Zauberplätze | Grad der Zauberplätze | Bekannte Anrufungen |
+|:-----:| ---------------------------------------------------- |:------------:|:---------------:|:------------:|:---------------------:|:-------------------:|
+|   1   | [[Außerweltlicher Schutzherr]], [[Paktmagie]]        |      2       |        2        |      1       |           1           |         ---         |
+|   2   | [[Segen des Pakts]]                                  |      2       |        3        |      2       |           1           |         ---         |
+|   3   | [[Schauerliche Anrufungen]]                          |      2       |        4        |      2       |           2           |          2          |
+|   4   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        5        |      2       |           2           |          2          |
+|   5   | ---                                                  |      3       |        6        |      2       |           3           |          3          |
+|   6   | Merkmal Schutzherr                                   |      3       |        7        |      2       |           3           |          3          |
+|   7   | ---                                                  |      3       |        8        |      2       |           4           |          4          |
+|   8   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        9        |      2       |           4           |          4          |
+|   9   | ---                                                  |      3       |       10        |      2       |           5           |          5          |
+|  10   | Merkmal Schutzherr                                   |      4       |       10        |      2       |           5           |          5          |
+|  11   | [[Mystisches Arkanum]] (6. Grad)                     |      4       |       11        |      3       |           5           |          5          |
+|  12   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       11        |      3       |           5           |          6          |
+|  13   | [[Mystisches Arkanum]] (7. Grad)                     |      4       |       12        |      3       |           5           |          6          |
+|  14   | Merkmal Schutzherr                                   |      4       |       12        |      3       |           5           |          6          |
+|  15   | [[Mystisches Arkanum]] (8. Grad)                     |      4       |       13        |      3       |           5           |          7          |
+|  16   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       13        |      3       |           5           |          7          |
+|  17   | [[Mystisches Arkanum]] (9. Grad)                     |      4       |       14        |      4       |           5           |          7          |
+|  18   | ---                                                  |      4       |       14        |      4       |           5           |          8          |
+|  19   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       15        |      4       |           5           |          8          |
+|  20   | [[Mystischer Meister]]                               |      4       |       15        |      4       |           5           |          8          |
 
 ## Trefferpunkte
-[[Trefferpunkte und Trefferwürfel#Trefferwürfel]]: 1W8 pro Stufe
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
-[[Trefferpunkte und Trefferwürfel#Trefferpunkte]] pro Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferwürfel]]: 1W8 pro Stufe
+[[Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte]] pro Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
 
 ## Übung
 Rüstungen:
-- [[Rüstung#Leichte Rüstung]]
+- [[Leichte Rüstung]]
 
 Waffen:
 - [[Einfache Waffen]]
@@ -58,7 +58,7 @@ Fertigkeiten:
 
 ## Ausrüstung
 - [[Leichte Armbrust]] oder beliebige [[Einfache Waffen|Einfache Waffe]]
-- [[Rüstung#Lederrüstung]]
+- [[Lederrüstung]]
 - [[Ausrüstungssets#Gewölbeforscherausrüstung]] oder [[Ausrüstungssets#Gelehrtenausrüstung]]
 - #Ausrüstung/Materialkomponentenbeutel oder #Ausrüstung/Arkaner_Fokus
 - beliebige [[Einfache Waffen|Einfache Waffe]]

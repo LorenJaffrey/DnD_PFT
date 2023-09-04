@@ -11,3 +11,7 @@ Beispiele:
 - religiöse Hierarchien
 - heilige Symbole
 - Praktiken geheimer Kulte
+- Wissen über folgende Kreaturen:
+	- [[Untote]]
+	- [[Unholde]]
+	- [[Celestische Wesen]]

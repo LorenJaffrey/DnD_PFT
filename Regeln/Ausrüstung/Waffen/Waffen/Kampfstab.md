@@ -1,27 +1,36 @@
 ---
 tags:
-- Waffe/Art/Wuchtwaffe
-- Waffe/Gruppe/Stab
-- Waffe/Klasse/Nahkampfwaffe
-- Waffe/Kategorie/Einfache_Waffe
-- Waffe/Größe/Großwaffe
-schaden: "1W8"
-schadensart: "Wucht"
-hände: 2
-größe: 4
-kategorie: Einfache Waffe
-gewicht: 4
-kosten: "5 SM"
-verfügbarkeit: "häufig"
+  - Waffe/Art/Wuchtwaffe
+  - Waffe/Gruppe/Stab
+  - Waffe/Klasse/Nahkampfwaffe
+  - Waffe/Kategorie/Einfache_Waffe
+  - Waffe/Größe/Großwaffe
+Schaden: 1W8
+Schadensart: Wucht
+Eigenschaften:
+  - "[[Parieren]]"
+  - "[[Finesse]]"
+SchadenFern: 
+SchadensartFern: 
+Range1: 
+Range2: 
+Range3: 
+EigenschaftenFern: 
+Kategorie: "[[Einfache Waffen]]"
+Hände: 2
+Größe: 4
+Gewicht: 3 Pfund
+Kosten: 5 SM
+Verfügbarkeit: häufig
 ---
-## Kampfstab
+## `=this.file.name`
 
-| Waffe     | Schaden | Art   | Hände | Größe | Kategorie      | Eigenschaften             |
-| --------- | ------- | ----- |:-----:|:-----:| -------------- | ------------------------- |
-| Kampfstab | 1W8     | Wucht |   2   |   4   | Einfache Waffe | [[Parieren]], [[Finesse]] |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe     | Gewicht | Kosten | Verfügbarkeit         |
-| --------- | -------:| ------:| --------------------- |
-| Kampfstab |       3 |   5 SM | #Verfügbarkeit/häufig |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

@@ -5,23 +5,34 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
-schaden: "1W4"
-schadensart: "Hieb"
-hände: 1
-größe: 2
-kategorie: Einfache Waffe
-gewicht: 1
-kosten: "1 GM"
-verfügbarkeit: "ungewöhnlich"
----
-## Peitsche
+Schaden: 1W4
+Schadensart: Hieb
+Eigenschaften:
+- "[[Weitreichend]]"
+- "[[Finesse]]"
 
-| Waffe    | Schaden | Art  | Hände | Größe | Eigenschaften                 |
-| -------- | ------- | ---- |:-----:|:-----:| ----------------------------- |
-| Peitsche | 1W4     | Hieb |   1   |   2   | [[Weitreichend]], [[Finesse]] |
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 2
+Gewicht: 1 Pfund
+Kosten: 2 GM
+Verfügbarkeit: ungewöhnlich
+---
+## `=this.file.name`
+
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe    | Gewicht | Kosten | Kategorie   | Verfügbarkeit               |
-| -------- | -------:| ------:| ----------- | --------------------------- |
-| Peitsche |       1 |   2 GM | Kriegswaffe | #Verfügbarkeit/ungewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

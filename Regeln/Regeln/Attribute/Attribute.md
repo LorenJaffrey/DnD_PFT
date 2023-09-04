@@ -1,6 +1,11 @@
 ---
 aliases: Attribut, Attributswurf, Attributswürfe, Attributswürfen
 ---
+```dataview
+TABLE
+FROM #Attribut
+```
+
 ## Attributsmodifikator
 
 | Attributswert        |  1  | 2 - 3 | 4 - 5 | 6 - 7 | 8 - 9 | 10 - 11 | 12 - 13 | 14 - 15 | 16 - 17 | 18 - 19 | 20 - 21 | 22 - 23 | 24 - 25 | 26 - 27 | 28 - 29 | 30  |
@@ -11,11 +16,21 @@ Wird fällig wenn eine Aktion ausgeführt wird bei der die Möglichkeit des Sche
 
 ## Attributswurf
 W20 + [[Attribute#Attributsmodifikator]] + Bonus/Malus
+Besonderer Erfolg oder Misserfolg für 5, 10, 15 Punkte unter/über [[Schwierigkeitsgrad|SG]]
 
-```dataview
-TABLE
-FROM #Attribut
-```
+
+
+### Kombinierte Würfe
+Kombinieren von mehreren [[Fertigkeiten]] oder [[Attribute]]n um eine Aufgabe zu ermöglichen bzw. zu vereinfachen
+	- herausfinden wie ein Schloss, eine Falle, etc. funktioniert bevor man sich daran macht zu knacken oder entschärfen
+	- schwächste Stelle in einer Wand finden bevor man versucht sie einzuschlagen
+
+### Zeitfaktor
+Bei gewissen [[Attribute#Attributswurf]] oder [[Fertigkeiten#Fertigkeitswurf]] kann Zeit einen Einfluss haben
+	- ein Buch überfliegen oder es gründlich studieren
+	- einen Raum kurz absuchen oder gründlich durchsuchen
+	- eine Hängebrücke vorsichtig überqueren oder drüber rennen
+- kann den Wurf erleichtern bzw. erschweren und oder [[Vorteil und Nachteil|Vorteil]]/[[Vorteil und Nachteil|Nachteil]] verleihen
 
 ## Passiver Attributswurf 
 10 + [[Attribute#Attributsmodifikator]] + [[Vorteil und Nachteil|Vorteil]] (+5) + [[Vorteil und Nachteil|Nachteil]] (-5) + [[Übung|Übungsbonus]]

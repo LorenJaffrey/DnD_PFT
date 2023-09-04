@@ -6,35 +6,42 @@ tags:
 - Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
-schaden: "1W6"
-schadensart: "Wucht"
-hände: 1
-größe: 2
-kategorie: Kriegswaffe
-gewicht: 2
-kosten: "2 GM"
-verfügbarkeit: "häufig"
-schadenFern: "1W6"
-schadensartFern: "Wucht"
-händeFern: 1
-range1: "1,5(1)"
-range2: "6(4)"
-range3: "18(12)"
+Schaden: 1W6
+Schadensart: Wucht
+Eigenschaften:
+- "[[Leicht]]"
+- "[[Rüstungsbrechend]] (1)"
+
+SchadenFern: 1W6
+SchadensartFern: Wucht
+Range1: 1,5(1)
+Range2: 6(4)
+Range3: 18(12)
+EigenschaftenFern:
+- "[[Leicht]]"
+- "[[Wurfwaffe]]"
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 2
+Gewicht: 2 Pfund
+Kosten: 2 GM
+Verfügbarkeit: häufig
 ---
-## Leichter Hammer
+## `=this.file.name`
 
-| Waffe           | Schaden | Art   | Hände | Eigenschaften                        |
-| --------------- | ------- | ----- |:-----:| ------------------------------------ |
-| Leichter Hammer | 1W6     | Wucht |   1   | [[Leicht]], [[Rüstungsbrechend]] (1) |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
-## Leichter Hammer (Wurf)
+## `=this.file.name` (Wurf)
 
-| Waffe           | Schaden | Art   | Hände | Min RW | Gnd RW | Max RW | Eigenschaften             |
-| --------------- | ------- | ----- |:-----:| ------ | ------ | ------ | ------------------------- |
-| Leichter Hammer | 1W6     | Wucht |   1   | 1,5(1) | 6(4)   | 18(12) | [[Wurfwaffe]], [[Leicht]] |
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe           | Gewicht | Kosten | Kategorie   | Größe | Verfügbarkeit         |
-| --------------- | -------:| ------:| ----------- |:-----:| --------------------- |
-| Leichter Hammer |       2 |   2 GM | Kriegswaffe |   2   | #Verfügbarkeit/häufig |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

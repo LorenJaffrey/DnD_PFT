@@ -6,35 +6,42 @@ tags:
 - Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Großwaffe
-schaden: "1W6"
-schadensart: "Stich"
-hände: 1
-größe: 4
-kategorie: Kriegswaffe
-gewicht: 3
-kosten: "2 GM"
-verfügbarkeit: "selten"
-schadenFern: "1W6"
-schadensartFern: "Stich"
-händeFern: 1
-range1: "1,5(1)"
-range2: "6(4)"
-range3: "18(12)"
+Schaden: 1W6
+Schadensart: Stich
+Eigenschaften:
+- "[[Weitreichend]]"
+- "[[Vielseitig]]"
+- "[[Parieren]]"
+
+SchadenFern: 1W6
+SchadensartFern: Stich
+Range1: 1,5(1)
+Range2: 6(4)
+Range3: 18(12)
+EigenschaftenFern:
+- "[[Wurfwaffe]]"
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 4
+Gewicht: 3 Pfund
+Kosten: 5 GM
+Verfügbarkeit: selten
 ---
-## Dreizack
+## `=this.file.name`
 
-| Waffe    | Schaden | Art   | Hände | Größe | Eigenschaften                                        |
-| -------- | ------- | ----- |:-----:|:-----:| ---------------------------------------------------- |
-| Dreizack | 1W6     | Stich |   1   |  4     | [[Weitreichend]], [[Vielseitig]] (1W8), [[Parieren]] |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
-## Dreizack (Wurf)
+## `=this.file.name` (Wurf)
 
-| Waffe    | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften |
-| -------- | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | ------------- |
-| Dreizack | 1W6     | Stich |   1   |   4   | 1,5(1) | 6(4)   | 18(12) | [[Wurfwaffe]] |
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe    | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
-| -------- | -------:| ------:| ----------- | --------------------- |
-| Dreizack |       3 |   5 GM | Kriegswaffe | #Verfügbarkeit/selten |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

@@ -1,27 +1,35 @@
 ---
 tags:
-- Waffe/Art/Wuchtwaffe
-- Waffe/Gruppe/Knüppel
-- Waffe/Klasse/Nahkampfwaffe
-- Waffe/Kategorie/Einfache_Waffe
-- Waffe/Größe/Einhandwaffe
-schaden: "1W6"
-schadensart: "Wucht"
-hände: 1
-größe: 2
-kategorie: Einfache Waffe
-gewicht: 2
-kosten: "1 SM"
-verfügbarkeit: "häufig"
+  - Waffe/Art/Wuchtwaffe
+  - Waffe/Gruppe/Knüppel
+  - Waffe/Klasse/Nahkampfwaffe
+  - Waffe/Kategorie/Einfache_Waffe
+  - Waffe/Größe/Einhandwaffe
+Schaden: 1W6
+Schadensart: Wucht
+Eigenschaften:
+  - "[[Leicht]]"
+SchadenFern: 
+SchadensartFern: 
+Range1: 
+Range2: 
+Range3: 
+EigenschaftenFern: 
+Kategorie: "[[Einfache Waffen]]"
+Hände: 1
+Größe: 2
+Gewicht: 2 Pfund
+Kosten: 1 SM
+Verfügbarkeit: häufig
 ---
-## Knüppel
+## `=this.file.name`
 
-| Waffe   | Schaden | Art   | Hände | Größe | Kategorie      | Eigenschaften |
-| ------- | ------- | ----- |:-----:|:-----:| -------------- | ------------- |
-| Knüppel | 1W6     | Wucht |   1   |   2   | Einfache Waffe | [[Leicht]]    |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe   | Gewicht | Kosten | Verfügbarkeit                         |
-| ------- | -------:| ------:| ------------------------------------- |
-| Knüppel |       2 |   1 SM | #Verfügbarkeit/häufig |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

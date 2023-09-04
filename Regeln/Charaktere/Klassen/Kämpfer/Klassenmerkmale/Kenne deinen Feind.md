@@ -8,7 +8,7 @@ Der SL sagt dir, ob du gleichwertig, überlegen oder unterlegen in Bezug auf zwe
 - [[Stärke]]
 - ﻿﻿[[Geschicklichkeit]]
 - ﻿﻿[[Konstitution]]
-- ﻿﻿[[Rüstung#Rüstungsklasse]]
-- aktuelle [[Trefferpunkte und Trefferwürfel#Trefferpunkte]]
+- ﻿﻿[[Rüstungsklasse]]
+- aktuelle [[Trefferpunkte]]
 - Gesamtzahl der Klassenstufen (falls vorhanden)
 - Klassenstufen als Kämpfer (falls vorhanden)

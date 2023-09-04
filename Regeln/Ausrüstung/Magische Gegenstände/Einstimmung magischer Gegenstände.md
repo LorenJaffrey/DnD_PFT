@@ -2,7 +2,7 @@
 Um sich auf einen magischen Gegenstand einzustimmen muss ein Charakter zuerst die entsprechenden Voraussetzungen erfüllen, falls der Gegenstand solche aufweist. Diese können der Beschreibung des Gegenstands entnommen werden und reichen von der passenden Klasse über Gesinnung bis zu bestimmten Völkern. Wenn der Charakter die Voraussetzungen erfüllt kann er versuchen den Gegenstand einzustimmen. 
 
 ## Einstimmung
-Im Zuge einer [[Rasten#Kurze Rast]] kann ein Charakter versuchen den magischen Gegenstand einzustimmen. 
+Im Zuge einer [[Kurze Rast|Kurzen Rast]] kann ein Charakter versuchen den magischen Gegenstand einzustimmen. 
 Dafür ist ein W20 Wurf + der Modifikator für die Kategorie des Gegenstandes (nachfolgende Tabelle) gegen den [[Identifikation magischer Gegenstände#Magische Gegenstände Seltenheit SG]] des entsprechenden Gegenstandes nötig.
 
  | Typ                    | SG Modifikator                                      |

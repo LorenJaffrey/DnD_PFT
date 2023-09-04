@@ -9,4 +9,4 @@ Die maximale Anzahl der bekannten Zauber ergibt sich aus der entsprechenden Klas
 Andere Zauberwirker (Druiden, Kleriker, Magieschmied, Magier und Paladine) müssen ihre Zauber vorbereiten, haben dafür aber eine größere Auswahl und Flexibilität.
 Sie kennen alle Zauber ihrer Klasse (Magier kennen nur die Zauber in ihrem Zauberbuch).
 Die maximale Anzahl der vorbereiteten Zauber ergibt sich aus der entsprechenden Klassentabelle + dem [[Attribute#Attributsmodifikator]] zum Zauberwirken der jeweiligen Klasse.
-Die Liste der vorbereiteten Zauber kann bei jeder [[Rasten#Lange Rast]] geändert werden. Dies erfordert 1 Minuten in Gebet/Meditation pro Spruch und [[Zauber wirken#Zaubergrad]].
+Die Liste der vorbereiteten Zauber kann bei jeder [[Lange Rast]] geändert werden. Dies erfordert 1 Minuten in Gebet/Meditation pro Spruch und [[Zaubergrad]].

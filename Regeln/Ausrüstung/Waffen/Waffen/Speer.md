@@ -1,40 +1,44 @@
 ---
 tags:
-- Waffe/Art/Stichwaffe
-- Waffe/Gruppe/Speer
-- Waffe/Klasse/Nahkampfwaffe
-- Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
-- Waffe/Kategorie/Einfache_Waffe
-- Waffe/Größe/Großwaffe
-schaden: "1W6"
-schadensart: "Stich"
-hände: 1
-größe: 4
-kategorie: Einfache Waffe
-gewicht: 3
-kosten: "2 GM"
-verfügbarkeit: "häufig"
-schadenFern: "1W6"
-schadensartFern: "Stich"
-händeFern: 1
-range1: "1,5(1)"
-range2: "6(4)"
-range3: "18(12)"
+  - Waffe/Art/Stichwaffe
+  - Waffe/Gruppe/Speer
+  - Waffe/Klasse/Nahkampfwaffe
+  - Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
+  - Waffe/Kategorie/Einfache_Waffe
+  - Waffe/Größe/Großwaffe
+Schaden: 1W6
+Schadensart: Stich
+Eigenschaften:
+  - "[[Weitreichend]]"
+  - "[[Vielseitig]] (1W8)"
+SchadenFern: 1W6
+SchadensartFern: Stich
+Range1: 1,5(1)
+Range2: 6(4)
+Range3: 18(12)
+EigenschaftenFern:
+  - "[[Wurfwaffe]]"
+Kategorie: "[[Einfache Waffen]]"
+Hände: 1
+Größe: 4
+Gewicht: 3 Pfund
+Kosten: 2 GM
+Verfügbarkeit: häufig
 ---
-## Speer
+## `=this.file.name`
 
-| Waffe | Schaden | Art   | Hände | Größe | Eigenschaften                      |
-| ----- | ------- | ----- |:-----:|:-----:| ---------------------------------- |
-| Speer | 1W6     | Stich |   1   |   4   | [[Parieren]], [[Vielseitig]] (2W5) |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
-## Speer (Wurf)
+## `=this.file.name` (Wurf)
 
-| Waffe | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW | Eigenschaften |
-| ----- | ------- | ----- |:-----:|:-----:| ------ | ------ | ------ | ------------- |
-| Speer | 1W6     | Stich |   1   |   4   | 1,5(1) | 6(4)   | 18(12) | [[Wurfwaffe]] |
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 
-| Waffe | Gewicht | Kosten | Kategorie      | Verfügbarkeit         |
-| ----- | -------:| ------:| -------------- | --------------------- |
-| Speer |       3 |   2 GM | Einfache Waffe | #Verfügbarkeit/häufig |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

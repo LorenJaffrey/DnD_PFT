@@ -12,18 +12,19 @@ Auf Stufe 1 kennst du zwei beliebige Zaubertricks aus der [[Zauberliste des Drui
 Du musst Zaubersprüche vorbereiten, um sie wirken zu können.
 
 Wähle dazu eine Anzahl von Druidenzaubern, die deiner Stufe als Druide + deinem [[Weisheit#Weisheitsmodifikator]] entspricht (mindestens 1), und notiere sie in einer Liste. 
-Du kannst nur Sprüche aussuchen, für deren [[Zauber wirken#Zaubergrad]] du auch [[Zauber wirken#Zauberplätze]] besitzt.
+Du kannst nur Sprüche aussuchen, für deren [[Zaubergrad]] du auch [[Zauberplätze]] besitzt.
 
 >[!example]
->Bist du z. B. ein Druide der 3. Stufe, verfügst du über vier [[Zauber wirken#Zauberplätze]] des 1. [[Zauber wirken#Zaubergrad]] und zwei des 2. [[Zauber wirken#Zaubergrad]]. Bei einem Weisheitswert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des 1. oder 2. [[Zauber wirken#Zaubergrad]] umfassen.
+>Bist du z. B. ein Druide der 3. Stufe, verfügst du über vier [[Zauberplätze]] des 1. [[Zaubergrad]] und zwei des 2. [[Zaubergrad]]. 
+>Bei einem Weisheitswert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des 1. oder 2. [[Zaubergrad]]s umfassen.
 
-Die [[Druide#Klassentabelle]] gibt an, wie viele [[Zauber wirken#Zauberplätze]] pro [[Zauber wirken#Zaubergrad]] dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen [[Zauber wirken#Zauberplätze]] des gleichen oder eines höheren [[Zauber wirken#Zaubergrad]] verbrauchen. Alle verbrauchten [[Zauber wirken#Zauberplätze]] stehen dir nach einer [[Rasten#Lange Rast]] wieder zur Verfügung. 
+Die [[Druide#Klassentabelle]] gibt an, wie viele [[Zauberplätze]] pro [[Zaubergrad]] dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen [[Zauberplätze|Zauberplatz]] des gleichen oder eines höheren [[Zaubergrad]]s verbrauchen. Alle verbrauchten [[Zauberplätze]] stehen dir nach einer [[Lange Rast]] wieder zur Verfügung. 
 
 >[!example]
->Hast du beispielsweise den Zauber [[Wunden heilen]] des 1. Grades vorbereitet, kannst du sowohl einen [[Zauber wirken#Zauberplätze]] des 1. [[Zauber wirken#Zaubergrad]] als auch einen des 2. [[Zauber wirken#Zaubergrad]] verwenden, um [[Wunden heilen]] zu wirken.
+>Hast du beispielsweise den Zauber [[Wunden heilen]] des 1. Grades vorbereitet, kannst du sowohl einen [[Zauberplätze|Zauberplatz]] des 1. [[Zaubergrad]]s als auch einen des 2. [[Zaubergrad]]s verwenden, um [[Wunden heilen]] zu wirken.
 
-Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder [[Rasten#Lange Rast]] ändern. 
-Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je [[Zauber wirken#Zaubergrad]] pro Spruch.
+Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder [[Lange Rast]] ändern. 
+Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je [[Zaubergrad]] pro Spruch.
 
 ## Attribut zum Zauberwirken
 Das [[Attribute|Attribut]], mit dem du deine Druidenzauber wirkst, ist [[Weisheit]], da du deine Magie aus der Hingabe zur Natur und der Einheit mit ihr schöpfst.
@@ -36,7 +37,7 @@ Wird der [[Schwierigkeitsgrad]] für einen [[Rettungswurf]] gegen deine Druidenz
 >**Modifikator für Zauberangriffe** = [[Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
 
 ## Rituale wirken
-Du kannst einen Druidenzauber als [[Zauber wirken#Ritual]] wirken, falls der Spruch als solches gekennzeichnet ist und du ihn vorbereitet hast.
+Du kannst einen Druidenzauber als [[Rituale|Ritual]] wirken, falls der Spruch als solches gekennzeichnet ist und du ihn vorbereitet hast.
 
 ## Zauberfokus
 Du kannst einen #Ausrüstung/Druidischer_Fokus als #Ausrüstung/Zauberfokus für deine Druidenzauber verwenden.

@@ -5,4 +5,4 @@ tags:
 mindeststufe: 15
 ---
 Voraussetzung: Stufe 15
-Du kannst beliebig oft [[Unsichtbarkeit]] wirken, ohne dafür [[Zauber wirken#Zauberplätze]] zu verbrauchen.
+Du kannst beliebig oft [[Unsichtbarkeit]] wirken, ohne dafür einen [[Zauberplätze|Zauberplatz]] zu verbrauchen.

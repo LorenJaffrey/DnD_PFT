@@ -7,7 +7,7 @@ tags:
 - Zauber/Skalierbar
 - Zauber/Art/Schaden/Feuer
 - Zauber/Wirkungsbereich/Geschoss
-grad: X
+grad: 1
 schule: "Hervorrufung"
 zeitaufwand: "Reaktion"
 reichweite: "18 Meter"
@@ -20,7 +20,7 @@ skalierbar: "X"
 
 Zeitaufwand: 1 [[Zug#Reaktion]], die du ausführst, wenn du von einer Kreatur verletzt wirst, die sich innerhalb von 18 m befindet und die du sehen kannst
 Reichweite: 18m
-Komponenten: [[Zauber wirken#Verbal (V)]], [[Zauber wirken#Geste (G)]]
+Komponenten: [[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]
 Wirkungsdauer: unmittelbar
 
 ## Beschreibung
@@ -30,7 +30,7 @@ Die Kreatur muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] ablegen.
 Bei einem Misserfolg erleidet das Ziel 2W10 #Schaden/Feuer oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem [[Zauber wirken#Zauberplätze]] des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W10.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W10.
 
 ## Zauberlisten
 - [[Hexenmeister]]

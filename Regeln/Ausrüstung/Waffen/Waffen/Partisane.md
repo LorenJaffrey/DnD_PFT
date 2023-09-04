@@ -5,23 +5,35 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Langwaffe
-schaden: "1W8"
-schadensart: "Stich"
-hände: 2
-größe: 5
-kategorie: Kriegswaffe
-gewicht: 5
-kosten: "10 GM"
-verfügbarkeit: "gewöhnlich"
----
-## Partisane
+Schaden: 1W8
+Schadensart: Stich
+Eigenschaften:
+- "[[Weitreichend]]"
+- "[[Defensiv]]"
+- "[[Unhandlich]]"
 
-| Waffe     | Schaden | Art   | Hände | Größe | Eigenschaften                                  |
-| --------- | ------- | ----- |:-----:|:-----:| ---------------------------------------------- |
-| Partisane | 1W8     | Stich |   2   |   5   | [[Weitreichend]], [[Defensiv]], [[Unhandlich]] |
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 5
+Gewicht: 5 Pfund
+Kosten: 10 GM
+Verfügbarkeit: gewöhnlich
+---
+## `=this.file.name`
+
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe     | Gewicht | Kosten | Kategorie   | Verfügbarkeit             |
-| --------- | -------:| ------:| ----------- | ------------------------- |
-| Partisane |       5 |  10 GM | Kriegswaffe | #Verfügbarkeit/gewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

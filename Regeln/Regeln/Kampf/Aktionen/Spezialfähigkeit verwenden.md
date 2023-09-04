@@ -1,10 +1,10 @@
 ---
 tags: 
-- Kampf/Aktion
-- Kampf/Bonusaktion
-- Kampf/Reaktion
+- Zug/Aktion
+- Zug/Bonusaktion
+- Zug/Reaktion
 ---
-*Nutze ein Volks- oder Klassenmerkmal, das eine Aktion verbraucht.*
+*Nutze ein Volks- oder Klassenmerkmal, das eine Aktion, Bonusaktion oder Reaktion verbraucht.*
 
-Klassenmerkmale können Spezialfähigkeiten gewähren die den Einsatz einer [[Aktionen]] voraussetzen.
+Klassenmerkmale können Spezialfähigkeiten gewähren die den Einsatz einer [[Aktionen|Aktion]], [[Bonusaktionen|Bonusaktion]], oder [[Reaktionen|Reaktion]] voraussetzen.
 Auch manche Monster haben Spezialfähigkeiten.

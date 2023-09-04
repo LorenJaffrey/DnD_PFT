@@ -24,4 +24,4 @@ Charismawürfe werden nötig um andere zu beeinflussen oder zu unterhalten, Eind
 - dich unter eine Gruppe mischen um ein Gefühl dafür zu bekommen, was gerade die Hauptgesprächsthemen sind
 
 ## Attribut zum Zauberwirken
-[[Barde]], [[Hexenmeister]], [[Paladin]] und [[Zauberer]] benutzen Charisma als [[Attribute|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauber wirken#Angriffswurf]].
+[[Barde]], [[Hexenmeister]], [[Paladin]] und [[Zauberer]] benutzen Charisma als [[Attribute|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswürfe|Zauberangriffswurf]].

@@ -5,16 +5,26 @@ tags:
 - Waffe/Klasse/Fernkampfwaffe/Schusswaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Großwaffe
-schaden: "1W10"
-schadensart: "Stich"
-gewicht: 4
-kosten: "75 GM"
-kategorie: "Kriegswaffe"
-verfügbarkeit: "selten"
-hände: 2
-mindestreichweite: "4,5m (3 Kästchen)"
-grundreichweite: "75m (50 Kästchen)"
-maximalreichweite: "180m (120) Kästchen)"
+Schaden: 
+Schadensart: 
+Eigenschaften: []
+
+SchadenFern: 1W10
+SchadensartFern: Stich
+Range1: 6(4)
+Range2: 75(50)
+Range3: 180(120)
+EigenschaftenFern: 
+- "[[Geschosse]] (Pfeile)"
+- "[[Schwer]] (14)"
+- "[[Rüstungsbrechend]] (1)"
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 4
+Gewicht: 4 Pfund
+Kosten: 75 GM
+Verfügbarkeit: selten
 ---
 ## Kriegsbogen
 
@@ -27,3 +37,16 @@ maximalreichweite: "180m (120) Kästchen)"
 | Waffe       | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
 | ----------- | -------:| ------:| ----------- | --------------------- |
 | Kriegsbogen |       4 |  75 GM | Kriegswaffe | #Verfügbarkeit/selten |
+
+
+## `=this.file.name` (Fernkampf)
+
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
+
+## Handel
+
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion
+tags: Zug/Aktion
 ---
 *Widme deine Aufmerksamkeit ganz der Suche nach etwas.*
 

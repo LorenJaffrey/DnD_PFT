@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion/Angriff
+tags: Zug/Aktion/Angriff
 ---
 *Versuche eine Kreatur zu packen oder ringe mit ihr.*
 

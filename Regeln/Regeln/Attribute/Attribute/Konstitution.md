@@ -16,5 +16,5 @@ Misst Gesundheit, Ausdauer und Lebenskraft. Kann den Versuch darstellen über di
 - einen ganzen Krug Bier in einem Zug austrinken
 
 ## Trefferpunkte
-Beim Stufenaufstieg wird der [[Konstitution#Konstitutionsmodifikator]] zur Anzahl der [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] addiert. Erhöht sich der [[Konstitution#Konstitutionsmodifikator]] nachträglich erhöhen sich auch die [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] nachträglich.
-Beim [[Rasten]] wird der [[Konstitution#Konstitutionsmodifikator]] zur Anzahl der regenerierten [[Trefferpunkte und Trefferwürfel#Trefferpunkte]] addiert.
+Beim Stufenaufstieg wird der [[Konstitution#Konstitutionsmodifikator]] zur Anzahl der [[Trefferpunkte]] addiert. Erhöht sich der [[Konstitution#Konstitutionsmodifikator]] nachträglich erhöhen sich auch die [[Trefferpunkte]] nachträglich.
+Bei einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] wird der [[Konstitution#Konstitutionsmodifikator]] zur Anzahl der regenerierten [[Trefferpunkte]] addiert.

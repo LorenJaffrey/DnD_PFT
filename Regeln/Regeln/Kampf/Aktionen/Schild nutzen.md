@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion
+tags: Zug/Aktion
 ---
 *Lege einen Schild an oder ab.*
 

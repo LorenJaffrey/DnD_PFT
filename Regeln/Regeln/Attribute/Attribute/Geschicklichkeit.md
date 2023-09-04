@@ -26,7 +26,7 @@ Der [[Geschicklichkeit#Geschicklichkeitsmodifikator]] wird außerdem verwendet b
 - [[Nahkampfangriff|Nahkampfangriffen]] mit Waffen mit [[Finesse]]
 
 ## Rüstungsklasse
-Der [[Geschicklichkeit#Geschicklichkeitsmodifikator]] wird außerdem auf die [[Rüstung#Rüstungsklasse]] angerechnet beim Tragen von [[Rüstung#Leichte Rüstung]] (voll) und [[Rüstung#Mittlere Rüstung]] (max. +2).
+Der [[Geschicklichkeit#Geschicklichkeitsmodifikator]] wird außerdem auf die [[Rüstungsklasse]] angerechnet.
 
 ## Initiative
 Der [[Geschicklichkeit#Geschicklichkeitsmodifikator]] wird als Bonus auf die [[Initiative]] angewendet.

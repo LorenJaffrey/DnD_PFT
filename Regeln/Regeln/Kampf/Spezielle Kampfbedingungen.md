@@ -21,7 +21,7 @@ Ein kontrolliertes Reittier hat drei Aktionsmöglichkeiten: Spurt, Rückzug oder
 
 Ein selbstständiges Reittier behält seine [[Initiative]] und handelt entsprechend seiner eigenen Wünsche.
 
-Löst ein Reittier einen [[Nahkampfangriff#Gelegenheitsangriff]] aus kann der Angreifer entscheiden ob er Reittier oder Reiter attackieren will.
+Löst ein Reittier einen [[Gelegenheitsangriff]] aus kann der Angreifer entscheiden ob er Reittier oder Reiter attackieren will.
 
 ## Unterwasserkampf
 Führt eine Kreatur ohne [[Bewegung#Schwimmen]] einen [[Nahkampfangriff]] unter Wasser aus hat dieser Angriff [[Vorteil und Nachteil|Nachteil]] wenn er nicht mit einer der folgenden Waffen durchgeführt wurde:
@@ -33,4 +33,4 @@ Führt eine Kreatur ohne [[Bewegung#Schwimmen]] einen [[Nahkampfangriff]] unter 
 Ein [[Fernkampfangriff]] verfehlt automatisch wenn er außerhalb der #Reichweite/Grundreichweite ausgeführt wird.
 Innerhalb der #Reichweite/Grundreichweite hat der [[Fernkampfangriff]] [[Vorteil und Nachteil|Nachteil]] wenn er nicht mit einer [[Schwere Armbrust]], oder einer Wurfwaffe ähnlich einem [[Wurfspeer]] durchgeführt wurde.
 
-Kreaturen die sich vollständig im Wasser befinden haben eine [[Schaden und Heilung#Schadensresistenz]] gegen #Schaden/Feuer .
+Kreaturen die sich vollständig im Wasser befinden haben eine [[Schadensarten#Schadensresistenz]] gegen #Schaden/Feuer .

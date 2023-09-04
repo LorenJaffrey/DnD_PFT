@@ -3,6 +3,6 @@ alias: Kampfaktion, Kampfaktionen, Aktionen im Kampf, Aktion
 ---
 ```dataview
 TABLE
-FROM #Kampf/Aktion
+FROM #Zug/Aktion
 SORT file.name
 ```

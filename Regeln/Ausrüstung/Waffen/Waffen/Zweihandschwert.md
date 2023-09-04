@@ -1,28 +1,39 @@
 ---
 tags:
-- Waffe/Art/Hiebwaffe
-- Waffe/Art/Stichwaffe
-- Waffe/Gruppe/Schwert
-- Waffe/Klasse/Nahkampfwaffe
-- Waffe/Kategorie/Kriegswaffe
-- Waffe/Größe/Großwaffe
-schaden: "2W6"
-schadensart: "Hieb/Stich"
-hände: 2
-größe: 4
-kategorie: Kriegswaffe
-gewicht: 6
-kosten: "50 GM"
-verfügbarkeit: "selten"
+  - Waffe/Art/Hiebwaffe
+  - Waffe/Art/Stichwaffe
+  - Waffe/Gruppe/Schwert
+  - Waffe/Klasse/Nahkampfwaffe
+  - Waffe/Kategorie/Kriegswaffe
+  - Waffe/Größe/Großwaffe
+  - Waffe/Schwer
+Schaden: 2W6
+Schadensart: Hieb/Stich
+Eigenschaften:
+  - "[[Langsam]]"
+  - "[[Schwer]] (12)"
+  - "[[Weitreichend]]"
+SchadenFern: 
+SchadensartFern: 
+Range1: 
+Range2: 
+Range3: 
+EigenschaftenFern: []
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 4
+Gewicht: 7 Pfund
+Kosten: 50 GM
+Verfügbarkeit: selten
 ---
-## Zweihandschwert
+## `=this.file.name`
 
-| Waffe           | Schaden | Art        | Hände | Größe | Eigenschaften                                  |
-| --------------- | ------- | ---------- |:-----:|:-----:| ---------------------------------------------- |
-| Zweihandschwert | 2W6     | Hieb/Stich |   2   |   4   | [[Langsam]], [[Schwer]] (12), [[Weitreichend]] |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe           | Gewicht | Kosten | Kategorie   | Verfügbarkeit |
-| --------------- | -------:| ------:| ----------- | ------------- |
-| Zweihandschwert |       7 |  50 GM | Kriegswaffe | selten        |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

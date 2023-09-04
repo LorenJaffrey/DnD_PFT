@@ -6,25 +6,39 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Langwaffe
-schaden: "1W10"
-schadensart: "Hieb/Stich"
-hände: 2
-größe: 5
-kategorie: Kriegswaffe
-gewicht: 10
-kosten: "30 GM"
-verfügbarkeit: "selten"
+Schaden: 1W10
+Schadensart: Hieb/Stich
+Eigenschaften:
+- "[[Weitreichend]]"
+- "[[Defensiv]]"
+- "[[Unhandlich]]"
+- "[[Langsam]]"
+- "[[Rüstungsbrechend]] (1)"
+
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 5
+Gewicht: 10 Pfund
+Kosten: 30 GM
+Verfügbarkeit: selten
 ---
-Die Hellebarde oder auch Helmbarte ist eine Mischform von Hieb- und Stichwaffe, die die Mannstoppwirkung eines Spießes mit der panzerbrechenden Wirkung der Axt kombinierte.
+*Die Hellebarde oder auch Helmbarte ist eine Mischform von Hieb- und Stichwaffe, die die Mannstoppwirkung eines Spießes mit der panzerbrechenden Wirkung der Axt kombinierte.*
 
-## Hellebarde
+## `=this.file.name`
 
-| Waffe      | Schaden | Art        | Hände | Größe | Eigenschaften                                                                         |
-| ---------- | ------- | ---------- |:-----:|:-----:| ------------------------------------------------------------------------------------- |
-| Hellebarde | 1W10    | Hieb/Stich |   2   |   5   | [[Weitreichend]], [[Defensiv]], [[Unhandlich]], [[Langsam]], [[Rüstungsbrechend]] (1) |
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe      | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
-| ---------- | -------:| ------:| ----------- | --------------------- |
-| Hellebarde |      10 |  30 GM | Kriegswaffe | #Verfügbarkeit/selten |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

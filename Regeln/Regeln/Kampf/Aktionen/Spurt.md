@@ -1,5 +1,5 @@
 ---
-tags: Kampf/Aktion
+tags: Zug/Aktion
 ---
 *Erhalte zusätzliche Bewegung für den aktuellen Zug.*
 

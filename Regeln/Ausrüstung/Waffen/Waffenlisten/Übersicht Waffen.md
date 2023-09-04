@@ -1,4 +1,4 @@
 ```dataview
-TABLE schaden as "Schaden", schadensart AS "Schadensart", hände AS "Hände", gewicht AS "Gewicht", kosten as "Kosten"
+TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
 FROM "_DnD/Ausrüstung/Waffen/Waffen"
 ```

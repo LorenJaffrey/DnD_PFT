@@ -5,23 +5,36 @@ tags:
 - Waffe/Klasse/Nahkampfwaffe
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Großwaffe
-schaden: "1W12"
-schadensart: "Wucht"
-hände: 2
-größe: 4
-kategorie: "Kriegswaffe"
-gewicht: 10
-kosten: "25 GM"
-verfügbarkeit: ungewöhnlich
----
-## Zweihandhammer
+- Waffe/Schwer
+Schaden: 1W12
+Schadensart: Wucht
+Eigenschaften:
+- "[[Langsam]]"
+- "[[Schwer]] (12)"
+- "[[Tödlich]]"
 
-| Waffe          | Schaden | Art  | Hände | Größe | Eigenschaften                             |
-| -------------- | ------- | ---- |:-----:|:-----:| ----------------------------------------- |
-| Zweihandhammer | 1W12    | Hieb |   2   |   4   | [[Langsam]], [[Schwer]] (12), [[Tödlich]] |
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 2
+Größe: 4
+Gewicht: 10 Pfund
+Kosten: 25 GM
+Verfügbarkeit: ungewöhnlich
+---
+## `=this.file.name`
+
+| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
-| Waffe          | Gewicht | Kosten | Kategorie   | Verfügbarkeit               |
-| -------------- | -------:| ------:| ----------- | --------------------------- |
-| Zweihandhammer |      10 |  25 GM | Kriegswaffe | #Verfügbarkeit/ungewöhnlich |
+| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
+| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |

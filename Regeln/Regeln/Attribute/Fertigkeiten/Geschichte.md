@@ -10,3 +10,4 @@ Beispiele:
 - vergangene Kriege
 - abgesetzte Dispoten
 - verschollene Zivilisationen
+- Wissen über [[Humanoide]], [[Riesen]]
