@@ -1,9 +1,0 @@
----
-alias:
-tags:
-- Merkmale/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 7
----
-Voraussetzung: Stufe 7
-Du kannst [[Verwirrung]] einmal wirken, indem du einen [[Zauberplätze|Zauberplatz]] verbrauchst. 
-Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine [[Lange Rast]] beendet hast.

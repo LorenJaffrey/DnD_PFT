@@ -1,9 +1,0 @@
----
-alias:
-tags:
-- Merkmale/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt der Klinge"
-mindeststufe: 12
----
-Voraussetzung: Stufe 12, [[Segen des Pakts#Pakt der Klinge]]
-Triffst du mit deiner Paktwaffe eine Kreatur, erleidet diese #Schaden/Nekrotisch in Höhe deines [[Charisma#Charismamodifikator]] (mindestens 1).
