@@ -1,7 +1,0 @@
----
-alias:
-tags:
-- Merkmal/Volk
----
-- [[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] gegen #Schaden/Gift 
-- [[Schadensarten#Schadensresistenz]] gegen #Schaden/Gift

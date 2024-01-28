@@ -31,7 +31,7 @@
   "Ausrüstung/Edelsteine": "LiGem",
   "Ausrüstung/Getränke": "TiGlassFull",
   "Ausrüstung/Speisen": "TiMeat",
-  "_DnD/Zauber": "FasWandMagicSparkles",
-  "_DnD/Charaktere": "FasPerson",
-  "Kampagne": "LiMap"
+  "Kampagne": "LiMap",
+  "Charaktere": "FasPerson",
+  "Zauber": "FasWandMagicSparkles"
 }

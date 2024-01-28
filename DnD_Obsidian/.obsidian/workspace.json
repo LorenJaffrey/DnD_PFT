@@ -4,135 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "01885bd5f9635b68",
+        "id": "12d7b7285b0961e3",
         "type": "tabs",
         "children": [
           {
-            "id": "ed55105798c025e3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "f66af64f1bbf50db",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "1b1cd7012b9e1e03",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "b2ef3aa10409ffb0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "6b1ad1cee81f4818",
+            "id": "6033bcd6e1f63b6e",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
-            }
-          },
-          {
-            "id": "8d5cc9fea2765483",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "73219003d606a6d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_DnD/Charaktere/Talente/Talente.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "376578bd5121ecd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_DnD/Charaktere/Talente/Talentliste/Zwergische Standhaftigkeit.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a22956d0ed768959",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_DnD/Charaktere/Talente/Talentliste/Schleicher.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a33fdfa9d3ac89d0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c65d994bbde78e3d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d5ca94195bbf3d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_DnD/Regeln/Attribute/Attribute.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_DnD/Regeln/Attribute/Attribute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_DnD/Regeln/Attribute/Attribute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_DnD/Regeln/Attribute/Attribute.md"
-              }
+              "state": {}
             }
           },
           {
@@ -286,52 +165,52 @@
   },
   "active": "d2d564bb14886840",
   "lastOpenFiles": [
-    "_DnD/Ausrüstung/Verkaufen.md",
-    "_DnD/Ausrüstung/Ausrüstungssets.md",
-    "_DnD/Ausrüstung/Münzen.md",
-    "_DnD/Ausrüstung/Waffen/Waffenlisten/Schwerter.md",
-    "_DnD/Ausrüstung/Werkzeug/Werkzeug.md",
-    "_DnD/Ausrüstung/Werkzeug/Tüftlerwerkzeug.md",
-    "_DnD/Ausrüstung/Werkzeug/Brauereivorräte.md",
-    "_DnD/Ausrüstung/Werkzeug/Holzschnitzwerkzeuge.md",
-    "_DnD/Ausrüstung/Werkzeug/Diebeswerkzeug.md",
-    "_DnD/Ausrüstung/Werkzeug/Giftmischerausrüstung.md",
-    "_DnD/Ausrüstung/Werkzeug/Navigationswerkzeug.md",
-    "_DnD/Ausrüstung/Werkzeug/Heilerausrüstung.md",
-    "_DnD/Ausrüstung/Werkzeug/Kartographenwerkzeug.md",
-    "_DnD/Ausrüstung/Werkzeug/Kochutensilien.md",
-    "_DnD/Ausrüstung/Werkzeug/Verkleidungsausrüstung.md",
-    "_DnD/Ausrüstung/Werkzeug/Musikinstrument.md",
-    "_DnD/Ausrüstung/Werkzeug/Spiel.md",
-    "_DnD/Ausrüstung/Werkzeug/Kräuterkunde-Ausrüstung.md",
-    "_DnD/Ausrüstung/Werkzeug/Fälscherausrüstung.md",
-    "_DnD/Ausrüstung/Rüstung/Rüstungslisten/Leichte Rüstung.md",
-    "_DnD/Ausrüstung/Rüstung/Rüstungseigenschaften/Mobile Deckung.md",
-    "_DnD/Ausrüstung/Rüstung/Rüstungslisten/Mittelschwere Rüstung.md",
-    "_DnD/Ausrüstung/Rüstung/Rüstungseigenschaften/Freihändig.md",
-    "_DnD/Ausrüstung/Rüstung/Rüstungen/Setzschild.md",
-    "_DnD/Ausrüstung/Rüstung/Rüstungseigenschaften/Nichtmetallisch.md",
-    "_DnD/Ausrüstung/Rüstung/Rüstungen/Schuppenpanzer.md",
-    "_DnD/Ausrüstung/Magische Gegenstände",
-    "_DnD/_Attachments/Neverwinter/Locations/shard_of_the_moon_2.png",
-    "_DnD/_Attachments/Neverwinter/Locations/priscillas_perfumes.png",
-    "_DnD/_Attachments/Neverwinter/Locations/shard_of_the_moon_1.jpg",
-    "_DnD/_Attachments/Neverwinter/Locations/moonstone_mask_3.png",
-    "_DnD/_Attachments/Neverwinter/Locations/moonstone_mask_1.png",
-    "_DnD/_Attachments/Neverwinter/Locations/Moonstone-Mask-scaled.jpg",
-    "_DnD/_Attachments/Neverwinter/Locations/flinkes_herz_allerlei.png",
-    "_DnD/_Attachments/Neverwinter/Locations/fallen_tower_2.png",
-    "_DnD/_Attachments/Neverwinter/Locations/castle_never.jpg",
-    "_DnD/_Attachments/Neverwinter/Locations/fallen_tower.png",
-    "_DnD/_Attachments/Neverwinter/Locations",
-    "_DnD/_Attachments/Neverwinter/Charaktere",
-    "_DnD/_Attachments/_other",
-    "_DnD/_Attachments/Races",
-    "_DnD/_Attachments/Neverwinter",
-    "_DnD/_Attachments/Monster",
-    "_DnD/_Attachments/Maps",
-    "_DnD/_Attachments/Magic Items",
-    "_DnD/_Attachments/Characters",
+    "_Attachments/Neverwinter/Charaktere/Lord Neverember.jpg",
+    "_Attachments/Neverwinter/Charaktere/liset_cheldar.png",
+    "_Attachments/Neverwinter/Charaktere/flinkes_herz.png",
+    "_Attachments/Neverwinter/Charaktere/flinar_ralolar.png",
+    "_Attachments/Neverwinter/Charaktere/Branwynn Lutgehr.png",
+    "_Attachments/Neverwinter/Charaktere/Brannur_Luthger.png",
+    "_Attachments/Maps/toril.jpg",
+    "_Attachments/Maps/phandalin-isometric.jpg",
+    "_Attachments/Maps/ice-map-sword-coast-pc.jpg",
+    "Regeln/Attribute/Attribute.md",
+    "Charaktere/Talente/Talentliste/Schleicher.md",
+    "Charaktere/Talente/Talentliste/Zwergische Standhaftigkeit.md",
+    "Charaktere/Talente/Talente.md",
+    "Ausrüstung/Verkaufen.md",
+    "Ausrüstung/Ausrüstungssets.md",
+    "Ausrüstung/Münzen.md",
+    "Ausrüstung/Waffen/Waffenlisten/Schwerter.md",
+    "Ausrüstung/Werkzeug/Werkzeug.md",
+    "Ausrüstung/Werkzeug/Tüftlerwerkzeug.md",
+    "Ausrüstung/Werkzeug/Brauereivorräte.md",
+    "Ausrüstung/Werkzeug/Holzschnitzwerkzeuge.md",
+    "Ausrüstung/Werkzeug/Diebeswerkzeug.md",
+    "Ausrüstung/Werkzeug/Giftmischerausrüstung.md",
+    "Ausrüstung/Werkzeug/Navigationswerkzeug.md",
+    "Ausrüstung/Werkzeug/Heilerausrüstung.md",
+    "Ausrüstung/Werkzeug/Kartographenwerkzeug.md",
+    "Ausrüstung/Werkzeug/Kochutensilien.md",
+    "Ausrüstung/Werkzeug/Verkleidungsausrüstung.md",
+    "Ausrüstung/Werkzeug/Musikinstrument.md",
+    "Ausrüstung/Werkzeug/Spiel.md",
+    "Ausrüstung/Werkzeug/Kräuterkunde-Ausrüstung.md",
+    "Ausrüstung/Werkzeug/Fälscherausrüstung.md",
+    "Ausrüstung/Rüstung/Rüstungslisten/Leichte Rüstung.md",
+    "Ausrüstung/Rüstung/Rüstungseigenschaften/Mobile Deckung.md",
+    "Ausrüstung/Magische Gegenstände",
+    "_Attachments/Neverwinter/Locations/shard_of_the_moon_2.png",
+    "_Attachments/Neverwinter/Locations/priscillas_perfumes.png",
+    "_Attachments/Neverwinter/Locations",
+    "_Attachments/Neverwinter/Charaktere",
+    "_Attachments/_other",
+    "_Attachments/Races",
+    "_Attachments/Neverwinter",
+    "_Attachments/Monster",
+    "_Attachments/Maps",
+    "_Attachments/Magic Items",
+    "_Attachments/Characters",
     "_DnD/Regeln/Kampf/0. Kampfablauf.canvas",
     "DnD/Regeln/Kampf/0. Kampfablauf.canvas"
   ]
