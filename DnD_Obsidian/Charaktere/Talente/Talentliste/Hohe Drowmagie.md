@@ -2,14 +2,10 @@
 aliases: 
 - Drow High Magic
 tags: 
-- Talent/Zauber
-- Talent/Volk/Dunkelelfen
+- Talent
+- Talent
 Voraussetzungen: 
-<<<<<<< HEAD:DnD_Obsidian/_DnD/Charaktere/Talente/Talentliste/Hohe Drowmagie.md
 - "[[Drow]]"
-=======
-- "[[Elfen#Dunkelelfen]]"
->>>>>>> 371dd9847f2979e4f830373fd534b9084d3065b8:DnD Regeln/Charaktere/Talente/Talentliste/Hohe Drowmagie.md
 ---
 # `=this.file.name`
 

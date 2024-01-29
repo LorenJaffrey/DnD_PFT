@@ -2,7 +2,7 @@
 aliases: 
 - Inspiring Leader
 tags: 
-- Talent/Heilung
+- Talent
 Voraussetzungen: 
 - "[[Weisheit]] oder [[Charisma]] 13+"
 Stufe: 4

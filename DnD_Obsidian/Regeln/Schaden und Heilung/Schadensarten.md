@@ -3,19 +3,19 @@ aliases: Schadensart
 ---
 # `=this.file.name`
 
-- #Schaden/Säure 
-- #Schaden/Wucht 
-- #Schaden/Kälte
-- #Schaden/Feuer
-- #Schaden/Energie
-- #Schaden/Blitz
-- #Schaden/Nekrotisch
-- #Schaden/Stich
-- #Schaden/Gift
-- #Schaden/Psychisch
-- #Schaden/Gleißend
-- #Schaden/Hieb
-- #Schaden/Schall
+- [[Säureschaden]] 
+- [[Wuchtschaden]] 
+- [[Kälteschaden]]
+- [[Feuerschaden]]
+- [[Energieschaden]]
+- [[Blitzschaden]]
+- [[Nekrotischer Schaden]]
+- [[Stichschaden]]
+- [[Giftschaden]]
+- [[Psychischer Schaden]]
+- [[Gleißender Schaden]]
+- [[Hiebschaden]]
+- [[Schallschaden]]
 
 ## Schadensanfälligkeit
 Wenn eine Kreatur [[Schadensarten#Schadensanfälligkeit]] gegen eine bestimmte [[Schadensarten|Schadensart]] besitzt, wird der erlittene Schaden verdoppelt.

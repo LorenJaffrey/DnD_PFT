@@ -2,7 +2,7 @@
 aliases: 
 - Heavily Armored
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Übung]] mit [[Mittelschwere Rüstung|Mittelschwerer Rüstung]]"
 Stufe: 4

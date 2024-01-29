@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Talent/Kampf/Fernkampf
+  - Talent
 Voraussetzungen:
   - "[[Übung]] mit mindestens einem [[Bögen|Bogen]]"
 Stufe: 4

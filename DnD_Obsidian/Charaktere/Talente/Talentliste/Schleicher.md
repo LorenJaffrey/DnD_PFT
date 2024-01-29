@@ -2,7 +2,7 @@
 aliases: 
 - Skulker
 tags: 
-- Talent/Bewegung
+- Talent
 Voraussetzungen: 
 - "[[Geschicklichkeit]] 13+"
 Stufe: 4

@@ -14,14 +14,11 @@ Dauer: 1m
 Konzentration: false
 Ritual: false
 Skalierbar: false
-<<<<<<< HEAD:DnD_Obsidian/_DnD/Zauber/Zaubersprüche/Einfache Illusion.md
 Klassen:
 - "[[Barde]]"
 - "[[Hexenmeister]]"
 - "[[Magier]]"
 - "[[Zauberer]]"
-=======
->>>>>>> 371dd9847f2979e4f830373fd534b9084d3065b8:DnD Regeln/Zauber/Zaubersprüche/Einfache Illusion.md
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*

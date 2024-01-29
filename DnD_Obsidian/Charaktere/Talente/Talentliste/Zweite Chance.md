@@ -2,10 +2,7 @@
 aliases: 
 - Second Chance
 tags: 
-- Talent/Kampf
-- Talent/Attributserhöhung/Geschicklichkeit
-- Talent/Attributserhöhung/Konstitution
-- Talent/Attributserhöhung/Charisma
+- Talent
 Voraussetzungen: 
 - "[[Halblinge|Halbling]]"
 ---

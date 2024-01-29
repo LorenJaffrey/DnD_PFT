@@ -31,7 +31,7 @@ Manche deiner [[Meistertüftler#Apparaturen]] erfordern von deinem Ziel einen [[
 *Diese kleine Sprengladung kann ich jeder normale Schloss geschoben und dort mehr oder weniger kontrolliert zur Explosion gebracht werden.*
 [[Schwierigkeitsgrad|SG]]: 13
 Wenn der [[Fertigkeiten#Fertigkeitswurf]] gelingt wird jedes nicht-magische Schloss automatisch geknackt. Es wird in diesem Zuge aber auch irreparabel beschädigt.
-Ein kritischer Fehlschlag bewirkt, dass das Gerät frühzeitig detoniert und dir 1W6 #Schaden/Energie zufügt.
+Ein kritischer Fehlschlag bewirkt, dass das Gerät frühzeitig detoniert und dir 1W6 [[Energieschaden]] zufügt.
 
 ### Gnomisches Überbrückungskabel
 [[Schwierigkeitsgrad|SG]]: 13
@@ -41,12 +41,12 @@ Ein kritischer Fehlschlag zählt als Misserfolg bei einem [[Todesrettungswürfe|
 ### Flammenwerfer
 [[Schwierigkeitsgrad|SG]]: 15
 Benutze deinen tragbaren Flammenwerfer um deine Feinde zu verbrennen!
-Kann als [[Zug#Aktion]] benutzt werden. Schießt einen Feuerkegel mit 4,5m Länge. Jeder betroffene Gegner muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] absolvieren. Bei einem Misserfolg erleidet er 3W6 #Schaden/Feuer . Bei Gelingen die Hälfte.
+Kann als [[Zug#Aktion]] benutzt werden. Schießt einen Feuerkegel mit 4,5m Länge. Jeder betroffene Gegner muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] absolvieren. Bei einem Misserfolg erleidet er 3W6 [[Feuerschaden]] . Bei Gelingen die Hälfte.
 
 ### Blitzwerfer
 [[Schwierigkeitsgrad|SG]]: 15
 Benutze deinen tragbaren Blitzwerfer um deine Feinde zu elektrisieren!
-Kann als [[Zug#Aktion]] benutzt werden. Schießt einen Blitz mit 9m Länge. Jeder betroffene Gegner muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] absolvieren. Bei einem Misserfolg erleidet er 2W8 #Schaden/Blitz . Bei Gelingen die Hälfte.
+Kann als [[Zug#Aktion]] benutzt werden. Schießt einen Blitz mit 9m Länge. Jeder betroffene Gegner muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] absolvieren. Bei einem Misserfolg erleidet er 2W8 [[Blitzschaden]] . Bei Gelingen die Hälfte.
 
 
 

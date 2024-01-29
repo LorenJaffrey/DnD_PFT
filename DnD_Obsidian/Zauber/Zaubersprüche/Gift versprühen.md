@@ -34,7 +34,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 ## Beschreibung
 *Du streckst deine Hand in Richtung einer Kreatur aus, die sich in Reichweite befindet und die du sehen kannst, und erzeugst eine Wolke ekelhaften Gases aus deiner Handfläche.*
 
-Die Kreatur muss einen erfolgreichen [[Rettungswurf]] auf [[Konstitution]] ablegen, sonst erleidet sie 1W12 #Schaden/Gift .
+Die Kreatur muss einen erfolgreichen [[Rettungswurf]] auf [[Konstitution]] ablegen, sonst erleidet sie 1W12 [[Giftschaden]] .
 
 ### Auf höheren Stufen
 Der Schaden dieses Zaubers steigt wenn du höhere Stufen erreichst 

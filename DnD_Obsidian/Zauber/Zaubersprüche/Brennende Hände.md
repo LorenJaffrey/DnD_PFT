@@ -31,7 +31,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 ## Beschreibung
 *Du streckst die Hände aus, mit sich berührenden Daumen und ausgebreiteten Fingern, und eine dünne Fläche aus Feuer schießt aus deinen ausgestreckten Fingerspitzen.*
 
-Jede Kreatur in einem Kegel von 4,50 m muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] ablegen. Bei einem Misserfolg erleidet das Ziel 3W6 #Schaden/Feuer oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
+Jede Kreatur in einem Kegel von 4,50 m muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] ablegen. Bei einem Misserfolg erleidet das Ziel 3W6 [[Feuerschaden]] oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
 
 Das Feuer entzündet alle brennbaren Gegenstände im [[Zauber wirken#Wirkungsbereich]], die nicht getragen oder in der Hand gehalten werden.
 

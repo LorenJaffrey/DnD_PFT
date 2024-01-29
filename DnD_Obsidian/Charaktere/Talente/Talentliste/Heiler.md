@@ -2,7 +2,7 @@
 aliases: 
 - Healer
 tags: 
-- Talent/Heilung
+- Talent
 Voraussetzungen:
 Stufe: 1
 Wiederholbar: false

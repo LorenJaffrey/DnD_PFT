@@ -2,7 +2,7 @@
 aliases: 
 - Mounted Combatant
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen:
 - "[[Übung]] mit mindestens einer [[Kriegswaffen|Kriegswaffe]]"
 Stufe: 4

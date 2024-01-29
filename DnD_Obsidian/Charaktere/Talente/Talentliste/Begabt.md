@@ -2,7 +2,7 @@
 aliases: 
 - Skilled
 tags: 
-- Talent/Sinne
+- Talent
 Voraussetzungen:
 Stufe: 1
 Wiederholbar: true

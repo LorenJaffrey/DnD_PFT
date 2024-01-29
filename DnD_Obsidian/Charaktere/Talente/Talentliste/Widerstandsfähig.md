@@ -2,8 +2,7 @@
 aliases: 
 - Durable
 tags: 
-- Talent/Heilung
-- Talent/Attributserhöhung/Konstitution
+- Talent
 Voraussetzungen:
   - "[[Konstitution]] 13+"
 Stufe: 4

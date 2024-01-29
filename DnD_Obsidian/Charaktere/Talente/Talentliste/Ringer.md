@@ -2,7 +2,7 @@
 aliases: 
 - Grappler
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Stärke]] oder [[Geschicklichkeit]] 13+"
 Stufe: 4

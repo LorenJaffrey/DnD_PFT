@@ -2,13 +2,9 @@
 aliases: 
 - Wood Elf Magic
 tags: 
-- Talent/Zauber
-<<<<<<< HEAD:DnD_Obsidian/_DnD/Charaktere/Talente/Talentliste/Waldelfenmagie.md
+- Talent
 Voraussetzungen: 
 - "[[Elfen#Waldelfen]]"
-=======
-Voraussetzungen: "[[Elfen#Waldelfen]]"
->>>>>>> 371dd9847f2979e4f830373fd534b9084d3065b8:DnD Regeln/Charaktere/Talente/Talentliste/Waldelfenmagie.md
 ---
 # `=this.file.name`
 

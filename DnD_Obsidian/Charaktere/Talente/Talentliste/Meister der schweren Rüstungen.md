@@ -2,7 +2,7 @@
 aliases: 
 - Heavy Armor Master
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Übung]] im Umgang mit [[Schwere Rüstung|Schwerer Rüstung]]"
 Stufe: 4

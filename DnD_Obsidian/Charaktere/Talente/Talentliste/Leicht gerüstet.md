@@ -2,8 +2,8 @@
 aliases: 
 - Lightly Armored
 tags: 
-- Talent/Kampf
-Stufe: 1
+- Talent
+Stufe: 4
 Wiederholbar: false
 ---
 # `=this.file.name`

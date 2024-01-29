@@ -2,7 +2,7 @@
 aliases: 
 - Fade Away
 tags: 
-- Talent/Bewegung
+- Talent
 Voraussetzungen: 
 - "[[Gnome|Gnom]]"
 Stufe: 4

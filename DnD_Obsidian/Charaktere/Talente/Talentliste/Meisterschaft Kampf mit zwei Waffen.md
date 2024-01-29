@@ -3,7 +3,7 @@ aliases:
 - Dual Wielder
 - Zwei-Waffen-Kämpfer
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen:
   - "[[Übung]] mit mindestens einer [[Kriegswaffen|Kriegswaffe]]"
 Stufe: 4

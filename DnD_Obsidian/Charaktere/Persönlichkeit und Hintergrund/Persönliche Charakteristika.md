@@ -28,4 +28,4 @@
 - wie steht er sich selbst oder der Gruppe im Weg?
 
 ## Effekt im Spiel
-- Ausspielen der Persönlichkeit kann vom #GM mit [[Glückspunkte einsetzen]] belohnt werden
+- Ausspielen der Persönlichkeit kann vom DM mit [[Glückspunkte einsetzen]] belohnt werden

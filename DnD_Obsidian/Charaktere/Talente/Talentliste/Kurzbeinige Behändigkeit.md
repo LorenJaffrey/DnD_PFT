@@ -2,7 +2,7 @@
 aliases: 
 - Squat Nimbleness
 tags: 
-- Talent/Bewegung
+- Talent
 Voraussetzungen: 
 - "[[Zwerge|Zwerg]] oder Volk mit [[Größenkategorie]] klein"
 Stufe: 4

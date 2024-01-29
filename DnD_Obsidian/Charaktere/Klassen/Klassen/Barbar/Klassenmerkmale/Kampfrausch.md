@@ -10,7 +10,7 @@ Auf dem Schlachtfeld kämpfst du mit urtümlicher Wildheit.
 In deinem Zug kannst du dich mit einer [[Zug#Bonusaktion]] in einen Kampfrausch versetzen. Während du dich in diesem befindest, erhältst du die folgenden Vorteile, solange du keine [[Schwere Rüstung]] trägst:
 - ﻿﻿Du bist bei jedem[[Attribute#Attributswurf]] und [[Rettungswurf]], der auf [[Stärke]] basiert, im [[Vorteil und Nachteil|Vorteil]].
 - ﻿﻿Führst du einen [[Nahkampfangriff]] mit einer Waffe durch, die deinen [[Stärke#Stärkemodifikator]] verwendet, erhältst du auf deinen [[Schadenswurf]] den Bonus, der in der [[Barbar#Klassentabelle]] unter Kampfrausch-Schaden angegeben ist. Dieser Wert erhöht sich, wenn du weiter als [[Barbar]] aufsteigst.
-- ﻿﻿Du besitzt eine [[Schadensarten#Schadensresistenz]] gegen #Schaden/Hieb, #Schaden/Stich und #Schaden/Wucht.
+- ﻿﻿Du besitzt eine [[Schadensarten#Schadensresistenz]] gegen [[Hiebschaden]], [[Stichschaden]] und [[Wuchtschaden]].
 
 Falls du in der Lage bist, Zauber zu wirken, kannst du dies nicht während des Kampfrausches. Auch ist es in diesem nicht möglich, [[Konzentration]] auf einen Zauber zu halten.
 

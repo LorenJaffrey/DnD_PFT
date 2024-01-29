@@ -31,7 +31,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 *Du deutest mit einem Finger und die Kreatur, die dich verletzt hat, wird für einen kurzen Moment von höllischen Flammen eingehüllt.*
 
 Die Kreatur muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] ablegen.
-Bei einem Misserfolg erleidet das Ziel 2W10 #Schaden/Feuer oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
+Bei einem Misserfolg erleidet das Ziel 2W10 [[Feuerschaden]] oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
 
 ### Auf höheren Graden
 Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W10.

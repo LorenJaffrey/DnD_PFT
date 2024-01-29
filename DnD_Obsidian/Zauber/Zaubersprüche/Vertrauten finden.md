@@ -15,11 +15,8 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
-<<<<<<< HEAD:DnD_Obsidian/_DnD/Zauber/Zaubersprüche/Vertrauten finden.md
 Klassen:
 - "[[Magier]]"
-=======
->>>>>>> 371dd9847f2979e4f830373fd534b9084d3065b8:DnD Regeln/Zauber/Zaubersprüche/Vertrauten finden.md
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*

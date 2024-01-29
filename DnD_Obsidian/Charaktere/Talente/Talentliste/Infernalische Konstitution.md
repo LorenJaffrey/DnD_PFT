@@ -2,9 +2,7 @@
 aliases: 
 - Infernal Constitution
 tags: 
-- Talent/Attributserhöhung/Konstitution
-- Talent/Kampf
-- Talent/Volk/Tiefling
+- Talent
 Voraussetzungen:
 - "[[Tieflinge|Tiefling]]"
 Stufe: 4

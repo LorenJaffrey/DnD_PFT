@@ -2,7 +2,7 @@
 aliases: 
 - Medium Armor Master
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Übung]] im Umgang mit [[Mittelschwere Rüstung|Mittelschwerer Rüstung]]"
 Stufe: 4

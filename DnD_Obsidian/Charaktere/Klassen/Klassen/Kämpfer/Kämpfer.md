@@ -9,14 +9,7 @@ Hauptattribut:
 - "[[Geschicklichkeit]]"
 Zauberwirker: 
 ---
-<<<<<<< HEAD:DnD_Obsidian/_DnD/Charaktere/Klassen/Klassen/Kämpfer/Kämpfer.md
 # `=this.file.name`
-=======
-
-```toc
-
-```
->>>>>>> 371dd9847f2979e4f830373fd534b9084d3065b8:DnD Regeln/Charaktere/Klassen/Klassen/Kämpfer/Kämpfer.md
 
 ## Klassentabelle
 

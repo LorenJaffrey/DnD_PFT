@@ -9,4 +9,4 @@ tags:
 - ﻿﻿Ein [[Angriffswurf]] gegen die Kreatur ist im [[Vorteil und Nachteil|Vorteil]].
 - Sie scheitert automatisch bei [[Rettungswurf|Rettungswürfen]] auf [[Stärke]] und [[Geschicklichkeit]].
 - ﻿﻿Die Kreatur besitzt eine [[Schadensarten#Schadensresistenz]] gegen jeglichen Schaden.
-- ﻿﻿Sie ist immun gegen #Gift und #Krankheit, doch #Gift und #Krankheit, die sich bereits in ihrem Körper befinden, werden aufgehalten, nicht neutralisiert.
+- ﻿﻿Sie ist immun gegen [[Gift]] und [[Krankheit]], doch [[Gift]] und [[Krankheit]], die sich bereits in ihrem Körper befinden, werden aufgehalten, nicht neutralisiert.

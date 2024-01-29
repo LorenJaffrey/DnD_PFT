@@ -2,8 +2,7 @@
 aliases: 
 - Keen Mind
 tags: 
-- Talent/Sinne
-- Talent/Attributserhöhung/Intelligenz
+- Talent
 Voraussetzungen:
 - "[[Intelligenz]] 13+"
 Stufe: 4

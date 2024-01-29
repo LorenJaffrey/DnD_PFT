@@ -2,7 +2,7 @@
 aliases: 
 - Moderately Armored
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Übung]] mit [[Leichte Rüstung|Leichter Rüstung]]"
 Stufe: 1

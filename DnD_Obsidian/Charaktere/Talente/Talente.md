@@ -14,7 +14,7 @@ Solltest du jemals die Voraussetzungen für ein Talent nicht mehr erfüllen, kan
 
 ```dataview
 TABLE WITHOUT ID 
-file.link AS "Talent", Stufe,Voraussetzungen, Wiederholbar, aliases AS "Alias"
+file.link AS "Talent", Stufe, Voraussetzungen, choice(Wiederholbar,"X","") AS "Wiederholbar", aliases AS "Alias"
 FROM #Talent
 SORT Stufe, file.name ASC
 ```

@@ -2,7 +2,7 @@
 aliases: 
 - Great Weapon Master
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen:
   - "[[Übung]] mit mindestens einer [[Schwere Waffen|Schweren Waffe]]"
 Stufe: 4

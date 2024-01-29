@@ -2,9 +2,7 @@
 aliases: 
 - Orcish Fury
 tags: 
-- Talent/Attributserhöhung/Stärke
-- Talent/Attributserhöhung/Konstitution
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Halborks|Halbork]]"
 ---

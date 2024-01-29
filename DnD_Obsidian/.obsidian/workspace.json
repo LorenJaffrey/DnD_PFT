@@ -11,8 +11,13 @@
             "id": "6033bcd6e1f63b6e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Charaktere/Talente/Talente.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Charaktere/Talente/Talente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Charaktere/Talente/Talente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Charaktere/Talente/Talente.md"
+              }
             }
           },
           {
@@ -163,17 +172,24 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "d2d564bb14886840",
+  "active": "6033bcd6e1f63b6e",
   "lastOpenFiles": [
-    "_Attachments/Neverwinter/Charaktere/Lord Neverember.jpg",
-    "_Attachments/Neverwinter/Charaktere/liset_cheldar.png",
-    "_Attachments/Neverwinter/Charaktere/flinkes_herz.png",
-    "_Attachments/Neverwinter/Charaktere/flinar_ralolar.png",
-    "_Attachments/Neverwinter/Charaktere/Branwynn Lutgehr.png",
-    "_Attachments/Neverwinter/Charaktere/Brannur_Luthger.png",
-    "_Attachments/Maps/toril.jpg",
-    "_Attachments/Maps/phandalin-isometric.jpg",
-    "_Attachments/Maps/ice-map-sword-coast-pc.jpg",
+    "_Attachments/Neverwinter/Locations/shard_of_the_moon_2.png",
+    "_Attachments/Neverwinter/Locations/shard_of_the_moon_1.jpg",
+    "_Attachments/Neverwinter/Locations/priscillas_perfumes.png",
+    "_Attachments/Neverwinter/Locations/moonstone_mask_3.png",
+    "_Attachments/Neverwinter/Locations/moonstone_mask_1.png",
+    "_Attachments/Neverwinter/Locations/Moonstone-Mask-scaled.jpg",
+    "_Attachments/Neverwinter/Locations/flinkes_herz_allerlei.png",
+    "_Attachments/Neverwinter/Locations/fallen_tower_2.png",
+    "_Attachments/Neverwinter/Locations/fallen_tower.png",
+    "_Attachments/Neverwinter/Locations/castle_never.jpg",
+    "_Attachments/Neverwinter/Locations/branwyns_scharfe_klingen.png",
+    "_Attachments/Neverwinter/Locations",
+    "_Attachments/Neverwinter/Charaktere",
+    "_Attachments/Neverwinter",
+    "_Attachments/Monster",
+    "_Attachments/Magic Items",
     "Regeln/Attribute/Attribute.md",
     "Charaktere/Talente/Talentliste/Schleicher.md",
     "Charaktere/Talente/Talentliste/Zwergische Standhaftigkeit.md",
@@ -200,16 +216,9 @@
     "Ausrüstung/Rüstung/Rüstungslisten/Leichte Rüstung.md",
     "Ausrüstung/Rüstung/Rüstungseigenschaften/Mobile Deckung.md",
     "Ausrüstung/Magische Gegenstände",
-    "_Attachments/Neverwinter/Locations/shard_of_the_moon_2.png",
-    "_Attachments/Neverwinter/Locations/priscillas_perfumes.png",
-    "_Attachments/Neverwinter/Locations",
-    "_Attachments/Neverwinter/Charaktere",
     "_Attachments/_other",
     "_Attachments/Races",
-    "_Attachments/Neverwinter",
-    "_Attachments/Monster",
     "_Attachments/Maps",
-    "_Attachments/Magic Items",
     "_Attachments/Characters",
     "_DnD/Regeln/Kampf/0. Kampfablauf.canvas",
     "DnD/Regeln/Kampf/0. Kampfablauf.canvas"

@@ -2,7 +2,7 @@
 aliases: 
 - Shield Master
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen:
 - "[[Übung]] im Umgang mit [[Schilde|Schilden]]"
 Stufe: 4

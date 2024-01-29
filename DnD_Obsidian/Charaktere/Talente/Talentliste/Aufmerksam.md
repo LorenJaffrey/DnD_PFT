@@ -2,8 +2,7 @@
 aliases: 
 - Observant
 tags: 
-- Talent/Attributserhöhung/Intelligenz
-- Talent/Attributserhöhung/Weisheit
+- Talent
 Voraussetzungen:
 Stufe: 4
 Wiederholbar: false

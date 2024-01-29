@@ -2,7 +2,7 @@
 aliases: 
 - Polearm Master
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen:
   - "[[Übung]] mit mindestens einer [[Stangenwaffen|Stangenwaffe]]"
 Stufe: 4

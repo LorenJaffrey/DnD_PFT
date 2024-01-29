@@ -2,18 +2,11 @@
 aliases:
 - Dragon Fear
 tags:
-- Talent/Volk/Drachenblütige
-- Talent/Attributserhöhung/Stärke
-- Talent/Attributserhöhung/Konstitution
-- Talent/Attributserhöhung/Charisma
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Drachenblütige|Drachenblütiger]]"
-<<<<<<< HEAD:DnD_Obsidian/_DnD/Charaktere/Talente/Talentliste/Drachenfurcht.md
 Stufe:
 Wiederholbar: false
-=======
->>>>>>> 371dd9847f2979e4f830373fd534b9084d3065b8:DnD Regeln/Charaktere/Talente/Talentliste/Drachenfurcht.md
 ---
 # `=this.file.name`
 

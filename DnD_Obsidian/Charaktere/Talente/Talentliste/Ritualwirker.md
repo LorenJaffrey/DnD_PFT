@@ -2,7 +2,7 @@
 aliases: 
 - Ritual Caster
 tags: 
-- Talent/Zauber
+- Talent
 Voraussetzungen: 
 - "[[Intelligenz]], [[Weisheit]] oder [[Charisma]] 13+"
 Stufe: 4

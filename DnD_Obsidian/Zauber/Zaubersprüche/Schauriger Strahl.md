@@ -30,7 +30,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 ## Beschreibung
 *Ein Strahl aus knisternder Energie schießt auf eine Kreatur in Reichweite zu.*
 
-Führe einen Fernkampf-Zauberangriff gegen das Ziel aus. Bei einem Treffer erleidet es 1W10 #Schaden/Energie.
+Führe einen Fernkampf-Zauberangriff gegen das Ziel aus. Bei einem Treffer erleidet es 1W10 [[Energieschaden]].
 
 ### Auf höheren Stufen
 Der Zauber erschafft mehr als einen Strahl, wenn du höhere Stufen erreichst: 

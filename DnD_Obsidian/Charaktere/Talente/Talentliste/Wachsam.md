@@ -2,7 +2,7 @@
 aliases: 
 - Alert
 tags: 
-- Talent/Sinne
+- Talent
 Voraussetzungen:
 Stufe: 1
 Wiederholbar: false

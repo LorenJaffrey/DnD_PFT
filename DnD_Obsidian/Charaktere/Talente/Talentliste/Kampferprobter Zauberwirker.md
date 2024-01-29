@@ -2,7 +2,7 @@
 aliases: 
 - War Caster
 tags: 
-- Talent/Zauber
+- Talent
 Voraussetzungen: 
 - "Fähigkeit, mindestens einen Zauber zu wirken"
 Stufe: 4

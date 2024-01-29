@@ -2,7 +2,7 @@
 aliases: 
 - Defensive Duelist
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen: 
 - "[[Geschicklichkeit]] 13+"
 Stufe: 4

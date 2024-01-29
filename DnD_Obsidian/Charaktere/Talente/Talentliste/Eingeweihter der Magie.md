@@ -2,7 +2,7 @@
 aliases: 
 - Magic Initiate
 tags:
-- Talent/Zauber
+- Talent
 Voraussetzungen:
 Stufe: 1
 Wiederholbar: true

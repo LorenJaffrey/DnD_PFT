@@ -2,10 +2,7 @@
 aliases: 
 - Fey Teleportation
 tags:
-- Talent/Volk/Elfen
-- Talent/Attributserhöhung/Intelligenz
-- Talent/Attributserhöhung/Charisma
-- Talent/Zauber
+- Talent
 Voraussetzungen: 
 - "[[Elfen#Hochelfen]]"
 ---

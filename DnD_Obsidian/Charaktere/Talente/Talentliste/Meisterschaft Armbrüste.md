@@ -3,7 +3,7 @@ aliases:
 - Crossbow Expert
 - Armbrustexperte
 tags: 
-- Talent/Kampf/Fernkampf
+- Talent
 Voraussetzungen:
 - "[[Übung]] mit einer mindestens einer [[Armbrüste|Armbrust]]"
 Stufe: 4

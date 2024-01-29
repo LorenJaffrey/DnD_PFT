@@ -2,7 +2,7 @@
 aliases: 
 - Sharpshooter
 tags: 
-- Talent/Kampf/Fernkampf
+- Talent
 Voraussetzungen:
   - "[[Übung]] mit mindestens einer [[Fernkampfwaffen|Fernkampfwaffe]]"
 Stufe: 4

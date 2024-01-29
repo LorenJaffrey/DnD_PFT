@@ -20,12 +20,9 @@ aliases: Klasse, Klassen
 | [[Zauberer]]     | W6  | [[Charisma]]                         | ---          | Primary      | [[Arten der Zauberei#Bekannte Zauber]]     |  D   |   B    |       B       |      B      |    B    |      A      |    B    |
 
 
-<<<<<<< HEAD:DnD_Obsidian/_DnD/Charaktere/Klassen/Klassenübersicht.md
 ---
 
 
-=======
->>>>>>> 371dd9847f2979e4f830373fd534b9084d3065b8:DnD Regeln/Charaktere/Klassen/Klassenübersicht.md
 ``` dataview
 TABLE Art, Trefferwürfel, Hauptattribut, Zauberwirker
 FROM #Klasse

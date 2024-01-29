@@ -2,12 +2,7 @@
 aliases: 
 - Resilient
 tags:
-- Talent/Attributserhöhung/Stärke
-- Talent/Attributserhöhung/Konstitution
-- Talent/Attributserhöhung/Geschicklichkeit
-- Talent/Attributserhöhung/Intelligenz
-- Talent/Attributserhöhung/Weisheit
-- Talent/Attributserhöhung/Charisma
+- Talent
 Voraussetzungen:
 Stufe: 4
 Wiederholbar: false

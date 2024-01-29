@@ -2,10 +2,10 @@
 aliases: 
 - Savage Attacker
 tags: 
-- Talent/Kampf
+- Talent
 Voraussetzungen:
 Stufe: 1
-Wiederholbar: true
+Wiederholbar: false
 ---
 # `=this.file.name`
 
