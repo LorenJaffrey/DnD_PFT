@@ -5,7 +5,7 @@ tags:
   - Talent
 Voraussetzungen: 
 Stufe: 4
-Wiederholbar:false
+Wiederholbar: false
 ---
 # `=this.file.name`
 

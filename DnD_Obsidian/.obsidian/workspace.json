@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "12d7b7285b0961e3",
+        "id": "ad800790c5e1fd8f",
         "type": "tabs",
         "children": [
           {
-            "id": "6033bcd6e1f63b6e",
+            "id": "78467bb7a33cfa99",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pfeile",
+                "query": "tag:#Ausrüstung",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,8 +173,13 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "6033bcd6e1f63b6e",
+  "active": "78467bb7a33cfa99",
   "lastOpenFiles": [
+    "_Attachments/Maps/toril.jpg",
+    "_Attachments/Characters/don_jon_raskin.png",
+    "Charaktere/Talente/Talente.md",
+    "Charaktere/Talente/Talentliste/Hohe Drowmagie.md",
+    "Charaktere/Talente/Talentliste/Artifizientenlehrling.md",
     "_Attachments/Neverwinter/Locations/shard_of_the_moon_2.png",
     "_Attachments/Neverwinter/Locations/shard_of_the_moon_1.jpg",
     "_Attachments/Neverwinter/Locations/priscillas_perfumes.png",
@@ -183,8 +189,6 @@
     "_Attachments/Neverwinter/Locations/flinkes_herz_allerlei.png",
     "_Attachments/Neverwinter/Locations/fallen_tower_2.png",
     "_Attachments/Neverwinter/Locations/fallen_tower.png",
-    "_Attachments/Neverwinter/Locations/castle_never.jpg",
-    "_Attachments/Neverwinter/Locations/branwyns_scharfe_klingen.png",
     "_Attachments/Neverwinter/Locations",
     "_Attachments/Neverwinter/Charaktere",
     "_Attachments/Neverwinter",
@@ -193,7 +197,6 @@
     "Regeln/Attribute/Attribute.md",
     "Charaktere/Talente/Talentliste/Schleicher.md",
     "Charaktere/Talente/Talentliste/Zwergische Standhaftigkeit.md",
-    "Charaktere/Talente/Talente.md",
     "Ausrüstung/Verkaufen.md",
     "Ausrüstung/Ausrüstungssets.md",
     "Ausrüstung/Münzen.md",
@@ -213,8 +216,6 @@
     "Ausrüstung/Werkzeug/Spiel.md",
     "Ausrüstung/Werkzeug/Kräuterkunde-Ausrüstung.md",
     "Ausrüstung/Werkzeug/Fälscherausrüstung.md",
-    "Ausrüstung/Rüstung/Rüstungslisten/Leichte Rüstung.md",
-    "Ausrüstung/Rüstung/Rüstungseigenschaften/Mobile Deckung.md",
     "Ausrüstung/Magische Gegenstände",
     "_Attachments/_other",
     "_Attachments/Races",
