@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ausrüstung/Werkzeug/Werkzeug.md",
+                "file": "Ausrüstung/Verkaufen.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ausrüstung/Werkzeug/Werkzeug.md",
+                "file": "Ausrüstung/Verkaufen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ausrüstung/Werkzeug/Werkzeug.md",
+                "file": "Ausrüstung/Verkaufen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ausrüstung/Werkzeug/Werkzeug.md"
+                "file": "Ausrüstung/Verkaufen.md"
               }
             }
           },
@@ -174,7 +174,11 @@
   },
   "active": "78467bb7a33cfa99",
   "lastOpenFiles": [
+    "Ausrüstung/Münzen.md",
     "Ausrüstung/Ausrüstungssets.md",
+    "Ausrüstung/Werkzeug/Werkzeug.md",
+    "_Attachments/Characters/don_jon_raskin.png",
+    "_Attachments/Characters/iarno_albrek.png",
     "Ausrüstung/Magische Gegenstände/Identifikation magischer Gegenstände.md",
     "Ausrüstung/Magische Gegenstände/Einstimmung magischer Gegenstände.md",
     "_Attachments/Neverwinter/niewinter_wappen.png",
@@ -185,8 +189,6 @@
     "_Attachments/Monster/goblin.png",
     "_Attachments/Monster/Ghul.jpg",
     "_Attachments/Monster/Feuerschlange.jpg",
-    "_Attachments/Monster/Eulenbär.jpg",
-    "_Attachments/Monster/chestweasel.png",
     "Charaktere/Talente/Talente.md",
     "Charaktere/Talente/Talentliste/Hohe Drowmagie.md",
     "Charaktere/Talente/Talentliste/Artifizientenlehrling.md",
@@ -199,9 +201,7 @@
     "Charaktere/Talente/Talentliste/Schleicher.md",
     "Charaktere/Talente/Talentliste/Zwergische Standhaftigkeit.md",
     "Ausrüstung/Verkaufen.md",
-    "Ausrüstung/Münzen.md",
     "Ausrüstung/Waffen/Waffenlisten/Schwerter.md",
-    "Ausrüstung/Werkzeug/Werkzeug.md",
     "Ausrüstung/Werkzeug/Tüftlerwerkzeug.md",
     "Ausrüstung/Werkzeug/Brauereivorräte.md",
     "Ausrüstung/Werkzeug/Holzschnitzwerkzeuge.md",
@@ -214,7 +214,6 @@
     "Ausrüstung/Werkzeug/Verkleidungsausrüstung.md",
     "Ausrüstung/Werkzeug/Musikinstrument.md",
     "Ausrüstung/Werkzeug/Spiel.md",
-    "Ausrüstung/Werkzeug/Kräuterkunde-Ausrüstung.md",
     "Ausrüstung/Magische Gegenstände",
     "_Attachments/_other",
     "_Attachments/Races",
