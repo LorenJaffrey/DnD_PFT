@@ -28,5 +28,5 @@ Du erhältst [[Blindsicht]]  mit einer Reichweite von 3 m (2 Kästchen).
 ## Nebel des Krieges
 Du nutzt die Verwirrung im Kampf und erhältst [[Vorteil und Nachteil|Vorteil]] auf Würfe auf [[Heimlichkeit]] die du im Zuge von [[Verstecken]] ausführst.
 
-## Scharfschütze
+## Heckenschütze
 Wenn du [[Verstecken]] einsetzt und mit einem [[Fernkampfangriff]] verfehlst, offenbart der [[Angriff]] nicht deine Position.

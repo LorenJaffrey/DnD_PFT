@@ -1,3 +1,7 @@
+---
+tags:
+- Waffe
+---
 # `=this.file.name`
 
 ```dataview

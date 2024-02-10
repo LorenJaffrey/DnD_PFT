@@ -5,4 +5,12 @@ tags: Zug/Aktion
 
 *Widme deine Aufmerksamkeit ganz der Suche nach etwas.*
 
-Abhängig davon wonach und wie du suchst, kann der DM eine Probe auf [[Wahrnehmung]] oder auf [[Nachforschungen]] verlangen.
+Wenn du diese [[Zug#Aktion]] durchführst, machst du einen Wurf auf [[Weisheit]], um etwas zu erkennen, was nicht offensichtlich ist. 
+Die folgende Tabelle zeigt an, welche [[Fertigkeiten]] anwendbar sind, wenn du diese [[Zug#Aktion]] durchführst, abhängig davon, was du zu entdecken versuchst. 
+
+| Fähigkeit           | Zu erkennendes Objekt         |
+| ------------------- | ----------------------------- |
+| [[Motiv erkennen]]  | Gemütszustand einer Kreatur   |
+| [[Heilkunde]]       | Leiden einer Kreatur          |
+| [[Wahrnehmung]]     | Verdeckte Kreatur oder Objekt |
+| [[Überlebenskunst]] | Spuren oder Nahrung           |

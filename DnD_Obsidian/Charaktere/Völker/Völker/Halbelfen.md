@@ -1,8 +1,6 @@
 ---
 aliases: Halbelf
 ---
-```toc
-```
 ## Beschreibung
 Sie leben in zwei Welten und gehören doch keiner der beiden wirklich an. Halbelfen vereinen die besten Eigenschaften ihrer elfischen und menschlichen Eltern: Neugier, Erfindungs geist und Ambitioniertheit der Menschen gemischt mit den scharfen Sinnen, der Liebe zur Natur und dem künstlerischen Geschmack der Elfen. Manche Halbelfen leben unter Men-schen, von denen sie sich durch ihre Gefühlsbetontheit und ihre körperlichen Unterschiede absetzen, und wo sie Freunde und Geliebte altern sehen, während sie selbst kaum vom Lauf der Zeit betroffen sind. Andere wählen ein Leben in einem Reich der Elfen, deren Zeitlosigkeit sie ruhelos werden lässt.
 Viele Halbelfen haben Schwierigkeiten, sich in einer dieser Gesellschaften einzugliedern, und wählen daher ein Leben als Wanderer und Abenteurer entweder in Einsamkeit oder gemeinsam mit anderen Außenseitern und Ausgestoßenen.

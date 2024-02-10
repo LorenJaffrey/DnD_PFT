@@ -7,12 +7,12 @@ tags:
   - Waffe/Kategorie/Einfache_Waffe
   - Waffe/Größe/Kleine_Waffe
 Schaden: 1W3
-Schadensart: Stich
+Schadensart: "[[Stichschaden]]"
 Eigenschaften:
   - "[[Leicht]]"
   - "[[Finesse]]"
 SchadenFern: 1W4
-SchadensartFern: Stich
+SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
 Range2: 6(4)
 Range3: 18(12)

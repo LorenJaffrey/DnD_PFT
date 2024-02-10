@@ -6,7 +6,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Großwaffe
 Schaden: 2W5
-Schadensart: Wucht
+Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
 - "[[Weitreichend]]"
 - "[[Unhandlich]]"

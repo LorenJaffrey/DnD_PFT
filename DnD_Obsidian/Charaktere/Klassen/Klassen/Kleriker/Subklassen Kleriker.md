@@ -1,10 +1,6 @@
 ---
 aliases: Göttliche Domäne, Göttliche Domänen, Subklasse Kleriker
 ---
-```toc
-
-```
-
 ## Göttliche Domänen
 
 | Kampfarchetyp        | Beschreibung                                          | Quelle                             |

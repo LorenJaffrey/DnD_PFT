@@ -1,5 +1,3 @@
-```toc
-```
 Du wirst von etwas so furchtbarem verfolgt, dass du es nicht wagst davon zu sprechen. Du hast versucht es zu vergraben und davor zu fliehen, ohne Erfolg. Was auch immer es ist das dich verfolgt, es kann nicht mit einem Schwert getötet oder mit einem Zauebr gebannt werden.
 Es könnte sich als Schatten an der Wand manifestieren, als haarsträubender Alptraum, als Erinnerung die sich weigert ausgelöscht zu werden, oder ein dämonisches Flüstern im Dunkeln. Die Bürde hat ihren Tribut gefordert und dich von den meisten Leuten isoliert un dich dazu gebracht an deinem Verstand zu zweifeln. Du musst einen Weg finden es zu überwinden bevor es dich zerstört.
 

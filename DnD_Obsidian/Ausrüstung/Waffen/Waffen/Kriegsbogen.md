@@ -10,7 +10,7 @@ Schadensart:
 Eigenschaften: []
 
 SchadenFern: 1W10
-SchadensartFern: Stich
+SchadensartFern: "[[Stichschaden]]"
 Range1: 6(4)
 Range2: 75(50)
 Range3: 180(120)

@@ -7,10 +7,9 @@ Trefferwürfel: W6
 Hauptattribut: 
 - "[[Intelligenz]]"
 Zauberwirker: Arkan
+Zauberattribut: "[[Intelligenz]]"
+Art_Bekannte_Zauber: Berechnet
 ---
-```toc
-
-```
 ## Klassenbeschreibung
 
 

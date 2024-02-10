@@ -8,7 +8,7 @@ tags:
   - Waffe/Größe/Großwaffe
   - Waffe/Schwer
 Schaden: 2W6
-Schadensart: Hieb/Stich
+Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:
   - "[[Langsam]]"
   - "[[Schwer]] (12)"

@@ -1,5 +1,7 @@
 ---
 aliases: Kriegswaffe
+tags:
+- Waffe
 ---
 # `=this.file.name`
 

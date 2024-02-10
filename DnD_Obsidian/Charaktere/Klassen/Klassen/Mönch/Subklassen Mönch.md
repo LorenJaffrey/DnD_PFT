@@ -1,10 +1,6 @@
 ---
 aliases: Klostertradition, Klostertraditionen, Subklasse Mönch
 ---
-```toc
-
-```
-
 ## Klostertraditionen
 
 | Klostertradition             | Beschreibung                  | Quelle                             |

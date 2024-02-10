@@ -7,7 +7,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
 Schaden: 2W3
-Schadensart: Hieb/Stich
+Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:
 - "[[Leicht]]"
 - "[[Finesse]]"

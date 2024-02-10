@@ -1,5 +1,7 @@
 ---
 aliases: Mittelschwerer Rüstung
+tags:
+- Ausrüstung/Rüstung
 ---
 # `=this.file.name`
 

@@ -38,4 +38,4 @@ Diese Methode der Identifikation kann nicht wiederholt werden. Scheitert ein Cha
 ### Zauber Identifizieren
 Der Zauber [[Identifizieren]] erlaubt es einem Charakter die genaue Wirkungsweise eines magischen Gegenstandes zu verstehen mitsamt all seiner Eigenschaften, wie er zu benutzen ist, wie viele Ladungen er ggf. besitzt, etc.
 
-![[Identifizieren#Beschreibung]]
+![[Identifizieren]]

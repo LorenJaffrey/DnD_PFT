@@ -1,8 +1,16 @@
 ---
-aliases: Kritischer Treffer, Kritischen Treffer
+aliases:
+  - Kritischer Treffer
+  - Kritischen Treffer
 ---
 # `=this.file.name`
+Ein kritischer Treffer liegt normalerweise vor wenn der  [[Angriffswurf]] eine natürliche 20 zeigt, kann jedoch auch durch ein anderes Ereignis ausgelöst werden.
+Bei einem kritischen Treffer wird auf der jeweiligen kritischen Schadenstabelle für die jeweilige [[Schadensarten|Schadensart]] gewürfelt.
 
-Kritische Treffer verursachen den maximalen Schaden der zu werfenden Würfel.
-Zusätzlich wird die gleiche Zahl an Schadenswürfeln zusätzlich geworfen und zum verursachten Schaden addiert.
-Außerdem wird ein zusätzlicher Effekt basierend auf der Schadensart der benutzten Waffe verursacht.
+## Kritische Schadenstabellen
+- [[Wuchtschaden#Kritischer Wuchtschaden]]
+- [[Hiebschaden#Kritischer Hiebschaden]]
+- [[Stichschaden#Kritischer Stichschaden]]
+
+
+- [ ] #task Kritische Schadenstabellen einpflegen [priority:: normal]

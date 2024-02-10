@@ -1,10 +1,6 @@
 ---
 aliases: Heiliger Schwur, Heilige Schwüre, Subklasse Paladin
 ---
-```toc
-
-```
-
 ## Klostertraditionen
 
 | Klostertradition     | Beschreibung                              | Quelle                             |

@@ -6,7 +6,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
 Schaden: 1W4
-Schadensart: Hieb
+Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
 - "[[Weitreichend]]"
 - "[[Finesse]]"

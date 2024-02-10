@@ -1,8 +1,6 @@
 ---
 aliases: Tiefling
 ---
-```toc
-```
 ## Beschreibung
 Durch Getuschel und Blicke begrüßt zu werden, Beleidigungen und Gewalt in der Öffentlichkeit ausgesetzt zu sein, das Misstrauen und die Angst in jedermanns Augen zu sehen, das ist das Los der Tieflinge. Schlimmer ist noch, dass die Tieflinge wissen, was der Grund für diese Angst ist: ein Pakt, der vor Generationen geschlossen wurde und bei dem die Essenz von Asmodeus, dem Erzteufel der Neun Höllen, in ihre Blutlinie geflossen ist. Sie tragen keine Schuld an ihrem Erscheinungsbild und ihrer Natur, beides ist die Folge einer uralten Sünde, für die sie, ihre Kinder und ihre Kindeskinder auf ewig zur Rechenschaft gezogen werden.
 

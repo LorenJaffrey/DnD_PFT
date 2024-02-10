@@ -1,5 +1,7 @@
 ---
 aliases: Finesse Waffe
+tags:
+- Waffe
 ---
 # `=this.file.name`
 

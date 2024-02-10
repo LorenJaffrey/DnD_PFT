@@ -1,9 +1,10 @@
 ---
 tags:
-- Werkzeug/Handwerkszeug
+  - Werkzeug/Handwerkszeug
 kosten: 20 GM
 gewicht: 9
 ---
+# `=this.file.name`
 *Das Brauen ist nicht nur die Kunst der Bierherstellung, sondern beinhaltet auch die Kenntnisse der zugehörigen chemischen und physikalischen Prozesse.* 
 
 Bier ist nicht nur ein alkoholisches Getränk, sondern im Zuge des Brauprozesses wird auch Wasser aufbereitet. Zur Herstellung von Bier ist ein wochenlanger Gärungsprozess nötig, aber nur wenige Stunden Arbeit.

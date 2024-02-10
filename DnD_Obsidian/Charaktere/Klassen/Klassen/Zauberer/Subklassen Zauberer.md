@@ -1,10 +1,6 @@
 ---
 aliases: Ursprung der Zauberei, Ursprünge der Zauberei, Subklasse Zauberer
 ---
-```toc
-
-```
-
 ## Ursprung der Zauberei
 
 | Klostertradition        | Beschreibung                                     | Quelle                            |

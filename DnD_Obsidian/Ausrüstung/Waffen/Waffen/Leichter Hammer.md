@@ -7,13 +7,13 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
 Schaden: 1W6
-Schadensart: Wucht
+Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
 - "[[Leicht]]"
 - "[[Rüstungsbrechend]] (1)"
 
 SchadenFern: 1W6
-SchadensartFern: Wucht
+SchadensartFern: "[[Wuchtschaden]]"
 Range1: 1,5(1)
 Range2: 6(4)
 Range3: 18(12)

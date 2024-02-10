@@ -7,38 +7,282 @@ Trefferwürfel: W8
 Hauptattribut: 
 - "[[Charisma]]"
 Zauberwirker: Arkan
+Zauberattribut: "[[Charisma]]"
+Art_Bekannte_Zauber: Tabelle
+Bekannte_Zauber:
+  Stufe1: 2
+  Stufe2: 3
+  Stufe3: 4
+  Stufe4: 5
+  Stufe5: 6
+  Stufe6: 7
+  Stufe7: 8
+  Stufe8: 9
+  Stufe9: 10
+  Stufe10: 10
+  Stufe11: 11
+  Stufe12: 11
+  Stufe13: 12
+  Stufe14: 12
+  Stufe15: 13
+  Stufe16: 13
+  Stufe17: 14
+  Stufe18: 14
+  Stufe19: 15
+  Stufe20: 15
+Zauberplätze:
+  Stufe1:
+    Grad0: 2
+    Grad1: 1
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe2:
+    Grad0: 2
+    Grad1: 2
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe3:
+    Grad0: 2
+    Grad1: 0
+    Grad2: 2
+    Grad3: 0
+    Grad4: 0
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe4:
+    Grad0: 3
+    Grad1: 0
+    Grad2: 2
+    Grad3: 0
+    Grad4: 0
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe5:
+    Grad0: 3
+    Grad1: 0
+    Grad2: 0
+    Grad3: 2
+    Grad4: 0
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe6:
+    Grad0: 3
+    Grad1: 0
+    Grad2: 0
+    Grad3: 2
+    Grad4: 0
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe7:
+    Grad0: 3
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 2
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe8:
+    Grad0: 3
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 2
+    Grad5: 0
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe9:
+    Grad0: 3
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 2
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe10:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 2
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe11:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 3
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe12:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 3
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe13:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 3
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe14:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 3
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe15:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 3
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe16:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 3
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe17:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 4
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe18:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 4
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe19:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 4
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
+  Stufe20:
+    Grad0: 4
+    Grad1: 0
+    Grad2: 0
+    Grad3: 0
+    Grad4: 0
+    Grad5: 4
+    Grad6: 0
+    Grad7: 0
+    Grad8: 0
+    Grad9: 0
 ---
 # `=this.file.name`
 
 ## Klassentabelle
 
-| Stufe | Merkmale                                             | Zaubertricks | Bekannte Zauber | Zauberplätze | Grad der Zauberplätze | Bekannte Anrufungen |
-|:-----:| ---------------------------------------------------- |:------------:|:---------------:|:------------:|:---------------------:|:-------------------:|
-|   1   | [[Außerweltlicher Schutzherr]], [[Paktmagie]]        |      2       |        2        |      1       |           1           |         ---         |
-|   2   | [[Segen des Pakts]]                                  |      2       |        3        |      2       |           1           |         ---         |
-|   3   | [[Schauerliche Anrufungen]]                          |      2       |        4        |      2       |           2           |          2          |
-|   4   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        5        |      2       |           2           |          2          |
-|   5   | ---                                                  |      3       |        6        |      2       |           3           |          3          |
-|   6   | Merkmal Schutzherr                                   |      3       |        7        |      2       |           3           |          3          |
-|   7   | ---                                                  |      3       |        8        |      2       |           4           |          4          |
-|   8   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      3       |        9        |      2       |           4           |          4          |
-|   9   | ---                                                  |      3       |       10        |      2       |           5           |          5          |
-|  10   | Merkmal Schutzherr                                   |      4       |       10        |      2       |           5           |          5          |
-|  11   | [[Mystisches Arkanum]] (6. Grad)                     |      4       |       11        |      3       |           5           |          5          |
-|  12   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       11        |      3       |           5           |          6          |
-|  13   | [[Mystisches Arkanum]] (7. Grad)                     |      4       |       12        |      3       |           5           |          6          |
-|  14   | Merkmal Schutzherr                                   |      4       |       12        |      3       |           5           |          6          |
-|  15   | [[Mystisches Arkanum]] (8. Grad)                     |      4       |       13        |      3       |           5           |          7          |
-|  16   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       13        |      3       |           5           |          7          |
-|  17   | [[Mystisches Arkanum]] (9. Grad)                     |      4       |       14        |      4       |           5           |          7          |
-|  18   | ---                                                  |      4       |       14        |      4       |           5           |          8          |
-|  19   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] |      4       |       15        |      4       |           5           |          8          |
-|  20   | [[Mystischer Meister]]                               |      4       |       15        |      4       |           5           |          8          |
+| Stufe | Merkmale                                             |         Bekannte Zauber         | Bekannte Anrufungen |            Zaubertricks            |                 1.                 |                 2.                 |                 3.                 |                 4.                 |                 5.                 |
+|:-----:| ---------------------------------------------------- |:-------------------------------:|:-------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|
+|   1   | [[Außerweltlicher Schutzherr]], [[Paktmagie]]        | `=this.Bekannte_Zauber.Stufe1`  |         ---         | `=this.Zauberplätze.Stufe1.Grad0`  | `=this.Zauberplätze.Stufe1.Grad1`  | `=this.Zauberplätze.Stufe1.Grad2`  | `=this.Zauberplätze.Stufe1.Grad3`  | `=this.Zauberplätze.Stufe1.Grad4`  | `=this.Zauberplätze.Stufe1.Grad5`  |
+|   2   | [[Segen des Pakts]]                                  | `=this.Bekannte_Zauber.Stufe2`  |         ---         | `=this.Zauberplätze.Stufe2.Grad0`  | `=this.Zauberplätze.Stufe2.Grad1`  | `=this.Zauberplätze.Stufe2.Grad2`  | `=this.Zauberplätze.Stufe2.Grad3`  | `=this.Zauberplätze.Stufe2.Grad4`  | `=this.Zauberplätze.Stufe2.Grad5`  |
+|   3   | [[Schauerliche Anrufungen]]                          | `=this.Bekannte_Zauber.Stufe3`  |          2          | `=this.Zauberplätze.Stufe3.Grad0`  | `=this.Zauberplätze.Stufe3.Grad1`  | `=this.Zauberplätze.Stufe3.Grad2`  | `=this.Zauberplätze.Stufe3.Grad3`  | `=this.Zauberplätze.Stufe3.Grad4`  | `=this.Zauberplätze.Stufe3.Grad5`  |
+|   4   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] | `=this.Bekannte_Zauber.Stufe4`  |          2          | `=this.Zauberplätze.Stufe4.Grad0`  | `=this.Zauberplätze.Stufe4.Grad1`  | `=this.Zauberplätze.Stufe4.Grad2`  | `=this.Zauberplätze.Stufe4.Grad3`  | `=this.Zauberplätze.Stufe4.Grad4`  | `=this.Zauberplätze.Stufe4.Grad5`  |
+|   5   | ---                                                  | `=this.Bekannte_Zauber.Stufe5`  |          3          | `=this.Zauberplätze.Stufe5.Grad0`  | `=this.Zauberplätze.Stufe5.Grad1`  | `=this.Zauberplätze.Stufe5.Grad2`  | `=this.Zauberplätze.Stufe5.Grad3`  | `=this.Zauberplätze.Stufe5.Grad4`  | `=this.Zauberplätze.Stufe5.Grad5`  |
+|   6   | Merkmal Schutzherr                                   | `=this.Bekannte_Zauber.Stufe6`  |          3          | `=this.Zauberplätze.Stufe6.Grad0`  | `=this.Zauberplätze.Stufe6.Grad1`  | `=this.Zauberplätze.Stufe6.Grad2`  | `=this.Zauberplätze.Stufe6.Grad3`  | `=this.Zauberplätze.Stufe6.Grad4`  | `=this.Zauberplätze.Stufe6.Grad5`  |
+|   7   | ---                                                  | `=this.Bekannte_Zauber.Stufe7`  |          4          | `=this.Zauberplätze.Stufe7.Grad0`  | `=this.Zauberplätze.Stufe7.Grad1`  | `=this.Zauberplätze.Stufe7.Grad2`  | `=this.Zauberplätze.Stufe7.Grad3`  | `=this.Zauberplätze.Stufe7.Grad4`  | `=this.Zauberplätze.Stufe7.Grad5`  |
+|   8   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] | `=this.Bekannte_Zauber.Stufe8`  |          4          | `=this.Zauberplätze.Stufe8.Grad0`  | `=this.Zauberplätze.Stufe8.Grad1`  | `=this.Zauberplätze.Stufe8.Grad2`  | `=this.Zauberplätze.Stufe8.Grad3`  | `=this.Zauberplätze.Stufe8.Grad4`  | `=this.Zauberplätze.Stufe8.Grad5`  |
+|   9   | ---                                                  | `=this.Bekannte_Zauber.Stufe9`  |          5          | `=this.Zauberplätze.Stufe9.Grad0`  | `=this.Zauberplätze.Stufe9.Grad1`  | `=this.Zauberplätze.Stufe9.Grad2`  | `=this.Zauberplätze.Stufe9.Grad3`  | `=this.Zauberplätze.Stufe9.Grad4`  | `=this.Zauberplätze.Stufe9.Grad5`  |
+|  10   | Merkmal Schutzherr                                   | `=this.Bekannte_Zauber.Stufe10` |          5          | `=this.Zauberplätze.Stufe10.Grad0` | `=this.Zauberplätze.Stufe10.Grad1` | `=this.Zauberplätze.Stufe10.Grad2` | `=this.Zauberplätze.Stufe10.Grad3` | `=this.Zauberplätze.Stufe10.Grad4` | `=this.Zauberplätze.Stufe10.Grad5` |
+|  11   | [[Mystisches Arkanum]] (6. Grad)                     | `=this.Bekannte_Zauber.Stufe11` |          5          | `=this.Zauberplätze.Stufe11.Grad0` | `=this.Zauberplätze.Stufe11.Grad1` | `=this.Zauberplätze.Stufe11.Grad2` | `=this.Zauberplätze.Stufe11.Grad3` | `=this.Zauberplätze.Stufe11.Grad4` | `=this.Zauberplätze.Stufe11.Grad5` |
+|  12   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] | `=this.Bekannte_Zauber.Stufe12` |          6          | `=this.Zauberplätze.Stufe12.Grad0` | `=this.Zauberplätze.Stufe12.Grad1` | `=this.Zauberplätze.Stufe12.Grad2` | `=this.Zauberplätze.Stufe12.Grad3` | `=this.Zauberplätze.Stufe12.Grad4` | `=this.Zauberplätze.Stufe12.Grad5` |
+|  13   | [[Mystisches Arkanum]] (7. Grad)                     | `=this.Bekannte_Zauber.Stufe13` |          6          | `=this.Zauberplätze.Stufe13.Grad0` | `=this.Zauberplätze.Stufe13.Grad1` | `=this.Zauberplätze.Stufe13.Grad2` | `=this.Zauberplätze.Stufe13.Grad3` | `=this.Zauberplätze.Stufe13.Grad4` | `=this.Zauberplätze.Stufe13.Grad5` |
+|  14   | Merkmal Schutzherr                                   | `=this.Bekannte_Zauber.Stufe14` |          6          | `=this.Zauberplätze.Stufe14.Grad0` | `=this.Zauberplätze.Stufe14.Grad1` | `=this.Zauberplätze.Stufe14.Grad2` | `=this.Zauberplätze.Stufe14.Grad3` | `=this.Zauberplätze.Stufe14.Grad4` | `=this.Zauberplätze.Stufe14.Grad5` |
+|  15   | [[Mystisches Arkanum]] (8. Grad)                     | `=this.Bekannte_Zauber.Stufe15` |          7          | `=this.Zauberplätze.Stufe15.Grad0` | `=this.Zauberplätze.Stufe15.Grad1` | `=this.Zauberplätze.Stufe15.Grad2` | `=this.Zauberplätze.Stufe15.Grad3` | `=this.Zauberplätze.Stufe15.Grad4` | `=this.Zauberplätze.Stufe15.Grad5` |
+|  16   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] | `=this.Bekannte_Zauber.Stufe16` |          7          | `=this.Zauberplätze.Stufe16.Grad0` | `=this.Zauberplätze.Stufe16.Grad1` | `=this.Zauberplätze.Stufe16.Grad2` | `=this.Zauberplätze.Stufe16.Grad3` | `=this.Zauberplätze.Stufe16.Grad4` | `=this.Zauberplätze.Stufe16.Grad5` |
+|  17   | [[Mystisches Arkanum]] (9. Grad)                     | `=this.Bekannte_Zauber.Stufe17` |          7          | `=this.Zauberplätze.Stufe17.Grad0` | `=this.Zauberplätze.Stufe17.Grad1` | `=this.Zauberplätze.Stufe17.Grad2` | `=this.Zauberplätze.Stufe17.Grad3` | `=this.Zauberplätze.Stufe17.Grad4` | `=this.Zauberplätze.Stufe17.Grad5` |
+|  18   | ---                                                  | `=this.Bekannte_Zauber.Stufe18` |          8          | `=this.Zauberplätze.Stufe18.Grad0` | `=this.Zauberplätze.Stufe18.Grad1` | `=this.Zauberplätze.Stufe18.Grad2` | `=this.Zauberplätze.Stufe18.Grad3` | `=this.Zauberplätze.Stufe18.Grad4` | `=this.Zauberplätze.Stufe18.Grad5` |
+|  19   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] | `=this.Bekannte_Zauber.Stufe19` |          8          | `=this.Zauberplätze.Stufe19.Grad0` | `=this.Zauberplätze.Stufe19.Grad1` | `=this.Zauberplätze.Stufe19.Grad2` | `=this.Zauberplätze.Stufe19.Grad3` | `=this.Zauberplätze.Stufe19.Grad4` | `=this.Zauberplätze.Stufe19.Grad5` |
+|  20   | [[Mystischer Meister]]                               | `=this.Bekannte_Zauber.Stufe20` |          8          | `=this.Zauberplätze.Stufe20.Grad0` | `=this.Zauberplätze.Stufe20.Grad1` | `=this.Zauberplätze.Stufe20.Grad2` | `=this.Zauberplätze.Stufe20.Grad3` | `=this.Zauberplätze.Stufe20.Grad4` | `=this.Zauberplätze.Stufe20.Grad5` |
 
 ## Trefferpunkte
-[[Trefferwürfel]]: 1W8 pro Stufe
+[[Trefferwürfel]]:  `=this.Trefferwürfel`
 [[Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
-[[Trefferpunkte]] pro Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
+[[Trefferpunkte]] pro Stufenaufstieg:  1`=this.Trefferwürfel` (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
 
 ## Übung
 Rüstungen:

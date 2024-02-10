@@ -1,9 +1,6 @@
 ---
 aliases: Gnom
 ---
-```toc
-```
-
 ## Beschreibung
 Wo Gnome ihre eng verbundenen Gemeinschaften bilden, erfüllt ein konstantes Brummen von geschäftiger Aktivität die Nachbar-schaft. Laute Geräusche durchbrechen das Summen: das Rattern von schleifenden Zahnrädern hier, eine kleine Explosion dort, ein Schrei der Überraschung oder des Erfolgs, untermalt mit schallendem Gelächter. Gnome genießen das Leben in vollen Zügen und erfreuen sich an jedem Moment, den sie mit Erfindung, Ent-deckung, Forschung, kreativer Arbeit oder Spiel verbringen.
 

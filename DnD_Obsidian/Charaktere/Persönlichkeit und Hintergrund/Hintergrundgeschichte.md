@@ -1,6 +1,3 @@
-```toc
-
-```
 ## Eigenheiten
 Was macht den Charakter Besonders?
 - Körperliche Eigenschaft

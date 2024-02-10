@@ -6,7 +6,7 @@ tags:
   - Waffe/Kategorie/Einfache_Waffe
   - Waffe/Größe/Einhandwaffe
 Schaden: 1W6
-Schadensart: Wucht
+Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Leicht]]"
 SchadenFern: 

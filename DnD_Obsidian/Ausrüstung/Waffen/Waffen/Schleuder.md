@@ -9,7 +9,7 @@ Schaden:
 Schadensart: 
 Eigenschaften: []
 SchadenFern: 1W4
-SchadensartFern: Wucht
+SchadensartFern: "[[Wuchtschaden]]"
 Range1: 1,5(1)
 Range2: 9(6)
 Range3: 36(24)

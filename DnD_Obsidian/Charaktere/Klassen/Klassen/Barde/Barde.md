@@ -8,11 +8,9 @@ Trefferwürfel: W8
 Hauptattribut: 
 - "[[Charisma]]"
 Zauberwirker: divers
+Zauberattribut: "[[Charisma]]"
+Art_Bekannte_Zauber: Tabelle
 ---
-```toc
-
-```
-
 ## Klassenbeschreibung
 
 

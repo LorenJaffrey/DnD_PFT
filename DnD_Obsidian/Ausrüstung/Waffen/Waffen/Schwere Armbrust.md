@@ -11,7 +11,7 @@ Schadensart:
 Eigenschaften:
 
 SchadenFern: 2W5
-SchadensartFern: Stich
+SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
 Range2: 30(20)
 Range3: 120(80)

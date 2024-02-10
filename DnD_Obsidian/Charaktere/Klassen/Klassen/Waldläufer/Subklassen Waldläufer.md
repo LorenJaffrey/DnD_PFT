@@ -1,10 +1,6 @@
 ---
 aliases: Waldläuferarchetyp, Waldläuferarchetypen, Subklasse Waldläufer
 ---
-```toc
-
-```
-
 ## Waldläuferarchetypen
 
 | Klostertradition   | Beschreibung                              | Quelle                             |

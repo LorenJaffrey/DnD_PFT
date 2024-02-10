@@ -6,7 +6,7 @@ tags:
   - Waffe/Kategorie/Einfache_Waffe
   - Waffe/Größe/Kleine_Waffe
 Schaden: 1W4
-Schadensart: Hieb
+Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
   - "[[Leicht]]"
   - "[[Finesse]]"

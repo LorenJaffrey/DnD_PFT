@@ -9,7 +9,7 @@ Schaden:
 Schadensart: 
 Eigenschaften: 
 SchadenFern: 2W4
-SchadensartFern: Stich
+SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
 Range2: 24(16)
 Range3: 96(64)

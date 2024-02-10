@@ -7,13 +7,13 @@ tags:
   - Waffe/Kategorie/Kriegswaffe
   - Waffe/Größe/Einhandwaffe
 Schaden: 1W6
-Schadensart: Hieb
+Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
 - "[[Leicht]]"
 - "[[Tödlich]]"
 
 SchadenFern: 1W6
-SchadensartFern: Hieb
+SchadensartFern: "[[Hiebschaden]]"
 Range1: 1,5(1)
 Range2: 6(4)
 Range3: 18(12)

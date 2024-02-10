@@ -1,8 +1,6 @@
 ---
 aliases: Halbling
 ---
-```toc
-```
 ## Beschreibung
 Der Komfort eines Heims ist das Lebensziel der meisten Halblinge. Ein Platz, um sich in Ruhe und Frieden niederzu-lassen, weit weg von plündernden Monsterhorden und sich bekämpfenden Armeen. Ein knisterndes Feuer, ein üppiges Mahl, ausgesuchte Getränke und anregende Unterhaltungen.
 Obwohl manche Halblinge ihre Tage in abgelegenen landwirtschaftlichen Gemeinschaften verbringen, bilden andere nomadische Verbände, die ständig auf der Reise sind, gelockt von den offenen Straßen und der Weite des Horizonts, um die Wunder neuer Länder und Völker zu entdecken. Doch selbst diese Wanderer lieben Frieden, Essen, Heim und Herd, auch wenn das Heim ein Wagen ist, der eine dreckige Straße entlangzuckelt, oder ein Floß, das einen Strom hinabtreibt.
