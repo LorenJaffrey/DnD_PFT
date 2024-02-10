@@ -14,9 +14,9 @@ FROM #Attribut
 | -------------------- |:---:|:-----:|:-----:|:-----:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:---:|
 | Attributsmodifikator | -5  |  -4   |  -3   |  -2   |  -1   |   +0    |   +1    |   +2    |   +3    |   +4    |   +5    |   +6    |   +7    |   +8    |   +9    | +10 |
 
+## Attributswurf
 Wird fällig wenn eine Aktion ausgeführt wird bei der die Möglichkeit des Scheiterns besteht.
 
-## Attributswurf
 W20 + [[Attribute#Attributsmodifikator]] + Bonus/Malus
 Besonderer [[Erfolg]] oder [[Misserfolg]] für 5, 10, 15 Punkte unter/über [[Schwierigkeitsgrad|SG]]
 

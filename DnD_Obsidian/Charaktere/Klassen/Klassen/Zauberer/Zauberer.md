@@ -8,10 +8,9 @@ Trefferwürfel: W6
 Hauptattribut: 
 - "[[Charisma]]"
 Zauberwirker: Arkan
+Zauberattribut: "[[Charisma]]"
+Art_Bekannte_Zauber: Tabelle
 ---
-```toc
-
-```
 ## Klassenbeschreibung
 
 

@@ -7,11 +7,9 @@ Trefferwürfel: W10
 Hauptattribut: 
  - "[[Weisheit]]"
 Zauberwirker: Urtümlich
+Zauberattribut: "[[Weisheit]]"
+Art_Bekannte_Zauber: Tabelle
 ---
-
-```toc
-
-```
 ## Klassenbeschreibung
 
 

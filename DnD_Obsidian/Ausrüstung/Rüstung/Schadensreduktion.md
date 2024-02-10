@@ -4,4 +4,4 @@ aliases:
 ---
 # `=this.file.name`
 
-Der eingehende Schaden wird um diesen Betrag reduziert.
+Eingehender Schaden wird um diesen Betrag reduziert.

@@ -6,7 +6,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Anderthalbhänder
 Schaden: 1W8
-Schadensart: Hieb
+Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
 - "[[Vielseitig]] (1W10)"
 - "[[Tödlich]]"

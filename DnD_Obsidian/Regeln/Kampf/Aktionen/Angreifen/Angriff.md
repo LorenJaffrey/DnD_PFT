@@ -3,8 +3,6 @@ aliases: Angreifen, Angriffe
 ---
 # `=this.file.name`
 
-## Ablauf
-
 ### Ziel wählen
 Ziele müssen in Reichweite und Sichtweite sein.
 Sowohl Kreaturen als auch Gegenstände, Orte oder Bereiche können als Ziel gewählt werden.

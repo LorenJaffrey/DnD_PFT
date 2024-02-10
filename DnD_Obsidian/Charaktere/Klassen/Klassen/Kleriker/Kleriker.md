@@ -7,11 +7,9 @@ Trefferwürfel: W8
 Hauptattribut: 
 - "[[Weisheit]]"
 Zauberwirker: Göttlich
+Zauberattribut: "[[Weisheit]]"
+Art_Bekannte_Zauber: Berechnet
 ---
-
-```toc
-
-```
 ## Klassenbeschreibung
 
 

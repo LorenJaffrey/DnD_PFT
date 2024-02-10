@@ -1,10 +1,6 @@
 ---
 aliases: Subklasse Barde, Bardenschule, Bardenschulen
 ---
-```toc
-
-```
-
 ## Bardenschulen
 
 | Urtümlicher Pfad       | Beschreibung                               | Quelle                            |

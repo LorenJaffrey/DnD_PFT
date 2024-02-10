@@ -1,6 +1,10 @@
 ---
-aliases: Nahkampf, Nahkampfangriffe, Nahkampfangriffen
-tags: Zug/Aktion/Angriff
+aliases:
+- Waffenlosen Angriffe
+- Waffenlosen Angriffs
+- Waffenlose Angriffe
+tags: 
+- Zug/Aktion/Angriff
 ---
 # `=this.file.name`
 

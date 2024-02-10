@@ -6,7 +6,7 @@ tags:
   - Waffe/Kategorie/Einfache_Waffe
   - Waffe/Größe/Großwaffe
 Schaden: 1W8
-Schadensart: Wucht
+Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Parieren]]"
   - "[[Finesse]]"

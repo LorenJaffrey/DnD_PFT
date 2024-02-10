@@ -10,9 +10,6 @@ Hauptattribut:
 - "[[Weisheit]]"
 Zauberwirker: 
 ---
-```toc
-
-```
 ## Klassenbeschreibung
 
 

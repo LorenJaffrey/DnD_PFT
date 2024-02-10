@@ -1,10 +1,6 @@
 ---
 aliases: Arkane Tradition, Arkane Traditionen, Subklasse Magier
 ---
-```toc
-
-```
-
 ## Arkane Traditionen
 
 | Arkane Tradition           | Beschreibung                                   | Quelle                                     |

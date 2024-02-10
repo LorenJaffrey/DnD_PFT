@@ -3,7 +3,5 @@ tags:
 - Zustand
 ---
 # `=this.file.name`
-
-- 2 Schaden jede Runde 
-- [[Vorteil und Nachteil\|Nachteil]] für [[Rettungswurf\|Rettungswürfe]] auf [[Konstitution]]
-- kann durch Heilung (magisch oder Wurf auf [[Heilkunde]] gegen [[Schwierigkeitsgrad|SG]] 10) entfernt werden
+Die Kreatur blutet und erleidet die in Klammern angegebene Zahl an Schadenspunkten zu Beginn der Kampfrunde. Außerdem hat sie [[Vorteil und Nachteil\|Nachteil]] auf [[Rettungswurf\|Rettungswürfe]] auf [[Konstitution]].
+Dieser Zustand kann durch Heilung (magisch oder Wurf auf [[Heilkunde]] gegen [[Schwierigkeitsgrad|SG]] 10) entfernt werden.

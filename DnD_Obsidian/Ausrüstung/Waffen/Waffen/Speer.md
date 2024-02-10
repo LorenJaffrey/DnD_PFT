@@ -7,13 +7,13 @@ tags:
   - Waffe/Kategorie/Einfache_Waffe
   - Waffe/Größe/Großwaffe
 Schaden: 1W6
-Schadensart: Stich
+Schadensart: "[[Stichschaden]]"
 Eigenschaften:
   - "[[Weitreichend]]"
   - "[[Vielseitig]] (1W8)"
   - "[[Finesse]]"
 SchadenFern: 1W6
-SchadensartFern: Stich
+SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
 Range2: 6(4)
 Range3: 18(12)

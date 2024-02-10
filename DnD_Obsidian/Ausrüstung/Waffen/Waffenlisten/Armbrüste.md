@@ -1,5 +1,7 @@
 ---
 aliases: Armbrust, Armbrüsten
+tags:
+- Waffe
 ---
 # `=this.file.name`
 

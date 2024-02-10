@@ -6,7 +6,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Einhandwaffe
 Schaden: 2W3
-Schadensart: Wucht
+Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
 - "[[Leicht]]"
 - "[[Heimtückisch]]"

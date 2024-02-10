@@ -1,6 +1,3 @@
-```toc
-
-```
 ## Persönlichkeitsmerkmale
 - Zwei Persönlichkeitsmerkmale
 - z.B. höchstes und niedrigstes Attribut als Beschreibung nutzen

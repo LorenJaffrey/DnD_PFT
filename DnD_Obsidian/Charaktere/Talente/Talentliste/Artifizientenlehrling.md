@@ -1,9 +1,9 @@
 ---
 aliases:
-  - Artificer Initiate
+- Artificer Initiate
 tags:
-  - Talent
-Voraussetzungen: 
+- Talent
+Voraussetzungen:
 Stufe: 4
 Wiederholbar: false
 ---

@@ -6,7 +6,7 @@ tags:
   - Waffe/Kategorie/Einfache_Waffe
   - Waffe/Größe/Anderthalbhänder
 Schaden: 1W8
-Schadensart: Wucht
+Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Vielseitig]] (1W10)"
 SchadenFern: 

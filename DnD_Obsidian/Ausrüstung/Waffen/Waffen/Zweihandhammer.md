@@ -7,7 +7,7 @@ tags:
 - Waffe/Größe/Großwaffe
 - Waffe/Schwer
 Schaden: 1W12
-Schadensart: Wucht
+Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
 - "[[Langsam]]"
 - "[[Schwer]] (12)"

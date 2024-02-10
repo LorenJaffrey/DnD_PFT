@@ -9,10 +9,9 @@ Hauptattribut:
 - "[[Charisma]]"
 - "[[Stärke]]"
 Zauberwirker: Göttlich
+Zauberattribut: "[[Charisma]]"
+Art_Bekannte_Zauber: Berechnet
 ---
-```toc
-
-```
 ## Klassenbeschreibung
 
 

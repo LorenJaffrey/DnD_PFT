@@ -7,7 +7,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Anderthalbhänder
 Schaden: 2W4
-Schadensart: Hieb/Stich
+Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:
 - "[[Parieren]]"
 - "[[Vielseitig]] (2W5)"

@@ -1,5 +1,7 @@
 ---
 aliases: Fernkampfwaffe
+tags:
+- Waffe
 ---
 # `=this.file.name`
 

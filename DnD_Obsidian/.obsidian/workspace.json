@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Charaktere/Talente/Talente.md",
-                "mode": "preview",
+                "file": "Ausrüstung/Werkzeug/Werkzeug.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Charaktere/Talente/Talente.md",
+                "file": "Ausrüstung/Werkzeug/Werkzeug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Charaktere/Talente/Talente.md",
+                "file": "Ausrüstung/Werkzeug/Werkzeug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Charaktere/Talente/Talente.md"
+                "file": "Ausrüstung/Werkzeug/Werkzeug.md"
               }
             }
           },
@@ -175,20 +174,22 @@
   },
   "active": "78467bb7a33cfa99",
   "lastOpenFiles": [
-    "_Attachments/Maps/toril.jpg",
-    "_Attachments/Characters/don_jon_raskin.png",
+    "Ausrüstung/Ausrüstungssets.md",
+    "Ausrüstung/Magische Gegenstände/Identifikation magischer Gegenstände.md",
+    "Ausrüstung/Magische Gegenstände/Einstimmung magischer Gegenstände.md",
+    "_Attachments/Neverwinter/niewinter_wappen.png",
+    "_Attachments/Neverwinter/NeverwinterMapClean.jpg",
+    "_Attachments/Neverwinter/Charaktere/flinar_ralolar.png",
+    "_Attachments/Neverwinter/Charaktere/Branwynn Lutgehr.png",
+    "_Attachments/Neverwinter/Charaktere/Brannur_Luthger.png",
+    "_Attachments/Monster/goblin.png",
+    "_Attachments/Monster/Ghul.jpg",
+    "_Attachments/Monster/Feuerschlange.jpg",
+    "_Attachments/Monster/Eulenbär.jpg",
+    "_Attachments/Monster/chestweasel.png",
     "Charaktere/Talente/Talente.md",
     "Charaktere/Talente/Talentliste/Hohe Drowmagie.md",
     "Charaktere/Talente/Talentliste/Artifizientenlehrling.md",
-    "_Attachments/Neverwinter/Locations/shard_of_the_moon_2.png",
-    "_Attachments/Neverwinter/Locations/shard_of_the_moon_1.jpg",
-    "_Attachments/Neverwinter/Locations/priscillas_perfumes.png",
-    "_Attachments/Neverwinter/Locations/moonstone_mask_3.png",
-    "_Attachments/Neverwinter/Locations/moonstone_mask_1.png",
-    "_Attachments/Neverwinter/Locations/Moonstone-Mask-scaled.jpg",
-    "_Attachments/Neverwinter/Locations/flinkes_herz_allerlei.png",
-    "_Attachments/Neverwinter/Locations/fallen_tower_2.png",
-    "_Attachments/Neverwinter/Locations/fallen_tower.png",
     "_Attachments/Neverwinter/Locations",
     "_Attachments/Neverwinter/Charaktere",
     "_Attachments/Neverwinter",
@@ -198,7 +199,6 @@
     "Charaktere/Talente/Talentliste/Schleicher.md",
     "Charaktere/Talente/Talentliste/Zwergische Standhaftigkeit.md",
     "Ausrüstung/Verkaufen.md",
-    "Ausrüstung/Ausrüstungssets.md",
     "Ausrüstung/Münzen.md",
     "Ausrüstung/Waffen/Waffenlisten/Schwerter.md",
     "Ausrüstung/Werkzeug/Werkzeug.md",
@@ -215,7 +215,6 @@
     "Ausrüstung/Werkzeug/Musikinstrument.md",
     "Ausrüstung/Werkzeug/Spiel.md",
     "Ausrüstung/Werkzeug/Kräuterkunde-Ausrüstung.md",
-    "Ausrüstung/Werkzeug/Fälscherausrüstung.md",
     "Ausrüstung/Magische Gegenstände",
     "_Attachments/_other",
     "_Attachments/Races",

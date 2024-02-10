@@ -1,9 +1,6 @@
 ---
 aliases: Zwerg
 ---
-```toc
-```
-
 ## Beschreibung
 Königreiche voller antiker Erhabenheit, in den Fuß von Bergen geschlagene Hallen, der Widerhall von Spitzhacken und Hämmern aus tiefen Minen und feurigen Schmieden, die Verbundenheit mit Klan und Tradition und ein brennender Hass auf Goblins und Orks, diese Dinge verbinden alle Zwerge miteinander.
 

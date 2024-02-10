@@ -6,7 +6,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Langwaffe
 Schaden: 1W8
-Schadensart: Stich
+Schadensart: "[[Stichschaden]]"
 Eigenschaften:
 - "[[Weitreichend]]"
 - "[[Defensiv]]"

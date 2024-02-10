@@ -1,5 +1,6 @@
 ---
-aliases: Zustand
+aliases:
+  - Zustand
 ---
 # `=this.file.name`
 
@@ -11,3 +12,6 @@ TABLE
 FROM #Zustand
 SORT file.name
 ```
+
+## Zustandsimmunität
+- [ ] #task Beschreibung ergänzen [priority:: normal]

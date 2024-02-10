@@ -7,7 +7,7 @@ tags:
 - Waffe/Größe/Großwaffe
 - Waffe/Schwer
 Schaden: 1W12
-Schadensart: Hieb
+Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
 - "[[Langsam]]"
 - "[[Schwer]] (14)"

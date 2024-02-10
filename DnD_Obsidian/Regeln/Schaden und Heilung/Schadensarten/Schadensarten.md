@@ -2,7 +2,6 @@
 aliases: Schadensart
 ---
 # `=this.file.name`
-
 - [[Säureschaden]] 
 - [[Wuchtschaden]] 
 - [[Kälteschaden]]

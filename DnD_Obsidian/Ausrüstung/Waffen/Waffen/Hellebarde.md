@@ -7,7 +7,7 @@ tags:
 - Waffe/Kategorie/Kriegswaffe
 - Waffe/Größe/Langwaffe
 Schaden: 1W10
-Schadensart: Hieb/Stich
+Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:
 - "[[Weitreichend]]"
 - "[[Defensiv]]"
