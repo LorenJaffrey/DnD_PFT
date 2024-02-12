@@ -1,11 +1,11 @@
 ---
-Charakter: "[[Character Sheet Test]]"
+Charakter: "[[Niptac]]"
 Geld:
-  PM: 10
-  GM: 100
-  EM: 3
-  SM: 5
-  KM: 9
+  PM: 0
+  GM: 219
+  EM: 0
+  SM: 167
+  KM: 95
 ---
 # `=this.file.name`
 > [!infobox]
@@ -27,21 +27,37 @@ Geld:
 > | Maximalbelastung | `=(this.Charakter.Attribute.Stärke*30)` Pfund |
 
 ## Am Körper
-| Gegenstand      | Anzahl | Gewicht | Gesamt |
-| --------------- |:------:|:-------:|:------:|
-| [[Zweihandaxt]] |   1    |    7    |   7    |
-| [[Beil]]        |   2    |    2    |   4    |
-| [[Wurfspeer]]   |   4    |    2    |   8    |
-| GESAMT          |        |         |   19   |
+| Gegenstand                   | Anzahl | Gewicht | Gesamt |
+| ---------------------------- |:------:|:-------:|:------:|
+| [[Kurzschwert]]              |   1    |    7    |   7    |
+| [[Dolch]]                    |   1    |    2    |   2    |
+| [[Schleuder]]                |   1    |    2    |   2    |
+| [[Leichte Armbrust]]         |   5    |    2    |   10   |
+| [[Reisegeschirr]]            |   1    |    1    |   1    |
+| [[Stiefel der Elfen]]        |   1    |    1    |   1    |
+| [[Rucksack]]                 |   1    |    0    |   0    |
+| [[Diebeswerkzeug]]           |   1    |    1    |   1    |
+| Freundschaftsarmband         |   1    |  0.25   |  0.25  |
+| [[Beschlagene Lederrüstung]] |   1    |   13    |   13   |
+| GESAMT                       |        |         | 37.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
 ## Rucksack
-| Gegenstand     | Anzahl | Gewicht | Gesamt |
-| -------------- |:------:|:-------:|:------:|
-| [[Schlafsack]] |   1    |    7    |   7    |
-| [[Beil]]       |   2    |    2    |   4    |
-| [[Wurfspeer]]  |   4    |    2    |   8    |
-| GESAMT         |        |         |   19   |
+| Gegenstand                                                         | Anzahl | Gewicht | Gesamt |
+| ------------------------------------------------------------------ |:------:|:-------:|:------:|
+| [[Schlafsack]]                                                     |   1    |    7    |   7    |
+| [[Zunderkästchen]]                                                 |   1    |    1    |   1    |
+| [[Fackel]]                                                         |   10   |    1    |   10   |
+| [[Rationen\|Ration]]                                               |   10   |    1    |   10   |
+| [[Trinkschlauch]]                                                  |   1    |    0    |   0    |
+| [[Hanfseil]] in m                                                  |   15   |   0.5   |  7.5   |
+| [[Beschlagene Lederrüstung]] (ranzig)                              |   1    |   13    |   13   |
+| [[Dolch]]e                                                         |   5    |    1    |   5    |
+| Armbrust Bolzen                                                    |   15   |   1.5   |  22.5  |
+| Obsidianscherben                                                   |   5    |  0.25   |  1.25  |
+| Gildenabzeichen                                                    |   1    |    0    |   0    |
+| Jade-Statuette eines Frosches \n mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
+| GESAMT                                                             |        |         | 77.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

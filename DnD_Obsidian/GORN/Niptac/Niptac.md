@@ -1,33 +1,33 @@
 ---
 Stufe: 4
-Glück: 3
+Glück: 1
 Erschöpfung: 0
 Bewegung: 5
-Rüstung: "[[Plattenrüstung]]"
-Schild: "[[Turmschild]]"
+Rüstung: "[[Beschlagene Lederrüstung]]"
+Schild:
 Waffen:
-- "[[Streitaxt]]"
 - "[[Kurzschwert]]"
-- "[[Langbogen]]"
 - "[[Dolch]]"
 - "[[Beil]]"
+- "[[Schleuder]]"
+- "[[Leichte Armbrust]]"
 Gesundheit:
-  MaxTP: 39
-  TP: 39
-  TW: 3
+  MaxTP: 35
+  TP: 22
+  TW: 4
   TempTP: 0
 Attribute:
-  Stärke: 18
-  Geschicklichkeit: 14
-  Konstitution: 16
-  Intelligenz: 10
-  Weisheit: 19
-  Charisma: 8
+  Stärke: 8
+  Geschicklichkeit: 17
+  Konstitution: 14
+  Intelligenz: 14
+  Weisheit: 10
+  Charisma: 14
 Rettungswürfe:
-  Stärke: 1
-  Geschicklichkeit: 0
-  Konstitution: 1
-  Intelligenz: 0
+  Stärke: 0
+  Geschicklichkeit: 1
+  Konstitution: 0
+  Intelligenz: 1
   Weisheit: 0
   Charisma: 0
 Fertigkeiten:
@@ -35,79 +35,76 @@ Fertigkeiten:
   Arkane_Kunde: 0
   Athletik: 0
   Auftreten: 0
-  Einschüchtern: 1
-  Fingerfertigkeit: 0
+  Einschüchtern: 0
+  Fingerfertigkeit: 2
   Geschichte: 0
   Heilkunde: 0
-  Heimlichkeit: 0
+  Heimlichkeit: 1
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 0
-  Nachforschungen: 1
+  Nachforschungen: 0
   Naturkunde: 0
   Religion: 0
-  Täuschen: 0
-  Überlebenskunst: 1
-  Überzeugen: 0
-  Wahrnehmung: 2
+  Täuschen: 2
+  Überlebenskunst: 0
+  Überzeugen: 1
+  Wahrnehmung: 1
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
-    - "[[Zwergisch]]"
+    - "[[Gnomisch]]"
+    - "[[Diebessprache]]"
   Werkzeuge:
-    - "[[Brauereivorräte]]"
+    - "[[Diebeswerkzeug]]"
+    - "[[Tüftlerwerkzeug]]"
+    - "[[Fälscherausrüstung]]"
   Rüstungen:
     - "[[Leichte Rüstung]]"
-    - "[[Mittelschwere Rüstung]]"
-    - "[[Plattenrüstung]]"
-    - "[[Turmschild]]"
   Waffen:
-    - "[[Kriegswaffen]]"
-    - "[[Rapier]]"
-    - "[[Schusswaffen]]"
+    - "[[Einfache Waffen]]"
+    - "[[Handarmbrüste]]"
     - "[[Kurzschwert]]"
+    - "[[Langschwert]]"
+    - "[[Rapier]]"
 Aussehen:
   Geschlecht: männlich
-  Alter: 115 Jahre
-  Größenkategorie: "[[Mittelgroß]]"
-  Größe: 140 cm
-  Gewicht: 150 Pfund
-  Augenfarbe: Blau
-  Haarfarbe: Grau
-  Hautfarbe: Sandfarben
+  Alter: 99 Jahre
+  Größenkategorie: "[[Klein]]"
+  Größe: 102 cm
+  Gewicht: 49 Pfund
+  Augenfarbe: Braun
+  Haarfarbe: Schwarz
+  Hautfarbe: Ocker
 Merkmale:
   Volk:
     - "[[Dunkelsicht]]"
-    - "[[Unempfindlichkeit]]"
-    - "[[Handwerkliches Geschick]]"
-    - "[[Steingespür]]"
-    - "[[Zwergisches Kampftraining]]"
-    - "[[Zwergische Rüstungsvertrautheit]]"
+    - "[[Gnomische Gerissenheit]]"
+    - "[[Artefaktkunde]]"
+    - "[[Tüftler]]"
   Klasse:
-    - "[[Kampfrausch]]"
-    - "[[Ungerüstete Verteidigung]]"
-    - "[[Rücksichtsloser Angriff]]"
-    - "[[Gefahrengespür]]"
-    - "[[Furchtlos und Unerschütterlich]]"
-    - "[[Titanengriff]]"
+    - "[[Hinterhältiger Angriff]]"
+    - "[[Durchdachte Vorbereitung]]"
+    - "[[Raffinierte Aktion]]"
+    - "[[Zielsicher]]"
   Talente:
-    - "[[Meisterschaft Kampf mit zwei Waffen]]"
+    - "[[Verschwinden]]"
 Hintergrund:
-  Volk: "[[Zwerge|Zwerg]]"
-  Klasse: "[[Druide]]"
+  Volk: "[[Gnome|Gnom]]"
+  Klasse: "[[Schurke]]"
+  Subklasse: "[[Meistertüftler]]"
   Gesinnung: "[[Neutral Gut]]"
-  Hintergrund: "[[Heimgesuchter]]"
+  Hintergrund: "[[Scharlatan]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-  - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.
-  - Ich spreche nicht über das, was mich quält. 
-  - Ich möchte andere nicht mit meinem Fluch belasten.
-  Ideale: Ich versuche denjenigen zu helfen die Hilfe benötigen, egal was es mich kosten mag.
-  Bindungen: Eine furchtbare Schuld verzehrt mich. Ich hoffe durch meine Taten Erlösung zu finden.
-  Makel: Ich habe eine (Alkohol-)Sucht.
+  - Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.
+  Ideale: Unabhängigkeit. Ich bin ein Freigeist, niemand kann mir vorschreiben, was ich zu tun oder zu lassen habe.
+  Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
+  Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 ---
 # `=this.file.name`
 
 > [!infobox]
+> ![[Niptac - Generated.jpeg]]
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
@@ -129,22 +126,14 @@ Persönlichkeit:
 > | Haarfarbe | `=this.Aussehen.Haarfarbe` |
 > | Hautfarbe | `=this.Aussehen.Hautfarbe` |
 >
-> ## Persönlichkeit
-> ---
 > ### Persönlichkeitsmerkmale 
 > `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[1]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[2]`
->
 > ### Ideale
 > `=this.Persönlichkeit.Ideale`
-> 
 > ### Bindungen
 > `=this.Persönlichkeit.Bindungen`
-> 
 > ### Makel
 > `=this.Persönlichkeit.Makel`
-
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
@@ -315,5 +304,17 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 
+## Aussehen
+Niptac ist ein kleiner, schlanker Gnom mit wildem, struppigem Haar und einer spitzen Nase. Er trägt oft schmutzige Kleidung und eine alte Lederjacke, um sich vor Wind und Wetter zu schützen. Seine Augen sind immer wachsam und vorsichtig, und er hält sich oft im Hintergrund, um nicht aufzufallen.
+
 ## Hintergrundgeschichte
-TBD
+Niptac wurde als jüngstes Kind einer Familie von Gnome geboren. Sein Vater war ein Magier, der in vielen Schlachten gekämpft hatte, um das Königreich zu verteidigen. Seine Mutter war eine begabte Mechanikerin und Ingenieurin, die viele nützliche Maschinen und Werkzeuge entwickelt hatte, um das Leben ihrer Familie einfacher zu gestalten.
+Niptac wuchs in einer glücklichen Familie auf, leider besaß er keinerlei Talent für Magie, wie sein Vater, auch wenn er es oft versuchte Ihm beizubringen. Daher ließ er sich von seiner Mutter in die Geheimnisse der Mechanik einweihen und versuchte damit sein mangelndes magisches Geschick auszugleichen.
+
+Eines Tages kehrte sein Vater nicht von einer Schlacht zurück, und die Familie war am Boden zerstört. Niptacs Mutter musste hart arbeiten, um die Familie über Wasser zu halten, und Niptac übernahm viele Aufgaben im Haushalt, um ihr zu helfen.
+
+Als Niptac älter wurde, entwickelte er eine Leidenschaft für das Schmuggeln und den Handel mit verbotenen Gütern. Er erkannte, dass er damit seiner Familie helfen und seine Mutter von der harten Arbeit entlasten konnte. Er begann, seine Fähigkeiten als Dieb und Schmuggler zu entwickeln und wurde schließlich zu einem der besten in der Stadt.
+
+Obwohl Niptac ein Dieb war, hatte er eine starke Moral und stahl nur von reichen Händlern und Adligen, die es sich leisten konnten, etwas zu verlieren. Er spendete auch regelmäßig einen Teil seines Einkommens an Bedürftige in der Stadt und unterstützte seine Familie so gut er konnte.
+
+Niptac hat immer noch die Erinnerung an seinen Vater und den Mut, sowie die Weisheit, die er in der Schlacht gezeigt hat, in sich. Er hofft, dass er eines Tages selbst in der Lage sein wird, sein Königreich zu verteidigen und seine Familie stolz zu machen.
