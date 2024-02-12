@@ -11,8 +11,13 @@
             "id": "f50404634c82b143",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "GORN/Niptac/Inventar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "GORN/Niptac/Inventar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GORN/Niptac/Inventar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "GORN/Niptac/Inventar.md"
+              }
             }
           },
           {
@@ -164,8 +173,12 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "f0e3cc3f4ba801c0",
+  "active": "f50404634c82b143",
   "lastOpenFiles": [
+    "GORN/Niptac/Niptac.md",
+    "GORN/Niptac/Inventar.md",
+    "GORN/Niptac",
+    "GORN",
     "Ausrüstung/Verkaufen.md",
     "Ausrüstung/Münzen.md",
     "Ausrüstung/Ausrüstungssets.md",
@@ -205,12 +218,9 @@
     "Ausrüstung/Werkzeug/Kochutensilien.md",
     "Ausrüstung/Werkzeug/Verkleidungsausrüstung.md",
     "Ausrüstung/Werkzeug/Musikinstrument.md",
-    "Ausrüstung/Werkzeug/Spiel.md",
     "Ausrüstung/Magische Gegenstände",
     "_Attachments/_other",
     "_Attachments/Races",
-    "_Attachments/Maps",
-    "_Attachments/Characters",
     "_DnD/Regeln/Kampf/0. Kampfablauf.canvas",
     "DnD/Regeln/Kampf/0. Kampfablauf.canvas"
   ]
