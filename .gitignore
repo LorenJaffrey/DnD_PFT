@@ -1,0 +1,8 @@
+# OBSIDIAN
+.obsidian/themes
+.obsidian/appearance.json
+.obsidian/workspace.json
+
+# MAC OS SCHROTT
+.trash/
+.DS_Store

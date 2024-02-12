@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GORN/Niptac/Inventar.md",
-                "mode": "source",
+                "file": "GORN/Niptac/Niptac.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 217.5
   },
   "right": {
     "id": "2d22f6c17148bb79",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GORN/Niptac/Inventar.md",
+                "file": "GORN/Niptac/Niptac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GORN/Niptac/Inventar.md",
+                "file": "GORN/Niptac/Niptac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GORN/Niptac/Inventar.md"
+                "file": "GORN/Niptac/Niptac.md"
               }
             }
           },
@@ -151,39 +151,46 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
+    "width": 454.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "graph:Open graph view": true,
-      "markdown-importer:Open format converter": false,
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "markdown-importer:Markdown Importprogramm öffnen": false,
       "obsidian-5e-statblocks:Open Creature Pane": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "cmdr:QuickAdd: Edelstein": false,
       "cmdr:QuickAdd: Zauber": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "f50404634c82b143",
   "lastOpenFiles": [
-    "GORN/Niptac/Niptac.md",
     "GORN/Niptac/Inventar.md",
+    "_Attachments/Characters/Niptac - Generated.jpeg",
+    "_Attachments/Characters/don_jon_raskin.png",
+    "Charaktere/Talente/Talente.md",
+    "GORN/Niptac/Niptac.md",
+    "Regeln/Umgebung/Verpflegung/Rationen.md",
+    "GORN/Niptac/Tagesration.md",
+    "Charaktere/Klassen/Klassen/Schurke/Klassenmerkmale/Durchdachte Vorbereitung.md",
+    "Charaktere/Talente/Talentliste/Artifizientenlehrling.md",
+    "Ausrüstung/Werkzeug/Diebeswerkzeug.md",
+    "Ausrüstung/Werkzeug/Werkzeug.md",
     "GORN/Niptac",
     "GORN",
     "Ausrüstung/Verkaufen.md",
     "Ausrüstung/Münzen.md",
     "Ausrüstung/Ausrüstungssets.md",
-    "Ausrüstung/Werkzeug/Werkzeug.md",
-    "_Attachments/Characters/don_jon_raskin.png",
     "_Attachments/Characters/iarno_albrek.png",
     "Ausrüstung/Magische Gegenstände/Identifikation magischer Gegenstände.md",
     "Ausrüstung/Magische Gegenstände/Einstimmung magischer Gegenstände.md",
@@ -194,10 +201,7 @@
     "_Attachments/Neverwinter/Charaktere/Brannur_Luthger.png",
     "_Attachments/Monster/goblin.png",
     "_Attachments/Monster/Ghul.jpg",
-    "_Attachments/Monster/Feuerschlange.jpg",
-    "Charaktere/Talente/Talente.md",
     "Charaktere/Talente/Talentliste/Hohe Drowmagie.md",
-    "Charaktere/Talente/Talentliste/Artifizientenlehrling.md",
     "_Attachments/Neverwinter/Locations",
     "_Attachments/Neverwinter/Charaktere",
     "_Attachments/Neverwinter",
@@ -210,14 +214,9 @@
     "Ausrüstung/Werkzeug/Tüftlerwerkzeug.md",
     "Ausrüstung/Werkzeug/Brauereivorräte.md",
     "Ausrüstung/Werkzeug/Holzschnitzwerkzeuge.md",
-    "Ausrüstung/Werkzeug/Diebeswerkzeug.md",
     "Ausrüstung/Werkzeug/Giftmischerausrüstung.md",
     "Ausrüstung/Werkzeug/Navigationswerkzeug.md",
     "Ausrüstung/Werkzeug/Heilerausrüstung.md",
-    "Ausrüstung/Werkzeug/Kartographenwerkzeug.md",
-    "Ausrüstung/Werkzeug/Kochutensilien.md",
-    "Ausrüstung/Werkzeug/Verkleidungsausrüstung.md",
-    "Ausrüstung/Werkzeug/Musikinstrument.md",
     "Ausrüstung/Magische Gegenstände",
     "_Attachments/_other",
     "_Attachments/Races",
