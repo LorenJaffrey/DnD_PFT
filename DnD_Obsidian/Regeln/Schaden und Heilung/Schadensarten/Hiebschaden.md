@@ -12,6 +12,6 @@
 | 9-11  | Großartiger Treffer!                    | maximaler Schaden + normaler Schaden |                                                                                                        |
 | 12-13 | Tiefer Schnitt!                         | maximaler Schaden + normaler Schaden | [[Bluten]] (W6)                                                                                        |
 | 14-16 | Zerrissen!                              | maximaler Schaden + normaler Schaden | [[Bluten]] (W8)                                                                                        |
-| 17-18 | Abgetrennt!                             | doppelter maximaler Schaden          | [[leichte Verletzung]] ([[schwere Verletzung]] wenn Ziel [[Leichte Rüstung]] oder keine Rüstung trägt) |
-| 19    | Seziert!                                | doppelter maximaler Schaden          | [[schwere Verletzung]]                                                                                 |
-| 20    | Schnitt!                                | doppelter maximaler Schaden          | [[Bluten]] (W10); [[schwere Verletzung]]                                                               |
+| 17-18 | Abgetrennt!                             | doppelter maximaler Schaden          | [[Leichte Verletzung]] ([[Schwere Verletzung]] wenn Ziel [[Leichte Rüstung]] oder keine Rüstung trägt) |
+| 19    | Seziert!                                | doppelter maximaler Schaden          | [[Schwere Verletzung]]                                                                                 |
+| 20    | Schnitt!                                | doppelter maximaler Schaden          | [[Bluten]] (W10); [[Schwere Verletzung]]                                                               |

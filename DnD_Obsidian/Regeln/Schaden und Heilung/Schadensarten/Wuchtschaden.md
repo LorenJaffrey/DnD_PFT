@@ -1,7 +1,7 @@
 # `=this.file.name`
 [[Wuchtschaden]] wird meist durch stumpfe Gewalteinwirkung erzeugt.
 
-Folgende Effekte können Wuchtschaden verursachen:
+Folgende Effekte können [[Wuchtschaden]] verursachen:
 - Angriffe mit stumpfen Waffen
 - [[Waffenloser Angriff|Waffenlose Angriffe]]
 - [[Stürzen|Stürze]]
@@ -18,6 +18,6 @@ Folgende Effekte können Wuchtschaden verursachen:
 | 9-11  | Großartiger Treffer!                    | maximaler Schaden + normaler Schaden |                                                                                                          |
 | 12-13 | Umgehauen!                              | maximaler Schaden + normaler Schaden | die Kreatur wird [[Liegend\|zu Boden]] gestoßen                                                          |
 | 14-16 | Weggeschleudert                         | maximaler Schaden + normaler Schaden | die Kreatur wird bis zu 4,5 m (3 Kästchen) in eine beliebige Richtung und [[Liegend\|zu Boden]] gestoßen |
-| 17-18 | Schwere Verletzung!                     | doppelter maximaler Schaden          | [[leichte Verletzung]] ([[schwere Verletzung]] wenn Ziel [[schwere Rüstung]] trägt)                      |
-| 19    | Zerquetscht!                            | doppelter maximaler Schaden          | [[schwere Verletzung]]                                                                                   |
-| 20    | Splatter!                               | doppelter maximaler Schaden          | Kreatur ist [[betäubt]] bis zum Ende deines nächsten Zuges; [[schwere Verletzung]]                       |
+| 17-18 | Schwere Verletzung!                     | doppelter maximaler Schaden          | [[Leichte Verletzung]] ([[Schwere Verletzung]] wenn Ziel [[schwere Rüstung]] trägt)                      |
+| 19    | Zerquetscht!                            | doppelter maximaler Schaden          | [[Schwere Verletzung]]                                                                                   |
+| 20    | Splatter!                               | doppelter maximaler Schaden          | Kreatur ist [[betäubt]] bis zum Ende deines nächsten Zuges; [[Schwere Verletzung]]                       |
