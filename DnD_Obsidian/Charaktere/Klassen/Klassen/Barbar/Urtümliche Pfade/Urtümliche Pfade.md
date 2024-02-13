@@ -1,5 +1,8 @@
 ---
-aliases: Urtümliche Pfade, Subklasse Barbar, Subklassen Barbar
+aliases: 
+- Subklasse Barbar
+- Subklassen Barbar
+- Urtümlicher Pfad
 ---
 # `=this.file.name`
 

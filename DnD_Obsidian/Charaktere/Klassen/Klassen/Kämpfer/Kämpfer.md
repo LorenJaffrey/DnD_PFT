@@ -3,6 +3,7 @@ aliases:
 tags:
 - Klasse
 Art: Krieger
+Name_Subklassen: "[[Kampfarchetypen|Kampfarchetyp]]"
 Trefferwürfel: W10
 Hauptattribut: 
 - "[[Stärke]]"
@@ -17,7 +18,7 @@ Zauberwirker:
 |:-----:| ---------------------------------------------------- |
 |   1   | [[Kampfstil]], [[Durchschnaufen]]                    |
 |   2   | [[Tatendrang]] (1)                                   |
-|   3   | [[Kampfarchetyp]]                                    |
+|   3   | [[Kampfarchetypen\|Kampfarchetyp]]                   |
 |   4   | [[Talente\|Talent]], [[Kriegerische Vielseitigkeit]] |
 |   5   | [[Zusätzlicher Angriff]]                             |
 |   6   | [[Talente\|Talent]], [[Kriegerische Vielseitigkeit]] |

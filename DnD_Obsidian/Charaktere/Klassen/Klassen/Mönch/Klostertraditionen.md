@@ -1,5 +1,8 @@
 ---
-aliases: Klostertradition, Klostertraditionen, Subklasse Mönch
+aliases: 
+- Klostertradition
+- Subklassen Mönch
+- Subklasse Mönch
 ---
 ## Klostertraditionen
 

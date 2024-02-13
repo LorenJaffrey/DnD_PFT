@@ -1,5 +1,8 @@
 ---
-aliases: Ursprung der Zauberei, Ursprünge der Zauberei, Subklasse Zauberer
+aliases: 
+- Ursprung der Zauberei
+- Subklassen Zauberer
+- Subklasse Zauberer
 ---
 ## Ursprung der Zauberei
 

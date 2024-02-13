@@ -3,6 +3,7 @@ aliases:
 tags:
 - Klasse
 Art: Zauberwirker
+Name_Subklassen: "[[Arkane Traditionen|Arkane Tradition]]"
 Trefferwürfel: W6
 Hauptattribut: 
 - "[[Intelligenz]]"

@@ -1,5 +1,8 @@
 ---
-aliases: Arkane Tradition, Arkane Traditionen, Subklasse Magier
+aliases: 
+- Subklassen Magier
+- Arkane Tradition
+- Subklasse Magier
 ---
 ## Arkane Traditionen
 

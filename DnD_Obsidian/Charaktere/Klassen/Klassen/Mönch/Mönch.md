@@ -4,6 +4,7 @@ aliases:
 tags:
 - Klasse
 Art: Krieger
+Name_Subklassen: "[[Klostertraditionen|Klostertradition]]"
 Trefferwürfel: W8
 Hauptattribut: 
 - "[[Geschicklichkeit]]"

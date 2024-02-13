@@ -1,5 +1,8 @@
 ---
-aliases: Heiliger Schwur, Heilige Schwüre, Subklasse Paladin
+aliases: 
+- Heiliger Schwur
+- Subklassen Paladin
+- Subklasse Paladin
 ---
 ## Klostertraditionen
 

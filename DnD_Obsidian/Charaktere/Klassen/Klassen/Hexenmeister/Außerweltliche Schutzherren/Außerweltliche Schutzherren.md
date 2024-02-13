@@ -1,5 +1,8 @@
 ---
-aliases: Subklasse Hexenmeister, Subklassen Hexenmeister, Außerweltliche Schutzherren
+aliases: 
+- Subklasse Hexenmeister
+- Subklassen Hexenmeister
+- Außerweltlicher Schutzherr
 ---
 # `=this.file.name`
 

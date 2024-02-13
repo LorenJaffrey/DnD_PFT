@@ -1,5 +1,8 @@
 ---
-aliases: Waldläuferarchetyp, Waldläuferarchetypen, Subklasse Waldläufer
+aliases: 
+- Waldläuferarchetyp
+- Subklassen Waldläufer
+- Subklasse Waldläufer
 ---
 ## Waldläuferarchetypen
 

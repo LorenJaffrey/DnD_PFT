@@ -4,6 +4,7 @@ aliases:
 tags:
 - Klasse
 Art: Priester
+Name_Subklassen: "[[Druidenzirkel]]"
 Trefferwürfel: W8
 Hauptattribut: 
 - "[[Weisheit]]"

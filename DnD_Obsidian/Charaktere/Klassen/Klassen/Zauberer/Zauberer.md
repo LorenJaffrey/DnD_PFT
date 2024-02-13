@@ -4,6 +4,7 @@ aliases:
 tags:
 - Klasse
 Art: Zauberwirker
+Name_Subklassen: "[[Ursprünge der Zauberei|Ursprung der Zauberei]]"
 Trefferwürfel: W6
 Hauptattribut: 
 - "[[Charisma]]"

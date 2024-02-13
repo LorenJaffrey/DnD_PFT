@@ -1,5 +1,7 @@
 ---
-aliases: Subklasse Barde, Bardenschule, Bardenschulen
+aliases: 
+- Subklasse Barde
+- Bardenschule
 ---
 ## Bardenschulen
 

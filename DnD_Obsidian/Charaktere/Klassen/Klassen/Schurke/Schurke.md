@@ -1,12 +1,13 @@
 ---
-aliases: 
-- Schurken
+aliases:
+  - Schurken
 tags:
-- Klasse
+  - Klasse
 Art: Experte
+Name_Subklassen: "[[Schurkenarchetypen|Schurkenarchetyp]]"
 Trefferwürfel: W8
-Hauptattribut: 
-- "[[Geschicklichkeit]]"
+Hauptattribut:
+  - "[[Geschicklichkeit]]"
 Zauberwirker: 
 ---
 # `=this.file.name`
@@ -17,7 +18,7 @@ Zauberwirker:
 |:-----:|:----------------------:| ------------------------------------------------------------ |
 |   1   |          1W6           | [[Expertise]], [[Hinterhältiger Angriff]], [[Diebessprache]] |
 |   2   |          1W6           | [[Raffinierte Aktion]]                                       |
-|   3   |          2W6           | [[Schurkenarchetyp]], [[Zielsicher]]                         |
+|   3   |          2W6           | [[Schurkenarchetypen]], [[Zielsicher]]                         |
 |   4   |          2W6           | [[Talente\|Talent]]                                          |
 |   5   |          3W6           | [[Unglaubliches Ausweichen]]                                 |
 |   6   |          3W6           | [[Expertise]]                                                |

@@ -3,6 +3,7 @@ aliases:
 tags:
 - Klasse
 Art: Priester
+Name_Subklassen: "[[Göttliche Domänen|Göttliche Domäne]]"
 Trefferwürfel: W8
 Hauptattribut: 
 - "[[Weisheit]]"

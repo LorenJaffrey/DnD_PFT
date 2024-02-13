@@ -3,6 +3,7 @@ aliases:
 tags:
 - Klasse
 Art: Experte
+Name_Subklassen: "[[Waldläuferarchetypen|Waldläuferarchetyp]]"
 Trefferwürfel: W10
 Hauptattribut: 
  - "[[Weisheit]]"

@@ -1,5 +1,8 @@
 ---
-aliases: Göttliche Domäne, Göttliche Domänen, Subklasse Kleriker
+aliases: 
+- Göttliche Domäne
+- Subklassen Kleriker
+- Subklasse Kleriker
 ---
 ## Göttliche Domänen
 

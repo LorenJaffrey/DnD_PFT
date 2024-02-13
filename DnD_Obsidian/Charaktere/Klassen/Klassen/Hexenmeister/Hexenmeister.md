@@ -1,11 +1,12 @@
 ---
-aliases:
+aliases: 
 tags:
-- Klasse
+  - Klasse
 Art: Zauberwirker
+Name_Subklassen: "[[Außerweltliche Schutzherren|Außerweltlicher Schutzherr]]"
 Trefferwürfel: W8
-Hauptattribut: 
-- "[[Charisma]]"
+Hauptattribut:
+  - "[[Charisma]]"
 Zauberwirker: Arkan
 Zauberattribut: "[[Charisma]]"
 Art_Bekannte_Zauber: Tabelle
@@ -258,7 +259,7 @@ Zauberplätze:
 
 | Stufe | Merkmale                                             |         Bekannte Zauber         | Bekannte Anrufungen |            Zaubertricks            |                 1.                 |                 2.                 |                 3.                 |                 4.                 |                 5.                 |
 |:-----:| ---------------------------------------------------- |:-------------------------------:|:-------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|
-|   1   | [[Außerweltlicher Schutzherr]], [[Paktmagie]]        | `=this.Bekannte_Zauber.Stufe1`  |         ---         | `=this.Zauberplätze.Stufe1.Grad0`  | `=this.Zauberplätze.Stufe1.Grad1`  | `=this.Zauberplätze.Stufe1.Grad2`  | `=this.Zauberplätze.Stufe1.Grad3`  | `=this.Zauberplätze.Stufe1.Grad4`  | `=this.Zauberplätze.Stufe1.Grad5`  |
+|   1   | [[Außerweltliche Schutzherren]], [[Paktmagie]]        | `=this.Bekannte_Zauber.Stufe1`  |         ---         | `=this.Zauberplätze.Stufe1.Grad0`  | `=this.Zauberplätze.Stufe1.Grad1`  | `=this.Zauberplätze.Stufe1.Grad2`  | `=this.Zauberplätze.Stufe1.Grad3`  | `=this.Zauberplätze.Stufe1.Grad4`  | `=this.Zauberplätze.Stufe1.Grad5`  |
 |   2   | [[Segen des Pakts]]                                  | `=this.Bekannte_Zauber.Stufe2`  |         ---         | `=this.Zauberplätze.Stufe2.Grad0`  | `=this.Zauberplätze.Stufe2.Grad1`  | `=this.Zauberplätze.Stufe2.Grad2`  | `=this.Zauberplätze.Stufe2.Grad3`  | `=this.Zauberplätze.Stufe2.Grad4`  | `=this.Zauberplätze.Stufe2.Grad5`  |
 |   3   | [[Schauerliche Anrufungen]]                          | `=this.Bekannte_Zauber.Stufe3`  |          2          | `=this.Zauberplätze.Stufe3.Grad0`  | `=this.Zauberplätze.Stufe3.Grad1`  | `=this.Zauberplätze.Stufe3.Grad2`  | `=this.Zauberplätze.Stufe3.Grad3`  | `=this.Zauberplätze.Stufe3.Grad4`  | `=this.Zauberplätze.Stufe3.Grad5`  |
 |   4   | [[Talente\|Talent]], [[Schauerliche Vielseitigkeit]] | `=this.Bekannte_Zauber.Stufe4`  |          2          | `=this.Zauberplätze.Stufe4.Grad0`  | `=this.Zauberplätze.Stufe4.Grad1`  | `=this.Zauberplätze.Stufe4.Grad2`  | `=this.Zauberplätze.Stufe4.Grad3`  | `=this.Zauberplätze.Stufe4.Grad4`  | `=this.Zauberplätze.Stufe4.Grad5`  |

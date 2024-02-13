@@ -4,6 +4,7 @@ aliases:
 tags:
 - Klasse
 Art: Priester
+Name_Subklassen: "[[Heilige Schwüre|Heiliger Schwur]]"
 Trefferwürfel: W10
 Hauptattribut: 
 - "[[Charisma]]"

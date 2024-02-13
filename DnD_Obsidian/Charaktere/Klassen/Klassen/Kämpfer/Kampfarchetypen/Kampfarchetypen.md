@@ -1,5 +1,8 @@
 ---
-aliases: Kampfarchetypen, Subklasse Kämpfer, Subklassen Kämpfer
+aliases: 
+- Kampfarchetyp
+- Subklasse Kämpfer
+- Subklassen Kämpfer
 ---
 # `=this.file.name`
 

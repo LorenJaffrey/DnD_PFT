@@ -4,10 +4,11 @@ aliases:
 tags:
   - Klasse
 Art: Krieger
+Name_Subklassen: "[[Urtümliche Pfade|Urtümlicher Pfad]]"
 Trefferwürfel: W12
 Hauptattribut:
   - "[[Stärke]]"
-Zauberwirker:
+Zauberwirker: 
 ---
 # `=this.file.name`
 
@@ -17,7 +18,7 @@ Zauberwirker:
 |:-----:|:-------------------:|:-------------------:| ----------------------------------------------- |
 |   1   |          2          |         +2          | [[Kampfrausch]], [[Ungerüstete Verteidigung]]   |
 |   2   |          2          |         +2          | [[Rücksichtsloser Angriff]], [[Gefahrengespür]] |
-|   3   |          3          |         +2          | [[Urtümlicher Pfad]], [[Urwissen]]              |
+|   3   |          3          |         +2          | [[Urtümliche Pfade]], [[Urwissen]]              |
 |   4   |          3          |         +2          | [[Talente\|Talent]]                             |
 |   5   |          3          |         +2          | [[Zusätzlicher Angriff]], [[Schnelle Bewegung]] |
 |   6   |          4          |         +2          | Pfadmerkmal                                     |

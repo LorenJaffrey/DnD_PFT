@@ -1,5 +1,8 @@
 ---
-aliases: Schurkenarchetypen, Subklasse Schurke, Subklassen Schurke
+aliases: 
+- Schurkenarchetyp
+- Subklasse Schurke
+- Subklassen Schurke
 ---
 # `=this.file.name`
 

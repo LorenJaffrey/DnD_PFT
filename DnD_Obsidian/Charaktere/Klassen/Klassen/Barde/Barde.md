@@ -1,12 +1,13 @@
 ---
-aliases: 
-- Barden
+aliases:
+  - Barden
 tags:
-- Klasse
+  - Klasse
 Art: Experte
+Name_Subklassen: "[[Bardenschulen|Bardenschule]]"
 Trefferwürfel: W8
-Hauptattribut: 
-- "[[Charisma]]"
+Hauptattribut:
+  - "[[Charisma]]"
 Zauberwirker: divers
 Zauberattribut: "[[Charisma]]"
 Art_Bekannte_Zauber: Tabelle
