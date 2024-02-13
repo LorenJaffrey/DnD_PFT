@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "32e8073fff98fefc",
+        "id": "c7cd095781a83e57",
         "type": "tabs",
         "children": [
           {
-            "id": "f50404634c82b143",
+            "id": "e2216bd78a01d02a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GORN/Niptac/Niptac.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -62,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 331.5
   },
   "right": {
     "id": "2d22f6c17148bb79",
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GORN/Niptac/Niptac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GORN/Niptac/Niptac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "GORN/Niptac/Niptac.md"
-              }
+              "state": {}
             }
           },
           {
@@ -151,49 +142,69 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 454.5,
+    "width": 472.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Schnellauswahl öffnen": false,
-      "graph:Graphen-Ansicht öffnen": false,
-      "templates:Vorlage einfügen": false,
-      "command-palette:Befehlspalette öffnen": false,
-      "markdown-importer:Markdown Importprogramm öffnen": false,
-      "obsidian-5e-statblocks:Open Creature Pane": false,
-      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": true,
+      "markdown-importer:Open format converter": false,
       "cmdr:QuickAdd: Edelstein": false,
       "cmdr:QuickAdd: Zauber": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-5e-statblocks:Open Creature Pane": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "f50404634c82b143",
+  "active": "e2216bd78a01d02a",
   "lastOpenFiles": [
-    "GORN/Niptac/Inventar.md",
-    "_Attachments/Characters/Niptac - Generated.jpeg",
+    "Charaktere/Character Sheet Vorlage/Character Sheet Vorlage.md",
     "_Attachments/Characters/don_jon_raskin.png",
-    "Charaktere/Talente/Talente.md",
-    "GORN/Niptac/Niptac.md",
-    "Regeln/Umgebung/Verpflegung/Rationen.md",
-    "GORN/Niptac/Tagesration.md",
-    "Charaktere/Klassen/Klassen/Schurke/Klassenmerkmale/Durchdachte Vorbereitung.md",
-    "Charaktere/Talente/Talentliste/Artifizientenlehrling.md",
-    "Ausrüstung/Werkzeug/Diebeswerkzeug.md",
-    "Ausrüstung/Werkzeug/Werkzeug.md",
-    "GORN/Niptac",
-    "GORN",
-    "Ausrüstung/Verkaufen.md",
-    "Ausrüstung/Münzen.md",
-    "Ausrüstung/Ausrüstungssets.md",
+    "Charaktere/Völker/Völker/Zwerge.md",
+    "Charaktere/Völker/Völker/Tieflinge.md",
+    "Charaktere/Völker/Völker/Menschen.md",
+    "Charaktere/Völker/Völker/Halborks.md",
+    "Charaktere/Völker/Völker/Halblinge.md",
+    "Charaktere/Völker/Völker/Halbelfen.md",
+    "Charaktere/Völker/Völker/Gnome.md",
+    "Charaktere/Völker/Völker/Elfen.md",
+    "Charaktere/Völker/Völker/Drow.md",
+    "Charaktere/Völker/Völker/Drachenblütige.md",
+    "Charaktere/Völker/Volksmerkmale/Überlegene Dunkelsicht.md",
+    "Charaktere/Völker/Volksmerkmale/Zwergisches Kampftraining.md",
+    "Charaktere/Völker/Volksmerkmale/Zwergische Zähigkeit.md",
+    "Charaktere/Völker/Volksmerkmale/Zwergische Rüstungsvertrautheit.md",
+    "Charaktere/Völker/Volksmerkmale/Wilde Angriffe.md",
+    "Charaktere/Völker/Volksmerkmale/Vielseitigkeit.md",
+    "Charaktere/Völker/Volksmerkmale/Unempfindlichkeit.md",
+    "Charaktere/Völker/Volksmerkmale/Trance.md",
+    "Charaktere/Völker/Volksmerkmale/Tüftler.md",
+    "Charaktere/Völker/Volksmerkmale/Tierflüsterer.md",
+    "Charaktere/Völker/Volksmerkmale/Tapferkeit.md",
+    "Charaktere/Völker/Volksmerkmale/Steingespür.md",
+    "Charaktere/Völker/Volksmerkmale/Odemwaffe.md",
+    "Charaktere/Völker/Volksmerkmale/Infernalisches Erbe.md",
+    "Charaktere/Völker/Volksmerkmale/Höllische Resistenz.md",
+    "Charaktere/Völker/Völker",
+    "Charaktere/Völker/Volksmerkmale",
+    "Charaktere/Völker",
+    "Charaktere/Talente/Talentliste",
+    "Charaktere/Talente",
+    "Charaktere/Persönlichkeit und Hintergrund/Gesinnung/Gesinnungen",
+    "Charaktere/Persönlichkeit und Hintergrund/Hintergründe",
+    "Charaktere/Persönlichkeit und Hintergrund/Gesinnung",
+    "Charaktere/Persönlichkeit und Hintergrund",
+    "Charaktere/Klassen/Klassenmerkmale",
+    "_Attachments/Characters/Niptac - Generated.jpeg",
     "_Attachments/Characters/iarno_albrek.png",
-    "Ausrüstung/Magische Gegenstände/Identifikation magischer Gegenstände.md",
-    "Ausrüstung/Magische Gegenstände/Einstimmung magischer Gegenstände.md",
     "_Attachments/Neverwinter/niewinter_wappen.png",
     "_Attachments/Neverwinter/NeverwinterMapClean.jpg",
     "_Attachments/Neverwinter/Charaktere/flinar_ralolar.png",
@@ -201,25 +212,6 @@
     "_Attachments/Neverwinter/Charaktere/Brannur_Luthger.png",
     "_Attachments/Monster/goblin.png",
     "_Attachments/Monster/Ghul.jpg",
-    "Charaktere/Talente/Talentliste/Hohe Drowmagie.md",
-    "_Attachments/Neverwinter/Locations",
-    "_Attachments/Neverwinter/Charaktere",
-    "_Attachments/Neverwinter",
-    "_Attachments/Monster",
-    "_Attachments/Magic Items",
-    "Regeln/Attribute/Attribute.md",
-    "Charaktere/Talente/Talentliste/Schleicher.md",
-    "Charaktere/Talente/Talentliste/Zwergische Standhaftigkeit.md",
-    "Ausrüstung/Waffen/Waffenlisten/Schwerter.md",
-    "Ausrüstung/Werkzeug/Tüftlerwerkzeug.md",
-    "Ausrüstung/Werkzeug/Brauereivorräte.md",
-    "Ausrüstung/Werkzeug/Holzschnitzwerkzeuge.md",
-    "Ausrüstung/Werkzeug/Giftmischerausrüstung.md",
-    "Ausrüstung/Werkzeug/Navigationswerkzeug.md",
-    "Ausrüstung/Werkzeug/Heilerausrüstung.md",
-    "Ausrüstung/Magische Gegenstände",
-    "_Attachments/_other",
-    "_Attachments/Races",
     "_DnD/Regeln/Kampf/0. Kampfablauf.canvas",
     "DnD/Regeln/Kampf/0. Kampfablauf.canvas"
   ]

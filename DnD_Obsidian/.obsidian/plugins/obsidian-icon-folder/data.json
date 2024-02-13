@@ -28,11 +28,8 @@
     "iconIdentifier": ":"
   },
   "Monster Manual": "SiMonster",
-  "Ausrüstung": "TiShoppingBag",
   "Ausrüstung/Edelsteine": "LiGem",
   "Ausrüstung/Getränke": "TiGlassFull",
   "Ausrüstung/Speisen": "TiMeat",
-  "Kampagne": "LiMap",
-  "Charaktere": "FasPerson",
-  "Zauber": "FasWandMagicSparkles"
+  "Kampagne": "LiMap"
 }
