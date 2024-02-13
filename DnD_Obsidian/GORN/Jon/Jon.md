@@ -1,4 +1,5 @@
 ---
+Name: Jon "Verisus" Longbow
 Stufe: 4
 Glück: 0
 Erschöpfung: 0
@@ -9,6 +10,7 @@ Waffen:
 - "[[Langbogen]]"
 - "[[Kurzschwert]]"
 - "[[Dolch]]"
+Feinde: "[[Orks]]"
 Gesundheit:
   MaxTP: 39
   TP: 26
@@ -53,6 +55,7 @@ Fertigkeiten:
     - "[[Orkisch]]"
   Werkzeuge:
     - "[[Holzschnitzwerkzeuge]]"
+    - "[[Spiel|Spiele]]"
   Rüstungen:
     - "[[Leichte Rüstung]]"
     - "[[Mittelschwere Rüstung]]"
@@ -75,6 +78,9 @@ Merkmale:
   Klasse:
     - "[[Durchschnaufen]]"
     - "[[Tatendrang]]"
+    - "[[Kampfüberlegenheit#Schlag des Befehlshabers]]"
+    - "[[Kampfüberlegenheit#Fällender Angriff]]"
+    - "[[Kampfüberlegenheit#Parieren]]"
   Talente:
     - "[[Heiler]]"
     - "[[Meisterschaft Bögen]]"
@@ -99,12 +105,14 @@ Persönlichkeit:
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
+> |Name|`=this.Name`|
 > | Stufe | `=this.Stufe` |
 > | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
 > | [[Klassenübersicht\|Klasse]] | `=this.Hintergrund.Klasse` |
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> |Feinde| `=this.Feinde`|
 > 
 > ## Aussehen
 > |  |  |
@@ -126,6 +134,18 @@ Persönlichkeit:
 > `=this.Persönlichkeit.Bindungen`
 > ### Makel
 > `=this.Persönlichkeit.Makel`
+> ### Werdegang
+> - Alter: 5-12 ~ Ausbildung in Bogenschießen
+> - Alter: 13-17 Jahren ~ Soldaten Ausbildung/Training
+> - Alter: 18-28 ~ Teil einer Armee
+> - Alter: 29-? ~ Söldner/Abenteurer
+> - Dracheninsel erkundet
+> 	- Skelette getötet
+> 	- Riesen-Schlange/Echse
+> 	- blauen Drachen getötet
+> 	- Kobolde getötet
+> - Neverwinter
+> 	- Goblins getötet
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
@@ -173,7 +193,7 @@ Persönlichkeit:
 >> Range1 AS "Min RW",
 >> Range2 AS "Gnd RW",
 >> Range3 AS "Max RW",
->> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
+>> 2+floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
 >> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"

@@ -57,13 +57,14 @@ Geld:
 | [[Leichte Armbrust]] (loot)                   |   1    |    5    |   5    |
 | [[Krummsäbel]] (ranzig)                       |   1    |    2    |   2    |
 | [[Lederrüstung]] (ranzig)                     |   1    |   10    |   10   |
+| [[Kettenhemd]] (ranzig)                       |   1    |   30    |   30   | 
 | [[Windsporen-Pilz]] (Stunde lang nicht atmen) |   1    |    0    |   0    |
 | [[Obsidianscherben]]                          |   5    |  0.05   |  0.25  |
 | blau durchsichtiger Edelstein                 |   1    |    0    |   0    |
-| [[Gildenabzeichen]]                               |   1    |    0    |   0    |
+| [[Gildenabzeichen]]                           |   1    |    0    |   0    |
 | feine Laute mit Verzierungen                  |   1    |    2    |   2    |
-| [[Bier]] (Flaschen)                               |   3    |   0.5   |  1.5   |
-| 1/2 Flasche [[Wein]]                              |   1    |   0.5   |  0.5   |
-| GESAMT                                        |        |         | 61.75  |
+| [[Bier]] (Flaschen)                           |   3    |   0.5   |  1.5   |
+| 1/2 Flasche [[Wein]]                          |   1    |   0.5   |  0.5   |
+| GESAMT                                        |        |         | 91.75  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
