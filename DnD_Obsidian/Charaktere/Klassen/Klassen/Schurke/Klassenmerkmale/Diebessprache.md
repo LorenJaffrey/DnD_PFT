@@ -2,6 +2,9 @@
 aliases:
 tags:
 - Merkmal/Klasse/Schurke
+- Sprache/Sonstige
+Typische_Völker:
+  - "[[Schurke|Schurken]]"
 ---
 # `=this.file.name`
 

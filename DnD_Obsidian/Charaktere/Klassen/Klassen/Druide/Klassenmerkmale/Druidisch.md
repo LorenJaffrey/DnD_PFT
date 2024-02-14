@@ -2,6 +2,9 @@
 aliases:
 tags:
 - Merkmal/Klasse/Druide
+- Sprache/Sonstige
+Typische_Völker:
+  - "[[Druide|Druiden]]"
 ---
 # `=this.file.name`
 
