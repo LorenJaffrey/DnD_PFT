@@ -1,24 +1,24 @@
 ---
 aliases:
-- Thorn Whip
+  - Speak with Animals
 tags:
-- Zauber/Art/Schaden/Stich
-- Zauber/Wirkungsbereich/Geschoss
-Grad: 0
-Schule: "[[Verwandlungszauber|Verwandlung]]"
+  - Zauber
+Grad: 1
+Schule: "[[Erkenntniszauber|Erkenntnismagie]]"
 Zeitaufwand: "[[Zug#Aktion]]"
-Reichweite: 9 Meter
+Reichweite: Selbst
 Verbal: true
 Geste: true
-Material: true
+Material: false
 Materialkosten: 
-Dauer: unmittelbar
+Dauer: 10 Minuten
 Konzentration: false
-Ritual: false
-Skalierbar: true
+Ritual: true
+Skalierbar: false
 Klassen:
+- "[[Barde]]"
 - "[[Druide]]"
-- "[[Magieschmied]]"
+- "[[Waldläufer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -29,12 +29,7 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du erschaffst eine lange, rankenartige Peitsche, die mit Dornen bedeckt ist und die auf deinen Befehl hin nach einer Kreatur in Reichweite schlägt. 
-Führe einen Nahkampf-Zauberangriff gegen das Ziel durch. Wenn der Angriff trifft, erleidet die Kreatur 1W6 [[Stichschaden]] . 
-Handelt es sich um eine Kreatur der [[Größenkategorie]] groß oder kleiner, wird sie zusätzlich 3 m in deine Richtung gezogen.
-
-### Auf höheren Graden
-Der Schaden dieses Zaubers steigt jeweils um 1W6 bei Erreichen höherer Stufen:
-- Stufe 5 (2W6)
-- Stufe 11 (3W6) 
-- Stufe 17 (4W6).
+Für die Wirkungsdauer kannst du Tiere verstehen und verbal mit ihnen kommunizieren. 
+Das Wissen und die Wahrnehmung vieler Tiere wird durch ihre Intelligenz eingeschränkt. 
+Sie sind jedoch zumindest in der Lage, Informationen über nahe Orte und Monster mitzuteilen - sowie über Ereignisse, die sie wahrnehmen können oder innerhalb des letzten Tages erlebt haben. 
+Nach Ermessen des SL kannst du ein Tier überreden, dir einen kleinen Gefallen zu erweisen.

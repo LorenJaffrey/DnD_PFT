@@ -1,23 +1,26 @@
 ---
 aliases:
-- Thorn Whip
+  - Lesser Restoration
 tags:
-- Zauber/Art/Schaden/Stich
-- Zauber/Wirkungsbereich/Geschoss
-Grad: 0
-Schule: "[[Verwandlungszauber|Verwandlung]]"
+  - Zauber
+Grad: 2
+Schule: "[[Bannzauber|Bannmagie]]"
 Zeitaufwand: "[[Zug#Aktion]]"
-Reichweite: 9 Meter
+Reichweite: Berührung
 Verbal: true
 Geste: true
-Material: true
+Material: false
 Materialkosten: 
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
-Skalierbar: true
+Skalierbar: false
 Klassen:
+- "[[Barde]]"
 - "[[Druide]]"
+- "[[Kleriker]]"
+- "[[Paladin]]"
+- "[[Waldläufer]]"
 - "[[Magieschmied]]"
 ---
 # `=this.file.name`
@@ -29,12 +32,5 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du erschaffst eine lange, rankenartige Peitsche, die mit Dornen bedeckt ist und die auf deinen Befehl hin nach einer Kreatur in Reichweite schlägt. 
-Führe einen Nahkampf-Zauberangriff gegen das Ziel durch. Wenn der Angriff trifft, erleidet die Kreatur 1W6 [[Stichschaden]] . 
-Handelt es sich um eine Kreatur der [[Größenkategorie]] groß oder kleiner, wird sie zusätzlich 3 m in deine Richtung gezogen.
-
-### Auf höheren Graden
-Der Schaden dieses Zaubers steigt jeweils um 1W6 bei Erreichen höherer Stufen:
-- Stufe 5 (2W6)
-- Stufe 11 (3W6) 
-- Stufe 17 (4W6).
+Du berührst eine Kreatur und beendest entweder eine Krankheit oder einen [[Zustände|Zustand]], unter dem sie leidet. 
+Mögliche [[Zustände]] sind [[blind]], [[gelähmt]], [[taub]] oder [[vergiftet]].

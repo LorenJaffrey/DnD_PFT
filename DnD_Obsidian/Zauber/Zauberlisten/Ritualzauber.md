@@ -1,15 +1,11 @@
----
-aliases:
-- Bannmagie
----
 # `=this.file.name`
-Schützende Zauber die magische Barrieren erschaffen oder Eindringlinge abwehren.
 
 ```dataview
 TABLE WITHOUT ID
 
 file.link AS "Zauber",
-Grad,
+Grad, 
+Schule, 
 Zeitaufwand, 
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
@@ -23,7 +19,7 @@ choice(Skalierbar,"X","") AS "Skalierbar"
 
 FROM #Zauber
 
-WHERE contains(Schule, [[Bannzauber]])
+WHERE Ritual
 
 SORT grad, file.name
 ```

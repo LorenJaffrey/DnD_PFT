@@ -16,6 +16,9 @@ Dauer: 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: false
+Klassen:
+- "[[Druide]]"
+- "[[Waldläufer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
