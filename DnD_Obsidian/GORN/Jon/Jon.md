@@ -292,14 +292,6 @@ Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Merkmale
 > [!column]
->> ## Volksmerkmale
->> ```dataview
->> LIST
->> FROM #Merkmal
->> WHERE contains(this.Merkmale.Volk, file.link)
->> SORT file.name
->> ```
->>
 >> ## Talente
 >> ```dataview
 >> LIST
@@ -315,6 +307,53 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```
+
+## Aktionen
+>[!column]
+>> ## Kampfmerkmale (Verbrauch)
+>>| Merkmal            | Verfügbar |
+>>| ------------------ |:---------:|
+>>| [[Durchschnaufen]] |    Ja     |
+>>| [[Tatendrang]]             |    Ja     |
+>>| [[Zusätzlicher Angriff]]  (Lv. 5) |    -     |
+>>| [[Unbeugsamkeit]] (Lv. 9) |    -     |
+>>| [[Zusätzlicher Angriff]]  (Lv. 11) |    -     |
+>>| [[Zusätzlicher Angriff]]  (Lv. 20) |    -     |
+>>
+>>## Kurze Kampfmermal Aktions-Beschreibung
+>>- **[[Durchschnaufen]]**
+>>	**Auswirkung**: Heilt den Charakter
+>>	**Verwendung**: 1x W10 + der Stufe des Kämpfers
+>>	**Erholung**: kurze oder langen Rast
+>>-  **[[Tatendrang]]**
+>>	**Auswirkung**: Man kann nochmal im selben Zug  angreifen bzw. eine Aktion ausführen
+>>	**Verwendung**: Kann 1 Mal verwendet werden
+>>	**Erholung**: kurze oder langen Rast
+>
+>>## Manöver (Verbrauch)
+>>| Ausgewählte Manöver                             | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
+>>| ----------------------------------------------- |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+>>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Parieren]]                 |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>
+>>## Kurze Manöver Aktions-Beschreibung
+>>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
+>>        **Auswirkung**: Eigene Aktion verwenden, damit verbündete Kreatur stattdessen  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
+>>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
+>> 
+>>- **[[Kampfüberlegenheit#Fällender Angriff]]**
+>>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
+>>        **Verwendung**: Ziel (groß oder kleiner) muss Stärkerettungswurf ablegen
+>> 
+>>- **[[Kampfüberlegenheit#Parieren]]**
+>>        **Auswirkung**: Schadensreduktion 
+>>        **Verwendung**: Überlegenheitswürfel + Geschicklichkeitsmodifikator
+>>
+>>## Hinweis
+>>- Überlegenheits-Würfel: W8
+>>- Rettungswürfe gegen Manöver: `=8+ceil(this.Stufe/4)+1+min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)`
+
 
 ## Aussehen
 - schlank

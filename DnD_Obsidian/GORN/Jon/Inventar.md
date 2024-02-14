@@ -1,5 +1,8 @@
 ---
 Charakter: "[[Jon]]"
+aliases:
+tags:
+- Charakter/Jon/Inventar
 Geld:
   PM: 0
   GM: 228
@@ -7,6 +10,7 @@ Geld:
   SM: 301
   KM: 92
 ---
+
 # `=this.file.name`
 > [!infobox]
 > ###### Geld
