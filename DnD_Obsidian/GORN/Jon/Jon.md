@@ -8,7 +8,9 @@ Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild: "[[Holzschild]]"
 Waffen:
 - "[[Langbogen]]"
+- "[[Leichte Armbrust]]"
 - "[[Kurzschwert]]"
+- "[[Krummsäbel]]"
 - "[[Dolch]]"
 Feinde: "[[Orks]]"
 Gesundheit:
@@ -156,7 +158,7 @@ Persönlichkeit:
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                           | [[Weitsprung]] mit Anlauf | [[Weitsprung]] ohne Anlauf |
 | -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ------------------------- | -------------------------- |
 | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)` m | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)/2` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m                          | `=round((this.Attribute.Stärke*0.3),2)` m                           |
-|                                                    |                                                    |                                                      |                                                      |                           |                            |
+
 ## Verteidigung
 > [!column] 
 >> ## Gesundheit
@@ -339,7 +341,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>
 >>## Kurze Manöver Aktions-Beschreibung
 >>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
->>        **Auswirkung**: Eigene Aktion verwenden, damit verbündete Kreatur stattdessen  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
+>>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur stattdessen als Reaktion  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
 >> 
 >>- **[[Kampfüberlegenheit#Fällender Angriff]]**
