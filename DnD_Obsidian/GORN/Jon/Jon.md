@@ -80,9 +80,9 @@ Merkmale:
   Klasse:
     - "[[Durchschnaufen]]"
     - "[[Tatendrang]]"
-    - "[[Kampfüberlegenheit#Schlag des Befehlshabers]]"
-    - "[[Kampfüberlegenheit#Fällender Angriff]]"
-    - "[[Kampfüberlegenheit#Parieren]]"
+    - "[[Schlag des Befehlshabers]]"
+    - "[[Fällender Angriff]]"
+    - "[[Parade]]"
   Talente:
     - "[[Heiler]]"
     - "[[Meisterschaft Bögen]]"
@@ -310,6 +310,12 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 
+## Talent Beschreibung
+>[!column]
+>>![[Heiler]]
+>
+>>![[Meisterschaft Bögen]]
+
 ## Aktionen
 >[!column]
 >> ## Kampfmerkmale (Verbrauch)
@@ -333,22 +339,20 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>	**Erholung**: kurze oder langen Rast
 >
 >>## Manöver (Verbrauch)
->>| Ausgewählte Manöver                             | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
->>| ----------------------------------------------- |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
->>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Parieren]]                 |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>|                  Verfügbar             | 1 | 2 | 3 | 4 | 5 (ab Lv. 7) | 6 ( ab Lv. 15) |
+>>| ------------------------------ |:------:|:------:|:------:|:-------:|:---:|:-----:|
+>>| Überlegenheits-Würfel  |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
 >>
 >>## Kurze Manöver Aktions-Beschreibung
->>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
->>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur stattdessen als Reaktion  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
+>>- **[[Schlag des Befehlshabers]]**
+>>        **Auswirkung**: Eine Aktion + Bonus Aktion verwenden, damit verbündete Kreatur stattdessen als Reaktion  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
 >> 
->>- **[[Kampfüberlegenheit#Fällender Angriff]]**
+>>- **[[Fällender Angriff]]**
 >>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Ziel (groß oder kleiner) muss Stärkerettungswurf ablegen
 >> 
->>- **[[Kampfüberlegenheit#Parieren]]**
+>>- **[[Parade]]**
 >>        **Auswirkung**: Schadensreduktion 
 >>        **Verwendung**: Überlegenheitswürfel + Geschicklichkeitsmodifikator
 >>
