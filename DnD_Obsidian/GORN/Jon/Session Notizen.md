@@ -1,27 +1,27 @@
 # Wichtige Personen
-- Herrscher/Lord-Protector: Daguin Nieglut
-- Drogans Freund: Gudrin-Felssucher
+- Herrscher/Lord-Protector: Dagult Nieglut
+- Drogans Freund: Gundren Felssucher
 - 18: Abenteuer Gilde + Trainingscenter
 - 19/20: Waffen/Rüstungsladen
 - wurden von einer Person verfolgt/wurde entdeckt/verschw.
 - Frau in der Gilde heißt "Destiny"
-- Gildenmeister Sir Braston Kenning
+- Gildenmeister Sir Preston Kenning
 - Gilde hat Bibliothek & Trainingsbereich
-- Gilden-Elite: Zildar (reist mit Gudrin-Felssucher)
+- Gilden-Elite: Sildar (reist mit Gundren-Felssucher)
 - Banditen-Lager im Hafen-Spalte
 - Linene Grauwind (Waren-Laden)
 - Harbin Wester (Bürgermeister)
-- Toblin Steinhügel (Wirt)
+- Toblen Steinhügel (Wirt)
 - Schwester Garaele (beim Glücksschrein)
 - Adabra Gwynn (Kräuterhexe)
-- larno albrek (freund von sildar)
+- larno Albrek (freund von Sildar)
 - Rotbrenner: Oi Gehard (weggelaufen)
 - Rotbrenner: Melek (holt Geld von Bürgermeister)
 
 # Wichtige Orte
-- Phandalin (im Süden) -> Bartens-Vorräte Laden (3 Tage)
-- Wellenhall-Höhle (hat Gudrin und seine Brüder gefunden)
-- Burg Crakmoore (dort ist Grudin anscheinend verschleppt)
+- Phandalin (im Süden) -> Barthens Vorräte Laden (3 Tage)
+- Wellenhall-Höhle (hat Gundren und seine Brüder gefunden)
+- Burg Cragmaw (dort ist Gundren anscheinend verschleppt)
 
 # TO-DO Liste
 - [x] Abenteuer Gilde beitreten
@@ -42,4 +42,4 @@
 	- #3 Slum -> Kluft-Viertel
 - Katastrophen:
 	- #1 Zauberpest
-	- #2 Ausbruch des Vulkans (nicht aussprechbarer Name)
+	- #2 Ausbruch des Vulkans (Hotenow)
