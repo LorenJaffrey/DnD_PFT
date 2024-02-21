@@ -2,7 +2,7 @@
 
 1. [[Völker|Volk]]
 	1. Eine Attributserhöhung darf gegen eine andere getauscht werden die noch nicht erhöht wurde.
-2. [[Klassenübersicht|Klasse]]
+2. [[Klassen|Klasse]]
 	1. [[Trefferpunkte]] zu Beginn = Maximaler Würfelwert
 	2. [[Trefferpunkte]] je Stufenaufstieg = Würfelwert (minimal halber maximaler Würfelwert)
 3. [[Attribute]]

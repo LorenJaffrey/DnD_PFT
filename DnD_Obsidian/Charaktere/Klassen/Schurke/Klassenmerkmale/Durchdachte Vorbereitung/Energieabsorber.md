@@ -1,7 +1,7 @@
 ---
-aliases:
 tags:
-- Merkmal/Klasse/Schurke/Meistertüftler
+- Merkmal/Klasse/Schurke/Meistertüftler/Apparatur
+SG: 15
 ---
 # `=this.file.name`
 
