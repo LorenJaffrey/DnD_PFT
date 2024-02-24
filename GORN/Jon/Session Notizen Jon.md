@@ -1,13 +1,13 @@
 # Wichtige Personen
 - Herrscher/Lord-Protector: Dagult Nieglut
-- Drogans Freund: Gundren Felssucher
+- Drogans Freund: Gudren Felssucher
 - 18: Abenteuer Gilde + Trainingscenter
 - 19/20: Waffen/Rüstungsladen
 - wurden von einer Person verfolgt/wurde entdeckt/verschw.
 - Frau in der Gilde heißt "Destiny"
 - Gildenmeister Sir Preston Kenning
 - Gilde hat Bibliothek & Trainingsbereich
-- Gilden-Elite: Sildar (reist mit Gundren-Felssucher)
+- Gilden-Elite: Sildar (reist mit Gudren-Felssucher)
 - Banditen-Lager im Hafen-Spalte
 - Linene Grauwind (Waren-Laden)
 - Harbin Wester (Bürgermeister)
@@ -20,8 +20,8 @@
 
 # Wichtige Orte
 - Phandalin (im Süden) -> Barthens Vorräte Laden (3 Tage)
-- Wellenhall-Höhle (hat Gundren und seine Brüder gefunden)
-- Burg Cragmaw (dort ist Gundren anscheinend verschleppt)
+- Wellenhall-Höhle (hat Gudren und seine Brüder gefunden)
+- Burg Cragmaw (dort ist Gruden anscheinend verschleppt)
 
 # TO-DO Liste
 - [x] Abenteuer Gilde beitreten
