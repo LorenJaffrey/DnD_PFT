@@ -80,9 +80,9 @@ Merkmale:
   Klasse:
     - "[[Durchschnaufen]]"
     - "[[Tatendrang]]"
-    - "[[Schlag des Befehlshabers]]"
-    - "[[Fällender Angriff]]"
-    - "[[Parade]]"
+    - "[[Kampfüberlegenheit#Schlag des Befehlshabers]]"
+    - "[[Kampfüberlegenheit#Fällender Angriff]]"
+    - "[[Kampfüberlegenheit#Parieren]]"
   Talente:
     - "[[Heiler]]"
     - "[[Meisterschaft Bögen]]"
@@ -170,7 +170,7 @@ Persönlichkeit:
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 
 ## Angriff
 > [!column]
@@ -310,12 +310,6 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 
-## Talent Beschreibung
->[!column]
->>![[Heiler]]
->
->>![[Meisterschaft Bögen]]
-
 ## Aktionen
 >[!column]
 >> ## Kampfmerkmale (Verbrauch)
@@ -339,20 +333,22 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>	**Erholung**: kurze oder langen Rast
 >
 >>## Manöver (Verbrauch)
->>|                  Verfügbar             | 1 | 2 | 3 | 4 | 5 (ab Lv. 7) | 6 ( ab Lv. 15) |
->>| ------------------------------ |:------:|:------:|:------:|:-------:|:---:|:-----:|
->>| Überlegenheits-Würfel  |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| Ausgewählte Manöver                             | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
+>>| ----------------------------------------------- |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+>>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Parieren]]                 |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
 >>
 >>## Kurze Manöver Aktions-Beschreibung
->>- **[[Schlag des Befehlshabers]]**
->>        **Auswirkung**: Eine Aktion + Bonus Aktion verwenden, damit verbündete Kreatur stattdessen als Reaktion  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
+>>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
+>>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur stattdessen als Reaktion  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
 >> 
->>- **[[Fällender Angriff]]**
+>>- **[[Kampfüberlegenheit#Fällender Angriff]]**
 >>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Ziel (groß oder kleiner) muss Stärkerettungswurf ablegen
 >> 
->>- **[[Parade]]**
+>>- **[[Kampfüberlegenheit#Parieren]]**
 >>        **Auswirkung**: Schadensreduktion 
 >>        **Verwendung**: Überlegenheitswürfel + Geschicklichkeitsmodifikator
 >>
