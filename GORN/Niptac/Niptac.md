@@ -170,7 +170,7 @@ Persönlichkeit:
 >> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
->> FROM #Waffe/Klasse/Nahkampfwaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -186,7 +186,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -202,7 +202,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -250,7 +250,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Rüstung
 >> ```dataview
 >> LIST
->> FROM #Ausrüstung/Rüstung
+>> FROM #Gegenstand/Rüstung
 >> WHERE contains(this.Übung.Rüstungen, file.link) 
 >> SORT file.name
 >> ```
@@ -258,7 +258,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Waffen
 >> ```dataview
 >> LIST
->> FROM #Waffe 
+>> FROM #Gegenstand/Waffe 
 >> WHERE contains(this.Übung.Waffen, file.link) 
 >> SORT file.name
 >> ```
@@ -274,7 +274,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Werkzeuge
 >> ```dataview
 >> LIST
->> FROM #Werkzeug
+>> FROM #Gegenstand/Werkzeug 
 >> WHERE contains(this.Übung.Werkzeuge, file.link)
 >> SORT file.name
 >> ```
