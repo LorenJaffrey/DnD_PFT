@@ -2,6 +2,7 @@
 Stufe: 4
 Glück: 1
 Erschöpfung: 0
+Energiekern: 3
 Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
@@ -13,7 +14,7 @@ Waffen:
 - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 35
-  TP: 22
+  TP: 11
   TW: 4
   TempTP: 0
 Attribute:
@@ -142,6 +143,7 @@ tags:
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 [[Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+[[Energiekern|Energiekern]]: `=this.Energiekern` von 4
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                           | [[Weitsprung]] mit Anlauf | [[Weitsprung]] ohne Anlauf |
