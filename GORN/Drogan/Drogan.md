@@ -103,6 +103,8 @@ Persönlichkeit:
   Ideale: Ich versuche denjenigen zu helfen die Hilfe benötigen, egal was es mich kosten mag.
   Bindungen: Eine furchtbare Schuld verzehrt mich. Ich hoffe durch meine Taten Erlösung zu finden.
   Makel: Ich habe eine (Alkohol-)Sucht.
+tags:
+- Charakter/GORN/Drogan
 ---
 # `=this.file.name`
 

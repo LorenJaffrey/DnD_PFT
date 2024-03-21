@@ -107,6 +107,8 @@ Persönlichkeit:
   Bindungen: Rache für den ausgelöschten Stamm.
   Makel: 
   - Visionen, Alpträume und unkontrollierte Teleportation
+tags:
+- Charakter/GORN/Aranon
 ---
 # `=this.file.name`
 
