@@ -43,3 +43,7 @@
 - Katastrophen:
 	- #1 Zauberpest
 	- #2 Ausbruch des Vulkans (Hotenow)
+
+#Informationen 
+- tür rechts gruft -> gefängnis zellen
+- 
