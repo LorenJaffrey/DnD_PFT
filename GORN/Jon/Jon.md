@@ -17,7 +17,7 @@ Waffen:
 Feinde: "[[Orks]]"
 Gesundheit:
   MaxTP: 39
-  TP: 26
+  TP: 25
   TW: 4
   TempTP: 0
 Attribute:
@@ -160,7 +160,7 @@ tags:
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                           | [[Weitsprung]] mit Anlauf | [[Weitsprung]] ohne Anlauf |
 | -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ------------------------- | -------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)` m | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)/2` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m                          | `=round((this.Attribute.Stärke*0.3),2)` m                           |
+| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)` m | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m                          | `=round((this.Attribute.Stärke*0.3)/2,2)` m                           |
 
 ## Verteidigung
 > [!column] 
@@ -266,7 +266,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Rüstung
 >> ```dataview
 >> LIST
->> FROM #Ausrüstung/Rüstung
+>> FROM #Gegenstand/Rüstung 
 >> WHERE contains(this.Übung.Rüstungen, file.link) 
 >> SORT file.name
 >> ```
@@ -274,7 +274,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Waffen
 >> ```dataview
 >> LIST
->> FROM #Waffe 
+>> FROM #Gegenstand/Waffe 
 >> WHERE contains(this.Übung.Waffen, file.link) 
 >> SORT file.name
 >> ```
@@ -290,7 +290,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Werkzeuge
 >> ```dataview
 >> LIST
->> FROM #Werkzeug
+>> FROM #Gegenstand/Werkzeug 
 >> WHERE contains(this.Übung.Werkzeuge, file.link)
 >> SORT file.name
 >> ```
@@ -319,7 +319,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
 >>| [[Durchschnaufen]] |    Ja     |
->>| [[Tatendrang]]             |    Ja     |
+>>| [[Tatendrang]]             |    Nein     |
 >>| [[Zusätzlicher Angriff]]  (Lv. 5) |    -     |
 >>| [[Unbeugsamkeit]] (Lv. 9) |    -     |
 >>| [[Zusätzlicher Angriff]]  (Lv. 11) |    -     |
@@ -338,9 +338,9 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Manöver (Verbrauch)
 >>| Ausgewählte Manöver                             | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
->>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Parieren]]                 |    Ja     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Nein    |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Nein    |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Parieren]]                 |    Nein     |    Ja     |    Ja     |    Ja     |    -    |    -    |
 >>
 >>## Kurze Manöver Aktions-Beschreibung
 >>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
