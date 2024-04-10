@@ -25,9 +25,7 @@
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":",
-    "iconsInLinksEnabled": true,
-    "debugMode": false
+    "iconIdentifier": ":"
   },
   "Monster Manual": "SiMonster",
   "Ausrüstung/Edelsteine": "LiGem",
