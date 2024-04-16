@@ -17,7 +17,7 @@ Waffen:
 Feinde: "[[Orks]]"
 Gesundheit:
   MaxTP: 39
-  TP: 25
+  TP: 39
   TW: 4
   TempTP: 0
 Attribute:
@@ -151,6 +151,8 @@ tags:
 > 	- Kobolde getötet
 > - Neverwinter
 > 	- Goblins getötet
+> - Phandalin
+> 	- Magier getötet
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
@@ -318,8 +320,8 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Kampfmerkmale (Verbrauch)
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
->>| [[Durchschnaufen]] |    Ja     |
->>| [[Tatendrang]]             |    Nein     |
+>>| [[Durchschnaufen]] |    Ja    |
+>>| [[Tatendrang]]             |    Ja     |
 >>| [[Zusätzlicher Angriff]]  (Lv. 5) |    -     |
 >>| [[Unbeugsamkeit]] (Lv. 9) |    -     |
 >>| [[Zusätzlicher Angriff]]  (Lv. 11) |    -     |
@@ -338,9 +340,9 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Manöver (Verbrauch)
 >>| Ausgewählte Manöver                             | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
->>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Nein    |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Nein    |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Parieren]]                 |    Nein     |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Ja    |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Ja    |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>| [[Kampfüberlegenheit#Parieren]]                 |    Ja    |    Ja     |    Ja     |    Ja     |    -    |    -    |
 >>
 >>## Kurze Manöver Aktions-Beschreibung
 >>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**

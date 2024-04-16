@@ -53,7 +53,7 @@ Geld:
 | [[Schlafsack]]                                |   1    |    7    |   7    |
 | [[Zunderkästchen]]                            |   1    |    1    |   1    |
 | [[Reisegeschirr]]                             |   1    |    1    |   1    |
-| [[Fackel]]                                    |   10   |    1    |   10   |
+| [[Fackel]]                                    |   8   |    1    |   10   |
 | [[Ration]] (5 Silber)                         |   15   |    1    |   15   |
 | [[Trinkschlauch]]                             |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern                   |   12   |   0.6   |   9    |
