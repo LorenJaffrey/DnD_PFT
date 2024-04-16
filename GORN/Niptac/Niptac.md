@@ -2,7 +2,7 @@
 Stufe: 4
 Glück: 1
 Erschöpfung: 0
-Energiekern: 3
+Energiekern: 4
 Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
@@ -14,7 +14,7 @@ Waffen:
 - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 35
-  TP: 11
+  TP: 35
   TW: 4
   TempTP: 0
 Attribute:
@@ -148,15 +148,16 @@ tags:
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                           | [[Weitsprung]] mit Anlauf | [[Weitsprung]] ohne Anlauf |
 | -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ------------------------- | -------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)` m | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)/2` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m                          | `=round((this.Attribute.Stärke*0.3),2)` m                           |
-|                                                    |                                                    |                                                      |                                                      |                           |                            |
+| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)` m | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)/2` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m                          | `=round((this.Attribute.Stärke*0.3),2)` m                           
+
 ## Verteidigung
 > [!column] 
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
+>> | **Aktuell** | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW`    | `=this.Gesundheit.TempTP`   |
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW`    | `=this.Gesundheit.TempTP`   |
+>
 >
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
@@ -178,7 +179,7 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
->
+
 >> ### Schusswaffen 
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -194,7 +195,7 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
->> 
+
 >> ### Wurfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
