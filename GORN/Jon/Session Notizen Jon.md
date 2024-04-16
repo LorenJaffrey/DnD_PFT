@@ -17,6 +17,8 @@
 - larno Albrek (freund von Sildar)
 - Rotbrenner: Oi Gehard (weggelaufen)
 - Rotbrenner: Melek (holt Geld von Bürgermeister)
+- König Groll von Burg Cragmaw
+- Baumel - Goblin
 
 # Wichtige Orte
 - Phandalin (im Süden) -> Barthens Vorräte Laden (3 Tage)
