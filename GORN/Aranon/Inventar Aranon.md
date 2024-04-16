@@ -54,10 +54,13 @@ Geld:
 | [[Seil aus Hanf]] in Metern |   13   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]] |   0    |    1    |   0    |
 | [[Schriftrollenbehälter]]   |   1    |    1    |   1    |
+| [[Lederrüstung]]            |   2    |   10    |   20   |
+| Flüssigkeit (silbrig)       |   1    |    0    |   0    |
+| Pulver (schwarz)            |   1    |    0    |   0    |
+| Flüssigkeit (zäh, braun)    |   1    |    0    |   0    |
+| [[Kurzschwert]]             |   1    |    2    |   2    |
 | [[Gildenabzeichen]]         |   1    |    0    |   0    |
-| GESAMT                      |        |         |  42.8  |
-|                             |        |         |        |
-|                             |        |         |        |
+| GESAMT                      |        |         |  64.8  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 

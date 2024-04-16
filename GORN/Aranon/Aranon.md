@@ -11,7 +11,7 @@ Waffen:
 - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 31
-  TP: 25
+  TP: 31
   TW: 4
   TempTP: 0
 Attribute:
@@ -320,7 +320,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```
->> Tiergestalt verfügbar: 0
+>> Tiergestalt verfügbar: 2
 
 ## Hintergrundgeschichte
 * Vater Waldelf 
