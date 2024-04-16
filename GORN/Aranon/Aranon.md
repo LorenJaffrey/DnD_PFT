@@ -320,6 +320,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```
+>> Tiergestalt verfügbar: 0
 
 ## Hintergrundgeschichte
 * Vater Waldelf 

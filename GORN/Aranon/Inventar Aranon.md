@@ -6,7 +6,7 @@ Geld:
   PM: 0
   GM: 203
   EM: 0
-  SM: 329
+  SM: 350
   KM: 900
 ---
 # `=this.file.name`
@@ -56,5 +56,9 @@ Geld:
 | [[Schriftrollenbehälter]]   |   1    |    1    |   1    |
 | [[Gildenabzeichen]]         |   1    |    0    |   0    |
 | GESAMT                      |        |         |  42.8  |
+|                             |        |         |        |
+|                             |        |         |        |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
+
+2x Lederrüstung, 1x Kurzschwert, 1x Leichte Armbrust, 1x Köcher mit Bolzen
