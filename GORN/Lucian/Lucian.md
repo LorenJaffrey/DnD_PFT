@@ -142,9 +142,9 @@ tags:
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 
 ## Bewegung
-| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                   | [[Weitsprung]] ohne Anlauf                |
-| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------- | ----------------------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)` m | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)/2` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m | `=round((this.Attribute.Stärke*0.3),2)` m |
+| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
+| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ------------------------------------------- |
+| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Verteidigung
 > [!column] 
@@ -250,7 +250,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Rüstung
 >> ```dataview
 >> LIST
->> FROM #Ausrüstung/Rüstung
+>> FROM #Gegenstand/Rüstung 
 >> WHERE contains(this.Übung.Rüstungen, file.link) 
 >> SORT file.name
 >> ```
@@ -258,7 +258,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Waffen
 >> ```dataview
 >> LIST
->> FROM #Waffe 
+>> FROM #Gegenstand/Waffe 
 >> WHERE contains(this.Übung.Waffen, file.link) 
 >> SORT file.name
 >> ```
@@ -274,7 +274,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Werkzeuge
 >> ```dataview
 >> LIST
->> FROM #Werkzeug
+>> FROM #Gegenstand/Werkzeug 
 >> WHERE contains(this.Übung.Werkzeuge, file.link)
 >> SORT file.name
 >> ```

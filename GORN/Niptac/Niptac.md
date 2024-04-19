@@ -146,169 +146,166 @@ tags:
 [[Energiekern|Energiekern]]: `=this.Energiekern` von 4
 
 ## Bewegung
-| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                           | [[Weitsprung]] mit Anlauf | [[Weitsprung]] ohne Anlauf |
-| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ------------------------- | -------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)` m | `=((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3)/2` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m                          | `=round((this.Attribute.Stärke*0.3),2)` m                           
+| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
+| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ------------------------------------------- |
+| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Verteidigung
-> [!column] 
->> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
->> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | **Aktuell** | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW`    | `=this.Gesundheit.TempTP`   |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->
->
->>## Rüstung
->> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+
+### Gesundheit
+|             | [[Trefferpunkte]]        | [[Trefferwürfel]]                                      | [[Temporäre Trefferpunkte]] |
+| ----------- | ------------------------ | ------------------------------------------------------ | --------------------------- |
+| **Aktuell** | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW`                                  | `=this.Gesundheit.TempTP`   |
+| Maximal     | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
+
+
+### Rüstung
+| Rüstung                                                                                  | [[Rüstungsklasse]]                                                                                                                            | [[Schadensreduktion]]                                                                         |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")` | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 
 ## Angriff
-> [!column]
->> ### Nahkampfwaffen
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Reichweite,
->> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
->> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
->> Schadensart,
->> Eigenschaften
->> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe
->> WHERE contains(this.Waffen, file.link)
->> SORT file.name
->> ```
 
->> ### Schusswaffen 
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
->> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
->> WHERE contains(this.Waffen, file.link)
->> SORT file.name
->> ```
+### Nahkampfwaffen
+```dataview
+TABLE WITHOUT ID 
+file.link AS "Waffe",
+Reichweite,
+floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
+Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+Schadensart,
+Eigenschaften
+FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe
+WHERE contains(this.Waffen, file.link)
+SORT file.name
+```
 
->> ### Wurfwaffen
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
->> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe 
->> WHERE contains(this.Waffen, file.link)
->> SORT file.name
->> ```
+### Schusswaffen 
+```dataview
+TABLE WITHOUT ID 
+file.link AS "Waffe",
+Range1 AS "Min RW",
+Range2 AS "Gnd RW",
+Range3 AS "Max RW",
+floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
+SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
+SchadensartFern AS "Schadensart",
+EigenschaftenFern AS "Eigenschaften"
+FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+WHERE contains(this.Waffen, file.link)
+SORT file.name
+```
+
+### Wurfwaffen
+```dataview
+TABLE WITHOUT ID 
+file.link AS "Waffe",
+Range1 AS "Min RW",
+Range2 AS "Gnd RW",
+Range3 AS "Max RW",
+floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
+SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+SchadensartFern AS "Schadensart",
+EigenschaftenFern AS "Eigenschaften"
+FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe 
+WHERE contains(this.Waffen, file.link)
+SORT file.name
+```
 
 Disclaimer: Waffen haben immer Übungsbonus...
 ## Stats
-> [!column]
->> ## Attribute
->> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
->> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
->> | [[Stärke]]              |      `=this.Attribute.Stärke`      |      `=floor(((this.Attribute.Stärke)-10)/2)`      |           `=floor(((this.Attribute.Stärke)-10)/2)+(this.Rettungswürfe.Stärke*(ceil(this.Stufe/4)+1))`           |
->> | [[Geschicklichkeit]]    | `=this.Attribute.Geschicklichkeit` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)+(this.Rettungswürfe.Geschicklichkeit*(ceil(this.Stufe/4)+1))` |
->> | [[Konstitution]]        |   `=this.Attribute.Konstitution`   |   `=floor(((this.Attribute.Konstitution)-10)/2)`   |     `=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`     |
->> | [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |   `=floor(((this.Attribute.Intelligenz)-10)/2)`    |      `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`      |
->> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
->> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
->
->> ## Fertigkeiten
->> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        |
->> | ---------------------------- | ------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
->> | [[Akrobatik]]                | [[Geschicklichkeit]]      |                                                 `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Akrobatik*(ceil(this.Stufe/4)+1))`                                                 |
->> | [[Arkane Kunde]]             | [[Intelligenz]]           |                                                  `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Arkane_Kunde*(ceil(this.Stufe/4)+1))`                                                  |
->> | [[Athletik]]                 | [[Stärke]]                |                                                      `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`                                                       |
->> | [[Auftreten]]                | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))`                                                     |
->> | [[Einschüchtern]]            | [[Charisma]] / [[Stärke]] | `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` / `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` |
->> | [[Fingerfertigkeit]]         | [[Geschicklichkeit]]      |                                             `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`                                              |
->> | [[Geschichte]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Geschichte*(ceil(this.Stufe/4)+1))`                                                   |
->> | [[Heilkunde]]                | [[Weisheit]]              |                                                     `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`                                                     |
->> | [[Heimlichkeit]]             | [[Geschicklichkeit]]      |                                               `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`                                                |
->> | [[Mit Tieren umgehen]]       | [[Weisheit]]              |                                                `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`                                                 |
->> | [[Motiv erkennen]]           | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))`                                                   |
->> | [[Nachforschungen]]          | [[Intelligenz]]           |                                                `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Nachforschungen*(ceil(this.Stufe/4)+1))`                                                 |
->> | [[Naturkunde]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`                                                   |
->> | [[Religion]]                 | [[Intelligenz]]           |                                                    `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`                                                    |
->> | [[Täuschen]]                 | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))`                                                      |
->> | [[Überlebenskunst]]          | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`                                                  |
->> | [[Überzeugen]]               | [[Charisma]]              |                                                    `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`                                                     |
->> | [[Wahrnehmung]]              | [[Weisheit]]              |                                                    `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`                                                    |
->>
->>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)`
+### Attribute
+| [[Attribute\|Attribut]] |           Attributswert            |                      [[Attribute#Attributsmodifikator]]                      |                                                          Rettungswurfmodifikator                                                          |
+| ----------------------- |:----------------------------------:|:----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
+| [[Stärke]]              |      `=this.Attribute.Stärke`      |                   `=floor(((this.Attribute.Stärke)-10)/2)`                   |                        `=floor(((this.Attribute.Stärke)-10)/2)+(this.Rettungswürfe.Stärke*(ceil(this.Stufe/4)+1))`                        |
+| [[Geschicklichkeit]]    | `=this.Attribute.Geschicklichkeit` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)+(this.Rettungswürfe.Geschicklichkeit*(ceil(this.Stufe/4)+1))` |
+| [[Konstitution]]        |   `=this.Attribute.Konstitution`   |                `=floor(((this.Attribute.Konstitution)-10)/2)`                |                  `=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`                  |
+| [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |                `=floor(((this.Attribute.Intelligenz)-10)/2)`                 |                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`                   |
+| [[Weisheit]]            |     `=this.Attribute.Weisheit`     |                  `=floor(((this.Attribute.Weisheit)-10)/2)`                  |                      `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`                      |
+| [[Charisma]]            |     `=this.Attribute.Charisma`     |                  `=floor(((this.Attribute.Charisma)-10)/2)`                  |                      `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`                      |
+
+### Fertigkeiten
+| [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        |
+| ---------------------------- | ------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [[Akrobatik]]                | [[Geschicklichkeit]]      |                                                 `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Akrobatik*(ceil(this.Stufe/4)+1))`                                                 |
+| [[Arkane Kunde]]             | [[Intelligenz]]           |                                                  `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Arkane_Kunde*(ceil(this.Stufe/4)+1))`                                                  |
+| [[Athletik]]                 | [[Stärke]]                |                                                      `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`                                                       |
+| [[Auftreten]]                | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))`                                                     |
+| [[Einschüchtern]]            | [[Charisma]] / [[Stärke]] | `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` / `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` |
+| [[Fingerfertigkeit]]         | [[Geschicklichkeit]]      |                                             `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`                                              |
+| [[Geschichte]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Geschichte*(ceil(this.Stufe/4)+1))`                                                   |
+| [[Heilkunde]]                | [[Weisheit]]              |                                                     `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`                                                     |
+| [[Heimlichkeit]]             | [[Geschicklichkeit]]      |                                               `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`                                                |
+| [[Mit Tieren umgehen]]       | [[Weisheit]]              |                                                `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`                                                 |
+| [[Motiv erkennen]]           | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))`                                                   |
+| [[Nachforschungen]]          | [[Intelligenz]]           |                                                `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Nachforschungen*(ceil(this.Stufe/4)+1))`                                                 |
+| [[Naturkunde]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`                                                   |
+| [[Religion]]                 | [[Intelligenz]]           |                                                    `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`                                                    |
+| [[Täuschen]]                 | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))`                                                      |
+| [[Überlebenskunst]]          | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`                                                  |
+| [[Überzeugen]]               | [[Charisma]]              |                                                    `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`                                                     |
+| [[Wahrnehmung]]              | [[Weisheit]]              |                                                    `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`                                                    |
+
+[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)`
 
 ## Übung
 
-> [!column]
->> ## Rüstung
->> ```dataview
->> LIST
->> FROM #Gegenstand/Rüstung
->> WHERE contains(this.Übung.Rüstungen, file.link) 
->> SORT file.name
->> ```
->> 
->> ## Waffen
->> ```dataview
->> LIST
->> FROM #Gegenstand/Waffe 
->> WHERE contains(this.Übung.Waffen, file.link) 
->> SORT file.name
->> ```
->
->> ## Sprachen
->> ```dataview
->> LIST
->> FROM #Sprache
->> WHERE contains(this.Übung.Sprachen, file.link)
->> SORT file.name
->> ```
->> 
->> ## Werkzeuge
->> ```dataview
->> LIST
->> FROM #Werkzeug
->> WHERE contains(this.Übung.Werkzeuge, file.link)
->> SORT file.name
->> ```
+### Rüstung
+```dataview
+LIST
+FROM #Gegenstand/Rüstung
+WHERE contains(this.Übung.Rüstungen, file.link) 
+SORT file.name
+```
+ 
+### Waffen
+```dataview
+LIST
+FROM #Gegenstand/Waffe 
+WHERE contains(this.Übung.Waffen, file.link) 
+SORT file.name
+```
+
+### Sprachen
+```dataview
+LIST
+FROM #Sprache
+WHERE contains(this.Übung.Sprachen, file.link)
+SORT file.name
+```
+
+## Werkzeuge
+```dataview
+LIST
+FROM #Werkzeug
+WHERE contains(this.Übung.Werkzeuge, file.link)
+SORT file.name
+```
 
 ## Merkmale
-> [!column]
->> ## Volksmerkmale
->> ```dataview
->> LIST
->> FROM #Merkmal
->> WHERE contains(this.Merkmale.Volk, file.link)
->> SORT file.name
->> ```
->>
->> ## Talente
->> ```dataview
->> LIST
->> FROM #Talent
->> WHERE contains(this.Merkmale.Talente, file.link)
->> SORT file.name
->> ```
->
->> ## Klassenmerkmale
->> ```dataview
->> LIST
->> FROM #Merkmal
->> WHERE contains(this.Merkmale.Klasse, file.link)
->> SORT file.name
->> ```
+### Volksmerkmale
+```dataview
+LIST
+FROM #Merkmal
+WHERE contains(this.Merkmale.Volk, file.link)
+SORT file.name
+```
+
+### Talente
+```dataview
+LIST
+FROM #Talent
+WHERE contains(this.Merkmale.Talente, file.link)
+SORT file.name
+```
+
+### Klassenmerkmale
+```dataview
+LIST
+FROM #Merkmal
+WHERE contains(this.Merkmale.Klasse, file.link)
+SORT file.name
+```
 
 ## Aussehen
 Niptac ist ein kleiner, schlanker Gnom mit wildem, struppigem Haar und einer spitzen Nase. Er trägt oft schmutzige Kleidung und eine alte Lederjacke, um sich vor Wind und Wetter zu schützen. Seine Augen sind immer wachsam und vorsichtig, und er hält sich oft im Hintergrund, um nicht aufzufallen.
