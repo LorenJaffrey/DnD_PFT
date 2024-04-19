@@ -98,6 +98,7 @@ tags:
 # `=this.file.name`
 
 > [!infobox]
+> > ![[Lucian.jpg]]
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |

@@ -109,6 +109,7 @@ tags:
 # `=this.file.name`
 
 > [!infobox]
+> > ![[Drogan.jpeg]]
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |

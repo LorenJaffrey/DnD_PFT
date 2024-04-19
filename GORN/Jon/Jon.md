@@ -106,7 +106,7 @@ tags:
 # `=this.file.name`
 
 > [!infobox]
-> ![[Jon - Generated.jpeg]]
+> ![[Jon.jpeg]]
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |

@@ -107,7 +107,7 @@ tags:
 # `=this.file.name`
 
 > [!infobox]
-> ![[Niptac - Generated.jpeg]]
+> ![[Niptac.jpeg]]
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
