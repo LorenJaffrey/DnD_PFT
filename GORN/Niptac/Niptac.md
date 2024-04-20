@@ -7,11 +7,11 @@ Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
 Waffen:
-- "[[Kurzschwert]]"
-- "[[Dolch]]"
-- "[[Beil]]"
-- "[[Schleuder]]"
-- "[[Leichte Armbrust]]"
+  - "[[Kurzschwert]]"
+  - "[[Dolch]]"
+  - "[[Beil]]"
+  - "[[Schleuder]]"
+  - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 35
   TP: 35
@@ -102,10 +102,9 @@ Persönlichkeit:
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 tags:
-- Charakter/GORN/Niptac
+- Charakter/GORN
 ---
 # `=this.file.name`
-
 > [!infobox]
 > ![[Niptac.jpeg]]
 > ## Hintergrund
@@ -277,7 +276,7 @@ SORT file.name
 ## Werkzeuge
 ```dataview
 LIST
-FROM #Werkzeug
+FROM #Gegenstand/Werkzeug
 WHERE contains(this.Übung.Werkzeuge, file.link)
 SORT file.name
 ```

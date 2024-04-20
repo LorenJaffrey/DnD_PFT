@@ -100,18 +100,17 @@ Hintergrund:
   Hintergrund: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-  - Große Empathie für alle jene die großes Leid erfahren
-  - Erlangt durch Meditation innere Ruhe und Frieden
-  - Gesellig und trinkfest
+    - Große Empathie für alle jene die großes Leid erfahren
+    - Erlangt durch Meditation innere Ruhe und Frieden
+    - Gesellig und trinkfest
   Ideale: Alles Böse zu vernichten!
   Bindungen: Rache für den ausgelöschten Stamm.
-  Makel: 
-  - Visionen, Alpträume und unkontrollierte Teleportation
+  Makel:
+    - Visionen, Alpträume und unkontrollierte Teleportation
 tags:
-- Charakter/GORN/Aranon
+  - Charakter/GORN
 ---
 # `=this.file.name`
-
 > [!infobox]
 > ![[Aranon.jpg]]
 > ## Hintergrund
@@ -129,7 +128,7 @@ tags:
 > | ---- | ---- |
 > | Geschlecht | `=this.Aussehen.Geschlecht` |
 > | Alter | `=this.Aussehen.Alter` |
-> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
+> | [[Größenkategorie]] | `=this.Aussehen.Größenkategorie` |
 > | Größe | `=this.Aussehen.Größe` |
 > | Gewicht | `=this.Aussehen.Gewicht` |
 > | Augenfarbe | `=this.Aussehen.Augenfarbe` |

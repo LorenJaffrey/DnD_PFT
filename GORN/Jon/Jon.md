@@ -1,6 +1,4 @@
 ---
-tags:
-- Charakter/GORN/Jon
 Name: Jon "Verisus" Longbow
 Stufe: 4
 Glück: 0
@@ -101,7 +99,7 @@ Persönlichkeit:
   Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
   Makel: Abneigung gegen militärische Führungspositionen / Autorität
 tags:
-- Charakter/GORN/Jon
+- Charakter/GORN
 ---
 # `=this.file.name`
 
@@ -353,7 +351,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> 
 >>- **[[Kampfüberlegenheit#Fällender Angriff]]**
 >>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
->>        **Verwendung**: Ziel (groß oder kleiner) muss Stärkerettungswurf ablegen
+>>        **Verwendung**: Ziel ([[Groß]] oder kleiner) muss Stärkerettungswurf ablegen
 >> 
 >>- **[[Kampfüberlegenheit#Parieren]]**
 >>        **Auswirkung**: Schadensreduktion 
