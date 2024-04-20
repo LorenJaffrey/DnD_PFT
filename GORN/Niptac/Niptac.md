@@ -174,10 +174,10 @@ SORT SG, file.link
 ## Verteidigung
 
 ### Gesundheit
-|             | [[Trefferpunkte]]        | [[Trefferwürfel]]                                      | [[Temporäre Trefferpunkte]] |
-| ----------- | ------------------------ | ------------------------------------------------------ | --------------------------- |
-| **Aktuell** | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW`                                  | `=this.Gesundheit.TempTP`   |
-| Maximal     | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
+|             | [[Trefferpunkte]]        | [[Trefferwürfel]]                                              | [[Temporäre Trefferpunkte]] |
+| ----------- | ------------------------ | -------------------------------------------------------------- | --------------------------- |
+| **Aktuell** | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW` `=this.Hintergrund.Klasse.Trefferwürfel` | `=this.Gesundheit.TempTP`   |
+| Maximal     | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel`         |                             |
 
 
 ### Rüstung
