@@ -331,6 +331,9 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>| [[Zusätzlicher Angriff]]  (Lv. 20) |    `=choice(this.Stufe=20, "aktiv", "Noch nicht freigeschaltet")`     |
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
+>>- **Gezielter Schuss**
+>>	**Auswirkung**: Erhöht Schaden um 10
+>>	**Verwendung**: Angriffswurf -5
 >>- **[[Durchschnaufen]]**
 >>	**Auswirkung**: Heilt den Charakter
 >>	**Verwendung**: 1x W10 + der Stufe des Kämpfers
