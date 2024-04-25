@@ -122,6 +122,13 @@ tags:
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
 > |Feinde| `=this.Feinde`|
 > 
+> ## Todesrettungswürfe
+> |                      ❌                       |                       ✔                       |
+> |:---------------------------------------------:|:---------------------------------------------:|
+> | <input type="checkbox" unchecked id="54dec1"> | <input type="checkbox" unchecked id="aaa2d5"> |
+> | <input type="checkbox" unchecked id="1b59d7"> | <input type="checkbox" unchecked id="d8e3f7"> |
+> | <input type="checkbox" unchecked id="01e78d"> | <input type="checkbox" unchecked id="b533ca"> |
+> 
 > ## Aussehen
 > |  |  |
 > | ---- | ---- |
@@ -321,14 +328,14 @@ Disclaimer: Waffen haben immer Übungsbonus...
 ## Aktionen
 >[!column]
 >> ## Kampfmerkmale (Verbrauch)
->>| Merkmal            | Verfügbar |
->>| ------------------ |:---------:|
->>| [[Durchschnaufen]] |    `=choice(this.Aufladungen.Durchschnaufen=1, "Ja", "Bereits verwendet")`   |
->>| [[Tatendrang]]             |    `=choice(this.Aufladungen.Tatendrang=1, "Ja", "Bereits verwendet")`     |
->>| [[Zusätzlicher Angriff]]  (Lv. 5) |   `=choice(this.Stufe>=5, "aktiv", "Noch nicht freigeschaltet")`     |
->>| [[Unbeugsamkeit]] (Lv. 9) |    `=choice(this.Aufladungen.Unbeugsamkeit=1, "Ja", "Noch nicht freigeschaltet")`     |
->>| [[Zusätzlicher Angriff]]  (Lv. 11) |    `=choice(this.Stufe>=11, "aktiv", "Noch nicht freigeschaltet")`      |
->>| [[Zusätzlicher Angriff]]  (Lv. 20) |    `=choice(this.Stufe=20, "aktiv", "Noch nicht freigeschaltet")`     |
+>>| Merkmal            | Verfügbar | Verfügbar |
+>>| ------------------ |:---------:|:---------:|
+>>| [[Durchschnaufen]] |    `=choice(this.Aufladungen.Durchschnaufen=1, "Ja", "Bereits verwendet")`   | <input type="checkbox" unchecked id="3db231">|
+>>| [[Tatendrang]]             |    `=choice(this.Aufladungen.Tatendrang=1, "Ja", "Bereits verwendet")`     | <input type="checkbox" unchecked id="435009">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 5) |   `=choice(this.Stufe>=5, "aktiv", "Noch nicht freigeschaltet")`     |  <input type="checkbox" unchecked id="2392c6">|
+>>| [[Unbeugsamkeit]] (Lv. 9) |    `=choice(this.Aufladungen.Unbeugsamkeit=1, "Ja", "Noch nicht freigeschaltet")`     |  <input type="checkbox" unchecked id="fe8cbd">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 11) |    `=choice(this.Stufe>=11, "aktiv", "Noch nicht freigeschaltet")`      | <input type="checkbox" unchecked id="0c091f">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 20) |    `=choice(this.Stufe=20, "aktiv", "Noch nicht freigeschaltet")`     | <input type="checkbox" unchecked id="c2c6e3">|
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
 >>- **Gezielter Schuss**
@@ -349,6 +356,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
 >>| Überlegenheitswürfel | `=choice(this.Aufladungen.Manöver>=1, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=2, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=3, "Ja", "aufgebraucht")`  | `=choice(this.Aufladungen.Manöver>=4, "Ja", "aufgebraucht")`  | `=choice(this.Stufe>=7, choice(this.Aufladungen.Manöver>=5, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` | `=choice(this.Stufe>=15, choice(this.Aufladungen.Manöver>=6, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` |
+>>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">|<input type="checkbox" unchecked id="76d80f">| <input type="checkbox" unchecked id="1e4943">|
 >>
 >> ## Aktuelle aktive Manöver
 >>- [[Kampfüberlegenheit#Schlag des Befehlshabers]]
@@ -408,14 +416,3 @@ Von da an schlug er sich als Jäger und Söldner durchs Leben und frönte seiner
 >>|||
 >>| ------------------ |:---------:|:---------:|:---------:|
 >>|**Regulärer Jon** <br/> ![[Jon.jpeg\|300]]| **Jon Longbow in Action** <br/> ![[Jon_Angriff.jpg\|300]]| **Verkleideter Long Jonbow**  <br/> ![[Jon_Rotbrenner.jpg\|300]]| **Toter Jon Longbow** <br/> ![[Jon_Tod.jpg\|300]]|
->
->>## Geschehnisse
->>| | | | | | | | |
->>| :--: |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
->>| **Vergangenheit**|**Kriege in ganz Faerûn** <br/><br/> ![[Krieg.jpeg \| 235]] |**Überfall auf Jon's Militär-Einheit durch Orks**<br/><br/> ![[Jons_Vergangenheit.jpeg \|235]] | | | | | |
->>|**Dracheninsel**| **Skelette am Strand besiegt**<br/> <br/> ![[Skelett_Krieger.jpeg \|235]]|**Harpyien auf dem zerstörten Schiff durch GORN besiegt**<br/><br/> ![[Schiff_Harpyien.jpeg \|235]]|**Zombies auf dem zerstörten Schiff besiegt**<br/><br/> ![[Schiff_Zombies.jpeg \|235]]|**Dampfdrachlinge am Strand besiegt**<br/> <br/> ![[Nebelmonster.jpeg \|235]]|**Riesen Schlange in der  Mykoniden Höhle durch GORN besiegt** <br/><br/> ![[Große_Schlange.jpeg \|235]]| **Kobolde erschossen**<br/> <br/> ![[Kobold_Geschwister.jpeg \|235]]|**Funkenschinder im Turm erschossen**<br/> ![[Funkenschinder.jpeg \|235]]|
->>| **Phandalin**| **Goblin Überfall abgewehrt**<br/> ![[Goblin_Hinterhalt.jpeg \|235]]|**Rotbrenner vor der Taverne bekämpft**<br/><br/> ![[Rotbrenner_Gruppe.jpeg \|235]] | **Böser Zauberer erschossen**<br/> <br/> ![[Phandalin_Zauberer.jpeg \|235]] | | | | | |
->>| | | | | | | | |
->>| | | | | | | | |
->>| | | | | | | | |
->>| | | | | | | | |
