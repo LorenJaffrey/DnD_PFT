@@ -68,7 +68,7 @@ Aussehen:
   Größe: 140 cm
   Gewicht: 150 Pfund
   Augenfarbe: Blau
-  Haarfarbe: Grau
+  Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
   Volk:
