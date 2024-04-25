@@ -51,11 +51,6 @@ Fertigkeiten:
   Überlebenskunst: 1
   Überzeugen: 0
   Wahrnehmung: 1
-Aufladungen:
-  Durchschnaufen: 1
-  Tatendrang: 1
-  Unbeugsamkeit: 0
-  Manöver: 4
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
@@ -328,14 +323,14 @@ Disclaimer: Waffen haben immer Übungsbonus...
 ## Aktionen
 >[!column]
 >> ## Kampfmerkmale (Verbrauch)
->>| Merkmal            | Verfügbar | Verfügbar |
->>| ------------------ |:---------:|:---------:|
->>| [[Durchschnaufen]] |    `=choice(this.Aufladungen.Durchschnaufen=1, "Ja", "Bereits verwendet")`   | <input type="checkbox" unchecked id="3db231">|
->>| [[Tatendrang]]             |    `=choice(this.Aufladungen.Tatendrang=1, "Ja", "Bereits verwendet")`     | <input type="checkbox" unchecked id="435009">|
->>| [[Zusätzlicher Angriff]]  (Lv. 5) |   `=choice(this.Stufe>=5, "aktiv", "Noch nicht freigeschaltet")`     |  <input type="checkbox" unchecked id="2392c6">|
->>| [[Unbeugsamkeit]] (Lv. 9) |    `=choice(this.Aufladungen.Unbeugsamkeit=1, "Ja", "Noch nicht freigeschaltet")`     |  <input type="checkbox" unchecked id="fe8cbd">|
->>| [[Zusätzlicher Angriff]]  (Lv. 11) |    `=choice(this.Stufe>=11, "aktiv", "Noch nicht freigeschaltet")`      | <input type="checkbox" unchecked id="0c091f">|
->>| [[Zusätzlicher Angriff]]  (Lv. 20) |    `=choice(this.Stufe=20, "aktiv", "Noch nicht freigeschaltet")`     | <input type="checkbox" unchecked id="c2c6e3">|
+>>| Merkmal            | Verfügbar |
+>>| ------------------ |:---------:|
+>>| [[Durchschnaufen]] | <input type="checkbox" unchecked id="3db231">|
+>>| [[Tatendrang]]             |   <input type="checkbox" unchecked id="435009">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 5) | <input type="checkbox" unchecked id="2392c6">|
+>>| [[Unbeugsamkeit]] (Lv. 9) |  <input type="checkbox" unchecked id="fe8cbd">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 11) |   <input type="checkbox" unchecked id="0c091f">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 20) |   <input type="checkbox" unchecked id="c2c6e3">|
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
 >>- **Gezielter Schuss**
@@ -355,7 +350,6 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Manöver (Verbrauch)
 >>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
->>| Überlegenheitswürfel | `=choice(this.Aufladungen.Manöver>=1, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=2, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=3, "Ja", "aufgebraucht")`  | `=choice(this.Aufladungen.Manöver>=4, "Ja", "aufgebraucht")`  | `=choice(this.Stufe>=7, choice(this.Aufladungen.Manöver>=5, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` | `=choice(this.Stufe>=15, choice(this.Aufladungen.Manöver>=6, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` |
 >>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">|<input type="checkbox" unchecked id="76d80f">| <input type="checkbox" unchecked id="1e4943">|
 >>
 >> ## Aktuelle aktive Manöver
