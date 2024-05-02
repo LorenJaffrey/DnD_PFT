@@ -3,7 +3,7 @@ tags:
 Charakter: "[[Aranon]]"
 Geld:
   PM: 0
-  GM: 202
+  GM: 152
   EM: 0
   SM: 349
   KM: 900
@@ -63,4 +63,4 @@ Geld:
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
-2x Lederrüstung, 1x Kurzschwert, 1x Leichte Armbrust, 1x Köcher mit Bolzen
+2x Lederrüstung, 1x Kurzschwert, 1x Leichte Armbrust, 1x Köcher mit Bolzen, 1x Heiltrank
