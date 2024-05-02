@@ -1,9 +1,5 @@
 ---
 Stufe: 4
-Drogan:
-  Kampfrausch: 3
-Glück: 0
-Erschöpfung: 0
 Bewegung: 5
 Rüstung:
 Schild:
@@ -72,7 +68,7 @@ Aussehen:
   Größe: 140 cm
   Gewicht: 150 Pfund
   Augenfarbe: Blau
-  Haarfarbe: Grau
+  Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
   Volk:
@@ -152,16 +148,33 @@ tags:
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glückspunkte]]: `=this.Glück`
-[[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+
+> [!checks] 
+> -  
+> 	- [[Glück|Glückspunkte]] 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> -  
+> 	- [[Erschöpft|Erschöpfung]]     
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 
 ## Drogan
 ## Aufladungen
-|         |                                  Nutzungen [[Kampfrausch]]                                  |
-| ------- |:-------------------------------------------------------------------------------------------:|
-| Maximal | `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl` |
-| Aktuell |                                 `=this.Drogan.Kampfrausch`                                  |
-Bonuschaden [[Kampfrausch]]: +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden`
+| Nutzungen [[Kampfrausch]] (max. `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl`)              | Bonuschaden [[Kampfrausch]]                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" unchecked id="0f5ac6"> <input type="checkbox" unchecked id="1f94b0"> <input type="checkbox" unchecked id="846e47"> | +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
@@ -171,10 +184,10 @@ Bonuschaden [[Kampfrausch]]: +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfr
 ## Verteidigung
 > [!column] 
 >> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
+>> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)        | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW` `=this.Hintergrund.Klasse.Trefferwürfel`    | `=this.Gesundheit.TempTP`   |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe`  |                             |
+>> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |

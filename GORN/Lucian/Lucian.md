@@ -1,12 +1,7 @@
 ---
 Stufe: 4
-Lucian:
-  Thaumaturgie: 2
-  Höllischer_Tadel: 1
-Glück: 0
-Erschöpfung: 0
 Bewegung: 6
-Rüstung: "[[Lederrüstung]]"
+Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
 Waffen:
 - "[[Dolch]]"
@@ -79,7 +74,7 @@ Merkmale:
     - "[[Pakt des Buches]]"
     - "[[Segen des dunklen Meisters]]"
     - "[[Qualvoller Strahl]]"
-    - Zweite Schauerliche Anrufung?
+    - "[[Maske der vielen Gesichter]]"
   Talente:
     - "[[Infernalische Konstitution]]"
 Hintergrund:
@@ -143,16 +138,34 @@ tags:
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glückspunkte]]: `=this.Glück`
-[[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+
+> [!checks] 
+> -  
+> 	- [[Glück|Glückspunkte]] 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> -  
+> 	- [[Erschöpft|Erschöpfung]]     
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 
 ## Lucian
 ### Aufladungen
-|           |      [[Thaumaturgie]]       |      [[Höllischer Tadel]]       |
-| --------- |:---------------------------:|:-------------------------------:|
-| Maximal   |              2              |                1                |
-| Aktuell   | `=this.Lucian.Thaumaturgie` | `=this.Lucian.Höllischer_Tadel` |
-| Aufladung |       [[Lange Rast]]        |         [[Lange Rast]]          |
+|           |               [[Thaumaturgie]]                |             [[Höllischer Tadel]]              |
+| --------- |:---------------------------------------------:|:---------------------------------------------:|
+| Maximal   | <input type="checkbox" unchecked id="dabe36"> | <input type="checkbox" unchecked id="c0a200"> |
+| Aufladung |                [[Lange Rast]]                 |                [[Lange Rast]]                 |
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                                   | [[Hochsprung]] ohne Anlauf                                    | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
@@ -162,15 +175,15 @@ tags:
 ## Verteidigung
 > [!column] 
 >> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
+>> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW` `=this.Hintergrund.Klasse.Trefferwürfel`    | `=this.Gesundheit.TempTP`   |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
+>> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)+1` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 
 ## Angriff
 > [!column]
@@ -318,7 +331,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 >>
->> ## Schauerliche Anrufungen
+>> ## Schauerliche Anrufungen (max. `$=dv.page(dv.current().Hintergrund.Klasse).Bekannte_Anrufungen["Stufe"+dv.current().Stufe]`)
 >> ```dataview
 >> LIST
 >> FROM #Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen 

@@ -1,17 +1,15 @@
 ---
 Name: Jon "Verisus" Longbow
 Stufe: 4
-Glück: 0
-Erschöpfung: 0
 Bewegung: 6
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild: "[[Holzschild]]"
 Waffen:
-- "[[Langbogen]]"
-- "[[Leichte Armbrust]]"
-- "[[Kurzschwert]]"
-- "[[Krummsäbel]]"
-- "[[Dolch]]"
+  - "[[Langbogen]]"
+  - "[[Leichte Armbrust]]"
+  - "[[Kurzschwert]]"
+  - "[[Krummsäbel]]"
+  - "[[Dolch]]"
 Feinde: "[[Orks]]"
 Gesundheit:
   MaxTP: 39
@@ -51,11 +49,6 @@ Fertigkeiten:
   Überlebenskunst: 1
   Überzeugen: 0
   Wahrnehmung: 1
-Aufladungen:
-  Durchschnaufen: 1
-  Tatendrang: 1
-  Unbeugsamkeit: 0
-  Manöver: 4
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
@@ -81,7 +74,7 @@ Aussehen:
   Haarfarbe: Schwarz
   Hautfarbe: Weiß
 Merkmale:
-  Volk:
+  Volk: 
   Klasse:
     - "[[Durchschnaufen]]"
     - "[[Tatendrang]]"
@@ -99,14 +92,13 @@ Hintergrund:
   Hintergrund: "[[Söldner]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-  - Ich stelle mich Problemen frontal. Eine einfache, direkte Lösung ist der beste Weg zum Erfolg. Ich habe einen derben Sinn für Humor.
+    - Ich stelle mich Problemen frontal. Eine einfache, direkte Lösung ist der beste Weg zum Erfolg. Ich habe einen derben Sinn für Humor.
   Ideale: Leben und leben lassen. Ideale sind es nicht wert, dafür zu töten oder in den Krieg zu ziehen. (Neutral)
   Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
   Makel: Abneigung gegen militärische Führungspositionen / Autorität
 tags:
-- Charakter/GORN
+  - Charakter/GORN
 ---
-# `=this.file.name`
 
 > [!infobox]
 > ![[Jon.jpeg]]
@@ -121,6 +113,13 @@ tags:
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
 > |Feinde| `=this.Feinde`|
+> 
+> ## Todesrettungswürfe
+> |                      ❌                       |                       ✔                       |
+> |:---------------------------------------------:|:---------------------------------------------:|
+> | <input type="checkbox" unchecked id="54dec1"> | <input type="checkbox" unchecked id="aaa2d5"> |
+> | <input type="checkbox" unchecked id="1b59d7"> | <input type="checkbox" unchecked id="d8e3f7"> |
+> | <input type="checkbox" unchecked id="01e78d"> | <input type="checkbox" unchecked id="b533ca"> |
 > 
 > ## Aussehen
 > |  |  |
@@ -157,28 +156,43 @@ tags:
 > - Phandalin
 > 	- Magier getötet
 
-[[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
-[[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glückspunkte]]: `=this.Glück`
-[[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 
-## Bewegung
-| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
-| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ------------------------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
-
-## Verteidigung
-> [!column] 
->> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
->> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW` `=this.Hintergrund.Klasse.Trefferwürfel`    | `=this.Gesundheit.TempTP`   |
+# `=this.file.name`
+> [!column | 3 ]
+>>  ## Allgemeine Spiel - Parameter
+>> |  Eigenschaft  |  Wert  |  
+>> | :---: | :---: | 
+>> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
+>> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+>> 
+>> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+>> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+>> | [[Glück\|Glückspunkte]]  | <input type="checkbox" unchecked id="ecb03e"> |  <input type="checkbox" unchecked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
+>> | [[Erschöpft\|Erschöpfung]]       |  <input type="checkbox" unchecked id="73f4b5">  |  <input type="checkbox" unchecked id="0297f5"> |  <input type="checkbox" unchecked id="cd9aab">  |  <input type="checkbox" unchecked id="003cca">  | <input type="checkbox" unchecked id="949a4c">  |  <input type="checkbox" unchecked id="c1e92f">  |  <input type="checkbox" unchecked id="a2b7ed">  |  <input type="checkbox" unchecked id="89be6f">  |  <input type="checkbox" unchecked id="f1bb52">  |
 >
+>> ## Gesundheit
+>> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
+>> | ------- | ------------------------ | ------------------------ | --------------------------- |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
+>> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
+>> 
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>
+>> ## Bewegung
+>> | Gehen                                              | [[Spurt]]                                          | 
+>> | -------------------------------------------------- | -------------------------------------------------- |
+>> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
+>>
+>> | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             |
+>> | ---------------------------------------------------- | ------------------------------------------------------ |
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m |
+>>
+>> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
+>> | ----------------------------------------- | ------------------------------------------- |
+>> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Angriff
 > [!column]
@@ -240,6 +254,10 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> | [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |   `=floor(((this.Attribute.Intelligenz)-10)/2)`    |      `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`      |
 >> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
 >> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
+>>
+>><br />
+>>
+>> ![[so_true.jpg | 550]] 
 >
 >> ## Fertigkeiten
 >> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |
@@ -265,9 +283,9 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)`
 
-## Übung
+## Übung / Merkmale
 
-> [!column]
+> [!column | 3]
 >> ## Rüstung
 >> ```dataview
 >> LIST
@@ -299,9 +317,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Übung.Werkzeuge, file.link)
 >> SORT file.name
 >> ```
-
-## Merkmale
-> [!column]
+>
 >> ## Talente
 >> ```dataview
 >> LIST
@@ -309,7 +325,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Merkmale.Talente, file.link)
 >> SORT file.name
 >> ```
->
+>>
 >> ## Klassenmerkmale
 >> ```dataview
 >> LIST
@@ -323,14 +339,17 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Kampfmerkmale (Verbrauch)
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
->>| [[Durchschnaufen]] |    `=choice(this.Aufladungen.Durchschnaufen=1, "Ja", "Bereits verwendet")`   |
->>| [[Tatendrang]]             |    `=choice(this.Aufladungen.Tatendrang=1, "Ja", "Bereits verwendet")`     |
->>| [[Zusätzlicher Angriff]]  (Lv. 5) |   `=choice(this.Stufe>=5, "aktiv", "Noch nicht freigeschaltet")`     |
->>| [[Unbeugsamkeit]] (Lv. 9) |    `=choice(this.Aufladungen.Unbeugsamkeit=1, "Ja", "Noch nicht freigeschaltet")`     |
->>| [[Zusätzlicher Angriff]]  (Lv. 11) |    `=choice(this.Stufe>=11, "aktiv", "Noch nicht freigeschaltet")`      |
->>| [[Zusätzlicher Angriff]]  (Lv. 20) |    `=choice(this.Stufe=20, "aktiv", "Noch nicht freigeschaltet")`     |
+>>| [[Durchschnaufen]] | <input type="checkbox" unchecked id="3db231">|
+>>| [[Tatendrang]]             |   <input type="checkbox" unchecked id="435009">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 5) | <input type="checkbox" unchecked id="2392c6">|
+>>| [[Unbeugsamkeit]] (Lv. 9) |  <input type="checkbox" unchecked id="fe8cbd">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 11) |   <input type="checkbox" unchecked id="0c091f">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 20) |   <input type="checkbox" unchecked id="c2c6e3">|
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
+>>- **Gezielter Schuss**
+>>	**Auswirkung**: Erhöht Schaden um 10
+>>	**Verwendung**: Angriffswurf -5
 >>- **[[Durchschnaufen]]**
 >>	**Auswirkung**: Heilt den Charakter
 >>	**Verwendung**: 1x W10 + der Stufe des Kämpfers
@@ -345,7 +364,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Manöver (Verbrauch)
 >>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
->>| Überlegenheitswürfel | `=choice(this.Aufladungen.Manöver>=1, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=2, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=3, "Ja", "aufgebraucht")`  | `=choice(this.Aufladungen.Manöver>=4, "Ja", "aufgebraucht")`  | `=choice(this.Stufe>=7, choice(this.Aufladungen.Manöver>=5, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` | `=choice(this.Stufe>=15, choice(this.Aufladungen.Manöver>=6, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` |
+>>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">| <input type="checkbox" unchecked id="76d80f">   | <input type="checkbox" unchecked id="1e4943">|
 >>
 >> ## Aktuelle aktive Manöver
 >>- [[Kampfüberlegenheit#Schlag des Befehlshabers]]
@@ -405,14 +424,3 @@ Von da an schlug er sich als Jäger und Söldner durchs Leben und frönte seiner
 >>|||
 >>| ------------------ |:---------:|:---------:|:---------:|
 >>|**Regulärer Jon** <br/> ![[Jon.jpeg\|300]]| **Jon Longbow in Action** <br/> ![[Jon_Angriff.jpg\|300]]| **Verkleideter Long Jonbow**  <br/> ![[Jon_Rotbrenner.jpg\|300]]| **Toter Jon Longbow** <br/> ![[Jon_Tod.jpg\|300]]|
->
->>## Geschehnisse
->>| | | | | | | | |
->>| :--: |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
->>| **Vergangenheit**|**Kriege in ganz Faerûn** <br/><br/> ![[Krieg.jpeg \| 235]] |**Überfall auf Jon's Militär-Einheit durch Orks**<br/><br/> ![[Jons_Vergangenheit.jpeg \|235]] | | | | | |
->>|**Dracheninsel**| **Skelette am Strand besiegt**<br/> <br/> ![[Skelett_Krieger.jpeg \|235]]|**Harpyien auf dem zerstörten Schiff durch GORN besiegt**<br/><br/> ![[Schiff_Harpyien.jpeg \|235]]|**Zombies auf dem zerstörten Schiff besiegt**<br/><br/> ![[Schiff_Zombies.jpeg \|235]]|**Dampfdrachlinge am Strand besiegt**<br/> <br/> ![[Nebelmonster.jpeg \|235]]|**Riesen Schlange in der  Mykoniden Höhle durch GORN besiegt** <br/><br/> ![[Große_Schlange.jpeg \|235]]| **Kobolde erschossen**<br/> <br/> ![[Kobold_Geschwister.jpeg \|235]]|**Funkenschinder im Turm erschossen**<br/> ![[Funkenschinder.jpeg \|235]]|
->>| **Phandalin**| **Goblin Überfall abgewehrt**<br/> ![[Goblin_Hinterhalt.jpeg \|235]]|**Rotbrenner vor der Taverne bekämpft**<br/><br/> ![[Rotbrenner_Gruppe.jpeg \|235]] | **Böser Zauberer erschossen**<br/> <br/> ![[Phandalin_Zauberer.jpeg \|235]] | | | | | |
->>| | | | | | | | |
->>| | | | | | | | |
->>| | | | | | | | |
->>| | | | | | | | |

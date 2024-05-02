@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaSpeechBubbles",
       "RaFairyWand",
       "RaBladeBite",
       "RaDeadTree",
-      "RaDiamond",
-      "RaPerspectiveDiceOne"
+      "RaDiamond"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -23,7 +23,7 @@
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
-    "iconsBackgroundCheckEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
     "iconInFrontmatterFieldName": "icon",
@@ -41,5 +41,6 @@
   "Gegenstände": "RaDiamond",
   "Charaktere": "RaDeadTree",
   "GORN": "RaBladeBite",
-  "Zauber": "RaFairyWand"
+  "Zauber": "RaFairyWand",
+  "Sprachen": "RaSpeechBubbles"
 }

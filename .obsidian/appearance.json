@@ -11,6 +11,7 @@
   "monospaceFontFamily": "Victor Mono",
   "enabledCssSnippets": [
     "S - Encoded Fonts",
-    "S - Encoded Icons"
+    "S - Encoded Icons",
+    "customCSS"
   ]
 }

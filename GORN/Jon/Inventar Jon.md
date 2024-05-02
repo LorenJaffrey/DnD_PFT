@@ -1,10 +1,10 @@
 ---
 Charakter: "[[Jon]]"
-aliases:
-tags:
+aliases: 
+tags: 
 Geld:
   PM: 0
-  GM: 228
+  GM: 220
   EM: 0
   SM: 329
   KM: 92
@@ -46,14 +46,18 @@ Geld:
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
-## Rucksack
+ ## Rucksack
 | Gegenstand                                    | Anzahl | Gewicht | Gesamt |
 | --------------------------------------------- |:------:|:-------:|:------:|
 | [[Schlafsack]]                                |   1    |    7    |   7    |
 | [[Zunderkästchen]]                            |   1    |    1    |   1    |
+| Stofffetzen (Molotov Bestandteil)             |   2    |    0    |   0    |
+| Flasche Lampen-Öl (Molotov Bestandteil)       |   2    |    1    |   2    |
+| [[Heilerausrüstung]] (10/10) Anwendungen      |   1    |    1    |   1    |
+| [[Heilerausrüstung]] (10/10) Anwendungen      |   1    |    1    |   1    |
 | [[Reisegeschirr]]                             |   1    |    1    |   1    |
-| [[Fackel]]                                    |   8   |    1    |   10   |
-| [[Ration]] (5 Silber)                         |   15   |    1    |   15   |
+| [[Fackel]]                                    |   8    |    1    |   10   |
+| [[Ration]] (5 Silber)                         |   14   |    1    |   15   |
 | [[Trinkschlauch]]                             |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern                   |   12   |   0.6   |   9    |
 | [[Leichte Armbrust]] (loot)                   |   1    |    5    |   5    |
