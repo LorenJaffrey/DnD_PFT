@@ -3,7 +3,7 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 349
+  GM: 299
   EM: 0
   SM: 342
   KM: 95
@@ -52,16 +52,16 @@ Geld:
 | [[Ration]]                                                      |   9    |    1    |   9    |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
-| [[Beschlagene Lederrüstung]] (ranzig)                           |   1    |   13    |   13   |
 | [[Dolch]]                                                       |   5    |    1    |   5    |
-| Armbrust Bolzen                                                 |   30   |  0.075  |  2.25  |
+| Armbrust Bolzen                                                 |   28   |  0.075  |  2.1   |
 | [[Obsidianscherben]]                                            |   5    |  0.25   |  1.25  |
 | [[Gildenabzeichen]]                                             |   1    |    0    |   0    |
 | Baumels ekliger Eintopf (in Flasche)                            |   1    |   0.5   |  0.5   |
 | Edelsteine (durchsichtig, grün)                                 |   2    |    0    |   0    |
-| Edelsteine (undurchsichtig, rotbraun)                           |   5    |         |   0    |
-| Perle                                                           |   1    |         |   0    |
+| Edelsteine (undurchsichtig, rotbraun)                           |   5    |    0    |   0    |
+| Perle                                                           |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| GESAMT                                                          |        |         |   52   |
+| [[Heiltrank]]                                                   |   1    |   0.5   |  0.5   |
+| GESAMT                                                          |        |         | 39.35  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
