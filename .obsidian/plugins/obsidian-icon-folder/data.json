@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaDragon",
       "RaSpeechBubbles",
       "RaFairyWand",
       "RaBladeBite",
-      "RaDeadTree",
-      "RaDiamond"
+      "RaDeadTree"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,12 +35,12 @@
   "Ausrüstung/Edelsteine": "LiGem",
   "Ausrüstung/Getränke": "TiGlassFull",
   "Ausrüstung/Speisen": "TiMeat",
-  "Kampagne": "LiMap",
   "Bestiarium": "RaEyeMonster",
   "Regeln": "RaPerspectiveDiceOne",
   "Gegenstände": "RaDiamond",
   "Charaktere": "RaDeadTree",
   "GORN": "RaBladeBite",
   "Zauber": "RaFairyWand",
-  "Sprachen": "RaSpeechBubbles"
+  "Sprachen": "RaSpeechBubbles",
+  "Kampagne": "RaBladeBite"
 }
