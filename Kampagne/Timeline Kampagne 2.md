@@ -68,6 +68,13 @@ gantt
 
 > Hier befinden wir uns aktuell!
 
+Notes: Session 15.05.2024
+- nach der kurzen Rast
+- 4h bis mitternacht -> gehen zu der Zwergenausgrabung und schlagen nachtlager auf (halber weg geschafft)
+- lange rast -> 8h -> (8 Uhr)
+- 2h Weg zur Zwergenausgrabung
+- Zwergenausgrabung erkundet (paar Minuten)
+
 ### Tag 6
 ```mermaid
 gantt

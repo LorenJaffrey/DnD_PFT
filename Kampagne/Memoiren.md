@@ -70,3 +70,6 @@
 > **Ruinen/Zwergenausgrabung in der nähe von Phandalin**
 
 >[!timeline|t-l] **to be continued**
+
+Notiz:
+- böser schleim besiegt

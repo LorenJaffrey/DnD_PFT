@@ -97,11 +97,11 @@ Persönlichkeit:
   Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
   Makel: Abneigung gegen militärische Führungspositionen / Autorität
 GesundheitsAusrüstung:
-  Heilerausrüstung1: 10
+  Heilerausrüstung1: 9
   Heilerausrüstung2: 10
   Heiltränke: 0
 KurzeRast:
-  Uhrzeit1: 19:00
+  Uhrzeit1: 00:00
   Uhrzeit2: 00:00
 tags:
   - Charakter/GORN
@@ -169,7 +169,7 @@ tags:
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
 >> | :---: | :---: | :---: |
->> | [[Kurze Rast]]| <input type="checkbox" checked id="0675a7">| <input type="checkbox" unchecked id="f34473"> |
+>> | [[Kurze Rast]]| <input type="checkbox" unchecked id="0675a7">| <input type="checkbox" unchecked id="f34473"> |
 >> | Uhrzeit            | `INPUT[time():KurzeRast.Uhrzeit1]` | `INPUT[time():KurzeRast.Uhrzeit2]` |
 >>  
 >> |  Eigenschaft  |  Wert  |  

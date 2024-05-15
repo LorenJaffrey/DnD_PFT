@@ -57,7 +57,7 @@ Geld:
 | [[Heilerausrüstung]] #2                       |   1    |    1    |   1    |
 | [[Reisegeschirr]]                             |   1    |    1    |   1    |
 | [[Fackel]]                                    |   8    |    1    |   10   |
-| [[Ration]] (5 Silber)                         |   14   |    1    |   15   |
+| [[Ration]] (5 Silber)                         |   12   |    1    |   12   |
 | [[Trinkschlauch]]                             |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern                   |   12   |   0.6   |   9    |
 | [[Leichte Armbrust]] (loot)                   |   1    |    5    |   5    |
@@ -69,7 +69,7 @@ Geld:
 | blau durchsichtiger Edelstein                 |   1    |    0    |   0    |
 | [[Gildenabzeichen]]                           |   1    |    0    |   0    |
 | feine Laute mit Verzierungen                  |   1    |    2    |   2    |
-| [[Einfaches Bier (Flasche)]]                  |   3    |    1    |   3    |
+| [[Einfaches Bier (Flasche)]]                  |   2    |    1    |   3    |
 | [[Einfacher Wein (Flasche)]]                  |  0.5   |   1.5   |  0.75  |
 | Mantikor Klauen                               |   20   |  0.05   |   2    |
 | GESAMT                                        |        |         |  100   |
