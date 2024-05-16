@@ -73,6 +73,3 @@
 >![[Ooze.jpeg]] <br /> \*Wichtig: **STICH ES AB!**
 
 >[!timeline|t-l] **to be continued**
-
-Notiz:
-- böser schleim besiegt
