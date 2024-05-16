@@ -63,17 +63,10 @@ gantt
 		Reise zum Haderhügel: done, a5, after a4, 2.5h
 		Kampf mit den Mantikoren: done, milestone, a6, after a5, 30m
 		Kurze Rast: done, a7, after a6, 1h
-		Reise zur Zwergenausgrabung: 
+		Reise zur Zwergenausgrabung (halber Weg): done, a8, after a7, 4h
 ```
 
-> Hier befinden wir uns aktuell!
-
-Notes: Session 15.05.2024
-- nach der kurzen Rast
-- 4h bis mitternacht -> gehen zu der Zwergenausgrabung und schlagen nachtlager auf (halber weg geschafft)
-- lange rast -> 8h -> (8 Uhr)
-- 2h Weg zur Zwergenausgrabung
-- Zwergenausgrabung erkundet (paar Minuten)
+>
 
 ### Tag 6
 ```mermaid
@@ -83,10 +76,16 @@ gantt
 	tickinterval 1hour
 	weekday sunday
 	section G.O.R.N
-		-: a1, 2024-04-28 00:00, 
+		Lager aufgeschlagen: done, milestone, a1, 2024-04-28 00:00, 15m
+		Lange Rast: done, a2, after a1, 8h
+		Lager abgebaut & frühstücken: done, milestone, a3, after a2, 30m
+		Weiterreise zur Zwergenausgrabung: done, a4, after a3, 2h
+		Tempel des bösen Zwergengottes (Zwergenausgrabung) erreicht: done, milestone, a5, after a4, 0m
+		Tempel erkunden: done, a6, after a5, 15m
+		Kampf mit Schleim-Monstern: done, milestone, a7, after a6, 20m
 ```
 
->
+> Hier befinden wir uns aktuell!
 
 ### Tag 7
 ```mermaid
