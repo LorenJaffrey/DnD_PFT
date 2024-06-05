@@ -13,7 +13,7 @@ Waffen:
 Feinde: "[[Orks]]"
 Gesundheit:
   MaxTP: 39
-  TP: 39
+  TP: 38
   TW: 4
   TempTP: 0
 Attribute:

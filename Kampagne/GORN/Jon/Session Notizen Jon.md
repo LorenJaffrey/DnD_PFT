@@ -24,8 +24,8 @@ wichtigePersonen: |-
   >  - Anführer: **König Groll von Burg Cragmaw**
 
   #### Zwergenausgrabung
-  - Dazlin Grausplitter (Zwerg #1)
-  - Norbus Eisenrune (Zwerg #2)
+  - Dazlin Grausplitter (Zwerg #1) >> Tod
+  - Norbus Eisenrune (Zwerg #2) >> Tod
 
   #### Momentane Begleitung:
     - **Baumel** (Goblin)
@@ -68,7 +68,7 @@ todoListe: |-
     - [ ] Trank-Omi gewarnt -> Lohn von **Sildar** abholen
   - [ ] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
     - [ ] Zwerger gewarnt -> Lohn von **Sildar** abholen
-    - [ ] Tempel erkunden -> von den Zwergen als Lohn **Steine der Verständigung** bekommen
+    - [x] Tempel erkunden -> von den Zwergen als Lohn **Steine der Verständigung** bekommen
 wichtigeHintergrundInformationen: |-
   #### Neverwinter
   - #1 Mondsteinmaske -> berühmte Taverne

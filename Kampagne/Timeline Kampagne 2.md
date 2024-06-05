@@ -85,6 +85,14 @@ gantt
 		Kampf mit Schleim-Monstern: done, milestone, a7, after a6, 20m
 ```
 
+- Altar untersuchen, Geheimgang gefunden
+- Graben ein paar Stunden (2 - 3 Stunden)
+- Graben noch 1h -> Niptac wird verrückt
+- Aranon hat eine Falle ausgelöst und die beiden NPC Zwerge sind in der Explosion zerrissen **BOOOOOM**
+- paar Minuten wird der Raum mit den 2 zerstörten Statuten erkundet
+- 2h wird im Altarraum erkundet
+- beim rausgehen hört Jon Ork Rufe .. to be continued
+
 > Hier befinden wir uns aktuell!
 
 ### Tag 7
