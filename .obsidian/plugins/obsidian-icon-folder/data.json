@@ -1,9 +1,9 @@
 {
   "settings": {
-    "migrated": 4,
+    "migrated": 5,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
       "RaDragon",
@@ -29,7 +29,8 @@
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsInLinksEnabled": true,
-    "debugMode": false
+    "debugMode": false,
+    "iconInTitlePosition": "above"
   },
   "Monster Manual": "SiMonster",
   "Ausrüstung/Edelsteine": "LiGem",
@@ -41,6 +42,5 @@
   "Charaktere": "RaDeadTree",
   "GORN": "RaBladeBite",
   "Zauber": "RaFairyWand",
-  "Sprachen": "RaSpeechBubbles",
   "Kampagne": "RaBladeBite"
 }
