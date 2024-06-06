@@ -1,6 +1,6 @@
 ---
 tags:
-- Gegenstand/Nahrungsmittel/Getränk/Wein
+  - Gegenstand/Nahrungsmittel/Getränk/Wein
 Gewicht: 0.6
 Kosten: 4 KM
 Art: "[[Getränke#Wein]]"
