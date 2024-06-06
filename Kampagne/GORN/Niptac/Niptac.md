@@ -8,11 +8,11 @@ Niptac:
     - "[[Gnomisches Überbrückungskabel]]"
 Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
-Schild:
+Schild: 
 Waffen:
   - "[[Kurzschwert]]"
   - "[[Dolch]]"
-  - "[[Beil]]"
+  - "[[Axt]]"
   - "[[Schleuder]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:

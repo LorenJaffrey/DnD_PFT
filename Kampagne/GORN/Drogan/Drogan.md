@@ -1,13 +1,13 @@
 ---
 Stufe: 4
 Bewegung: 5
-Rüstung:
-Schild:
+Rüstung: 
+Schild: 
 Waffen:
-- "[[Streitaxt]]"
-- "[[Zweihandaxt]]"
-- "[[Beil]]"
-- "[[Wurfspeer]]"
+  - "[[Streitaxt]]"
+  - "[[Zweihandaxt]]"
+  - "[[Axt]]"
+  - "[[Wurfspeer]]"
 Gesundheit:
   MaxTP: 39
   TP: 20
