@@ -83,12 +83,12 @@ gantt
 		Tempel des bösen Zwergengottes (Zwergenausgrabung) erreicht: done, milestone, a5, after a4, 0m
 		Tempel erkunden: done, a6, after a5, 15m
 		Kampf mit Schleim-Monstern: done, milestone, a7, after a6, 20m
-		Altar untersuchen, Geheimgang gefunden: done, milestone, a8, after a7, 30m
-		Verschütteter Durchgang freilegen: done, milestone, a9, after a8, 3h
-		Weiter graben (Wahnsinn breitet sich aus): done, milestone, a10, after a9, 1h
+		Altar untersuchen, Geheimgang gefunden: done, a8, after a7, 30m
+		Verschütteter Durchgang freilegen: done, a9, after a8, 3h
+		Weiter graben (Wahnsinn breitet sich aus): done, a10, after a9, 1h
 		Aranon löst Falle aus: done, milestone, a11, after a10, 10m
-		Raum mit zerstörten Statuen untersuchen: done, milestone, a12, after a11, 30m
-		Altarraum nochmal untersuchen: done, milestone, a13, after a12, 2h
+		Raum mit zerstörten Statuen untersuchen: done, a12, after a11, 30m
+		Altarraum nochmal untersuchen: done, a13, after a12, 2h
 		GORN verlässt verfluchten Tempel: milestone, a14, after a13, 0m
 ```
 
