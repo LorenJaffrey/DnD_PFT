@@ -94,6 +94,8 @@ gantt
 
 > Hier befinden wir uns aktuell!
 
+- Kampf gegen Orks
+
 ### Tag 7
 ```mermaid
 gantt
