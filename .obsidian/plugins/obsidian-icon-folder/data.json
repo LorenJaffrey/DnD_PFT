@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RaDragon",
-      "RaSpeechBubbles",
-      "RaFairyWand",
-      "RaBladeBite",
-      "RaDeadTree"
+      "RaArcher",
+      "🏹",
+      "LiArchive",
+      "LiHome",
+      "RaDragon"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,7 @@
   "Charaktere": "RaDeadTree",
   "GORN": "RaBladeBite",
   "Zauber": "RaFairyWand",
-  "Kampagne": "RaBladeBite"
+  "Kampagne": "RaBladeBite",
+  "Kampagne/Backup Charakter": "LiArchive",
+  "Kampagne/GORN/Jon": "RaArcher"
 }
