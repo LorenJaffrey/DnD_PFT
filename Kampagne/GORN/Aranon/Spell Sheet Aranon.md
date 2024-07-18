@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 Charakter: "[[Aranon]]"
 Zaubertricks: 3
 Bekannte_Zauber: 4
