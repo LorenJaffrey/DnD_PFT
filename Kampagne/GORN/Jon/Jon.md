@@ -13,7 +13,7 @@ Waffen:
 Feinde: "[[Orks]]"
 Gesundheit:
   MaxTP: 39
-  TP: 29
+  TP: 0
   TW: 4
   TempTP: 0
 Attribute:
@@ -184,7 +184,7 @@ tags:
 >> 
 >> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
->> | [[Glück\|Glückspunkte]]  | <input type="checkbox" checked id="ecb03e"> |  <input type="checkbox" unchecked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
+>> | [[Glück\|Glückspunkte]]  | <input type="checkbox" checked id="ecb03e"> |  <input type="checkbox" checked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  <input type="checkbox" unchecked id="73f4b5">  |  <input type="checkbox" unchecked id="0297f5"> |  <input type="checkbox" unchecked id="cd9aab">  |  <input type="checkbox" unchecked id="003cca">  | <input type="checkbox" unchecked id="949a4c">  |  <input type="checkbox" unchecked id="c1e92f">  |  <input type="checkbox" unchecked id="a2b7ed">  |  <input type="checkbox" unchecked id="89be6f">  |  <input type="checkbox" unchecked id="f1bb52">  |
 >> 
 >> ![External Image Fighter Defense Meme | 250 ](https://i.pinimg.com/736x/bb/54/df/bb54df71e47582d8bf5cb332faedcd83.jpg)
@@ -319,7 +319,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Kampfmerkmale (Verbrauch)
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
->>| [[Durchschnaufen]] | <input type="checkbox" unchecked id="3db231">|
+>>| [[Durchschnaufen]] | <input type="checkbox" checked id="3db231">|
 >>| [[Tatendrang]]             |   <input type="checkbox" checked id="435009">|
 >>| [[Zusätzlicher Angriff]]  (Lv. 5) |  `=choice(this.Stufe > 4, "⭕", "❌")` <!--input type="checkbox" checked id="2392c6"-->  |
 >>| [[Unbeugsamkeit]] (Lv. 9) | `=choice(this.Stufe > 8, "⭕", "❌")`  <!--input type="checkbox" checked id="fe8cbd"-->|
@@ -344,7 +344,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Manöver (Verbrauch)
 >>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
->>|Überlegenheitswürfel| <input type="checkbox" checked id="232419">| <input type="checkbox" checked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">|  `=choice(this.Stufe > 6, "⭕", "❌")`<!--input type="checkbox" checked id="76d80f"-->   |  `=choice(this.Stufe > 14, "⭕", "❌")` <!--input type="checkbox" checked id="1e4943"-->|
+>>|Überlegenheitswürfel| <input type="checkbox" checked id="232419">| <input type="checkbox" checked id="2d18b0">| <input type="checkbox" checked id="a50c00"> | <input type="checkbox" checked id="b91c8c">|  `=choice(this.Stufe > 6, "⭕", "❌")`<!--input type="checkbox" checked id="76d80f"-->   |  `=choice(this.Stufe > 14, "⭕", "❌")` <!--input type="checkbox" checked id="1e4943"-->|
 >>
 >> ## Aktuelle aktive Manöver
 >>- [[Schlag des Befehlshabers]]

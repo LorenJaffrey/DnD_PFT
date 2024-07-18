@@ -51,8 +51,8 @@ Geld:
 | ------------------------------------------------------------------ |:------:|:-------:|:------:|
 | [[Schlafsack]]                                                     |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                                 |   1    |    1    |   1    |
-| Stofffetzen (Molotov Bestandteil)                                  |   2    |    0    |   0    |
-| Flasche Lampen-Öl (Molotov Bestandteil)                            |   2    |    1    |   2    |
+| Stofffetzen (Molotov Bestandteil)                                  |   1    |    0    |   0    |
+| Flasche Lampen-Öl (Molotov Bestandteil)                            |   1    |    1    |   2    |
 | [[Heilerausrüstung]] #1                                            |   1    |    1    |   1    |
 | [[Heilerausrüstung]] #2                                            |   1    |    1    |   1    |
 | [[Reisegeschirr]]                                                  |   1    |    1    |   1    |
