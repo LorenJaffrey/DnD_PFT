@@ -1,114 +1,95 @@
 ---
-Name: Jon "Verisus" Longbow
-Stufe: 4
+Name: Argo
+Stufe: 1
 Bewegung: 6
 Rüstung: "[[Beschlagene Lederrüstung]]"
-Schild: "[[Holzschild]]"
+Schild: 
 Waffen:
-  - "[[Langbogen]]"
-  - "[[Leichte Armbrust]]"
-  - "[[Kurzschwert]]"
-  - "[[Krummsäbel]]"
-  - "[[Dolch]]"
-Feinde: "[[Orks]]"
+Feinde: 
 Gesundheit:
-  MaxTP: 39
-  TP: 29
-  TW: 4
+  MaxTP: 9
+  TP: 9
+  TW: 1
   TempTP: 0
 Attribute:
-  Stärke: 12
-  Geschicklichkeit: 18
-  Konstitution: 14
-  Intelligenz: 8
-  Weisheit: 14
-  Charisma: 10
+  Stärke: 8
+  Geschicklichkeit: 13
+  Konstitution: 16
+  Intelligenz: 12
+  Weisheit: 10
+  Charisma: 17
 Rettungswürfe:
-  Stärke: 1
+  Stärke: 0
   Geschicklichkeit: 0
   Konstitution: 1
   Intelligenz: 0
   Weisheit: 0
-  Charisma: 0
+  Charisma: 1
 Fertigkeiten:
-  Akrobatik: 1
-  Arkane_Kunde: 0
-  Athletik: 1
+  Akrobatik: 0
+  Arkane_Kunde: 2
+  Athletik: 0
   Auftreten: 0
-  Einschüchtern: 1
+  Einschüchtern: 2
   Fingerfertigkeit: 0
   Geschichte: 0
   Heilkunde: 0
   Heimlichkeit: 0
   Mit_Tieren_umgehen: 0
-  Motiv_erkennen: 0
+  Motiv_erkennen: 1
   Nachforschungen: 0
   Naturkunde: 0
-  Religion: 0
-  Täuschen: 0
-  Überlebenskunst: 1
-  Überzeugen: 0
-  Wahrnehmung: 1
+  Religion: 1
+  Täuschen: 1
+  Überlebenskunst: 0
+  Überzeugen: 1
+  Wahrnehmung: 0
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
-    - "[[Orkisch]]"
+    - "[[Drakonisch]]"
   Werkzeuge:
-    - "[[Holzschnitzwerkzeuge]]"
-    - "[[Spiel|Spiele]]"
   Rüstungen:
-    - "[[Leichte Rüstung]]"
-    - "[[Mittelschwere Rüstung]]"
-    - "[[Schwere Rüstung|Schwerer Rüstung]]"
-    - "[[Schilde]]"
   Waffen:
-    - "[[Einfache Waffen]]"
-    - "[[Kriegswaffen]]"
+      - "[[Dolch]]"
+	  - "[[Wurfmesser]]"
+	  - "[[Schleuder]]"
+	  - "[[Kampfstab]]"
+	  - "[[Leichte Armbrust]]"
 Aussehen:
   Geschlecht: männlich
-  Alter: 29 Jahre
+  Alter: ? Jahre
   Größenkategorie: "[[Mittelgroß]]"
-  Größe: 180 cm
-  Gewicht: 198 Pfund
-  Augenfarbe: Grün
+  Größe: ? cm
+  Gewicht: ? Pfund
+  Augenfarbe: Blau
   Haarfarbe: Schwarz
-  Hautfarbe: Weiß
+  Hautfarbe: Schwarz
 Merkmale:
   Volk: 
+	  - "[[Odemwaffe]]"
+	  - "[[Drakonische Resistenz]]"
   Klasse:
-    - "[[Durchschnaufen]]"
-    - "[[Tatendrang]]"
-    - "[[Kampfüberlegenheit#Schlag des Befehlshabers]]"
-    - "[[Kampfüberlegenheit#Fällender Angriff]]"
-    - "[[Kampfüberlegenheit#Parieren]]"
+	  - "[[Windsprecher]]"
+	  - "[[Stürmische Magie]]"
   Talente:
-    - "[[Heiler]]"
-    - "[[Meisterschaft Bögen]]"
 Hintergrund:
-  Volk: "[[Menschen|Mensch]]"
-  Klasse: "[[Kämpfer]]"
-  Subklasse: "[[Kampfmeister]]"
+  Volk: "[[Drachenblütige|Drachenblütiger]]"
+  Klasse: "[[Zauberer]]"
+  Subklasse: "[[Sturmzauberei]]"
   Gesinnung: "[[Rechtschaffen Neutral]]"
-  Hintergrund: "[[Söldner]]"
+  Hintergrund: 
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-    - Ich stelle mich Problemen frontal. Eine einfache, direkte Lösung ist der beste Weg zum Erfolg. Ich habe einen derben Sinn für Humor.
-  Ideale: Leben und leben lassen. Ideale sind es nicht wert, dafür zu töten oder in den Krieg zu ziehen. (Neutral)
-  Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
-  Makel: Abneigung gegen militärische Führungspositionen / Autorität
-GesundheitsAusrüstung:
-  Heilerausrüstung1: 6
-  Heilerausrüstung2: 10
-  Heiltränke: 0
 KurzeRast:
   Uhrzeit1: 00:00
   Uhrzeit2: 00:00
 tags:
-  - Charakter/GORN
+  - Charakter/Backup Charakter
 ---
 
 > [!infobox]
-> ![[Jon.jpeg]]
+> ![[Argo.jpeg]]
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
@@ -148,28 +129,9 @@ tags:
 > `=this.Persönlichkeit.Bindungen`
 > ### Makel
 > `=this.Persönlichkeit.Makel`
-> ### Werdegang
-> - Alter: 5-12 ~ Ausbildung in Bogenschießen
-> - Alter: 13-17 Jahren ~ Soldaten Ausbildung/Training
-> - Alter: 18-28 ~ Teil einer Armee
-> - Alter: 29-? ~ Söldner/Abenteurer
-> - Dracheninsel erkundet
-> 	- Skelette getötet
-> 	- Riesen-Schlange/Echse
-> 	- blauen Drachen getötet
-> 	- Kobolde getötet
-> - Neverwinter
-> 	- Goblins getötet
-> - Phandalin
-> 	- Magier getötet
-> 
-> ### Spielstil
-> 
-> ![External Image Fighter Meme | 400](https://i.redd.it/wsmxgs5vctt21.jpg)
-> 
 
 
-# ![Dice Gif | 50](https://64.media.tumblr.com/d649fcbc7faec703ddd7eb7aeafd9961/tumblr_p3a80wrkZp1s60oo7o1_400.gif)  `=this.file.name`  "man hat von Ihm gehört!"
+#   `=this.file.name`  
 > [!column | 3 ]
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
@@ -184,10 +146,8 @@ tags:
 >> 
 >> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
->> | [[Glück\|Glückspunkte]]  | <input type="checkbox" checked id="ecb03e"> |  <input type="checkbox" unchecked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
+>> | [[Glück\|Glückspunkte]]  | <input type="checkbox" unchecked id="ecb03e"> |  <input type="checkbox" unchecked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  <input type="checkbox" unchecked id="73f4b5">  |  <input type="checkbox" unchecked id="0297f5"> |  <input type="checkbox" unchecked id="cd9aab">  |  <input type="checkbox" unchecked id="003cca">  | <input type="checkbox" unchecked id="949a4c">  |  <input type="checkbox" unchecked id="c1e92f">  |  <input type="checkbox" unchecked id="a2b7ed">  |  <input type="checkbox" unchecked id="89be6f">  |  <input type="checkbox" unchecked id="f1bb52">  |
->> 
->> ![External Image Fighter Defense Meme | 250 ](https://i.pinimg.com/736x/bb/54/df/bb54df71e47582d8bf5cb332faedcd83.jpg)
 >
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
@@ -199,13 +159,6 @@ tags:
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
->> 
->> ## Heiler Ausrüstung
->> | Ausrüstung | Verfügbare Verwendungen | Maximal |
->> | :----: | :----: | :----: |
->> | [[Heilerausrüstung]] #1 |  `INPUT[number():GesundheitsAusrüstung.Heilerausrüstung1]` |  10 |
->> | [[Heilerausrüstung]] #2 |  `INPUT[number():GesundheitsAusrüstung.Heilerausrüstung2]` |  10 |
->> | [[Heiltrank]]                          | `INPUT[number():GesundheitsAusrüstung.Heiltränke]`  |   `=this.GesundheitsAusrüstung.Heiltränke`   |
 >
 >> ## Bewegung
 >> | Gehen                                              | [[Spurt]]                                          | 
@@ -219,8 +172,6 @@ tags:
 >> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
 >> | ----------------------------------------- | ------------------------------------------- |
 >> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
->> 
->> ![External Image Running](https://i.gifer.com/7Iuq.gif)
 
 ## Stats
 > [!column ]
@@ -234,9 +185,6 @@ tags:
 >> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
 >> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
 >>
->><br />
->>
->> ![External Image Low Intelligence Meme | 300](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiISAjPo27NptIadxoh7Lb2EUjUGyq9l4qPDiWt6J7Gkf2KKwws4AJJrhv8_JK8IrIcYbpyjgej1VbqeYtDHyedGe-JPmw8_fS4N5w_j72E4NzZCKmcaKkqDTOZ4bZT78bZgWwIkxgp5Pq_/s1600/comic-7-5.png) ![External Image High Wisdom Meme | 335](https://i.imgflip.com/8vtszo.jpg)
 >
 >> ## Fertigkeiten
 >> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |  
@@ -317,60 +265,14 @@ Disclaimer: Waffen haben immer Übungsbonus...
 ## Aktionen
 >[!column | 3]
 >> ## Kampfmerkmale (Verbrauch)
->>| Merkmal            | Verfügbar |
->>| ------------------ |:---------:|
->>| [[Durchschnaufen]] | <input type="checkbox" unchecked id="3db231">|
->>| [[Tatendrang]]             |   <input type="checkbox" checked id="435009">|
->>| [[Zusätzlicher Angriff]]  (Lv. 5) |  `=choice(this.Stufe > 4, "⭕", "❌")` <!--input type="checkbox" checked id="2392c6"-->  |
->>| [[Unbeugsamkeit]] (Lv. 9) | `=choice(this.Stufe > 8, "⭕", "❌")`  <!--input type="checkbox" checked id="fe8cbd"-->|
->>| [[Zusätzlicher Angriff]]  (Lv. 11) |   `=choice(this.Stufe > 10, "⭕", "❌")` <!--input type="checkbox" checked id="0c091f"-->|
->>| [[Zusätzlicher Angriff]]  (Lv. 20) |   `=choice(this.Stufe > 19, "⭕", "❌")` <!--input type="checkbox" checked id="c2c6e3"-->|
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
->>- **Gezielter Schuss**
->>	**Auswirkung**: Erhöht Schaden um 10
->>	**Verwendung**: Angriffswurf -5
->>- **[[Durchschnaufen]]**
->>	**Auswirkung**: Heilt den Charakter
->>	**Verwendung**: 1x W10 + der Stufe des Kämpfers
->>	**Erholung**: kurze oder langen Rast
->>-  **[[Tatendrang]]**
->>	**Auswirkung**: Man kann nochmal im selben Zug  angreifen bzw. eine Aktion ausführen
->>	**Verwendung**: Kann 1 Mal verwendet werden
->>	**Erholung**: kurze oder langen Rast
->>- **[[Zusätzlicher Angriff]]**
->>	![External Meme Extra Attack Meme | 450 ](https://i.imgflip.com/8vtwwo.jpg)
 >
 >>## Manöver (Verbrauch)
->>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
->>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
->>|Überlegenheitswürfel| <input type="checkbox" checked id="232419">| <input type="checkbox" checked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">|  `=choice(this.Stufe > 6, "⭕", "❌")`<!--input type="checkbox" checked id="76d80f"-->   |  `=choice(this.Stufe > 14, "⭕", "❌")` <!--input type="checkbox" checked id="1e4943"-->|
 >>
 >> ## Aktuelle aktive Manöver
->>- [[Schlag des Befehlshabers]]
->>- [[Fällender Angriff]]
->>- [[Parade]]
 >>
 >>## Kurze Manöver Aktions-Beschreibung
->>- **[[Schlag des Befehlshabers]]**
->>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur seine Reaktion opfert, um  mit einem Waffen-Angriff angreifen zu können + bekommt zusätzlich Schadensbonus (Wert des Überlegenheitswürfels)
->>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
->> 
->>- **[[Fällender Angriff]]**
->>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
->>        **Verwendung**: Ziel ([[Groß]] oder kleiner) muss Stärkerettungswurf ablegen
->> 
->>- **[[Parade]]**
->>        **Auswirkung**: Schadensreduktion 
->>        **Verwendung**: Überlegenheitswürfel + Geschicklichkeitsmodifikator
->>
->>## Hinweis
->>- Überlegenheits-Würfel: W8
->>- Rettungswürfe gegen Manöver: `=8+ceil(this.Stufe/4)+1+min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)`
->>- Jedes Mal wenn neue Manöver erlernt werden, kann **EIN** altes Manöver durch ein anderes Manöver ausgetauscht werden
->>- Ab Level 7 stehen 5 aktive Manöver zur Verfügung 
->>- Ab Level 10 stehen 7 aktive Manöver zur Verfügung 
->>- Ab Level 15 stehen 9 aktive Manöver zur Verfügung
 >
 >> ```dataviewjs
 >> const merkmale = dv.current().Merkmale.Talente; 
@@ -382,10 +284,6 @@ Disclaimer: Waffen haben immer Übungsbonus...
 ## Übung / Merkmale
 > [!column | 3]
 >> ## Rüstung
->> - [[Leichte Rüstung]]
->> - [[Mittelschwere Rüstung|Mittelschwerer Rüstung]]
->> - [[Schwere Rüstung]]
->> - [[Schilde]]
 >> 
 >> ## Waffen
 >> ```dataview
