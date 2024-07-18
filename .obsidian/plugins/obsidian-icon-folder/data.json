@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBanana",
       "RaArcher",
       "🏹",
       "LiArchive",
-      "LiHome",
-      "RaDragon"
+      "LiHome"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,9 @@
   "Zauber": "RaFairyWand",
   "Kampagne": "RaBladeBite",
   "Kampagne/Backup Charakter": "LiArchive",
-  "Kampagne/GORN/Jon": "RaArcher"
+  "Kampagne/GORN/Jon": "RaArcher",
+  "Kampagne/GORN/Niptac": {
+    "iconName": "LiBanana",
+    "iconColor": "#8454de"
+  }
 }
