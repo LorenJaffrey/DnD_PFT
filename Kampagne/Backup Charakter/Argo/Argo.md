@@ -1,11 +1,11 @@
 ---
-Name: Argo
 Stufe: 1
 Bewegung: 6
-Rüstung: "[[Beschlagene Lederrüstung]]"
+Rüstung: 
 Schild: 
 Waffen:
-Feinde: 
+  - "[[Kampfstab]]"
+  - "[[Dolch]]"
 Gesundheit:
   MaxTP: 9
   TP: 9
@@ -38,7 +38,7 @@ Fertigkeiten:
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 1
   Nachforschungen: 0
-  Naturkunde: 0
+  Naturkunde: 1
   Religion: 1
   Täuschen: 1
   Überlebenskunst: 0
@@ -47,45 +47,47 @@ Fertigkeiten:
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
+    - "[[Urtümlich]]"
     - "[[Drakonisch]]"
   Werkzeuge:
   Rüstungen:
   Waffen:
-      - "[[Dolch]]"
-	  - "[[Wurfmesser]]"
-	  - "[[Schleuder]]"
-	  - "[[Kampfstab]]"
-	  - "[[Leichte Armbrust]]"
+    - "[[Dolch]]"
+    - "[[Wurfmesser]]"
+    - "[[Kampfstab]]"
+    - "[[Leichte Armbrust]]"
 Aussehen:
   Geschlecht: männlich
-  Alter: ? Jahre
+  Alter: 0 Jahre
   Größenkategorie: "[[Mittelgroß]]"
-  Größe: ? cm
-  Gewicht: ? Pfund
+  Größe: 0 cm
+  Gewicht: 0 Pfund
   Augenfarbe: Blau
   Haarfarbe: Schwarz
   Hautfarbe: Schwarz
 Merkmale:
-  Volk: 
-	  - "[[Odemwaffe]]"
-	  - "[[Drakonische Resistenz]]"
+  Volk:
+    - "[[Odemwaffe]]"
+    - "[[Drakonische Resistenz]]"
   Klasse:
-	  - "[[Windsprecher]]"
-	  - "[[Stürmische Magie]]"
+    - "[[Windsprecher]]"
+    - "[[Stürmische Magie]]"
   Talente:
 Hintergrund:
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
   Gesinnung: "[[Rechtschaffen Neutral]]"
-  Hintergrund: 
+  Hintergrund: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-KurzeRast:
-  Uhrzeit1: 00:00
-  Uhrzeit2: 00:00
+    - tbd
+  Ideale: tbd
+  Bindungen: tbd
+  Makel:
+    - tbd
 tags:
-  - Charakter/Backup Charakter
+  - Charakter/GORN
 ---
 
 > [!infobox]
@@ -93,14 +95,12 @@ tags:
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
-> |Name|`=this.Name`|
 > | Stufe | `=this.Stufe` |
 > | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
 > | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
-> |Feinde| `=this.Feinde`|
 > 
 > ## Todesrettungswürfe
 > |                      ❌                       |                       ✔                       |
@@ -258,28 +258,12 @@ tags:
 >> SORT file.name
 >> ```
 >
->> ![External Image Fighter Waiting Meme | 450](https://www.enworld.org/attachments/1670280997283-png.268831/)
 
 Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Aktionen
 >[!column | 3]
->> ## Kampfmerkmale (Verbrauch)
->>
->>## Kurze Kampfmermal Aktions-Beschreibung
 >
->>## Manöver (Verbrauch)
->>
->> ## Aktuelle aktive Manöver
->>
->>## Kurze Manöver Aktions-Beschreibung
->
->> ```dataviewjs
->> const merkmale = dv.current().Merkmale.Talente; 
->> for (var i = 0, j = merkmale.length; i < j; i++) {
->> 	dv.span("![[" + dv.page(merkmale[i]).file.name + " | no-title]]");
->> }
->> ```
 
 ## Übung / Merkmale
 > [!column | 3]
@@ -326,33 +310,6 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```
 
 ## Aussehen
-- schlank
-- athletisch
-- gut aussehend
-- leichter Bartwuchs
+
 
 ## Hintergrundgeschichte
-
-### Kindheit & Ausbildung bei der Armee
-
-Jon Longbow wurde in eine Familie von Soldaten geboren, die in der königlichen Armee dienten. Sein Vater war ein bekannter General, und seine Mutter war eine erfahrene Bogenschützin, die Soldaten im Bogenschießen ausbildete. Während seiner Kindheit war Jon von den Fähigkeiten seiner Mutter im Bogenschießen fasziniert und verbrachte die meiste Zeit damit, mit Pfeil und Bogen zu üben.
-Im Alter von achtzehn Jahren trat Jon der Armee bei und trainierte hart, um ein Experte im Bogenschießen zu werden. Er stieg schnell in den Rängen auf und wurde zum Spezialisten im Bogenschießen. Sein natürliches Talent verdiente ihm den Spitznamen "Longbow" unter seinen Mitkämpfern.
-Jons derber Sinn für Humor und seine Angewohnheit Fehler lieber zu leugnen als sie zuzugeben oder Entschuldigungen zu finden brachte ihn oft in Schwierigkeiten mit seinen Vorgesetzten. Während des Trainings machte er oft sarkastische Bemerkungen, die seine Ausbilder nervten, aber seine Mitkämpfer amüsierten.
-
-### Kampagne gegen die Orks
-
-Während einer Mission, um ein Dorf von raubenden Orks zu befreien, wurden Jon und seine Kameraden überfallen. Die Orks waren wilde Kämpfer, und die Schlacht war brutal und blutig. Im Chaos des Kampfes wurde Jons bester Freund und Mitbogenschütze von einem Ork getötet. Jon war von dem Verlust seines Freundes am Boden zerstört und fühlte sich für dessen Tod verantwortlich. Er wurde von Wut und einem Verlangen nach Rache gegenüber den Orks erfüllt. Er begann, sie als nichts weiter als blutrünstige Monster zu sehen, unfähig zu vernünftigem Handeln oder Mitgefühl. Als Jon weiterhin im Militär diente, traf er mehrmals auf Orks, und jede Begegnung diente nur dazu, seinen Hass zu schüren. Er sah sie als Bedrohung für die Menschheit und glaubte, dass sie ausgelöscht werden mussten.
-Er hatte oft Schwierigkeiten, seine Emotionen im Umgang mit Orks zu kontrollieren und würde oft ohne Vorwarnung auf sie losgehen, selbst wenn er damit sich selbst und seine Kameraden in Gefahr brachte.
- 
-### Entlassung aus der Armee
-
-Nachdem er viele Jahre in der Armee gedient hatte, wurde Jon Longbow zunehmend desillusioniert vom Militärleben. Die Handlungen die er im Auftrag seiner Vorgesetzten durchführen musste waren im immer mehr zuwider und widersprachen seinem persönlichen Ehrempfinden. Als er eines Tages den direkten Befehl eines vorgesetzten Offiziers missachtete, wurde er für seine Insubordination ausgepeitscht und unehrenhaft aus dem Militärdienst entlassen. Sehr zum Missfallen seines Vaters.
-Von da an schlug er sich als Jäger und Söldner durchs Leben und frönte seiner Liebe zu Frauen und Alkohol um die schrecklichen Alpträume an seine verstümmelten und zerstückelten Kameraden zu verdrängen die ihn des Nachts wach halten...
-
-
-
-##  Bilder
->>## Jon
->>|||
->>| ------------------ |:---------:|:---------:|:---------:|
->>|**Regulärer Jon** <br/> ![[Jon.jpeg\|300]]| **Jon Longbow in Action** <br/> ![[Jon_Angriff.jpg\|300]]| **Verkleideter Long Jonbow**  <br/> ![[Jon_Rotbrenner.jpg\|300]]| **Toter Jon Longbow** <br/> ![[Jon_Tod.jpg\|300]]|
