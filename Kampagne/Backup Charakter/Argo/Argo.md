@@ -1,6 +1,6 @@
 ---
 Name: Argo
-Stufe: 2
+Stufe: 3
 Bewegung: 6
 Rüstung: 
 Schild: 
@@ -8,9 +8,9 @@ Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
 Gesundheit:
-  MaxTP: 14
-  TP: 14
-  TW: 2
+  MaxTP: 19
+  TP: 19
+  TW: 3
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -279,6 +279,10 @@ tags:
 >>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
 >>
 >> ![[Odemwaffe]]
+>> 
+>> ### Metamagie
+>> ![[Weitreichender Zauber]]
+>> ![[Zielsuchzauber]]
 > 
 >> ## Zaubertricks
 >> ```dataview
