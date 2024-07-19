@@ -3,7 +3,7 @@ Charakter: "[[Argo]]"
 Zaubertricks: 4
 Bekannte_Zauber: 2
 Zauberplätze:
-  Grad_1: 2
+  Grad_1: 3
   Grad_2: 0
   Grad_3: 0
   Grad_4: 0
@@ -12,7 +12,7 @@ Zauberplätze:
   Grad_7: 0
   Grad_8: 0
   Grad_9: 0
-Zauberpunkte: 4
+Zauberpunkte: 6
 Zauber:
   - "[[Windbö]]"
   - "[[Schockgriff]]"
@@ -20,6 +20,7 @@ Zauber:
   - "[[Kältestrahl]]"
   - "[[Hexenpfeil]]"
   - "[[Schild]]"
+  - "[[Chaospfeil]]"
 ---
 # `=this.file.name`
 

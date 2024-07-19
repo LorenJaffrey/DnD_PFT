@@ -1,6 +1,6 @@
 ---
 Name: Argo
-Stufe: 1
+Stufe: 2
 Bewegung: 6
 Rüstung: 
 Schild: 
@@ -8,9 +8,9 @@ Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
 Gesundheit:
-  MaxTP: 9
-  TP: 9
-  TW: 1
+  MaxTP: 14
+  TP: 14
+  TW: 2
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -96,6 +96,7 @@ Zauber:
   - "[[Kältestrahl]]"
   - "[[Hexenpfeil]]"
   - "[[Schild]]"
+  - "[[Chaospfeil]]"
 tags:
   - Charakter/GORN
 ---
