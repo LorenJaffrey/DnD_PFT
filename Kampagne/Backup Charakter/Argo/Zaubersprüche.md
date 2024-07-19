@@ -22,9 +22,6 @@ Zauber:
 ---
 # `=this.file.name`
 
-Zauber:
-  - [[Schild]] (Players Handbook, Seite: 260)
-
 > [!infobox]
 > ###### Zauber wirken
 > [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=Math.ceil((dv.page(dv.current().Charakter).Stufe/4)+1)+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`

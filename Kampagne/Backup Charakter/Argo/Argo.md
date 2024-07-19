@@ -261,7 +261,18 @@ tags:
 
 ## Aktionen
 >[!column | 3]
->
+>> ### Blitz-Odem
+>>  - Schadensart: Blitz
+>>  - Reichweite: `=1.5*9` m (Linie)
+>>  - Schaden: `=8+(floor(((this.Attribute.Stärke)-10)/2))+(ceil(this.Stufe/4)+1)`
+>>  - Rettungswurf: [[Geschicklichkeit]] 
+>>    
+>>| Merkmal            | Verfügbar |
+>>| ------------------ |:---------:|
+>>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
+>>
+>> ![[Odemwaffe]]
+> 
 
 ## Übung / Merkmale
 > [!column | 3]
