@@ -1,6 +1,6 @@
 ---
 Name: Argo
-Stufe: 3
+Stufe: 4
 Bewegung: 6
 Rüstung: 
 Schild: 
@@ -8,9 +8,9 @@ Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
 Gesundheit:
-  MaxTP: 19
-  TP: 19
-  TW: 3
+  MaxTP: 23
+  TP: 23
+  TW: 4
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -18,7 +18,7 @@ Attribute:
   Konstitution: 16
   Intelligenz: 12
   Weisheit: 10
-  Charisma: 17
+  Charisma: 18
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -74,6 +74,7 @@ Merkmale:
     - "[[Windsprecher]]"
     - "[[Stürmische Magie]]"
   Talente:
+  - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
@@ -97,6 +98,9 @@ Zauber:
   - "[[Hexenpfeil]]"
   - "[[Schild]]"
   - "[[Chaospfeil]]"
+  - "[[Botschaft]]"
+  - "[[Schutzwind]]"
+  - "[[Spiegelbilder]]"
 tags:
   - Charakter/GORN
 ---
@@ -376,7 +380,7 @@ tags:
 >> WHERE contains(this.Übung.Waffen, file.link) 
 >> SORT file.name
 >> ```
->
+>>
 >> ## Sprachen
 >> ```dataview
 >> LIST
@@ -401,6 +405,8 @@ tags:
 >> SORT file.name
 >> ```
 >>
+>> ![[Kampferprobter Zauberwirker]]
+>
 >> ## Klassenmerkmale
 >> ```dataview
 >> LIST
@@ -408,6 +414,8 @@ tags:
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```
+>> 
+>> ![[Stürmische Magie]]
 
 ## Hintergrundgeschichte
 
