@@ -1,5 +1,15 @@
 ---
-aliases:
+aliases: metamagie
+Zauberkosten:
+	Stufe1: 2
+	Stufe2: 3
+	Stufe3: 5
+	Stufe4: 6
+	Stufe5: 7
+	Stufe6: 9
+	Stufe7: 10
+	Stufe8: 11
+	Stufe9: 13
 tags:
 - Merkmal/Klasse/Zauberer
 ---
