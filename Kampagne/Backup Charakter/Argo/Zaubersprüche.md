@@ -3,8 +3,8 @@ Charakter: "[[Argo]]"
 Zaubertricks: 4
 Bekannte_Zauber: 2
 Zauberplätze:
-  Grad_1: 4
-  Grad_2: 3
+  Grad_1: 2
+  Grad_2: 0
   Grad_3: 0
   Grad_4: 0
   Grad_5: 0
@@ -13,14 +13,17 @@ Zauberplätze:
   Grad_8: 0
   Grad_9: 0
 Zauber:
-  - "[[Frostbite]]"
-  - "[[Shape Water]]"
-  - "[[Shocking Grasp]]"
-  - "[[Thunderclap]]"
-  - "[[Shield]]"
-  - "[[Donnerwoge|Thunderwave]]"
+  - "[[Windbö]]"
+  - "[[Schockgriff]]"
+  - "[[Donnerschlag]]"
+  - "[[Kältestrahl]]"
+  - "[[Hexenpfeil]]"
+  - "[[Schild]]"
 ---
 # `=this.file.name`
+
+Zauber:
+  - [[Schild]] (Players Handbook, Seite: 260)
 
 > [!infobox]
 > ###### Zauber wirken
@@ -29,7 +32,7 @@ Zauber:
 > ###### Bekannte Zauber
 > Zauberattribut: `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut`
 > Zaubertricks: `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad0`
-> Bekannte Zauber: `$=if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Art_Bekannte_Zauber=="Tabelle"){dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Bekannte_Zauber["Stufe"+dv.page(dv.current().Charakter).Stufe]}else{if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).file.name=="Paladin"){dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)/2}else{dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)}}` 
+> Bekannte Zauber: `$=if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Art_Bekannte_Zauber=="Tabelle"){dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Bekannte_Zauber["Stufe"+dv.page(dv.current().Charakter).Stufe]}else{if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).file.name=="Paladin"){dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)/2}else{dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)}}`  
 >---
 > ###### Zauberplätze
 > | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |

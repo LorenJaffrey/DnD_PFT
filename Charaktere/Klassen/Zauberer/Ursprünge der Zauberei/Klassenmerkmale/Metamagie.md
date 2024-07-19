@@ -17,7 +17,7 @@ Wenn du einen Zauber wirkst, der andere Kreaturen dazu zwingt, einen Rettungswur
 Wenn du den Schaden eines Zauberspruchs auswürfelst, kannst du 1 Zaubereipunkt ausgeben, um eine Anzahl von Würfeln bis zur Höhe deines Charismamodifikators (mindestens 1) erneut zu würfeln. Die neuen Ergebnisse musst du verwenden. Du kannst Mächtiger Zauber anwenden, auch wenn du den ursprünglichen Zauber bereits mit einer anderen metamagischen Option gewirkt hast.
 
 ## VERLÄNGERTER ZAUBER 
-Wenn du einen Zauber wirkst, der eine Wirkdauer von Minute oder länger besitzt, kannst du 1 Zaubereipunkt 1 um seine Wirkdauer bis zu einem Maximum von ausgeben, 24 Stunden zu verdoppeln
+Wenn du einen Zauber wirkst, der eine Wirkdauer von Minute oder länger besitzt, kannst du 1 Zaubereipunkt um seine Wirkdauer bis zu einem Maximum von ausgeben 24 Stunden zu verdoppeln
 
 ## KONZENTRIERTER ZAUBER 
 Wenn du einen Zauber wirkst, der eine Kreatur dazu zwingt. einen Rettungswurf abzulegen, um den Effekten des Spruches zu widerstehen kannst du; Zaubereipunkte ausgeben damit eines der Ziele des Zaubers bei seinem ersten Rettungswurf im Nachteil ist,
