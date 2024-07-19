@@ -1,4 +1,5 @@
 ---
+Name: Argo
 Stufe: 1
 Bewegung: 6
 Rüstung: 
@@ -60,11 +61,11 @@ Aussehen:
   Geschlecht: männlich
   Alter: 19 Jahre
   Größenkategorie: "[[Mittelgroß]]"
-  Größe: 0 cm
-  Gewicht: 0 Pfund
+  Größe: 200 cm
+  Gewicht: 120 Kilo
   Augenfarbe: Blau
-  Haarfarbe: Schwarz
-  Hautfarbe: Schwarz
+  Haarfarbe: Dunkel Blau
+  Hautfarbe: Blau
 Merkmale:
   Volk:
     - "[[Odemwaffe]]"
@@ -81,11 +82,13 @@ Hintergrund:
   Hintergrund: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-    - tbd
-  Ideale: tbd
-  Bindungen: tbd
+    - <ul><b>Respekt vor der Natur</b></ul>Argo empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
+  Ideale: 
+    - <ul><b>Gleichgewicht</b></ul>Das Gleichgewicht der Natur und der Elemente ist das höchste Gut und muss um jeden Preis bewahrt werden.
+  Bindungen:
+    - <ul><b>Tempestus-Kristall</b></ul>Die Fragmente des Kristalls sind für ihn mehr als nur ein Ziel; sie sind heilige Objekte, die er mit größtem Respekt behandelt.
   Makel:
-    - tbd
+    - <ul><b>Unbarmherzigkeit</b></ul>Im Kampf um das Gleichgewicht der Natur kann Argo unbarmherzig und kompromisslos sein, was ihm Feinde einbringen kann.
 Zauber:
   - "[[Windbö]]"
   - "[[Schockgriff]]"
@@ -118,8 +121,8 @@ tags:
 > | Größe | `=this.Aussehen.Größe` |
 > | Gewicht | `=this.Aussehen.Gewicht` |
 > | Augenfarbe | `=this.Aussehen.Augenfarbe` |
-> | Haarfarbe | `=this.Aussehen.Haarfarbe` |
-> | Hautfarbe | `=this.Aussehen.Hautfarbe` |
+> | Hornfarbe | `=this.Aussehen.Haarfarbe` |
+> | Schuppenfarbe | `=this.Aussehen.Hautfarbe` |
 >
 > ### Persönlichkeitsmerkmale 
 > `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
@@ -401,7 +404,23 @@ tags:
 >> SORT file.name
 >> ```
 
-## Aussehen
-
-
 ## Hintergrundgeschichte
+
+**Argo Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Argo war der einzige Drachengeborene unter ihnen.
+
+Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Argo wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
+
+Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Argo in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Argos Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
+
+Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
+
+1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
+
+Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Argo besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
+
+Von dieser Vision tief bewegt, verließ Argo die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
+
+Argos Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Argo weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
