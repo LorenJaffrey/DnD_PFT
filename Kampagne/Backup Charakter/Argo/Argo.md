@@ -58,7 +58,7 @@ Fertigkeiten:
     - "[[Leichte Armbrust]]"
 Aussehen:
   Geschlecht: männlich
-  Alter: 0 Jahre
+  Alter: 19 Jahre
   Größenkategorie: "[[Mittelgroß]]"
   Größe: 0 cm
   Gewicht: 0 Pfund
@@ -108,13 +108,6 @@ tags:
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
-> 
-> ## Todesrettungswürfe
-> |                      ❌                       |                       ✔                       |
-> |:---------------------------------------------:|:---------------------------------------------:|
-> | <input type="checkbox" unchecked id="54dec1"> | <input type="checkbox" unchecked id="aaa2d5"> |
-> | <input type="checkbox" unchecked id="1b59d7"> | <input type="checkbox" unchecked id="d8e3f7"> |
-> | <input type="checkbox" unchecked id="01e78d"> | <input type="checkbox" unchecked id="b533ca"> |
 > 
 > ## Aussehen
 > |  |  |
@@ -166,6 +159,9 @@ tags:
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>
+>>## Resistenz
+>> - Blitz
 >
 >> ## Bewegung
 >> | Gehen                                              | [[Spurt]]                                          | 
