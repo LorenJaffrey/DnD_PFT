@@ -86,6 +86,13 @@ Persönlichkeit:
   Bindungen: tbd
   Makel:
     - tbd
+Zauber:
+  - "[[Windbö]]"
+  - "[[Schockgriff]]"
+  - "[[Donnerschlag]]"
+  - "[[Kältestrahl]]"
+  - "[[Hexenpfeil]]"
+  - "[[Schild]]"
 tags:
   - Charakter/GORN
 ---
@@ -211,7 +218,7 @@ tags:
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 
 ## Angriff
-> [!column | 3]
+> [!column | 2]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -260,7 +267,7 @@ tags:
 >
 
 ## Aktionen
->[!column | 3]
+>[!column | 2]
 >> ### Blitz-Odem
 >>  - Schadensart: Blitz
 >>  - Reichweite: `=1.5*9` m (Linie)
@@ -273,6 +280,86 @@ tags:
 >>
 >> ![[Odemwaffe]]
 > 
+>> ## Zaubertricks
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=0
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 1
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=1
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 2
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=2
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 3
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=3
+>> SORT file.name
+>> ```
+>
 
 ## Übung / Merkmale
 > [!column | 3]
