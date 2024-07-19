@@ -131,7 +131,7 @@ tags:
 > `=this.Persönlichkeit.Makel`
 
 
-#   `=this.file.name`  
+#   `=this.file.name`  Sturmzorn
 > [!column | 3 ]
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
@@ -258,8 +258,6 @@ tags:
 >> SORT file.name
 >> ```
 >
-
-Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Aktionen
 >[!column | 3]
