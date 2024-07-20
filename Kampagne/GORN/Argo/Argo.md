@@ -105,9 +105,6 @@ tags:
   - Charakter/GORN
 ---
 
-[[Zauberangriffswürfe|Zauberangriffsbonus]]:  `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
-[[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
-
 > [!infobox]
 > ![[Argo.jpeg]]
 > ## Hintergrund
