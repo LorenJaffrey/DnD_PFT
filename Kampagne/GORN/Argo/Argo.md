@@ -288,8 +288,8 @@ tags:
 >>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
 >> 
 >> ### Metamagie
->> ![[Weitreichender Zauber]]
->> ![[Zielsuchzauber]]
+>> ![[Verlängerter Zauber]]
+>> ![[Gespiegelter Zauber]]
 > 
 >> ## Zaubertricks
 >> ```dataview

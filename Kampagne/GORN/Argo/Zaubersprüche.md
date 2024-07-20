@@ -79,8 +79,8 @@ Metamagie:
 
 ## Metamagie
 
-![[Weitreichender Zauber]]
-![[Zielsuchzauber]]
+![[Verlängerter Zauber]]
+![[Gespiegelter Zauber]]
 
 ## Zaubertricks
 ```dataview
