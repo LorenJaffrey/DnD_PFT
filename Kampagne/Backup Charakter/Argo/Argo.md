@@ -271,7 +271,7 @@ tags:
 >
 
 ## Aktionen
->[!column | 2]
+>[!column | 2 ]
 >> ### Blitz-Odem
 >>  - Schadensart: Blitz
 >>  - Reichweite: `=1.5*9` m (Linie)
@@ -294,11 +294,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
@@ -314,11 +315,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
@@ -334,11 +336,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
@@ -354,11 +357,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
