@@ -169,11 +169,6 @@ tags:
 >>>> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >>>> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 >>>
->>>>  ## Zauber wirken
->>>>  Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
->>>> [[Zauberangriffswürfe|Zauberangriffsbonus]]:  `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
->>>> [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
->>>
 >>>>## Resistenz
 >>>> - Blitz
 >
@@ -201,6 +196,11 @@ tags:
 >> | [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |   `=floor(((this.Attribute.Intelligenz)-10)/2)`    |      `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`      |
 >> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
 >> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
+>>
+>>  ## Zauber wirken
+>>  Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
+>> [[Zauberangriffswürfe|Zauberangriffsbonus]]:  `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
+>> [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
 >>
 >
 >> ## Fertigkeiten
@@ -278,17 +278,14 @@ tags:
 
 ## Aktionen
 >[!column | 2 ]
->>>[!column | 2 ] ### Blitz-Odem
->>>>  - Schadensart: Blitz
->>>>  - Reichweite: `=1.5*9` m (Linie)
->>>>  - Schaden: `=8+(floor(((this.Attribute.Stärke)-10)/2))+(ceil(this.Stufe/4)+1)`
->>>>  - Rettungswurf: [[Geschicklichkeit]] 
->>>    
->>>>| Merkmal            | Verfügbar |
->>>>| ------------------ |:---------:|
->>>>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
->>
->> ![[Odemwaffe]]
+>> ### Blitz-Odem
+>>|  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad]]  |   [[Rettungswurf]] |  Erholung  |
+>>| ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>| [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | `=1.5*9` m |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>>    
+>>| Merkmal            | Verfügbar |
+>>| ------------------ |:---------:|
+>>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
 >> 
 >> ### Metamagie
 >> ![[Weitreichender Zauber]]
