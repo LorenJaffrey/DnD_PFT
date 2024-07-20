@@ -1,6 +1,7 @@
 ---
 aliases:
 - Zauberin
+- Zauberer
 tags:
 - Klasse
 Art: Zauberwirker
