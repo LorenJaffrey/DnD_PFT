@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RaLightningStorm",
-      "RaSkullTrophy",
-      "LiBanana",
-      "RaArcher",
-      "🏹"
+      "RaRuneStone",
+      "RaDeathSkull",
+      "LiSkull",
+      "RaFire",
+      "RaWolfHead"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,10 +44,30 @@
   "Zauber": "RaFairyWand",
   "Kampagne": "RaBladeBite",
   "Kampagne/Backup Charakter": "LiArchive",
-  "Kampagne/GORN/Jon": "RaSkullTrophy",
   "Kampagne/GORN/Niptac": {
     "iconName": "LiBanana",
     "iconColor": "#8454de"
   },
-  "Kampagne/Backup Charakter/Argo": "RaLightningStorm"
+  "Kampagne/GORN/Aranon": {
+    "iconName": "RaWolfHead",
+    "iconColor": "#30b539"
+  },
+  "Kampagne/GORN/Drogan": "RaCrossedAxes",
+  "Kampagne/GORN/Lucian": {
+    "iconName": "RaFire",
+    "iconColor": "#c2932e"
+  },
+  "Kampagne/GORN": "RaDeathSkull",
+  "Kampagne/Friedhof": {
+    "iconName": "LiSkull",
+    "iconColor": "#ffffff"
+  },
+  "Kampagne/Friedhof/Jon": {
+    "iconName": "LiSkull",
+    "iconColor": "#ffffff"
+  },
+  "Kampagne/GORN/Argo": {
+    "iconName": "RaLightningStorm",
+    "iconColor": "#1d68af"
+  }
 }
