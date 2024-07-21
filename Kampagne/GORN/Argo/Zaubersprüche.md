@@ -19,7 +19,7 @@ Zauber:
   - "[[Donnerschlag]]"
   - "[[Kältestrahl]]"
   - "[[Hexenpfeil]]"
-  - "[[Schild]]"
+  - "[[Magierrüstung]]"
   - "[[Chaospfeil]]"
   - "[[Botschaft]]"
   - "[[Schutzwind]]"
@@ -79,7 +79,7 @@ Metamagie:
 
 ## Metamagie
 
-![[Verlängerter Zauber]]
+![[Beschleunigter Zauber]]
 ![[Gespiegelter Zauber]]
 
 ## Zaubertricks

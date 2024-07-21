@@ -96,7 +96,7 @@ Zauber:
   - "[[Donnerschlag]]"
   - "[[Kältestrahl]]"
   - "[[Hexenpfeil]]"
-  - "[[Schild]]"
+  - "[[Magierrüstung]]"
   - "[[Chaospfeil]]"
   - "[[Botschaft]]"
   - "[[Schutzwind]]"
@@ -290,7 +290,7 @@ tags:
 >>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
 >> 
 >> ### Metamagie
->> ![[Verlängerter Zauber]]
+>> ![[Beschleunigter Zauber]]
 >> ![[Gespiegelter Zauber]]
 > 
 >> ## Zaubertricks
