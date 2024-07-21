@@ -21,9 +21,9 @@ Zauber:
   - "[[Hexenpfeil]]"
   - "[[Magierrüstung]]"
   - "[[Chaospfeil]]"
-  - "[[Botschaft]]"
+  - "[[Klingenbann]]"
   - "[[Schutzwind]]"
-  - "[[Spiegelbilder]]"
+  - "[[Snillocs Schneeballschwarm]]"
 Metamagie:
   - "[[Weitreichender Zauber]]"
   - "[[Zielsuchzauber]]"

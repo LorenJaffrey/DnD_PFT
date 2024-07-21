@@ -98,9 +98,9 @@ Zauber:
   - "[[Hexenpfeil]]"
   - "[[Magierrüstung]]"
   - "[[Chaospfeil]]"
-  - "[[Botschaft]]"
+  - "[[Klingenbann]]"
   - "[[Schutzwind]]"
-  - "[[Spiegelbilder]]"
+  - "[[Snillocs Schneeballschwarm]]"
 tags:
   - Charakter/GORN
 ---
