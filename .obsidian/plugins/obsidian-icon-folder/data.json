@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RaRuneStone",
-      "RaDeathSkull",
-      "LiSkull",
-      "RaFire",
-      "RaWolfHead"
+      "LiCalendarDays",
+      "LiBookOpen",
+      "RaBook",
+      "LiBookLock",
+      "LiStickyNote"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,7 +30,8 @@
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsInLinksEnabled": true,
     "debugMode": false,
-    "iconInTitlePosition": "above"
+    "iconInTitlePosition": "above",
+    "lucideIconPackType": "native"
   },
   "Monster Manual": "SiMonster",
   "Ausrüstung/Edelsteine": "LiGem",
@@ -66,8 +67,53 @@
     "iconName": "LiSkull",
     "iconColor": "#ffffff"
   },
-  "Kampagne/GORN/Argo": {
+  "Kampagne/GORN/Ar'go": {
     "iconName": "RaLightningStorm",
-    "iconColor": "#1d68af"
-  }
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/Zaubersprüche.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/Inventar Ar'go.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Aranon/Inventar Aranon.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#30b539"
+  },
+  "Kampagne/GORN/Aranon/Spell Sheet Aranon.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#30b539"
+  },
+  "Kampagne/GORN/Drogan/Inventar Drogan.md": "LiArchive",
+  "Kampagne/GORN/Lucian/Inventar Lucian.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#c2932e"
+  },
+  "Kampagne/GORN/Lucian/Spell Sheet Lucian.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#c2932e"
+  },
+  "Kampagne/GORN/Niptac/Inventar Niptac.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#8454de"
+  },
+  "Kampagne/Friedhof/Jon/_Attachments": {
+    "iconName": "LiImage",
+    "iconColor": "#ffffff"
+  },
+  "_Attachments": "LiImage",
+  "Kampagne/Friedhof/Jon/Inventar Jon.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#ffffff"
+  },
+  "Kampagne/Friedhof/Jon/Session Notizen Jon.md": "🗒",
+  "Kampagne/GORN/Ar'go/Session Notes.md": {
+    "iconName": "LiBookLock",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/Memoiren.md": "LiBookOpen",
+  "Kampagne/Timeline Kampagne 2.md": "LiCalendarDays"
 }

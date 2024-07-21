@@ -1,5 +1,5 @@
 ---
-Charakter: "[[Argo]]"
+Charakter: "[[Ar'go]]"
 Zaubertricks: 4
 Bekannte_Zauber: 2
 Zauberplätze:
