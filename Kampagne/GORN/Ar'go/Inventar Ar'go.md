@@ -1,11 +1,11 @@
 ---
 Charakter: "[[Ar'go]]"
 Geld:
-  PM: 10
-  GM: 100
-  EM: 3
-  SM: 5
-  KM: 9
+  PM: 0
+  GM: 90
+  EM: 0
+  SM: 0
+  KM: 0
 ---
 # `=this.file.name`
 > [!infobox]
