@@ -34,15 +34,15 @@ Fertigkeiten:
   Einschüchtern: 1
   Fingerfertigkeit: 0
   Geschichte: 0
-  Heilkunde: 1
+  Heilkunde: 0
   Heimlichkeit: 0
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 0
   Nachforschungen: 0
-  Naturkunde: 0
-  Religion: 1
+  Naturkunde: 1
+  Religion: 0
   Täuschen: 0
-  Überlebenskunst: 0
+  Überlebenskunst: 1
   Überzeugen: 0
   Wahrnehmung: 0
 Übung:
@@ -52,7 +52,7 @@ Fertigkeiten:
     - "[[Drakonisch]]"
     - "[[Celestisch]]"
   Werkzeuge:
-    - "[[Kräuterkunde-Ausrüstung]]"
+    - "[[Navigationswerkzeug]]"
   Rüstungen:
   Waffen:
     - "[[Dolch]]"
