@@ -31,7 +31,7 @@ Fertigkeiten:
   Arkane_Kunde: 1
   Athletik: 0
   Auftreten: 0
-  Einschüchtern: 1
+  Einschüchtern: 0
   Fingerfertigkeit: 0
   Geschichte: 0
   Heilkunde: 0
@@ -40,10 +40,10 @@ Fertigkeiten:
   Motiv_erkennen: 0
   Nachforschungen: 0
   Naturkunde: 1
-  Religion: 0
+  Religion: 1
   Täuschen: 0
-  Überlebenskunst: 1
-  Überzeugen: 0
+  Überlebenskunst: 0
+  Überzeugen: 1
   Wahrnehmung: 0
 Übung:
   Sprachen:
