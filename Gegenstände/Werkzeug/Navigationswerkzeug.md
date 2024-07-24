@@ -9,4 +9,9 @@ Dieser Satz von Instrumenten wird bei der Navigation auf See verwendet.
 
 # Bestandteile
 - Kompass
-- Fähigkeit Karten zu lesen
+- Sextant
+- Seekarten
+- Logbuch
+- Astrolabium
+- Navigationslineal und Dreieck
+- Sanduhr

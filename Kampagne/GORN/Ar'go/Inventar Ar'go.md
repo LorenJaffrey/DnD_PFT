@@ -26,7 +26,7 @@ Geld:
 > | Maximale Traglast | `=(this.Charakter.Attribute.Stärke*15)` Pfund |
 > | Maximalbelastung | `=(this.Charakter.Attribute.Stärke*30)` Pfund |
 > 
-> ##### Aktuelle Traglast: `=10+0+41.5`
+> ##### Aktuelle Traglast: `=10+0+42.1`
 
 ## Am Körper
 | Gegenstand                                  | Anzahl | Gewicht | Gesamt |
@@ -59,8 +59,10 @@ Geld:
 | [[Ration]]                                |   10   |    1    |   10   |
 | [[Trinkschlauch]]                         |   1    |    0    |   0    |
 | [[Seil aus Hanf]]  (Meter)                |   15   |   0.6   |   9    |
+| Kompass                                   |   1    |   0.6   |  0.6   |
 | Winterdecke                               |   1    |    0    |   0    |
 | Ritualbuch (Drachenkult des Sturmdrachen) |   1    |    1    |   1    |
-| **GESAMT**                                |        |         |  41.5  |
+| [[Gildenabzeichen]]                       |   1    |    0    |   0    | 
+| **GESAMT**                                |        |         |  42.1  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
