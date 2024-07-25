@@ -1,5 +1,5 @@
 ---
-Stufe: 4
+Stufe: 5
 Niptac:
   Anzahl_Apparaturen: 2
   Energiekerngröße: W6
@@ -16,9 +16,9 @@ Waffen:
   - "[[Schleuder]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
-  MaxTP: 35
-  TP: 0
-  TW: 4
+  MaxTP: 42
+  TP: 42
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -90,6 +90,7 @@ Merkmale:
     - "[[Durchdachte Vorbereitung]]"
     - "[[Raffinierte Aktion]]"
     - "[[Zielsicher]]"
+    - "[[Unglaubliches Ausweichen]]"
   Talente:
     - "[[Verschwinden]]"
 Hintergrund:
@@ -154,7 +155,7 @@ tags:
 > 	- [ ] %% %% 
 > -  
 > 	- [[Erschöpft|Erschöpfung]]     
-> 	- [x] %% %% 
+> 	- [ ] %% %% 
 > 	- [ ] %% %% 
 > 	- [ ] %% %% 
 > 	- [ ] %% %% 
