@@ -8,8 +8,8 @@ Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
 Gesundheit:
-  MaxTP: 23
-  TP: 23
+  MaxTP: 32
+  TP: 32
   TW: 4
   TempTP: 0
 Attribute:
@@ -437,7 +437,7 @@ tags:
 - forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
 - da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
 - schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
-- Gruppe ließ in in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
+- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
 - seitdem wartet er immer noch auf die Gruppe..
 
 ## Hintergrundgeschichte
