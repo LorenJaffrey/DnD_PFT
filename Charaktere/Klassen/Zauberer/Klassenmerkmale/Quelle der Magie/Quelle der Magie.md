@@ -7,7 +7,7 @@ Zauberkosten:
 	Stufe4: 6
 	Stufe5: 7
 tags:
-  - Merkmal/Klasse/Zauberer
+- Merkmal/Klasse/Zauberer
 ---
 # `=this.file.name`
 *Du bist in der Lage, die Quelle der Magie in dir selbst anzuzapfen.*
