@@ -43,7 +43,7 @@ Geld:
 ## Schriftrollenbehälter
 | Gegenstand                                                | Anzahl | Gewicht | Gesamt |
 | --------------------------------------------------------- |:------:|:-------:|:------:|
-| Karte der Insel (Drachenkult) und der umliegenden Gebiete |   1    |    0    |   0    | 
+| Karte der Insel (Drachenkult) und der umliegenden Gebiete |   1    |    0    |   0    |
 | **GESAMT**                                                |        |         |   0    |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

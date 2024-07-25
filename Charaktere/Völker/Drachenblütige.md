@@ -1,15 +1,17 @@
 ---
 aliases:
-- Drachenblütiger
-- Drachenblütigen
+  - Drachenblütiger
+  - Drachenblütigen
 Bewegungsrate: 9 Meter
 Attribute:
-- +2 [[Stärke]]
-- +1 [[Charisma]]
+  - +2 [[Stärke]]
+  - +1 [[Charisma]]
 Merkmale:
-- "[[Drakonische Abstammung]]"
-- "[[Odemwaffe]]"
-- "[[Drakonische Resistenz]]"
+  - "[[Drakonische Abstammung]]"
+  - "[[Drakonische Odemwaffe]]"
+Sprachen:
+  - "[[Gemeinsprache]]"
+  - "[[Drakonisch]]"
 ---
 # `=this.file.name`
 > [!recite|right no-title wfit] `= this.file.name`
@@ -38,12 +40,15 @@ Sie erreichen ein Alter von bis zu 80 Jahren.
 | ---------- | ----------------- | ------------ | ------------------- |
 | 165 cm     | 2W8               | 175 Pfund    | 2W6                 |
 
+| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
+| ---------- | ----------------- | ------------ | ------------------- |
+| 165 cm     | `dice-: 2d8\|avg` | 175 Pfund    | `dice-: 2d3\|none`  |
+
 Größe = Grundgröße + Größenmodifikator x 2,5 cm
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
 
 ## Sprachen
-- Gemeinsprache
-- Drakonisch
+`=this.Sprachen`
 
 ## Beschreibung
 Von Drachen abstammend, wie ihr Name verrät, wandeln die [[Drachenblütige|Drachenblütigen]] durch die Welt, die mit furchtsamer Verständnislosigkeit auf sie reagiert. 
@@ -78,7 +83,7 @@ Jedoch ist die beste Quelle solcher Hilfe der Klan, der sich wiederum zuerst an 
 Der Jugendname oder Spitzname wird unter guten Freunden als Ausdruck der Zuneigung verwendet und könnte an ein Ereignis erinnern oder auf einem Wesenszug basieren.
 
 ### Männliche Vornamen
-Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogat, Shamash, Shedinn, Tarhun, Torinn
+- Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogat, Shamash, Shedinn, Tarhun, Torinn
 
 ### Weibliche Vornamen
 Akra, Biri, Daar, Farideh, Harann, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit
