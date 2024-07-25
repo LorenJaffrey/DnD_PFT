@@ -1,16 +1,16 @@
 ---
-Stufe: 4
+Stufe: 5
 Bewegung: 6
-Rüstung: "[[Lederrüstung]]"
+Rüstung: "[[Fellrüstung]]"
 Schild: "[[Holzschild]]"
 Waffen:
   - "[[Kampfstab]]"
   - "[[Krummsäbel]]"
   - "[[Schleuder]]"
 Gesundheit:
-  MaxTP: 31
-  TP: 29
-  TW: 4
+  MaxTP: 38
+  TP: 10
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -85,7 +85,7 @@ Merkmale:
   Klasse:
     - "[[Die Sprache des Waldes]]"
     - "[[Druidisch]]"
-    - "[[Tiergestalt]]"
+    - "[[Verbesserte Tiergestalt]]"
     - "[[Geistertotem]]"
     - "[[Druidisches Zauberwirken]]"
   Talente:
@@ -163,7 +163,7 @@ tags:
 > -  
 > 	- [[Erschöpft|Erschöpfung]]     
 > 	- [x] %% %% 
-> 	- [x] %% %% 
+> 	- [ ] %% %% 
 > 	- [ ] %% %% 
 > 	- [ ] %% %% 
 > 	- [ ] %% %% 
@@ -174,10 +174,10 @@ tags:
 > 	- [ ] %% %% 
 > -
 > 	- Stresslevel 
-> 	- [x] %% %% 
-> 	- [x] %% %% 
-> 	- [x] %% %% 
-> 	- [x] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 > 	- [ ] %% %% 
 
 ## Aranon
@@ -185,7 +185,7 @@ tags:
 >> ## Aufladungen
 >> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
 >> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
->> | Maximal      | <input type="checkbox" unchecked id="2ab6b2">  <input type="checkbox" unchecked id="04327b"> |  <input type="checkbox" checked id="2f79d4"> | <input type="checkbox" unchecked id="7e2ec2">  | <input type="checkbox" unchecked id="f81e29"> |
+>> | Maximal      | <input type="checkbox" unchecked id="2ab6b2">  <input type="checkbox" unchecked id="04327b"> |  <input type="checkbox" unchecked id="2f79d4"> | <input type="checkbox" unchecked id="7e2ec2">  | <input type="checkbox" unchecked id="f81e29"> |
 >> | Aufladung |                 [[Lange Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
 >
 >> ## Tiergestalten
