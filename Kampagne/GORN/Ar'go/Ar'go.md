@@ -8,8 +8,8 @@ Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
 Gesundheit:
-  MaxTP: 32
-  TP: 32
+  MaxTP: 33
+  TP: 33
   TW: 4
   TempTP: 0
 Attribute:
