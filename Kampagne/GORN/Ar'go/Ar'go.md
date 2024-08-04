@@ -105,6 +105,17 @@ Zauber:
   - "[[Klingenbann]]"
   - "[[Schutzwind]]"
   - "[[Snillocs Schneeballschwarm]]"
+ZauberStatistik:
+  Donnerschlag: 0
+  Kältestrahl: 0
+  Klingenbann: 0
+  Schockgriff: 0
+  Windbö: 0
+  Chaospfeil: 0
+  Hexenpfeil: 0
+  Magierrüstung: 0
+  Schutzwind: 0
+  Snillocs_Schneeballschwarm: 0
 InputData:
   Uhrzeit1: 00:00
   Uhrzeit2: 00:00
@@ -194,7 +205,7 @@ tags:
 >> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
 >> 
->>> [!column | 2 ]
+>>> [!column | flex 2 ]
 >>>> ```meta-bind-button
 >>>> label: Kurze Rast
 >>>> icon: switch
@@ -338,7 +349,7 @@ tags:
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >>
->>>[!column | 2 ] 
+>>>[!column | flex 2 ] 
 >>>>## Rüstung
 >>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >>>> | --------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -360,9 +371,10 @@ tags:
 >> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
 >> | ----------------------------------------- | ------------------------------------------- |
 >> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
+>
 
 ## Stats
-> [!column ]
+> [!column | flex ]
 >> ## Attribute
 >> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
 >> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
@@ -399,7 +411,7 @@ tags:
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 
 ## Angriff
-> [!column | 2]
+> [!column | flex 2]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -553,7 +565,7 @@ tags:
 >
 
 ## Zauber / Magie
-> [!column | 3 ]
+> [!column | flex 3 ]
 >> ###### Zauber wirken
 >> 
 >> [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
@@ -637,12 +649,381 @@ tags:
 
 ## Statistik
 
-
-
-
-
-
-
+> [!column | 2]
+>> ```dataviewjs
+>> const currentPage = dv.current();
+>> const labels = ["Donnerschlag", "Kältestrahl", "Klingenbann", "Schockgriff", "Windbö", "Chaospfeil", "Hexenpfeil", "Magierrüstung", "Schutzwind", "Snillocs Schneeballschwarm"];
+>> const data = [currentPage.ZauberStatistik.Donnerschlag, currentPage.ZauberStatistik.Kältestrahl, currentPage.ZauberStatistik.Klingenbann, currentPage.ZauberStatistik.Schockgriff, currentPage.ZauberStatistik.Windbö, currentPage.ZauberStatistik.Chaospfeil, currentPage.ZauberStatistik.Hexenpfeil, currentPage.ZauberStatistik.Magierrüstung, currentPage.ZauberStatistik.Schutzwind, currentPage.ZauberStatistik.Snillocs_Schneeballschwarm];
+>> 
+>> const chartData = {  
+>>     type: 'line',
+>>     data: {
+>>         labels: labels,
+>>         datasets: [{
+>>             label: 'Zauber Anwendungen',
+>>             data: data,
+>>             backgroundColor: [ 'rgba(144,43,43)' ],
+>>             borderColor: [ 'rgba(144,43,43)' ],
+>>             pointStyle: 'circle',
+>>             pointRadius: 10,
+>> 		    pointHoverRadius: 15
+>>         }]
+>>     },
+>>     options: {
+>> 	    indexAxis: 'y',
+>> 	    scales: {
+>> 		  min: 0,
+>> 		  max: 100,		  
+>> 	      x: {
+>> 	        beginAtZero: true
+>> 	      }
+>> 	    },
+>> 	    animations: {
+>> 	      tension: {
+>> 	        duration: 1000,
+>> 	        easing: 'linear',
+>> 	        from: 1,
+>> 	        to: 0,
+>> 	        loop: true
+>> 	      }
+>> 	    }
+>> 	}
+>> }
+>> 
+>> window.renderChart(chartData, this.container);
+>> ```
+>
+>> [!column | 4]
+>>> Verwendungen: `VIEW[{ZauberStatistik.Donnerschlag}]`
+>>> ```meta-bind-button
+ >>> label: Donnerschlag
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Donnerschlag
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Donnerschlag
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Donnerschlag
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Kältestrahl}]`
+>>> ```meta-bind-button
+ >>> label: Kältestrahl
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Kältestrahl
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Kältestrahl
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Kältestrahl
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Klingenbann}]`
+>>> ```meta-bind-button
+ >>> label: Klingenbann
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Klingenbann
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Klingenbann
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Klingenbann
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Schockgriff}]`
+>>> ```meta-bind-button
+ >>> label: Schockgriff
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Schockgriff
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Schockgriff
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Schockgriff
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Windbö}]`
+>>> ```meta-bind-button
+ >>> label: Windbö
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Windbö
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Windbö
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Windbö
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Chaospfeil}]`
+>>> ```meta-bind-button
+ >>> label: Chaospfeil
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Chaospfeil
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Chaospfeil
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Chaospfeil
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Hexenpfeil}]`
+>>> ```meta-bind-button
+ >>> label: Hexenpfeil
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Hexenpfeil
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Hexenpfeil
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Hexenpfeil
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Magierrüstung}]`
+>>> ```meta-bind-button
+ >>> label: Magierrüstung
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Magierrüstung
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Magierrüstung
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Magierrüstung
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Schutzwind}]`
+>>> ```meta-bind-button
+ >>> label: Schutzwind
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Schutzwind
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Schutzwind
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Schutzwind
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
+>>> Verwendungen: `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]`
+>>> ```meta-bind-button
+ >>> label: Snillocs Schneeballschwarm
+ >>> icon: up-arrow-with-tail
+ >>> hidden: false
+ >>> class: ""
+ >>> tooltip: ""
+ >>> id: ""
+ >>> style: primary
+ >>> actions:
+>>>    - type: updateMetadata
+>>>      bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
+>>>      evaluate: true
+>>>      value: x + 1
+>>> 
+>>> ```
+>>>
+>>> ```meta-bind-button
+>>> label: Snillocs Schneeballschwarm
+>>> icon: down-arrow-with-tail
+>>> hidden: false
+>>> class: ""
+>>> tooltip: ""
+>>> id: ""
+>>> style: primary
+>>> actions:
+>>>   - type: updateMetadata
+>>>     bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
+>>>     evaluate: true
+>>>     value: x - 1
+>>> 
+>>> ```
+>>
 
 ## Vergangenheit
 
