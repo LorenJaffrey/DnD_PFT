@@ -15,5 +15,6 @@
   "obsidian-tasks-plugin",
   "table-checkboxes",
   "obsidian-meta-bind-plugin",
-  "js-engine"
+  "js-engine",
+  "obsidian-dice-roller"
 ]

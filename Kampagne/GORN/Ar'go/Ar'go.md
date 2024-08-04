@@ -413,7 +413,7 @@ tags:
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 
 ## Angriff
-> [!column | flex 2]
+> [!column | flex 3]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -448,7 +448,7 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
->> 
+> 
 >> ### Wurfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -541,27 +541,6 @@ tags:
 >> choice(Skalierbar,"X","") AS "Skalierbar" 
 >> FROM #Zauber
 >> WHERE contains(this.Zauber, file.link) AND Grad=2
->> SORT file.name
->> ```
->> 
->> ## Grad 3
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden,
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=3
 >> SORT file.name
 >> ```
 >
