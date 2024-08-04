@@ -200,7 +200,7 @@ tags:
 >> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
 >> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
 >>| Maximal      | `INPUT[toggle:InputData.TiergestaltLadung1]` `INPUT[toggle:InputData.TiergestaltLadung2]` |  `INPUT[toggle:InputData.GeistertotemLadung]` | `INPUT[toggle:InputData.NebelschrittLadung]`   | `INPUT[toggle:InputData.IdentifizierenLadung]` |
->> | Aufladung |                 [[Lange Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
+>> | Aufladung |                 [[Kurze Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
 >
 >> ## Tiergestalten
 >> ```dataview
