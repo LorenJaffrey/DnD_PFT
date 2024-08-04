@@ -53,7 +53,7 @@ Fertigkeiten:
     - "[[Celestisch]]"
   Werkzeuge:
     - "[[Navigationswerkzeug]]"
-  Rüstungen:
+  Rüstungen: 
   Waffen:
     - "[[Dolch]]"
     - "[[Wurfmesser]]"
@@ -88,7 +88,7 @@ Hintergrund:
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - <ul><b>Respekt vor der Natur</b></ul>Ar'gonthariel Maez'ralor empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
-  Ideale: 
+  Ideale:
     - <ul><b>Gleichgewicht</b></ul>Das Gleichgewicht der Natur und der Elemente ist das höchste Gut und muss um jeden Preis bewahrt werden.
   Bindungen:
     - <ul><b>Tempestus-Kristall</b></ul>Die Fragmente des Kristalls sind für ihn mehr als nur ein Ziel; sie sind heilige Objekte, die er mit größtem Respekt behandelt.
@@ -105,6 +105,39 @@ Zauber:
   - "[[Klingenbann]]"
   - "[[Schutzwind]]"
   - "[[Snillocs Schneeballschwarm]]"
+InputData:
+  Uhrzeit1: 00:00
+  Uhrzeit2: 00:00
+  UhrzeitToogle1: false
+  UhrzeitToogle2: false
+  GlücksPunkt1: false
+  GlücksPunkt2: false
+  GlücksPunkt3: false
+  GlücksPunkt4: false
+  GlücksPunkt5: false
+  Erschöpfung1: false
+  Erschöpfung2: false
+  Erschöpfung3: false
+  Erschöpfung4: false
+  Erschöpfung5: false
+  Erschöpfung6: false
+  Erschöpfung7: false
+  Erschöpfung8: false
+  Erschöpfung9: false
+  NormaleRüstung: true
+  MagierRüstung: false
+  BlitzOdem: false
+  Zauberpunkte: 17
+  Zauberplätze:
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 0
+    Grad_4: 0
+    Grad_5: 0
+    Grad_6: 0
+    Grad_7: 0
+    Grad_8: 0
+    Grad_9: 0
 tags:
   - Charakter/GORN
 ---
@@ -148,8 +181,8 @@ tags:
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
 >> | :---: | :---: | :---: |
->> | [[Kurze Rast]]| <input type="checkbox" unchecked id="0675a7">| <input type="checkbox" unchecked id="f34473"> |
->> | Uhrzeit            | `INPUT[time():KurzeRast.Uhrzeit1]` | `INPUT[time():KurzeRast.Uhrzeit2]` |
+>> | [[Kurze Rast]]| `INPUT[toggle:InputData.UhrzeitToogle1]`| `INPUT[toggle:InputData.UhrzeitToogle2]` |
+>> | Uhrzeit            | `INPUT[time():InputData.Uhrzeit1]` | `INPUT[time():InputData.Uhrzeit2]` |
 >>  
 >> |  Eigenschaft  |  Wert  |  
 >> | :---: | :---: | 
@@ -158,8 +191,146 @@ tags:
 >> 
 >> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
->> | [[Glück\|Glückspunkte]]  | <input type="checkbox" unchecked id="ecb03e"> |  <input type="checkbox" unchecked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
->> | [[Erschöpft\|Erschöpfung]]       |  <input type="checkbox" unchecked id="73f4b5">  |  <input type="checkbox" unchecked id="0297f5"> |  <input type="checkbox" unchecked id="cd9aab">  |  <input type="checkbox" unchecked id="003cca">  | <input type="checkbox" unchecked id="949a4c">  |  <input type="checkbox" unchecked id="c1e92f">  |  <input type="checkbox" unchecked id="a2b7ed">  |  <input type="checkbox" unchecked id="89be6f">  |  <input type="checkbox" unchecked id="f1bb52">  |
+>> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
+>> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
+>> 
+>>> [!column | 2 ]
+>>>> ```meta-bind-button
+>>>> label: Kurze Rast
+>>>> icon: switch
+>>>> hidden: false
+>>>> class: ""
+>>>> tooltip: ""
+>>>> id: shortBreakButton
+>>>> style: primary
+>>>> actions:
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.BlitzOdem
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>> ```
+>>>
+>>>> ```meta-bind-button
+>>>> label: Lange Rast
+>>>> icon: reset
+>>>> hidden: false
+>>>> class: ""
+>>>> tooltip: ""
+>>>> id: longBreakButton
+>>>> style: destructive
+>>>> actions:
+>>>>   - type: updateMetadata
+>>>>     bindTarget: Gesundheit.TW
+>>>>     evaluate: false
+>>>>     value: "4"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Uhrzeit1
+>>>>     evaluate: false
+>>>>     value: 00:00
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Uhrzeit2
+>>>>     evaluate: false
+>>>>     value: 00:00
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.UhrzeitToogle1
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.UhrzeitToogle2
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung1
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung2
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung3
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung4
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung5
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung6
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung7
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung8
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung9
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberpunkte
+>>>>     evaluate: false
+>>>>     value: "17"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_1
+>>>>     evaluate: false
+>>>>     value: "4"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_2
+>>>>     evaluate: false
+>>>>     value: "3"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_3
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_4
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_5
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_6
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_7
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_8
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_9
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.NormaleRüstung
+>>>>     evaluate: false
+>>>>     value: "true"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.MagierRüstung
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.BlitzOdem
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>  
+>>>> ```
+>>>
+>>
 >
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
@@ -171,8 +342,8 @@ tags:
 >>>>## Rüstung
 >>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >>>> | --------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->>>> | <input type="checkbox" checked id="067501"> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
->>>> | <input type="checkbox" unchecked id="067500"> |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
+>>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
 >>>
 >>>>## Resistenz
 >>>> - Blitz
@@ -290,7 +461,7 @@ tags:
 >>    
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
->>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
+>>| Blitz-Odem | `INPUT[toggle:InputData.BlitzOdem]`|
 >> 
 >> ### Metamagie
 >> ![[Beschleunigter Zauber]]
@@ -381,6 +552,41 @@ tags:
 >> ```
 >
 
+## Zauber / Magie
+> [!column | 3 ]
+>> ###### Zauber wirken
+>> 
+>> [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
+>> [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
+>> 
+>>---
+>> ###### Bekannte Zauber
+>> 
+>> Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
+>> Zaubertricks: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0`
+>> Bekannte Zauber: `$=if(dv.page(dv.current().Hintergrund.Klasse).Art_Bekannte_Zauber=="Tabelle"){dv.page(dv.current().Hintergrund.Klasse).Bekannte_Zauber["Stufe"+dv.current().Stufe]}else{if(dv.page(dv.current().Hintergrund.Klasse).file.name=="Paladin"){dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.current().Hintergrund.Klasse.Zauberattribut).file.name])-10)/2)/2}else{dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.file.name])-10)/2)}}`  
+> 
+>>  ###### Zauberplätze
+>>  
+>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
+>> |:----:|:-------------------------------:|:-----------------------------------:|
+>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
+>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
+>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
+>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
+>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
+>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
+>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
+>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
+>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+>
+>> ###### Zauberpunkte
+>> 
+>> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
+>> |:----:|:-------------------------------:|:-----------------------------------:|
+>> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
+>>
+
 ## Übung / Merkmale
 > [!column | 3]
 >> ## Rüstung
@@ -428,6 +634,14 @@ tags:
 >> ```
 >> 
 >> ![[Stürmische Magie]]
+
+## Statistik
+
+
+
+
+
+
 
 
 ## Vergangenheit

@@ -1,7 +1,7 @@
 ---
 Charakter: "[[Ar'go]]"
-Zaubertricks: 4
-Bekannte_Zauber: 2
+Zaubertricks: 5
+Bekannte_Zauber: 5
 Zauberplätze:
   Grad_1: 4
   Grad_2: 3
