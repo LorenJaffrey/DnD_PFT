@@ -106,7 +106,7 @@ Zauber:
   - "[[Schutzwind]]"
   - "[[Snillocs Schneeballschwarm]]"
 ZauberStatistik:
-  Donnerschlag: 0
+  Donnerschlag: 1
   Kältestrahl: 0
   Klingenbann: 0
   Schockgriff: 0
@@ -219,7 +219,7 @@ tags:
 >>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 >>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
 >>>
->>>>## Resistenz
+>>>>## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> - Blitz
 >
 >> ## Bewegung
@@ -579,6 +579,17 @@ tags:
 >> |:----:|:-------------------------------:|:-----------------------------------:|
 >> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
 >>
+>> | Zauberlevel | Umwandlungskosten |
+>> | ----------- |:-----------------:|
+>> | Level 1     |         2         |
+>> | Level 2     |         3         |
+>> | Level 3     |         5         |
+>> | Level 4     |         6         |
+>> | Level 5     |         7         |
+>> | Level 6     |         9         |
+>> | Level 7     |        10         |
+>> | Level 8     |        11         |
+>> | Level 9     |        13         | 
 
 ## Übung / Merkmale
 > [!column | 3]

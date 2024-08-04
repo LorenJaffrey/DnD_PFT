@@ -10,5 +10,6 @@
   "spellcheckLanguages": null,
   "legacyEditor": false,
   "strictLineBreaks": false,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "promptDelete": false
 }
