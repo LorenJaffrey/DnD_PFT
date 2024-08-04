@@ -12,6 +12,7 @@
   "enabledCssSnippets": [
     "S - Encoded Fonts",
     "S - Encoded Icons",
-    "customCSS"
+    "customCSS",
+    "input-width"
   ]
 }

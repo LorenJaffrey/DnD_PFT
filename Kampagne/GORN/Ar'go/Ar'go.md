@@ -205,6 +205,37 @@ tags:
 >> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
 >> 
+>
+>> ## Gesundheit
+>> |         |  [[Trefferpunkte]]       | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
+>> | ------- | :------------------------: | :------------------------: | :---------------------------: |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
+>> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
+>>
+>>>[!column | flex 2 ] 
+>>>>## Rüstung
+>>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
+>>>> | ------- | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+>>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
+>>>
+>>>>## Resistenz
+>>>> - Blitz
+>
+>> ## Bewegung
+>> | Gehen                                              | [[Spurt]]                                          | 
+>> | -------------------------------------------------- | -------------------------------------------------- |
+>> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
+>>
+>> | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             |
+>> | ---------------------------------------------------- | ------------------------------------------------------ |
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m |
+>>
+>> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
+>> | ----------------------------------------- | ------------------------------------------- |
+>> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
+>>
+>> ## Rasten
 >>> [!column | flex 2 ]
 >>>> ```meta-bind-button
 >>>> label: Kurze Rast
@@ -342,35 +373,6 @@ tags:
 >>>> ```
 >>>
 >>
->
->> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
->> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
->> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
->>
->>>[!column | flex 2 ] 
->>>>## Rüstung
->>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->>>> | --------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
->>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
->>>
->>>>## Resistenz
->>>> - Blitz
->
->> ## Bewegung
->> | Gehen                                              | [[Spurt]]                                          | 
->> | -------------------------------------------------- | -------------------------------------------------- |
->> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
->>
->> | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             |
->> | ---------------------------------------------------- | ------------------------------------------------------ |
->> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m |
->>
->> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
->> | ----------------------------------------- | ------------------------------------------- |
->> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 >
 
 ## Stats
