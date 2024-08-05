@@ -253,42 +253,6 @@ tags:
 >>>>     evaluate: false
 >>>>     value: "5"
 >>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung1
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung2
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung3
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung4
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung5
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung6
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung7
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung8
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung9
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
 >>>>     bindTarget: InputData.TiergestaltLadung1
 >>>>     evaluate: false
 >>>>     value: "false"
