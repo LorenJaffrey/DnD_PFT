@@ -7,7 +7,7 @@
     "name": "Monday",
     "shortName": "Mo"
   },
-  "syncInterval": 200,
+  "syncInterval": 100,
   "minSyncInterval": 50,
   "maxSyncInterval": 1000,
   "enableJs": true,

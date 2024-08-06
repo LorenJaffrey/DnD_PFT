@@ -155,6 +155,12 @@ tags:
 
 > [!infobox]
 > ![[Argo.jpeg]]
+> ```dataviewjs 
+> const Gesundheit = dv.current().Gesundheit; 
+> const percentage = Math.round((Gesundheit.TP / Gesundheit.MaxTP) * 100);
+> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
+> dv.el('div', metaBindCode); 
+> ```
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
@@ -186,7 +192,6 @@ tags:
 > ### Makel
 > `=this.Persönlichkeit.Makel`
 
-
 #   `=this.file.name`nthariel Maez'ralor Sturmzorn
 > [!column | 3 ]
 >>  ## Allgemeine Spiel - Parameter
@@ -204,6 +209,7 @@ tags:
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 >> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
+>> 
 >> 
 >
 >> ## Gesundheit
