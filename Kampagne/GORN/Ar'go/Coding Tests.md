@@ -1,20 +1,36 @@
 ---
 InputData:
-  ErschöpfungsPunkte: 9
-  Erschöpfung1: true
-  Erschöpfung2: true
-  Erschöpfung3: true
-  Erschöpfung4: true
-  Erschöpfung5: true
-  Erschöpfung6: true
-  Erschöpfung7: true
-  Erschöpfung8: true
-  Erschöpfung9: true
+  ErschöpfungsPunkte: 0
+  Erschöpfung1: false
+  Erschöpfung2: false
+  Erschöpfung3: false
+  Erschöpfung4: false
+  Erschöpfung5: false
+  Erschöpfung6: false
+  Erschöpfung7: false
+  Erschöpfung8: false
+  Erschöpfung9: false
 ---
 
 `INPUT[number:InputData.ErschöpfungsPunkte]`
 
 Erschöpfungspunkte: `=this.InputData.ErschöpfungsPunkte`
+
+```meta-bind-button
+label: Lange Rast
+icon: reset
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: InputData.ErschöpfungsPunkte
+    evaluate: true
+    value: x - 1
+
+```
 
 
 |        Eigenschaft         |                   1                    |                   2                    |                   3                    |                   4                    |                   5                    |                   6                    |                   7                    |                   8                    |                   9                    |
@@ -70,6 +86,24 @@ mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfu
 
 //events
 function onErschöpfungsPunkteChange(value) {
+
+	if( value < 0 ) {
+		mb.setMetadata(ErschöpfungsPunkte, 0);
+		return;
+	}
+
+	const metadataBind = {
+		'Erschöpfung1': Erschöpfung1,
+		'Erschöpfung2': Erschöpfung2,
+		'Erschöpfung3': Erschöpfung3,
+		'Erschöpfung4': Erschöpfung4,
+		'Erschöpfung5': Erschöpfung5,
+		'Erschöpfung6': Erschöpfung6,
+		'Erschöpfung7': Erschöpfung7,
+		'Erschöpfung8': Erschöpfung8,
+		'Erschöpfung9': Erschöpfung9
+	}
+
     const oldStates = [
         mb.getMetadata(Erschöpfung1),
         mb.getMetadata(Erschöpfung2),
@@ -86,7 +120,7 @@ function onErschöpfungsPunkteChange(value) {
 
     newStates.forEach((newState, index) => {
         if (oldStates[index] !== newState) {
-            mb.setMetadata(`Erschöpfung${index + 1}`, newState);
+            mb.setMetadata(metadataBind[`Erschöpfung${index + 1}`], newState);
         }
     });
 }
@@ -146,3 +180,4 @@ function onErschöpfungChange(ErschöpfungsValue, newValue, metadataBind){
 }
 
 ```
+
