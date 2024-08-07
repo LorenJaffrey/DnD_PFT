@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCode",
       "LiCalendarDays",
       "LiBookOpen",
       "RaBook",
-      "LiBookLock",
-      "LiStickyNote"
+      "LiBookLock"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -115,5 +115,9 @@
     "iconColor": "#258bb6"
   },
   "Kampagne/Memoiren.md": "LiBookOpen",
-  "Kampagne/Timeline Kampagne 2.md": "LiCalendarDays"
+  "Kampagne/Timeline Kampagne 2.md": "LiCalendarDays",
+  "Kampagne/GORN/Ar'go/Coding Tests.md": {
+    "iconName": "LiCode",
+    "iconColor": "#258bb6"
+  }
 }
