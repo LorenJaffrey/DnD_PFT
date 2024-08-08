@@ -659,337 +659,19 @@ tags:
 >> window.renderChart(chartData, this.container);
 >> ```
 >
->> [!column | 4]
->>> Verwendungen: `VIEW[{ZauberStatistik.Donnerschlag}]`
->>> ```meta-bind-button
- >>> label: Donnerschlag
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Donnerschlag
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Donnerschlag
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Donnerschlag
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Kältestrahl}]`
->>> ```meta-bind-button
- >>> label: Kältestrahl
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Kältestrahl
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Kältestrahl
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Kältestrahl
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Klingenbann}]`
->>> ```meta-bind-button
- >>> label: Klingenbann
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Klingenbann
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Klingenbann
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Klingenbann
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Schockgriff}]`
->>> ```meta-bind-button
- >>> label: Schockgriff
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Schockgriff
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Schockgriff
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Schockgriff
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Windbö}]`
->>> ```meta-bind-button
- >>> label: Windbö
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Windbö
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Windbö
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Windbö
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Chaospfeil}]`
->>> ```meta-bind-button
- >>> label: Chaospfeil
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Chaospfeil
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Chaospfeil
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Chaospfeil
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Hexenpfeil}]`
->>> ```meta-bind-button
- >>> label: Hexenpfeil
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Hexenpfeil
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Hexenpfeil
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Hexenpfeil
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Magierrüstung}]`
->>> ```meta-bind-button
- >>> label: Magierrüstung
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Magierrüstung
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Magierrüstung
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Magierrüstung
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Schutzwind}]`
->>> ```meta-bind-button
- >>> label: Schutzwind
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Schutzwind
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Schutzwind
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Schutzwind
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]`
->>> ```meta-bind-button
- >>> label: Snillocs Schneeballschwarm
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Snillocs Schneeballschwarm
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
+>> |                     Verwendungen                     | Zauber                         |             +              |              -               |
+>> |:----------------------------------------------------:|:------------------------------ |:--------------------------:|:----------------------------:|
+>> |        `VIEW[{ZauberStatistik.Donnerschlag}]`        | [[Donnerschlag]]               | `BUTTON[donnerschlag_up]`  | `BUTTON[donnerschlag_down]`  |
+>> |        `VIEW[{ZauberStatistik.Kältestrahl}]`         | [[Kältestrahl]]                |  `BUTTON[kältestrahl_up]`  |  `BUTTON[kältestrahl_down]`  |
+>> |        `VIEW[{ZauberStatistik.Klingenbann}]`         | [[Klingenbann]]                |  `BUTTON[klingenbann_up]`  |  `BUTTON[klingenbann_down]`  |
+>> |        `VIEW[{ZauberStatistik.Schockgriff}]`         | [[Schockgriff]]                |  `BUTTON[schockgriff_up]`  |  `BUTTON[schockgriff_down]`  |
+>> |           `VIEW[{ZauberStatistik.Windbö}]`           | [[Windbö]]                     |    `BUTTON[windbö_up]`     |    `BUTTON[windbö_down]`     |
+>> |         `VIEW[{ZauberStatistik.Chaospfeil}]`         | [[Chaospfeil]]                 |  `BUTTON[chaospfeil_up]`   |  `BUTTON[chaospfeil_down]`   |
+>> |         `VIEW[{ZauberStatistik.Hexenpfeil}]`         | [[Hexenpfeil]]                 |  `BUTTON[hexenpfeil_up]`   |  `BUTTON[hexenpfeil_down]`   |
+>> |       `VIEW[{ZauberStatistik.Magierrüstung}]`        | [[Magierrüstung]]              | `BUTTON[magierrüstung_up]` | `BUTTON[magierrüstung_down]` |
+>> |         `VIEW[{ZauberStatistik.Schutzwind}]`         | [[Schutzwind]]                 |  `BUTTON[schutzwind_up]`   |  `BUTTON[schutzwind_down]`   |
+>> | `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]` | [[Snillocs Schneeballschwarm]] |   `BUTTON[snillocs_up]`    |   `BUTTON[snillocs_down]`    | 
+>> 
 
 ## Vergangenheit
 
@@ -1023,9 +705,326 @@ Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und m
 
 Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
 
+## Versteckte Logiken & Button Konfigurationen
 
+```meta-bind-button
+ icon: up-arrow-with-tail
+ label: ""
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "donnerschlag_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Donnerschlag
+     evaluate: true
+     value: x + 1
+```
 
-```js-engine
+ ```meta-bind-button
+ icon: down-arrow-with-tail
+ label: ""
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "donnerschlag_down"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Donnerschlag
+     evaluate: true
+     value: x - 1
+ 
+ ```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "kältestrahl_up"
+ style: primary
+ actions:
+    - type: updateMetadata
+      bindTarget: ZauberStatistik.Kältestrahl
+      evaluate: true
+      value: x + 1
+ 
+```
+
+ ```meta-bind-button
+ label: ""
+ icon: down-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "kältestrahl_down"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Kältestrahl
+     evaluate: true
+     value: x - 1
+ 
+ ```
+
+ ```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "klingenbann_up"
+ style: primary
+ actions:
+    - type: updateMetadata
+      bindTarget: ZauberStatistik.Klingenbann
+      evaluate: true
+      value: x + 1
+ 
+ ```
+
+ ```meta-bind-button
+ label: ""
+ icon: down-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "klingenbann_down"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Klingenbann
+     evaluate: true
+     value: x - 1
+ 
+ ```
+
+ ```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "schockgriff_up"
+ style: primary
+ actions:
+    - type: updateMetadata
+      bindTarget: ZauberStatistik.Schockgriff
+      evaluate: true
+      value: x + 1
+ 
+ ```
+ 
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "schockgriff_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Schockgriff
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "windbö_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Windbö
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "windbö_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Windbö
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "chaospfeil_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Chaospfeil
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "chaospfeil_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Chaospfeil
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "hexenpfeil_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Hexenpfeil
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "hexenpfeil_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Hexenpfeil
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "magierrüstung_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Magierrüstung
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "magierrüstung_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Magierrüstung
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "schutzwind_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Schutzwind
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "schutzwind_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Schutzwind
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "snillocs_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
+     evaluate: true
+     value: x + 1
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "snillocs_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
+    evaluate: true
+    value: x - 1
+```
+ 
+ ```js-engine
 // Grab the Meta Bind API and extract metadata fields
 const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
 
