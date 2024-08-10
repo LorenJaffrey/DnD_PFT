@@ -12,6 +12,23 @@ InputData:
   Erschöpfung9: false
 ---
 
+##  Dice Plugin
+
+`dice: 1d6`
+
+| dice: 1d20 | Heading  |
+| ---------- | -------- |
+| 1-2        | Option 1 |
+| 3-4        | Option 2 |
+| 5-10       | Option 3 |
+| 11         | Option 4 |
+| 13,14      | Option 5 |
+| 15-20      | Option 6 |
+ 
+
+
+## Erschöpfungspunkte Logik
+
 `INPUT[number:InputData.ErschöpfungsPunkte]`
 
 Erschöpfungspunkte: `=this.InputData.ErschöpfungsPunkte`
@@ -38,51 +55,69 @@ actions:
 | [[Erschöpft\|Erschöpfung]] | `INPUT[toggle:InputData.Erschöpfung1]` | `INPUT[toggle:InputData.Erschöpfung2]` | `INPUT[toggle:InputData.Erschöpfung3]` | `INPUT[toggle:InputData.Erschöpfung4]` | `INPUT[toggle:InputData.Erschöpfung5]` | `INPUT[toggle:InputData.Erschöpfung6]` | `INPUT[toggle:InputData.Erschöpfung7]` | `INPUT[toggle:InputData.Erschöpfung8]` | `INPUT[toggle:InputData.Erschöpfung9]` |
 
 
-```js-engine
+ ```js-engine
 // Grab the Meta Bind API and extract metadata fields
 const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
 
-
 const ErschöpfungsPunkte = mb.parseBindTarget('InputData.ErschöpfungsPunkte', context.file.path);
 const reactiveErschöpfungsPunkte = engine.reactive(onErschöpfungsPunkteChange, mb.getMetadata(ErschöpfungsPunkte)); 
-mb.subscribeToMetadata(ErschöpfungsPunkte, component, (value) => { reactiveErschöpfungsPunkte.refresh(value); }); 
-
+setTimeout(() => {
+	mb.subscribeToMetadata(ErschöpfungsPunkte, component, (value) => { reactiveErschöpfungsPunkte.refresh(value); }); 
+}, 50);
 
 const Erschöpfung1 = mb.parseBindTarget('InputData.Erschöpfung1', context.file.path);
 const reactiveErschöpfung1 = engine.reactive(onChange1, mb.getMetadata(Erschöpfung1)); 
-mb.subscribeToMetadata(Erschöpfung1, component, (value) => { reactiveErschöpfung1.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung1, component, (value) => { reactiveErschöpfung1.refresh(value); }); 
+}, 50);
 
 const Erschöpfung2 = mb.parseBindTarget('InputData.Erschöpfung2', context.file.path);
 const reactiveErschöpfung2 = engine.reactive(onChange2, mb.getMetadata(Erschöpfung2)); 
-mb.subscribeToMetadata(Erschöpfung2, component, (value) => { reactiveErschöpfung2.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung2, component, (value) => { reactiveErschöpfung2.refresh(value); }); 
+}, 50);
 
 const Erschöpfung3 = mb.parseBindTarget('InputData.Erschöpfung3', context.file.path);
 const reactiveErschöpfung3 = engine.reactive(onChange3, mb.getMetadata(Erschöpfung3)); 
-mb.subscribeToMetadata(Erschöpfung3, component, (value) => { reactiveErschöpfung3.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung3, component, (value) => { reactiveErschöpfung3.refresh(value); }); 
+}, 50);
 
 const Erschöpfung4 = mb.parseBindTarget('InputData.Erschöpfung4', context.file.path);
 const reactiveErschöpfung4 = engine.reactive(onChange4, mb.getMetadata(Erschöpfung4)); 
-mb.subscribeToMetadata(Erschöpfung4, component, (value) => { reactiveErschöpfung4.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung4, component, (value) => { reactiveErschöpfung4.refresh(value); }); 
+}, 50);
 
 const Erschöpfung5 = mb.parseBindTarget('InputData.Erschöpfung5', context.file.path);
 const reactiveErschöpfung5 = engine.reactive(onChange5, mb.getMetadata(Erschöpfung5)); 
-mb.subscribeToMetadata(Erschöpfung5, component, (value) => { reactiveErschöpfung5.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung5, component, (value) => { reactiveErschöpfung5.refresh(value); }); 
+}, 50);
 
 const Erschöpfung6 = mb.parseBindTarget('InputData.Erschöpfung6', context.file.path);
 const reactiveErschöpfung6 = engine.reactive(onChange6, mb.getMetadata(Erschöpfung6)); 
-mb.subscribeToMetadata(Erschöpfung6, component, (value) => { reactiveErschöpfung6.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung6, component, (value) => { reactiveErschöpfung6.refresh(value); }); 
+}, 50);
 
 const Erschöpfung7 = mb.parseBindTarget('InputData.Erschöpfung7', context.file.path);
 const reactiveErschöpfung7 = engine.reactive(onChange7, mb.getMetadata(Erschöpfung7)); 
-mb.subscribeToMetadata(Erschöpfung7, component, (value) => { reactiveErschöpfung7.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung7, component, (value) => { reactiveErschöpfung7.refresh(value); }); 
+}, 50);
 
 const Erschöpfung8 = mb.parseBindTarget('InputData.Erschöpfung8', context.file.path);
 const reactiveErschöpfung8 = engine.reactive(onChange8, mb.getMetadata(Erschöpfung8)); 
-mb.subscribeToMetadata(Erschöpfung8, component, (value) => { reactiveErschöpfung8.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung8, component, (value) => { reactiveErschöpfung8.refresh(value); }); 
+}, 50);
 
 const Erschöpfung9 = mb.parseBindTarget('InputData.Erschöpfung9', context.file.path);
 const reactiveErschöpfung9 = engine.reactive(onChange9, mb.getMetadata(Erschöpfung9)); 
-mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfung9.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfung9.refresh(value); }); 
+}, 50);
 
 //events
 function onErschöpfungsPunkteChange(value) {
