@@ -194,7 +194,12 @@ tags:
 > `=this.Persönlichkeit.Makel`
 
 #   `=this.file.name`nthariel Maez'ralor Sturmzorn
-> [!column | 3 ]
+> [!column | flex 3 ]
+>> ## Rasten
+>> |                            |                           |
+>> | -------------------------- | ------------------------- |
+>> | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` | 
+>> 
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
 >> | :---: | :---: | :---: |
@@ -210,7 +215,6 @@ tags:
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 >> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
->> 
 >> 
 >
 >> ## Gesundheit
@@ -242,112 +246,9 @@ tags:
 >> | ----------------------------------------- | ------------------------------------------- |
 >> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 >>
->> ## Rasten
->>> [!column | flex 2 ]
->>>> ```meta-bind-button
->>>> label: Kurze Rast
->>>> icon: switch
->>>> hidden: false
->>>> class: ""
->>>> tooltip: ""
->>>> id: shortBreakButton
->>>> style: primary
->>>> actions:
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.BlitzOdem
->>>>     evaluate: false
->>>>     value: "false"
->>>> ```
->>>
->>>> ```meta-bind-button
->>>> label: Lange Rast
->>>> icon: reset
->>>> hidden: false
->>>> class: ""
->>>> tooltip: ""
->>>> id: longBreakButton
->>>> style: destructive
->>>> actions:
->>>>   - type: updateMetadata
->>>>     bindTarget: Gesundheit.TW
->>>>     evaluate: false
->>>>     value: "4"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Uhrzeit1
->>>>     evaluate: false
->>>>     value: 00:00
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Uhrzeit2
->>>>     evaluate: false
->>>>     value: 00:00
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.UhrzeitToogle1
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.UhrzeitToogle2
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberpunkte
->>>>     evaluate: false
->>>>     value: "17"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_1
->>>>     evaluate: false
->>>>     value: "4"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_2
->>>>     evaluate: false
->>>>     value: "3"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_3
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_4
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_5
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_6
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_7
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_8
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_9
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.NormaleRüstung
->>>>     evaluate: false
->>>>     value: "true"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.MagierRüstung
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.BlitzOdem
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.ErschöpfungsPunkte
->>>>     evaluate: true
->>>>     value: x - 1
->>>> ```
->>>
->>
 >
+
+
 
 ## Stats
 > [!column | flex ]
@@ -560,10 +461,10 @@ tags:
 >> | Level 3     |         5         |
 >> | Level 4     |         6         |
 >> | Level 5     |         7         |
->> | Level 6     |         9         |
->> | Level 7     |        10         |
->> | Level 8     |        11         |
->> | Level 9     |        13         | 
+>> | Level 6     |          -         |
+>> | Level 7     |          -         |
+>> | Level 8     |          -         |
+>> | Level 9     |          -         | 
 
 ## Übung / Merkmale
 > [!column | 3]
@@ -612,6 +513,10 @@ tags:
 >> ```
 >> 
 >> ![[Stürmische Magie]]
+>> 
+>> ![[Quelle der Magie#Flexibles Zauberwirken]]
+>> 
+>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 
 ## Statistik
 
@@ -706,6 +611,109 @@ Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und m
 Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
 
 ## Versteckte Logiken & Button Konfigurationen
+
+```meta-bind-button
+label: Kurze Rast
+icon: switch
+hidden: true
+class: ""
+tooltip: ""
+id: shortBreakButton
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: InputData.BlitzOdem
+    evaluate: false
+    value: "false"
+```
+
+```meta-bind-button
+label: Lange Rast
+icon: reset
+hidden: true
+class: ""
+tooltip: ""
+id: longBreakButton
+style: destructive
+actions:
+  - type: updateMetadata
+    bindTarget: Gesundheit.TW
+    evaluate: false
+    value: "4"
+  - type: updateMetadata
+    bindTarget: InputData.Uhrzeit1
+    evaluate: false
+    value: 00:00
+  - type: updateMetadata
+    bindTarget: InputData.Uhrzeit2
+    evaluate: false
+    value: 00:00
+  - type: updateMetadata
+    bindTarget: InputData.UhrzeitToogle1
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.UhrzeitToogle2
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberpunkte
+    evaluate: false
+    value: "17"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_1
+    evaluate: false
+    value: "4"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_2
+    evaluate: false
+    value: "3"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_3
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_4
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_5
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_6
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_7
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_8
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_9
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.NormaleRüstung
+    evaluate: false
+    value: "true"
+  - type: updateMetadata
+    bindTarget: InputData.MagierRüstung
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.BlitzOdem
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.ErschöpfungsPunkte
+    evaluate: true
+    value: x - 1
+```
+
 
 ```meta-bind-button
  icon: up-arrow-with-tail
@@ -1030,44 +1038,63 @@ const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
 
 const ErschöpfungsPunkte = mb.parseBindTarget('InputData.ErschöpfungsPunkte', context.file.path);
 const reactiveErschöpfungsPunkte = engine.reactive(onErschöpfungsPunkteChange, mb.getMetadata(ErschöpfungsPunkte)); 
-mb.subscribeToMetadata(ErschöpfungsPunkte, component, (value) => { reactiveErschöpfungsPunkte.refresh(value); }); 
-
+setTimeout(() => {
+	mb.subscribeToMetadata(ErschöpfungsPunkte, component, (value) => { reactiveErschöpfungsPunkte.refresh(value); }); 
+}, 50);
 
 const Erschöpfung1 = mb.parseBindTarget('InputData.Erschöpfung1', context.file.path);
 const reactiveErschöpfung1 = engine.reactive(onChange1, mb.getMetadata(Erschöpfung1)); 
-mb.subscribeToMetadata(Erschöpfung1, component, (value) => { reactiveErschöpfung1.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung1, component, (value) => { reactiveErschöpfung1.refresh(value); }); 
+}, 50);
 
 const Erschöpfung2 = mb.parseBindTarget('InputData.Erschöpfung2', context.file.path);
 const reactiveErschöpfung2 = engine.reactive(onChange2, mb.getMetadata(Erschöpfung2)); 
-mb.subscribeToMetadata(Erschöpfung2, component, (value) => { reactiveErschöpfung2.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung2, component, (value) => { reactiveErschöpfung2.refresh(value); }); 
+}, 50);
 
 const Erschöpfung3 = mb.parseBindTarget('InputData.Erschöpfung3', context.file.path);
 const reactiveErschöpfung3 = engine.reactive(onChange3, mb.getMetadata(Erschöpfung3)); 
-mb.subscribeToMetadata(Erschöpfung3, component, (value) => { reactiveErschöpfung3.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung3, component, (value) => { reactiveErschöpfung3.refresh(value); }); 
+}, 50);
 
 const Erschöpfung4 = mb.parseBindTarget('InputData.Erschöpfung4', context.file.path);
 const reactiveErschöpfung4 = engine.reactive(onChange4, mb.getMetadata(Erschöpfung4)); 
-mb.subscribeToMetadata(Erschöpfung4, component, (value) => { reactiveErschöpfung4.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung4, component, (value) => { reactiveErschöpfung4.refresh(value); }); 
+}, 50);
 
 const Erschöpfung5 = mb.parseBindTarget('InputData.Erschöpfung5', context.file.path);
 const reactiveErschöpfung5 = engine.reactive(onChange5, mb.getMetadata(Erschöpfung5)); 
-mb.subscribeToMetadata(Erschöpfung5, component, (value) => { reactiveErschöpfung5.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung5, component, (value) => { reactiveErschöpfung5.refresh(value); }); 
+}, 50);
 
 const Erschöpfung6 = mb.parseBindTarget('InputData.Erschöpfung6', context.file.path);
 const reactiveErschöpfung6 = engine.reactive(onChange6, mb.getMetadata(Erschöpfung6)); 
-mb.subscribeToMetadata(Erschöpfung6, component, (value) => { reactiveErschöpfung6.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung6, component, (value) => { reactiveErschöpfung6.refresh(value); }); 
+}, 50);
 
 const Erschöpfung7 = mb.parseBindTarget('InputData.Erschöpfung7', context.file.path);
 const reactiveErschöpfung7 = engine.reactive(onChange7, mb.getMetadata(Erschöpfung7)); 
-mb.subscribeToMetadata(Erschöpfung7, component, (value) => { reactiveErschöpfung7.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung7, component, (value) => { reactiveErschöpfung7.refresh(value); }); 
+}, 50);
 
 const Erschöpfung8 = mb.parseBindTarget('InputData.Erschöpfung8', context.file.path);
 const reactiveErschöpfung8 = engine.reactive(onChange8, mb.getMetadata(Erschöpfung8)); 
-mb.subscribeToMetadata(Erschöpfung8, component, (value) => { reactiveErschöpfung8.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung8, component, (value) => { reactiveErschöpfung8.refresh(value); }); 
+}, 50);
 
 const Erschöpfung9 = mb.parseBindTarget('InputData.Erschöpfung9', context.file.path);
 const reactiveErschöpfung9 = engine.reactive(onChange9, mb.getMetadata(Erschöpfung9)); 
-mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfung9.refresh(value); }); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfung9.refresh(value); }); 
+}, 50);
 
 //events
 function onErschöpfungsPunkteChange(value) {
