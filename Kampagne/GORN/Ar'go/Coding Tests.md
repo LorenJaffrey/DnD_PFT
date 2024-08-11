@@ -1,4 +1,5 @@
 ---
+cssclass: nord
 InputData:
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
@@ -10,21 +11,34 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
+random_number: 
 ---
 
 ##  Dice Plugin
 
 `dice: 1d6`
-
-| dice: 1d20 | Heading  |
-| ---------- | -------- |
-| 1-2        | Option 1 |
-| 3-4        | Option 2 |
-| 5-10       | Option 3 |
-| 11         | Option 4 |
-| 13,14      | Option 5 |
-| 15-20      | Option 6 |
  
+```js-engine
+
+// Roll a 1d6 die using the Dice Roller plugin
+//const diceRoll = await engine.getPlugin['obsidian-dice-roller'];
+
+// Update the front matter metadata with the dice roll result
+/*const currentFile = app.workspace.getActiveFile();
+const metadata = app.metadataCache.getFileCache(currentFile)?.frontmatter || {};
+
+// Merge the new metadata
+metadata.random_number = diceRoll.result;
+
+// Write the updated metadata back to the file
+await app.vault.modify(
+    currentFile, 
+    `---
+random_number: ${metadata.random_number}
+---\n\n` + app.vault.read(currentFile)
+);*/
+
+```
 
 
 ## Erschöpfungspunkte Logik

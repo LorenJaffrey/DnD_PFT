@@ -1,4 +1,5 @@
 ---
+cssclass: dnd
 Stufe: 5
 Bewegung: 6
 Rüstung: "[[Fellrüstung]]"
@@ -432,6 +433,8 @@ Disclaimer: Waffen haben immer Übungsbonus...
 * Trägt das abgetrennte Einhorn als Totem
 
 
+## Versteckte Logiken & Button Konfigurationen
+
 ```meta-bind-button
 label: Kurze Rast
 icon: switch
@@ -463,7 +466,7 @@ hidden: true
 class: ""
 tooltip: ""
 id: "langeRast"
-style: destructive
+style: primary
 actions:
   - type: updateMetadata
     bindTarget: Gesundheit.TW

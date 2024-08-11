@@ -1,4 +1,5 @@
 ---
+cssclass: nord
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -159,7 +160,7 @@ tags:
 > ```dataviewjs 
 > const Gesundheit = dv.current().Gesundheit; 
 > const percentage = Math.round((Gesundheit.TP / Gesundheit.MaxTP) * 100);
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
+> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px; --progress: rgb(136, 192, 208) !important;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
 > dv.el('div', metaBindCode); 
 > ```
 > ## Hintergrund
@@ -223,6 +224,7 @@ tags:
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >>
+>>
 >>>[!column | flex 2 ] 
 >>>>## Rüstung
 >>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
@@ -234,21 +236,31 @@ tags:
 >>>> - Blitz
 >
 >> ## Bewegung
->> | Gehen                                              | [[Spurt]]                                          | 
->> | -------------------------------------------------- | -------------------------------------------------- |
->> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
+>> | Gehen                                              |
+>> | ---------------------------------- |
+>> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | 
 >>
->> | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             |
->> | ---------------------------------------------------- | ------------------------------------------------------ |
->> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m |
+>> | [[Spurt]]                                          |
+>> | -------------------------------------------------- |
+>> | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | 
 >>
->> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
->> | ----------------------------------------- | ------------------------------------------- |
->> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
+>> | [[Hochsprung]] mit Anlauf                            | 
+>> | ------------------------------------------------- | 
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
+>>
+>> | [[Hochsprung]] ohne Anlauf                                    |
+>> | ------------------------------------------------------------- |
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | 
+>>
+>> | [[Weitsprung]] mit Anlauf                 | 
+>> | ------------------------------------------ | 
+>> | `=round((this.Attribute.Stärke*0.3),2)` m |
+>>
+>> | [[Weitsprung]] ohne Anlauf                  |
+>> | --------------------------------------------- |
+>> | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 >>
 >
-
-
 
 ## Stats
 > [!column | flex ]
@@ -533,8 +545,8 @@ tags:
 >>         datasets: [{
 >>             label: 'Zauber Anwendungen',
 >>             data: data,
->>             backgroundColor: [ 'rgba(144,43,43)' ],
->>             borderColor: [ 'rgba(144,43,43)' ],
+>>             backgroundColor: [ 'rgb(136, 192, 208)' ],
+>>             borderColor: [ 'rgb(136, 192, 208)' ],
 >>             pointStyle: 'circle',
 >>             pointRadius: 10,
 >> 		    pointHoverRadius: 15
@@ -634,7 +646,7 @@ hidden: true
 class: ""
 tooltip: ""
 id: longBreakButton
-style: destructive
+style: primary
 actions:
   - type: updateMetadata
     bindTarget: Gesundheit.TW
