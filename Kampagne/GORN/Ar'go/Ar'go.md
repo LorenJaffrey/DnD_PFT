@@ -193,6 +193,13 @@ tags:
 > `=this.Persönlichkeit.Bindungen`
 > ### Makel
 > `=this.Persönlichkeit.Makel`
+> 
+> ## Statistik
+> ```dataviewjs
+> const currentPage = dv.current();
+> const labels = ["Donnerschlag", "Kältestrahl", "Klingenbann", "Schockgriff", "Windbö", "Chaospfeil", "Hexenpfeil", "Magierrüstung", "Schutzwind", "Snillocs Schneeballschwarm"];
+> const data = [currentPage.ZauberStatistik.Donnerschlag, currentPage.ZauberStatistik.Kältestrahl, currentPage.ZauberStatistik.Klingenbann, currentPage.ZauberStatistik.Schockgriff, currentPage.ZauberStatistik.Windbö, currentPage.ZauberStatistik.Chaospfeil, currentPage.ZauberStatistik.Hexenpfeil, currentPage.ZauberStatistik.Magierrüstung, currentPage.ZauberStatistik.Schutzwind, currentPage.ZauberStatistik.Snillocs_Schneeballschwarm];
+> 
 
 #   `=this.file.name`nthariel Maez'ralor Sturmzorn
 > [!column | flex 3 ]
@@ -354,7 +361,7 @@ tags:
 >
 
 ## Aktionen
->[!column | 2 ]
+>[!column]
 >> ### Blitz-Odem
 >>|  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad]]  |   [[Rettungswurf]] |  Erholung  |
 >>| ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
