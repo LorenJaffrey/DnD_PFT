@@ -195,23 +195,25 @@ tags:
 > `=this.Persönlichkeit.Makel`
 > 
 
-#   `=this.file.name`nthariel Maez'ralor Sturmzorn
+#  `=this.file.name`nthariel Maez'ralor Sturmzorn
 > [!column | flex 3 ]
 >> ## Rasten
 >> |                            |                           |
 >> | -------------------------- | ------------------------- |
 >> | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` | 
->> 
+>>
 >>  ## Allgemeine Spiel - Parameter
->> | Erholungs-Art | 1 | 2 |
->> | :---: | :---: | :---: |
->> | [[Kurze Rast]]| `INPUT[toggle:InputData.UhrzeitToogle1]`| `INPUT[toggle:InputData.UhrzeitToogle2]` |
->> | Uhrzeit            | `INPUT[time():InputData.Uhrzeit1]` | `INPUT[time():InputData.Uhrzeit2]` |
->>  
->> |  Eigenschaft  |  Wert  |  
->> | :---: | :---: | 
->> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
->> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+>>> [!column | 2 flex] 
+>>>> | Erholungs-Art | 1 | 2 |
+>>>> | :---: | :---: | :---: |
+>>>> | [[Kurze Rast]]| `INPUT[toggle:InputData.UhrzeitToogle1]`| `INPUT[toggle:InputData.UhrzeitToogle2]` |
+>>>> | Uhrzeit            | `INPUT[time():InputData.Uhrzeit1]` | `INPUT[time():InputData.Uhrzeit2]` |
+>>>  
+>>>> |  Eigenschaft  |  Wert  |  
+>>>> | :---: | :---: | 
+>>>> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
+>>>> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+>>>
 >> 
 >> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -315,11 +317,6 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
->> 
->> ### Zauberangriff / Zauber wirken
->> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
->> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
->> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >
 >> ### Schusswaffen 
 >> ```dataview
@@ -354,21 +351,51 @@ tags:
 >> ```
 >
 
-## Aktionen
->[!column]
+## Magie
+>[!column | 2]
 >> ### Blitz-Odem
->>|  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad]]  |   [[Rettungswurf]] |  Erholung  |
->>| ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>| [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang) |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
->>    
->>| Merkmal            | Verfügbar |
->>| ------------------ |:---------:|
->>| Blitz-Odem | `INPUT[toggle:InputData.BlitzOdem]`|
+>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang) |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >> 
->> ### Metamagie
->> ![[Beschleunigter Zauber]]
->> ![[Gespiegelter Zauber]]
-> 
+>>>[!column ]   
+>>>>  ###### Zauberplätze
+>>>>  
+>>>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
+>>>> |:----:|:-------------------------------:|:-----------------------------------:|
+>>>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
+>>>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
+>>>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
+>>>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
+>>>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
+>>>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
+>>>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
+>>>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
+>>>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+>>>
+>>>> ###### Zauberpunkte
+>>>> 
+>>>> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
+>>>> |:----:|:-------------------------------:|:-----------------------------------:|
+>>>> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
+>>>>
+>>>> | Zauberlevel | Umwandlungskosten |
+>>>> | ----------- |:-----------------:|
+>>>> | Level 1     |         2         |
+>>>> | Level 2     |         3         |
+>>>> | Level 3     |         5         |
+>>>> | Level 4     |         6         |
+>>>> | Level 5     |         7         |
+>>>> | Level 6     |          -         |
+>>>> | Level 7     |          -         |
+>>>> | Level 8     |          -         |
+>>>> | Level 9     |          -         | 
+>
+>> ### Zauberangriff / Zauber wirken
+>> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
+>> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
+>> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
+>> 
 >> ## Zaubertricks
 >> ```dataview
 >> TABLE WITHOUT ID
@@ -433,54 +460,30 @@ tags:
 >> ```
 >
 
-## Zauber / Magie
-> [!column | flex 3 ]
->> ###### Zauber wirken
->> 
->> [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
->> [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
->> 
->>---
->> ###### Bekannte Zauber
->> 
->> Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
->> Zaubertricks: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0`
->> Bekannte Zauber: `$=if(dv.page(dv.current().Hintergrund.Klasse).Art_Bekannte_Zauber=="Tabelle"){dv.page(dv.current().Hintergrund.Klasse).Bekannte_Zauber["Stufe"+dv.current().Stufe]}else{if(dv.page(dv.current().Hintergrund.Klasse).file.name=="Paladin"){dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.current().Hintergrund.Klasse.Zauberattribut).file.name])-10)/2)/2}else{dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.file.name])-10)/2)}}`  
-> 
->>  ###### Zauberplätze
->>  
->> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
->> |:----:|:-------------------------------:|:-----------------------------------:|
->> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
->> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
->> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
->> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
->> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
->> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
->> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
->> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
->> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
->
->> ###### Zauberpunkte
->> 
->> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
->> |:----:|:-------------------------------:|:-----------------------------------:|
->> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
+## Fähigkeiten
+> [!column | 2]
+>> ### Merkmale
+>>> [!column | 2]
+>>>> ![[Stürmische Magie]]
+>>>
+>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
+>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>
->> | Zauberlevel | Umwandlungskosten |
->> | ----------- |:-----------------:|
->> | Level 1     |         2         |
->> | Level 2     |         3         |
->> | Level 3     |         5         |
->> | Level 4     |         6         |
->> | Level 5     |         7         |
->> | Level 6     |          -         |
->> | Level 7     |          -         |
->> | Level 8     |          -         |
->> | Level 9     |          -         | 
+>> ### Metamagie
+>>> [!column | 2]
+>>>> ![[Beschleunigter Zauber]]
+>>>
+>>>> ![[Gespiegelter Zauber]]
+> 
+>> ### Talente ([[Kampferprobter Zauberwirker]])
+>>> [!column | 2] 
+>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>>
+>>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
+>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 
 ## Übung / Merkmale
-> [!column | 3]
+> [!column | flex]
 >> ## Rüstung
 >> 
 >> ## Waffen
@@ -515,8 +518,6 @@ tags:
 >> SORT file.name
 >> ```
 >>
->> ![[Kampferprobter Zauberwirker]]
->
 >> ## Klassenmerkmale
 >> ```dataview
 >> LIST
@@ -524,12 +525,7 @@ tags:
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```
->> 
->> ![[Stürmische Magie]]
->> 
->> ![[Quelle der Magie#Flexibles Zauberwirken]]
->> 
->> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
+>
 
 ## Statistik
 
