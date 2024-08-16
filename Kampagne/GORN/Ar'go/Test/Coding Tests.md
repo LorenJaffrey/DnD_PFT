@@ -99,6 +99,7 @@ InputData:
   Erschöpfung9: false
 random_number: 
 ---
+
 ## Statblocks
 
 ### Version 1

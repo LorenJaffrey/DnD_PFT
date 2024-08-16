@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaPlayerThunderStruck",
+      "LiTestTube",
+      "LiBook",
       "LiCode",
-      "LiCalendarDays",
-      "LiBookOpen",
-      "RaBook",
-      "LiBookLock"
+      "LiCalendarDays"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -116,8 +116,16 @@
   },
   "Kampagne/Memoiren.md": "LiBookOpen",
   "Kampagne/Timeline Kampagne 2.md": "LiCalendarDays",
-  "Kampagne/GORN/Ar'go/Coding Tests.md": {
+  "Kampagne/GORN/Ar'go/Test": {
+    "iconName": "RaPlayerThunderStruck",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/Test/Coding Tests.md": {
     "iconName": "LiCode",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/Test/Styling Tests.md": {
+    "iconName": "LiBook",
     "iconColor": "#258bb6"
   }
 }
