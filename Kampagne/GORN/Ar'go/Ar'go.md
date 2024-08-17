@@ -645,10 +645,8 @@ tooltip: ""
 id: longBreakButton
 style: primary
 actions:
-  - type: updateMetadata
-    bindTarget: Gesundheit.TW
-    evaluate: false
-    value: "4"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const tw = mb.parseBindTarget('Gesundheit.TW', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); mb.setMetadata(tw, stufe);"
   - type: updateMetadata
     bindTarget: InputData.Uhrzeit1
     evaluate: false
@@ -665,46 +663,26 @@ actions:
     bindTarget: InputData.UhrzeitToogle2
     evaluate: false
     value: "false"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberpunkte
-    evaluate: false
-    value: "17"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_1
-    evaluate: false
-    value: "4"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_2
-    evaluate: false
-    value: "3"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_3
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_4
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_5
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_6
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_7
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_8
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_9
-    evaluate: false
-    value: "0"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;     const magicPointsMetadata = mb.parseBindTarget('InputData.Zauberpunkte', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad1 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Zauberer/Zauberer.md'));     const grad2 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad2', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad3 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad3', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad4 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad4', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad5 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad5', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad6 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad6', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad7 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad7', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad8 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad8', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad9 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad9', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const calculatedMagicPoints = (grad1 * 2) + (grad2 * 3) + (grad3 * 5) + (grad4 * 6) + (grad5 * 7) + (grad6 * 9) + (grad7 * 10) + (grad8 * 11) + (grad9 * 13); mb.setMetadata(magicPointsMetadata, calculatedMagicPoints);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_1', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_2', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad2', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_3', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad3', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_4', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad4', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_5', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad5', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_6', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad6', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_7', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad7', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_8', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad8', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_9', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad9', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
   - type: updateMetadata
     bindTarget: InputData.NormaleRüstung
     evaluate: false
@@ -721,6 +699,8 @@ actions:
     bindTarget: InputData.ErschöpfungsPunkte
     evaluate: true
     value: x - 1
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
 ```
 
 

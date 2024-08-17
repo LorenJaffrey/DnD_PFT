@@ -97,8 +97,36 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
+  Zauberpunkte: 17
+  Zauberplätze:
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 0
+    Grad_4: 0
+    Grad_5: 0
+    Grad_6: 0
+    Grad_7: 0
+    Grad_8: 0
+    Grad_9: 0
 random_number: 
 ---
+
+## meta data button logik
+
+```meta-bind-button
+label: Inline JS Button
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;     const magicPointsMetadata = mb.parseBindTarget('InputData.Zauberpunkte', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad1 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Zauberer/Zauberer.md'));     const grad2 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad2', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad3 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad3', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad4 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad4', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad5 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad5', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad6 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad6', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad7 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad7', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad8 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad8', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad9 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad9', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const calculatedMagicPoints = (grad1 * 2) + (grad2 * 3) + (grad3 * 5) + (grad4 * 6) + (grad5 * 7) + (grad6 * 9) + (grad7 * 10) + (grad8 * 11) + (grad9 * 13); mb.setMetadata(magicPointsMetadata, calculatedMagicPoints);"
+
+```
+
 
 ## Statblocks
 
