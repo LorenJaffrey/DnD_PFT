@@ -224,16 +224,16 @@ tags:
 >> ## Gesundheit
 >> |         |  [[Trefferpunkte]]       | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | :------------------------: | :------------------------: | :---------------------------: |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |             -                |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >>
 >>
 >>>[!column | flex 2 ] 
 >>>>## Rüstung
 >>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->>>> | ------- | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+>>>> | :-------: | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
 >>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
->>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
+>>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| - |
 >>>
 >>>>## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> - Blitz

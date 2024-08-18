@@ -1,6 +1,6 @@
 ---
 Charakter: "[[Ar'go]]"
-cssclass: nord
+cssclass: nord, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Geld:
   PM: 0
   GM: 5
