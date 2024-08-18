@@ -1,5 +1,5 @@
 ---
-cssclass: nord
+cssclass: nord, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -199,7 +199,7 @@ tags:
 > [!column | flex 3 ]
 >> ## Rasten
 >> |                            |                           |
->> | -------------------------- | ------------------------- |
+>> | :--------------------------: | :-------------------------: |
 >> | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` | 
 >>
 >>  ## Allgemeine Spiel - Parameter
@@ -393,7 +393,7 @@ tags:
 >
 >> ### Zauberangriff / Zauber wirken
 >> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
->> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
+>> | ---------------------- | :--------------------: | :---------------------------------------------------------------------------------------: |
 >> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >> 
 >> ## Zaubertricks
