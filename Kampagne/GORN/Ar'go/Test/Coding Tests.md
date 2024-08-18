@@ -69,6 +69,17 @@ Aussehen:
   Augenfarbe: Blau
   Haarfarbe: Dunkel Blau
   Hautfarbe: Blau
+Zauber:
+  - "[[Windbö]]"
+  - "[[Schockgriff]]"
+  - "[[Donnerschlag]]"
+  - "[[Kältestrahl]]"
+  - "[[Hexenpfeil]]"
+  - "[[Magierrüstung]]"
+  - "[[Chaospfeil]]"
+  - "[[Klingenbann]]"
+  - "[[Schutzwind]]"
+  - "[[Snillocs Schneeballschwarm]]"
 Merkmale:
   Volk:
     - "[[Odemwaffe]]"
@@ -110,6 +121,31 @@ InputData:
     Grad_9: 0
 random_number: 
 ---
+
+## Dataview
+
+```dataview
+TABLE WITHOUT ID
+file.link AS "Zauber",
+Schule,
+Zeitaufwand, 
+Schadensart,
+Schaden AS "Basis Schaden",
+SchadenLv5 AS "Schaden ab Lv. 5",
+SchadenLv11 AS "Schaden ab Lv. 11",
+SchadenLv17 AS "Schaden ab Lv. 17",
+Ziel,
+Reichweite, 
+choice(Verbal,"X","") AS "Verbal", 
+choice(Geste,"X","") AS "Geste", 
+Dauer, 
+choice(Konzentration,"X","") AS "Konzentration", 
+choice(Ritual,"X","") AS "Ritual", 
+choice(Skalierbar,"X","") AS "Skalierbar" 
+FROM #Zauber
+WHERE contains(this.Zauber, file.link) AND Grad=0
+SORT file.name
+```
 
 ## meta data button logik
 
