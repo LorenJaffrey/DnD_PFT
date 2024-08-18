@@ -415,8 +415,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> choice(Geste,"X","") AS "Geste", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> choice(Ritual,"X","") AS "Ritual"
 >> FROM #Zauber
 >> WHERE contains(this.Zauber, file.link) AND Grad=0
 >> SORT file.name
