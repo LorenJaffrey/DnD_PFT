@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - Zauber/Offensiv
-Grad: 2
+Grad: 7
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
 Reichweite: 30 Meter
