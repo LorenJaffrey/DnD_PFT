@@ -1,4 +1,5 @@
 ---
+Name: Inventar
 Charakter: "[[Ar'go]]"
 cssclass: nord, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Summen:
@@ -106,7 +107,8 @@ Geld:
   SM: 0
   KM: 0
 ---
-# `=this.file.name`
+
+# `=this.Name`
 > [!infobox]
 > ###### Geld
 > | Währung | Anzahl |
