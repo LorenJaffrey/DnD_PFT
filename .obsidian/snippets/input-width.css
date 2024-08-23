@@ -1,4 +1,4 @@
-textarea, input.metadata-input-text, input[type='date'], input[type='datetime-local'], input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number'] {
+div.mb-input-type-number > input[type="number"] {
     -webkit-app-region: no-drag;
     background: var(--background-modifier-form-field);
     border: var(--input-border-width) solid var(--background-modifier-border);
@@ -8,6 +8,6 @@ textarea, input.metadata-input-text, input[type='date'], input[type='datetime-lo
     font-size: var(--font-ui-small);
     border-radius: var(--input-radius);
     outline: none;
-    width: 100px;
+    width: 100px !important;
     text-align: center;
 }
