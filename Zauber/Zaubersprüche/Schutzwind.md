@@ -30,7 +30,7 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Ein starker Wind (30 km/h) weht in einem Radius von 3 m um dich herum und bewegt sich mit dir, wobei er auf dir zentriert bleibt. 
+Ein starker Wind (30 km/h) weht in einem Radius von 3 m (2 Kästchen) um dich herum und bewegt sich mit dir, wobei er auf dir zentriert bleibt. 
 Der Wind verbleibt für die Wirkungsdauer des Zaubers.
 
 Der Wind hat folgende Effekte: 
