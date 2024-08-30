@@ -194,6 +194,7 @@ Inventar:
     gewicht14: 0
     count15: 0
     gewicht15: 0
+LineNumber: 213
 ---
 ## Inventar Test
 
@@ -207,6 +208,76 @@ Inventar:
 | Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4` |
 | Kultisten-Amulett (Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5` |
 | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
+
+
+
+
+
+```meta-bind-button
+label: This is a button
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: inlineJS
+    code: |-
+      // Get the current active editor (the open note)
+          const editor = this.app.workspace.activeEditor.editor;
+          debugger;
+
+          // Assume 'lineNumber' is stored in the note's frontmatter or elsewhere in the document
+          const metadata = this.app.metadataCache.getFileCache(this.app.workspace.getActiveFile());
+          const frontmatter = metadata.frontmatter;
+
+          // Get the lineNumber from the frontmatter
+          const lineNumber = frontmatter.LineNumber || 212;  // Default to line 1 if not found
+          
+          const nextMetadataCount = (Object.keys(frontmatter.Inventar.Körper).length / 2) + 1;
+
+          // The content to insert
+          let content = "|                                    | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1` |";
+          content = content.replace(/1/g, nextMetadataCount);
+          
+          debugger;
+
+          // Insert the content at the specified line
+          // editor.replaceRange(content, { line: lineNumber, ch: 0 });
+          
+          // Get the current content of the note 
+          //const content = editor.getValue().split('\n'); 
+          
+          // Insert the new content at the specified line 
+          //content.splice(lineNumber, 0, "This text will be inserted dynamically."); 
+          
+          // Set the new content back to the editor 
+          //editor.setValue(content.join('\n')); 
+          
+          // Refresh the editor view to ensure the new line appears 
+          editor.refresh();
+
+```
+
+
+```meta-bind-button
+label: Regex Button
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: regexpReplaceInNote
+    regexp: \|\s*\*\*GESAMT\*\*\s*\|\s*\|\s*\|\s*`=this\.Summen\.Körper`\s*\|
+    replacement: |-
+      | | | | |
+      | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
+
+```
+
 
 ```meta-bind-button
 label: Insert into Note
@@ -251,6 +322,22 @@ actions:
     code: "const nextMetadataCount = (Object.keys(context.metadata.frontmatter.Inventar.Körper).length / 2) + 1; const editor = app.workspace.activeLeaf.view.sourceMode.cmEditor; const contentToInsert = '| | /`INPUT[number:Inventar.Körper.' + nextMetadataCount ']/` | /`INPUT[number:Inventar.Körper.gewicht' + nextMetadataCount ']/` | /`=this.Inventar.Körper.count' + nextMetadataCount ' * this.Inventar.Körper.gewicht' + nextMetadataCount '/` |'; debugger;"
 
 ```
+
+```meta-bind-button
+label: Insert into Note 3 (JS)
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: inlineJS
+    code: "try{debugger; const nextMetadataCount = (Object.keys(context.metadata.frontmatter.Inventar.Körper).length / 2) + 1; contentToInsert = '|       | '; contentToInsert += '`'; contentToInsert += 'INPUT[number:Inventar.Körper.count1]'; contentToInsert += '`'; contentToInsert += ' | '; contentToInsert += '`'; contentToInsert += 'INPUT[number:Inventar.Körper.gewicht1]'; contentToInsert += '`'; contentToInsert += ' | '; contentToInsert += '`'; contentToInsert += '=this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1'; contentToInsert += '` |\n';  contentToInsert = contentToInsert.replace(/1/g, nextMetadataCount); debugger;} catch (error){ debugger; }"
+
+```
+
+
 
 ## Dataview
 
