@@ -8,6 +8,7 @@ Schild:
 Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
+  - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
   TP: 33
@@ -108,7 +109,7 @@ Zauber:
   - "[[Snillocs Schneeballschwarm]]"
 ZauberStatistik:
   Donnerschlag: 1
-  Kältestrahl: 0
+  Kältestrahl: 2
   Klingenbann: 0
   Schockgriff: 0
   Windbö: 0

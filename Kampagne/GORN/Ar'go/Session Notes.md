@@ -30,7 +30,10 @@ wichtigePersonen: |-
 
   #### Momentane Begleitung:
     - **Baumel** (Goblin)
-wichtigeOrte: |
+
+  #### Butterschädelhof
+  - **Big Al Karazorn**
+wichtigeOrte: |-
   - Neverwinter
     - [x] Ort erreicht
     - [x] 18: Abenteuer Gilde (hat Bibliothek & Trainingsbereich)
@@ -51,6 +54,8 @@ wichtigeOrte: |
     (dorthin ist Gudren anscheinend verschleppt worden)
     - [ ] Ort gefunden/ausgemacht
     - [ ] Ort erreicht
+  - [x] Herberge
+    - keine Eiseskälte mehr -> die Leichen sind aufgetaut -> finden nichts mehr
 todoListe: |-
   #### Neverwinter
   - [x] Abenteuer Gilde beitreten
@@ -70,6 +75,12 @@ todoListe: |-
   - [x] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
     - [x] Zwerger gewarnt -> Lohn von **Sildar** abholen
     - [x] Tempel erkunden -> von den Zwergen als Lohn **Steine der Verständigung** bekommen
+
+
+  - [ ] Holzfällerlager (Versorgungs-Quest) - 100 Gold
+  - [ ] Jagdhaus des Falken (Person heißt Falke - kann man übernachten)
+  - [ ] Butterschädelhof (Ork Überfall - sehr viele Orks)
+  - [ ] Bergzeh Goldmiene (Long Jon Reskin Eskurtieren) - 100 Gold
 wichtigeHintergrundInformationen: |-
   #### Neverwinter
   - #1 Mondsteinmaske -> berühmte Taverne

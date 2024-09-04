@@ -113,6 +113,28 @@ gantt
 		Ein Bote/Späher erreicht Phandalin: done, milestone, a6, after a5, 20m
 ```
 
+- Shoppen
+- Jon Begräbnis
+- Party (paar Stunden)
+Tag 8
+-  Kurze/Lange Rast (bis 7 Uhr) (nächster Tag)
+- Reise zur Herberge (dauer: 4h)
+- Herberge untersuchen
+- Weiterreise (bis kurz vor Nachtlager aufgeschlagen wird)
+- Gekreuzigter Mensch gefunden (Glassstab)
+- Lange Rast
+Tag 9
+- bis  (7 Uhr)
+- Weiterreise bis Abends (8h max)
+- Lange Rast
+Tag 10
+- bis (7 Uhr)
+- Weiterreise zur Hasenbeere
+- 3x Pferde überredet mit zu kommen
+- Weiterreise nach Butterschädelhof (noch nicht angekommen)
+- Kuh getroffen
+- Ankunft an Butterschädelhof
+
 > Hier befinden wir uns aktuell!
 
 # Woche 2
