@@ -132,9 +132,9 @@ gantt
 		Schlafen (Kurze/Lange Rast): done, a2, after a1, 3h
 		Reise zur Herberge: done, a3, after a2, 4h
 		Herberge nochmal untersuchen: done, milestone, a4, after a3, 30m
-		Weiterreise (Richtung "Hasenbeere"): done, a5, after a4, 4h
+		Weiterreise (Richtung "Hasenbeere"): done, a5, after a4, 10h
 		Gekreuzigten und gefolteter Mensch an Weggabelung gefunden (Böser Magier "Glasstab"): done, milestone, a6, after a5, 30m
-		Schlafen (Lange Rast): done, a7, after a6, 8h
+		Schlafen (Lange Rast): done, a7, after a6, 2h
 ```
 
 >
@@ -147,8 +147,8 @@ gantt
 	weekday wednesday
 	section G.O.R.N
 		Schlafen (Lange Rast): a1, 2024-05-01 00:00, 7h
-		Weiterreise (Richtung "Hasenbeere"): done, a2, after a1, 8h
-		Schlafen (Lange Rast): done, a3, after a2, 9h
+		Weiterreise (Richtung "Hasenbeere"): done, a2, after a1, 12h
+		Schlafen (Lange Rast): done, a3, after a2, 5h
 ```
 
 >
