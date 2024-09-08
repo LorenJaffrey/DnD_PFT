@@ -1,0 +1,44 @@
+:root {
+    --dndCustomNumberInputWidth: 100px;
+    --dndCustomEditorInputWidthLarger: 1200px;
+    --dndCustomEditorInputWidthLarge: 1000px;
+    --dndCustomEditorInputWidthMiddle: 850px;
+    --dndCustomEditorInputWidthDefault: 500px;
+    --dndCustomEditorInputWidthSmall: 250px;
+}
+
+div.mb-input-type-number > input[type="number"] {
+    -webkit-app-region: no-drag;
+    background: var(--background-modifier-form-field);
+    border: var(--input-border-width) solid var(--background-modifier-border);
+    color: var(--text-normal);
+    font-family: inherit;
+    padding: var(--size-4-1) var(--size-4-2);
+    font-size: var(--font-ui-small);
+    border-radius: var(--input-radius);
+    outline: none;
+    width: var(--dndCustomNumberInputWidth) !important;
+    text-align: center;
+}
+
+/* to use these customizing add these to your input: class(dndLargeHeight)*/
+
+.dndSmallHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+    height: var(--dndCustomEditorInputWidthSmall) !important;
+}
+
+.dndDefaultHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+    height: var(--dndCustomEditorInputWidthDefault) !important;
+}
+
+.dndMiddleHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+    height: var(--dndCustomEditorInputWidthMiddle) !important;
+}
+
+.dndLargeHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+    height: var(--dndCustomEditorInputWidthLarge) !important;
+}
+
+.dndLargerHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+    height: var(--dndCustomEditorInputWidthLarger) !important;
+}
