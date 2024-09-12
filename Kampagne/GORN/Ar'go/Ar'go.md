@@ -152,6 +152,18 @@ InputData:
     Grad_7: 0
     Grad_8: 0
     Grad_9: 0
+  Quest: |-
+    - **alle Tempestus Kristalle finden**
+       - [x] ein Splitter wurde aus Niewinter herausgeschmuggelt
+         (angeblich auf einem Versorgungskonvoi nach Phandalin vor ca. einer Woche)
+       -  Kult von Anhängern des Talos sind hinter den Splittern her (böse)
+          - diese sind im **Niewienterwald** ansässig
+
+    **Tempestus Fragment:**
+    - [ ] **Fragment des Windes** gefunden
+    - [ ] **Fragment des Blitzes** gefunden
+    - [ ] **Fragment des Donners** gefunden
+    - [ ] **Fragment des Regens** gefunden
 tags:
   - Charakter/GORN
 ---
@@ -278,6 +290,10 @@ tags:
 >> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
 >> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
 >>
+>> ## Main-Quest
+>>  ```meta-bind
+>>  INPUT[editor(class(dndSmallHeight)):InputData.Quest]
+>>  ```
 >
 >> ## Fertigkeiten
 >> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |  
