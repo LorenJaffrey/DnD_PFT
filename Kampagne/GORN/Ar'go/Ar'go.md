@@ -170,14 +170,13 @@ tags:
 
 > [!infobox]
 > ![[Argo.jpeg]]
-> ##### Leben
 > ```dataviewjs 
 > const Gesundheit = dv.current().Gesundheit; 
 > const percentage = Math.round( Gesundheit.TP / (Gesundheit.MaxTP / 100));
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px; --progress: rgb(136, 192, 208) !important;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
+> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress><span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Gesundheit</span></div><div style="width: 60px; text-align: center;">${percentage}%</div></div>`; 
 > dv.el('div', metaBindCode); 
 > ```
-> ##### Magie
+> 
 > ```dataviewjs 
 > const maxGrad1 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1;
 > const maxGrad2 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2;
@@ -204,10 +203,10 @@ tags:
 > const currentSpellSlots = (grad1*1)+(grad2*4)+(grad3*9)+(grad4*16)+(grad5*25)+(grad6*36)+(grad7*49)+(grad8*64)+(grad9*81);
 > const percentValue = Math.round(currentSpellSlots / (maxSpellSlots / 100));
 > 
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="magic" max="${maxSpellSlots}" value="${currentSpellSlots}" style="width: 100%; height: 20px; --progress: rgb(11, 59, 163) !important;"></progress>            <span id="percentage2" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentValue}%</span>        </div>        <div style="width: 30px; text-align: center;">${maxSpellSlots}</div>    </div>`; 
+> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="magic" max="${maxSpellSlots}" value="${currentSpellSlots}" style="width: 100%; height: 20px; --progress: rgb(11, 59, 163) !important;"></progress><span id="percentage2" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Magie</span></div><div style="width: 60px; text-align: center;">${percentValue}%</div></div>`; 
 > dv.el('div', metaBindCode); 
 > ```
-> ##### Zauberpunkte
+> 
 > ```dataviewjs 
 > const maxSpellPoints = (dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+
 > (dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+
@@ -219,7 +218,7 @@ tags:
 > const currentSpellPoints = dv.current().InputData.Zauberpunkte;
 > const percentValue2 =  Math.round(currentSpellPoints / (maxSpellPoints / 100));
 >  
->  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(92, 117, 171) !important;"></progress>            <span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentValue2}%</span>        </div>        <div style="width: 30px; text-align: center;">${maxSpellPoints}</div>    </div>`; 
+>  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(136, 192, 208) !important;"></progress><span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Zauberpunkte</span></div><div style="width: 60px; text-align: center;">${percentValue2}%</div></div>`; 
 > dv.el('div', metaBindCode); 
 > ```
 > 
