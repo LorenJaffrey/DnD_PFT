@@ -232,18 +232,6 @@ tags:
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
 > 
-> ## Aussehen
-> |  |  |
-> | ---- | ---- |
-> | Geschlecht | `=this.Aussehen.Geschlecht` |
-> | Alter | `=this.Aussehen.Alter` |
-> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
-> | Größe | `=this.Aussehen.Größe` |
-> | Gewicht | `=this.Aussehen.Gewicht` |
-> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
-> | Hornfarbe | `=this.Aussehen.Haarfarbe` |
-> | Schuppenfarbe | `=this.Aussehen.Hautfarbe` |
->
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
 
@@ -257,6 +245,8 @@ tags:
 > | [[Athletik]] `=choice(this.Fertigkeiten.Athletik=2, "⭐⭐", choice(this.Fertigkeiten.Athletik=1, "⭐",""))` ( `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Athletik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⭐⭐", choice(this.Fertigkeiten.Einschüchtern=1, "⭐",""))` | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
+><br/>
+>
 > # Geschicklichkeit
 > | [[Geschicklichkeit]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -267,12 +257,16 @@ tags:
 > | [[Fingerfertigkeit]] `=choice(this.Fertigkeiten.Fingerfertigkeit=2, "⭐⭐", choice(this.Fertigkeiten.Fingerfertigkeit=1, "⭐",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Fingerfertigkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 > | [[Heimlichkeit]] `=choice(this.Fertigkeiten.Heimlichkeit=2, "⭐⭐", choice(this.Fertigkeiten.Heimlichkeit=1, "⭐",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Heimlichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
+><br/>
+>
 > # Konstitution
 > | [[Konstitution]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Konstitution)-10)/2)>0, "+" + floor(((this.Attribute.Konstitution)-10)/2), floor(((this.Attribute.Konstitution)-10)/2))`)               |                                                                            `=this.Attribute.Konstitution`                                                                              |
 > | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Konstitution)-10)/2) + "\|none\|noform\```"`                                         |
 > | [[Rettungswurf]] `=choice(this.Rettungswürfe.Konstitution=2, "⭐⭐", choice(this.Rettungswürfe.Konstitution=1, "⭐",""))`  (`=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Konstitution)-10)/2)+(dv.current().Rettungswürfe.Konstitution*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+>
+><br/>
 >
 > # Intelligenz
 > | [[Intelligenz]]                  |                                                                                  Attributswert                                                                                  |
@@ -286,6 +280,8 @@ tags:
 > | [[Naturkunde]] `=choice(this.Fertigkeiten.Naturkunde=2, "⭐⭐", choice(this.Fertigkeiten.Naturkunde=1, "⭐",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`)         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Naturkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 > | [[Religion]] `=choice(this.Fertigkeiten.Religion=2, "⭐⭐", choice(this.Fertigkeiten.Religion=1, "⭐",""))`  (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`)       | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Religion*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
+><br/>
+>
 > # Weisheit
 > | [[Weisheit]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -298,6 +294,8 @@ tags:
 > | [[Überlebenskunst]] `=choice(this.Fertigkeiten.Überlebenskunst=2, "⭐⭐", choice(this.Fertigkeiten.Überlebenskunst=1, "⭐",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`)             |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Überlebenskunst*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > | [[Wahrnehmung]] `=choice(this.Fertigkeiten.Wahrnehmung=2, "⭐⭐", choice(this.Fertigkeiten.Wahrnehmung=1, "⭐",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Wahrnehmung*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
+>
+><br/>
 >
 > # Charisma
 > | [[Charisma]]                  |                                                                                  Attributswert                                                                                  |
@@ -663,21 +661,33 @@ tags:
 >> | `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]` | [[Snillocs Schneeballschwarm]] |   `BUTTON[snillocs_up]`    |   `BUTTON[snillocs_down]`    | 
 >> 
 
-## Quests
+## Persönlichkeit
 > [!column | no-title ]
 >> ## Main-Quest
 >>  ```meta-bind
 >>  INPUT[editor(class(dndMediumHeight)):InputData.Quest]
 >>  ```
 >
->>## Persönlichkeitsmerkmale 
->> `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
->>### Ideale
->> `=this.Persönlichkeit.Ideale`
->>### Bindungen
->> `=this.Persönlichkeit.Bindungen`
->>### Makel
->> `=this.Persönlichkeit.Makel`
+>>## Charakter
+>> |  |  |
+>> | ---- | ---- |
+>> | Persönlichkeitsmerkmale  | `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`|
+>> | Ideale | `=this.Persönlichkeit.Ideale` |
+>> | Bindungen | `=this.Persönlichkeit.Bindungen` |
+>> | Makel |  `=this.Persönlichkeit.Makel` |
+>> 
+>> ## Aussehen
+>> |  |  |
+>> | ---- | ---- |
+>> | Geschlecht | `=this.Aussehen.Geschlecht` |
+>> | Alter | `=this.Aussehen.Alter` |
+>> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
+>> | Größe | `=this.Aussehen.Größe` |
+>> | Gewicht | `=this.Aussehen.Gewicht` |
+>> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
+>> | Hornfarbe | `=this.Aussehen.Haarfarbe` |
+>> | Schuppenfarbe | `=this.Aussehen.Hautfarbe` |
+>>
  
 
 ## Vergangenheit
