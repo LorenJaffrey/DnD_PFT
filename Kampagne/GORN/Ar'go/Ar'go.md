@@ -236,7 +236,9 @@ tags:
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
 
 > [!infobox|left]
-> # Stärke
+> ```dataviewjs 
+> dv.el('h2', `<h2>Stärke</h2>`); 
+> ```
 > | [[Stärke]]                                                                                                                 |                                                                                  Attributswert                                                                                  |
 > | -------------------------------------------------------------------------------------------------------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]]  (`=choice(floor(((this.Attribute.Stärke)-10)/2)>0, "+" + floor(((this.Attribute.Stärke)-10)/2), floor(((this.Attribute.Stärke)-10)/2))`)                                                                                              |                                                                            `=this.Attribute.Stärke`                                                                           |
@@ -245,9 +247,9 @@ tags:
 > | [[Athletik]] `=choice(this.Fertigkeiten.Athletik=2, "⭐⭐", choice(this.Fertigkeiten.Athletik=1, "⭐",""))` ( `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Athletik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⭐⭐", choice(this.Fertigkeiten.Einschüchtern=1, "⭐",""))` | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
-><br/>
->
-> # Geschicklichkeit
+> ```dataviewjs 
+> dv.el('h2', `<h2>Geschicklichkeit</h2>`); 
+> ```
 > | [[Geschicklichkeit]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Geschicklichkeit)-10)/2)>0, "+" + floor(((this.Attribute.Geschicklichkeit)-10)/2), floor(((this.Attribute.Geschicklichkeit)-10)/2))`)               |                                                                            `=this.Attribute.Geschicklichkeit`                                                                                |
@@ -257,18 +259,18 @@ tags:
 > | [[Fingerfertigkeit]] `=choice(this.Fertigkeiten.Fingerfertigkeit=2, "⭐⭐", choice(this.Fertigkeiten.Fingerfertigkeit=1, "⭐",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Fingerfertigkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 > | [[Heimlichkeit]] `=choice(this.Fertigkeiten.Heimlichkeit=2, "⭐⭐", choice(this.Fertigkeiten.Heimlichkeit=1, "⭐",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Heimlichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
-><br/>
->
-> # Konstitution
+> ```dataviewjs 
+> dv.el('h2', `<h2>Konstitution</h2>`); 
+> ```
 > | [[Konstitution]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Konstitution)-10)/2)>0, "+" + floor(((this.Attribute.Konstitution)-10)/2), floor(((this.Attribute.Konstitution)-10)/2))`)               |                                                                            `=this.Attribute.Konstitution`                                                                              |
 > | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Konstitution)-10)/2) + "\|none\|noform\```"`                                         |
 > | [[Rettungswurf]] `=choice(this.Rettungswürfe.Konstitution=2, "⭐⭐", choice(this.Rettungswürfe.Konstitution=1, "⭐",""))`  (`=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Konstitution)-10)/2)+(dv.current().Rettungswürfe.Konstitution*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 >
-><br/>
->
-> # Intelligenz
+> ```dataviewjs 
+> dv.el('h2', `<h2>Intelligenz</h2>`); 
+> ```
 > | [[Intelligenz]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Intelligenz)-10)/2)>0, "+" + floor(((this.Attribute.Intelligenz)-10)/2), floor(((this.Attribute.Intelligenz)-10)/2))`)               |                                                                            `=this.Attribute.Intelligenz`                                                                                |
@@ -280,9 +282,9 @@ tags:
 > | [[Naturkunde]] `=choice(this.Fertigkeiten.Naturkunde=2, "⭐⭐", choice(this.Fertigkeiten.Naturkunde=1, "⭐",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`)         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Naturkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 > | [[Religion]] `=choice(this.Fertigkeiten.Religion=2, "⭐⭐", choice(this.Fertigkeiten.Religion=1, "⭐",""))`  (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`)       | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Religion*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
-><br/>
->
-> # Weisheit
+> ```dataviewjs 
+> dv.el('h2', `<h2>Weisheit</h2>`); 
+> ```
 > | [[Weisheit]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Weisheit)-10)/2)>0, "+" + floor(((this.Attribute.Weisheit)-10)/2), floor(((this.Attribute.Weisheit)-10)/2))`)               |                                                                            `=this.Attribute.Weisheit`                                                                                |
@@ -295,9 +297,9 @@ tags:
 > | [[Wahrnehmung]] `=choice(this.Fertigkeiten.Wahrnehmung=2, "⭐⭐", choice(this.Fertigkeiten.Wahrnehmung=1, "⭐",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Wahrnehmung*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 >
-><br/>
->
-> # Charisma
+> ```dataviewjs 
+> dv.el('h2', `<h2>Charisma</h2>`); 
+> ```
 > | [[Charisma]]                  |                                                                                  Attributswert                                                                                  |
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Charisma)-10)/2)>0, "+" + floor(((this.Attribute.Charisma)-10)/2), floor(((this.Attribute.Charisma)-10)/2))`)               |                                                                            `=this.Attribute.Charisma`                                                                              |
@@ -601,7 +603,36 @@ tags:
 >> ```
 >
 
-## Statistik
+
+## Persönlichkeit
+> [!column | no-title ]
+>> ## Main-Quest
+>>  ```meta-bind
+>>  INPUT[editor(class(dndMediumHeight)):InputData.Quest]
+>>  ```
+>
+>>## Charakter
+>> |  |  |
+>> | ---- | ---- |
+>> | Persönlichkeitsmerkmale  | `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`|
+>> | Ideale | `=this.Persönlichkeit.Ideale` |
+>> | Bindungen | `=this.Persönlichkeit.Bindungen` |
+>> | Makel |  `=this.Persönlichkeit.Makel` |
+>> 
+>> ## Aussehen
+>> |  |  |
+>> | ---- | ---- |
+>> | Geschlecht | `=this.Aussehen.Geschlecht` |
+>> | Alter | `=this.Aussehen.Alter` |
+>> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
+>> | Größe | `=this.Aussehen.Größe` |
+>> | Gewicht | `=this.Aussehen.Gewicht` |
+>> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
+>> | Hornfarbe | `=this.Aussehen.Haarfarbe` |
+>> | Schuppenfarbe | `=this.Aussehen.Hautfarbe` |
+>>
+
+ ## Statistik
 
 > [!column | 2 no-title]
 >> ```dataviewjs
@@ -661,66 +692,39 @@ tags:
 >> | `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]` | [[Snillocs Schneeballschwarm]] |   `BUTTON[snillocs_up]`    |   `BUTTON[snillocs_down]`    | 
 >> 
 
-## Persönlichkeit
-> [!column | no-title ]
->> ## Main-Quest
->>  ```meta-bind
->>  INPUT[editor(class(dndMediumHeight)):InputData.Quest]
->>  ```
->
->>## Charakter
->> |  |  |
->> | ---- | ---- |
->> | Persönlichkeitsmerkmale  | `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`|
->> | Ideale | `=this.Persönlichkeit.Ideale` |
->> | Bindungen | `=this.Persönlichkeit.Bindungen` |
->> | Makel |  `=this.Persönlichkeit.Makel` |
->> 
->> ## Aussehen
->> |  |  |
->> | ---- | ---- |
->> | Geschlecht | `=this.Aussehen.Geschlecht` |
->> | Alter | `=this.Aussehen.Alter` |
->> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
->> | Größe | `=this.Aussehen.Größe` |
->> | Gewicht | `=this.Aussehen.Gewicht` |
->> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
->> | Hornfarbe | `=this.Aussehen.Haarfarbe` |
->> | Schuppenfarbe | `=this.Aussehen.Hautfarbe` |
->>
- 
 
 ## Vergangenheit
 
-- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
-- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
-- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
-- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
-- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
-- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
-- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
-- seitdem wartet er immer noch auf die Gruppe..
+>- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
+>- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
+>- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
+>- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
+>- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
+>- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
+>- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
+>- seitdem wartet er immer noch auf die Gruppe..
 
 ## Hintergrundgeschichte
 
-**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
+>**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
+>
+>Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
+>
+>Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
+>
+>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
+>
+>1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+>2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+>3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+>4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
+>
+>Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
+>
+>Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
+>
+>Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
 
-Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
-
-Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
-
-Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
-
-1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
-2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
-3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
-4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
-
-Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
-
-Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
-
-Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
 
 ## Versteckte Logiken & Button Konfigurationen
 
