@@ -13,7 +13,7 @@
   "defaultRoll": 1,
   "defaultFace": 100,
   "renderer": false,
-  "renderAllDice": false,
+  "renderAllDice": true,
   "addToView": false,
   "renderTime": 2000,
   "colorfulDice": false,
@@ -23,9 +23,9 @@
   "textFont": "Arial",
   "showLeafOnStartup": true,
   "showDice": true,
-  "displayAsEmbed": true,
+  "displayAsEmbed": false,
   "round": "None",
-  "initialDisplay": "Roll",
+  "initialDisplay": "None",
   "icons": [
     {
       "id": "dice-roller-d4",
@@ -73,6 +73,6 @@
   "showRenderNotice": true,
   "diceModTemplateFolders": {},
   "replaceDiceModInLivePreview": true,
-  "viewResults": [],
-  "version": "11.0.5"
+  "version": "11.0.5",
+  "viewResults": []
 }
