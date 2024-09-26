@@ -233,8 +233,6 @@ tags:
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
 > 
 
-#  `=this.file.name`nthariel Maez'ralor Sturmzorn
-
 > [!infobox|left]
 > ```dataviewjs 
 > dv.el('h2', `<h2>Stärke</h2>`); 
@@ -309,6 +307,8 @@ tags:
 > | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⭐⭐", choice(this.Fertigkeiten.Einschüchtern=1, "⭐",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` / `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 > | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "⭐⭐", choice(this.Fertigkeiten.Täuschen=1, "⭐",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 > | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "⭐⭐", choice(this.Fertigkeiten.Überzeugen=1, "⭐",""))`  (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+
+#  `=this.file.name`nthariel Maez'ralor Sturmzorn
 
 > [!column | flex 3 no-title]
 >> ## Rasten
