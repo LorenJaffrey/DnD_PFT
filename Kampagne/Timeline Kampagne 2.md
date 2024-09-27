@@ -167,6 +167,9 @@ gantt
 		Unterhaltung mit 3 markierten Pferde: done, a4, after a3, 15m
 		Weiterreise (Richtung "Butterschädelhof"): done, a5, after a4, 3h
 		Ankunft "Butterschädelhof": done, milestone, a6, after a5, 0m
+		Erkundung & Schleichen: done, a7, after a6, 30m
+		Niptac befreit "Big Al": done, a8, after a7, 45m
+		Weißer erwachsender Drache überfällt den "Butterschädelhof": done, milestone, a9, after a8, 30m
 ```
 
 > Hier befinden wir uns aktuell!
