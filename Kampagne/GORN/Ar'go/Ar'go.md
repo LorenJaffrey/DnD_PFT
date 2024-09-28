@@ -750,6 +750,77 @@ tags:
 
 ## Versteckte Logiken & Button Konfigurationen
 
+```js-engine
+// Grab the Meta Bind API and extract metadata fields
+const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
+const shoHideSectionMetadata = context.metadata.frontmatter.InputData.ShowHideSection;
+
+const toggleViewWeaponAttackMetaData = mb.parseBindTarget('InputData.ShowHideSection.WeaponAttack', context.file.path);
+const changeEventPointerWeaponAttack = engine.reactive((value) => {onToogleChange(value, 'Angriff')}, mb.getMetadata(toggleViewWeaponAttackMetaData));
+const toggleViewMagicAttackMetaData = mb.parseBindTarget('InputData.ShowHideSection.MagicAttack', context.file.path);
+const changeEventPointerMagicAttack = engine.reactive((value) => {onToogleChange(value, 'Magie')}, mb.getMetadata(toggleViewMagicAttackMetaData));
+const toggleViewSkillsMetaData = mb.parseBindTarget('InputData.ShowHideSection.Skills', context.file.path);
+const changeEventPointerSkills = engine.reactive((value) => {onToogleChange(value, 'Fähigkeiten')}, mb.getMetadata(toggleViewSkillsMetaData));
+const toggleViewFeaturesMetaData = mb.parseBindTarget('InputData.ShowHideSection.Features', context.file.path);
+const changeEventPointerFeatures = engine.reactive((value) => {onToogleChange(value, 'Übung / Merkmale')}, mb.getMetadata(toggleViewFeaturesMetaData));
+const toggleViewPersonalityMetaData = mb.parseBindTarget('InputData.ShowHideSection.Personality', context.file.path);
+const changeEventPointerPersonality = engine.reactive((value) => {onToogleChange(value, 'Persönlichkeit')}, mb.getMetadata(toggleViewPersonalityMetaData));
+const toggleViewPastMetaData = mb.parseBindTarget('InputData.ShowHideSection.Past', context.file.path);
+const changeEventPointerPast = engine.reactive((value) => {onToogleChange(value, 'Vergangenheit')}, mb.getMetadata(toggleViewPastMetaData));
+const toggleViewBackgroundStoryMetaData = mb.parseBindTarget('InputData.ShowHideSection.BackgroundStory', context.file.path);
+const changeEventPointerBackgroundStory = engine.reactive((value) => {onToogleChange(value, 'Hintergrundgeschichte')}, mb.getMetadata(toggleViewBackgroundStoryMetaData));
+const toggleViewStatisticMetaData = mb.parseBindTarget('InputData.ShowHideSection.Statistic', context.file.path);
+const changeEventPointerStatistic = engine.reactive((value) => {onToogleChange(value, 'Statistik')}, mb.getMetadata(toggleViewStatisticMetaData));
+
+function onToogleChange(value, headerValue) {
+	const header = document.querySelector(`h2[data-heading="${headerValue}"]`);
+
+	if(header) {
+		const parentDivElement = header.parentElement;
+		if (parentDivElement) {
+			const contentContainer = parentDivElement.nextElementSibling;
+
+			if(value) {
+				parentDivElement.style.display = 'block';
+				
+				if(contentContainer) {
+					contentContainer.style.display = 'block';
+				}				
+			} else {
+				parentDivElement.style.display = 'none';
+
+				if(contentContainer) {
+					contentContainer.style.display = 'none';
+				}
+			}
+		}
+	}
+}
+
+setTimeout(() => {
+	//initial view
+	changeEventPointerWeaponAttack.refresh(shoHideSectionMetadata.WeaponAttack);
+	changeEventPointerMagicAttack.refresh(shoHideSectionMetadata.MagicAttack);
+	changeEventPointerSkills.refresh(shoHideSectionMetadata.Skills);
+	changeEventPointerFeatures.refresh(shoHideSectionMetadata.Features);
+	changeEventPointerPersonality.refresh(shoHideSectionMetadata.Personality);
+	changeEventPointerPast.refresh(shoHideSectionMetadata.Past);
+	changeEventPointerBackgroundStory.refresh(shoHideSectionMetadata.BackgroundStory);
+	changeEventPointerStatistic.refresh(shoHideSectionMetadata.Statistic);
+	onToogleChange(false, 'Versteckte Logiken & Button Konfigurationen');
+	
+	mb.subscribeToMetadata(toggleViewWeaponAttackMetaData, component, (value) => { changeEventPointerWeaponAttack.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewMagicAttackMetaData, component, (value) => { changeEventPointerMagicAttack.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewSkillsMetaData, component, (value) => { changeEventPointerSkills.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewFeaturesMetaData, component, (value) => { changeEventPointerFeatures.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewPersonalityMetaData, component, (value) => { changeEventPointerPersonality.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewPastMetaData, component, (value) => { changeEventPointerPast.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewBackgroundStoryMetaData, component, (value) => { changeEventPointerBackgroundStory.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewStatisticMetaData, component, (value) => { changeEventPointerStatistic.refresh(value); }); 
+}, 200);
+
+```
+
 ```meta-bind-button
 label: Kurze Rast
 icon: switch
@@ -1148,67 +1219,6 @@ actions:
     bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
     evaluate: true
     value: x - 1
-```
-
-```js-engine
-// Grab the Meta Bind API and extract metadata fields
-const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
-const toggleViewWeaponAttackMetaData = mb.parseBindTarget('InputData.ShowHideSection.WeaponAttack', context.file.path);
-const changeEventPointerWeaponAttack = engine.reactive((value) => {onToogleChange(value, 'Angriff')}, mb.getMetadata(toggleViewWeaponAttackMetaData));
-const toggleViewMagicAttackMetaData = mb.parseBindTarget('InputData.ShowHideSection.MagicAttack', context.file.path);
-const changeEventPointerMagicAttack = engine.reactive((value) => {onToogleChange(value, 'Magie')}, mb.getMetadata(toggleViewMagicAttackMetaData));
-const toggleViewSkillsMetaData = mb.parseBindTarget('InputData.ShowHideSection.Skills', context.file.path);
-const changeEventPointerSkills = engine.reactive((value) => {onToogleChange(value, 'Fähigkeiten')}, mb.getMetadata(toggleViewSkillsMetaData));
-const toggleViewFeaturesMetaData = mb.parseBindTarget('InputData.ShowHideSection.Features', context.file.path);
-const changeEventPointerFeatures = engine.reactive((value) => {onToogleChange(value, 'Übung / Merkmale')}, mb.getMetadata(toggleViewFeaturesMetaData));
-const toggleViewPersonalityMetaData = mb.parseBindTarget('InputData.ShowHideSection.Personality', context.file.path);
-const changeEventPointerPersonality = engine.reactive((value) => {onToogleChange(value, 'Persönlichkeit')}, mb.getMetadata(toggleViewPersonalityMetaData));
-const toggleViewPastMetaData = mb.parseBindTarget('InputData.ShowHideSection.Past', context.file.path);
-const changeEventPointerPast = engine.reactive((value) => {onToogleChange(value, 'Vergangenheit')}, mb.getMetadata(toggleViewPastMetaData));
-const toggleViewBackgroundStoryMetaData = mb.parseBindTarget('InputData.ShowHideSection.BackgroundStory', context.file.path);
-const changeEventPointerBackgroundStory = engine.reactive((value) => {onToogleChange(value, 'Hintergrundgeschichte')}, mb.getMetadata(toggleViewBackgroundStoryMetaData));
-const toggleViewStatisticMetaData = mb.parseBindTarget('InputData.ShowHideSection.Statistic', context.file.path);
-const changeEventPointerStatistic = engine.reactive((value) => {onToogleChange(value, 'Statistik')}, mb.getMetadata(toggleViewStatisticMetaData));
-
-function onToogleChange(value, headerValue) {
-	const header = document.querySelector(`h2[data-heading="${headerValue}"]`);
-
-	if(header) {
-		const parentDivElement = header.parentElement;
-		if (parentDivElement) {
-			const contentContainer = parentDivElement.nextElementSibling;
-
-			if(value) {
-				parentDivElement.style.display = 'block';
-				contentContainer.style.display = 'block';
-			} else {
-				parentDivElement.style.display = 'none';
-				contentContainer.style.display = 'none';
-			}
-		}
-	}
-}
-
-setTimeout(() => {
-	mb.subscribeToMetadata(toggleViewWeaponAttackMetaData, component, (value) => { changeEventPointerWeaponAttack.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewMagicAttackMetaData, component, (value) => { changeEventPointerMagicAttack.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewSkillsMetaData, component, (value) => { changeEventPointerSkills.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewFeaturesMetaData, component, (value) => { changeEventPointerFeatures.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewPersonalityMetaData, component, (value) => { changeEventPointerPersonality.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewPastMetaData, component, (value) => { changeEventPointerPast.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewBackgroundStoryMetaData, component, (value) => { changeEventPointerBackgroundStory.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewStatisticMetaData, component, (value) => { changeEventPointerStatistic.refresh(value); }); 
-
-	const hiddenAreaHeader = document.querySelector('h2[data-heading="Versteckte Logiken & Button Konfigurationen"]');
-
-	if(hiddenAreaHeader) {
-		const parentDivElementOfHiddenHeader = hiddenAreaHeader.parentElement;
-		if (parentDivElementOfHiddenHeader) {		
-			parentDivElementOfHiddenHeader.style.display = 'none';		
-		}
-	}
-}, 80);
-
 ```
 
  ```js-engine
