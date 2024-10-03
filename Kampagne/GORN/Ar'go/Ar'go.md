@@ -115,7 +115,7 @@ ZauberStatistik:
   Windbö: 0
   Chaospfeil: 0
   Hexenpfeil: 0
-  Magierrüstung: 0
+  Magierrüstung: 1
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 0
 InputData:
@@ -170,7 +170,7 @@ InputData:
     MagicAttack: true
     Skills: false
     Features: false
-    Statistic: false
+    Statistic: true
     Personality: false
     Past: false
     BackgroundStory: false
@@ -582,7 +582,7 @@ tags:
 
 ## Übung / Merkmale
 
-> [!column | no-title]
+> [!column | flex no-title]
 >> ## Waffen
 >> ```dataview
 >> LIST
@@ -749,6 +749,21 @@ tags:
 
 
 ## Versteckte Logiken & Button Konfigurationen
+
+```js-engine
+if(document.head) {
+	const style = document.createElement('style');
+	style.type = 'text/css';
+	
+	style.innerHTML = `
+		.callout-content {
+			justify-content: Center;
+		}
+	`;
+	
+	document.head.appendChild(style);
+}
+```
 
 ```js-engine
 // Grab the Meta Bind API and extract metadata fields
