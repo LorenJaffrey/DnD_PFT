@@ -111,11 +111,11 @@ ZauberStatistik:
   Donnerschlag: 1
   Kältestrahl: 2
   Klingenbann: 0
-  Schockgriff: 0
+  Schockgriff: 1
   Windbö: 0
   Chaospfeil: 0
   Hexenpfeil: 0
-  Magierrüstung: 0
+  Magierrüstung: 1
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 0
 InputData:
@@ -138,13 +138,13 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  NormaleRüstung: false
-  MagierRüstung: true
+  NormaleRüstung: true
+  MagierRüstung: false
   BlitzOdem: false
   Zauberpunkte: 17
   Zauberplätze:
     Grad_1: 4
-    Grad_2: 2
+    Grad_2: 3
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -167,11 +167,11 @@ InputData:
   toogleView: false
   ShowHideSection:
     WeaponAttack: false
-    MagicAttack: true
+    MagicAttack: false
     Skills: false
     Features: false
     Statistic: false
-    Personality: false
+    Personality: true
     Past: false
     BackgroundStory: false
 tags:
@@ -582,7 +582,7 @@ tags:
 
 ## Übung / Merkmale
 
-> [!column | no-title]
+> [!column | flex no-title]
 >> ## Waffen
 >> ```dataview
 >> LIST
@@ -751,9 +751,24 @@ tags:
 ## Versteckte Logiken & Button Konfigurationen
 
 ```js-engine
+if(document.head) {
+	const style = document.createElement('style');
+	style.type = 'text/css';
+	
+	style.innerHTML = `
+		.callout-content {
+			justify-content: Center;
+		}
+	`;
+	
+	document.head.appendChild(style);
+}
+```
+
+```js-engine
 // Grab the Meta Bind API and extract metadata fields
 const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
-const shoHideSectionMetadata = context.metadata.frontmatter.InputData.ShowHideSection;
+const showHideSectionMetadata = context.metadata.frontmatter.InputData.ShowHideSection;
 
 const toggleViewWeaponAttackMetaData = mb.parseBindTarget('InputData.ShowHideSection.WeaponAttack', context.file.path);
 const changeEventPointerWeaponAttack = engine.reactive((value) => {onToogleChange(value, 'Angriff')}, mb.getMetadata(toggleViewWeaponAttackMetaData));
@@ -771,6 +786,8 @@ const toggleViewBackgroundStoryMetaData = mb.parseBindTarget('InputData.ShowHide
 const changeEventPointerBackgroundStory = engine.reactive((value) => {onToogleChange(value, 'Hintergrundgeschichte')}, mb.getMetadata(toggleViewBackgroundStoryMetaData));
 const toggleViewStatisticMetaData = mb.parseBindTarget('InputData.ShowHideSection.Statistic', context.file.path);
 const changeEventPointerStatistic = engine.reactive((value) => {onToogleChange(value, 'Statistik')}, mb.getMetadata(toggleViewStatisticMetaData));
+
+let eventIsTriggered = false;
 
 function onToogleChange(value, headerValue) {
 	const header = document.querySelector(`h2[data-heading="${headerValue}"]`);
@@ -797,27 +814,74 @@ function onToogleChange(value, headerValue) {
 	}
 }
 
-setTimeout(() => {
-	//initial view
-	changeEventPointerWeaponAttack.refresh(shoHideSectionMetadata.WeaponAttack);
-	changeEventPointerMagicAttack.refresh(shoHideSectionMetadata.MagicAttack);
-	changeEventPointerSkills.refresh(shoHideSectionMetadata.Skills);
-	changeEventPointerFeatures.refresh(shoHideSectionMetadata.Features);
-	changeEventPointerPersonality.refresh(shoHideSectionMetadata.Personality);
-	changeEventPointerPast.refresh(shoHideSectionMetadata.Past);
-	changeEventPointerBackgroundStory.refresh(shoHideSectionMetadata.BackgroundStory);
-	changeEventPointerStatistic.refresh(shoHideSectionMetadata.Statistic);
+setTimeout(()=>{
+	mb.subscribeToMetadata(toggleViewWeaponAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerWeaponAttack.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewMagicAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerMagicAttack.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewSkillsMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerSkills.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewFeaturesMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerFeatures.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewPersonalityMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPersonality.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewPastMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPast.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewBackgroundStoryMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerBackgroundStory.refresh(value); }); 
+	mb.subscribeToMetadata(toggleViewStatisticMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerStatistic.refresh(value); }); 
 	onToogleChange(false, 'Versteckte Logiken & Button Konfigurationen');
+}, 80);
+
+//let triggerCounter = 0;
+
+function initMetaBindings(){
+	if(eventIsTriggered) {
+		//no changes are needed anymore
+		//console.log('eventIsTriggered: ' + eventIsTriggered);
+		onToogleChange(false, 'Versteckte Logiken & Button Konfigurationen');
+		return;
+	}
 	
-	mb.subscribeToMetadata(toggleViewWeaponAttackMetaData, component, (value) => { changeEventPointerWeaponAttack.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewMagicAttackMetaData, component, (value) => { changeEventPointerMagicAttack.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewSkillsMetaData, component, (value) => { changeEventPointerSkills.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewFeaturesMetaData, component, (value) => { changeEventPointerFeatures.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewPersonalityMetaData, component, (value) => { changeEventPointerPersonality.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewPastMetaData, component, (value) => { changeEventPointerPast.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewBackgroundStoryMetaData, component, (value) => { changeEventPointerBackgroundStory.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewStatisticMetaData, component, (value) => { changeEventPointerStatistic.refresh(value); }); 
-}, 200);
+	//console.log(++triggerCounter);
+
+	//initial view
+	changeEventPointerWeaponAttack.refresh(showHideSectionMetadata.WeaponAttack);
+	changeEventPointerMagicAttack.refresh(showHideSectionMetadata.MagicAttack);
+	changeEventPointerSkills.refresh(showHideSectionMetadata.Skills);
+	changeEventPointerFeatures.refresh(showHideSectionMetadata.Features);
+	changeEventPointerPersonality.refresh(showHideSectionMetadata.Personality);
+	changeEventPointerPast.refresh(showHideSectionMetadata.Past);
+	changeEventPointerBackgroundStory.refresh(showHideSectionMetadata.BackgroundStory);
+	changeEventPointerStatistic.refresh(showHideSectionMetadata.Statistic);
+	onToogleChange(false, 'Versteckte Logiken & Button Konfigurationen');
+}
+
+// Function to start observing the specific container for added <div> elements
+function observeDivElements() {
+	const container = document.querySelector('.markdown-preview-sizer.markdown-preview-section'); // Target container
+	
+	if (!container) {
+		// If the container isn't present, retry after a delay
+		setTimeout(observeDivElements, 500);
+		return;
+	}
+
+	// MutationObserver callback to detect added <div> elements
+	const observer = new MutationObserver((mutationsList, observer) => {
+		for (let mutation of mutationsList) {
+			if (mutation.type === 'childList') {
+				mutation.addedNodes.forEach(node => {
+					// Check if the added node is a <div> element
+					if (node.nodeName === 'DIV') {
+						initMetaBindings(); // Trigger event when <div> is added
+					}
+				});
+			}
+		}
+	});
+
+	// Start observing the container for child additions (additions of <div> elements)
+	observer.observe(container, { childList: true, subtree: true });
+}
+
+// Start observing once the layout is ready
+this.app.workspace.onLayoutReady(() => {
+	observeDivElements(); // Start observing for dynamically added <div> elements
+});
 
 ```
 
