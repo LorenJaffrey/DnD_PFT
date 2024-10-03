@@ -111,7 +111,7 @@ ZauberStatistik:
   Donnerschlag: 1
   Kältestrahl: 2
   Klingenbann: 0
-  Schockgriff: 0
+  Schockgriff: 1
   Windbö: 0
   Chaospfeil: 0
   Hexenpfeil: 0
@@ -138,13 +138,13 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  NormaleRüstung: false
-  MagierRüstung: true
+  NormaleRüstung: true
+  MagierRüstung: false
   BlitzOdem: false
   Zauberpunkte: 17
   Zauberplätze:
     Grad_1: 4
-    Grad_2: 2
+    Grad_2: 3
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -167,11 +167,11 @@ InputData:
   toogleView: false
   ShowHideSection:
     WeaponAttack: false
-    MagicAttack: true
+    MagicAttack: false
     Skills: false
     Features: false
-    Statistic: true
-    Personality: false
+    Statistic: false
+    Personality: true
     Past: false
     BackgroundStory: false
 tags:

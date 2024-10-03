@@ -172,6 +172,19 @@ gantt
 		Weißer erwachsender Drache überfällt den "Butterschädelhof": done, milestone, a9, after a8, 30m
 ```
 
+- Weißer Dracher fliegt davon
+- Orks untersuchen
+- Betunia zurück bringen
+- Zurück nach Phandalin
+- Lange Rast
+- Lange Rast 2
+- kommen am frühen Abend in phandalin
+- zildar berichtet
+- mit der Holzlieferung (Ochsenkarren) wieder weiter zur Hasenbeere
+- lange Rast
+- lange Rast 2
+- Sind in Hasenbeere angekommen
+
 > Hier befinden wir uns aktuell!
 
 ### Tag 11
