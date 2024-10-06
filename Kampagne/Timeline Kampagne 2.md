@@ -255,7 +255,7 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		Ankunft in Hasenbeere mit der Holzlieferung: done, milestone, a1, 2024-05-08 00:00, 9h
+		Ankunft in Hasenbeere mit der Holzlieferung: done, a1, 2024-05-08 00:00, 9h
 ```
 
 > Hier befinden wir uns aktuell!

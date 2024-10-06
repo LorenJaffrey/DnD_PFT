@@ -23,22 +23,22 @@ div.mb-input-type-number > input[type="number"] {
 
 /* to use these customizing add these to your input: class(dndLargeHeight)*/
 
-.dndSmallHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+.dndSmallHeight > .mb-editor-input {
     height: var(--dndCustomEditorInputWidthSmall) !important;
 }
 
-.dndDefaultHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+.dndDefaultHeight > .mb-editor-input {
     height: var(--dndCustomEditorInputWidthDefault) !important;
 }
 
-.dndMiddleHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+.dndMiddleHeight > .mb-editor-input {
     height: var(--dndCustomEditorInputWidthMiddle) !important;
 }
 
-.dndLargeHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+.dndLargeHeight > .mb-editor-input {
     height: var(--dndCustomEditorInputWidthLarge) !important;
 }
 
-.dndLargerHeight >.editor-input.svelte-1tfnqy0.svelte-1tfnqy0 {
+.dndLargerHeight > .mb-editor-input {
     height: var(--dndCustomEditorInputWidthLarger) !important;
 }
