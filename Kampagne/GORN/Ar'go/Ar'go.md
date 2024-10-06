@@ -231,7 +231,7 @@ tags:
 > const currentSpellPoints = dv.current().InputData.Zauberpunkte;
 > const percentValue2 =  Math.round(currentSpellPoints / (maxSpellPoints / 100));
 >  
->  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(136, 192, 208) !important;"></progress><span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Zauberpunkte</span></div><div style="width: 60px; text-align: center;">${percentValue2}%</div></div>`; 
+>  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(57, 159, 148) !important;"></progress><span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Zauberpunkte</span></div><div style="width: 60px; text-align: center;">${percentValue2}%</div></div>`; 
 > dv.el('div', metaBindCode); 
 > ```
 > 
@@ -647,10 +647,11 @@ tags:
 >> ## Verhaltens-Kodex
 >> |  |  |
 >> | ---- | ---- |
->> | 1  | ihm ist Geld egal |
->> | 2 | er schläft gerne im freien |
->> | 3 | lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) |
->> | 4 |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
+>> | 💵  | Ihm ist Geld egal  |
+>> | 🌠  | Er schläft gerne im Freien |
+>> | 🤓  | Er lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) besonders wenn von Elementaren Kräften gesprochen wird |
+>> | 🧨  | Wenn er merkt das er reingelegt wurde, wird er leicht Emotional ([[Schockgriff]]!!!) |
+>> | 🚢  |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
 >> 
 >> ## Aussehen
 >> |  |  |
@@ -728,35 +729,37 @@ tags:
 
 ## Vergangenheit
 
->- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
->- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
->- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
->- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
->- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
->- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
->- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
->- seitdem wartet er immer noch auf die Gruppe..
+> [!column | no-title flex]
+>>- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
+>>- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
+>>- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
+>>- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
+>>- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
+>>- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
+>>- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
+>>- seitdem wartet er immer noch auf die Gruppe..
 
 ## Hintergrundgeschichte
 
->**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
->
->Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
->
->Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
->
->Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
->
->1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
->2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
->3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
->4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
->
->Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
->
->Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
->
->Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
+> [!column | no-title flex]
+>>**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
+>>
+>>Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
+>>
+>>Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
+>>
+>>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
+>>
+>>1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+>>2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+>>3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+>>4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
+>>
+>>Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
+>>
+>>Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
+>>
+>>Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
 
 
 ## Versteckte Logiken & Button Konfigurationen
