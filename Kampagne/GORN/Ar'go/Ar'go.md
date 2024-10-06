@@ -644,6 +644,14 @@ tags:
 >> | Bindungen | `=this.Persönlichkeit.Bindungen` |
 >> | Makel |  `=this.Persönlichkeit.Makel` |
 >> 
+>> ## Verhaltens-Kodex
+>> |  |  |
+>> | ---- | ---- |
+>> | 1  | ihm ist Geld egal |
+>> | 2 | er schläft gerne im freien |
+>> | 3 | lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) |
+>> | 4 |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
+>> 
 >> ## Aussehen
 >> |  |  |
 >> | ---- | ---- |
