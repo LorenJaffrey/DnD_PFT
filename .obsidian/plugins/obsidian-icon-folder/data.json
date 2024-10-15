@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiView",
       "LiPieChart",
       "RaPlayerThunderStruck",
       "LiTestTube",
-      "LiBook",
-      "LiCode"
+      "LiBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -131,5 +131,6 @@
   "Kampagne/GORN/Ar'go/Test/Radardiagramm.md": {
     "iconName": "LiPieChart",
     "iconColor": "#258bb6"
-  }
+  },
+  "Kampagne/Attribut-Übersicht.md": "LiView"
 }
