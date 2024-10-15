@@ -247,9 +247,7 @@ tags:
 > 
 
 > [!infobox|left]
-> 
-> ## Attribute
-> <canvas id="radarChart" width="288" height="288" style="border: 1px solid #ccc;"></canvas>
+> <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
 > 
 > ```dataviewjs 
 > dv.el('h2', `<h2>Stärke</h2>`); 

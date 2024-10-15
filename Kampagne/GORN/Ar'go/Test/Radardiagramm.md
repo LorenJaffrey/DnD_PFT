@@ -35,7 +35,7 @@ Fertigkeiten:
   Wahrnehmung: 0
 ---
 
-<canvas id="radarChart" width="400" height="400" style="border: 1px solid #ccc;"></canvas>
+<canvas id="radarChart" width="400" height="400"  style="border: 1px solid #ccc;"></canvas>
 
 ```js-engine
 //Radardiagramm
