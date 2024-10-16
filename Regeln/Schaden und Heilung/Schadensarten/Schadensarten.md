@@ -1,20 +1,19 @@
 ---
-aliases: Schadensart
+aliases:
+  - Schadensart
 ---
 # `=this.file.name`
-- [[Säureschaden]] 
-- [[Wuchtschaden]] 
-- [[Kälteschaden]]
-- [[Feuerschaden]]
-- [[Energieschaden]]
-- [[Blitzschaden]]
-- [[Nekrotischer Schaden]]
-- [[Stichschaden]]
-- [[Giftschaden]]
-- [[Psychischer Schaden]]
-- [[Gleißender Schaden]]
-- [[Hiebschaden]]
-- [[Schallschaden]]
+
+```dataview
+TABLE WITHOUT ID
+
+file.link AS "Schadensart",
+Zustand
+
+FROM #Schadensart
+
+SORT file.name
+```
 
 ## Schadensanfälligkeit
 Wenn eine Kreatur [[Schadensarten#Schadensanfälligkeit]] gegen eine bestimmte [[Schadensarten|Schadensart]] besitzt, wird der erlittene Schaden verdoppelt.

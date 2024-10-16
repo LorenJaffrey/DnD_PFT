@@ -3,6 +3,4 @@ tags:
 - Zustand
 ---
 # `=this.file.name`
-
-Eine brennende Kreatur:
-- erhält zusätzliche 1W4 [[Feuerschaden]]  zu Beginn ihres [[Zug|Zuges]]
+Die Kreatur steht in Flammen und erleidet am Anfang jedes ihrer [[Zug|Züge]] `dice:2d4` [[Feuerschaden]]
