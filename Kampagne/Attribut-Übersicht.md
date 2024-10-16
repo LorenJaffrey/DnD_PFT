@@ -146,7 +146,7 @@ function initializeRadarChart_Argo() {
         drawRadar(); // Das Radar erneut zeichnen
 
         // Schattierter Bereich
-        ctx.fillStyle = 'rgba(0, 123, 255, 0.2)';
+        ctx.fillStyle = 'rgba(37, 139, 182, 0.2)';
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
@@ -165,7 +165,7 @@ function initializeRadarChart_Argo() {
         ctx.fill(); // Schattierung füllen
 
         // Linien zeichnen
-        ctx.strokeStyle = '#007bff';
+        ctx.strokeStyle = '#258bb6';
         ctx.lineWidth = 2;
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
@@ -185,7 +185,7 @@ function initializeRadarChart_Argo() {
         ctx.stroke();
 
         // Punkte auf den Datenlinien zeichnen
-        ctx.fillStyle = '#007bff';
+        ctx.fillStyle = '#258bb6';
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
             const ratio = value / data.maxValue;
@@ -266,7 +266,7 @@ function initializeRadarChart_Aranon() {
         drawRadar(); // Das Radar erneut zeichnen
 
         // Schattierter Bereich
-        ctx.fillStyle = 'rgba(0, 123, 255, 0.2)';
+        ctx.fillStyle = 'rgba(48, 181, 57, 0.2)';
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
@@ -285,7 +285,7 @@ function initializeRadarChart_Aranon() {
         ctx.fill(); // Schattierung füllen
 
         // Linien zeichnen
-        ctx.strokeStyle = '#007bff';
+        ctx.strokeStyle = '#30b539';
         ctx.lineWidth = 2;
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
@@ -305,7 +305,7 @@ function initializeRadarChart_Aranon() {
         ctx.stroke();
 
         // Punkte auf den Datenlinien zeichnen
-        ctx.fillStyle = '#007bff';
+        ctx.fillStyle = '#30b539';
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
             const ratio = value / data.maxValue;
@@ -386,7 +386,7 @@ function initializeRadarChart_Drogan() {
         drawRadar(); // Das Radar erneut zeichnen
 
         // Schattierter Bereich
-        ctx.fillStyle = 'rgba(0, 123, 255, 0.2)';
+        ctx.fillStyle = 'rgba(224, 88, 88, 0.2)';
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
@@ -405,7 +405,7 @@ function initializeRadarChart_Drogan() {
         ctx.fill(); // Schattierung füllen
 
         // Linien zeichnen
-        ctx.strokeStyle = '#007bff';
+        ctx.strokeStyle = '#e05858';
         ctx.lineWidth = 2;
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
@@ -425,7 +425,7 @@ function initializeRadarChart_Drogan() {
         ctx.stroke();
 
         // Punkte auf den Datenlinien zeichnen
-        ctx.fillStyle = '#007bff';
+        ctx.fillStyle = '#e05858';
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
             const ratio = value / data.maxValue;
@@ -506,7 +506,7 @@ function initializeRadarChart_Jon() {
         drawRadar(); // Das Radar erneut zeichnen
 
         // Schattierter Bereich
-        ctx.fillStyle = 'rgba(0, 123, 255, 0.2)';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
@@ -525,7 +525,7 @@ function initializeRadarChart_Jon() {
         ctx.fill(); // Schattierung füllen
 
         // Linien zeichnen
-        ctx.strokeStyle = '#007bff';
+        ctx.strokeStyle = '#ffffff';
         ctx.lineWidth = 2;
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
@@ -545,7 +545,7 @@ function initializeRadarChart_Jon() {
         ctx.stroke();
 
         // Punkte auf den Datenlinien zeichnen
-        ctx.fillStyle = '#007bff';
+        ctx.fillStyle = '#ffffff';
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
             const ratio = value / data.maxValue;
@@ -626,7 +626,7 @@ function initializeRadarChart_Lucian() {
         drawRadar(); // Das Radar erneut zeichnen
 
         // Schattierter Bereich
-        ctx.fillStyle = 'rgba(0, 123, 255, 0.2)';
+        ctx.fillStyle = 'rgba(194, 147, 46, 0.2)';
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
@@ -645,7 +645,7 @@ function initializeRadarChart_Lucian() {
         ctx.fill(); // Schattierung füllen
 
         // Linien zeichnen
-        ctx.strokeStyle = '#007bff';
+        ctx.strokeStyle = '#c2932e';
         ctx.lineWidth = 2;
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
@@ -665,7 +665,7 @@ function initializeRadarChart_Lucian() {
         ctx.stroke();
 
         // Punkte auf den Datenlinien zeichnen
-        ctx.fillStyle = '#007bff';
+        ctx.fillStyle = '#c2932e';
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
             const ratio = value / data.maxValue;
@@ -746,7 +746,7 @@ function initializeRadarChart_Niptac() {
         drawRadar(); // Das Radar erneut zeichnen
 
         // Schattierter Bereich
-        ctx.fillStyle = 'rgba(0, 123, 255, 0.2)';
+        ctx.fillStyle = 'rgba(132, 84, 222, 0.2)';
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
@@ -765,7 +765,7 @@ function initializeRadarChart_Niptac() {
         ctx.fill(); // Schattierung füllen
 
         // Linien zeichnen
-        ctx.strokeStyle = '#007bff';
+        ctx.strokeStyle = '#8454de';
         ctx.lineWidth = 2;
         ctx.beginPath();
         for (let i = 0; i < numAttributes; i++) {
@@ -785,7 +785,7 @@ function initializeRadarChart_Niptac() {
         ctx.stroke();
 
         // Punkte auf den Datenlinien zeichnen
-        ctx.fillStyle = '#007bff';
+        ctx.fillStyle = '#8454de';
         for (let i = 0; i < numAttributes; i++) {
             const value = data.values[i];
             const ratio = value / data.maxValue;
