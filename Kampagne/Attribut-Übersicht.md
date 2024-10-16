@@ -47,9 +47,17 @@
       Intelligenz: 8
       Weisheit: 14
       Charisma: 10
+  Baumel:
+    Attribute:
+      Stärke: 8
+      Geschicklichkeit: 14
+      Konstitution: 10
+      Intelligenz: 10
+      Weisheit: 8
+      Charisma: 8
 ---
 
-> [!column | 3 no-title]
+> [!column | 3 flex  no-title]
 >> <h2>Aranon</h2>
 >> <canvas id="radarChartAranon" width="400" height="400"  style="border: none;"></canvas>
 >
@@ -68,7 +76,9 @@
 >> <h2>Niptac</h2>
 >> <canvas id="radarChartNiptac" width="400" height="400"  style="border: none;"></canvas>
 >
-
+>> <h2>Baumel</h2>
+>> <canvas id="radarChartBaumel" width="400" height="400"  style="border: none;"></canvas>
+>
 
 
 
@@ -81,6 +91,7 @@ const attributes_Drogan = [metaData.Drogan.Attribute.Stärke, metaData.Drogan.At
 const attributes_Jon = [metaData.Jon.Attribute.Stärke, metaData.Jon.Attribute.Geschicklichkeit, metaData.Jon.Attribute.Konstitution, metaData.Jon.Attribute.Intelligenz, metaData.Jon.Attribute.Weisheit, metaData.Jon.Attribute.Charisma];
 const attributes_Lucian = [metaData.Lucian.Attribute.Stärke, metaData.Lucian.Attribute.Geschicklichkeit, metaData.Lucian.Attribute.Konstitution, metaData.Lucian.Attribute.Intelligenz, metaData.Lucian.Attribute.Weisheit, metaData.Lucian.Attribute.Charisma];
 const attributes_Niptac = [metaData.Niptac.Attribute.Stärke, metaData.Niptac.Attribute.Geschicklichkeit, metaData.Niptac.Attribute.Konstitution, metaData.Niptac.Attribute.Intelligenz, metaData.Niptac.Attribute.Weisheit, metaData.Niptac.Attribute.Charisma];
+const attributes_Baumel = [metaData.Baumel.Attribute.Stärke, metaData.Baumel.Attribute.Geschicklichkeit, metaData.Baumel.Attribute.Konstitution, metaData.Baumel.Attribute.Intelligenz, metaData.Baumel.Attribute.Weisheit, metaData.Baumel.Attribute.Charisma];
 
 
 function initializeRadarChart_Argo() {
@@ -803,6 +814,126 @@ function initializeRadarChart_Niptac() {
     drawDataLine();
 }
 
+function initializeRadarChart_Baumel() {
+    const canvas = document.getElementById('radarChartBaumel');
+    if (!canvas) {
+        // Retry after a short delay if the canvas is not yet in the DOM
+        setTimeout(initializeRadarChart_Baumel, 100);
+        return;
+    }
+
+    const ctx = canvas.getContext('2d');
+
+    // Werte für die Charaktere
+    const data = {
+        labels: ['Stärke', 'Geschicklichkeit', 'Konstitution', 'Intelligenz', 'Weisheit', 'Charisma'],
+        //values: [10, 13, 16, 12, 10, 18],
+        values: attributes_Baumel,
+        maxValue: 20
+    };
+
+    // Zentrum und Radius des Radardiagramms
+    const centerX = canvas.width / 2;
+    const centerY = canvas.height / 2;
+    const radius = 150;
+
+    // Anzahl der Eigenschaften
+    const numAttributes = data.labels.length;
+
+    // Zeichne das Radar mit Kreisen und Linien
+    function drawRadar() {
+        ctx.strokeStyle = '#999';
+        ctx.lineWidth = 1;
+        // Kreise zeichnen (Skalenringe)
+        for (let i = 1; i <= 5; i++) {
+            const currentRadius = (radius / 5) * i;
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, currentRadius, 0, Math.PI * 2);
+            ctx.stroke();
+        }
+
+        // Achsen zeichnen
+        for (let i = 0; i < numAttributes; i++) {
+            const angle = (Math.PI * 2 / numAttributes) * i;
+            const x = centerX + Math.cos(angle) * radius;
+            const y = centerY + Math.sin(angle) * radius;
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY);
+            ctx.lineTo(x, y);
+            ctx.stroke();
+
+            // Fettgedruckte Beschriftung der Achsen
+            ctx.fillStyle = '#ffffff';
+            ctx.font = 'bold 14px Arial'; // Fettgedruckte Schriftart
+            const labelX = centerX + Math.cos(angle) * (radius + 20);
+            const labelY = centerY + Math.sin(angle) * (radius + 20);
+            ctx.fillText(data.labels[i], labelX - 20, labelY + 5);
+        }
+    }
+
+    // Zeichne die Datenlinie und schattiere den inneren Bereich
+    function drawDataLine() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height); // Canvas löschen
+        drawRadar(); // Das Radar erneut zeichnen
+
+        // Schattierter Bereich
+        ctx.fillStyle = 'rgba(168, 76, 50, 0.2)';
+        ctx.beginPath();
+        for (let i = 0; i < numAttributes; i++) {
+            const value = data.values[i];
+            const ratio = value / data.maxValue;
+            const angle = (Math.PI * 2 / numAttributes) * i;
+            const x = centerX + Math.cos(angle) * radius * ratio;
+            const y = centerY + Math.sin(angle) * radius * ratio;
+
+            if (i === 0) {
+                ctx.moveTo(x, y);
+            } else {
+                ctx.lineTo(x, y);
+            }
+        }
+        ctx.closePath();
+        ctx.fill(); // Schattierung füllen
+
+        // Linien zeichnen
+        ctx.strokeStyle = '#a84c32';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        for (let i = 0; i < numAttributes; i++) {
+            const value = data.values[i];
+            const ratio = value / data.maxValue;
+            const angle = (Math.PI * 2 / numAttributes) * i;
+            const x = centerX + Math.cos(angle) * radius * ratio;
+            const y = centerY + Math.sin(angle) * radius * ratio;
+
+            if (i === 0) {
+                ctx.moveTo(x, y);
+            } else {
+                ctx.lineTo(x, y);
+            }
+        }
+        ctx.closePath();
+        ctx.stroke();
+
+        // Punkte auf den Datenlinien zeichnen
+        ctx.fillStyle = '#a84c32';
+        for (let i = 0; i < numAttributes; i++) {
+            const value = data.values[i];
+            const ratio = value / data.maxValue;
+            const angle = (Math.PI * 2 / numAttributes) * i;
+            const x = centerX + Math.cos(angle) * radius * ratio;
+            const y = centerY + Math.sin(angle) * radius * ratio;
+            ctx.beginPath();
+            ctx.arc(x, y, 4, 0, Math.PI * 2);
+            ctx.fill();
+        }
+    }
+
+    // Radar zeichnen und Datenlinie anzeigen
+    drawRadar();
+    drawDataLine();
+}
+
 // Run the function
 initializeRadarChart_Argo();
 initializeRadarChart_Aranon();
@@ -810,5 +941,6 @@ initializeRadarChart_Drogan();
 initializeRadarChart_Jon();
 initializeRadarChart_Lucian();
 initializeRadarChart_Niptac();
+initializeRadarChart_Baumel();
 
 ```
