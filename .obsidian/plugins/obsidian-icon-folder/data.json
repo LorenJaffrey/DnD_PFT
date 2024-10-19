@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiChart",
+      "🫵",
       "RaRuneStone",
       "LiView",
-      "LiPieChart",
-      "RaPlayerThunderStruck",
-      "LiTestTube"
+      "LiPieChart"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -136,5 +136,6 @@
   "Kampagne/GORN/Ar'go/Zaubersprüche Ar'go.md": {
     "iconName": "RaRuneStone",
     "iconColor": "#258bb6"
-  }
+  },
+  "Kampagne/GORN/Timeout - Initiative.md": "LiChart"
 }
