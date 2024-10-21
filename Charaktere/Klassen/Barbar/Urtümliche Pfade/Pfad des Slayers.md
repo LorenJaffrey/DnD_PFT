@@ -4,21 +4,9 @@
 
 ## Merkmale
 
-| Stufe | Merkmal                                                                      |
-|:-----:| ---------------------------------------------------------------------------- |
-|   3   | [[Titanengriff]] oder [[Tödlicher Stoß]], [[Furchtlos und Unerschütterlich]] | 
-|   6   | [[Ruhm oder Tod]]                                                            |
-|  10   | [[Des Slayers Beute]]                                                        |
-|  14   | [[Bestienslayer]]                                                            |
-
-![[Titanengriff]]
-
-![[Tödlicher Stoß]]
-
-![[Furchtlos und Unerschütterlich]]
-
-![[Ruhm oder Tod]]
-
-![[Des Slayers Beute]]
-
-![[Bestienslayer]]
+| Stufe | Merkmal                                             |
+|:-----:| --------------------------------------------------- |
+|   3   | [[Titanengriff]], [[Tödlicher Hieb]], [[Furchtlos]] |
+|   6   | [[Slayerzorn]], [[Unerschütterlich]]                |
+|  10   | [[Verzweifelter Ansturm]]                           |
+|  14   | [[Bestienslayer]]                                   |
