@@ -122,12 +122,8 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  Energiekern1: true
-  Energiekern2: true
-  Energiekern3: true
-  Energiekern4: true
   Fähigkeiten:
-    Verschwinden: true
+    Verschwinden: false
 tags:
   - Charakter/GORN
 aliases: []
