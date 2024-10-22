@@ -14,7 +14,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 33
+  TP: 27
   TW: 4
   TempTP: 0
 Attribute:
@@ -111,13 +111,13 @@ Zauber:
   - "[[Schutzwind]]"
   - "[[Snillocs Schneeballschwarm]]"
 ZauberStatistik:
-  Donnerschlag: 1
+  Donnerschlag: 2
   Kältestrahl: 2
   Klingenbann: 0
-  Schockgriff: 1
+  Schockgriff: 2
   Windbö: 0
   Chaospfeil: 0
-  Hexenpfeil: 0
+  Hexenpfeil: 2
   Magierrüstung: 1
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 0
@@ -141,13 +141,13 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  NormaleRüstung: true
-  MagierRüstung: false
+  NormaleRüstung: false
+  MagierRüstung: true
   BlitzOdem: false
-  Zauberpunkte: 17
+  Zauberpunkte: 14
   Zauberplätze:
-    Grad_1: 4
-    Grad_2: 3
+    Grad_1: 3
+    Grad_2: 2
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -169,12 +169,12 @@ InputData:
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
   ShowHideSection:
-    WeaponAttack: false
-    MagicAttack: false
-    Skills: false
+    WeaponAttack: true
+    MagicAttack: true
+    Skills: true
     Features: false
-    Statistic: false
-    Personality: true
+    Statistic: true
+    Personality: false
     Past: false
     BackgroundStory: false
 tags:

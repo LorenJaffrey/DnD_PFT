@@ -258,6 +258,12 @@ gantt
 		Ankunft in Hasenbeere mit der Vorratslieferung: done, milestone, a1, 2024-05-08 00:00, 9h
 ```
 
+
+- Gorn betritt den Wald Richtung Jagdhaus des Falken
+- Lange Rast 
+- mitten in der Nacht wird Niptac geweckt
+- krasser kampf gegen wölfe
+
 > Hier befinden wir uns aktuell!
 
 ### Tag 17

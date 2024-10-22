@@ -76,7 +76,7 @@ Inventar:
     gewicht2: 3
     count3: 10
     gewicht3: 0.25
-    count4: 10
+    count4: 9
     gewicht4: 1
     count5: 1
     gewicht5: 1
