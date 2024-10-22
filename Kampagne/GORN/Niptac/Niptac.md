@@ -4,6 +4,7 @@ Niptac:
   Apparaturen:
     - "[[Gnomischer Flammenwerfer]]"
     - "[[Kobold Blitzwerfer]]"
+    - "[[Gnomischer Schlossknacker]]"
 Bewegung: 5
 Verteidigung:
   Natürliche_Rüstung: 10
@@ -126,7 +127,7 @@ InputData:
     Verschwinden: false
 tags:
   - Charakter/GORN
-aliases: []
+aliases:
 ---
 # `=this.file.name`
 > [!infobox]
@@ -227,7 +228,7 @@ SORT SG, file.link
 TABLE WITHOUT ID 
 file.link AS "Waffe",
 Reichweite,
-"`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + "|none|noform`" AS "Angriff",
+"`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + choice(Angriffsbonus,("+" + Angriffsbonus),"") + "|none|noform`" AS "Angriff",
 "`dice:" + Schaden + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "|none|noform`"  AS "Schaden",
 Schadensart,
 Eigenschaften
@@ -243,7 +244,7 @@ file.link AS "Waffe",
 Range1 AS "Min RW",
 Range2 AS "Gnd RW",
 Range3 AS "Max RW",
-"`dice:1d20+" + (floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1) + "|none|noform`" AS "Angriff",
+"`dice:1d20+" + (floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1) + choice(AngriffsbonusFern,("+" + AngriffsbonusFern),"") +"|none|noform`" AS "Angriff",
 "`dice:" + SchadenFern + "+" + floor(((this.Attribute.Geschicklichkeit)-10)/2) + "|none|noform`"  AS "Schaden",
 SchadensartFern AS "Schadensart",
 EigenschaftenFern AS "Eigenschaften"
@@ -259,7 +260,7 @@ file.link AS "Waffe",
 Range1 AS "Min RW",
 Range2 AS "Gnd RW",
 Range3 AS "Max RW",
-"`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + "|none|noform`" AS "Angriff",
+"`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + choice(AngriffsbonusFern,("+" + AngriffsbonusFern),"") + "|none|noform`" AS "Angriff",
 "`dice:" + SchadenFern + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "|none|noform`"  AS "Schaden",
 SchadensartFern AS "Schadensart",
 EigenschaftenFern AS "Eigenschaften"
