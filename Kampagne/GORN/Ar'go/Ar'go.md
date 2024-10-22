@@ -14,7 +14,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 27
+  TP: 33
   TW: 4
   TempTP: 0
 Attribute:
@@ -141,13 +141,13 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  NormaleRüstung: false
-  MagierRüstung: true
+  NormaleRüstung: true
+  MagierRüstung: false
   BlitzOdem: false
-  Zauberpunkte: 14
+  Zauberpunkte: 17
   Zauberplätze:
-    Grad_1: 3
-    Grad_2: 2
+    Grad_1: 4
+    Grad_2: 3
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0

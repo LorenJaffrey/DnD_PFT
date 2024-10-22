@@ -263,6 +263,7 @@ gantt
 - Lange Rast 
 - mitten in der Nacht wird Niptac geweckt
 - krasser kampf gegen wölfe
+- lange Rast
 
 > Hier befinden wir uns aktuell!
 
