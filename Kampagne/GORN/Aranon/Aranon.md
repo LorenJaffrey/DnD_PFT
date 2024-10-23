@@ -122,6 +122,8 @@ Zauber:
   - "[[Schwache Genesung]]"
   - "[[Fallen finden]]"
   - "[[Spurloses Gehen]]"
+  - "[[Tiere beschwören]]"
+  - "[[Mit Pflanzen sprechen]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
@@ -526,6 +528,27 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> choice(Skalierbar,"X","") AS "Skalierbar" 
 >> FROM #Zauber
 >> WHERE contains(this.Zauber, file.link) AND Grad=2
+>> SORT file.name
+>> ```
+>> 
+>> ### Grad 3
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=3
 >> SORT file.name
 >> ```
 >
