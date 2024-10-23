@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "♻",
       "LiChart",
       "🫵",
       "RaRuneStone",
-      "LiView",
-      "LiPieChart"
+      "LiView"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -137,5 +137,6 @@
     "iconName": "RaRuneStone",
     "iconColor": "#258bb6"
   },
-  "Kampagne/Initiative (Spielleiter).md": "LiPieChart"
+  "Kampagne/Initiative (Spielleiter).md": "LiPieChart",
+  "Kampagne/Gesinnung GORN.md": "♻"
 }

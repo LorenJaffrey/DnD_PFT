@@ -117,8 +117,8 @@ ZauberStatistik:
   Schockgriff: 2
   Windbö: 0
   Chaospfeil: 0
-  Hexenpfeil: 2
-  Magierrüstung: 1
+  Hexenpfeil: 3
+  Magierrüstung: 2
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 0
 InputData:
