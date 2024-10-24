@@ -169,9 +169,9 @@ InputData:
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
   ShowHideSection:
-    WeaponAttack: true
+    WeaponAttack: false
     MagicAttack: true
-    Skills: true
+    Skills: false
     Features: false
     Statistic: true
     Personality: false
@@ -497,6 +497,17 @@ tags:
 >>>> | Level 8     |          -         |
 >>>> | Level 9     |          -         | 
 >>
+>> Hinweis: Ab Level 5 wären folgende Zauber des 3. Grades verfügbar (2 können gewählt werden):
+>>   - [[Blitz]]
+>>   - [[Wasser atmen]]
+>>   - [[Schutz vor Energie]]
+>>   - [[Zungen]]
+>>   - [[Magie bannen]]
+>>   - [[Furcht]]
+>>   - [[Fliegen]]
+>>   - [[Gegenzauber]]
+>>   - [[Feuerball]]
+>>  
 >
 >> ### Zauberangriff / Zauber wirken
 >> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
@@ -708,15 +719,6 @@ tags:
 >> 		  max: 100,		  
 >> 	      x: {
 >> 	        beginAtZero: true
->> 	      }
->> 	    },
->> 	    animations: {
->> 	      tension: {
->> 	        duration: 1000,
->> 	        easing: 'linear',
->> 	        from: 1,
->> 	        to: 0,
->> 	        loop: true
 >> 	      }
 >> 	    }
 >> 	}
