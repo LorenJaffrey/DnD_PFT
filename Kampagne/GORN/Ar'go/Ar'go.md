@@ -499,6 +499,7 @@ tags:
 >>
 >> Hinweis: Ab Level 5 wären folgende Zauber des 3. Grades verfügbar (2 können gewählt werden):
 >>   - [[Blitz]]
+>>   - [[Blitze herbeirufen]]
 >>   - [[Wasser atmen]]
 >>   - [[Schutz vor Energie]]
 >>   - [[Zungen]]
