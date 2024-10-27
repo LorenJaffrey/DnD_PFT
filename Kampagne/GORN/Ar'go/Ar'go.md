@@ -1,5 +1,5 @@
 ---
-cssclass: drwn, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: its-d, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -172,8 +172,7 @@ InputData:
     WeaponAttack: false
     MagicAttack: true
     Skills: false
-    Features: false
-    Statistic: true
+    Statistic: false
     Personality: false
     Past: false
     BackgroundStory: false
@@ -245,6 +244,57 @@ tags:
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
 > 
+> ## Navigation
+> | Tab                   |                      Ein-/Ausblenden                      |
+> | --------------------- |:---------------------------------------------------------:|
+> | Waffen Angriff        |  `INPUT[toggle:InputData.ShowHideSection.WeaponAttack]`   |
+> | Magischer Angriff     |   `INPUT[toggle:InputData.ShowHideSection.MagicAttack]`   |
+> | Fähigkeiten           |     `INPUT[toggle:InputData.ShowHideSection.Skills]`      |
+> | Persönlichkeit        |   `INPUT[toggle:InputData.ShowHideSection.Personality]`   |
+> | Statistik             |    `INPUT[toggle:InputData.ShowHideSection.Statistic]`    |
+> | Vergangenheit         |      `INPUT[toggle:InputData.ShowHideSection.Past]`       |
+> | Hintergrundgeschichte | `INPUT[toggle:InputData.ShowHideSection.BackgroundStory]` |
+>
+> ## Waffen
+> ```dataview
+> LIST
+> FROM #Gegenstand/Waffe 
+> WHERE contains(this.Übung.Waffen, file.link) 
+> SORT file.name
+> ```
+>
+> ## Sprachen
+> ```dataview
+> LIST
+> FROM #Sprache
+> WHERE contains(this.Übung.Sprachen, file.link)
+> SORT file.name
+> ```
+> 
+> ## Werkzeuge
+> ```dataview
+> LIST
+> FROM #Gegenstand/Werkzeug 
+> WHERE contains(this.Übung.Werkzeuge, file.link)
+> SORT file.name
+> ```
+>
+> ## Talente
+> ```dataview
+> LIST
+> FROM #Talent
+> WHERE contains(this.Merkmale.Talente, file.link)
+> SORT file.name
+> ```
+>
+> ## Klassenmerkmale
+> ```dataview
+> LIST
+> FROM #Merkmal
+> WHERE contains(this.Merkmale.Klasse, file.link)
+> SORT file.name
+> ```
+>
 
 > [!infobox|left]
 > <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
@@ -322,12 +372,9 @@ tags:
 > | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "🔱🔱", choice(this.Fertigkeiten.Einschüchtern=1, "🔱",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 > | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "🔱🔱", choice(this.Fertigkeiten.Täuschen=1, "🔱",""))` (`=floor((((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))-4)`) (🍄)      | `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"` |
 > | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "🔱🔱", choice(this.Fertigkeiten.Überzeugen=1, "🔱",""))`  (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> 
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
-
-|                     Waffen Angriff                     |                   Magischer Angriff                   |                   Fähigkeiten                    |                      Merkmale                      |                      Statistik                      |                    Persönlichkeit                     |                 Vergangenheit                  |                   Hintergrundgeschichte                   |
-|:------------------------------------------------------:|:-----------------------------------------------------:|:------------------------------------------------:|:--------------------------------------------------:|:---------------------------------------------------:|:-----------------------------------------------------:|:----------------------------------------------:|:---------------------------------------------------------:|
-| `INPUT[toggle:InputData.ShowHideSection.WeaponAttack]` | `INPUT[toggle:InputData.ShowHideSection.MagicAttack]` | `INPUT[toggle:InputData.ShowHideSection.Skills]` | `INPUT[toggle:InputData.ShowHideSection.Features]` | `INPUT[toggle:InputData.ShowHideSection.Statistic]` | `INPUT[toggle:InputData.ShowHideSection.Personality]` | `INPUT[toggle:InputData.ShowHideSection.Past]` | `INPUT[toggle:InputData.ShowHideSection.BackgroundStory]` |
 
 > [!column | flex 3 no-title]
 >> ## Rasten
@@ -458,58 +505,7 @@ tags:
 
 ## Magie
 
->[!column | 2 no-title]
->> ### [[Odemwaffe | Blitz-Odem]] 
->>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
->>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
->> 
->>>[!column | no-title]   
->>>>  ###### Zauberplätze
->>>>  
->>>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
->>>> |:----:|:-------------------------------:|:-----------------------------------:|
->>>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
->>>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
->>>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
->>>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
->>>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
->>>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
->>>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
->>>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
->>>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
->>>
->>>> ###### Zauberpunkte
->>>> 
->>>> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
->>>> |:----:|:-------------------------------:|:-----------------------------------:|
->>>> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
->>>>
->>>> | Zauberlevel | Umwandlungskosten |
->>>> | ----------- |:-----------------:|
->>>> | Level 1     |         2         |
->>>> | Level 2     |         3         |
->>>> | Level 3     |         5         |
->>>> | Level 4     |         6         |
->>>> | Level 5     |         7         |
->>>> | Level 6     |          -         |
->>>> | Level 7     |          -         |
->>>> | Level 8     |          -         |
->>>> | Level 9     |          -         | 
->>
->> Hinweis: Ab Level 5 wären folgende Zauber des 3. Grades verfügbar (2 können gewählt werden):
->>   - [[Blitz]]
->>   - [[Blitze herbeirufen]]
->>   - [[Wasser atmen]]
->>   - [[Schutz vor Energie]]
->>   - [[Zungen]]
->>   - [[Magie bannen]]
->>   - [[Furcht]]
->>   - [[Fliegen]]
->>   - [[Gegenzauber]]
->>   - [[Feuerball]]
->>  
->
+>[!column | 2 flex no-title]
 >> ### Zauberangriff / Zauber wirken
 >> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
 >> | ---------------------- | :--------------------: | :---------------------------------------------------------------------------------------: |
@@ -578,9 +574,59 @@ tags:
 >> SORT file.name
 >> ```
 >
+>> ### [[Odemwaffe | Blitz-Odem]] 
+>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>> 
+>>>[!column | no-title]   
+>>>>  ###### Zauberplätze
+>>>>  
+>>>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
+>>>> |:----:|:-------------------------------:|:-----------------------------------:|
+>>>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
+>>>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
+>>>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
+>>>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
+>>>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
+>>>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
+>>>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
+>>>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
+>>>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+>>>
+>>>> ###### Zauberpunkte
+>>>> 
+>>>> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
+>>>> |:----:|:-------------------------------:|:-----------------------------------:|
+>>>> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
+>>>>
+>>>> | Zauberlevel | Umwandlungskosten |
+>>>> | ----------- |:-----------------:|
+>>>> | Level 1     |         2         |
+>>>> | Level 2     |         3         |
+>>>> | Level 3     |         5         |
+>>>> | Level 4     |         6         |
+>>>> | Level 5     |         7         |
+>>>> | Level 6     |          -         |
+>>>> | Level 7     |          -         |
+>>>> | Level 8     |          -         |
+>>>> | Level 9     |          -         | 
+>>
+>> Hinweis: Ab Level 5 wären folgende Zauber des 3. Grades verfügbar (1 kann gewählt werden):
+>>   - [[Blitz]]
+>>   - [[Blitze herbeirufen]]
+>>   - [[Wasser atmen]]
+>>   - [[Schutz vor Energie]]
+>>   - [[Zungen]]
+>>   - [[Magie bannen]]
+>>   - [[Furcht]]
+>>   - [[Fliegen]]
+>>   - [[Gegenzauber]]
+>>   - [[Feuerball]]
+>
 
 ## Fähigkeiten
-> [!column | 2 no-title]
+> [!column | 2  no-title]
 >> ### Merkmale
 >>> [!column | 2 no-title]
 >>>> ![[Stürmische Magie]]
@@ -600,51 +646,6 @@ tags:
 >>>
 >>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
 >>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
-
-## Übung / Merkmale
-
-> [!column | flex no-title]
->> ## Waffen
->> ```dataview
->> LIST
->> FROM #Gegenstand/Waffe 
->> WHERE contains(this.Übung.Waffen, file.link) 
->> SORT file.name
->> ```
->>
->> ## Sprachen
->> ```dataview
->> LIST
->> FROM #Sprache
->> WHERE contains(this.Übung.Sprachen, file.link)
->> SORT file.name
->> ```
->> 
->> ## Werkzeuge
->> ```dataview
->> LIST
->> FROM #Gegenstand/Werkzeug 
->> WHERE contains(this.Übung.Werkzeuge, file.link)
->> SORT file.name
->> ```
->
->> ## Talente
->> ```dataview
->> LIST
->> FROM #Talent
->> WHERE contains(this.Merkmale.Talente, file.link)
->> SORT file.name
->> ```
->>
->> ## Klassenmerkmale
->> ```dataview
->> LIST
->> FROM #Merkmal
->> WHERE contains(this.Merkmale.Klasse, file.link)
->> SORT file.name
->> ```
->
-
 
 ## Persönlichkeit
 
@@ -940,8 +941,6 @@ const toggleViewMagicAttackMetaData = mb.parseBindTarget('InputData.ShowHideSect
 const changeEventPointerMagicAttack = engine.reactive((value) => {onToogleChange(value, 'Magie')}, mb.getMetadata(toggleViewMagicAttackMetaData));
 const toggleViewSkillsMetaData = mb.parseBindTarget('InputData.ShowHideSection.Skills', context.file.path);
 const changeEventPointerSkills = engine.reactive((value) => {onToogleChange(value, 'Fähigkeiten')}, mb.getMetadata(toggleViewSkillsMetaData));
-const toggleViewFeaturesMetaData = mb.parseBindTarget('InputData.ShowHideSection.Features', context.file.path);
-const changeEventPointerFeatures = engine.reactive((value) => {onToogleChange(value, 'Übung / Merkmale')}, mb.getMetadata(toggleViewFeaturesMetaData));
 const toggleViewPersonalityMetaData = mb.parseBindTarget('InputData.ShowHideSection.Personality', context.file.path);
 const changeEventPointerPersonality = engine.reactive((value) => {onToogleChange(value, 'Persönlichkeit')}, mb.getMetadata(toggleViewPersonalityMetaData));
 const toggleViewPastMetaData = mb.parseBindTarget('InputData.ShowHideSection.Past', context.file.path);
@@ -982,7 +981,6 @@ setTimeout(()=>{
 	mb.subscribeToMetadata(toggleViewWeaponAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerWeaponAttack.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewMagicAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerMagicAttack.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewSkillsMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerSkills.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewFeaturesMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerFeatures.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewPersonalityMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPersonality.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewPastMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPast.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewBackgroundStoryMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerBackgroundStory.refresh(value); }); 
@@ -1006,7 +1004,6 @@ function initMetaBindings(){
 	changeEventPointerWeaponAttack.refresh(showHideSectionMetadata.WeaponAttack);
 	changeEventPointerMagicAttack.refresh(showHideSectionMetadata.MagicAttack);
 	changeEventPointerSkills.refresh(showHideSectionMetadata.Skills);
-	changeEventPointerFeatures.refresh(showHideSectionMetadata.Features);
 	changeEventPointerPersonality.refresh(showHideSectionMetadata.Personality);
 	changeEventPointerPast.refresh(showHideSectionMetadata.Past);
 	changeEventPointerBackgroundStory.refresh(showHideSectionMetadata.BackgroundStory);
