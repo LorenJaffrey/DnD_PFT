@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivitySquare",
       "♻",
       "LiChart",
       "🫵",
-      "RaRuneStone",
-      "LiView"
+      "RaRuneStone"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -138,5 +138,5 @@
     "iconColor": "#258bb6"
   },
   "Kampagne/Initiative (Spielleiter).md": "LiPieChart",
-  "Kampagne/Gesinnung GORN.md": "♻"
+  "Kampagne/Gesinnung GORN.md": "LiActivitySquare"
 }

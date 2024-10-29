@@ -1,7 +1,7 @@
 ---
 Name: Inventar
 Charakter: "[[Ar'go]]"
-cssclass: its-d, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Summen:
   Rucksack: 45.6
   Behälter: 0
