@@ -4,8 +4,8 @@ Bewegung: 7
 Verteidigung:
   Natürliche_Rüstung: 10
   Zusätzliche_Rüstung: 0
-  Rüstung:
-  Schild:
+  Rüstung: 
+  Schild: 
 Waffen:
   - "[[Zweihandaxt]]"
   - "[[Axt]]"
@@ -88,6 +88,7 @@ Merkmale:
     - "[[Rücksichtsloser Angriff]]"
     - "[[Gefahrengespür]]"
     - "[[Titanengriff]]"
+    - "[[Tödlicher Hieb]]"
     - "[[Furchtlos]]"
     - "[[Schnelle Bewegung]]"
     - "[[Zusätzlicher Angriff]]"
