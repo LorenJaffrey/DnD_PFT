@@ -110,11 +110,11 @@ Persönlichkeit:
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
-  GlücksPunkt3: true
-  GlücksPunkt4: true
+  GlücksPunkt3: false
+  GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 1
-  Erschöpfung1: true
+  ErschöpfungsPunkte: 0
+  Erschöpfung1: false
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
