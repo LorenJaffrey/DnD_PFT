@@ -14,7 +14,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 33
+  TP: 8
   TW: 4
   TempTP: 0
 Attribute:
@@ -114,7 +114,7 @@ ZauberStatistik:
   Donnerschlag: 2
   Kältestrahl: 2
   Klingenbann: 0
-  Schockgriff: 2
+  Schockgriff: 3
   Windbö: 0
   Chaospfeil: 0
   Hexenpfeil: 3
@@ -144,10 +144,10 @@ InputData:
   NormaleRüstung: true
   MagierRüstung: false
   BlitzOdem: false
-  Zauberpunkte: 17
+  Zauberpunkte: 15
   Zauberplätze:
     Grad_1: 4
-    Grad_2: 3
+    Grad_2: 2
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -171,7 +171,7 @@ InputData:
   ShowHideSection:
     WeaponAttack: false
     MagicAttack: true
-    Skills: false
+    Skills: true
     Statistic: false
     Personality: false
     Past: false
