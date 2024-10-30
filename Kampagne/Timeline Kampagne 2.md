@@ -276,6 +276,18 @@ gantt
 		Lange Rast: a1, 2024-05-09 00:00, 8h
 ```
 
+- Ochsenkarren gefunden (1h)
+- Verlaufen (2h)
+- Weg wieder gefunden (2h)
+- Verlaufen (2h)
+- Weg wieder gefunden (2h)
+- Jagdhaus des Falken erreicht (2h)
+- Essen und Übernachten im Jagdhaus (Lange Rast)
+- {Nächster Tag}
+- Gehen weiter Richtung Holzfällerlager
+- Erreichen das Holzfällerlager am späten Nachmittag (16:30)
+- Wurden durch Ankheg Monster überfallen
+
 >  Hier befinden wir uns aktuell!
 
 ### Tag 18
