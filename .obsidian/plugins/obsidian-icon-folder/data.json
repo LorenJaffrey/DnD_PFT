@@ -116,22 +116,6 @@
   },
   "Kampagne/Memoiren.md": "LiBookOpen",
   "Kampagne/Timeline Kampagne 2.md": "LiCalendarDays",
-  "Kampagne/GORN/Ar'go/Test": {
-    "iconName": "RaPlayerThunderStruck",
-    "iconColor": "#258bb6"
-  },
-  "Kampagne/GORN/Ar'go/Test/Coding Tests.md": {
-    "iconName": "LiCode",
-    "iconColor": "#258bb6"
-  },
-  "Kampagne/GORN/Ar'go/Test/Styling Tests.md": {
-    "iconName": "LiBook",
-    "iconColor": "#258bb6"
-  },
-  "Kampagne/GORN/Ar'go/Test/Radardiagramm.md": {
-    "iconName": "LiPieChart",
-    "iconColor": "#258bb6"
-  },
   "Kampagne/Attribut-Übersicht.md": "LiView",
   "Kampagne/GORN/Ar'go/Zaubersprüche Ar'go.md": {
     "iconName": "RaRuneStone",
