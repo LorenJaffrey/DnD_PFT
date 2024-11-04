@@ -15,8 +15,8 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 8
-  TW: 4
+  TP: 33
+  TW: 3
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -113,11 +113,11 @@ Zauber:
   - "[[Snillocs Schneeballschwarm]]"
 ZauberStatistik:
   Donnerschlag: 2
-  Kältestrahl: 2
+  Kältestrahl: 3
   Klingenbann: 0
   Schockgriff: 4
   Windbö: 0
-  Chaospfeil: 1
+  Chaospfeil: 3
   Hexenpfeil: 3
   Magierrüstung: 2
   Schutzwind: 0
@@ -141,10 +141,10 @@ InputData:
   NormaleRüstung: true
   MagierRüstung: false
   BlitzOdem: false
-  Zauberpunkte: 15
+  Zauberpunkte: 17
   Zauberplätze:
     Grad_1: 4
-    Grad_2: 2
+    Grad_2: 3
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -157,7 +157,7 @@ InputData:
        - [x] ein Splitter wurde aus Niewinter herausgeschmuggelt
          (angeblich auf einem Versorgungskonvoi nach Phandalin vor ca. einer Woche)
        -  Kult von Anhängern des Talos sind hinter den Splittern her (böse)
-          - diese sind im **Niewienterwald** ansässig
+          - diese sind im **Niewienterwald** ansässig und sehr aktiv (Holzfällerlager)
 
     **Tempestus Fragment:**
     - [ ] **Fragment des Windes** gefunden
@@ -167,12 +167,16 @@ InputData:
   toogleView: false
   ShowHideSection:
     WeaponAttack: false
-    MagicAttack: true
-    Skills: true
-    Statistic: true
-    Personality: false
+    MagicAttack: false
+    Skills: false
+    Statistic: false
+    Personality: true
     Past: false
     BackgroundStory: false
+  Uhrzeit1: 00:00
+  Uhrzeit2: 00:00
+  UhrzeitToogle1: false
+  UhrzeitToogle2: false
 tags:
   - Charakter/GORN
 ---

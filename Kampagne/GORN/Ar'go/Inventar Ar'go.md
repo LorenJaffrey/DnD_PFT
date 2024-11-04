@@ -80,7 +80,7 @@ Inventar:
     gewicht4: 1
     count5: 1
     gewicht5: 1
-    count6: 14
+    count6: 24
     gewicht6: 1
     count7: 1
     gewicht7: 0
