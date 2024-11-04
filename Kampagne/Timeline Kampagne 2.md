@@ -304,6 +304,14 @@ gantt
 		Überfall durch "Ankheg" Monster: done, milestone, a4, after a3, 0.25h
 ```
 
+- Ankheg wurden besiegt
+- Hütte im Holzfällerlager untersucht
+- Weiterer Überfall in der Hütte
+- Ebenfalls diese besiegt
+- Tibor Wester gerettet
+- Lager durchsuchen nach hinweisen 
+- Kurze Rast
+- Lange Rast
 
 >  Hier befinden wir uns aktuell!
 
