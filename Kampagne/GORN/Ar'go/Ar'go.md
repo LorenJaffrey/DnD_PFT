@@ -256,7 +256,9 @@ tags:
 [[embed Infobox Left Attribute Übersicht (Makel)]]
 ```
 
-#  `=this.file.name`nthariel Maez'ralor Sturmzorn
+```dynamic-embed
+[[embed Überschrift Argo]]
+```
 
 > [!column | flex 2 no-title]
 >>  ## Allgemeine Spiel - Parameter

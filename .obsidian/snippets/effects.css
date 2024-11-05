@@ -1,0 +1,20 @@
+ /* Blitz-Animation */
+ @keyframes blitzAnimation {
+    0%, 70%, 100% {
+      text-shadow: 
+        0 0 10px rgba(155, 65, 65, 0.8), 
+        0 0 20px rgba(139, 0, 0, 0.6), 
+        0 0 30px rgba(110, 0, 0, 0.4),
+        0 0 40px rgba(110, 0, 0, 0.2),
+        -5px -5px 10px rgba(155, 65, 65, 0.5);
+    }
+    40%, 60% {
+      text-shadow: 
+        0 0 20px rgba(155, 65, 65, 1), 
+        0 0 30px rgba(139, 0, 0, 0.9), 
+        0 0 40px rgba(110, 0, 0, 0.8),
+        0 0 50px rgba(110, 0, 0, 0.7),
+        5px 5px 15px rgba(155, 65, 65, 0.7);
+      color: #c54d4d; /* heller Rotton für Blitz */
+    }
+  }
