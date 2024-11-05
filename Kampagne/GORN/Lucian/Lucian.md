@@ -134,26 +134,14 @@ InputData:
 >  ## `=this.Hintergrund.Name`
 > > ![[Lucian.jpg]]
 > ## Hintergrund
-> |  |  |
-> | ---- | ---- |
-> | Stufe | `=this.Stufe` |
-> | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
-> | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
-> |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
-> | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> ```dynamic-embed
+> [[embed Character Sheet Level Abschnitt]]
+> ```
 > 
 > ## Aussehen
-> |  |  |
-> | ---- | ---- |
-> | Geschlecht | `=this.Aussehen.Geschlecht` |
-> | Alter | `=this.Aussehen.Alter` |
-> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
-> | Größe | `=this.Aussehen.Größe` |
-> | Gewicht | `=this.Aussehen.Gewicht` |
-> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
-> | Haarfarbe | `=this.Aussehen.Haarfarbe` |
-> | Hautfarbe | `=this.Aussehen.Hautfarbe` |
+> ```dynamic-embed
+> [[embed Character Sheet Aussehen]]
+> ```
 >
 > ## Persönlichkeit
 > ---

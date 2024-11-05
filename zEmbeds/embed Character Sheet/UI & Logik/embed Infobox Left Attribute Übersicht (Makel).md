@@ -55,13 +55,6 @@
 
 //Anfang - Radardiagramm
 
-const staerke = context.metadata.frontmatter.Attribute.Stärke;
-const geschicklichkeit = context.metadata.frontmatter.Attribute.Geschicklichkeit;
-const konstitution = context.metadata.frontmatter.Attribute.Konstitution;
-const intelligenz = context.metadata.frontmatter.Attribute.Intelligenz;
-const weisheit = context.metadata.frontmatter.Attribute.Weisheit;
-const charisma = context.metadata.frontmatter.Attribute.Charisma;
-
 function initializeRadarChart() {
     const canvas = document.getElementById('radarChart');
     if (!canvas) {
@@ -71,6 +64,12 @@ function initializeRadarChart() {
     }
 
     const ctx = canvas.getContext('2d');
+    const staerke = context.metadata.frontmatter.Attribute.Stärke;
+	const geschicklichkeit = context.metadata.frontmatter.Attribute.Geschicklichkeit;
+	const konstitution = context.metadata.frontmatter.Attribute.Konstitution;
+	const intelligenz = context.metadata.frontmatter.Attribute.Intelligenz;
+	const weisheit = context.metadata.frontmatter.Attribute.Weisheit;
+	const charisma = context.metadata.frontmatter.Attribute.Charisma;
 
     // Werte für die Charaktere
     const data = {

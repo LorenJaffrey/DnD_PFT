@@ -2,13 +2,6 @@
 > <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
 > 
 > ```dataviewjs 
-> dv.el('h2', `<h2>Übung</h2>`); 
-> ```
-> ```dynamic-embed
-> [[embed Character Sheet Übung]]
-> ```
-> 
-> ```dataviewjs 
 > dv.el('h2', `<h2>Stärke</h2>`); 
 > ```
 > ```dynamic-embed
@@ -55,13 +48,6 @@
 
 //Anfang - Radardiagramm
 
-const staerke = context.metadata.frontmatter.Attribute.Stärke;
-const geschicklichkeit = context.metadata.frontmatter.Attribute.Geschicklichkeit;
-const konstitution = context.metadata.frontmatter.Attribute.Konstitution;
-const intelligenz = context.metadata.frontmatter.Attribute.Intelligenz;
-const weisheit = context.metadata.frontmatter.Attribute.Weisheit;
-const charisma = context.metadata.frontmatter.Attribute.Charisma;
-
 function initializeRadarChart() {
     const canvas = document.getElementById('radarChart');
     if (!canvas) {
@@ -71,6 +57,12 @@ function initializeRadarChart() {
     }
 
     const ctx = canvas.getContext('2d');
+    const staerke = context.metadata.frontmatter.Attribute.Stärke;
+	const geschicklichkeit = context.metadata.frontmatter.Attribute.Geschicklichkeit;
+	const konstitution = context.metadata.frontmatter.Attribute.Konstitution;
+	const intelligenz = context.metadata.frontmatter.Attribute.Intelligenz;
+	const weisheit = context.metadata.frontmatter.Attribute.Weisheit;
+	const charisma = context.metadata.frontmatter.Attribute.Charisma;
 
     // Werte für die Charaktere
     const data = {

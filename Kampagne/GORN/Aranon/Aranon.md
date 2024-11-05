@@ -164,6 +164,11 @@ InputData:
 tags:
   - Charakter/GORN
 ---
+
+```dynamic-embed
+[[embed Infobox Left Attribute Übersicht]]
+```
+
 # `=this.Hintergrund.Name`
 > [!infobox]
 > ## `=this.Hintergrund.Name`
@@ -177,14 +182,9 @@ tags:
 > ```
 > 
 > ## Hintergrund
-> |  |  |
-> | ---- | ---- |
-> | Stufe | `=this.Stufe` |
-> | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
-> | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
-> |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
-> | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> ```dynamic-embed
+> [[embed Character Sheet Level Abschnitt]]
+> ```
 > 
 > ## Aussehen
 > |  |  |
@@ -257,36 +257,9 @@ tags:
 >> ```
 
 ## Attribute und Fertigkeiten
-> [!column  | 3 no-title]
->> ### Stärke
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Stärke]]
->> ```
->
->> ### Geschicklichkeit
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Geschicklichkeit]]
->> ```
->
->> ### Konstitution
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Konstitution]]
->> ```
->
->> ### Intelligenz
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Intelligenz]]
->> ```
->
->> ### Weisheit
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Weisheit]]
->> ```
->
->> ### Charisma
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Charisma]]
->> ```
+```dynamic-embed
+[[embed Character Sheet Attribute Übersicht]]
+```
 
 ## Angriff
 > [!column | 2 no-title]
@@ -313,7 +286,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>| | |
 >>| --- | --- |
 >> | Zauberattribut | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` |
->> | Zauberangriffsbonus   | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`   |
+>> | Zauberangriffsbonus   |  `$="```dice:1d20+" + (Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)) + "\|none\|noform\```"`      |
 >> | Zauberrettungswurf-SG | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >> | Zaubertricks | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0` |
 >> | Bekannte Zauber | `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  |
