@@ -80,6 +80,7 @@ Merkmale:
 Talente:
   - "[[Infernalische Konstitution]]"
 Hintergrund:
+  Bild: "[[Lucian.jpg]]"
   Name: Lucian Blackthorn
   Volk: "[[Tieflinge|Tiefling]]"
   Klasse: "[[Hexenmeister]]"
@@ -131,33 +132,9 @@ InputData:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
->  ## `=this.Hintergrund.Name`
-> > ![[Lucian.jpg]]
-> ## Hintergrund
 > ```dynamic-embed
-> [[embed Character Sheet Level Abschnitt]]
+> [[embed Character Sheet Background]]
 > ```
-> 
-> ## Aussehen
-> ```dynamic-embed
-> [[embed Character Sheet Aussehen]]
-> ```
->
-> ## Persönlichkeit
-> ---
-> ### Persönlichkeitsmerkmale 
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[1]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[2]`
->
-> ### Ideale
-> `=this.Persönlichkeit.Ideale`
-> 
-> ### Bindungen
-> `=this.Persönlichkeit.Bindungen`
-> 
-> ### Makel
-> `=this.Persönlichkeit.Makel`
 
 ## Allgemein
 > [!column | 3 no-title] 
@@ -166,45 +143,23 @@ InputData:
 >> ```
 >
 >> ### Cooldowns
->> |           |               [[Thaumaturgie]]                |             [[Höllischer Tadel]]              |
->> | --------- |:---------------------------------------------:|:---------------------------------------------:|
->> | Maximal   | `INPUT[toggle:InputData.Fähigkeiten.Thaumaturgie]` | `INPUT[toggle:InputData.Fähigkeiten.Höllischer_Tadel]` |
->> | Aufladung |                [[Lange Rast]]                 |                [[Lange Rast]]                 |
->>
->> #### [[Stecken der Verteidigung]]
->> | Zauber | Kosten |
->> | --- | --- |
->> | [[Magierrüstung]] | 1 |  
->> | [[Schild]] | 3 |
->>
->> | Eigenschaft |                             1                              |                             2                              |                             3                              |                             4                              |                             5                              |                             6                              |                             7                              |                             8                              |                             9                              | 10                                                           |
->> | ----------- |:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:| :-----------------------------------------------------------: |
->> |  Ladungen   | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung1]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung2]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung3]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung4]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung5]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung6]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung7]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung8]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung9]` | `INPUT[toggle:InputData.Stecken_der_Verteidigung.Ladung10]` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Cooldowns Lucian]]
+>> ```
 >
 >> ### Bewegung
 >> ```dynamic-embed
 >> [[embed Character Sheet Bewegung]]
 >> ```
 
-## Verteidigung
-> [!column | 2 no-title] 
->> ### Gesundheit
->> ```dynamic-embed
->> [[embed Character Sheet Gesundheit]]
->> ```
->
->> ### Rüstung
->> ```dynamic-embed
->> [[embed Character Sheet Rüstung]]
->> ```
 
-## Angriff
 > [!column | 2 no-title]
+>> ## Angriff
 >> ### Nahkampfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
->
+>>
 >> ### Schusswaffen 
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Fernkampf]]
@@ -214,8 +169,19 @@ InputData:
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Wurf]]
 >> ```
-
-Disclaimer: Waffen haben immer Übungsbonus...
+>>
+>> Disclaimer: Waffen haben immer Übungsbonus...
+>
+>> ## Verteidigung
+>> ### Gesundheit
+>> ```dynamic-embed
+>> [[embed Character Sheet Gesundheit]]
+>> ```
+>>
+>> ### Rüstung
+>> ```dynamic-embed
+>> [[embed Character Sheet Rüstung]]
+>> ```
 
 ## Attribute und Fertigkeiten
 > [!column  | 6 no-title]
