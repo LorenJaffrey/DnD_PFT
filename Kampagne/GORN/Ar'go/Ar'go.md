@@ -1,6 +1,5 @@
 ---
 cssclass: dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
-Name: Ar'go
 Stufe: 4
 Bewegung: 6
 Verteidigung:
@@ -86,6 +85,7 @@ Merkmale:
   Talente:
     - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
+  Name: Ar'gonthariel Maez'ralor Sturmzorn
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
@@ -257,7 +257,7 @@ tags:
 ```
 
 ```dynamic-embed
-[[embed Überschrift Argo]]
+[[embed Überschrift 1]]
 ```
 
 > [!column | flex 2 no-title]

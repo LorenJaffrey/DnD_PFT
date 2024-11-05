@@ -166,10 +166,9 @@ tags:
 ---
 
 ```dynamic-embed
-[[embed Infobox Left Attribute Übersicht]]
+[[embed Überschrift 1]]
 ```
 
-# `=this.Hintergrund.Name`
 > [!infobox]
 > ## `=this.Hintergrund.Name`
 > ![[Aranon.jpg]]
@@ -255,6 +254,11 @@ tags:
 >> ```dynamic-embed
 >> [[embed Character Sheet Rüstung]]
 >> ```
+
+## Attribute und Fertigkeiten
+``` dynamic-embed
+[[embed Character Sheet Attribute Übersicht]]
+```
 
 ## Angriff
 > [!column | 2 no-title]

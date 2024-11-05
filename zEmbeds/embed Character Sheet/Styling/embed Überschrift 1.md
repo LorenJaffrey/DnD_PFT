@@ -1,5 +1,5 @@
 ```dataviewjs
-const title = dv.current().name;
+const title = dv.current().Hintergrund.Name;
 
 dv.paragraph(`
   <h1 style="
