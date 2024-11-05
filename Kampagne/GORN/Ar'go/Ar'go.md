@@ -183,56 +183,16 @@ tags:
 
 > [!infobox]
 > ![[Argo.jpeg]]
-> ```dataviewjs 
-> const Gesundheit = dv.current().Gesundheit; 
-> const percentage = Math.round( Gesundheit.TP / (Gesundheit.MaxTP / 100));
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress><span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Gesundheit</span></div><div style="width: 60px; text-align: center;">${percentage}%</div></div>`; 
-> dv.el('div', metaBindCode); 
+> ```dynamic-embed
+> [[embed Character Sheet Healthbar]]
 > ```
 > 
-> ```dataviewjs 
-> const maxGrad1 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1;
-> const maxGrad2 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2;
-> const maxGrad3 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3;
-> const maxGrad4 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4;
-> const maxGrad5 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5;
-> const maxGrad6 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6;
-> const maxGrad7 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7;
-> const maxGrad8 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8;
-> const maxGrad9 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9;
-> 
-> const maxSpellSlots =  (maxGrad1*1)+(maxGrad2*4)+(maxGrad3*9)+(maxGrad4*16)+(maxGrad5*25)+(maxGrad6*36)+(maxGrad7*49)+(maxGrad8*64)+(maxGrad9*81);
->  
-> const grad1 = dv.current().InputData.Zauberplätze.Grad_1;
-> const grad2 = dv.current().InputData.Zauberplätze.Grad_2;
-> const grad3 = dv.current().InputData.Zauberplätze.Grad_3;
-> const grad4 = dv.current().InputData.Zauberplätze.Grad_4;
-> const grad5 = dv.current().InputData.Zauberplätze.Grad_5;
-> const grad6 = dv.current().InputData.Zauberplätze.Grad_6;
-> const grad7 = dv.current().InputData.Zauberplätze.Grad_7;
-> const grad8 = dv.current().InputData.Zauberplätze.Grad_8;
-> const grad9 = dv.current().InputData.Zauberplätze.Grad_9;
->  
-> const currentSpellSlots = (grad1*1)+(grad2*4)+(grad3*9)+(grad4*16)+(grad5*25)+(grad6*36)+(grad7*49)+(grad8*64)+(grad9*81);
-> const percentValue = Math.round(currentSpellSlots / (maxSpellSlots / 100));
-> 
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="magic" max="${maxSpellSlots}" value="${currentSpellSlots}" style="width: 100%; height: 20px; --progress: rgb(11, 59, 163) !important;"></progress><span id="percentage2" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Magie</span></div><div style="width: 60px; text-align: center;">${percentValue}%</div></div>`; 
-> dv.el('div', metaBindCode); 
+> ```dynamic-embed
+> [[embed Character Sheet Magicbar]]
 > ```
 > 
-> ```dataviewjs 
-> const maxSpellPoints = (dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+
-> (dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+
-> (dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+
-> (dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+
-> (dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13);
-> 
-> 
-> const currentSpellPoints = dv.current().InputData.Zauberpunkte;
-> const percentValue2 =  Math.round(currentSpellPoints / (maxSpellPoints / 100));
->  
->  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(57, 159, 148) !important;"></progress><span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Zauberpunkte</span></div><div style="width: 60px; text-align: center;">${percentValue2}%</div></div>`; 
-> dv.el('div', metaBindCode); 
+> ```dynamic-embed
+> [[embed Character Sheet SpellPointsbar]]
 > ```
 >
 > |  |  |
@@ -267,37 +227,17 @@ tags:
 > dv.el('h2', `<h2>Zauberplätze</h2>`); 
 > ```
 >  
-> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
-> |:----:|:-------------------------------:|:-----------------------------------:|
-> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
-> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
-> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
-> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
-> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
-> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
-> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
-> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
-> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+> ```dynamic-embed
+> [[embed Character Sheet Zauberplätze]]
+> ```
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Zauberpunkte</h2>`); 
 > ```
 > 
-> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
-> |:----:|:-------------------------------:|:-----------------------------------:|
-> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
->
-> | Zauberlevel | Umwandlungskosten |
-> | ----------- |:-----------------:|
-> | Level 1     |         2         |
-> | Level 2     |         3         |
-> | Level 3     |         5         |
-> | Level 4     |         6         |
-> | Level 5     |         7         |
-> | Level 6     |          -         |
-> | Level 7     |          -         |
-> | Level 8     |          -         |
-> | Level 9     |          -         | 
+> ```dynamic-embed
+> [[embed Character Sheet Zauberpunkte]]
+> ```
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Übung</h2>`); 
@@ -365,30 +305,16 @@ tags:
 > ```dataviewjs 
 > dv.el('h2', `<h2>Weisheit</h2>`); 
 > ```
-> | [[Weisheit]]                  |                                                                                  Attributswert                                                                                  |
-> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-> | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Weisheit)-10)/2)>0, "+" + floor(((this.Attribute.Weisheit)-10)/2), floor(((this.Attribute.Weisheit)-10)/2))`)               |                                                                            `=this.Attribute.Weisheit`                                                                                |
-> | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Weisheit)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Weisheit=2, "⭐⭐", choice(this.Rettungswürfe.Weisheit=1, "⭐",""))`  (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))` )         |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Rettungswürfe.Weisheit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Heilkunde]] `=choice(this.Fertigkeiten.Heilkunde=2, "⭐⭐", choice(this.Fertigkeiten.Heilkunde=1, "⭐",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Heilkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Mit Tieren umgehen]] `=choice(this.Fertigkeiten.Mit_Tieren_umgehen=2, "⭐⭐", choice(this.Fertigkeiten.Mit_Tieren_umgehen=1, "⭐",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`)          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Mit_Tieren_umgehen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Motiv erkennen]] `=choice(this.Fertigkeiten.Motiv_erkennen=2, "⭐⭐", choice(this.Fertigkeiten.Motiv_erkennen=1, "⭐",""))` (`=floor((((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))-4)`) (🪫)             |   `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Motiv_erkennen*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"`    |
-> | [[Überlebenskunst]] `=choice(this.Fertigkeiten.Überlebenskunst=2, "⭐⭐", choice(this.Fertigkeiten.Überlebenskunst=1, "⭐",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`)             |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Überlebenskunst*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Wahrnehmung]] `=choice(this.Fertigkeiten.Wahrnehmung=2, "⭐⭐", choice(this.Fertigkeiten.Wahrnehmung=1, "⭐",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Wahrnehmung*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
+> ```dynamic-embed
+> [[embed  Makel Naivität Weisheit]]
+> ```
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Charisma</h2>`); 
 > ```
-> | [[Charisma]]                  |                                                                                  Attributswert                                                                                  |
-> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-> | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Charisma)-10)/2)>0, "+" + floor(((this.Attribute.Charisma)-10)/2), floor(((this.Attribute.Charisma)-10)/2))`)               |                                                                            `=this.Attribute.Charisma`                                                                              |
-> | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Charisma)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Charisma=2, "⭐⭐", choice(this.Rettungswürfe.Charisma=1, "⭐",""))` ( `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`)          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Rettungswürfe.Charisma*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Auftreten]] `=choice(this.Fertigkeiten.Auftreten=2, "⭐⭐", choice(this.Fertigkeiten.Auftreten=1, "⭐",""))` (`=floor((((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))-4)`) (🪫)          |   `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Auftreten*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"`    |
-> | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⭐⭐", choice(this.Fertigkeiten.Einschüchtern=1, "⭐",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "⭐⭐", choice(this.Fertigkeiten.Täuschen=1, "⭐",""))` (`=floor((((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))-4)`) (🪫)      | `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"` |
-> | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "⭐⭐", choice(this.Fertigkeiten.Überzeugen=1, "⭐",""))`  (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> ```dynamic-embed
+> [[embed Makel Naivität Charisma]]
+> ```
 > 
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
@@ -408,14 +334,9 @@ tags:
 >>
 >>>[!column | flex 2 no-title ] 
 >>>>## Verteidigung
->>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         | 
->>>> | :-------: | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | 
->>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`  | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)`  | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` | 
->>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| - | 
->>>> 
->>>> | Beschreibung | Bonus (bereits eingerechnet) |
->>>> | :---: | :---:  |
->>>> | Zusätzliche Rüstung | `INPUT[number:Verteidigung.Zusätzliche_Rüstung]` |
+>>>> ```dynamic-embed
+>>>> [[embed Character Sheet Rüstung Zauberer]]
+>>>> ```
 >>>
 >>>>## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> - Blitz
