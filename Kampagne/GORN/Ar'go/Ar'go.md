@@ -166,13 +166,13 @@ InputData:
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
   ShowHideSection:
-    WeaponAttack: false
-    MagicAttack: false
-    Skills: false
-    Statistic: false
+    WeaponAttack: true
+    MagicAttack: true
+    Skills: true
+    Statistic: true
     Personality: true
-    Past: false
-    BackgroundStory: false
+    Past: true
+    BackgroundStory: true
   Uhrzeit1: 00:00
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
@@ -195,14 +195,9 @@ tags:
 > [[embed Character Sheet SpellPointsbar]]
 > ```
 >
-> |  |  |
-> | ---- | ---- |
-> | Stufe | `INPUT[number:Stufe]`|
-> | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
-> | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
-> |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
-> | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> ```dynamic-embed
+> [[embed Character Sheet Level Abschnitt]]
+> ```
 > 
 > |                            |  
 > | :--------------------------: | 
@@ -213,15 +208,9 @@ tags:
 > dv.el('h2', `<h2>Navigation</h2>`); 
 > ```
 > 
-> | Tab                   |                      Ein-/Ausblenden                      |
-> | --------------------- |:---------------------------------------------------------:|
-> | Waffen Angriff        |  `INPUT[toggle:InputData.ShowHideSection.WeaponAttack]`   |
-> | Magischer Angriff     |   `INPUT[toggle:InputData.ShowHideSection.MagicAttack]`   |
-> | Fähigkeiten           |     `INPUT[toggle:InputData.ShowHideSection.Skills]`      |
-> | Persönlichkeit        |   `INPUT[toggle:InputData.ShowHideSection.Personality]`   |
-> | Statistik             |    `INPUT[toggle:InputData.ShowHideSection.Statistic]`    |
-> | Vergangenheit         |      `INPUT[toggle:InputData.ShowHideSection.Past]`       |
-> | Hintergrundgeschichte | `INPUT[toggle:InputData.ShowHideSection.BackgroundStory]` |
+> ```dynamic-embed
+> [[embed Tab Toggle Logik]]
+> ```
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Zauberplätze</h2>`); 
@@ -263,68 +252,17 @@ tags:
 > ```
 >
 
-> [!infobox|left]
-> <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
-> 
-> ```dataviewjs 
-> dv.el('h2', `<h2>Übung</h2>`); 
-> ```
-> |  Eigenschaft  |  Wert  |  
-> | :---: | :---: | 
-> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
-> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
-> 
-> ```dataviewjs 
-> dv.el('h2', `<h2>Stärke</h2>`); 
-> ```
-> ```dynamic-embed
-> [[embed Character Sheet Attribute Stärke]]
-> ```
->
-> ```dataviewjs 
-> dv.el('h2', `<h2>Geschicklichkeit</h2>`); 
-> ```
-> ```dynamic-embed
-> [[embed Character Sheet Attribute Geschicklichkeit]]
-> ```
->
-> ```dataviewjs 
-> dv.el('h2', `<h2>Konstitution</h2>`); 
-> ```
-> ```dynamic-embed
-> [[embed Character Sheet Attribute Konstitution]]
-> ```
->
-> ```dataviewjs 
-> dv.el('h2', `<h2>Intelligenz</h2>`); 
-> ```
-> ```dynamic-embed
-> [[embed Character Sheet Attribute Intelligenz]]
-> ```
->
-> ```dataviewjs 
-> dv.el('h2', `<h2>Weisheit</h2>`); 
-> ```
-> ```dynamic-embed
-> [[embed  Makel Naivität Weisheit]]
-> ```
->
-> ```dataviewjs 
-> dv.el('h2', `<h2>Charisma</h2>`); 
-> ```
-> ```dynamic-embed
-> [[embed Makel Naivität Charisma]]
-> ```
-> 
+```dynamic-embed
+[[embed Infobox Left Attribute Übersicht (Makel)]]
+```
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
 
 > [!column | flex 2 no-title]
 >>  ## Allgemeine Spiel - Parameter
->> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
->> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
->> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
->> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
+>> ```dynamic-embed
+>> [[embed Erschöpfung]]
+>> ```
 >> 
 >> ## Gesundheit
 >> ```dynamic-embed
@@ -369,97 +307,17 @@ tags:
 
 >[!column | 2 flex no-title]
 >> ### Zauberangriff / Zauber wirken
->> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
->> | ---------------------- | :--------------------: | :---------------------------------------------------------------------------------------: |
->> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Zauberangriff]]
+>> ```
 >> 
 >> ### [[Odemwaffe | Blitz-Odem]] 
 >>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
 >>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >> 
->> ## Zaubertricks
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden AS "Schaden ab Lv. 1",
->> SchadenLv5 AS "Schaden ab Lv. 5",
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual"
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=0
->> SORT file.name
->> ```
->> 
->> ## Grad 1
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden,
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=1
->> SORT file.name
->> ```
->> 
->> ## Grad 2
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden,
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=2
->> SORT file.name
->> ```
->> 
->> ## Grad 3
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden,
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=3
->> SORT file.name
+>> ```dynamic-embed
+>> [[embed Character Sheet Zauberspruch Übersicht]]
 >> ```
 >
 
@@ -494,12 +352,9 @@ tags:
 >>  ```
 >
 >>## Charakter
->> |  |  |
->> | ---- | ---- |
->> | Persönlichkeitsmerkmale  | `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`|
->> | Ideale | `=this.Persönlichkeit.Ideale` |
->> | Bindungen | `=this.Persönlichkeit.Bindungen` |
->> | Makel |  `=this.Persönlichkeit.Makel` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Persönlichketismerkmal Abschnitt]]
+>> ```
 >> 
 >> ## Verhaltens-Kodex
 >> |  |  |
@@ -518,68 +373,16 @@ tags:
 >> |       [[Makel]] (🪫)      | Naivität / Jugendlicher Leichtsinn | Werte von [[Motiv erkennen]], [[Täuschen]] & [[Auftreten]] wird um -4 reduziert | siehe Spalte [[Völker\|Volk]]  [[Drachenblütige\|Drachengeborener]] |
 >>  
 >> ## Aussehen
->> |  |  |
->> | ---- | ---- |
->> | Geschlecht | `=this.Aussehen.Geschlecht` |
->> | Alter | `=this.Aussehen.Alter` |
->> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
->> | Größe | `=this.Aussehen.Größe` |
->> | Gewicht | `=this.Aussehen.Gewicht` |
->> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
->> | Hornfarbe | `=this.Aussehen.Haarfarbe` |
->> | Schuppenfarbe | `=this.Aussehen.Hautfarbe` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Aussehen]]
+>> ```
 >>
 
  ## Statistik
 
-> [!column | 2 no-title]
->> ```dataviewjs
->> const currentPage = dv.current();
->> const labels = ["Donnerschlag", "Kältestrahl", "Klingenbann", "Schockgriff", "Windbö", "Chaospfeil", "Hexenpfeil", "Magierrüstung", "Schutzwind", "Snillocs Schneeballschwarm"];
->> const data = [currentPage.ZauberStatistik.Donnerschlag, currentPage.ZauberStatistik.Kältestrahl, currentPage.ZauberStatistik.Klingenbann, currentPage.ZauberStatistik.Schockgriff, currentPage.ZauberStatistik.Windbö, currentPage.ZauberStatistik.Chaospfeil, currentPage.ZauberStatistik.Hexenpfeil, currentPage.ZauberStatistik.Magierrüstung, currentPage.ZauberStatistik.Schutzwind, currentPage.ZauberStatistik.Snillocs_Schneeballschwarm];
->> 
->> const chartData = {  
->>     type: 'line',
->>     data: {
->>         labels: labels,
->>         datasets: [{
->>             label: 'Zauber Anwendungen',
->>             data: data,
->>             backgroundColor: [ 'rgb(136, 192, 208)' ],
->>             borderColor: [ 'rgb(136, 192, 208)' ],
->>             pointStyle: 'circle',
->>             pointRadius: 10,
->> 		    pointHoverRadius: 15
->>         }]
->>     },
->>     options: {
->> 	    indexAxis: 'y',
->> 	    scales: {
->> 		  min: 0,
->> 		  max: 100,		  
->> 	      x: {
->> 	        beginAtZero: true
->> 	      }
->> 	    }
->> 	}
->> }
->> 
->> window.renderChart(chartData, this.container);
->> ```
->
->> |                     Verwendungen                     | Zauber                         |             +              |              -               |
->> |:----------------------------------------------------:|:------------------------------ |:--------------------------:|:----------------------------:|
->> |        `VIEW[{ZauberStatistik.Donnerschlag}]`        | [[Donnerschlag]]               | `BUTTON[donnerschlag_up]`  | `BUTTON[donnerschlag_down]`  |
->> |        `VIEW[{ZauberStatistik.Kältestrahl}]`         | [[Kältestrahl]]                |  `BUTTON[kältestrahl_up]`  |  `BUTTON[kältestrahl_down]`  |
->> |        `VIEW[{ZauberStatistik.Klingenbann}]`         | [[Klingenbann]]                |  `BUTTON[klingenbann_up]`  |  `BUTTON[klingenbann_down]`  |
->> |        `VIEW[{ZauberStatistik.Schockgriff}]`         | [[Schockgriff]]                |  `BUTTON[schockgriff_up]`  |  `BUTTON[schockgriff_down]`  |
->> |           `VIEW[{ZauberStatistik.Windbö}]`           | [[Windbö]]                     |    `BUTTON[windbö_up]`     |    `BUTTON[windbö_down]`     |
->> |         `VIEW[{ZauberStatistik.Chaospfeil}]`         | [[Chaospfeil]]                 |  `BUTTON[chaospfeil_up]`   |  `BUTTON[chaospfeil_down]`   |
->> |         `VIEW[{ZauberStatistik.Hexenpfeil}]`         | [[Hexenpfeil]]                 |  `BUTTON[hexenpfeil_up]`   |  `BUTTON[hexenpfeil_down]`   |
->> |       `VIEW[{ZauberStatistik.Magierrüstung}]`        | [[Magierrüstung]]              | `BUTTON[magierrüstung_up]` | `BUTTON[magierrüstung_down]` |
->> |         `VIEW[{ZauberStatistik.Schutzwind}]`         | [[Schutzwind]]                 |  `BUTTON[schutzwind_up]`   |  `BUTTON[schutzwind_down]`   |
->> | `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]` | [[Snillocs Schneeballschwarm]] |   `BUTTON[snillocs_up]`    |   `BUTTON[snillocs_down]`    | 
->> 
+```dynamic-embed
+[[embed Zauberspruch Statistik]]
+```
 
 
 ## Vergangenheit
@@ -619,269 +422,8 @@ tags:
 
 ## Versteckte Logiken & Button Konfigurationen
 
-```js-engine
-if(document.head) {
-	const style = document.createElement('style');
-	style.type = 'text/css';
-	
-	style.innerHTML = `
-		.callout-content {
-			justify-content: Center;
-		}
-	`;
-	
-	document.head.appendChild(style);
-}
-
-//Anfang - Radardiagramm
-
-const staerke = context.metadata.frontmatter.Attribute.Stärke;
-const geschicklichkeit = context.metadata.frontmatter.Attribute.Geschicklichkeit;
-const konstitution = context.metadata.frontmatter.Attribute.Konstitution;
-const intelligenz = context.metadata.frontmatter.Attribute.Intelligenz;
-const weisheit = context.metadata.frontmatter.Attribute.Weisheit;
-const charisma = context.metadata.frontmatter.Attribute.Charisma;
-
-function initializeRadarChart() {
-    const canvas = document.getElementById('radarChart');
-    if (!canvas) {
-        // Retry after a short delay if the canvas is not yet in the DOM
-        setTimeout(initializeRadarChart, 100);
-        return;
-    }
-
-    const ctx = canvas.getContext('2d');
-
-    // Werte für die Charaktere
-    const data = {
-        labels: ['STA', 'GES', 'KON', 'INT', 'WEI', 'CHA'],
-        //values: [10, 13, 16, 12, 10, 18],
-        values: [staerke, geschicklichkeit, konstitution, intelligenz, weisheit, charisma],
-        maxValue: 20
-    };
-
-    // Zentrum und Radius des Radardiagramms (angepasst für 288px)
-    const centerX = canvas.width / 2;
-    const centerY = canvas.height / 2;
-    const radius = 110; // Anpassen des Radius für die neue Größe
-
-    // Anzahl der Eigenschaften
-    const numAttributes = data.labels.length;
-
-    // Zeichne das Radar mit Kreisen und Linien
-    function drawRadar() {
-        ctx.strokeStyle = '#999';
-        ctx.lineWidth = 1;
-        // Kreise zeichnen (Skalenringe)
-        for (let i = 1; i <= 5; i++) {
-            const currentRadius = (radius / 5) * i;
-            ctx.beginPath();
-            ctx.arc(centerX, centerY, currentRadius, 0, Math.PI * 2);
-            ctx.stroke();
-        }
-
-        // Achsen zeichnen
-        for (let i = 0; i < numAttributes; i++) {
-            const angle = (Math.PI * 2 / numAttributes) * i;
-            const x = centerX + Math.cos(angle) * radius;
-            const y = centerY + Math.sin(angle) * radius;
-            ctx.beginPath();
-            ctx.moveTo(centerX, centerY);
-            ctx.lineTo(x, y);
-            ctx.stroke();
-
-            // Fettgedruckte Beschriftung der Achsen
-            ctx.fillStyle = '#ffffff';
-            ctx.font = 'bold 12px Arial'; // Schriftgröße anpassen
-            const labelX = centerX + Math.cos(angle) * (radius + 15); // Etwas näher an den Rand
-            const labelY = centerY + Math.sin(angle) * (radius + 15);
-            ctx.fillText(data.labels[i], labelX - 10, labelY + 5);
-        }
-    }
-
-    // Zeichne die Datenlinie und schattiere den inneren Bereich
-    function drawDataLine() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height); // Canvas löschen
-        drawRadar(); // Das Radar erneut zeichnen
-
-        // Schattierter Bereich
-        ctx.fillStyle = 'rgba(0, 123, 255, 0.2)';
-        ctx.beginPath();
-        for (let i = 0; i < numAttributes; i++) {
-            const value = data.values[i];
-            const ratio = value / data.maxValue;
-            const angle = (Math.PI * 2 / numAttributes) * i;
-            const x = centerX + Math.cos(angle) * radius * ratio;
-            const y = centerY + Math.sin(angle) * radius * ratio;
-
-            if (i === 0) {
-                ctx.moveTo(x, y);
-            } else {
-                ctx.lineTo(x, y);
-            }
-        }
-        ctx.closePath();
-        ctx.fill(); // Schattierung füllen
-
-        // Linien zeichnen
-        ctx.strokeStyle = '#007bff';
-        ctx.lineWidth = 2;
-        ctx.beginPath();
-        for (let i = 0; i < numAttributes; i++) {
-            const value = data.values[i];
-            const ratio = value / data.maxValue;
-            const angle = (Math.PI * 2 / numAttributes) * i;
-            const x = centerX + Math.cos(angle) * radius * ratio;
-            const y = centerY + Math.sin(angle) * radius * ratio;
-
-            if (i === 0) {
-                ctx.moveTo(x, y);
-            } else {
-                ctx.lineTo(x, y);
-            }
-        }
-        ctx.closePath();
-        ctx.stroke();
-
-        // Punkte auf den Datenlinien zeichnen
-        ctx.fillStyle = '#007bff';
-        for (let i = 0; i < numAttributes; i++) {
-            const value = data.values[i];
-            const ratio = value / data.maxValue;
-            const angle = (Math.PI * 2 / numAttributes) * i;
-            const x = centerX + Math.cos(angle) * radius * ratio;
-            const y = centerY + Math.sin(angle) * radius * ratio;
-            ctx.beginPath();
-            ctx.arc(x, y, 4, 0, Math.PI * 2);
-            ctx.fill();
-        }
-    }
-
-    // Radar zeichnen und Datenlinie anzeigen
-    drawRadar();
-    drawDataLine();
-}
-
-// Run the function
-initializeRadarChart();
-
-//Ende - Radardiagramm
-```
-
-```js-engine
-// Grab the Meta Bind API and extract metadata fields
-const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
-const showHideSectionMetadata = context.metadata.frontmatter.InputData.ShowHideSection;
-
-const toggleViewWeaponAttackMetaData = mb.parseBindTarget('InputData.ShowHideSection.WeaponAttack', context.file.path);
-const changeEventPointerWeaponAttack = engine.reactive((value) => {onToogleChange(value, 'Angriff')}, mb.getMetadata(toggleViewWeaponAttackMetaData));
-const toggleViewMagicAttackMetaData = mb.parseBindTarget('InputData.ShowHideSection.MagicAttack', context.file.path);
-const changeEventPointerMagicAttack = engine.reactive((value) => {onToogleChange(value, 'Magie')}, mb.getMetadata(toggleViewMagicAttackMetaData));
-const toggleViewSkillsMetaData = mb.parseBindTarget('InputData.ShowHideSection.Skills', context.file.path);
-const changeEventPointerSkills = engine.reactive((value) => {onToogleChange(value, 'Fähigkeiten')}, mb.getMetadata(toggleViewSkillsMetaData));
-const toggleViewPersonalityMetaData = mb.parseBindTarget('InputData.ShowHideSection.Personality', context.file.path);
-const changeEventPointerPersonality = engine.reactive((value) => {onToogleChange(value, 'Persönlichkeit')}, mb.getMetadata(toggleViewPersonalityMetaData));
-const toggleViewPastMetaData = mb.parseBindTarget('InputData.ShowHideSection.Past', context.file.path);
-const changeEventPointerPast = engine.reactive((value) => {onToogleChange(value, 'Vergangenheit')}, mb.getMetadata(toggleViewPastMetaData));
-const toggleViewBackgroundStoryMetaData = mb.parseBindTarget('InputData.ShowHideSection.BackgroundStory', context.file.path);
-const changeEventPointerBackgroundStory = engine.reactive((value) => {onToogleChange(value, 'Hintergrundgeschichte')}, mb.getMetadata(toggleViewBackgroundStoryMetaData));
-const toggleViewStatisticMetaData = mb.parseBindTarget('InputData.ShowHideSection.Statistic', context.file.path);
-const changeEventPointerStatistic = engine.reactive((value) => {onToogleChange(value, 'Statistik')}, mb.getMetadata(toggleViewStatisticMetaData));
-
-let eventIsTriggered = false;
-
-function onToogleChange(value, headerValue) {
-	const header = document.querySelector(`h2[data-heading="${headerValue}"]`);
-
-	if(header) {
-		const parentDivElement = header.parentElement;
-		if (parentDivElement) {
-			const contentContainer = parentDivElement.nextElementSibling;
-
-			if(value) {
-				parentDivElement.style.display = 'block';
-				
-				if(contentContainer) {
-					contentContainer.style.display = 'block';
-				}				
-			} else {
-				parentDivElement.style.display = 'none';
-
-				if(contentContainer) {
-					contentContainer.style.display = 'none';
-				}
-			}
-		}
-	}
-}
-
-setTimeout(()=>{
-	mb.subscribeToMetadata(toggleViewWeaponAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerWeaponAttack.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewMagicAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerMagicAttack.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewSkillsMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerSkills.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewPersonalityMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPersonality.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewPastMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPast.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewBackgroundStoryMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerBackgroundStory.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewStatisticMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerStatistic.refresh(value); }); 
-	onToogleChange(false, 'Versteckte Logiken & Button Konfigurationen');
-}, 80);
-
-//let triggerCounter = 0;
-
-function initMetaBindings(){
-	if(eventIsTriggered) {
-		//no changes are needed anymore
-		//console.log('eventIsTriggered: ' + eventIsTriggered);
-		onToogleChange(false, 'Versteckte Logiken & Button Konfigurationen');
-		return;
-	}
-	
-	//console.log(++triggerCounter);
-
-	//initial view
-	changeEventPointerWeaponAttack.refresh(showHideSectionMetadata.WeaponAttack);
-	changeEventPointerMagicAttack.refresh(showHideSectionMetadata.MagicAttack);
-	changeEventPointerSkills.refresh(showHideSectionMetadata.Skills);
-	changeEventPointerPersonality.refresh(showHideSectionMetadata.Personality);
-	changeEventPointerPast.refresh(showHideSectionMetadata.Past);
-	changeEventPointerBackgroundStory.refresh(showHideSectionMetadata.BackgroundStory);
-	changeEventPointerStatistic.refresh(showHideSectionMetadata.Statistic);
-	onToogleChange(false, 'Versteckte Logiken & Button Konfigurationen');
-}
-
-// Function to start observing the specific container for added <div> elements
-function observeDivElements() {
-	const container = document.querySelector('.markdown-preview-sizer.markdown-preview-section'); // Target container
-	
-	if (!container) {
-		// If the container isn't present, retry after a delay
-		setTimeout(observeDivElements, 500);
-		return;
-	}
-
-	// MutationObserver callback to detect added <div> elements
-	const observer = new MutationObserver((mutationsList, observer) => {
-		for (let mutation of mutationsList) {
-			if (mutation.type === 'childList') {
-				mutation.addedNodes.forEach(node => {
-					// Check if the added node is a <div> element
-					if (node.nodeName === 'DIV') {
-						initMetaBindings(); // Trigger event when <div> is added
-					}
-				});
-			}
-		}
-	});
-
-	// Start observing the container for child additions (additions of <div> elements)
-	observer.observe(container, { childList: true, subtree: true });
-}
-
-// Start observing once the layout is ready
-this.app.workspace.onLayoutReady(() => {
-	observeDivElements(); // Start observing for dynamically added <div> elements
-});
-
+```dynamic-embed
+[[embed Justify-Content Center]]
 ```
 
 ```meta-bind-button
@@ -964,483 +506,4 @@ actions:
     value: x - 1
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
-```
-
-
-```meta-bind-button
- icon: up-arrow-with-tail
- label: ""
- hidden: true
- class: ""
- tooltip: ""
- id: "donnerschlag_up"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Donnerschlag
-     evaluate: true
-     value: x + 1
-```
-
- ```meta-bind-button
- icon: down-arrow-with-tail
- label: ""
- hidden: true
- class: ""
- tooltip: ""
- id: "donnerschlag_down"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Donnerschlag
-     evaluate: true
-     value: x - 1
- 
- ```
-
-```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "kältestrahl_up"
- style: primary
- actions:
-    - type: updateMetadata
-      bindTarget: ZauberStatistik.Kältestrahl
-      evaluate: true
-      value: x + 1
- 
-```
-
- ```meta-bind-button
- label: ""
- icon: down-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "kältestrahl_down"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Kältestrahl
-     evaluate: true
-     value: x - 1
- 
- ```
-
- ```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "klingenbann_up"
- style: primary
- actions:
-    - type: updateMetadata
-      bindTarget: ZauberStatistik.Klingenbann
-      evaluate: true
-      value: x + 1
- 
- ```
-
- ```meta-bind-button
- label: ""
- icon: down-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "klingenbann_down"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Klingenbann
-     evaluate: true
-     value: x - 1
- 
- ```
-
- ```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "schockgriff_up"
- style: primary
- actions:
-    - type: updateMetadata
-      bindTarget: ZauberStatistik.Schockgriff
-      evaluate: true
-      value: x + 1
- 
- ```
- 
-```meta-bind-button
-label: ""
-icon: down-arrow-with-tail
-hidden: true
-class: ""
-tooltip: ""
-id: "schockgriff_down"
-style: primary
-actions:
-  - type: updateMetadata
-    bindTarget: ZauberStatistik.Schockgriff
-    evaluate: true
-    value: x - 1
-
-```
-
-```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "windbö_up"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Windbö
-     evaluate: true
-     value: x + 1
-
-```
-
-```meta-bind-button
-label: ""
-icon: down-arrow-with-tail
-hidden: true
-class: ""
-tooltip: ""
-id: "windbö_down"
-style: primary
-actions:
-  - type: updateMetadata
-    bindTarget: ZauberStatistik.Windbö
-    evaluate: true
-    value: x - 1
-
-```
-
-```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "chaospfeil_up"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Chaospfeil
-     evaluate: true
-     value: x + 1
-
-```
-
-```meta-bind-button
-label: ""
-icon: down-arrow-with-tail
-hidden: true
-class: ""
-tooltip: ""
-id: "chaospfeil_down"
-style: primary
-actions:
-  - type: updateMetadata
-    bindTarget: ZauberStatistik.Chaospfeil
-    evaluate: true
-    value: x - 1
-
-```
-
-```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "hexenpfeil_up"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Hexenpfeil
-     evaluate: true
-     value: x + 1
-
-```
-
-```meta-bind-button
-label: ""
-icon: down-arrow-with-tail
-hidden: true
-class: ""
-tooltip: ""
-id: "hexenpfeil_down"
-style: primary
-actions:
-  - type: updateMetadata
-    bindTarget: ZauberStatistik.Hexenpfeil
-    evaluate: true
-    value: x - 1
-
-```
-
-```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "magierrüstung_up"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Magierrüstung
-     evaluate: true
-     value: x + 1
-
-```
-
-```meta-bind-button
-label: ""
-icon: down-arrow-with-tail
-hidden: true
-class: ""
-tooltip: ""
-id: "magierrüstung_down"
-style: primary
-actions:
-  - type: updateMetadata
-    bindTarget: ZauberStatistik.Magierrüstung
-    evaluate: true
-    value: x - 1
-
-```
-
-```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "schutzwind_up"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Schutzwind
-     evaluate: true
-     value: x + 1
-
-```
-
-```meta-bind-button
-label: ""
-icon: down-arrow-with-tail
-hidden: true
-class: ""
-tooltip: ""
-id: "schutzwind_down"
-style: primary
-actions:
-  - type: updateMetadata
-    bindTarget: ZauberStatistik.Schutzwind
-    evaluate: true
-    value: x - 1
-
-```
-
-```meta-bind-button
- label: ""
- icon: up-arrow-with-tail
- hidden: true
- class: ""
- tooltip: ""
- id: "snillocs_up"
- style: primary
- actions:
-   - type: updateMetadata
-     bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
-     evaluate: true
-     value: x + 1
-```
-
-```meta-bind-button
-label: ""
-icon: down-arrow-with-tail
-hidden: true
-class: ""
-tooltip: ""
-id: "snillocs_down"
-style: primary
-actions:
-  - type: updateMetadata
-    bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
-    evaluate: true
-    value: x - 1
-```
-
- ```js-engine
-// Grab the Meta Bind API and extract metadata fields
-const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
-
-const ErschöpfungsPunkte = mb.parseBindTarget('InputData.ErschöpfungsPunkte', context.file.path);
-const reactiveErschöpfungsPunkte = engine.reactive(onErschöpfungsPunkteChange, mb.getMetadata(ErschöpfungsPunkte)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(ErschöpfungsPunkte, component, (value) => { reactiveErschöpfungsPunkte.refresh(value); }); 
-}, 50);
-
-const Erschöpfung1 = mb.parseBindTarget('InputData.Erschöpfung1', context.file.path);
-const reactiveErschöpfung1 = engine.reactive(onChange1, mb.getMetadata(Erschöpfung1)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung1, component, (value) => { reactiveErschöpfung1.refresh(value); }); 
-}, 50);
-
-const Erschöpfung2 = mb.parseBindTarget('InputData.Erschöpfung2', context.file.path);
-const reactiveErschöpfung2 = engine.reactive(onChange2, mb.getMetadata(Erschöpfung2)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung2, component, (value) => { reactiveErschöpfung2.refresh(value); }); 
-}, 50);
-
-const Erschöpfung3 = mb.parseBindTarget('InputData.Erschöpfung3', context.file.path);
-const reactiveErschöpfung3 = engine.reactive(onChange3, mb.getMetadata(Erschöpfung3)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung3, component, (value) => { reactiveErschöpfung3.refresh(value); }); 
-}, 50);
-
-const Erschöpfung4 = mb.parseBindTarget('InputData.Erschöpfung4', context.file.path);
-const reactiveErschöpfung4 = engine.reactive(onChange4, mb.getMetadata(Erschöpfung4)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung4, component, (value) => { reactiveErschöpfung4.refresh(value); }); 
-}, 50);
-
-const Erschöpfung5 = mb.parseBindTarget('InputData.Erschöpfung5', context.file.path);
-const reactiveErschöpfung5 = engine.reactive(onChange5, mb.getMetadata(Erschöpfung5)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung5, component, (value) => { reactiveErschöpfung5.refresh(value); }); 
-}, 50);
-
-const Erschöpfung6 = mb.parseBindTarget('InputData.Erschöpfung6', context.file.path);
-const reactiveErschöpfung6 = engine.reactive(onChange6, mb.getMetadata(Erschöpfung6)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung6, component, (value) => { reactiveErschöpfung6.refresh(value); }); 
-}, 50);
-
-const Erschöpfung7 = mb.parseBindTarget('InputData.Erschöpfung7', context.file.path);
-const reactiveErschöpfung7 = engine.reactive(onChange7, mb.getMetadata(Erschöpfung7)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung7, component, (value) => { reactiveErschöpfung7.refresh(value); }); 
-}, 50);
-
-const Erschöpfung8 = mb.parseBindTarget('InputData.Erschöpfung8', context.file.path);
-const reactiveErschöpfung8 = engine.reactive(onChange8, mb.getMetadata(Erschöpfung8)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung8, component, (value) => { reactiveErschöpfung8.refresh(value); }); 
-}, 50);
-
-const Erschöpfung9 = mb.parseBindTarget('InputData.Erschöpfung9', context.file.path);
-const reactiveErschöpfung9 = engine.reactive(onChange9, mb.getMetadata(Erschöpfung9)); 
-setTimeout(() => {
-	mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfung9.refresh(value); }); 
-}, 50);
-
-//events
-function onErschöpfungsPunkteChange(value) {
-
-	if( value < 0 ) {
-		mb.setMetadata(ErschöpfungsPunkte, 0);
-		return;
-	}
-
-	const metadataBind = {
-		'Erschöpfung1': Erschöpfung1,
-		'Erschöpfung2': Erschöpfung2,
-		'Erschöpfung3': Erschöpfung3,
-		'Erschöpfung4': Erschöpfung4,
-		'Erschöpfung5': Erschöpfung5,
-		'Erschöpfung6': Erschöpfung6,
-		'Erschöpfung7': Erschöpfung7,
-		'Erschöpfung8': Erschöpfung8,
-		'Erschöpfung9': Erschöpfung9
-	}
-
-    const oldStates = [
-        mb.getMetadata(Erschöpfung1),
-        mb.getMetadata(Erschöpfung2),
-        mb.getMetadata(Erschöpfung3),
-        mb.getMetadata(Erschöpfung4),
-        mb.getMetadata(Erschöpfung5),
-        mb.getMetadata(Erschöpfung6),
-        mb.getMetadata(Erschöpfung7),
-        mb.getMetadata(Erschöpfung8),
-        mb.getMetadata(Erschöpfung9)
-    ];
-
-    const newStates = Array(9).fill(false).map((_, index) => index < value);
-
-    newStates.forEach((newState, index) => {
-        if (oldStates[index] !== newState) {
-            mb.setMetadata(metadataBind[`Erschöpfung${index + 1}`], newState);
-        }
-    });
-}
-
-
-function onChange1(value){
-	onErschöpfungChange(1, value, Erschöpfung1);
-}
-
-function onChange2(value){
-	onErschöpfungChange(2, value, Erschöpfung2);
-}
-
-function onChange3(value){
-	onErschöpfungChange(3, value, Erschöpfung3);
-}
-
-function onChange4(value){
-	onErschöpfungChange(4, value, Erschöpfung4);
-}
-
-function onChange5(value){
-	onErschöpfungChange(5, value, Erschöpfung5);
-}
-
-function onChange6(value){
-	onErschöpfungChange(6, value, Erschöpfung6);
-}
-
-function onChange7(value){
-	onErschöpfungChange(7, value, Erschöpfung7);
-}
-
-function onChange8(value){
-	onErschöpfungChange(8, value, Erschöpfung8);
-}
-
-function onChange9(value){
-	onErschöpfungChange(9, value, Erschöpfung9);
-}
-
-function onErschöpfungChange(ErschöpfungsValue, newValue, metadataBind){	
-	const currentPoints = mb.getMetadata(ErschöpfungsPunkte);
-	const lowerValue = parseInt(ErschöpfungsValue-1);
-
-	if(currentPoints == lowerValue && !newValue){
-		return;
-	} else if (currentPoints == lowerValue && newValue) {
-		mb.setMetadata(ErschöpfungsPunkte, ErschöpfungsValue);
-	} else if (currentPoints == ErschöpfungsValue && !newValue) {
-		mb.setMetadata(ErschöpfungsPunkte, lowerValue);
-	} else if (currentPoints > ErschöpfungsValue) {
-		if(newValue == false) mb.setMetadata(metadataBind, true);
-	} else if (currentPoints < ErschöpfungsValue) {
-		if(newValue == true) mb.setMetadata(metadataBind, false);
-	}
-}
-
 ```
