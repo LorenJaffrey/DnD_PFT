@@ -123,7 +123,7 @@ ZauberStatistik:
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 0
 InputData:
-  GlücksPunkt1: false
+  GlücksPunkt1: true
   GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
