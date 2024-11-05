@@ -256,11 +256,6 @@ tags:
 >> [[embed Character Sheet Rüstung]]
 >> ```
 
-## Attribute und Fertigkeiten
-```dynamic-embed
-[[embed Character Sheet Attribute Übersicht]]
-```
-
 ## Angriff
 > [!column | 2 no-title]
 >> ### Nahkampfwaffen
