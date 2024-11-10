@@ -8,8 +8,21 @@ const diceRoller = (damage) => {
     return `\`dice: ${damage}|none|noform\``;
 };
 
+// Function to get the appropriate damage based on the current level
+const getDamageByLevel = (level, p) => {
+    if (level >= 17 && p.SchadenLv17) {
+        return diceRoller(p.SchadenLv17);
+    } else if (level >= 11 && p.SchadenLv11) {
+        return diceRoller(p.SchadenLv11);
+    } else if (level >= 5 && p.SchadenLv5) {
+        return diceRoller(p.SchadenLv5);
+    } else {
+        return diceRoller(p.Schaden);
+    }
+};
+
 dv.table(
-    ["Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden ab Lv. 1", "Schaden ab Lv. 5", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
+    ["Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
     dv.pages("#Zauber")
       .where(p => p.Grad == 0 && dv.current().Zauber.some(link => link.path === p.file.path))
       .sort(p => p.file.name)
@@ -18,8 +31,7 @@ dv.table(
           p.Schule,
           p.Zeitaufwand,
           p.Schadensart,
-          diceRoller(p.Schaden),   // Schaden as dice roller command
-          diceRoller(p.SchadenLv5), // SchadenLv5 as dice roller command
+          getDamageByLevel(dv.current().Stufe, p),  // Dynamic Schaden based on level
           p.Ziel,
           p.Reichweite,
           p.Verbal ? "X" : "",
