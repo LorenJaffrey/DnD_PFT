@@ -5,7 +5,7 @@ const diceRoller = (damage) => {
     // If damage is not defined, return a placeholder
     if (!damage) return "";
     // Otherwise, format it as a dice roller command
-    return `\`dice: ${damage} |none|noform\``;
+    return `\`dice: ${damage}|none|noform\``;
 };
 
 dv.table(
@@ -49,7 +49,7 @@ const diceRoller = (damage) => {
     // If damage is not defined, return a placeholder
     if (!damage) return "";
     // Otherwise, format it as a dice roller command
-    return `\`dice: ${damage} |none|noform\``;
+    return `\`dice: ${damage}|none|noform\``;
 };
 
 dv.table(
@@ -92,7 +92,7 @@ const diceRoller = (damage) => {
     // If damage is not defined, return a placeholder
     if (!damage) return "";
     // Otherwise, format it as a dice roller command
-    return `\`dice: ${damage} |none|noform\``;
+    return `\`dice: ${damage}|none|noform\``;
 };
 
 dv.table(
@@ -135,7 +135,7 @@ const diceRoller = (damage) => {
     // If damage is not defined, return a placeholder
     if (!damage) return "";
     // Otherwise, format it as a dice roller command
-    return `\`dice: ${damage} |none|noform\``;
+    return `\`dice: ${damage}|none|noform\``;
 };
 
 dv.table(
