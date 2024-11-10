@@ -74,5 +74,5 @@ Hinweis: Ab Level 5 wären folgende Zauber des 3. Grades verfügbar (1 kann gew�
 >>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 
 ```dynamic-embed
-[[embed Character Sheet Waffen Alle Grade]]
+[[embed Character Sheet Alle Grade]]
 ```

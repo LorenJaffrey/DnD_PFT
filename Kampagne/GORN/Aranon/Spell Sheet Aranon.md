@@ -38,5 +38,5 @@ Zauber:
 ## Bemerkungen
 ![[Von Feen berührt#Feenmagie]]
 ```dynamic-embed
-[[embed Character Sheet Waffen Alle Grade]]
+[[embed Character Sheet Alle Grade]]
 ```
