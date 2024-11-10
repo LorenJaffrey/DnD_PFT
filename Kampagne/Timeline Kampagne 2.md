@@ -325,6 +325,15 @@ gantt
 		Lange Rast: a1, 2024-05-11 00:00, 8h
 ```
 
+- Wandern Richtung Jagdhaus des Falken (eine Tagereise)
+- Tibor Wester im Jagdhaus abgeliefert
+- Im Jagdhaus des Falken rasten (lange Rast)
+- Weiterreise Richtung "Altes Haus im Wald" (16 km)
+- Ankunft beim Alten Haus im Wald (16 Uhr)
+- Kampf gegen Mini-Gorn Figuren
+- Kampf gegen Blutmücke
+- Kampf gegen Plants
+
 > Hier befinden wir uns aktuell!
 
 ### Tag 20
