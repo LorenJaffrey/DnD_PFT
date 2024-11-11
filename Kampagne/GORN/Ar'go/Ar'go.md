@@ -171,7 +171,7 @@ InputData:
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
   ShowHideSection:
-    WeaponAttack: false
+    WeaponAttack: true
     MagicAttack: true
     Skills: false
     Statistic: true
@@ -295,11 +295,10 @@ tags:
 
 ## Angriff
 > [!column | 3 flex  no-title]
->> ### Nahkampfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
->
+>>
 >> ### Schusswaffen 
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Fernkampf]]
