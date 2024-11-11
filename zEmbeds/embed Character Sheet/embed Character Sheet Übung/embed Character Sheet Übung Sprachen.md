@@ -13,5 +13,4 @@ try {
 } catch (error) {
     console.error("An error occurred in DataviewJS:", error);
 }
-
 ```

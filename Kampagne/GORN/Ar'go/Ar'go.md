@@ -174,7 +174,7 @@ InputData:
   ShowHideSection:
     WeaponAttack: false
     MagicAttack: true
-    Skills: false
+    Skills: true
     Statistic: true
     Personality: false
     Past: false
@@ -413,10 +413,11 @@ tags:
 >>
 >>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
 >>
->>1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
->>2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
->>3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
->>4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
+>>> [!IMPORTANT]
+>>> 1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+>>> 2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+>>> 3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+>>> 4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
 >>
 >>Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
 >>
