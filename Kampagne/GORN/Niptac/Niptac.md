@@ -100,6 +100,7 @@ Talente:
   - "[[Verschwinden]]"
 Hintergrund:
   Bild: "[[Niptac.jpeg]]"
+  Video: "[[Niptac.mp4]]"
   Name: Niptac
   Volk: "[[Gnome|Gnom]]"
   Klasse: "[[Schurke]]"
@@ -140,6 +141,12 @@ aliases:
 ---
 # `=this.file.name`
 > [!infobox]
+> ![[Niptac.jpeg| 1]]
+>  
+> ```dynamic-embed
+> [[embed Character Sheet Video]]
+> ```
+> 
 > ```dynamic-embed
 > [[embed Character Sheet Background]]
 > ```

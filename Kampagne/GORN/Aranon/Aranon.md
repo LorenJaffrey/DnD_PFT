@@ -100,6 +100,7 @@ Talente:
   - "[[Von Feen berührt]]"
 Hintergrund:
   Bild: "[[Aranon.jpg]]"
+  Video: "[[Aranon.mp4]]"
   Name: Aranon Grauwald
   Volk: "[[Halbelfen|Halbelf]]"
   Klasse: "[[Druide]]"
@@ -173,8 +174,14 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
+> ![[Aranon.jpg | 1]]
+> 
 > ```dynamic-embed
-> [[embed Character Sheet Background]]
+> [[embed Character Sheet Video]]
+> ```
+> 
+> ```dynamic-embed
+> [[embed Character Sheet Background 2]]
 > ```
 
 ## Allgemein

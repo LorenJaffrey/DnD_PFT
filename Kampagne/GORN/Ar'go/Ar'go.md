@@ -90,6 +90,7 @@ Merkmale:
     - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
   Bild: "[[Argo.jpeg]]"
+  Video: "[[Argo.mp4]]"
   Name: Ar'gonthariel Maez'ralor Sturmzorn
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
@@ -186,8 +187,15 @@ tags:
   - Charakter/GORN
 ---
 
+
+
 > [!infobox]
->  `="!" + this.Hintergrund.Bild`
+> ![[Argo.jpeg | 1 ]]
+>  
+> ```dynamic-embed
+> [[embed Character Sheet Video]]
+> ```
+>  
 > ```dynamic-embed
 > [[embed Character Sheet Healthbar]]
 > ```
