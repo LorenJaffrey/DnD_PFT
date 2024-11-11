@@ -170,9 +170,7 @@ tags:
   - Charakter/GORN
 ---
 
-```dynamic-embed
-[[embed Überschrift 1]]
-```
+# `=this.Hintergrund.Name`
 
 > [!infobox]
 > ```dynamic-embed
@@ -267,22 +265,18 @@ Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Übung
 > [!column | 4 no-title]
->> ### Rüstung
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
 > 
->> ### Waffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Waffen]]
 >> ```
 >
->> ### Sprachen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Sprachen]]
 >> ```
 >
->> ### Werkzeuge
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Werkzeuge]]
 >> ```

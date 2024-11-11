@@ -235,25 +235,22 @@ tags:
 > [[embed Character Sheet Zaubereipunkte]]
 > ```
 >
-> ```dataviewjs 
-> dv.el('h2', `<h2>Übung</h2>`); 
-> ```
-> ## Rüstung
+>---
+>
+> ## Übung
+> 
 > ```dynamic-embed
 > [[embed Character Sheet Übung Rüstung]]
 > ```
 > 
-> ## Waffen
 > ```dynamic-embed
 > [[embed Character Sheet Übung Waffen]]
 > ```
 >
-> ## Sprachen
 > ```dynamic-embed
 > [[embed Character Sheet Übung Sprachen]]
 > ```
 >
-> ## Werkzeuge
 > ```dynamic-embed
 > [[embed Character Sheet Übung Werkzeuge]]
 > ```
