@@ -171,7 +171,7 @@ InputData:
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
   ShowHideSection:
-    WeaponAttack: true
+    WeaponAttack: false
     MagicAttack: true
     Skills: false
     Statistic: true
@@ -203,6 +203,8 @@ tags:
 > ```dynamic-embed
 > [[embed Character Sheet Level Abschnitt]]
 > ```
+> 
+> <br />
 > 
 > |                            |  
 > | :--------------------------: | 
@@ -270,26 +272,20 @@ tags:
 >> ```dynamic-embed
 >> [[embed Erschöpfung]]
 >> ```
->> 
+>>
+>> ## Verteidigung
+>> ```dynamic-embed
+>> [[embed Character Sheet Rüstung Zauberer]]
+>> ```
+>>
+>
 >> ## Gesundheit
 >> ```dynamic-embed
 >> [[embed Character Sheet Gesundheit]]
 >> ```
->>
->>
->>>[!column | flex 2 no-title ] 
->>>>## Verteidigung
->>>> ```dynamic-embed
->>>> [[embed Character Sheet Rüstung Zauberer]]
->>>> ```
->>>
->>>>## [[Schadensarten#Schadensresistenz|Resistenz]]
->>>> - Blitz
->
->> ## Bewegung
->> ```dynamic-embed
->> [[embed Character Sheet Bewegung]]
->> ```
+>> 
+>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
+>>> [!info] Blitz
 >>
 >
 
