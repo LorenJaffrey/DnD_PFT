@@ -17,14 +17,22 @@ const videoHTML = `
 	// Output the video tag into the note
 	dv.el("div", videoHTML, { cls: "video-container" });
 
-	// Restart the video when the page is loaded
-	document.addEventListener("visibilitychange", function() {
+	// Function to restart the video
+	function restartVideo() {
 	  const video = document.getElementById("video-player");
-	  if (document.visibilityState === "visible" && video) {
+	  if (video) {
 	    video.currentTime = 0; // Restart the video
 	    video.play();          // Play the video again
 	  }
-});
+	}
+
+	// Listen for the active note change in Obsidian
+	app.workspace.on("active-leaf-change", function () {
+	  if (document.hidden === false) {
+	    restartVideo(); // Restart the video when the note is switched and becomes active
+	  }
+	});
+
 } catch(error) {
 	console.error("An error occurred in DataviewJS:", error);
 }
