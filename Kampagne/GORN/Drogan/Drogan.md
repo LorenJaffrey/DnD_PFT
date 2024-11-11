@@ -136,11 +136,7 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
-> ![[Drogan.jpeg| 0]]
->
-> ```dynamic-embed
-> [[embed Character Sheet Video]]
-> ```
+> `="!" + this.Hintergrund.Bild`
 > 
 > ```dynamic-embed
 > [[embed Character Sheet Background]]

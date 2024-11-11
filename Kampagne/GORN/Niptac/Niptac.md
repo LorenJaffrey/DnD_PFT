@@ -141,7 +141,7 @@ aliases:
 ---
 # `=this.file.name`
 > [!infobox]
-> ![[Niptac.jpeg|]]
+> `="!" + this.Hintergrund.Bild`
 > 
 > ```dynamic-embed
 > [[embed Character Sheet Background]]
