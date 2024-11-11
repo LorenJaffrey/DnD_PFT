@@ -141,7 +141,7 @@ aliases:
 ---
 # `=this.file.name`
 > [!infobox]
-> ![[Niptac.jpeg| 1]]
+> ![[Niptac.jpeg| 0]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Video]]

@@ -140,7 +140,7 @@ InputData:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
-> ![[Lucian.jpg| 1]]
+> ![[Lucian.jpg| 0]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Video]]

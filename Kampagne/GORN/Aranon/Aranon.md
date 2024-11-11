@@ -174,7 +174,7 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
-> ![[Aranon.jpg | 1]]
+> ![[Aranon.jpg | 0]]
 > 
 > ```dynamic-embed
 > [[embed Character Sheet Video]]

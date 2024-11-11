@@ -190,7 +190,7 @@ tags:
 
 
 > [!infobox]
-> ![[Argo.jpeg | 1 ]]
+> ![[Argo.jpeg | 0]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Video]]
