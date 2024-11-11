@@ -1,4 +1,3 @@
-
 ```dataviewjs
 try {
     // Check if the "Waffen" metadata includes "Nahkampf"
@@ -13,7 +12,7 @@ try {
                 .sort(page => page.file.name)
                 .map(page => {
                     // Calculate Angriff
-                    let attackStat = page.Eigenschaften.some(link => link.path.includes("Gegenstände/Waffen/Waffeneigenschaften/Finesse.md"))
+                    let attackStat = page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Finesse.md"))
                         ? dv.current().Attribute.Geschicklichkeit
                         : dv.current().Attribute.Stärke;
 
@@ -37,7 +36,7 @@ try {
     }
 
     function hasTag(page, targetTag) {
-        return page.tags && page.tags.some(tag => tag === targetTag);
+        return page?.tags && page?.tags?.some(tag => tag === targetTag);
     }
 
     function isMeleeWeapon(weaponList) {
@@ -59,7 +58,7 @@ try {
     }
 
 } catch (error) {
-    debugger;
+    console.error("An error occurred in DataviewJS:", error);
 }
 ```
 
