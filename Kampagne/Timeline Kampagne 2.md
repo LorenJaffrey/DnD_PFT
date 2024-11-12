@@ -304,7 +304,7 @@
 >	section G.O.R.N
 >		Reise zum Jagdhaus des Falken: a1, 2024-05-12 06:00, 
 >		Tibor Wester im Jagdhaus abgeliefert: done, a2, after a1, 2h
->		Im Jagdhaus des Falken rasten: done, a2, after a2, 16h
+>		Im Jagdhaus des Falken rasten: done, a3, after a2, 16h
 >```
 >
 >## Tag 21
