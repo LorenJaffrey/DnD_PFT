@@ -302,7 +302,7 @@
 >	tickinterval 1hour
 >	weekday monday
 >	section G.O.R.N
->		Reise zum Jagdhaus des Falken: a1, 2024-05-12 06:00, 
+>		Reise zum Jagdhaus des Falken: a1, 2024-05-12 00:00, 6h
 >		Tibor Wester im Jagdhaus abgeliefert: done, a2, after a1, 2h
 >		Im Jagdhaus des Falken rasten: done, a3, after a2, 16h
 >```
