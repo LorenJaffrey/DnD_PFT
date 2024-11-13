@@ -1,7 +1,7 @@
 > [!infobox|left]
 > <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
 > 
->> [!important] KAMPF
+>> [!important]+ KAMPF
 >> ```dataviewjs 
 >> dv.el('h2', `<h2>Übung</h2>`); 
 >> ```
@@ -16,7 +16,7 @@
 >> [[embed Character Sheet Bewegung]]
 >> ```
 >  ---
->> [!caution] ATTRIBUTE
+>> [!caution]- ATTRIBUTE
 >> ```dataviewjs 
 >> dv.el('h2', `<h2>Stärke</h2>`); 
 >> ```

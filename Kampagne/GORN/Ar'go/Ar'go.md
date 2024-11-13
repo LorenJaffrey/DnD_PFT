@@ -224,7 +224,7 @@ tags:
 >
 > ---
 >
->> [!important] MAGIE
+>> [!important]- MAGIE
 >> ```dataviewjs 
 >> dv.el('h2', `<h2>Zauberplätze</h2>`); 
 >> ```
@@ -243,7 +243,7 @@ tags:
 >
 >---
 >
->> [!info] ÜBUNG
+>> [!info]- ÜBUNG
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
@@ -269,7 +269,7 @@ tags:
 [[embed Überschrift 1]]
 ```
 
-> [!info] ALLGEMEIN
+> [!info]+ ALLGEMEIN
 >> [!column | flex 2 no-title]
 >>>  ## Allgemeine Spiel - Parameter
 >>> ```dynamic-embed
@@ -292,7 +292,7 @@ tags:
 >>>
 >>
 
-> [!important] WAFFEN
+> [!important]- WAFFEN
 >> [!column | 3 flex  no-title]
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Angriff Nahkampf]]
@@ -306,7 +306,7 @@ tags:
 >>> [[embed Character Sheet Angriff Wurf]]
 >>> ```
 
-> [!important] MAGIE
+> [!important]- MAGIE
 >>[!column | 2 flex no-title]
 >>> ### Zauberangriff / Zauber wirken
 >>> ```dynamic-embed
@@ -323,7 +323,7 @@ tags:
 >>> ```
 >>
 
-> [!important] FÄHIGKEITEN
+> [!important]- FÄHIGKEITEN
 >> [!column | 2  no-title]
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
@@ -346,13 +346,13 @@ tags:
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 
 
-> [!important] STATISTIK
+> [!important]- STATISTIK
 > ```dynamic-embed
 > [[embed Zauberspruch Statistik]]
 > ```
 
 
-> [!info] PERSÖNLICHKEIT
+> [!info]- PERSÖNLICHKEIT
 >> [!column | no-title ]
 >>> ## Main-Quest
 >>>  ```meta-bind
@@ -387,7 +387,7 @@ tags:
 >>>
 
 
-> [!info] VERGANGENHEIT
+> [!info]- VERGANGENHEIT
 >> [!column | no-title flex]
 >>>- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
 >>>- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
@@ -399,7 +399,7 @@ tags:
 >>>- seitdem wartet er immer noch auf die Gruppe..
 
 
-> [!info] HINTERGRUNDGESCHICHTE
+> [!info]- HINTERGRUNDGESCHICHTE
 >> [!column | no-title flex]
 >>>**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
 >>>
