@@ -11,7 +11,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
-    Schadensanfälligkeit:
+    Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
   - "[[Kampfstab]]"
