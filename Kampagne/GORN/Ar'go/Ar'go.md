@@ -69,6 +69,7 @@ Fertigkeiten:
     - "[[Wurfmesser]]"
     - "[[Kampfstab]]"
     - "[[Leichte Armbrust]]"
+    - "[[Kriegswaffen]]"
 Aussehen:
   Geschlecht: männlich
   Alter: 19 Jahre

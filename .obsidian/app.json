@@ -13,5 +13,5 @@
   "propertiesInDocument": "hidden",
   "promptDelete": false,
   "foldHeading": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "source"
 }
