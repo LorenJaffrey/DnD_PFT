@@ -15,50 +15,8 @@
 >> ```dynamic-embed
 >> [[embed Character Sheet Bewegung]]
 >> ```
->  ---
->> [!caution]- ATTRIBUTE
->> ```dataviewjs 
->> dv.el('h2', `<h2>Stärke</h2>`); 
->> ```
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Stärke]]
->> ```
->>
->> ```dataviewjs 
->> dv.el('h2', `<h2>Geschicklichkeit</h2>`); 
->> ```
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Geschicklichkeit]]
->> ```
->>
->> ```dataviewjs 
->> dv.el('h2', `<h2>Konstitution</h2>`); 
->> ```
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Konstitution]]
->> ```
->>
->> ```dataviewjs 
->> dv.el('h2', `<h2>Intelligenz</h2>`); 
->> ```
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Intelligenz]]
->> ```
->>
->> ```dataviewjs 
->> dv.el('h2', `<h2>Weisheit</h2>`); 
->> ```
->> ```dynamic-embed
->> [[embed  Makel Naivität Weisheit]]
->> ```
->>
->> ```dataviewjs 
->> dv.el('h2', `<h2>Charisma</h2>`); 
->> ```
->> ```dynamic-embed
->> [[embed Makel Naivität Charisma]]
->> ```
->>
+> 
+
 
 ```js-engine
 
