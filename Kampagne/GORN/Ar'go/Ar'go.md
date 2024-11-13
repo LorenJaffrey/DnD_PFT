@@ -209,61 +209,57 @@ tags:
 > [[embed Character Sheet SpellPointsbar]]
 > ```
 >
+> ---
+>
 > ```dynamic-embed
 > [[embed Character Sheet Level Abschnitt]]
 > ```
 > 
-> <br />
+> ---
 > 
 > |                            |  
 > | :--------------------------: | 
 > | `BUTTON[shortBreakButton]` |
 > | `BUTTON[longBreakButton]`|  
-> 
-> ```dataviewjs 
-> dv.el('h2', `<h2>Navigation</h2>`); 
-> ```
-> 
-> ```dynamic-embed
-> [[embed Tab Toggle Logik]]
-> ```
 >
-> ```dataviewjs 
-> dv.el('h2', `<h2>Zauberplätze</h2>`); 
-> ```
->  
-> ```dynamic-embed
-> [[embed Character Sheet Zauberplätze]]
-> ```
+> ---
 >
-> ```dataviewjs 
-> dv.el('h2', `<h2>Zaubereipunkte</h2>`); 
-> ```
-> 
-> ```dynamic-embed
-> [[embed Character Sheet Zaubereipunkte]]
-> ```
+>> [!important] MAGIE
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Zauberplätze</h2>`); 
+>> ```
+>>  
+>> ```dynamic-embed
+>> [[embed Character Sheet Zauberplätze]]
+>> ```
+>>
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Zaubereipunkte</h2>`); 
+>> ```
+>> 
+>> ```dynamic-embed
+>> [[embed Character Sheet Zaubereipunkte]]
+>> ```
 >
 >---
 >
-> ## Übung
-> 
-> ```dynamic-embed
-> [[embed Character Sheet Übung Rüstung]]
-> ```
-> 
-> ```dynamic-embed
-> [[embed Character Sheet Übung Waffen]]
-> ```
->
-> ```dynamic-embed
-> [[embed Character Sheet Übung Sprachen]]
-> ```
->
-> ```dynamic-embed
-> [[embed Character Sheet Übung Werkzeuge]]
-> ```
->
+>> [!info] ÜBUNG
+>> ```dynamic-embed
+>> [[embed Character Sheet Übung Rüstung]]
+>> ```
+>> 
+>> ```dynamic-embed
+>> [[embed Character Sheet Übung Waffen]]
+>> ```
+>> 
+>> ```dynamic-embed
+>> [[embed Character Sheet Übung Sprachen]]
+>> ```
+>> 
+>> ```dynamic-embed
+>> [[embed Character Sheet Übung Werkzeuge]]
+>> ```
+>> 
 
 ```dynamic-embed
 [[embed Infobox Left Attribute Übersicht (Makel)]]
@@ -273,161 +269,159 @@ tags:
 [[embed Überschrift 1]]
 ```
 
-> [!column | flex 2 no-title]
->>  ## Allgemeine Spiel - Parameter
->> ```dynamic-embed
->> [[embed Erschöpfung]]
->> ```
->>
->> ## Verteidigung
->> ```dynamic-embed
->> [[embed Character Sheet Rüstung Zauberer]]
->> ```
->>
->
->> ## Gesundheit
->> ```dynamic-embed
->> [[embed Character Sheet Gesundheit]]
->> ```
->> 
->> ## [[Schadensarten#Schadensresistenz|Resistenz]]
->>> [!info] Blitz
->>
->
-
-## Angriff
-> [!column | 3 flex  no-title]
->> ```dynamic-embed
->> [[embed Character Sheet Angriff Nahkampf]]
->> ```
->>
->> ```dynamic-embed
->> [[embed Character Sheet Angriff Fernkampf]]
->> ```
->> 
->> ```dynamic-embed
->> [[embed Character Sheet Angriff Wurf]]
->> ```
-
-## Magie
-
->[!column | 2 flex no-title]
->> ### Zauberangriff / Zauber wirken
->> ```dynamic-embed
->> [[embed Character Sheet Zauberangriff]]
->> ```
->> 
->> ### [[Odemwaffe | Blitz-Odem]] 
->>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
->>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 6 ? "2d6" : dv.current().Stufe < 11 ? "3d6" : dv.current().Stufe < 16 ? "4d6" : "5d6") + " \|none\|noform\```"`  | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
->> 
->> ```dynamic-embed
->> [[embed Character Sheet Zauberspruch Übersicht]]
->> ```
->
-
-## Fähigkeiten
-> [!column | 2  no-title]
->> ### Merkmale
->>> [!column | 2 no-title]
->>>> ![[Stürmische Magie]]
+> [!info] ALLGEMEIN
+>> [!column | flex 2 no-title]
+>>>  ## Allgemeine Spiel - Parameter
+>>> ```dynamic-embed
+>>> [[embed Erschöpfung]]
+>>> ```
 >>>
->>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
->>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
->>
->> ### Metamagie
->>> [!column | 2 no-title]
->>>> ![[Beschleunigter Zauber]]
+>>> ## Verteidigung
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Rüstung Zauberer]]
+>>> ```
 >>>
->>>> ![[Gespiegelter Zauber]]
-> 
->> ### Talente ([[Kampferprobter Zauberwirker]])
->>> [!column | 2 no-title] 
->>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>
+>>> ## Gesundheit
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Gesundheit]]
+>>> ```
+>>> 
+>>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
+>>>> [!info] Blitz
 >>>
->>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
->>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
+>>
 
-## Persönlichkeit
+> [!important] WAFFEN
+>> [!column | 3 flex  no-title]
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Nahkampf]]
+>>> ```
+>>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Fernkampf]]
+>>> ```
+>>> 
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Wurf]]
+>>> ```
 
-> [!column | no-title ]
->> ## Main-Quest
->>  ```meta-bind
->>  INPUT[editor(class(dndMediumHeight)):InputData.Quest]
->>  ```
->
->>## Charakter
->> ```dynamic-embed
->> [[embed Character Sheet Persönlichketismerkmal Abschnitt]]
->> ```
+> [!important] MAGIE
+>>[!column | 2 flex no-title]
+>>> ### Zauberangriff / Zauber wirken
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Zauberangriff]]
+>>> ```
+>>> 
+>>> ### [[Odemwaffe | Blitz-Odem]] 
+>>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 6 ? "2d6" : dv.current().Stufe < 11 ? "3d6" : dv.current().Stufe < 16 ? "4d6" : "5d6") + " \|none\|noform\```"`  | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>>> 
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Zauberspruch Übersicht]]
+>>> ```
+>>
+
+> [!important] FÄHIGKEITEN
+>> [!column | 2  no-title]
+>>> ### Merkmale
+>>>> [!column | 2 no-title]
+>>>>> ![[Stürmische Magie]]
+>>>>
+>>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
+>>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
+>>>
+>>> ### Metamagie
+>>>> [!column | 2 no-title]
+>>>>> ![[Beschleunigter Zauber]]
+>>>>
+>>>>> ![[Gespiegelter Zauber]]
 >> 
->> ## Verhaltens-Kodex
->> |  |  |
->> | ---- | ---- |
->> | 💵  | Ihm ist Geld egal  |
->> | 🌠  | Er schläft gerne im Freien |
->> | 🤓  | Er lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) besonders wenn von Elementaren Kräften gesprochen wird |
->> | 🧨  | Wenn er merkt das er reingelegt wurde, wird er leicht Emotional ([[Schockgriff]]!!!) |
->> | 🚢  |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
->> 
->> ## Persönlichkeits-Attributs/Fertigkeiten-Modifizierung
->> |        Grund         |           Beschreibung           |                              Auswirkung (Negativ)                               |              Auswirkung (Positiv)              |
->> |--------------------|--------------------------------|:-------------------------------------------------------------------------------:|:----------------------------------------------:|
->> | Herkunft / Lebensweise |    Einsiedler / Naturverbunden     |                 Argo verliert die [[Übung]] von [[Überzeugen]]                  | Argo erhält [[Übung]] auf [[Überlebenskunst]]  |
->> |         [[Völker\|Volk]]         |         [[Drachenblütige\|Drachengeborener]]         |                         siehe Spalte [[Makel]] Naivität                         |  [[Stärke]] wird von (Basis) 8 auf 10 erhöht   |
->> |       [[Makel]] (🪫)      | Naivität / Jugendlicher Leichtsinn | Werte von [[Motiv erkennen]], [[Täuschen]] & [[Auftreten]] wird um -4 reduziert | siehe Spalte [[Völker\|Volk]]  [[Drachenblütige\|Drachengeborener]] |
->>  
->> ## Aussehen
->> ```dynamic-embed
->> [[embed Character Sheet Aussehen]]
->> ```
+>>> ### Talente ([[Kampferprobter Zauberwirker]])
+>>>> [!column | 2 no-title] 
+>>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>>>
+>>>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
+>>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
+
+
+> [!important] STATISTIK
+> ```dynamic-embed
+> [[embed Zauberspruch Statistik]]
+> ```
+
+
+> [!info] PERSÖNLICHKEIT
+>> [!column | no-title ]
+>>> ## Main-Quest
+>>>  ```meta-bind
+>>>  INPUT[editor(class(dndMediumHeight)):InputData.Quest]
+>>>  ```
 >>
-
- ## Statistik
-
-```dynamic-embed
-[[embed Zauberspruch Statistik]]
-```
-
-
-## Vergangenheit
-
-> [!column | no-title flex]
->>- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
->>- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
->>- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
->>- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
->>- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
->>- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
->>- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
->>- seitdem wartet er immer noch auf die Gruppe..
-
-## Hintergrundgeschichte
-
-> [!column | no-title flex]
->>**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
->>
->>Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
->>
->>Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
->>
->>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
->>
->>> [!IMPORTANT]
->>> 1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
->>> 2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
->>> 3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
->>> 4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
->>
->>Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
->>
->>Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
->>
->>Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
+>>>## Charakter
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Persönlichketismerkmal Abschnitt]]
+>>> ```
+>>> 
+>>> ## Verhaltens-Kodex
+>>> |  |  |
+>>> | ---- | ---- |
+>>> | 💵  | Ihm ist Geld egal  |
+>>> | 🌠  | Er schläft gerne im Freien |
+>>> | 🤓  | Er lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) besonders wenn von Elementaren Kräften gesprochen wird |
+>>> | 🧨  | Wenn er merkt das er reingelegt wurde, wird er leicht Emotional ([[Schockgriff]]!!!) |
+>>> | 🚢  |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
+>>> 
+>>> ## Persönlichkeits-Attributs/Fertigkeiten-Modifizierung
+>>> |        Grund         |           Beschreibung           |                              Auswirkung (Negativ)                               |              Auswirkung (Positiv)              |
+>>> |--------------------|--------------------------------|:-------------------------------------------------------------------------------:|:----------------------------------------------:|
+>>> | Herkunft / Lebensweise |    Einsiedler / Naturverbunden     |                 Argo verliert die [[Übung]] von [[Überzeugen]]                  | Argo erhält [[Übung]] auf [[Überlebenskunst]]  |
+>>> |         [[Völker\|Volk]]         |         [[Drachenblütige\|Drachengeborener]]         |                         siehe Spalte [[Makel]] Naivität                         |  [[Stärke]] wird von (Basis) 8 auf 10 erhöht   |
+>>> |       [[Makel]] (🪫)      | Naivität / Jugendlicher Leichtsinn | Werte von [[Motiv erkennen]], [[Täuschen]] & [[Auftreten]] wird um -4 reduziert | siehe Spalte [[Völker\|Volk]]  [[Drachenblütige\|Drachengeborener]] |
+>>>  
+>>> ## Aussehen
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Aussehen]]
+>>> ```
+>>>
 
 
-## Versteckte Logiken & Button Konfigurationen
+> [!info] VERGANGENHEIT
+>> [!column | no-title flex]
+>>>- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
+>>>- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
+>>>- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
+>>>- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
+>>>- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
+>>>- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
+>>>- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
+>>>- seitdem wartet er immer noch auf die Gruppe..
+
+
+> [!info] HINTERGRUNDGESCHICHTE
+>> [!column | no-title flex]
+>>>**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
+>>>
+>>>Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
+>>>
+>>>Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
+>>>
+>>>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
+>>>
+>>>> [!IMPORTANT]
+>>>> 1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+>>>> 2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+>>>> 3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+>>>> 4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
+>>>
+>>>Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
+>>>
+>>>Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
+>>>
+>>>Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
+
+---
 
 ```dynamic-embed
 [[embed Justify-Content Center]]

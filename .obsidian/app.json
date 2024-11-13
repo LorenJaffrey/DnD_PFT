@@ -11,5 +11,7 @@
   "legacyEditor": false,
   "strictLineBreaks": false,
   "propertiesInDocument": "hidden",
-  "promptDelete": false
+  "promptDelete": false,
+  "foldHeading": true,
+  "defaultViewMode": "preview"
 }
