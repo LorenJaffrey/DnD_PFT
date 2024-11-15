@@ -185,7 +185,7 @@
     {
       "id": "northern_swordcoast_map",
       "locked": true,
-      "lastAccessed": 1731668212952,
+      "lastAccessed": 1731668759178,
       "markers": [
         {
           "id": "ID_4b7838f898f9",
@@ -204,7 +204,7 @@
           "description": "Niewinter",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_1be88858db4b",
@@ -223,7 +223,7 @@
           "description": "Herberge",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_2ba81b1a9b38",
@@ -255,7 +255,7 @@
           "description": "Goblin Höhle / Cragmaw Versteck",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_ea5bda1ad868",
@@ -274,7 +274,7 @@
           "description": "Phandalin",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         }
       ],
       "overlays": [],
@@ -392,7 +392,7 @@
     {
       "id": "phandalin_map_1",
       "locked": true,
-      "lastAccessed": 1731668212952,
+      "lastAccessed": 1731668759178,
       "markers": [
         {
           "id": "ID_5a5b5bc94bc9",
@@ -408,7 +408,7 @@
           "description": "Barthens Proviant",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_abc979eb4a68",
@@ -424,7 +424,7 @@
           "description": "Gasthaus Steinhügel",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_5a29e8c89a09",
@@ -440,7 +440,7 @@
           "description": "Bierhalle Schlafender Riese",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_4978c98978fa",
@@ -472,7 +472,7 @@
           "description": "Rathaus von Phandalin",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_4bdaaa0919ea",
@@ -536,7 +536,7 @@
           "description": "Tresendar Anwesen",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         }
       ],
       "overlays": [],
@@ -879,7 +879,7 @@
     {
       "id": "northern_swordcoast_map_2",
       "locked": true,
-      "lastAccessed": 1731668212952,
+      "lastAccessed": 1731668759178,
       "markers": [
         {
           "id": "ID_1a199bdbe84b",
@@ -895,7 +895,7 @@
           "description": "Phandalin",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_1b28c8c8f979",
@@ -911,7 +911,7 @@
           "description": "Haderhügel",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_28982b78b8db",
@@ -927,7 +927,7 @@
           "description": "Zwergenausgrabung",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         }
       ],
       "overlays": [],
@@ -975,7 +975,7 @@
     {
       "id": "northern_swordcoast_map_3",
       "locked": true,
-      "lastAccessed": 1731668212952,
+      "lastAccessed": 1731668759178,
       "markers": [
         {
           "id": "ID_78683808a84a",
@@ -991,7 +991,7 @@
           "description": "Phandalin",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_a9795be8e999",
@@ -1007,7 +1007,7 @@
           "description": "Herberge",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_89da18ba1aeb",
@@ -1023,7 +1023,7 @@
           "description": "Gekreuzigten und gefolteter Mensch an Weggabelung gefunden (Böser Magier \"Glasstab\")",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_0aaaeab999c8",
@@ -1039,7 +1039,7 @@
           "description": "Hasenbeere",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_58da3b88e86a",
@@ -1055,7 +1055,7 @@
           "description": "Butterschädelhof",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         }
       ],
       "overlays": [],
@@ -1183,7 +1183,7 @@
     {
       "id": "northern_swordcoast_map_4",
       "locked": true,
-      "lastAccessed": 1731668212952,
+      "lastAccessed": 1731668759178,
       "markers": [
         {
           "id": "ID_ea2a0929ba88",
@@ -1199,7 +1199,7 @@
           "description": "Phandalin",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_093a6969aaba",
@@ -1215,7 +1215,7 @@
           "description": "Jagdhaus des Falken",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_ca087a3819ab",
@@ -1231,7 +1231,7 @@
           "description": "Holzfäller-Lager",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_1aaa480a3a18",
@@ -1247,7 +1247,7 @@
           "description": "Altes Haus im Wald",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         }
       ],
       "overlays": [],
@@ -1431,7 +1431,7 @@
     {
       "id": "northern_swordcoast_map_5",
       "locked": true,
-      "lastAccessed": 1731668212952,
+      "lastAccessed": 1731668759178,
       "markers": [
         {
           "id": "ID_fbfaaaaa598a",
@@ -1450,7 +1450,7 @@
           "description": "Holzfäller-Lager",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_28bb1a5a686a",
@@ -1469,7 +1469,7 @@
           "description": "Jagdhaus des Falken",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         },
         {
           "id": "ID_e87b09fa8a9a",
@@ -1485,7 +1485,7 @@
           "description": "Altes Haus im Wald",
           "minZoom": null,
           "maxZoom": null,
-          "tooltip": "hover"
+          "tooltip": "always"
         }
       ],
       "overlays": [],
