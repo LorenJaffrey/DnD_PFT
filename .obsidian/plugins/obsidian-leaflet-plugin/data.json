@@ -1,34 +1,6 @@
 {
   "mapMarkers": [
     {
-      "id": "northern_swordcoast_map",
-      "locked": false,
-      "lastAccessed": 1692103467544,
-      "markers": [
-        {
-          "id": "ID_4b7838f898f9",
-          "type": "Stadt",
-          "loc": [
-            128.6991711999992,
-            40.76705574065976
-          ],
-          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        }
-      ],
-      "overlays": [],
-      "shapes": [],
-      "files": [
-        "Kampagne/02 - Der Drache vom Eisnadelgipfel/Karte Phandalin und Umgebung.md"
-      ]
-    },
-    {
       "id": "neverwinter-map",
       "locked": true,
       "lastAccessed": 1697142764007,
@@ -53,6 +25,1558 @@
       "overlays": [],
       "shapes": [],
       "files": []
+    },
+    {
+      "id": "phandalin_map_original",
+      "locked": false,
+      "lastAccessed": 1731666672774,
+      "markers": [
+        {
+          "id": "ID_5a5b5bc94bc9",
+          "type": "Laden",
+          "loc": [
+            111.35667444645699,
+            100.48598485919466
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Barthens Proviant",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abc979eb4a68",
+          "type": "Herberge",
+          "loc": [
+            96.98383144180772,
+            92.86055015927617
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Gasthaus Steinhügel",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a29e8c89a09",
+          "type": "Taverne",
+          "loc": [
+            101.13048813796706,
+            124.88795490256179
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bierhalle Schlafender Riese",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4978c98978fa",
+          "type": "Besonderer Ort",
+          "loc": [
+            82.49243889829994,
+            136.92406174827664
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Familie Dendrars Anwesen",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb391838e9f8",
+          "type": "Besonderer Ort",
+          "loc": [
+            84.8015777421525,
+            92.24207606075981
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Rathaus von Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4bdaaa0919ea",
+          "type": "Laden",
+          "loc": [
+            80.5131770321406,
+            73.61084217629707
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Löwenschilds Waren",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1bfb2809e828",
+          "type": "Tempel",
+          "loc": [
+            94.03813311756277,
+            78.72206563132669
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Schrein des Glücks",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8a9c9a909ea",
+          "type": "Besonderer Ort",
+          "loc": [
+            63.19463570324636,
+            75.91913663985883
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Minenbörse Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0b890a3818d8",
+          "type": "Besonderer Ort",
+          "loc": [
+            118.51088140017879,
+            169.91443250686527
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Tresendar Anwesen",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Kampagne/Timeline Kampagne 2.md"
+      ]
+    },
+    {
+      "id": "northern_swordcoast_map",
+      "locked": true,
+      "lastAccessed": 1731668212952,
+      "markers": [
+        {
+          "id": "ID_4b7838f898f9",
+          "type": "Stadt",
+          "loc": [
+            128.32214432266395,
+            40.40992976741988
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8081985953483977,
+            -1.8413939992489894
+          ],
+          "description": "Niewinter",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1be88858db4b",
+          "type": "Herberge",
+          "loc": [
+            73.4375,
+            94.3749144421629
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.887498288843258,
+            -1.053811659192825
+          ],
+          "description": "Herberge",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2ba81b1a9b38",
+          "type": "Besonderer Ort",
+          "loc": [
+            68.4697265625,
+            78.67006046087155
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Goblin Überfall",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e91a6b9b28e9",
+          "type": "Besonderer Ort",
+          "loc": [
+            75.4072265625,
+            81.5457164042893
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Goblin Höhle / Cragmaw Versteck",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea5bda1ad868",
+          "type": "Dorf",
+          "loc": [
+            58.22328656285396,
+            102.17928094623312
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            2.0435856189246624,
+            -0.8354911076283976
+          ],
+          "description": "Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 127.54714779238753,
+              "lng": 40.95693798767981,
+              "id": "ID_eb2bf9aad969",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 104.03584731793482,
+              "lng": 60.40681102894154,
+              "id": "ID_6b6a6ae80bca",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 83.88330405411821,
+              "lng": 68.71721132838974,
+              "id": "ID_aa6a0af8f929",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 67.26629469623435,
+              "lng": 70.66219863251591,
+              "id": "ID_caba1a8aaa79",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 68.5,
+              "lng": 78.31238592288386,
+              "id": "ID_6898ba2a09b8",
+              "targets": {
+                "vertexIds": [
+                  "ID_d84b59bad939",
+                  "ID_8939da9859f9"
+                ]
+              }
+            },
+            {
+              "lat": 75.30687219636732,
+              "lng": 81.49111227011224,
+              "id": "ID_087928bada59",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 68.5,
+              "lng": 78.31238592288386,
+              "id": "ID_8939da9859f9",
+              "targets": {
+                "vertexIds": [
+                  "ID_d84b59bad939",
+                  "ID_6898ba2a09b8"
+                ]
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 68.5,
+              "lng": 78.31238592288386,
+              "id": "ID_d84b59bad939",
+              "targets": {
+                "vertexIds": [
+                  "ID_8939da9859f9",
+                  "ID_6898ba2a09b8"
+                ]
+              }
+            },
+            {
+              "lat": 73.63025572691328,
+              "lng": 94.35568033732567,
+              "id": "ID_58c93a8bab8a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 58.4274599314025,
+              "lng": 102.31244658147818,
+              "id": "ID_484a581b29d8",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Kampagne/Timeline Kampagne 2.md"
+      ]
+    },
+    {
+      "id": "phandalin_map_1",
+      "locked": true,
+      "lastAccessed": 1731668212952,
+      "markers": [
+        {
+          "id": "ID_5a5b5bc94bc9",
+          "type": "Laden",
+          "loc": [
+            111.35667444645699,
+            100.48598485919466
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Barthens Proviant",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abc979eb4a68",
+          "type": "Herberge",
+          "loc": [
+            96.98383144180772,
+            92.86055015927617
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Gasthaus Steinhügel",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a29e8c89a09",
+          "type": "Taverne",
+          "loc": [
+            101.13048813796706,
+            124.88795490256179
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bierhalle Schlafender Riese",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4978c98978fa",
+          "type": "Besonderer Ort",
+          "loc": [
+            82.49243889829994,
+            136.92406174827664
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Familie Dendrars Anwesen",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb391838e9f8",
+          "type": "Besonderer Ort",
+          "loc": [
+            84.8015777421525,
+            92.24207606075981
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Rathaus von Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4bdaaa0919ea",
+          "type": "Laden",
+          "loc": [
+            80.5131770321406,
+            73.61084217629707
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Löwenschilds Waren",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1bfb2809e828",
+          "type": "Tempel",
+          "loc": [
+            94.03813311756277,
+            78.72206563132669
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Schrein des Glücks",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8a9c9a909ea",
+          "type": "Besonderer Ort",
+          "loc": [
+            63.19463570324636,
+            75.91913663985883
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Minenbörse Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b5be96ba8ca",
+          "type": "Besonderer Ort",
+          "loc": [
+            118.28409097801469,
+            169.2401842381412
+          ],
+          "layer": "%5B%5Bphandalin-isometric.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Tresendar Anwesen",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 128.345338797658,
+              "lng": 102.6294011467877,
+              "id": "ID_38e93ac9ab7a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 122.7374301768732,
+              "lng": 94.88012687625896,
+              "id": "ID_8b6bcb3a6a9b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 118.61396795570792,
+              "lng": 93.8908578204468,
+              "id": "ID_aa7b4b6998f8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 115.48013666762229,
+              "lng": 96.03427410803984,
+              "id": "ID_0a492afb8b39",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 111.19173595761039,
+              "lng": 95.53963958013375,
+              "id": "ID_d92848098a2b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 111.02679746876377,
+              "lng": 101.14549756306944,
+              "id": "ID_3a4a6a3ad918",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 111.85148991299684,
+              "lng": 95.37476140416504,
+              "id": "ID_099b3a8bb9d9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 106.73839675875188,
+              "lng": 94.05573599641548,
+              "id": "ID_488a182b88cb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 104.09938093720608,
+              "lng": 91.25280700494763,
+              "id": "ID_1a4baaf909a9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 98.49147231642128,
+              "lng": 86.96597442976152,
+              "id": "ID_eb3a0b5b9958",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 96.98383144180772,
+              "lng": 92.86055015927617,
+              "id": "ID_ab681908b888",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_abc979eb4a68"
+              }
+            },
+            {
+              "lat": 99.15122627180773,
+              "lng": 86.63621807782411,
+              "id": "ID_a90b78485bfb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 89.41985542985763,
+              "lng": 81.85475097473191,
+              "id": "ID_697a099a2b9b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 91.89393276255682,
+              "lng": 94.38549234835287,
+              "id": "ID_0b1bd9a99b0a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 94.69788707294921,
+              "lng": 111.53282264909734,
+              "id": "ID_7b792b9ad878",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 98.16159533872806,
+              "lng": 127.52600571806093,
+              "id": "ID_3b4b29dbf80a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 99.29297028566029,
+              "lng": 142.17739957592474,
+              "id": "ID_6858c9c8fb7b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 106.57345826990526,
+              "lng": 145.49772689864886,
+              "id": "ID_1a9af87818b8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 108.19964868337732,
+              "lng": 155.3720564935083,
+              "id": "ID_889a0948fa9a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 115.6450751564689,
+              "lng": 166.27237707070466,
+              "id": "ID_d8897bc969d9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 108.05790466952476,
+              "lng": 155.39041745677068,
+              "id": "ID_79a9b98a7a39",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 106.73839675875188,
+              "lng": 145.49772689864886,
+              "id": "ID_dbd828e81afa",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 99.29297028566029,
+              "lng": 142.17739957592474,
+              "id": "ID_e86b48ea3b18",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 98.8213492941145,
+              "lng": 141.70552885136885,
+              "id": "ID_091a89886a49",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 98.32653382757466,
+              "lng": 127.19624936612354,
+              "id": "ID_0968d89aca2a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 94.5329485841026,
+              "lng": 111.20306629715995,
+              "id": "ID_8adba8db8949",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 92.22380974025003,
+              "lng": 94.22061417238417,
+              "id": "ID_7a69e8dbd93a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 89.58479391870425,
+              "lng": 81.68987279876322,
+              "id": "ID_2808e90b1acb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 74.90526841135579,
+              "lng": 83.66841091038758,
+              "id": "ID_486a3829ca99",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 77.7092227217482,
+              "lng": 89.93378159719805,
+              "id": "ID_c8c8eb8ac978",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 84.8015777421525,
+              "lng": 92.24207606075981,
+              "id": "ID_e9d88979f95b",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_cb391838e9f8"
+              }
+            },
+            {
+              "lat": 78.03909969944142,
+              "lng": 89.60402524526067,
+              "id": "ID_cb7859d869d8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 74.90526841135579,
+              "lng": 83.17377638248149,
+              "id": "ID_0b8a49db8b8a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 59.40105045977429,
+              "lng": 64.04790797011266,
+              "id": "ID_c81bd8183ada",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 52.96844939475643,
+              "lng": 62.893760738331785,
+              "id": "ID_aa6b3a5bb978",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 49.00992566243775,
+              "lng": 67.84010601739269,
+              "id": "ID_5beb6b2aea8b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 40.92793970895377,
+              "lng": 66.19132425770572,
+              "id": "ID_094a98fbb98a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 32.681015266623184,
+              "lng": 70.47815683289184,
+              "id": "ID_99192b2bbbeb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 23.1145829135197,
+              "lng": 63.71815161817526,
+              "id": "ID_3b786a9a7979",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 3.32196425192629,
+              "lng": 36.183496231402906,
+              "id": "ID_882a5bcb1a58",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Kampagne/Timeline Kampagne 2.md"
+      ]
+    },
+    {
+      "id": "northern_swordcoast_map_2",
+      "locked": true,
+      "lastAccessed": 1731668212952,
+      "markers": [
+        {
+          "id": "ID_1a199bdbe84b",
+          "type": "Dorf",
+          "loc": [
+            58.888736620692164,
+            101.68792905337136
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b28c8c8f979",
+          "type": "Besonderer Ort",
+          "loc": [
+            49.51957176997041,
+            107.52019476742207
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Haderhügel",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28982b78b8db",
+          "type": "Besonderer Ort",
+          "loc": [
+            32.72578571678991,
+            97.44628126133448
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Zwergenausgrabung",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 58.888736620692164,
+              "lng": 101.68792905337136,
+              "id": "ID_4be8db682b48",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_1a199bdbe84b"
+              }
+            },
+            {
+              "lat": 49.51957176997041,
+              "lng": 107.52019476742207,
+              "id": "ID_3b9a4b789989",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_1b28c8c8f979"
+              }
+            },
+            {
+              "lat": 32.72578571678991,
+              "lng": 97.44628126133448,
+              "id": "ID_f8b86b1ada8b",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_28982b78b8db"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Kampagne/Timeline Kampagne 2.md"
+      ]
+    },
+    {
+      "id": "northern_swordcoast_map_3",
+      "locked": true,
+      "lastAccessed": 1731668212952,
+      "markers": [
+        {
+          "id": "ID_78683808a84a",
+          "type": "Dorf",
+          "loc": [
+            58.69814924607548,
+            102.21813502737596
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9795be8e999",
+          "type": "Herberge",
+          "loc": [
+            73.72416834628962,
+            95.14872204064783
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Herberge",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89da18ba1aeb",
+          "type": "Besonderer Ort",
+          "loc": [
+            98.29612899252214,
+            122.71943268888755
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Gekreuzigten und gefolteter Mensch an Weggabelung gefunden (Böser Magier \"Glasstab\")",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0aaaeab999c8",
+          "type": "Stall",
+          "loc": [
+            116.68090530337238,
+            150.82034931113188
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Hasenbeere",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58da3b88e86a",
+          "type": "Stall",
+          "loc": [
+            116.85768199866902,
+            161.24773346655587
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Butterschädelhof",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 57.991042464888935,
+              "lng": 102.04139970270775,
+              "id": "ID_6a08b8095a78",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 67.53698401090732,
+              "lng": 96.91607528732986,
+              "id": "ID_4b1af81b0919",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 73.72416834628962,
+              "lng": 95.14872204064783,
+              "id": "ID_4929a83a587a",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_a9795be8e999"
+              }
+            },
+            {
+              "lat": 77.61325564281563,
+              "lng": 103.8087529493898,
+              "id": "ID_99ea295b4be9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 89.63407092298694,
+              "lng": 112.29204853346356,
+              "id": "ID_c85af939e889",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 94.23026500069949,
+              "lng": 115.65001970215941,
+              "id": "ID_6bfb98f86b58",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 98.1193522972255,
+              "lng": 123.42637398756035,
+              "id": "ID_eae83b5bab7b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 106.78141036676071,
+              "lng": 131.9096695716341,
+              "id": "ID_3a199bb928b9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 113.14537139743965,
+              "lng": 143.75093632440374,
+              "id": "ID_4ae879cb5a5a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 117.2112353892623,
+              "lng": 148.34605476577704,
+              "id": "ID_49b868596abb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 116.68090530337238,
+              "lng": 150.82034931113188,
+              "id": "ID_e96bfa6808b9",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_0aaaeab999c8"
+              }
+            },
+            {
+              "lat": 118.27189556104211,
+              "lng": 156.65261502518257,
+              "id": "ID_98da4ad9eb9a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 116.85768199866902,
+              "lng": 161.24773346655587,
+              "id": "ID_8889fa4908ab",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_58da3b88e86a"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Kampagne/Timeline Kampagne 2.md"
+      ]
+    },
+    {
+      "id": "northern_swordcoast_map_4",
+      "locked": true,
+      "lastAccessed": 1731668212952,
+      "markers": [
+        {
+          "id": "ID_ea2a0929ba88",
+          "type": "Dorf",
+          "loc": [
+            58.037998774577105,
+            102.57160567671238
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_093a6969aaba",
+          "type": "Herberge",
+          "loc": [
+            130.3396671509016,
+            119.18472619552348
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Jagdhaus des Falken",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca087a3819ab",
+          "type": "Besonderer Ort",
+          "loc": [
+            139.5360776834161,
+            99.82963080648204
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Holzfäller-Lager",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1aaa480a3a18",
+          "type": "Dorf",
+          "loc": [
+            130.70283287304204,
+            134.84981779003206
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Altes Haus im Wald",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 58.037998774577105,
+              "lng": 102.57160567671238,
+              "id": "ID_7a3959585a2b",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_ea2a0929ba88"
+              }
+            },
+            {
+              "lat": 73.24079457008787,
+              "lng": 94.43619570713648,
+              "id": "ID_b919087a6838",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 77.48343525720716,
+              "lng": 103.80316791455127,
+              "id": "ID_0b0ab9eb3808",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 89.85780392797174,
+              "lng": 112.99340479729786,
+              "id": "ID_b8688969aa0b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 94.4539980056843,
+              "lng": 117.05831726466651,
+              "id": "ID_f978b90b38fb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 103.46960946581278,
+              "lng": 128.36937804343154,
+              "id": "ID_fa59fa3ad929",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 111.24778405886481,
+              "lng": 140.03390947153295,
+              "id": "ID_59eacb0b2b49",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 117.78852178484037,
+              "lng": 148.51720505560672,
+              "id": "ID_6ab93a4abacb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 120.61694890958657,
+              "lng": 142.3314686922196,
+              "id": "ID_e87a599b49d9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 122.7382692531462,
+              "lng": 133.84817310814583,
+              "id": "ID_38f86bf93b6a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 126.98090994026549,
+              "lng": 127.1322307707541,
+              "id": "ID_8859a8f838b8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 135.6429680098007,
+              "lng": 127.83917206942692,
+              "id": "ID_aa99090aab59",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 126.80413324496885,
+              "lng": 127.1322307707541,
+              "id": "ID_4b7bf8dbb8d9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 122.7382692531462,
+              "lng": 119.88608245935777,
+              "id": "ID_fb9a693bdb98",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 130.3396671509016,
+              "lng": 119.18472619552348,
+              "id": "ID_1a8b78599a4b",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_093a6969aaba"
+              }
+            },
+            {
+              "lat": 135.46619131450407,
+              "lng": 114.76075804397988,
+              "id": "ID_49c99b8a8999",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 138.82494852514017,
+              "lng": 112.99340479729786,
+              "id": "ID_a909da0a19f9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 140.9462688686998,
+              "lng": 109.45869830393377,
+              "id": "ID_297aaa884adb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 142.3604824310729,
+              "lng": 105.21705051189689,
+              "id": "ID_7a5ae988f959",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 139.5360776834161,
+              "lng": 99.82963080648204,
+              "id": "ID_6bbb89f8aa8b",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_ca087a3819ab"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Kampagne/Timeline Kampagne 2.md"
+      ]
+    },
+    {
+      "id": "northern_swordcoast_map_5",
+      "locked": true,
+      "lastAccessed": 1731668212952,
+      "markers": [
+        {
+          "id": "ID_fbfaaaaa598a",
+          "type": "Besonderer Ort",
+          "loc": [
+            138.23937572197005,
+            99.52540356389189
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.9905080712778378,
+            -1.9837040462345479
+          ],
+          "description": "Holzfäller-Lager",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28bb1a5a686a",
+          "type": "Herberge",
+          "loc": [
+            129.7540943477315,
+            119.8548476348904
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            2.397096952697808,
+            -1.8619421610436806
+          ],
+          "description": "Jagdhaus des Falken",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e87b09fa8a9a",
+          "type": "Dorf",
+          "loc": [
+            130.93076422579972,
+            134.73743476632538
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Altes Haus im Wald",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 138.23937572197005,
+              "lng": 99.52540356389189,
+              "id": "ID_b9e82a68889a",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_fbfaaaaa598a"
+              }
+            },
+            {
+              "lat": 141.38412682656863,
+              "lng": 104.9958483731538,
+              "id": "ID_5878e8cb5ba8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 140.3790157659462,
+              "lng": 109.73312017557781,
+              "id": "ID_c8483bc92969",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 138.51238093907602,
+              "lng": 112.46064030424617,
+              "id": "ID_6899e91a29b8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 133.77400022471326,
+              "lng": 114.32683828701926,
+              "id": "ID_9ab8585a083b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 131.18942892596993,
+              "lng": 115.90592888782726,
+              "id": "ID_58491bfad8ea",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 129.7540943477315,
+              "lng": 119.8548476348904,
+              "id": "ID_9899ebebda58",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_28bb1a5a686a"
+              }
+            },
+            {
+              "lat": 134.4919366965864,
+              "lng": 127.82088523937854,
+              "id": "ID_e8694b48eb5a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 130.93076422579972,
+              "lng": 134.73743476632538,
+              "id": "ID_89c8db3979bb",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_e87b09fa8a9a"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Kampagne/Timeline Kampagne 2.md"
+      ]
     }
   ],
   "defaultMarker": {
@@ -292,7 +1816,64 @@
   "displayOverlayTooltips": true,
   "configDirectory": null,
   "mapViewEnabled": true,
-  "mapViewParameters": {},
+  "mapViewParameters": {
+    "darkMode": false,
+    "defaultZoom": 2,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "600px",
+    "image": "[[ice-map-sword-coast-pc.jpg]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[ice-map-sword-coast-pc.jpg]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [
+      [
+        "Location/Schwertküste"
+      ]
+    ],
+    "maxZoom": 5,
+    "minZoom": 4,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 0.1,
+    "zoomFeatures": false,
+    "id": "northern_swordcoast_map_5",
+    "lock": false,
+    "recenter": true,
+    "noScrollZoom": false,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        249.2248,
+        178.816
+      ]
+    ],
+    "width": "50%",
+    "lat": 135,
+    "long": 120,
+    "unit": "km",
+    "filterTag": []
+  },
   "enableDraw": true,
   "defaultUnitType": "metric",
   "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
