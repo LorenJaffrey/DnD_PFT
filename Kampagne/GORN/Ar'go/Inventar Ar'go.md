@@ -3,7 +3,7 @@ Name: Inventar
 Charakter: "[[Ar'go]]"
 cssclass: dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Summen:
-  Rucksack: 55.6
+  Rucksack: 55.1
   Behälter: 0
   Körper: 11.6
 Inventar:
@@ -91,7 +91,7 @@ Inventar:
     count10: 1
     gewicht10: 0
     count11: 1
-    gewicht11: 1
+    gewicht11: 0.5
     count12: 1
     gewicht12: 0
     count13: 50
