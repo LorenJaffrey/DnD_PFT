@@ -266,9 +266,7 @@ tags:
 [[embed Infobox Left Attribute Übersicht (Makel)]]
 ```
 
-```dynamic-embed
-[[embed Überschrift 1]]
-```
+# `=this.Hintergrund.Name`
 
 > [!info]+ ALLGEMEIN
 >> [!column | flex 2 no-title]
