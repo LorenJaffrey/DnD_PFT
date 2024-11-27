@@ -15,7 +15,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
-    Schadensanfälligkeit:
+    Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
   - "[[Kurzschwert]]"
@@ -133,8 +133,8 @@ InputData:
   Fähigkeiten:
     Verschwinden: false
   Apparaturen:
-    Ladung1: false
-    Ladung2: false
+    Ladung1: true
+    Ladung2: true
     Ladung3: false
 tags:
   - Charakter/GORN
