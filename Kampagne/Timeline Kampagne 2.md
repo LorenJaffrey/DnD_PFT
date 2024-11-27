@@ -475,7 +475,7 @@
 
 > [!INFO] 
 > Hier befinden wir uns aktuell!
-> -  
+> -  wir haben den magischen baum besiegt und alle Gegner
 > - 
 > - 
 > - 
