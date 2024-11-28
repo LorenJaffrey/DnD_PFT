@@ -486,6 +486,10 @@ actions:
     bindTarget: InputData.BlitzOdem
     evaluate: false
     value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Klingenbann
+    evaluate: false
+    value: "false"
 ```
 
 ```meta-bind-button
@@ -545,6 +549,10 @@ actions:
     value: "false"
   - type: updateMetadata
     bindTarget: InputData.BlitzOdem
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Klingenbann
     evaluate: false
     value: "false"
   - type: updateMetadata
