@@ -475,9 +475,9 @@
 
 > [!INFO] 
 > Hier befinden wir uns aktuell!
-> -  
-> - 
-> - 
+> -  durchsuchen das haus
+> -  lange rast (bis nächsten tag 8 uhr)
+> -  weiter durchsuchen des hauses
 > - 
 
 # Woche 4
