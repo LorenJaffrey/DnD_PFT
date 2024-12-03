@@ -14,12 +14,12 @@ Verteidigung:
     Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
-  - "[[Stab des Sommerwalds]]"
+  - "[[Stab des Sommerwalds (Erneuert)]]"
   - "[[Krummsäbel]]"
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 30
+  TP: 38
   TW: 5
   TempTP: 0
 Attribute:
@@ -148,7 +148,7 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  TiergestaltLadung1: true
+  TiergestaltLadung1: false
   TiergestaltLadung2: false
   GeistertotemLadung: false
   NebelschrittLadung: false
@@ -159,9 +159,9 @@ InputData:
   Stresslevel4: false
   Stresslevel5: false
   Zauberplätze:
-    Grad_1: 4
-    Grad_2: 2
-    Grad_3: 0
+    Grad_1: 2
+    Grad_2: 3
+    Grad_3: 2
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
