@@ -20,7 +20,7 @@ Waffen:
   - "[[Streitaxt]]"
 Gesundheit:
   MaxTP: 59
-  TP: 54
+  TP: 15
   TW: 5
   TempTP: 0
 Attribute:
