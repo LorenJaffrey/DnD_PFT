@@ -1,5 +1,5 @@
 > [!INFO]
-> Aktuelle Kampagne -> Woche 3: Tag 21
+> Aktuelle Kampagne -> Woche 4: Tag 22
 > - [Absprung zu Woche 1](#Woche%201)
 > - [Absprung zu Woche 2](#Woche%202)
 > - [Absprung zu Woche 3](#Woche%203)
@@ -491,9 +491,9 @@
 >
 > [!INFO] 
 > Hier befinden wir uns aktuell!
-> -  durchsuchen das haus
-> -  lange rast (bis nächsten tag 8 uhr)
-> -  weiter durchsuchen des hauses
+> - 
+> - 
+> -  
 > - 
 >
 >
