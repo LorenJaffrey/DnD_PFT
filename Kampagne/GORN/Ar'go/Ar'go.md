@@ -186,7 +186,6 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  Zauberpunkte: 17
 tags:
   - Charakter/GORN
 ---
@@ -521,7 +520,7 @@ actions:
     evaluate: false
     value: "false"
   - type: inlineJS
-    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicPointsMetadata = mb.parseBindTarget('InputData.Zauberpunkte', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const magicPoints = mb.getMetadata(mb.parseBindTarget('Zaubereipunkte.Stufe' + stufe, 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicPointsMetadata, magicPoints);"
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicPointsMetadata = mb.parseBindTarget('InputData.Zaubereipunkte', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const magicPoints = mb.getMetadata(mb.parseBindTarget('Zaubereipunkte.Stufe' + stufe, 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicPointsMetadata, magicPoints);"
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_1', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
   - type: inlineJS
