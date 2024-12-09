@@ -28,13 +28,11 @@ priority is below medium
 group by filename
 ```
 
-- [x] #task Zauber [[Fallen finden]]  [priority:: highest]
-- [x] #task Zauber [[Spurloses Gehen]]  [priority:: highest]
-- [x] #task Zauber [[Vorahnung]]  [priority:: highest]
-- [x] #task Zauber [[Segnen]]  [priority:: highest]
-- [x] #task Argo-Lange-Rast Zauberpunkte Logik fixen -> dv.page(dv.current().Hintergrund.Klasse).Zaubereipunkte["Stufe"+dv.current().Stufe]
-
 ## Hintergründe
 - [ ] #task Hintergrund [[Einsiedler]]  [priority:: low]
 - [ ] #task Hintergrund [[Weiser]]  [priority:: low]
 - [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
+- [ ] #task Moralsystem Kreaturen [priority:: medium]
+- [ ] #task Erschöpfung auf 6 reduzieren [priority:: medium]
+
+## Magische Gegenstände
