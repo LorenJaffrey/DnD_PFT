@@ -32,7 +32,6 @@ group by filename
 - [ ] #task Hintergrund [[Einsiedler]]  [priority:: low]
 - [ ] #task Hintergrund [[Weiser]]  [priority:: low]
 - [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
-- [ ] #task Moralsystem Kreaturen [priority:: medium]
-- [ ] #task Erschöpfung auf 6 reduzieren [priority:: medium]
 
-## Magische Gegenstände
+- [ ] #task Moralsystem Kreaturen [priority:: medium]
+- [ ] #task Inventarsysteme evaluieren [priority:: medium]
