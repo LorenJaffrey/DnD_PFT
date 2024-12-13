@@ -1,7 +1,9 @@
 > [!infobox|left]
 > <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
 > 
->> [!important]+ KAMPF
+>---
+> 
+>> [!important | bg-c-plain ]- ÜBUNG/BEWEGUNG
 >> ```dataviewjs 
 >> dv.el('h2', `<h2>Übung</h2>`); 
 >> ```
@@ -15,7 +17,28 @@
 >> ```dynamic-embed
 >> [[embed Character Sheet Bewegung]]
 >> ```
-> 
+>
+>---
+>
+>> [!important | bg-c-plain ]- ZAUBERPLÄTZE
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Zauberplätze</h2>`); 
+>> ```
+>>  
+>> ```dynamic-embed
+>> [[embed Character Sheet Zauberplätze]]
+>> ```
+>>
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Zaubereipunkte</h2>`); 
+>> ```
+>> 
+>> ```dynamic-embed
+>> [[embed Character Sheet Zaubereipunkte]]
+>> ```
+>
+>---
+>
 
 
 ```js-engine
