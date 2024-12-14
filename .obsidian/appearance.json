@@ -15,6 +15,7 @@
     "customCSS",
     "input-width",
     "GORN",
-    "effects"
+    "effects",
+    "custom-title-classes"
   ]
 }

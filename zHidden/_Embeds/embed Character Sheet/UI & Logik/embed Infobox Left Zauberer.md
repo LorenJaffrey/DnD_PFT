@@ -3,7 +3,7 @@
 > 
 >---
 > 
->> [!important | bg-c-plain ]- ÜBUNG/BEWEGUNG
+>> [!important | bg-c-plain c-custom-red ]+ ÜBUNG/BEWEGUNG
 >> ```dataviewjs 
 >> dv.el('h2', `<h2>Übung</h2>`); 
 >> ```
@@ -20,7 +20,7 @@
 >
 >---
 >
->> [!important | bg-c-plain ]- ZAUBERPLÄTZE
+>> [!important | bg-c-plain c-custom-red ]- ZAUBERPLÄTZE
 >> ```dataviewjs 
 >> dv.el('h2', `<h2>Zauberplätze</h2>`); 
 >> ```

@@ -1,0 +1,83 @@
+/*--Callout Coloring--*/
+.callout.callout.callout {
+  --callout-color-opacity: 20%;
+  --callout-blue: 82, 139, 212;
+  --callout-green: 86, 179, 117;
+  --callout-orange: 230, 129, 63;
+  --callout-red: 193, 67, 67;
+  --callout-purple: 153, 97, 218;
+  --callout-gray: 166, 189, 197;
+  --callout-yellow: 208, 181, 48;
+  --callout-pink: 227, 107, 167;
+  --callout-brown: 161, 106, 73;
+  --callout-black: 0, 0, 0;
+  --callout-white: 256, 256, 256;  
+  --callout-plain: transparent;
+  /* custom */
+  --callout-custom-red: #912e2b;
+  --callout-custom-blue: #007bff;
+  --callout-custom-lightblue: #4f9ad8;
+}
+
+/* custom - red */
+
+.callout.callout.callout:is([data-callout-metadata~=color-custom-red],
+[data-callout-metadata~=c-custom-red],
+[data-callout-metadata~=background-color-custom-red],
+[data-callout-metadata~=bg-c-custom-red]) > .callout-title {
+  --callout-color: var(--callout-custom-red) !important;
+  --callout-title-color: var(--callout-custom-red) !important;
+}
+.callout.callout.callout:is([data-callout-metadata~=background-custom-red],
+[data-callout-metadata~=bg-custom-red],
+[data-callout-metadata~=background-color-custom-red],
+[data-callout-metadata~=bg-c-custom-red]) {
+  --callout-background: rgba(var(--callout-custom-red), var(--callout-color-opacity)) !important;
+  background-color: var(--callout-background) !important;
+}
+.callout.callout.callout:is([data-callout-metadata~=background-color-custom-red],
+[data-callout-metadata~=bg-c-custom-red]) {
+  --callout-color: var(--callout-custom-red) !important;
+}
+
+/* custom - blue */
+
+.callout.callout.callout:is([data-callout-metadata~=color-custom-blue],
+[data-callout-metadata~=c-custom-blue],
+[data-callout-metadata~=background-color-custom-blue],
+[data-callout-metadata~=bg-c-custom-blue]) > .callout-title {
+  --callout-color: var(--callout-custom-blue) !important;
+  --callout-title-color: var(--callout-custom-blue) !important;
+}
+.callout.callout.callout:is([data-callout-metadata~=background-custom-blue],
+[data-callout-metadata~=bg-custom-blue],
+[data-callout-metadata~=background-color-custom-blue],
+[data-callout-metadata~=bg-c-custom-blue]) {
+  --callout-background: rgba(var(--callout-custom-blue), var(--callout-color-opacity)) !important;
+  background-color: var(--callout-background) !important;
+}
+.callout.callout.callout:is([data-callout-metadata~=background-color-custom-blue],
+[data-callout-metadata~=bg-c-custom-blue]) {
+  --callout-color: var(--callout-custom-blue) !important;
+}
+
+/* custom - lightblue */
+
+.callout.callout.callout:is([data-callout-metadata~=color-custom-lightblue],
+[data-callout-metadata~=c-custom-lightblue],
+[data-callout-metadata~=background-color-custom-lightblue],
+[data-callout-metadata~=bg-c-custom-lightblue]) > .callout-title {
+  --callout-color: var(--callout-custom-lightblue) !important;
+  --callout-title-color: var(--callout-custom-lightblue) !important;
+}
+.callout.callout.callout:is([data-callout-metadata~=background-custom-lightblue],
+[data-callout-metadata~=bg-custom-lightblue],
+[data-callout-metadata~=background-color-custom-lightblue],
+[data-callout-metadata~=bg-c-custom-lightblue]) {
+  --callout-background: rgba(var(--callout-custom-lightblue), var(--callout-color-opacity)) !important;
+  background-color: var(--callout-background) !important;
+}
+.callout.callout.callout:is([data-callout-metadata~=background-color-custom-lightblue],
+[data-callout-metadata~=bg-c-custom-lightblue]) {
+  --callout-color: var(--callout-custom-lightblue) !important;
+}

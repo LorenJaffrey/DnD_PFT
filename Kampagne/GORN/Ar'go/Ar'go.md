@@ -219,7 +219,7 @@ tags:
 >
 > ---
 >
->> [!info | bg-c-plain]- ÜBUNG
+>> [!info | bg-c-plain c-custom-lightblue]- ÜBUNG
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
@@ -244,7 +244,7 @@ tags:
 
 # `=this.Hintergrund.Name`
 
-> [!info | bg-c-plain]+ ALLGEMEIN
+> [!info | bg-c-plain c-custom-lightblue]+ ALLGEMEIN
 >> [!column | flex 2 no-title]
 >>>  ## Allgemeine Spiel - Parameter
 >>> ```dynamic-embed
@@ -268,7 +268,7 @@ tags:
 >>
 
 
->[!caution | bg-c-plain]- ATTRIBUTE
+>[!caution | bg-c-plain c-custom-lightblue]- ATTRIBUTE
 >> [!column | flex  no-title]
 >>> ```dataviewjs 
 >>> dv.el('h2', `<h2>Stärke</h2>`); 
@@ -314,7 +314,7 @@ tags:
 >>> 
 
 
-> [!caution | bg-c-plain]- AKTIONSHILFE
+> [!caution | bg-c-plain c-custom-lightblue]- AKTIONSHILFE
 >> [!column | 4 no-title]
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Merkmale Aktionen]]
@@ -333,7 +333,7 @@ tags:
 >>> ```
 
 
-> [!important | bg-c-plain ]- WAFFEN
+> [!important | bg-c-plain c-custom-red ]- WAFFEN
 >> [!column | 3 flex  no-title]
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Angriff Nahkampf]]
@@ -348,7 +348,7 @@ tags:
 >>> ```
 
 
-> [!important | bg-c-plain ]- MAGIE
+> [!important | bg-c-plain c-custom-red ]- MAGIE
 >>[!column | 2 flex no-title]
 >>> ### Zauberangriff / Zauber wirken
 >>> ```dynamic-embed
@@ -366,7 +366,7 @@ tags:
 >>
 
 
-> [!important | bg-c-plain ]- FÄHIGKEITEN
+> [!important | bg-c-plain c-custom-red ]- FÄHIGKEITEN
 >> [!column | 2  no-title]
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
