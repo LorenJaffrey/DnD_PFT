@@ -244,7 +244,7 @@ tags:
 
 # `=this.Hintergrund.Name`
 
-> [!info | bg-c-plain c-custom-lightblue]+ ALLGEMEIN
+> [!caution | bg-c-plain c-custom-lightblue]+ ALLGEMEIN
 >> [!column | flex 2 no-title]
 >>>  ## Allgemeine Spiel - Parameter
 >>> ```dynamic-embed
