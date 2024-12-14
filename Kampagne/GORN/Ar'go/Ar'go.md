@@ -180,10 +180,6 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  Erschöpfung6: false
-  Erschöpfung7: false
-  Erschöpfung8: false
-  Erschöpfung9: false
 tags:
   - Charakter/GORN
 ---
