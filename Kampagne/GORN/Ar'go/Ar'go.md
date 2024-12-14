@@ -140,10 +140,6 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  Erschöpfung6: false
-  Erschöpfung7: false
-  Erschöpfung8: false
-  Erschöpfung9: false
   NormaleRüstung: true
   MagierRüstung: false
   BlitzOdem: false
@@ -184,6 +180,10 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
+  Erschöpfung6: false
+  Erschöpfung7: false
+  Erschöpfung8: false
+  Erschöpfung9: false
 tags:
   - Charakter/GORN
 ---
