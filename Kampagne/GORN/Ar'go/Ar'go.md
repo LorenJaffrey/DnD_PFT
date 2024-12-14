@@ -160,7 +160,12 @@ InputData:
        - [x] ein Splitter wurde aus Niewinter herausgeschmuggelt
          (angeblich auf einem Versorgungskonvoi nach Phandalin vor ca. einer Woche)
        -  Kult von Anhängern des Talos sind hinter den Splittern her (böse)
-          - diese sind im **Niewienterwald** ansässig und sehr aktiv (Holzfällerlager)
+          - diese sind im **Niewinterwald** ansässig und sehr aktiv (Holzfällerlager)
+          - [x] dort war ein Talos-Anhänger der mit Voodoo-Puppen Pflanzenmonster anlockte
+          - im Niewinterwald gab es ein altes Anwesen, dort sind wir auf Talos-Anhänger gestoßen, die ein Ritual durchgeführt hatten
+          - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
+          - eine Karte & ein Tagebuch deutete auf einem Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** den Donnerkeiler" beschworen wird/wurde
+          - [ ] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
 
     **Tempestus Fragment:**
     - [ ] **Fragment des Windes** gefunden
