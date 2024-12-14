@@ -389,7 +389,7 @@ tags:
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 
 
-> [!important | bg-c-plain ]- STATISTIK
+> [!info | bg-c-plain ]- STATISTIK
 > ```dynamic-embed
 > [[embed Zauberspruch Statistik]]
 > ```
