@@ -162,9 +162,9 @@ InputData:
        -  Kult von Anhängern des Talos sind hinter den Splittern her (böse)
           - diese sind im **Niewinterwald** ansässig und sehr aktiv (Holzfällerlager)
           - [x] dort war ein Talos-Anhänger der mit Voodoo-Puppen Pflanzenmonster anlockte
-          - im Niewinterwald gab es ein altes Anwesen, dort sind wir auf Talos-Anhänger gestoßen, die ein Ritual durchgeführt hatten
+          - im Niewinterwald gab es ein altes Anwesen, dort sind wir auf ein Talos-Anhänger gestoßen, die ein Ritual durchgeführt hatten
           - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
-          - eine Karte & ein Tagebuch deutete auf einem Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** den Donnerkeiler" beschworen wird/wurde
+          - eine Karte & ein Tagebuch deuteten auf einen Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** der Donnerkeiler" beschworen wird/wurde
           - [ ] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
 
     **Tempestus Fragment:**
@@ -210,21 +210,25 @@ tags:
 > ```
 >
 > ---
->
-> ```dynamic-embed
-> [[embed Character Sheet Level Abschnitt]]
-> ```
 > 
+>> [!info | bg-c-plain c-custom-gray]+ RASTEN-BUTTONS
+>> 
+>> |                            |  
+>> | :--------------------------: | 
+>> | `BUTTON[shortBreakButton]` |
+>> | `BUTTON[longBreakButton]`|  
+>
 > ---
 > 
-> |                            |  
-> | :--------------------------: | 
-> | `BUTTON[shortBreakButton]` |
-> | `BUTTON[longBreakButton]`|  
->
+>> [!info | bg-c-plain c-custom-lightblue]- CHARAKTER-LEVEL
+>>
+>> ```dynamic-embed
+>> [[embed Character Sheet Level Abschnitt]]
+>> ```
+> 
 > ---
 >
->> [!info | bg-c-plain c-custom-lightblue]- ÜBUNG
+>> [!info | bg-c-plain c-custom-lightblue]- CHARAKTER-ÜBUNG
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
@@ -249,9 +253,9 @@ tags:
 
 # `=this.Hintergrund.Name`
 
-> [!caution | bg-c-plain c-custom-lightblue]+ ALLGEMEIN
+> [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
 >> [!column | flex 2 no-title]
->>>  ## Allgemeine Spiel - Parameter
+>>>  ## Zustand
 >>> ```dynamic-embed
 >>> [[embed Erschöpfung]]
 >>> ```
@@ -400,7 +404,7 @@ tags:
 > ```
 
 
-> [!info | bg-c-plain]- PERSÖNLICHKEIT
+> [!info | bg-c-plain]- PERSÖNLICHKEIT / MAIN-QUEST
 >> [!column | no-title ]
 >>> ## Main-Quest
 >>>  ```meta-bind

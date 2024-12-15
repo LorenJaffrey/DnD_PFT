@@ -3,7 +3,7 @@
 > 
 >---
 > 
->> [!important | bg-c-plain c-custom-red ]+ ÜBUNG/BEWEGUNG
+>> [!important | bg-c-plain c-custom-red ]- BONUS/BEWEGUNG
 >> ```dataviewjs 
 >> dv.el('h2', `<h2>Übung</h2>`); 
 >> ```
