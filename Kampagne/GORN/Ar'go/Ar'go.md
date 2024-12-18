@@ -1,5 +1,5 @@
 ---
-cssclass: dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Stufe: 4
 Bewegung: 6
 Verteidigung:
@@ -272,7 +272,7 @@ tags:
 >>> ```
 >>> 
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
->>>> [!info] Blitz
+>>>> [!info] Blitz (erlittener Schaden halbieren ~ abrunden!)
 >>>
 >>
 
@@ -461,7 +461,7 @@ tags:
 >>>
 >>>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
 >>>
->>>> [!IMPORTANT]
+>>>> [!IMPORTANT] WICHTIG!
 >>>> 1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
 >>>> 2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
 >>>> 3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
