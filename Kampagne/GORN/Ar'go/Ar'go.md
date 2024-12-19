@@ -272,8 +272,8 @@ tags:
 >>> ```
 >>> 
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
->>>> [!info] Blitz (erlittener Schaden halbieren ~ abrunden!)
->>>
+>>>> [!success]  **Blitz**  
+>>>>    - erlittener Schaden halbieren (abrunden)
 >>
 
 
