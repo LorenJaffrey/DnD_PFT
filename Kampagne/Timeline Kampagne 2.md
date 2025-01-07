@@ -1,8 +1,8 @@
 ---
 sessionNotes: |
-  -
-  -
-  -
+  - Reise nach "Kreis des Donners" (2h)
+  - nach einer Stunde von der Reise wurde ein verkohlter Baum gefunden, der 10 Voodoo Puppen hatte
+  - Ankunft & Kampf gegen Orks
   -
 ---
 > [!INFO]
