@@ -19,9 +19,9 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 36
+  TP: 33
   TW: 5
-  TempTP: 0
+  TempTP: 50
 Attribute:
   Stärke: 8
   Geschicklichkeit: 14
@@ -134,8 +134,8 @@ Zauber:
   - "[[Tiere beschwören]]"
   - "[[Mit Pflanzen sprechen]]"
 InputData:
-  GlücksPunkt1: false
-  GlücksPunkt2: false
+  GlücksPunkt1: true
+  GlücksPunkt2: true
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
@@ -157,7 +157,7 @@ InputData:
   Stresslevel5: false
   Zauberplätze:
     Grad_1: 2
-    Grad_2: 3
+    Grad_2: 2
     Grad_3: 1
     Grad_4: 0
     Grad_5: 0
