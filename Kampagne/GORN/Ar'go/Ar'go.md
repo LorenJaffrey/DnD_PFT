@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 25
+  TP: 14
   TW: 4
   TempTP: 0
 Attribute:
@@ -119,7 +119,7 @@ Zauber:
   - "[[Snillocs Schneeballschwarm]]"
 ZauberStatistik:
   Donnerschlag: 2
-  Kältestrahl: 4
+  Kältestrahl: 6
   Klingenbann: 2
   Schockgriff: 4
   Windbö: 0
@@ -127,7 +127,7 @@ ZauberStatistik:
   Hexenpfeil: 5
   Magierrüstung: 4
   Schutzwind: 0
-  Snillocs_Schneeballschwarm: 1
+  Snillocs_Schneeballschwarm: 2
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
@@ -144,10 +144,10 @@ InputData:
   MagierRüstung: true
   BlitzOdem: true
   Klingenbann: true
-  Zaubereipunkte: 4
+  Zaubereipunkte: 2
   Zauberplätze:
     Grad_1: 2
-    Grad_2: 3
+    Grad_2: 1
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
