@@ -124,16 +124,67 @@ ZauberStatistik:
   Schockgriff: 4
   Windbö: 0
   Chaospfeil: 5
-  Hexenpfeil: 5
+  Hexenpfeil: 6
   Magierrüstung: 4
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 2
 InputData:
+  GlücksPunkt1: false
+  GlücksPunkt2: false
+  GlücksPunkt3: false
+  GlücksPunkt4: false
+  GlücksPunkt5: false
+  ErschöpfungsPunkte: 0
   Erschöpfung1: false
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
+  NormaleRüstung: false
+  MagierRüstung: true
+  BlitzOdem: true
+  Klingenbann: true
+  Zaubereipunkte: 2
+  Zauberplätze:
+    Grad_1: 1
+    Grad_2: 2
+    Grad_3: 0
+    Grad_4: 0
+    Grad_5: 0
+    Grad_6: 0
+    Grad_7: 0
+    Grad_8: 0
+    Grad_9: 0
+  Quest: |-
+    - **alle Tempestus Kristalle finden**
+       - [x] ein Splitter wurde aus Niewinter herausgeschmuggelt
+         (angeblich auf einem Versorgungskonvoi nach Phandalin vor ca. einer Woche)
+       -  Kult von Anhängern des Talos sind hinter den Splittern her (böse)
+          - diese sind im **Niewinterwald** ansässig und sehr aktiv (Holzfällerlager)
+          - [x] dort war ein Talos-Anhänger der mit Voodoo-Puppen Pflanzenmonster anlockte
+          - im Niewinterwald gab es ein altes Anwesen, dort sind wir auf ein Talos-Anhänger gestoßen, die ein Ritual durchgeführt hatten
+          - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
+          - eine Karte & ein Tagebuch deuteten auf einen Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** der Donnerkeiler" beschworen wird/wurde
+          - [ ] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
+
+    **Tempestus Fragment:**
+    - [ ] **Fragment des Windes** gefunden
+    - [ ] **Fragment des Blitzes** gefunden
+    - [ ] **Fragment des Donners** gefunden
+    - [ ] **Fragment des Regens** gefunden
+  toogleView: false
+  ShowHideSection:
+    WeaponAttack: false
+    MagicAttack: true
+    Skills: true
+    Statistic: true
+    Personality: false
+    Past: false
+    BackgroundStory: false
+  Uhrzeit1: 00:00
+  Uhrzeit2: 00:00
+  UhrzeitToogle1: false
+  UhrzeitToogle2: false
 tags:
   - Charakter/GORN
 ---
