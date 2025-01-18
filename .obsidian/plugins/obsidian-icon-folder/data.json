@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RaHiveEmblem",
-      "LiActivitySquare",
-      "♻",
-      "LiChart",
-      "🫵"
+      "LiPiggyBank",
+      "🐗",
+      "RaDragon",
+      "LiBookText",
+      "RaHiveEmblem"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -124,5 +124,10 @@
   },
   "Kampagne/Initiative (Spielleiter).md": "LiPieChart",
   "Kampagne/Gesinnung GORN.md": "LiActivitySquare",
-  "zEmbeds": "RaHiveEmblem"
+  "zEmbeds": "RaHiveEmblem",
+  "Kampagne/GORN/Ar'go/Ritualbuch.md": {
+    "iconName": "RaDragon",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/Hinweise/Grannocs Tagebuch.md": "LiPiggyBank"
 }
