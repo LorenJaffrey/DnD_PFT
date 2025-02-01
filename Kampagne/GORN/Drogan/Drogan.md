@@ -116,7 +116,7 @@ Persönlichkeit:
   Makel: Ich habe eine (Alkohol-)Sucht.
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: true
+  GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
