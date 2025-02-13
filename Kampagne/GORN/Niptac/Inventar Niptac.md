@@ -62,9 +62,9 @@ Geld:
 | Edelsteine (undurchsichtig, rotbraun)                           |   5    |    0    |   0    |
 | Perle                                                           |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| [[Heiltrank]]                                                   |   2    |   0.5   |   1    |
+| [[Heiltrank]]                                                   |   0    |   0.5   |   0    |
 | [[Zauberstecken der Vogelrufe]]                                 |   1    |    1    |   1    |
 | Modrige Bücher (Bestimmt viel wert)                             |   3    |   0.5   |  1.5   |
-| GESAMT                                                          |        |         | 48.85  |
+| GESAMT                                                          |        |         | 39.85  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

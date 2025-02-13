@@ -25,7 +25,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 42
+  TP: 33
   TW: 5
   TempTP: 0
 Attribute:
@@ -116,9 +116,9 @@ Persönlichkeit:
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: true
-  GlücksPunkt3: true
-  GlücksPunkt4: true
+  GlücksPunkt2: false
+  GlücksPunkt3: false
+  GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
