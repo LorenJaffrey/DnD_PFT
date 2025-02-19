@@ -141,13 +141,13 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   NormaleRüstung: false
-  MagierRüstung: true
+  MagierRüstung: false
   BlitzOdem: true
-  Klingenbann: true
-  Zaubereipunkte: 2
+  Klingenbann: false
+  Zaubereipunkte: 0
   Zauberplätze:
-    Grad_1: 1
-    Grad_2: 2
+    Grad_1: 0
+    Grad_2: 0
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -165,12 +165,12 @@ InputData:
           - im Niewinterwald gab es ein altes Anwesen, dort sind wir auf ein Talos-Anhänger gestoßen, die ein Ritual durchgeführt hatten
           - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
           - eine Karte & ein Tagebuch deuteten auf einen Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** der Donnerkeiler" beschworen wird/wurde
-          - [ ] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
+          - [x] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
 
     **Tempestus Fragment:**
     - [ ] **Fragment des Windes** gefunden
     - [ ] **Fragment des Blitzes** gefunden
-    - [ ] **Fragment des Donners** gefunden
+    - [x] **Fragment des Donners** gefunden
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
   ShowHideSection:
