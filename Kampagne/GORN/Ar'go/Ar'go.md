@@ -1,6 +1,6 @@
 ---
 cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
-Stufe: 4
+Stufe: 5
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
@@ -86,6 +86,7 @@ Merkmale:
   - "[[Windsprecher]]"
   - "[[Stürmische Magie]]"
   - "[[Zauberwirken Zauberer]]"
+  - "[[Magische Führung]]"
 Talente:
   - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
@@ -116,18 +117,8 @@ Zauber:
   - "[[Chaospfeil]]"
   - "[[Klingenbann]]"
   - "[[Schutzwind]]"
-  - "[[Snillocs Schneeballschwarm]]"
-ZauberStatistik:
-  Donnerschlag: 2
-  Kältestrahl: 6
-  Klingenbann: 2
-  Schockgriff: 4
-  Windbö: 0
-  Chaospfeil: 5
-  Hexenpfeil: 6
-  Magierrüstung: 4
-  Schutzwind: 0
-  Snillocs_Schneeballschwarm: 2
+  - "[[Blitz]]"
+  - "[[Blitze herbeirufen]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
@@ -173,14 +164,6 @@ InputData:
     - [x] **Fragment des Donners** gefunden
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
-  ShowHideSection:
-    WeaponAttack: false
-    MagicAttack: true
-    Skills: true
-    Statistic: true
-    Personality: false
-    Past: false
-    BackgroundStory: false
   Uhrzeit1: 00:00
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
@@ -380,13 +363,14 @@ tags:
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
 >>>>> ![[Stürmische Magie]]
+>>>>> ![[Magische Führung]]
 >>>>
 >>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
 >>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>>
 >>> ### Metamagie
 >>>> [!column | 2 no-title]
->>>>> ![[Beschleunigter Zauber]]
+>>>>> ![[Weitreichender Zauber]]
 >>>>
 >>>>> ![[Gespiegelter Zauber]]
 >> 
@@ -396,12 +380,6 @@ tags:
 >>>>
 >>>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
-
-
-> [!info | bg-c-plain ]- STATISTIK
-> ```dynamic-embed
-> [[embed Zauberspruch Statistik]]
-> ```
 
 
 > [!info | bg-c-plain]- PERSÖNLICHKEIT / MAIN-QUEST
