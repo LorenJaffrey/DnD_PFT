@@ -157,8 +157,8 @@ InputData:
   Stresslevel5: false
   Zauberplätze:
     Grad_1: 2
-    Grad_2: 2
-    Grad_3: 1
+    Grad_2: 1
+    Grad_3: 0
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
