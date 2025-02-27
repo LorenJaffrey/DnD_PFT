@@ -138,7 +138,7 @@ Geld:
 >> | Gegenstand                                  |                 Anzahl                 |                 Gewicht                  |                             Gesamt                             |
 >> | ------------------------------------------- |:--------------------------------------:|:----------------------------------------:|:--------------------------------------------------------------:|
 >> | [[Dolch]]                                   | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=round(this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1, 2)` |
->> | [[Kampfstab]]  + Donner-Fragment                             | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=round(this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2, 2)` |
+>> | [[Kampfstab]]  + <br/> [[Tempestuskristall - Fragment des Donners]]   | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=round(this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2, 2)` |
 >> | [[Arkaner Fokus]] - Kristall                | `INPUT[number:Inventar.Körper.count3]` | `INPUT[number:Inventar.Körper.gewicht3]` | `=round(this.Inventar.Körper.count3 * this.Inventar.Körper.gewicht3, 2)` |
 >> | Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=round(this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4, 2)` |
 >> | Kultisten-Amulett <br/>(Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=round(this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5, 2)` |

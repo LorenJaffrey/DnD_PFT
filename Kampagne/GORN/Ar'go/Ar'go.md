@@ -168,6 +168,7 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
+  Druckwelle: false
 tags:
   - Charakter/GORN
 ---
@@ -257,6 +258,11 @@ tags:
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> [!success]  **Blitz**  
 >>>>    - erlittener Schaden halbieren (abrunden)
+>>> 
+>>> ## Bonus
+>>>> [!success]  **Fragment des Donners**  
+>>>>    - +1 auf [[Angriffswurf|Angriffswürfe]] und [[Schadenswurf|Schadenswürfe]] für [[Schallschaden]]
+>>>>      (dieser Bonus erhöht sich um +1 für jedes weitere Fragment des Tempestus Kristalls im Besitz des Trägers)
 >>
 
 
@@ -351,6 +357,10 @@ tags:
 >>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
 >>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 6 ? "2d6" : dv.current().Stufe < 11 ? "3d6" : dv.current().Stufe < 16 ? "4d6" : "5d6") + " \|none\|noform\```"`  | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>>> ### [[Tempestuskristall - Fragment des Donners| Druckwelle]] 
+>>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>>|`INPUT[toggle:InputData.Druckwelle]` | [[Bonusaktion]]         | [[Schallschaden]]|  - | AoE  | Radius 3 m ( 2 Kästchen )  |  `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)`  | [[Stärke]] | [[Kurze Rast]], [[Lange Rast]] |
 >>> 
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Zauberspruch Übersicht]]
@@ -476,6 +486,10 @@ actions:
     bindTarget: InputData.Klingenbann
     evaluate: false
     value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Druckwelle
+    evaluate: false
+    value: "false"
 ```
 
 ```meta-bind-button
@@ -547,4 +561,8 @@ actions:
     value: x - 1
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
+  - type: updateMetadata
+    bindTarget: InputData.Druckwelle
+    evaluate: false
+    value: "false"
 ```
