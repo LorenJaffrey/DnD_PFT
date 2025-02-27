@@ -18,9 +18,9 @@ Waffen:
   - "[[Dolch]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
-  MaxTP: 33
-  TP: 14
-  TW: 4
+  MaxTP: 39
+  TP: 39
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -131,15 +131,15 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  NormaleRüstung: false
+  NormaleRüstung: true
   MagierRüstung: false
-  BlitzOdem: true
+  BlitzOdem: false
   Klingenbann: false
-  Zaubereipunkte: 0
+  Zaubereipunkte: 5
   Zauberplätze:
-    Grad_1: 0
-    Grad_2: 0
-    Grad_3: 0
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 2
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
