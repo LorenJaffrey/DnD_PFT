@@ -51,7 +51,7 @@ Geld:
 | [[Schlafsack]]                                                  |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                              |   1    |    1    |   1    |
 | [[Fackel]]                                                      |   8    |    1    |   8    |
-| [[Ration]]                                                      |   8    |    1    |   8    |
+| [[Ration]]                                                      |   4    |    1    |   8    |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
 | [[Dolch]]                                                       |   5    |    1    |   5    |
