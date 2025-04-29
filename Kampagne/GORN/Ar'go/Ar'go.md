@@ -131,13 +131,13 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  NormaleRüstung: true
-  MagierRüstung: false
+  NormaleRüstung: false
+  MagierRüstung: true
   BlitzOdem: false
   Klingenbann: false
   Zaubereipunkte: 5
   Zauberplätze:
-    Grad_1: 4
+    Grad_1: 3
     Grad_2: 3
     Grad_3: 2
     Grad_4: 0
