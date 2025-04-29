@@ -83,6 +83,9 @@ Aussehen:
   Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
+  - "[[Zwergisches Kampftraining]]"
+  - "[[Handwerkliches Geschick]]"
+  - "[[Zwergische Rüstungsvertrautheit]]"
   - "[[Dunkelsicht]]"
   - "[[Unempfindlichkeit]]"
   - "[[Steingespür]]"
@@ -95,6 +98,7 @@ Merkmale:
   - "[[Furchtlos]]"
   - "[[Schnelle Bewegung]]"
   - "[[Zusätzlicher Angriff]]"
+  - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Talente:
   - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
@@ -126,7 +130,7 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  Rage1: false
+  Rage1: true
   Rage2: false
   Rage3: false
 tags:
