@@ -136,7 +136,7 @@ cssclass: table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, t
 - #### Dunkelsicht:
 	Du hast Dunkelsicht mit einer Reichweite von 18 Metern.
 - #### Odemwaffe:
-	Wenn du in deinem Zug die Angriffsaktion ausführst, kannst du einen der Angriffe durch ein Ausatmen magischer Energie ersetzen, die sich entweder in einem Kegel von 4,5 Metern oder in einer neun Meter langen, 1,5 Meter breiten Linie ausbreitet (wähle die Form bei jedem Einsatz aus). Jede Kreatur in diesem Bereich muss einen Geschicklichkeitsrettungswurf (SG 8 plus dein Konstitutionsmodifikator plus dein Übungsbonus) ausführen. Scheitert der Wurf, so erleidet die Kreatur 1W10 Schaden der Art, die deiner drakonischen Abstammung entspricht. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur halb so viel Schaden. Dieser Schaden wird um jeweils 1W10 erhöht, wenn du die 5. (2W10), die 11. (3W10) und die 17. (4W10) Charakterstufe erreichst. Die Häufigkeit, mit der du diese Odemwaffe einsetzen kannst, entspricht deinem Übungsbonus. Du erhältst alle verbrauchten Anwendungen nach einer langen Rast zurück. (Bearbeitet)
+	Wenn du in deinem Zug die Angriffsaktion ausführst, kannst du einen der Angriffe durch ein Ausatmen magischer Energie ersetzen, die sich entweder in einem Kegel von 4,5 Metern oder in einer neun Meter langen, 1,5 Meter breiten Linie ausbreitet (wähle die Form bei jedem Einsatz aus). Jede Kreatur in diesem Bereich muss einen Geschicklichkeitsrettungswurf (SG 8 plus dein Konstitutionsmodifikator plus dein Übungsbonus) ausführen. Scheitert der Wurf, so erleidet die Kreatur 1W10 Schaden der Art, die deiner drakonischen Abstammung entspricht. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur halb so viel Schaden. Dieser Schaden wird um jeweils 1W10 erhöht, wenn du die 5. (2W10), die 11. (3W10) und die 17. (4W10) Charakterstufe erreichst. Die Häufigkeit, mit der du diese Odemwaffe einsetzen kannst, entspricht deinem Übungsbonus. Du erhältst alle verbrauchten Anwendungen nach einer langen Rast zurück.
     
 
 
@@ -144,7 +144,11 @@ cssclass: table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, t
 ## **Zauberer-Fähigkeiten**
 
 - #### INTUITIVE ZAUBEREI
-	Ein Ereignis in deiner Vergangenheit hat sein unauslöschliches Zeichen hinterlassen und dich mit schwelender Magie erfüllt. Als Bonusaktion kannst du diese Magie eine Minute lang entfesseln. Während die Dauer erhältst du folgende Vorzüge: -> Der Zauberrettungswurf-SG deiner Zaubererzauber wird um 1 erhöht. -> Bei den Angriffswürfen der Zaubererzauber, die du wirkst, bist du im Vorteil. Du kannst dieses Merkmal zweimal anwenden und erhältst alle verbrauchten Anwendungen nach einer langen Rast zurück.
+	Ein Ereignis in deiner Vergangenheit hat sein unauslöschliches Zeichen hinterlassen und dich mit schwelender Magie erfüllt. Als Bonusaktion kannst du diese Magie eine Minute lang entfesseln. Während die Dauer erhältst du folgende Vorzüge: 
+	- Der Zauberrettungswurf-SG deiner Zaubererzauber wird um 1 erhöht. 
+	- Bei den Angriffswürfen der Zaubererzauber, die du wirkst, bist du im Vorteil. 
+	
+	Du kannst dieses Merkmal zweimal anwenden und erhältst alle verbrauchten Anwendungen nach einer langen Rast zurück.
 
 - #### ZAUBEREIAUFFRISCHUNG
 	Verbrauchte Zaubereipunkte erhältst du nach einer kurzen Rast zurück, jedoch höchstens eine Anzahl in Höhe der Hälfte deiner Zaubererstufe (abgerundet). Du kannst dieses Merkmal erst nach einer langen Rast erneut verwenden. (Bearbeitet)

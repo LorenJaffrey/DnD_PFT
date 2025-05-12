@@ -8,7 +8,9 @@ Attribute:
   - +1 [[Charisma]]
 Merkmale:
   - "[[Drakonische Abstammung]]"
-  - "[[Drakonische Odemwaffe]]"
+  - "[[Odemwaffe]]"
+  - "[[Drakonischer Flug]]"
+  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
 Sprachen:
   - "[[Gemeinsprache]]"
   - "[[Drakonisch]]"
