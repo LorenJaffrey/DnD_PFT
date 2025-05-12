@@ -174,6 +174,8 @@ InputData:
   Druckwelle: false
   IntuitiveZaubereiLadungen: 2
   IntuitiveZaubereiAktiv: false
+  DrakonischerFlugAktiv: false
+  DrakonischerFlugLadungen: 1
 tags:
   - Charakter/GORN
 ---
@@ -358,10 +360,10 @@ tags:
 >>> [[embed Character Sheet Zauberangriff]]
 >>> ```
 >>> 
->>> ### [[Intuitive Zauberei]] 
->>>| Aktiv | Verfügbar (2) |  Zeitaufwand |  Erholung  |
->>>| :-----: | :-----: | ----------------- | ----------------  | 
->>>| `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` |`INPUT[number():InputData.IntuitiveZaubereiLadungen]` | [[Bonusaktion]]     |  [[Lange Rast]] |
+>>>| Aktiv | Verfügbar |  Fähigkeit |Zeitaufwand | Dauer | Erholung  |
+>>>| :-----: | :-----: | :-----: | :-----------------: | :-----: | ----------------  | 
+>>>| `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` |`INPUT[number():InputData.IntuitiveZaubereiLadungen]` / 2 | [[Intuitive Zauberei]] | [[Bonusaktion]]    |  1 Minute |  [[Lange Rast]] |
+>>>| `INPUT[toggle:InputData.DrakonischerFlugAktiv]`  |`INPUT[number():InputData.DrakonischerFlugLadungen]` / 1 | [[Drakonischer Flug]] | [[Bonusaktion]]     | 10 Minuten |  [[Lange Rast]] |
 >>> ### [[Odemwaffe | Blitz-Odem]] 
 >>>| Verfügbar (`=ceil(this.Stufe/4)+1`) |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
@@ -587,4 +589,16 @@ actions:
     bindTarget: InputData.IntuitiveZaubereiLadungen
     evaluate: false
     value: 2
+  - type: updateMetadata
+    bindTarget: InputData.DrakonischerFlugLadungen
+    evaluate: false
+    value: 1
+  - type: updateMetadata
+    bindTarget: InputData.IntuitiveZaubereiAktiv
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.DrakonischerFlugAktiv
+    evaluate: false
+    value: "false"
 ```
