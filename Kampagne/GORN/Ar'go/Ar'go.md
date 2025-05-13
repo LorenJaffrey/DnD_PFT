@@ -380,7 +380,7 @@ tags:
 >>>>> ![[Stürmische Magie | no-title]]
 >>>>> ![[Magische Führung | no-title]]
 >>>>
->>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
+>>>>> ![[Quelle der Magie#Zauberplätze erschaffen]]
 >>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>>
 >>>> ![[Drakonischer Flug | no-title]] 
