@@ -25,7 +25,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 42
+  TP: 37
   TW: 5
   TempTP: 0
 Attribute:
