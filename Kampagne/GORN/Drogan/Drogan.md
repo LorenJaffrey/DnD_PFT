@@ -22,7 +22,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 59
-  TP: 59
+  TP: 53
   TW: 5
   TempTP: 0
 Attribute:
@@ -120,9 +120,9 @@ Persönlichkeit:
   Makel: Ich habe eine (Alkohol-)Sucht.
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: false
-  GlücksPunkt3: false
-  GlücksPunkt4: false
+  GlücksPunkt2: true
+  GlücksPunkt3: true
+  GlücksPunkt4: true
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
@@ -131,7 +131,7 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   Rage1: true
-  Rage2: false
+  Rage2: true
   Rage3: false
 tags:
   - Charakter/GORN
