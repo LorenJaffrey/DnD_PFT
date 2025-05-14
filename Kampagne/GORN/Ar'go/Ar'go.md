@@ -120,8 +120,8 @@ Zauber:
   - "[[Nebelschritt]]"
   - "[[Spiegelbilder]]"
   - "[[Blitz]]"
+  - "[[Zauber/Zaubersprüche/Fliegen]]"
   - "[[Blitze herbeirufen]]"
-  - "[[Zauber/Zaubersprüche/Fliegen|Fliegen]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
