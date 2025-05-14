@@ -176,6 +176,8 @@ InputData:
   IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
   DrakonischerFlugLadungen: 1
+  SpiegelbilderLadungen: 3
+  SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
 ---
@@ -360,12 +362,13 @@ tags:
 >>> [[embed Character Sheet Zauberangriff]]
 >>> ```
 >>> 
->>>| Typ | Aktiv | Verfügbar | Max. Verfügbar | Fähigkeit |Zeitaufwand | Dauer | Schadensart | Schaden | Ziel | Reichweite | [[Schwierigkeitsgrad\|SG]] | [[Rettungswurf]] | Erholung  |
+>>>| Typ | Aktiv | Verfügbar | Max. Verfügbar | Fähigkeit |Zeitaufwand | Dauer | Schadensart | Schaden | Ziel | Reichweite | [[Schwierigkeitsgrad\|SG]] | [[Rettungswurf\|RW]] | Erholung  |
 >>>| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
->>>| Angriff | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 1.5 m (breit) / 9 m (lang)<br/>Kegel: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit]] | [[Lange Rast]] |
+>>>| Angriff | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 9 m<br/>Kegel: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit\|GES]] | [[Lange Rast]] |
 >>>| Buff | `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` | `INPUT[number():InputData.IntuitiveZaubereiLadungen]`| 2 | [[Intuitive Zauberei]]| [[Bonusaktion]] | 1 Minute | - | - | Selbst | - | - | - | [[Lange Rast]] |
 >>>| Fortbewegung | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
->>>| Stoßen | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke]] | [[Kurze Rast]], [[Lange Rast]] |
+>>>| Positions-</br>kontrolle | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke\|STA]] | [[Kurze Rast]], </br>[[Lange Rast]] |
+>>>| Verteidigung | `INPUT[toggle:InputData.SpiegelbilderAktiv]` | `INPUT[number():InputData.SpiegelbilderLadungen]` | 3 | [[Spiegelbilder]] | [[Aktion]] | 1 Minute | - | -  | Selbst | - | -  | `dice:1d6`</br> `dice:1d6`</br> `dice:1d6` | - |
 >>> 
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Zauberspruch Übersicht]]
@@ -493,6 +496,14 @@ actions:
     bindTarget: InputData.DruckwelleLadungen
     evaluate: false
     value: 1
+  - type: updateMetadata
+    bindTarget: InputData.SpiegelbilderAktiv
+    evaluate: false
+    value: false
+  - type: updateMetadata
+    bindTarget: InputData.SpiegelbilderLadungen
+    evaluate: false
+    value: 3
 ```
 
 ```meta-bind-button
@@ -595,4 +606,12 @@ actions:
     bindTarget: InputData.DrakonischerFlugAktiv
     evaluate: false
     value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.SpiegelbilderAktiv
+    evaluate: false
+    value: false
+  - type: updateMetadata
+    bindTarget: InputData.SpiegelbilderLadungen
+    evaluate: false
+    value: 3
 ```
