@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 39
+  TP: 20
   TW: 5
   TempTP: 0
 Attribute:
@@ -120,11 +120,11 @@ Zauber:
   - "[[Nebelschritt]]"
   - "[[Spiegelbilder]]"
   - "[[Blitz]]"
+  - "[[Zauber/Zaubersprüche/Fliegen]]"
   - "[[Blitze herbeirufen]]"
-  - "[[Zauber/Zaubersprüche/Fliegen|Fliegen]]"
 InputData:
-  GlücksPunkt1: false
-  GlücksPunkt2: false
+  GlücksPunkt1: true
+  GlücksPunkt2: true
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
@@ -136,8 +136,8 @@ InputData:
   Erschöpfung5: false
   NormaleRüstung: false
   MagierRüstung: true
-  BlitzOdem: 3
-  Klingenbann: false
+  BlitzOdem: 2
+  Klingenbann: true
   Zaubereipunkte: 5
   Zauberplätze:
     Grad_1: 3
