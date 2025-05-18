@@ -125,7 +125,7 @@ Zauber:
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
-  GlücksPunkt3: false
+  GlücksPunkt3: true
   GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
@@ -368,6 +368,8 @@ tags:
 >>>| Buff | `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` | `INPUT[number():InputData.IntuitiveZaubereiLadungen]`| 2 | [[Intuitive Zauberei]]| [[Bonusaktion]] | 1 Minute | - | - | Selbst | - | - | - | [[Lange Rast]] |
 >>>| Fortbewegung | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
 >>>| Positions-</br>kontrolle | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke\|STA]] | [[Kurze Rast]], </br>[[Lange Rast]] |
+>>>| Verteidigung | `INPUT[toggle:InputData.Klingenbann]` | - | - | [[Klingenbann]] | [[Aktion]] | 1 Minute | - | - `dice:1d4` <br/>(Angriffswurf des Gegners)  | Selbst | - | -  | - | - |
+>>>| Verteidigung | `INPUT[toggle:InputData.MagierRüstung]` | - | - | [[Magierrüstung]] | [[Aktion]] | 8 Stunden | - | -  | Selbst | - | -  | - | - |
 >>>| Verteidigung | `INPUT[toggle:InputData.SpiegelbilderAktiv]` | `INPUT[number():InputData.SpiegelbilderLadungen]` | 3 | [[Spiegelbilder]] | [[Aktion]] | 1 Minute | - | -  | Selbst | - | -  | `dice:1d6`</br> `dice:1d6`</br> `dice:1d6` | - |
 >>> 
 >>> ```dynamic-embed
