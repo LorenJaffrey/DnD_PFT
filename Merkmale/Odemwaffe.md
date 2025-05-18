@@ -2,6 +2,7 @@
 alias:
 tags:
 - Merkmal/Volk
+- Regeln/PHB2024
 Einsatz: "[[Aktion]]"
 ---
 Odemwaffe entsprechend der [[Drakonische Abstammung]]
