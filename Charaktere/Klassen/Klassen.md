@@ -6,7 +6,13 @@ aliases:
 
 ``` dataview
 TABLE WITHOUT ID
-file.link AS "Klasse", Art, Trefferwürfel, Hauptattribut, Zauberwirker
+
+file.link AS "Klasse", 
+Art, 
+Trefferwürfel, 
+Hauptattribut,
+Komplexität
+
 FROM #Klasse
 SORT file.name
 ```

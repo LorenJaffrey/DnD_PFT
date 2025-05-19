@@ -1,8 +1,8 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Barbar
+  - Merkmal/Klasse/Barbar
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
-
-Sollte das Gesamtergebnis eines [[Stärke|Stärkewurfs]] kleiner sein als deine [[Stärke]], kannst du stattdessen deinen [[Attribute|Attribut]]swert als Gesamtergebnis verwenden.
+Wenn das Gesamtergebnis deines [[Stärke|Stärkewurfs]] oder [[Rettungswurf#Stärkerettungswurf|Stärkerettungswurfs]] unter deiner [[Stärke]] liegt, kannst du diesen statt des Gesamtergebnisses verwenden.
