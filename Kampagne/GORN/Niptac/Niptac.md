@@ -130,9 +130,9 @@ InputData:
   Fähigkeiten:
     Verschwinden: false
   Apparaturen:
-    Ladung1: false
+    Ladung1: true
     Ladung2: false
-    Ladung3: false
+    Ladung3: true
 tags:
   - Charakter/GORN
 aliases: 
