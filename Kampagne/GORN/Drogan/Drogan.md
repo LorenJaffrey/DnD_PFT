@@ -83,11 +83,7 @@ Aussehen:
   Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
-  - "[[Zwergisches Kampftraining]]"
-  - "[[Handwerkliches Geschick]]"
-  - "[[Zwergische Rüstungsvertrautheit]]"
   - "[[Dunkelsicht]]"
-  - "[[Unempfindlichkeit]]"
   - "[[Steingespür]]"
   - "[[Kampfrausch]]"
   - "[[Ungerüstete Verteidigung]]"
@@ -105,11 +101,11 @@ Hintergrund:
   Bild: "[[Drogan_portrait.jpeg]]"
   Video: "[[Drogan_animated.mp4]]"
   Name: Drogan
-  Volk: "[[Zwerge#Gerbirgszwerge|Gebirgszwerg]]"
+  Volk: "[[Zwerge|Zwerg]]"
   Klasse: "[[Barbar]]"
   Subklasse: "[[Pfad des Slayers]]"
   Gesinnung: "[[Neutral Gut]]"
-  Hintergrund: "[[Heimgesuchter]]"
+  Herkunft: "[[Heimgesuchter]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.

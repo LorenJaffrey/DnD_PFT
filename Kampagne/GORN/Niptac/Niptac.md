@@ -97,8 +97,9 @@ Merkmale:
   - "[[Raffinierte Aktion]]"
   - "[[Zielsicher]]"
   - "[[Unglaubliches Ausweichen]]"
-Talente:
   - "[[Verschwinden]]"
+Talente:
+  - "[[Gnomisches Verschwinden]]"
 Hintergrund:
   Bild: "[[Niptac_portrait.jpeg]]"
   Video: "[[Niptac_animated.mp4]]"
@@ -107,7 +108,7 @@ Hintergrund:
   Klasse: "[[Schurke]]"
   Subklasse: "[[Meistertüftler]]"
   Gesinnung: "[[Neutral Gut]]"
-  Hintergrund: "[[Scharlatan]]"
+  Herkunft: "[[Scharlatan]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.

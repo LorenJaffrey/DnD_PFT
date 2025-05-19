@@ -90,11 +90,11 @@ Hintergrund:
   Bild: "[[Lucian_portrait.jpg]]"
   Video: "[[Lucian_animated.mp4]]"
   Name: Lucian Blackthorn
-  Volk: "[[Tieflinge|Tiefling]]"
+  Volk: "[[Infernalische Tieflinge|Infernalischer Tiefling]]"
   Klasse: "[[Hexenmeister]]"
   Subklasse: "[[Der Unhold]]"
   Gesinnung: "[[Chaotisch Neutral]]"
-  Hintergrund: "[[Weiser]]"
+  Herkunft: "[[Weiser]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - wortgewandt
