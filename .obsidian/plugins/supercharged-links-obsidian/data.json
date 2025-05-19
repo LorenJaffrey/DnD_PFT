@@ -18,9 +18,9 @@
       "match": "exact",
       "uid": "92f7-35e3",
       "selectText": true,
-      "selectAppend": true,
+      "selectAppend": false,
       "selectPrepend": true,
-      "selectBackground": true
+      "selectBackground": false
     },
     {
       "type": "tag",
@@ -30,9 +30,105 @@
       "match": "exact",
       "uid": "11d9-9167",
       "selectText": true,
-      "selectAppend": true,
+      "selectAppend": false,
       "selectPrepend": true,
-      "selectBackground": true
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Gegenstand/Rüstung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "a750-ced8",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zauber",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "b928-c772",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Spezies",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "0181-f4fc",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Größenkategorie",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "6b7b-1c4c",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Sprache",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "c3d9-ed79",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Merkmal",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "89c2-0773",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Aktion",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "f6bd-7c51",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Liste/Waffen",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "7fd6-2932",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }
