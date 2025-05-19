@@ -1,7 +1,13 @@
 ---
-aliases: Intelligenzwurf, Intelligenzwürfe, Intelligenzwürfen, IN, INT
+aliases: 
+  - Intelligenzwurf
+  - Intelligenzwürfe
+  - Intelligenzwürfen
+  - IN
+  - INT
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 
@@ -9,7 +15,9 @@ Misst die geistige Schärfe, Präzision der Erinnerung, logisches Denken.
 Intelligenzwurf wird notwendig wenn Logik, Buildung, Gedächtnis oder deduktives Denken erforderlich sind.
 
 ## Intelligenzmodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Verbundene Fertigkeiten
 ```dataview

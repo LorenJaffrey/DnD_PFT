@@ -1,14 +1,22 @@
 ---
-aliases: Stärkewurf, Stärkewürfe, Stärkewürfen, Stärkewurfs, ST
+aliases: 
+  - Stärkewurf
+  - Stärkewürfe
+  - Stärkewürfen
+  - Stärkewurfs
+  - ST
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 
 Misst die körperliche Kraft, das athletische Training und das Maß in dem du rohe Gewalt ausüben kannst.
 
 ## Stärkemodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Verbundene Fertigkeiten
 ```dataview

@@ -1,14 +1,20 @@
 ---
-aliases: Konstitutionswurf, Konstitutionswürfe, KO
+aliases: 
+  - Konstitutionswurf
+  - Konstitutionswürfe
+  - KO
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 
 Misst Gesundheit, Ausdauer und Lebenskraft. Kann den Versuch darstellen über die persönlichen Grenzen hinaus zu gehen.
 
 ## Konstitutionsmodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Sonstige Tätigkeiten
 - die Luft anhalten

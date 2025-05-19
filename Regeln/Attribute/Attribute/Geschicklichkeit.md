@@ -1,14 +1,21 @@
 ---
-aliases: Geschicklichkeitswurf, Geschicklichkeitswürfe, Geschicklichkeitswürfen, GE
+aliases: 
+  - Geschicklichkeitswurf
+  - Geschicklichkeitswürfe
+  - Geschicklichkeitswürfen
+  - GE
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 
 Umfasst Beweglichkeit, Reflexe und Gleichgewichtssinn.
 
 ## Geschicklichkeitsmodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Verbundene Fertigkeiten
 ```dataview
