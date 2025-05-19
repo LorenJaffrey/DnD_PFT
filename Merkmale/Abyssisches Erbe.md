@@ -1,19 +1,19 @@
 ---
 aliases: 
 tags:
-  - Merkmal/Spezies/Tiefling/Infernalisch
+  - Merkmal/Spezies/Tiefling/Abyssisch
   - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`
 *Dein Erbe gewährt dir übernatürliche Fähigkeiten.*
 
-Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Feuerschaden]].
+Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Giftschaden]].
 
 Außerdem beherrschst du folgende Zauber: 
-- ab Stufe 1: [[Feuerpfeil]] 
-- ab Stufe 3: [[Höllischer Tadel]]
-- ab Stufe 5: [[Dunkelheit]]
+- ab Stufe 1: [[Gift versprühen]] 
+- ab Stufe 3: [[Strahl der Übelkeit]]
+- ab Stufe 5: [[Person festhalten]]
 
 Wähle eines der folgenden [[Attribute]]: [[Intelligenz]], [[Weisheit]] oder [[Charisma]].
 Das gewählte [[Attribute|Attribut]] ist dein [[Attribute|Attribut]] zum Wirken dieser Zauber.

@@ -1,7 +1,8 @@
 ---
 aliases: 
 tags:
-  - Merkmal
+  - Merkmal/Spezies/Drachenblütiger
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`
@@ -9,18 +10,18 @@ Einsatz: Passiv
 
 Wähle eine Drachenart aus der untenstehenden Tabelle. 
 Du erhältst [[Schadensarten#Schadensresistenz]] gegen die angegebene [[Schadensarten|Schadensart]].
-Die gewählte Drachenart muss mit deiner [[Drakonische Odemwaffe|Drakonischen Odemwaffe]] übereinstimmen.
+Die [[Schadensarten|Schadensart]] deiner [[Drakonische Odemwaffe|Drakonischen Odemwaffe]] entspricht ebenfalls der anagegebenen [[Schadensarten|Schadensart]].
 
-##### Tabelle Drakonische Abstammung
-| Drache  | Schadensart      | Odemwaffe                        | Rettungswurf         |
-| ------- | ---------------- | -------------------------------- | -------------------- |
-| Schwarz | [[Säureschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Blau    | [[Blitzschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Messing | [[Feuerschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Bronze  | [[Blitzschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Kupfer  | [[Säureschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Gold    | [[Feuerschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Grün    | [[Giftschaden]]  | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Rot     | [[Feuerschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Silber  | [[Kälteschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] |
-| Weiß    | [[Kälteschaden]] | 1,5m x 9m Linie oder  4,5m Kegel | [[Geschicklichkeit]] | 
+##### Drakonische Ahnen
+| Drache  | Schadensart      |
+| ------- | ---------------- |
+| Blau    | [[Blitzschaden]] |
+| Bronze  | [[Blitzschaden]] |
+| Gold    | [[Feuerschaden]] |
+| Grün    | [[Giftschaden]]  |
+| Kupfer  | [[Säureschaden]] |
+| Messing | [[Feuerschaden]] |
+| Rot     | [[Feuerschaden]] |
+| Schwarz | [[Säureschaden]] |
+| Silber  | [[Kälteschaden]] |
+| Weiß    | [[Kälteschaden]] |

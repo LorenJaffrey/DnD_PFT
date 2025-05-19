@@ -1,7 +1,9 @@
 ---
-alias:
+aliases: 
 tags:
-- Merkmal/Volk
+  - Merkmal/Spezies/Gnom/Waldgnom
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
-beherrscht den Zauber [[Illusion]] (gewirkt mit [[Intelligenz]])
+# `=this.file.name`
+Du kennst den [[Zaubertricks|Zaubertrick]] [[Einfache Illusion]].
