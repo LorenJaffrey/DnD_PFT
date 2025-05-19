@@ -2,7 +2,9 @@
 aliases:
   - Athlete
 tags:
-  - Talent
+  - Talent/Allgemein
+  - Regeln/PHB2024
+Kategorie: Allgemein
 Voraussetzungen:
   - "[[Stärke]], [[Konstitution]] oder [[Geschicklichkeit]] 13+"
 Stufe: 4
