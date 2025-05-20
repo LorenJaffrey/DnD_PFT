@@ -129,6 +129,18 @@
       "selectAppend": false,
       "selectPrepend": true,
       "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Werkzeug",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "7a66-1284",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }
