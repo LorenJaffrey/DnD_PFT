@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 20
+  TP: 30
   TW: 5
   TempTP: 0
 Attribute:
@@ -137,11 +137,11 @@ InputData:
   MagierRüstung: true
   BlitzOdem: 2
   Klingenbann: true
-  Zaubereipunkte: 5
+  Zaubereipunkte: 3
   Zauberplätze:
     Grad_1: 3
-    Grad_2: 3
-    Grad_3: 2
+    Grad_2: 1
+    Grad_3: 1
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -171,12 +171,12 @@ InputData:
   UhrzeitToogle1: false
   UhrzeitToogle2: false
   DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 2
-  IntuitiveZaubereiAktiv: false
+  IntuitiveZaubereiLadungen: 1
+  IntuitiveZaubereiAktiv: true
   DrakonischerFlugAktiv: false
   DrakonischerFlugLadungen: 1
-  SpiegelbilderLadungen: 3
-  SpiegelbilderAktiv: false
+  SpiegelbilderLadungen: 2
+  SpiegelbilderAktiv: true
 tags:
   - Charakter/GORN
 ---
