@@ -9,10 +9,11 @@ const intuitive = page.InputData?.IntuitiveZaubereiAktiv === true;
 
 const profBonus = Math.ceil(stufe / 4) + 1;
 const attrMod = Math.floor((attrWert - 10) / 2);
+const angriffBonus = profBonus + attrMod;
 const bonus = profBonus + attrMod + (intuitive ? 1 : 0);
 const sg = 8 + bonus;
 
-const tooltipAngriff = `${profBonus} (Übung) + ${attrMod} (${zauberAttrName} ${attrWert})${intuitive ? " + 1 (Intuitive Zauberei)" : ""} = ${bonus}`;
+const tooltipAngriff = `${profBonus} (Übung) + ${attrMod} (${zauberAttrName} ${attrWert}) = ${angriffBonus}`;
 const tooltipSG = `8 + ${profBonus} (Übung) + ${attrMod} (${zauberAttrName} ${attrWert})${intuitive ? " + 1 (Intuitive Zauberei)" : ""}`;
 
 // Funktion zum Ersetzen bestimmter Textmarker im gesamten HTML
