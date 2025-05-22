@@ -60,7 +60,7 @@ Fertigkeiten:
     - "[[Gemeinsprache]]"
     - "[[Urtümlich]]"
     - "[[Drakonisch]]"
-    - "[[Celestisch]]"
+    - "[[Riesisch]]"
   Werkzeuge:
     - "[[Navigationswerkzeug]]"
   Rüstungen: 
@@ -96,7 +96,7 @@ Hintergrund:
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
   Gesinnung: "[[Neutral Gut]]"
-  Herkunft: "[[Einsiedler]]"
+  Herkunft: "[[Händler|Drachenkult]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - <ul><b>Respekt vor der Natur</b></ul>Ar'gonthariel Maez'ralor empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
@@ -402,14 +402,14 @@ tags:
 >>> dv.el('h2', `<h2>Weisheit</h2>`); 
 >>> ```
 >>> ```dynamic-embed
->>> [[embed  Makel Naivität Weisheit]]
+>>> [[embed Character Sheet Attribute Weisheit]]
 >>> ```
 >>
 >>> ```dataviewjs 
 >>> dv.el('h2', `<h2>Charisma</h2>`); 
 >>> ```
 >>> ```dynamic-embed
->>> [[embed Makel Naivität Charisma]]
+>>> [[embed Character Sheet Attribute Charisma]]
 >>> ```
 >>> 
 
@@ -453,13 +453,6 @@ tags:
 >>> | 🤓  | Er lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) besonders wenn von Elementaren Kräften gesprochen wird |
 >>> | 🧨  | Wenn er merkt das er reingelegt wurde, wird er leicht Emotional ([[Schockgriff]]!!!) |
 >>> | 🚢  |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
->>> 
->>> ## Persönlichkeits-Attributs/Fertigkeiten-Modifizierung
->>> |        Grund         |           Beschreibung           |                              Auswirkung (Negativ)                               |              Auswirkung (Positiv)              |
->>> |--------------------|--------------------------------|:-------------------------------------------------------------------------------:|:----------------------------------------------:|
->>> | Herkunft / Lebensweise |    Einsiedler / Naturverbunden     |                 Argo verliert die [[Übung]] von [[Überzeugen]]                  | Argo erhält [[Übung]] auf [[Überlebenskunst]]  |
->>> |         [[Völker\|Volk]]         |         [[Drachenblütige\|Drachengeborener]]         |                         siehe Spalte [[Makel]] Naivität                         |  [[Stärke]] wird von (Basis) 8 auf 10 erhöht   |
->>> |       [[Makel]] (🪫)      | Naivität / Jugendlicher Leichtsinn | Werte von [[Motiv erkennen]], [[Täuschen]] & [[Auftreten]] wird um -4 reduziert | siehe Spalte [[Völker\|Volk]]  [[Drachenblütige\|Drachengeborener]] |
 >>>  
 >>> ## Aussehen
 >>> ```dynamic-embed
