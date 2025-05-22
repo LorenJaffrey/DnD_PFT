@@ -27,7 +27,7 @@ Attribute:
   Geschicklichkeit: 13
   Konstitution: 16
   Intelligenz: 12
-  Weisheit: 10
+  Weisheit: 8
   Charisma: 18
 Rettungswürfe:
   Stärke: 0
@@ -46,14 +46,14 @@ Fertigkeiten:
   Geschichte: 0
   Heilkunde: 0
   Heimlichkeit: 0
-  Mit_Tieren_umgehen: 0
+  Mit_Tieren_umgehen: 1
   Motiv_erkennen: 0
   Nachforschungen: 0
-  Naturkunde: 1
+  Naturkunde: 0
   Religion: 1
   Täuschen: 0
-  Überlebenskunst: 1
-  Überzeugen: 0
+  Überlebenskunst: 0
+  Überzeugen: 1
   Wahrnehmung: 0
 Übung:
   Sprachen:
