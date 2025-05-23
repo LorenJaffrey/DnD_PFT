@@ -87,6 +87,7 @@ Merkmale:
   - "[[Magische Führung]]"
   - "[[Zaubereiauffrischung]]"
 Talente:
+  - "[[Glückspilz]]"
   - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
   Bild: "[[Argo_portrait.jpeg]]"
@@ -339,10 +340,14 @@ tags:
 >>>
 >>>> ![[Drakonischer Flug | no-title]] 
 >> 
->>> ### Talente ([[Kampferprobter Zauberwirker]])
+>>> ### Talente ([[Kampferprobter Zauberwirker]], [[Glückspilz]])
 >>>> [!column | 2 no-title] 
->>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>>>> 
+>>>>> ![[Glückspilz#Glückspunkte]]
+>>>>> ![[Glückspilz#Vorteil]]
+>>>>> ![[Glückspilz#Nachteil]]
 >>>>
+>>>>>  ![[Kampferprobter Zauberwirker#Konzentration]]
 >>>>> ![[Kampferprobter Zauberwirker#Gestenkomponenten]]
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 >>>
