@@ -357,7 +357,6 @@ tags:
 >>>>
 >>>>> ![[Beschleunigter Zauber | no-title]]
 
-
 > [!important | bg-c-plain c-custom-red ]- WAFFEN
 >> [!column | 3 flex  no-title]
 >>> ```dynamic-embed
