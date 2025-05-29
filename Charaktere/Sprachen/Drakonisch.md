@@ -1,8 +1,6 @@
 ---
 tags:
-  - Sprache/Exotisch
-Typische_Völker:
-  - "[[Drachen]]"
-  - "[[Drachenblütige]]"
-Schrift: "[[Drakonisch]]"
+  - Sprache/Standard
+Ursprung: "[[Drachen]]"
+Schrift: Drakonisch
 ---
