@@ -113,16 +113,17 @@ Hintergrund:
   Gesinnung: "[[Neutral Gut]]"
   Herkunft: "[[Scharlatan]]"
 Persönlichkeit:
-  Persönlichkeitsmerkmale: Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.
+  Persönlichkeitsmerkmale:
+    - Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.
   Ideale: Unabhängigkeit. Ich bin ein Freigeist, niemand kann mir vorschreiben, was ich zu tun oder zu lassen habe.
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: true
-  GlücksPunkt3: true
-  GlücksPunkt4: true
-  GlücksPunkt5: true
+  GlücksPunkt2: false
+  GlücksPunkt3: false
+  GlücksPunkt4: false
+  GlücksPunkt5: false
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
   Erschöpfung2: false
@@ -130,10 +131,10 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   Fähigkeiten:
-    Verschwinden: false
+    Verschwinden: true
   Apparaturen:
     Ladung1: true
-    Ladung2: false
+    Ladung2: true
     Ladung3: true
 tags:
   - Charakter/GORN

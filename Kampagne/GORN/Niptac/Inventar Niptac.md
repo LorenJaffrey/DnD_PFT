@@ -64,7 +64,8 @@ Geld:
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
 | [[Heiltrank]]                                                   |   1    |   0.5   |  0.5   |
 | [[Feine Kleidung]]                                              |   1    |    6    |   6    |
+| Goblins Alchemistengerümpel                                     |   1    |   0.5   |  0.5   |
 | [[Zauberstecken der Vogelrufe]]                                 |   1    |    1    |   1    |
-| GESAMT                                                          |        |         | 54.25  |
+| GESAMT                                                          |        |         | 54.75  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
