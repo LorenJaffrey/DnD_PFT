@@ -137,12 +137,12 @@ InputData:
   NormaleRüstung: false
   MagierRüstung: true
   BlitzOdem: 2
-  Klingenbann: true
+  Klingenbann: false
   Zaubereipunkte: 3
   Zauberplätze:
-    Grad_1: 3
+    Grad_1: 2
     Grad_2: 1
-    Grad_3: 1
+    Grad_3: 0
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -173,11 +173,11 @@ InputData:
   UhrzeitToogle2: false
   DruckwelleLadungen: 1
   IntuitiveZaubereiLadungen: 1
-  IntuitiveZaubereiAktiv: true
+  IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
-  DrakonischerFlugLadungen: 1
+  DrakonischerFlugLadungen: 0
   SpiegelbilderLadungen: 2
-  SpiegelbilderAktiv: true
+  SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
 ---
