@@ -23,6 +23,9 @@ Hände: 2
 Größe: 4
 Gewicht: 3 Pfund
 ---
+> [!infobox|left]
+> ![[Stecken der Verteidigung.jpeg|250]]
+
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```
@@ -32,7 +35,9 @@ Du musst auf den Stecken [[Einstimmung magischer Gegenstände|eingestimmt]] sein
 
 ## Rüstungsbonus
 Solange du den Stecken hältst, erhältst du [[Rüstungsbonus]] (+1).
-
+</br>
+</br>
+</br>
 ## Gespeicherte Zauber
 Der Stecken hat 10 Ladungen, die genutzt werden können, um die Zauber in seinem Inneren zu wirken.
 Es sind keine Komponenten notwendig.

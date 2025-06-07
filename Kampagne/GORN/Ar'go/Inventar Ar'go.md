@@ -5,7 +5,7 @@ cssclass: slrvb-b, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion
 Summen:
   Rucksack: 47.6
   Behälter: 0
-  Körper: 12.1
+  Körper: 13.6
 Inventar:
   Körper:
     count1: 2
@@ -145,7 +145,7 @@ Geld:
 >> | [[Leichte Armbrust]]                        | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=round(this.Inventar.Körper.count6 * this.Inventar.Körper.gewicht6, 2)` |
 >> | Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
 >> | [[Heiltrank]]                                        | `INPUT[number:Inventar.Körper.count8]` | `INPUT[number:Inventar.Körper.gewicht8]` | `=round(this.Inventar.Körper.count8 * this.Inventar.Körper.gewicht8, 2)` |
->> |   Goblin-König-Kopf mit Krone (Groll)  | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
+>> |   [[Goblin-König-Kopf mit Krone (Groll).jpeg]] | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
 >> |                    | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
 >> |                                                                    | `INPUT[number:Inventar.Körper.count11]` | `INPUT[number:Inventar.Körper.gewicht11]` | `=round(this.Inventar.Körper.count11 * this.Inventar.Körper.gewicht11, 2)` |
 >> | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |

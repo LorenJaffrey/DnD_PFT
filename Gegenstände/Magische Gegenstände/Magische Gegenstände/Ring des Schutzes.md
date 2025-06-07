@@ -8,6 +8,9 @@ Kosten:
 Voraussetzung: 
 Verflucht: false
 ---
+> [!infobox|left]
+> ![[Ring des Schutzes.jpeg|250]]
+
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```

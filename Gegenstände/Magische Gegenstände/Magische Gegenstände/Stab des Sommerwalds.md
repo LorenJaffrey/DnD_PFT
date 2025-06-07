@@ -24,6 +24,9 @@ Hände: 2
 Größe: 4
 Gewicht: 3 Pfund
 ---
+> [!infobox|left]
+> ![[Stab des Sommerwalds.jpeg|250]]
+
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```

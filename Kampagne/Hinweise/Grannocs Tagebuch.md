@@ -1,5 +1,18 @@
+> [!infobox|left]
+> ![[Grannocs Tagebuch.jpeg|250]]
+
 # `=this.file.name`
 Dieses stark beschädigte Tagebuch wurde bei den sterblichen Überresten des Talos-Akolythen Grannoc im [[Altes Haus im Wald|Alten Haus im Wald]] gefunden.
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Einträge
 > [!quote] _Seite 5 – Verschmiert, aber lesbar_

@@ -6,6 +6,9 @@ Seltenheit: Erbstück
 Einstimmung: true
 Kosten:
 ---
+> [!infobox|left]
+> ![[Tempestuskristall – Fragment des Donners.jpeg|250]]
+
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```

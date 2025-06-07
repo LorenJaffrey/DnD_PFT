@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArchiveX",
+      "LiArchive",
       "LiBookCopy",
       "LiPiggyBank",
-      "🐗",
-      "RaDragon",
-      "LiBookText"
+      "🐗"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -130,8 +130,12 @@
     "iconColor": "#258bb6"
   },
   "Kampagne/Hinweise/Grannocs Tagebuch.md": "LiPiggyBank",
-  "Kampagne/GORN/Ar'go/Zauberer - PHB 2024.md": {
+  "Kampagne/GORN/Ar'go/zArchive/Zauberer - PHB 2024.md": {
     "iconName": "LiBookCopy",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/zArchive": {
+    "iconName": "LiArchiveX",
     "iconColor": "#258bb6"
   }
 }
