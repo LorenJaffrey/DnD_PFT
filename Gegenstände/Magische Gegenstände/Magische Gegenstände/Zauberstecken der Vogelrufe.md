@@ -23,19 +23,15 @@ Hände: 2
 Größe: 4
 Gewicht: 3 Pfund
 ---
-> [!infobox|left]
-> ![[Zauberstecken der Vogelrufe.jpeg|250]]
 
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```
 
+> [!infobox]
+> ![[Zauberstecken der Vogelrufe.jpeg|250]]
+
 Dieser hölzerne Stecken ist mit Vogelschnitzereien verziert. 
-</br>
-</br>
-</br>
-</br>
-</br>
 
 Er hat zehn Ladungen. 
 Wenn du ihn hältst, kannst du mithilfe einer [[Aktion]] eine seiner Ladungen verbrauchen, damit er eines der folgenden Geräusche mit einer Reichweite von bis zu 18 Metern erzeugt: 

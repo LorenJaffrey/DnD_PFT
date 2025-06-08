@@ -23,12 +23,13 @@ Hände: 2
 Größe: 4
 Gewicht: 3 Pfund
 ---
-> [!infobox|left]
-> ![[Stecken der Verteidigung.jpeg|250]]
 
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```
+
+> [!infobox]
+> ![[Stecken der Verteidigung.jpeg|250]]
 
 Der schlanke, hohle [[Zauberstecken]] besteht aus Glas, ist aber so robust wie Eichenholz. 
 Du musst auf den Stecken [[Einstimmung magischer Gegenstände|eingestimmt]] sein, um seine Vorteile zu nutzen und seine Zauber zu wirken.

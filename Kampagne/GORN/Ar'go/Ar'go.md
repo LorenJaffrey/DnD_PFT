@@ -14,7 +14,7 @@ Verteidigung:
     Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
-  - "[[Kampfstab]]"
+  - "[[Kampfstab mit Tempestuskristall]]"
   - "[[Dolch]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
