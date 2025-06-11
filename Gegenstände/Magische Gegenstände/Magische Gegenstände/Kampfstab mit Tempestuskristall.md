@@ -49,5 +49,14 @@ Verfügbarkeit: häufig
 >> ![[Tempestuskristall - Fragment des Blitzes | no-title]]
 >> ![[Tempestuskristall - Fragment des Regens | no-title]]
 >
->> ## Kampfstab mit Tempestuskristall des Donners
->> ![[Kampfstab mit Tempestuskristall.png]]
+>> ## Kampfstab mit Tempestuskristall-Fragment des Donners (aktuell)
+>> ![[Kampfstab mit Tempestuskristall.png|300]]
+>> 
+>> ## Kampfstab mit 2 Tempestuskristall-Fragmenten (???)
+>> ![[Kampfstab mit 2 Tempestuskristall-Fragmente.png|300]]
+>> 
+>> ## Kampfstab mit 3 Tempestuskristall-Fragmenten (???)
+>> ![[Kampfstab mit 3 Tempestuskristall-Fragmente.png|300]]
+>> 
+>> ## Kampfstab mit allen Tempestuskristall-Fragmenten (???)
+>> ![[Kampfstab mit allen Tempestuskristall-Fragmenten.jpeg|450]]

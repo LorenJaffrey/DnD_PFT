@@ -111,10 +111,6 @@
     "iconColor": "#ffffff"
   },
   "Kampagne/Friedhof/Jon/Session Notizen Jon.md": "🗒",
-  "Kampagne/GORN/Ar'go/Session Notes.md": {
-    "iconName": "LiBookLock",
-    "iconColor": "#258bb6"
-  },
   "Kampagne/Memoiren.md": "LiBookOpen",
   "Kampagne/Timeline Kampagne 2.md": "LiCalendarDays",
   "Kampagne/Attribut-Übersicht.md": "LiView",
@@ -125,10 +121,6 @@
   "Kampagne/Initiative (Spielleiter).md": "LiPieChart",
   "Kampagne/Gesinnung GORN.md": "LiActivitySquare",
   "zEmbeds": "RaHiveEmblem",
-  "Kampagne/GORN/Ar'go/Ritualbuch.md": {
-    "iconName": "RaDragon",
-    "iconColor": "#258bb6"
-  },
   "Kampagne/Hinweise/Grannocs Tagebuch.md": "LiPiggyBank",
   "Kampagne/GORN/Ar'go/zArchive/Zauberer - PHB 2024.md": {
     "iconName": "LiBookCopy",
@@ -136,6 +128,14 @@
   },
   "Kampagne/GORN/Ar'go/zArchive": {
     "iconName": "LiArchiveX",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/zArchive/Session Notes.md": {
+    "iconName": "LiBookLock",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/zArchive/Ritualbuch.md": {
+    "iconName": "RaDragon",
     "iconColor": "#258bb6"
   }
 }
