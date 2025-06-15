@@ -120,8 +120,8 @@ Persönlichkeit:
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: false
-  GlücksPunkt3: false
+  GlücksPunkt2: true
+  GlücksPunkt3: true
   GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0

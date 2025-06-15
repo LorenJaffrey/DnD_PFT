@@ -3,9 +3,9 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 255
-  EM: 0
-  SM: 210
+  GM: 279
+  EM: 50
+  SM: 254
   KM: 95
 ---
 # `=this.file.name`
@@ -65,6 +65,10 @@ Geld:
 | [[Heiltrank]]                                                   |   1    |   0.5   |  0.5   |
 | [[Feine Kleidung]]                                              |   1    |    6    |   6    |
 | Goblins Alchemistengerümpel                                     |   1    |   0.5   |  0.5   |
+| Pokal (Gold)                                                    |        |         |   0    |
+| Ritualmesser (Gold)                                             |        |         |   0    |
+| Gefäß (Gold)                                                    |        |         |   0    |
+| Zauberrolle (nicht identifiziert)                               |        |         |   0    |
 | [[Zauberstecken der Vogelrufe]]                                 |   1    |    1    |   1    |
 | GESAMT                                                          |        |         | 54.75  |
 <!-- TBLFM: $>=($-1*$-2) -->
