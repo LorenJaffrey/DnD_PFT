@@ -22,7 +22,7 @@ Inventar:
     gewicht6: 1
     count7: 12
     gewicht7: 0.05
-    count8: 4
+    count8: 2
     gewicht8: 0.5
     count9: 1
     gewicht9: 0
@@ -106,7 +106,7 @@ Inventar:
     gewicht17: 0
 Geld:
   PM: 0
-  GM: 24
+  GM: 27
   EM: 50
   SM: 73
   KM: 23
