@@ -22,9 +22,9 @@ Inventar:
     gewicht6: 1
     count7: 12
     gewicht7: 0.05
-    count8: 4
+    count8: 2
     gewicht8: 0.5
-    count9: 1
+    count9: 0
     gewicht9: 0
     count10: 0
     gewicht10: 0
@@ -80,7 +80,7 @@ Inventar:
     gewicht4: 1
     count5: 1
     gewicht5: 1
-    count6: 16
+    count6: 14
     gewicht6: 1
     count7: 1
     gewicht7: 0
@@ -106,7 +106,7 @@ Inventar:
     gewicht17: 0
 Geld:
   PM: 0
-  GM: 24
+  GM: 27
   EM: 50
   SM: 73
   KM: 23
@@ -145,7 +145,7 @@ Geld:
 >> | [[Leichte Armbrust]]                        | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=round(this.Inventar.Körper.count6 * this.Inventar.Körper.gewicht6, 2)` |
 >> | Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
 >> | [[Heiltrank]]                                        | `INPUT[number:Inventar.Körper.count8]` | `INPUT[number:Inventar.Körper.gewicht8]` | `=round(this.Inventar.Körper.count8 * this.Inventar.Körper.gewicht8, 2)` |
->> |   [[Goblin-König-Kopf mit Krone (Groll).jpeg]] | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
+>> |   [[Goblin-König-Kopf mit Krone (Groll).jpeg]] </br>- Sildar gegeben | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
 >> |                    | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
 >> |                                                                    | `INPUT[number:Inventar.Körper.count11]` | `INPUT[number:Inventar.Körper.gewicht11]` | `=round(this.Inventar.Körper.count11 * this.Inventar.Körper.gewicht11, 2)` |
 >> | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
