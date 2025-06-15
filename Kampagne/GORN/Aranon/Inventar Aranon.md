@@ -4,7 +4,7 @@ tags:
 Charakter: "[[Aranon]]"
 Geld:
   PM: 0
-  GM: 336
+  GM: 339
   EM: 0
   SM: 355
   KM: 900
@@ -50,7 +50,7 @@ Geld:
 | [[Schleuder]]                       |   1    |    1    |   1    |
 | [[Holzschild]]                      |   1    |    6    |   6    |
 | [[Fackel]]                          |   2    |    1    |   2    |
-| [[Ration]]                          |   14   |    1    |   5    |
+| [[Ration]]                          |   12   |    1    |   5    |
 | [[Trinkschlauch]]                   |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern         |   13   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]]         |   5    |   0.5   |  2.5   |
@@ -62,13 +62,14 @@ Geld:
 | [[Bergsilberkraut]]                 |   1    |    0    |   0    |
 | Wein (Flasche)                      |   2    |    1    |   2    |
 | [[Ring des Schutzes]]               |   1    |    0    |   0    |
-| [[Aurelisbeeren]]                   |   2    |    0    |   0    |
+| [[Aurelisbeeren]]                   |   3    |    0    |   0    |
 | [[Nachtlichtkelch]]                 |   2    |    0    |   0    |
 | [[Morbryn-Kappe]]                   |   3    |    0    |   0    |
 | [[Sturmschlagkraut]]                |   1    |    0    |   0    |
 | [[Nachtlichtkelch]]                 |   1    |    0    |   0    |
 | [[Herzblutbeere\|Herzblutbeeren]]   |   1    |    0    |   0    |
 | [[Schriftrolle der Wiederbelebung]] |   1    |    0    |   0    |
+| [[Dornbühlbeeren]]                  |   1    |         |        |
 |                                     |        |         |        |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
