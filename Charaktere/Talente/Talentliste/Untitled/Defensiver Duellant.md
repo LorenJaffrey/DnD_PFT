@@ -23,4 +23,4 @@ Wiederholbar: false
 Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Parieren
-Wenn du eine Waffe mit der Eigenschaft [[Parieren]] führst, im Umgang mit dieser [[Übung]] hast und eine andere Kreatur dich mit einem [[Nahkampfangriff]] attackiert, kannst du deine [[Reaktion]] verwenden, um für diesen [[Angriff]] zusätzlich deinen [[Übung|Übungsbonus]] auf deine [[Rüstungsklasse]] zu addieren.
+Wenn du eine Waffe mit der Eigenschaft [[Parieren]] führst, im Umgang mit dieser [[Übung]] hast und eine andere Kreatur dich mit einem [[Nahkampfangriff]] attackiert, kannst du deine [[Reaktion]] verwenden, um für diesen [[Regeln/Kampf/Angriff/Angriff]] zusätzlich deinen [[Übung|Übungsbonus]] auf deine [[Rüstungsklasse]] zu addieren.

@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Identify
-tags: 
+tags:
   - Zauber
   - Regeln/PHB2024
 Grad: 1
@@ -16,14 +16,14 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
-Schaden:
+Schaden: 
 Schadensart: 
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"
   - "[[Magier]]"
   - "[[Magieschmied]]"
-Typ: Analyse
+Typ: "[[Analyse]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

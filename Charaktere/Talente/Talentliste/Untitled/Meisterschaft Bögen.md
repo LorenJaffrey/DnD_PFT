@@ -25,4 +25,4 @@ Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribut
 Du bist nicht im [[Vorteil und Nachteil|Nachteil]] bei [[Fernkampfangriff|Fernkampfangriffen]] mit [[Bögen]] die sich zwischen Nahkampfreichweite und [[Fernkampfangriff#Mindestreichweite]] befinden.
 
 ## Gezielter Schuss
-Bevor du einen [[Angriff]] mit einer Fernkampfwaffe ausführst, in deren Umgang du [[Übung]] hast, kannst du dich entscheiden, einen Malus von -5 auf den [[Angriffswurf]] hinzunehmen, um den verursachten Schaden bei einem Treffer um 10 zu erhöhen.
+Bevor du einen [[Regeln/Kampf/Angriff/Angriff]] mit einer Fernkampfwaffe ausführst, in deren Umgang du [[Übung]] hast, kannst du dich entscheiden, einen Malus von -5 auf den [[Angriffswurf]] hinzunehmen, um den verursachten Schaden bei einem Treffer um 10 zu erhöhen.

@@ -27,5 +27,5 @@ Wenn du eine Kreatur mit einem Angriff triffst, der [[Stichschaden]] verursacht,
 Du musst das neue Ergebnis verwenden.
 
 ## Erschütternder Schlag
-Wenn du eine Kreatur mit einem [[Angriff]] triffst, der [[Stichschaden]] verursacht, muss das Ziel einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
+Wenn du eine Kreatur mit einem [[Regeln/Kampf/Angriff/Angriff]] triffst, der [[Stichschaden]] verursacht, muss das Ziel einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
 Bei einem [[Misserfolg]] erleidet das Ziel den Zustand [[Bluten]].

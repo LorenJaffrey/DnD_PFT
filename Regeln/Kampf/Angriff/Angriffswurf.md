@@ -18,7 +18,7 @@ Der [[Schwierigkeitsgrad]] für den `=this.file.name` ist in der Regel die [[Rü
 
 
 ### Angriff ausführen
-[[Angriff#Angriffswurf]] ausführen. 
+[[Regeln/Kampf/Angriff/Angriff#Angriffswurf]] ausführen. 
 Bei einem Treffer wird der Effekt (meist Schaden) abgehandelt.
 Ein unmodifizierter Wurf von 20 ist immer ein Treffer und wird als [[Kritische Treffer|Kritischer Treffer]] behandelt.
 Ein unmodifizierter Wurf von 1 ist immer ein Fehlschlag.

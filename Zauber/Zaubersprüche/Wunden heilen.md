@@ -18,7 +18,7 @@ Ritual: false
 Skalierbar: true
 Schaden: 
 Schadensart: 
-Ziel:
+Ziel: 
 Klassen:
   - "[[Druide]]"
   - "[[Barde]]"
@@ -26,7 +26,7 @@ Klassen:
   - "[[Paladin]]"
   - "[[Magieschmied]]"
   - "[[Waldläufer]]"
-Typ: Heilung
+Typ: "[[Heilung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

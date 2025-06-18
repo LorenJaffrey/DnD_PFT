@@ -1,5 +1,5 @@
 ---
-aliases:
+aliases: 
 tags:
   - Zauber/Offensiv
 Grad: 3
@@ -15,11 +15,11 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 8d6
-Schadensart: "[[Blitzschaden]]" 
+Schadensart: "[[Blitzschaden]]"
 Ziel: Linie
 Rettungswurf: "[[Geschicklichkeit|GES]]"
-Klassen:
-Typ: Angriff
+Klassen: 
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

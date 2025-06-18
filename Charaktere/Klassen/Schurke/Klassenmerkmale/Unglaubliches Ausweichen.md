@@ -6,4 +6,4 @@ tags:
 Einsatz: "[[Reaktion]]"
 ---
 # `=this.file.name`
-Trifft dich ein Angreifer, den du sehen kannst, mit einem [[Angriffswurf]], so kannst du eine [[Reaktion]] ausführen, um den Schaden des [[Angriff|Angriffs]] zu halbieren (abgerundet).
+Trifft dich ein Angreifer, den du sehen kannst, mit einem [[Angriffswurf]], so kannst du eine [[Reaktion]] ausführen, um den Schaden des [[Regeln/Kampf/Angriff/Angriff|Angriffs]] zu halbieren (abgerundet).

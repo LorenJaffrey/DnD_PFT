@@ -1,5 +1,5 @@
 ---
-aliases:
+aliases: 
 tags:
   - Zauber
   - Regeln/PHB2024
@@ -21,7 +21,7 @@ Ziel: AoE
 Klassen:
   - "[[Druide]]"
   - "[[Waldläufer]]"
-Typ: Fortbewegung
+Typ: "[[Fortbewegung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

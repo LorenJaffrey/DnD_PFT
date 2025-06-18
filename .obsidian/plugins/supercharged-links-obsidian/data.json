@@ -237,6 +237,138 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Alltagsmagie",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d985-e987",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Buff",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "07af-3b30",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Debuff",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "f6f8-0984",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Fortbewegung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "4a93-7a03",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Positionskontrolle",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "7976-2b2a",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Analyse",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d836-0ce0",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Verteidigung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "7d96-4e9d",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Beeinflussung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "ee8d-8c55",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Heilung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "6694-3469",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Unterstützung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "3f04-9eb7",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zaubertyp/Angriff",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "bc34-3b40",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }

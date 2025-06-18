@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Poison Spray
-tags: 
+tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
 Grad: 0
@@ -22,14 +22,14 @@ SchadenLv11: 3d12
 SchadenLv17: 4d12
 Schadensart: "[[Giftschaden]]"
 Ziel: Einzel
-Rettungswurf:
+Rettungswurf: 
 Klassen:
   - "[[Druide]]"
   - "[[Hexenmeister]]"
   - "[[Magier]]"
   - "[[Magieschmied]]"
   - "[[Zauberer]]"
-Typ: Angriff
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

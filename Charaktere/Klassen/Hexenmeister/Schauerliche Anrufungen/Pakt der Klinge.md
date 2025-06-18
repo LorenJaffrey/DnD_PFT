@@ -20,4 +20,4 @@ Deine Bindung an die Waffe endet, wenn du die [[Bonusaktion]] dieses Merkmals er
 Eine beschworene Waffe verschwindet, wenn die Bindung endet.
 
 ## Paktwaffe
-Wann immer du einen [[Angriff]] mit der Waffe ausführst, an die du gebunden bist, kannst du bei den [[Angriffswurf|Angriffswürfen]] und [[Schadenswurf|Schadenswürfen]] deinen [[Charisma#Charismamodifikator]] statt [[Stärke]] oder [[Geschicklichkeit]] verwenden, und du kannst mit der Waffe [[Gleißender Schaden|gleißenden Schaden]], [[Nekrotischer Schaden|nekrotischen Schaden]] oder [[Psychischer Schaden#psychischen Schaden]] oder ihre normale [[Schadensarten|Schadensart]] bewirken.
+Wann immer du einen [[Regeln/Kampf/Angriff/Angriff]] mit der Waffe ausführst, an die du gebunden bist, kannst du bei den [[Angriffswurf|Angriffswürfen]] und [[Schadenswurf|Schadenswürfen]] deinen [[Charisma#Charismamodifikator]] statt [[Stärke]] oder [[Geschicklichkeit]] verwenden, und du kannst mit der Waffe [[Gleißender Schaden|gleißenden Schaden]], [[Nekrotischer Schaden|nekrotischen Schaden]] oder [[Psychischer Schaden#psychischen Schaden]] oder ihre normale [[Schadensarten|Schadensart]] bewirken.

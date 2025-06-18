@@ -4,4 +4,4 @@ tags:
 Einsatz: "[[Aktion]]"
 ---
 # `=this.file.name`
-Die Kreatur führt zwei [[Angriff|Angriffe]] mit ihrer Waffe aus.
+Die Kreatur führt zwei [[Regeln/Kampf/Angriff/Angriff|Angriffe]] mit ihrer Waffe aus.

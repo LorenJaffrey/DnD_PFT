@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: 
+tags:
   - Zauber
 Grad: 2
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
@@ -9,7 +9,7 @@ Reichweite: 36 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten:
+Materialkosten: 
 Dauer: Unmittelbar
 Konzentration: false
 Ritual: false
@@ -21,7 +21,7 @@ Klassen:
   - "[[Druide]]"
   - "[[Kleriker]]"
   - "[[Waldläufer]]"
-Typ: Analyse
+Typ: "[[Analyse]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

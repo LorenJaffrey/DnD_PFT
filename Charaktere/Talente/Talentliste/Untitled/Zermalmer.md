@@ -27,5 +27,5 @@ Wenn du eine Kreatur mit einem Angriff triffst, der [[Wuchtschaden]] verursacht,
 Du musst das neue Ergebnis verwenden.
 
 ## Erschütternder Schlag
-Wenn du eine Kreatur mit einem [[Angriff]] triffst, der [[Wuchtschaden]] verursacht, muss das Ziel einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
+Wenn du eine Kreatur mit einem [[Regeln/Kampf/Angriff/Angriff]] triffst, der [[Wuchtschaden]] verursacht, muss das Ziel einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
 Bei einem [[Misserfolg]] erleidet das Ziel den Zustand [[Benommen]].

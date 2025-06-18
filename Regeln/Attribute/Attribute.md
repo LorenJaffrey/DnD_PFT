@@ -22,7 +22,7 @@ Je nach Situation und relevantem Attribut sind unterschiedliche Attributswürfe 
 
 ## Attributswurf
 Ein Attributswurf repräsentiert den Versuch einer Kreatur, mithilfe ihrer Fähigkeiten und Kenntnisse eine Herausforderung zu meistern, beispielsweise eine verklemmte Tür aufzubrechen, ein Schloss zu knacken, ein Publikum zu unterhalten oder eine Geheimschrift zu entschlüsseln.
-Der SL und die Regeln verlangen meist einen Attributswurf, wenn eine Kreatur einen solchen Versuch unternimmt, sofern dieser Versuch kein [[Angriff]] ist, die Möglichkeit des Scheiterns besteht und ein Scheitern Folgen hätte. 
+Der SL und die Regeln verlangen meist einen Attributswurf, wenn eine Kreatur einen solchen Versuch unternimmt, sofern dieser Versuch kein [[Regeln/Kampf/Angriff/Angriff]] ist, die Möglichkeit des Scheiterns besteht und ein Scheitern Folgen hätte. 
 Ist der Ausgang ungewiss und für die Geschichte interessant, so bestimmen die Würfel das Ergebnis.
 
 W20 + [[Attribute#Attributsmodifikator]] + Bonus/Malus
