@@ -21,6 +21,7 @@ Rettungswurf: "[[Stärke|STK]]"
 Ziel: AoE
 Klassen: 
   - "[[Hexenmeister]]"
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

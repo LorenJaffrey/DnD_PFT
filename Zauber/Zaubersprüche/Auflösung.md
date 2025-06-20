@@ -19,6 +19,7 @@ Schaden: 10d6+40
 Schadensart: 
 Ziel: 
 Klassen:
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]
