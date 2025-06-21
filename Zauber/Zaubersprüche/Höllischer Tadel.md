@@ -21,6 +21,7 @@ Rettungswurf: "[[Geschicklichkeit|GES]]"
 Ziel: Einzel
 Klassen:
   - "[[Hexenmeister]]"
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

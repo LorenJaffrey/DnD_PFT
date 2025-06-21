@@ -22,6 +22,7 @@ Ziel: AoE
 Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

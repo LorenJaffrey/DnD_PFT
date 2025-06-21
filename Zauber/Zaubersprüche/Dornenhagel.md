@@ -18,6 +18,7 @@ Schaden: 1d10
 Schadensart: "[[Stichschaden]]" 
 Ziel: AoE
 Klassen:
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

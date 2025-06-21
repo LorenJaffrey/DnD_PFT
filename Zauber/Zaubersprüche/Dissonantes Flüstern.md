@@ -18,6 +18,7 @@ Schaden: 3d6
 Schadensart: "[[Psychischer Schaden]]"
 Ziel:
 Klassen:
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

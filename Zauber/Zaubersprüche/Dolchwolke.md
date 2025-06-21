@@ -18,6 +18,7 @@ Schaden: 4d4
 Schadensart: "[[Hiebschaden]]" 
 Ziel: AoE
 Klassen:
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

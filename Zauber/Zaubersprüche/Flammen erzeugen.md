@@ -24,6 +24,7 @@ Schadensart: "[[Feuerschaden]]"
 Ziel: Einzeln
 Klassen:
   - "[[Druide]]"
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

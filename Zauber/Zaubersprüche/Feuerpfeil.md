@@ -25,6 +25,7 @@ Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

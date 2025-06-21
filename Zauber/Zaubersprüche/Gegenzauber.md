@@ -19,6 +19,7 @@ Schaden:
 Schadensart: 
 Ziel: Einzel
 Klassen:
+Typ: "[[Zauber/Zaubertypen/Verteidigung|Verteidigung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

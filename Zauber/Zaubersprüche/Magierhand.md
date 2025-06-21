@@ -24,6 +24,7 @@ Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
+Typ: "[[Unterstützung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

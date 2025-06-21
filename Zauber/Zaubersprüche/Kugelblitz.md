@@ -18,6 +18,7 @@ Schaden: 10d8
 Schadensart: [[Blitzschaden]]
 Ziel: 
 Klassen:
+Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]
