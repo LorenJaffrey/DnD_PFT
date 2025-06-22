@@ -143,6 +143,12 @@ InputData:
     Grad_1: 3
     Grad_2: 3
     Grad_3: 2
+    Grad_4: 0
+    Grad_5: 0
+    Grad_6: 0
+    Grad_7: 0
+    Grad_8: 0
+    Grad_9: 0
   Quest: |-
     - **alle Tempestus Kristalle finden**
        - [x] ein Splitter wurde aus Niewinter herausgeschmuggelt
