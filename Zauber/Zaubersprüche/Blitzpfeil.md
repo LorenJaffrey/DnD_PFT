@@ -18,7 +18,7 @@ Schaden: 4d8
 Schadensart: "[[Blitzschaden]]"
 Ziel: 
 Klassen:
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

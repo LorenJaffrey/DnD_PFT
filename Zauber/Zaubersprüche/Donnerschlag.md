@@ -23,7 +23,7 @@ Schadensart: "[[Schallschaden]]"
 Ziel: AoE
 Klassen:
   - "[[Zauberer]]"
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

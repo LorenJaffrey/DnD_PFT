@@ -20,7 +20,7 @@ Klassen:
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
   - "[[Hexenmeister]]"
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

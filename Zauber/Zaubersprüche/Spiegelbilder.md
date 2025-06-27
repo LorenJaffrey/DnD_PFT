@@ -24,7 +24,7 @@ Klassen:
   - "[[Hexenmeister]]"
   - "[[Zauberer]]"
   - "[[Magier]]"
-Typ: "[[Zauber/Zaubertypen/Verteidigung|Verteidigung]]"
+Typ: "[[Defensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

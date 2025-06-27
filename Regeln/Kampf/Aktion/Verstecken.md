@@ -14,4 +14,4 @@ Jedes mal wenn die Möglichkeit besteht, dass du entdeckt wirst, wirf eine Probe
 Wenn du aktiv gesucht wirst vergleiche das Ergebnis mit dem Wurf auf [[Wahrnehmung]] des Suchenden. 
 Ansonsten vergleiche das Ergebnis mit der [[Wahrnehmung#Passive Wahrnehmung|Passiven Wahrnehmung]] der Kreatur.
 
-Ein versteckter Angreifer gibt beim [[Regeln/Kampf/Angriff/Angriff]] seine Position preis.
+Ein versteckter Angreifer gibt beim [[Angriff]] seine Position preis.

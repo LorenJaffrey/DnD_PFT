@@ -10,7 +10,7 @@ Einsatz: Passiv
 *Du weißt wie man die Ablenkung eines Feindes ausnutzt, um gezielt zuzuschlagen.*
 
 Einmal pro [[Zug]] kannst du einer anderen Kreatur, die sie mit einem [[Angriffswurf]] trifft, zusätzlichen Schaden (siehe [[Schurke#Klassentabelle]]) zufügen. 
-Der [[Regeln/Kampf/Angriff/Angriff]] muss mit einer [[Fernkampfwaffen|Fernkampfwaffe]] oder einer [[Finesse Waffen|Finesse Waffe]] ausgeführt werden.
+Der [[Angriff]] muss mit einer [[Fernkampfwaffen|Fernkampfwaffe]] oder einer [[Finesse Waffen|Finesse Waffe]] ausgeführt werden.
 Der zusätzliche Schaden ist von der gleichen [[Schadensarten|Schadensart]] wie der Schaden der Waffe.
 
 Außerdem muss eine der folgenden Bedingungen erfüllt sein:

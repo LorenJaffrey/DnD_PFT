@@ -15,10 +15,10 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 10d8
-Schadensart: [[Blitzschaden]]
+Schadensart: "[[Blitzschaden]]"
 Ziel: 
 Klassen:
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

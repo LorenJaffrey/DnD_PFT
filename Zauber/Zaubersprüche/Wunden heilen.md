@@ -18,7 +18,7 @@ Ritual: false
 Skalierbar: true
 Schaden: 
 Schadensart: 
-Ziel: 
+Ziel:
 Klassen:
   - "[[Druide]]"
   - "[[Barde]]"

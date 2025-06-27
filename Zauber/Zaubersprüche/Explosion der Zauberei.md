@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
@@ -23,7 +23,7 @@ Schadensart: "[[Schadensarten|Schadensart]]"
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

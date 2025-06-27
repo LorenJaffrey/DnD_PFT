@@ -16,7 +16,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
-Schaden: 
+Schaden:
 Schadensart: 
 Ziel: Einzel
 Klassen:

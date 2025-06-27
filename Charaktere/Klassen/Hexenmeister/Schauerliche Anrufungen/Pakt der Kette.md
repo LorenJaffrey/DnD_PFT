@@ -23,4 +23,4 @@ Wenn du den Zauber wirkst, wählst du für deinen Vertrauten eine der normalen G
 - [[Sphinx des Wunders]]
 - [[Teufelchen]]
 
-Wenn du außerdem in deinem [[Zug]] die [[Regeln/Kampf/Angriff/Angriff]]-[[Aktion]] ausführst, kannst du auf einen deiner [[Regeln/Kampf/Angriff/Angriff|Angriffe]] verzichten und stattdessen deinen Vertrauten mit seiner [[Reaktion]] einen eigenen [[Regeln/Kampf/Angriff/Angriff]] ausführen lassen.
+Wenn du außerdem in deinem [[Zug]] die [[Angriff]]-[[Aktion]] ausführst, kannst du auf einen deiner [[Angriff|Angriffe]] verzichten und stattdessen deinen Vertrauten mit seiner [[Reaktion]] einen eigenen [[Angriff]] ausführen lassen.

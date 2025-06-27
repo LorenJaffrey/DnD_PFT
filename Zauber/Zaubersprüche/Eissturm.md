@@ -18,7 +18,7 @@ Schaden: 4d6 + 2d8
 Schadensart: "[[Kälteschaden]]"
 Ziel: AoE
 Klassen:
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

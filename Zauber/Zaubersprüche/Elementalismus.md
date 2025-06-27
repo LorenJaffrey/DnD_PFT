@@ -10,14 +10,14 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
 Schaden: 
 Schadensart: 
-Ziel: 
+Ziel:
 Klassen:
   - "[[Zauberer]]"
   - "[[Druide]]"

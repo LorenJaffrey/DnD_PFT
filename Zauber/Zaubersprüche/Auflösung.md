@@ -18,8 +18,8 @@ Skalierbar: true
 Schaden: 10d6+40
 Schadensart: 
 Ziel: 
-Klassen:
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Klassen: 
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

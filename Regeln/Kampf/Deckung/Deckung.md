@@ -7,7 +7,7 @@ aliases:
 # `=this.file.name`
 Wände, Bäume, Kreaturen und andere Hindernisse können [[Deckung]] bieten und es damit schwieriger machen, ein Ziel zu treffen. 
 Es gibt es drei Deckungsgrade, von denen jeder dem Ziel einen anderen Vorzug verschafft.
-Eine [[Deckung]] ist nur wirksam, wenn der [[Regeln/Kampf/Angriff/Angriff]] oder Effekt von der gegenüberliegenden Seite der Deckung kommt. 
+Eine [[Deckung]] ist nur wirksam, wenn der [[Angriff]] oder Effekt von der gegenüberliegenden Seite der Deckung kommt. 
 Befindet sich das Ziel hinter mehreren [[Deckung|Deckungen]], zählt nur die wirksamste [[Deckung]]. 
 Die Deckungen addieren sich nicht. 
 

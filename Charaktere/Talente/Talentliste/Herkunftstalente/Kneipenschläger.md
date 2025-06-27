@@ -29,7 +29,7 @@ In diesem Fall musst du das neue Ergebnis verwenden.
 ## Stoßen
 Wenn du eine Kreatur mit einem [[Waffenloser Angriff|Waffenlosen Angriff]] triffst, verursachts du Schaden und schubst die Kreatur 1,5 m (1 Kästchen) von dir weg.
 Du kannst diese Fähigkeit nur einmal pro [[Zug]] einsetzen.
-Wenn du in deinem [[Zug]] als Teil der [[Regeln/Kampf/Angriff/Angriff]]-[[Aktion]] eine Kreatur mit einem [[Waffenloser Angriff|waffenlosen Angriff]] triffst, kannst du dem Ziel Schaden zufügen und es außerdem 1,5 Meter weit von dir wegstoßen. 
+Wenn du in deinem [[Zug]] als Teil der [[Angriff]]-[[Aktion]] eine Kreatur mit einem [[Waffenloser Angriff|waffenlosen Angriff]] triffst, kannst du dem Ziel Schaden zufügen und es außerdem 1,5 Meter weit von dir wegstoßen. 
 Du kannst diesen Vorzug nur einmal pro [[Zug]] anwenden.
 
 ## Improvisierte Waffen

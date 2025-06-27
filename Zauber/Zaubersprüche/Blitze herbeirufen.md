@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
@@ -19,8 +19,8 @@ Schaden: 3d10
 Schadensart: "[[Blitzschaden]]"
 Ziel: AoE
 Rettungswurf: "[[Geschicklichkeit|GES]]"
-Klassen: 
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Klassen:
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

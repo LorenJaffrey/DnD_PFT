@@ -15,10 +15,10 @@ Konzentration: true
 Ritual: false
 Skalierbar: false
 Schaden: 3d8
-Schadensart: [[Gleißender Schaden]]
+Schadensart: "[[Gleißender Schaden]]"
 Ziel: 
-Klassen:
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Klassen: 
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

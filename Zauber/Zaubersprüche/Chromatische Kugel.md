@@ -18,7 +18,7 @@ Schaden: 3d8
 Schadensart:
 Ziel: Einzel
 Klassen:
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

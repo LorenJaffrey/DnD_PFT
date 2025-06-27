@@ -22,14 +22,14 @@ SchadenLv11: 3d12
 SchadenLv17: 4d12
 Schadensart: "[[Giftschaden]]"
 Ziel: Einzel
-Rettungswurf: 
+Rettungswurf:
 Klassen:
   - "[[Druide]]"
   - "[[Hexenmeister]]"
   - "[[Magier]]"
   - "[[Magieschmied]]"
   - "[[Zauberer]]"
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

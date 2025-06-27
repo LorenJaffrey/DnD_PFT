@@ -19,14 +19,14 @@ Schaden: 1d6
 SchadenLv5: 2d6
 SchadenLv11: 3d6
 SchadenLv17: 4d6
-Schadensart: "[[Energieschaden]]" 
+Schadensart: "[[Energieschaden]]"
 Ziel: AoE
 Klassen:
   - "[[Magieschmied]]"
   - "[[Zauberer]]"
   - "[[Magier]]"
   - "[[Hexenmeister]]"
-Typ: "[[Zauber/Zaubertypen/Angriff|Angriff]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -6,8 +6,8 @@ tags:
 # `=this.file.name`
 
 Du lernst [[Kampfüberlegenheit#Manöver]], für die du eine spezielle Art von Würfeln benötigst: die [[Kampfüberlegenheit#Überlegenheitswürfel]].
-Viele verbessern auf die eine oder andere Weise deinen [[Regeln/Kampf/Angriff/Angriff]]. 
-Du kannst pro [[Regeln/Kampf/Angriff/Angriff]] nur ein [[Kampfüberlegenheit#Manöver]] einsetzen. 
+Viele verbessern auf die eine oder andere Weise deinen [[Angriff]]. 
+Du kannst pro [[Angriff]] nur ein [[Kampfüberlegenheit#Manöver]] einsetzen. 
 Jedes Mal, wenn du neue [[Kampfüberlegenheit#Manöver]] lernst, kannst du zusätzlich auch ein altes, das du bereits kennst, durch ein anderes ersetzen.
 
 ## Überlegenheitswürfel 

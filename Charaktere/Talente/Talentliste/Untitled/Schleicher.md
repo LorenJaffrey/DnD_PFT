@@ -29,4 +29,4 @@ Du erhältst [[Blindsicht]]  mit einer Reichweite von 3 m (2 Kästchen).
 Du nutzt die Verwirrung im Kampf und erhältst [[Vorteil und Nachteil|Vorteil]] auf Würfe auf [[Heimlichkeit]] die du im Zuge von [[Verstecken]] ausführst.
 
 ## Heckenschütze
-Wenn du [[Verstecken]] einsetzt und mit einem [[Fernkampfangriff]] verfehlst, offenbart der [[Regeln/Kampf/Angriff/Angriff]] nicht deine Position.
+Wenn du [[Verstecken]] einsetzt und mit einem [[Fernkampfangriff]] verfehlst, offenbart der [[Angriff]] nicht deine Position.

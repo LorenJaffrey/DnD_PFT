@@ -8,11 +8,11 @@ tags:
 Wenn du die [[Angreifen|Angriffsaktion]] ausführst, kannst du einen [[Nahkampfangriff]] oder [[Fernkampfangriff]]mit einer Waffe oder einen [[Waffenloser Angriff|waffenlosen Angriff]] ausführen.
 
 ## Waffen an- und ablegen
-Wenn du einen [[Regeln/Kampf/Angriff/Angriff]] ausführst, kannst du als Teil dieser [[Aktion]] eine Waffe an- oder ablegen.
-Tu dies entweder vor oder nach dem [[Regeln/Kampf/Angriff/Angriff]]. 
-Wenn du eine Waffe vor dem [[Regeln/Kampf/Angriff/Angriff]] anlegst, musst du sie bei diesem [[Regeln/Kampf/Angriff/Angriff]] nicht zwangsläufig verwenden. 
+Wenn du einen [[Angriff]] ausführst, kannst du als Teil dieser [[Aktion]] eine Waffe an- oder ablegen.
+Tu dies entweder vor oder nach dem [[Angriff]]. 
+Wenn du eine Waffe vor dem [[Angriff]] anlegst, musst du sie bei diesem [[Angriff]] nicht zwangsläufig verwenden. 
 Zum Anlegen einer Waffe gehört es, sie aus einer Scheide zu ziehen oder sie aufzuheben. 
 Zum Ablegen einer Waffe gehört es, sie in eine Scheide zu stecken, sie zu verstauen oder fallenzulassen.
 
 ## Bewegung zwischen Angriffen
-Wenn du dich in deinem [[Zug]] bewegst und ein Merkmal wie [[Zusätzlicher Angriff]] hast, das dir mehr als einen [[Regeln/Kampf/Angriff/Angriff]] als Teil der [[Angreifen|Angriffsaktion]] gewährt, kannst du die [[Bewegung]] teilweise oder ganz nutzen, um dich zwischen deinen [[Angreifen|Angriffen]] zu bewegen.
+Wenn du dich in deinem [[Zug]] bewegst und ein Merkmal wie [[Zusätzlicher Angriff]] hast, das dir mehr als einen [[Angriff]] als Teil der [[Angreifen|Angriffsaktion]] gewährt, kannst du die [[Bewegung]] teilweise oder ganz nutzen, um dich zwischen deinen [[Angreifen|Angriffen]] zu bewegen.

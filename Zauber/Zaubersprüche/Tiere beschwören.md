@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
@@ -19,7 +19,7 @@ Schaden: 3d10
 Schadensart: "[[Hiebschaden]]"
 Rettungswurf: "[[Geschicklichkeit|GES]]"
 Ziel: Einzel
-Klassen: 
+Klassen:
 Typ: "[[Unterstützung]]"
 ---
 ``` dynamic-embed

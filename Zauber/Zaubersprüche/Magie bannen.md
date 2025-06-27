@@ -18,8 +18,8 @@ Skalierbar: true
 Schaden: 
 Schadensart: 
 Ziel: Einzel
-Klassen:
-Typ: "[[Zauber/Zaubertypen/Verteidigung|Verteidigung]]"
+Klassen: 
+Typ: "[[Defensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]
