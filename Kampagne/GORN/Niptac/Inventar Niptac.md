@@ -3,10 +3,10 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 279
+  GM: 282
   EM: 50
   SM: 254
-  KM: 95
+  KM: 65
 ---
 # `=this.file.name`
 > [!infobox]
@@ -28,20 +28,20 @@ Geld:
 > | Maximalbelastung | `=(this.Charakter.Attribute.Stärke*30)` Pfund |
 
 ## Am Körper
-| Gegenstand                   | Anzahl | Gewicht | Gesamt |
-| ---------------------------- |:------:|:-------:|:------:|
-| [[Kurzschwert]]              |   1    |    2    |   2    |
-| [[Dolch]]                    |   1    |    1    |   1    |
-| [[Schleuder]]                |   1    |    0    |   0    |
-| [[Leichte Armbrust]]         |   1    |    5    |   5    |
-| [[Stiefel der Elfen]]        |   1    |    1    |   1    |
-| [[Rucksack]]                 |   1    |    5    |   5    |
-| [[Diebeswerkzeug]]           |   1    |    1    |   1    |
-| Freundschaftsarmband         |   1    |  0.25   |  0.25  |
-| [[Stein der Verständigung]]  |   1    |    0    |   0    |
-|                              |        |         |        |
-| [[Beschlagene Lederrüstung]] |   1    |   13    |   13   |
-| GESAMT                       |        |         | 28.25  |
+| Gegenstand                         | Anzahl | Gewicht | Gesamt |
+| ---------------------------------- |:------:|:-------:|:------:|
+| [[Kurzschwert]]                    |   1    |    2    |   2    |
+| [[Dolch]]                          |   1    |    1    |   1    |
+| [[Schleuder]]                      |   1    |    0    |   0    |
+| [[Leichte Armbrust]]               |   1    |    5    |   5    |
+| [[Stiefel der Elfen]]              |   1    |    1    |   1    |
+| [[Rucksack]]                       |   1    |    5    |   5    |
+| [[Diebeswerkzeug]]                 |   1    |    1    |   1    |
+| Freundschaftsarmband               |   1    |  0.25   |  0.25  |
+| [[Stein der Verständigung]]        |   1    |    0    |   0    |
+| [[Handarmbrust]] elfischer Machart |   1    |         |   0    |
+| [[Beschlagene Lederrüstung]]       |   1    |   13    |   13   |
+| GESAMT                             |        |         | 28.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
@@ -51,7 +51,7 @@ Geld:
 | [[Schlafsack]]                                                  |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                              |   1    |    1    |   1    |
 | [[Fackel]]                                                      |   8    |    1    |   8    |
-| [[Ration]]                                                      |   18   |    1    |   18   |
+| [[Ration]]                                                      |   16   |    1    |   18   |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
 | [[Dolch]]                                                       |   5    |    1    |   5    |
@@ -62,7 +62,7 @@ Geld:
 | Edelsteine (undurchsichtig, rotbraun)                           |   5    |    0    |   0    |
 | Perle                                                           |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| [[Heiltrank]]                                                   |   1    |   0.5   |  0.5   |
+| [[Heiltrank]]                                                   |   2    |   0.5   |  0.5   |
 | [[Feine Kleidung]]                                              |   1    |    6    |   6    |
 | Goblins Alchemistengerümpel                                     |   1    |   0.5   |  0.5   |
 | Pokal (Gold)                                                    |        |         |   0    |

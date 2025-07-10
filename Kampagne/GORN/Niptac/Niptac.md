@@ -23,9 +23,10 @@ Waffen:
   - "[[Axt]]"
   - "[[Schleuder]]"
   - "[[Leichte Armbrust]]"
+  - "[[Handarmbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 37
+  TP: 42
   TW: 5
   TempTP: 0
 Attribute:
@@ -131,11 +132,11 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   Fähigkeiten:
-    Verschwinden: true
+    Verschwinden: false
   Apparaturen:
-    Ladung1: true
+    Ladung1: false
     Ladung2: true
-    Ladung3: true
+    Ladung3: false
 tags:
   - Charakter/GORN
 aliases: 
