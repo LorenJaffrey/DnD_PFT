@@ -79,7 +79,7 @@ Merkmale:
   - "[[Drakonische Odemwaffe]]"
   - "[[Drakonischer Flug]]"
   - "[[Intuitive Zauberei]]"
-  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
+  - "[[Dunkelsicht]]"
   - "[[Quelle der Magie]]"
   - "[[Windsprecher]]"
   - "[[Stürmische Magie]]"
