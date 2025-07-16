@@ -61,7 +61,6 @@ Geld:
 | [[Gildenabzeichen]]                 |   1    |    0    |   0    |
 | [[Bergsilberkraut]]                 |   1    |    0    |   0    |
 | Wein (Flasche)                      |   2    |    1    |   2    |
-| [[Ring des Schutzes]]               |   1    |    0    |   0    |
 | [[Aurelisbeeren]]                   |   3    |    0    |   0    |
 | [[Nachtlichtkelch]]                 |   2    |    0    |   0    |
 | [[Morbryn-Kappe]]                   |   0    |    0    |   0    |

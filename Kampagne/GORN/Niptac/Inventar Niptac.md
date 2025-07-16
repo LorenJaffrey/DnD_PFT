@@ -37,11 +37,12 @@ Geld:
 | [[Stiefel der Elfen]]              |   1    |    1    |   1    |
 | [[Rucksack]]                       |   1    |    5    |   5    |
 | [[Diebeswerkzeug]]                 |   1    |    1    |   1    |
+| [[Ring des Schutzes]]              |   1    |    1    |   1    |
 | Freundschaftsarmband               |   1    |  0.25   |  0.25  |
 | [[Stein der Verständigung]]        |   1    |    0    |   0    |
 | [[Handarmbrust]] elfischer Machart |   1    |         |   0    |
 | [[Beschlagene Lederrüstung]]       |   1    |   13    |   13   |
-| GESAMT                             |        |         | 28.25  |
+| GESAMT                             |        |         | 29.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
@@ -51,7 +52,7 @@ Geld:
 | [[Schlafsack]]                                                  |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                              |   1    |    1    |   1    |
 | [[Fackel]]                                                      |   8    |    1    |   8    |
-| [[Ration]]                                                      |   16   |    1    |   18   |
+| [[Ration]]                                                      |   16   |    1    |   16   |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
 | [[Dolch]]                                                       |   5    |    1    |   5    |
@@ -62,7 +63,7 @@ Geld:
 | Edelsteine (undurchsichtig, rotbraun)                           |   5    |    0    |   0    |
 | Perle                                                           |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| [[Heiltrank]]                                                   |   2    |   0.5   |  0.5   |
+| [[Heiltrank]]                                                   |   0    |   0.5   |   0    |
 | [[Feine Kleidung]]                                              |   1    |    6    |   6    |
 | Goblins Alchemistengerümpel                                     |   1    |   0.5   |  0.5   |
 | Pokal (Gold)                                                    |        |         |   0    |
@@ -70,6 +71,6 @@ Geld:
 | Gefäß (Gold)                                                    |        |         |   0    |
 | Zauberrolle (nicht identifiziert)                               |        |         |   0    |
 | [[Zauberstecken der Vogelrufe]]                                 |   1    |    1    |   1    |
-| GESAMT                                                          |        |         | 54.75  |
+| GESAMT                                                          |        |         | 52.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

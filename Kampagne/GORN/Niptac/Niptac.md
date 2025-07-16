@@ -122,7 +122,7 @@ Persönlichkeit:
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
-  GlücksPunkt3: true
+  GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
@@ -136,7 +136,7 @@ InputData:
   Apparaturen:
     Ladung1: false
     Ladung2: true
-    Ladung3: false
+    Ladung3: true
 tags:
   - Charakter/GORN
 aliases: 
