@@ -64,7 +64,7 @@ Geld:
 | [[Ring des Schutzes]]               |   1    |    0    |   0    |
 | [[Aurelisbeeren]]                   |   3    |    0    |   0    |
 | [[Nachtlichtkelch]]                 |   2    |    0    |   0    |
-| [[Morbryn-Kappe]]                   |   3    |    0    |   0    |
+| [[Morbryn-Kappe]]                   |   0    |    0    |   0    |
 | [[Sturmschlagkraut]]                |   1    |    0    |   0    |
 | [[Nachtlichtkelch]]                 |   1    |    0    |   0    |
 | [[Herzblutbeere\|Herzblutbeeren]]   |   1    |    0    |   0    |
