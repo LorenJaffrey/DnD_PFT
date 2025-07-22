@@ -15,7 +15,7 @@
   "defaultFace": 100,
   "renderer": true,
   "renderAllDice": true,
-  "addToView": true,
+  "addToView": false,
   "renderTime": 2000,
   "colorfulDice": true,
   "scaler": 1.2,
@@ -74,7 +74,7 @@
   ],
   "showRenderNotice": true,
   "diceModTemplateFolders": {},
-  "replaceDiceModInLivePreview": true,
+  "replaceDiceModInLivePreview": false,
   "version": "11.4.2",
   "viewResults": [
     {
