@@ -19,7 +19,7 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 1
+  TP: 14
   TW: 5
   TempTP: 0
 Attribute:
