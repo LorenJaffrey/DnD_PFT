@@ -14,7 +14,7 @@
   "defaultRoll": 1,
   "defaultFace": 100,
   "renderer": true,
-  "renderAllDice": true,
+  "renderAllDice": false,
   "addToView": false,
   "renderTime": 2000,
   "colorfulDice": true,
