@@ -14,7 +14,7 @@
   "defaultRoll": 1,
   "defaultFace": 100,
   "renderer": true,
-  "renderAllDice": false,
+  "renderAllDice": true,
   "addToView": false,
   "renderTime": 2000,
   "colorfulDice": true,
@@ -26,7 +26,7 @@
   "narrativeSymbolSet": "Genesys",
   "displayAsSymbols": false,
   "displayAsEmbed": true,
-  "round": "None",
+  "round": "Down",
   "initialDisplay": "None",
   "icons": [
     {
