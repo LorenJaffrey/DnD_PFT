@@ -314,15 +314,15 @@ actions:
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
   - type: updateMetadata
-    bindTarget: Apparaturen.Ladung1
+    bindTarget: InputData.Apparaturen.Ladung1
     evaluate: false
     value: "false"
   - type: updateMetadata
-    bindTarget: Apparaturen.Ladung2
+    bindTarget: InputData.Apparaturen.Ladung2
     evaluate: false
     value: "false"
   - type: updateMetadata
-    bindTarget: Apparaturen.Ladung3
+    bindTarget: InputData.Apparaturen.Ladung3
     evaluate: false
     value: "false"
 ```
