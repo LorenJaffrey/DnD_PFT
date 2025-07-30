@@ -20,7 +20,7 @@ Waffen:
 Gesundheit:
   MaxTP: 39
   TP: 39
-  TW: 2
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -135,14 +135,14 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   NormaleRüstung: true
-  MagierRüstung: true
+  MagierRüstung: false
   BlitzOdem: 3
   Klingenbann: false
   Zaubereipunkte: 5
   Zauberplätze:
-    Grad_1: 1
-    Grad_2: 1
-    Grad_3: 1
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 2
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -172,10 +172,10 @@ InputData:
   UhrzeitToogle1: false
   UhrzeitToogle2: false
   DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 0
+  IntuitiveZaubereiLadungen: 2
   IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
-  DrakonischerFlugLadungen: 0
+  DrakonischerFlugLadungen: 1
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false
 tags:
