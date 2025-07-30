@@ -8,7 +8,7 @@ Niptac:
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
-  Zusätzliche_Rüstung: 1
+  Zusätzliche_Rüstung: 0
   Zusätzliche_SR: 0
   Rüstung: "[[Beschlagene Lederrüstung]]"
   Schild: 
@@ -26,7 +26,7 @@ Waffen:
   - "[[Handarmbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 24
+  TP: 42
   TW: 5
   TempTP: 0
 Attribute:
@@ -135,8 +135,8 @@ InputData:
     Verschwinden: false
   Apparaturen:
     Ladung1: false
-    Ladung2: true
-    Ladung3: true
+    Ladung2: false
+    Ladung3: false
 tags:
   - Charakter/GORN
 aliases: 
