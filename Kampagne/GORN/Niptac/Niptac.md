@@ -320,11 +320,11 @@ actions:
   - type: updateMetadata
     bindTarget: Apparaturen.Ladung2
     evaluate: false
-    value: "false
+    value: "false"
   - type: updateMetadata
     bindTarget: Apparaturen.Ladung3
     evaluate: false
-    value: "false
+    value: "false"
 ```
 
 - [x] Raffinierter Schlag zu Cooldowns hinzufügen
