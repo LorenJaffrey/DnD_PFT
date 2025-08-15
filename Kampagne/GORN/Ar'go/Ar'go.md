@@ -160,6 +160,8 @@ InputData:
           - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
           - eine Karte & ein Tagebuch deuteten auf einen Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** der Donnerkeiler" beschworen wird/wurde
           - [x] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
+       - [ ] neue Spuren für die restlichen Kristalle finden (aktuell noch keine neuen Spuren)
+
 
     **Tempestus Fragment:**
     - [ ] **Fragment des Windes** gefunden
@@ -252,7 +254,7 @@ tags:
 >> ```
 > ---
 >
->> [!info | bg-c-plain c-custom-lightblue]- CHARAKTER-ÜBUNG
+>> [!info | bg-c-plain c-custom-lightblue]+ CHARAKTER-ÜBUNG
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
@@ -302,7 +304,7 @@ tags:
 >>
 
 > [!important | bg-c-plain c-custom-red ]- MAGIE
->>[!column | 2 flex no-title]
+>>[!column | flex  no-title]
 >>> ### Zauberangriff / Zauber wirken
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Zauberangriff]]
@@ -370,7 +372,7 @@ tags:
 
 
 >[!caution | bg-c-plain c-custom-lightblue]- ATTRIBUTE
->> [!column | flex  no-title]
+>> [!column |  3  no-title]
 >>> ```dataviewjs 
 >>> dv.el('h2', `<h2>Stärke</h2>`); 
 >>> ```
