@@ -187,11 +187,7 @@ tags:
 > ```
 
 > [!infobox|left]
-> ![[Argo_portrait.jpeg| 0]]
->  
-> ```dynamic-embed
-> [[embed Character Sheet Video]]
-> ```
+> ![[Argo_Pixel.gif|]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Healthbar]]
