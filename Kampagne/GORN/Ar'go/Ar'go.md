@@ -182,6 +182,7 @@ InputData:
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
+sonstigeZustaende: "\n"
 ---
 > [!infobox|]
 > ```dynamic-embed
@@ -276,23 +277,26 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
->> [!column | flex 2 no-title]
->>>  ## Zustand
+>> [!column | 3 no-title]
+>>>  ## Zustände
 >>> ```dynamic-embed
 >>> [[embed Erschöpfung]]
+>>> ```
+>>>
+>>> ```meta-bind
+>>> INPUT[editor(class(dndSmallHeight)):sonstigeZustaende]
+>>> ```
+>>
+>>> ## Gesundheit
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Gesundheit]]
 >>> ```
 >>>
 >>> ## Verteidigung
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Rüstung Zauberer]]
 >>> ```
->>>
->>
->>> ## Gesundheit
->>> ```dynamic-embed
->>> [[embed Character Sheet Gesundheit]]
->>> ```
->>> 
+>> 
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> [!success]  **Blitz**  
 >>>>    - erlittener Schaden halbieren (abrunden)
