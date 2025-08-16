@@ -184,10 +184,6 @@ tags:
   - Charakter/GORN
 sonstigeZustaende: "\n"
 ---
-> [!infobox|]
-> ```dynamic-embed
-> [[embed RadarChart]]
-> ```
 
 > [!infobox|left]
 > ![[Argo_Pixel.gif|]]
@@ -204,6 +200,12 @@ sonstigeZustaende: "\n"
 > [[embed Character Sheet SpellPointsbar]]
 > ```
 >
+> ---
+> 
+> ```dynamic-embed
+> [[embed Kord Orakel]]
+> ```
+> 
 > ---
 > 
 >> [!info | bg-c-plain c-custom-gray]+ RASTEN-BUTTONS
@@ -255,7 +257,7 @@ sonstigeZustaende: "\n"
 >> ```
 > ---
 >
->> [!info | bg-c-plain c-custom-lightblue]+ CHARAKTER-ÜBUNG
+>> [!info | bg-c-plain c-custom-lightblue]- CHARAKTER-ÜBUNG
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
