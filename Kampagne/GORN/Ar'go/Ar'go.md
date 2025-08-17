@@ -202,9 +202,11 @@ sonstigeZustaende: "\n"
 >
 > ---
 > 
-> ```dynamic-embed
-> [[embed Kord Orakel]]
-> ```
+>> [!info | bg-c-plain c-custom-gray]- STURMGOTT ORAKEL
+>> ```dynamic-embed
+>> [[embed Kord Orakel]]
+>> ```
+> 
 > 
 > ---
 > 

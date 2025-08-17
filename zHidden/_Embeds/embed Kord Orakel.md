@@ -1,8 +1,32 @@
-<div id="kord-oracle" style="margin:1em 0; padding:1em; border:2px solid #4aa3ff; border-radius:12px; text-align:center; background:#0d1b2a; color:#bde0fe; font-family:serif; max-width: 100%;">
-  <h3>Orakel von Kord</h3>  
-  <div id="oracle-output" style="margin-top:1em; font-size:1.2em; min-height:2em;"></div>
-  <br/>
-  <button id="oracle-btn" style="padding:0.6em 1.2em; border:none; border-radius:8px; background:#1e90ff; color:white; font-size:1.1em; cursor:pointer; box-shadow:0 0 10px #1e90ff;">Befrage Kord</button>
+<div id="kord-oracle" style="
+  margin: 1em 0;
+  padding: 1em;
+  border: 2px solid #1a73e8;
+  border-radius: 10px;
+  text-align: center;
+  background: #111828;
+  color: #b0c4de;
+  font-family: 'Inter', sans-serif;
+  max-width: 100%;
+  box-shadow: 0 0 8px rgba(30, 144, 255, 0.5);
+">
+  <h3 style="color:#4aa3ff; margin-bottom:0.5em;">Orakel von Kord</h3>
+  <div id="oracle-output" style="margin-top:1em; font-size:1.1em; min-height:2em;"></div>
+  <br />
+  <button id="oracle-btn" style="
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 6px;
+    background: #0d4f8b;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 6px #0d4f8b;
+    transition: background 0.2s, box-shadow 0.2s;
+  " onmouseover="this.style.background='#1e90ff'; this.style.boxShadow='0 0 10px #1e90ff';"
+     onmouseout="this.style.background='#0d4f8b'; this.style.boxShadow='0 0 6px #0d4f8b';">
+    Befrage Kord
+  </button>
 </div>
 
 ```js-engine

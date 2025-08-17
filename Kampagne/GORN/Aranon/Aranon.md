@@ -164,7 +164,7 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
-> ![[Aranon_portrait.jpg]]
+> ![[Aranon_Pixel.png]]
 > 
 > ```dynamic-embed
 > [[embed Character Sheet Background 2]]
