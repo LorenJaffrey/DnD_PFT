@@ -111,7 +111,7 @@ function displayText(link, settings) {
         if (!link.value) {
             return "<b>Please choose an attribute value.</b>";
         }
-        return `<span class="data-link-icon data-link-text data-link-icon-after" data-link-${link.name}="${link.value}">Note</span> has attribute <b>${link.name}</b> ${matchPreview[link.match]} <b>${link.value}</b>.`;
+        return `<span class="data-link-icon data-link-text data-link-icon-after" data-link-${link.name}="${link.value}">Note</span> has attribute <b>${link.name.replace(/-/g, ' ')}</b> ${matchPreview[link.match]} <b>${link.value}</b>.`;
     }
     if (!link.value) {
         return "<b>Please choose a path.</b>";
@@ -191,9 +191,10 @@ class CSSBuilderModal extends obsidian.Modal {
             .setDesc("What attribute to target? Make sure to first add target attributes to the settings at the top!")
             .addDropdown(dc => {
             plugin.settings.targetAttributes.forEach((attribute) => {
-                dc.addOption(attribute, attribute);
-                if (attribute === cssLink.name) {
-                    dc.setValue(attribute);
+                const dom_attribute = attribute.replace(/ /g, '-');
+                dc.addOption(dom_attribute, attribute);
+                if (dom_attribute === cssLink.name) {
+                    dc.setValue(dom_attribute);
                 }
             });
             dc.onChange(name => {
@@ -612,6 +613,13 @@ function fetchTargetAttributesSync(app, settings, dest, addDataHref) {
         else
             this.plugin.registerEvent(this.app.metadataCache.on("dataview:api-ready", (api) => getResults(api)));
     }
+    // Replace spaces with hyphens in the keys of new_props
+    const hyphenated_props = {};
+    for (const key in new_props) {
+        const hyphenatedKey = key.replace(/ /g, '-');
+        hyphenated_props[hyphenatedKey] = new_props[key];
+    }
+    new_props = hyphenated_props;
     return new_props;
 }
 function setLinkNewProps(link, new_props) {
@@ -622,18 +630,19 @@ function setLinkNewProps(link, new_props) {
         }
     }
     Object.keys(new_props).forEach(key => {
-        var _a;
-        const name = "data-link-" + key;
+        // Replace spaces with hyphens (v0.13.4+)
+        const dom_key = key.replace(/ /g, '-');
+        const name = "data-link-" + dom_key;
         const newValue = new_props[key];
         const curValue = link.getAttribute(name);
         // Only update if value is different
         if (!newValue || curValue != newValue) {
-            link.setAttribute("data-link-" + key, new_props[key]);
-            if (((_a = new_props[key]) === null || _a === void 0 ? void 0 : _a.startsWith) && (new_props[key].startsWith('http') || new_props[key].startsWith('data:'))) {
-                link.style.setProperty(`--data-link-${key}`, `url(${new_props[key]})`);
+            link.setAttribute(name, newValue);
+            if ((newValue === null || newValue === void 0 ? void 0 : newValue.startsWith) && (newValue.startsWith('http') || newValue.startsWith('data:'))) {
+                link.style.setProperty(`--data-link-${dom_key}`, `url(${newValue})`);
             }
             else {
-                link.style.setProperty(`--data-link-${key}`, new_props[key]);
+                link.style.setProperty(`--data-link-${dom_key}`, newValue);
             }
         }
     });
@@ -804,7 +813,7 @@ class SuperchargedLinksSettingTab extends obsidian.PluginSettingTab {
                 .setPlaceholder('Enter attributes as string, comma separated')
                 .setValue(this.plugin.settings.targetAttributes.join(', '))
                 .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.settings.targetAttributes = value.replace(/\s/g, '').split(',');
+                this.plugin.settings.targetAttributes = value.split(',').map(attr => attr.trim());
                 if (this.plugin.settings.targetAttributes.length === 1 && !this.plugin.settings.targetAttributes[0]) {
                     this.plugin.settings.targetAttributes = [];
                 }
@@ -1282,7 +1291,7 @@ class SuperchargedLinks extends obsidian.Plugin {
         plugin.registerViewType('starred', plugin, '.nav-file-title-content');
         plugin.registerViewType('file-explorer', plugin, '.nav-file-title-content');
         if ((_f = (_e = (_d = plugin.app) === null || _d === void 0 ? void 0 : _d.plugins) === null || _e === void 0 ? void 0 : _e.plugins) === null || _f === void 0 ? void 0 : _f['folder-notes']) {
-            console.log('Supercharged links: Enabling folder notes support');
+            // console.log('Supercharged links: Enabling folder notes support');
             plugin.registerViewType('file-explorer', plugin, '.has-folder-note .tree-item-inner');
         }
         plugin.registerViewType('recent-files', plugin, '.nav-file-title-content');
@@ -1380,9 +1389,6 @@ class SuperchargedLinks extends obsidian.Plugin {
         const nodes = container.findAll(selector);
         for (let i = 0; i < nodes.length; ++i) {
             const el = nodes[i];
-            if (selector.includes('has-folder-note')) {
-                console.log(el);
-            }
             updateDivExtraAttributes(plugin.app, plugin.settings, el, "", undefined, filter_collapsible);
         }
     }
