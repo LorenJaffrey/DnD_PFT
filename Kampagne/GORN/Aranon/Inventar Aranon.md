@@ -61,7 +61,7 @@ Geld:
 | Flüssigkeit (zäh, braun)            |   1    |    0    |   0    |
 | [[Gildenabzeichen]]                 |   1    |    0    |   0    |
 | [[Bergsilberkraut]]                 |   1    |    0    |   0    |
-| Wein (Flasche)                      |   2    |    1    |   2    |
+| Wein (Flasche)                      |   1    |    1    |   1    | 
 | [[Aurelisbeeren]]                   |   3    |    0    |   0    |
 | [[Nachtlichtkelch]]                 |   2    |    0    |   0    |
 | [[Morbryn-Kappe]]                   |   0    |    0    |   0    |
