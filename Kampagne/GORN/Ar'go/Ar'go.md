@@ -195,7 +195,9 @@ InputData:
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: "\n"
+sonstigeZustaende: |-
+  
+  - Schuppen am ganzen Körper sind GELB
 ---
 
 > [!infobox|left]
