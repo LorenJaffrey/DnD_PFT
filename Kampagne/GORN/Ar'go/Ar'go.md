@@ -1,6 +1,6 @@
 ---
 cssclasses:
-  - slrvb-b
+  - t-d
   - dvl-o
   - hc
   - h-line
@@ -201,7 +201,7 @@ sonstigeZustaende: |-
 ---
 
 > [!infobox|left]
-> ![[Argo_Pixel.gif|]]
+> ![[Argo_Pixel_yellow.gif|]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Healthbar]]
