@@ -1,6 +1,6 @@
 ---
 cssclasses:
-  - t-d
+  - slrvb-b
   - dvl-o
   - hc
   - h-line
@@ -32,7 +32,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 39
+  TP: 23
   TW: 5
   TempTP: 0
 Attribute:
@@ -137,9 +137,9 @@ Zauber:
   - "[[Blitze herbeirufen]]"
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: true
-  GlücksPunkt3: true
-  GlücksPunkt4: true
+  GlücksPunkt2: false
+  GlücksPunkt3: false
+  GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
@@ -151,7 +151,7 @@ InputData:
   MagierRüstung: true
   BlitzOdem: 3
   Klingenbann: false
-  Zaubereipunkte: 5
+  Zaubereipunkte: 4
   Zauberplätze:
     Grad_1: 3
     Grad_2: 3
@@ -186,7 +186,7 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  DruckwelleLadungen: 1
+  DruckwelleLadungen: 0
   IntuitiveZaubereiLadungen: 2
   IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
@@ -197,11 +197,11 @@ tags:
   - Charakter/GORN
 sonstigeZustaende: |-
   
-  - Schuppen am ganzen Körper sind GELB
+  - Schuppen am ganzen Körper sind GELB (aber wieder blau genug gesoffen)
 ---
 
 > [!infobox|left]
-> ![[Argo_Pixel_yellow.gif|]]
+> ![[Argo_Pixel.gif|]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Healthbar]]
