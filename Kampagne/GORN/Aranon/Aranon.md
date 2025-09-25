@@ -129,7 +129,7 @@ Zauber:
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
-  GlücksPunkt3: false
+  GlücksPunkt3: true
   GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 3
@@ -151,7 +151,7 @@ InputData:
   Zauberplätze:
     Grad_1: 3
     Grad_2: 3
-    Grad_3: 2
+    Grad_3: 1
     Grad_4:
     Grad_5:
     Grad_6:
