@@ -293,7 +293,8 @@ sonstigeZustaende: |-
 >> 
 >---
 
-# `=this.Hintergrund.Name`
+# `=this.Hintergrund.Name`,
+#####  der Sturmgezeichnete von der Insel der Drachenkulte, Auserwählter Kords, Träger des ersten Splitters des Tempestus, Bezwinger des Donnerebers Grannocs gemeinsam mit der ruhmreichen Schar GORN, der Orks und der wandelnden Schatten, der Schläfer unter freiem Himmel, Freund von Donner und Regen, Verkoster der Welt in all ihrer Bitterkeit und Süße, Sturmzauberer der tosenden Lüfte, Sucher des zerschlagenen Kristalls
 
 > [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
 >> [!column | 3 no-title]
