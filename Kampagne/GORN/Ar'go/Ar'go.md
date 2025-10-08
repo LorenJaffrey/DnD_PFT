@@ -32,7 +32,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 23
+  TP: 19
   TW: 5
   TempTP: 0
 Attribute:
@@ -137,7 +137,7 @@ Zauber:
   - "[[Blitze herbeirufen]]"
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: false
+  GlücksPunkt2: true
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
