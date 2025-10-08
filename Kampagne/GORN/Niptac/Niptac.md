@@ -26,7 +26,7 @@ Waffen:
   - "[[Handarmbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 31
+  TP: 26
   TW: 5
   TempTP: 0
 Attribute:
