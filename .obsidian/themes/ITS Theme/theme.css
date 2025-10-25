@@ -2215,7 +2215,7 @@ settings:
         title: Tab Stack Shadow
         id: tab-stacked-shadow-color
         type: variable-themed-color
-        format: rgba
+        format: hex
         opacity: true
         default-dark: '#001c4a15'
         default-light: '#001c4a15'
@@ -2223,7 +2223,7 @@ settings:
         title: Popover Background Color
         id: popover-background
         type: variable-themed-color
-        format: rgb
+        format: hex
         default-dark: '#1a1e24'
         default-light: '#f8fbff'
     -
@@ -7170,7 +7170,7 @@ span.image-embed:is([src*="#cover"], [src*="#cvr"]) img {
   object-fit: cover;
 }
 
-.view-content img[alt][alt]:not([alt*=relative]):is([alt*=wmicro],
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative]):is([alt*=wmicro],
 [alt*=wtiny],
 [alt*=wsmall],
 [alt*=ws-med],
@@ -7181,7 +7181,7 @@ span.image-embed:is([src*="#cover"], [src*="#cvr"]) img {
 [alt*=wfull]) {
   width: var(--image-adj-size-w);
 }
-.view-content img[alt][alt]:not([alt*=relative]):is([alt*=hmicro],
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative]):is([alt*=hmicro],
 [alt*=htiny],
 [alt*=hsmall],
 [alt*=hs-med],
@@ -7192,58 +7192,58 @@ span.image-embed:is([src*="#cover"], [src*="#cvr"]) img {
 [alt*=hfull]) {
   height: var(--image-adj-size-h);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=hmicro] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=hmicro] {
   --image-adj-size-h: var(--micro);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=htiny] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=htiny] {
   --image-adj-size-h: var(--tiny);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=hsmall] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=hsmall] {
   --image-adj-size-h: var(--small);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=hs-med] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=hs-med] {
   --image-adj-size-h: var(--small-med);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=hm-sm] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=hm-sm] {
   --image-adj-size-h: var(--med-small);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=hmed] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=hmed] {
   --image-adj-size-h: var(--medium);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=hm-tl] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=hm-tl] {
   --image-adj-size-h: var(--med-tall);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=htall] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=htall] {
   --image-adj-size-h: var(--tall);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=hfull] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=hfull] {
   --image-adj-size-h: 100%;
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wmicro] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wmicro] {
   --image-adj-size-w: var(--micro);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wtiny] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wtiny] {
   --image-adj-size-w: var(--tiny);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wsmall] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wsmall] {
   --image-adj-size-w: var(--small);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=ws-med] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=ws-med] {
   --image-adj-size-w: var(--small-med);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wm-sm] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wm-sm] {
   --image-adj-size-w: var(--med-small);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wmed] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wmed] {
   --image-adj-size-w: var(--medium);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wm-tl] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wm-tl] {
   --image-adj-size-w: var(--med-tall);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wtall] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wtall] {
   --image-adj-size-w: var(--tall);
 }
-.view-content img[alt][alt]:not([alt*=relative])[alt*=wfull] {
+:is(.view-content, .popover) img[alt][alt]:not([alt*=relative])[alt*=wfull] {
   --image-adj-size-w: 100%;
 }
 
@@ -12236,7 +12236,6 @@ body {
   --h4-border-line-height: 3px;
   --h5-border-line-height: 3px;
   --h6-border-line-height: 3px;
-  --header-border-line-left: block;
 }
 .hcl .HyperMD-header.cm-line,
 .hcl :is(h1,
@@ -12253,8 +12252,23 @@ h4,
 h5,
 h6) {
   display: flex;
-  width: 100%;
   align-items: center;
+}
+.hcl .HyperMD-header.cm-line:not(.cm-active),
+.hcl :is(h1,
+h2,
+h3,
+h4,
+h5,
+h6):not(.cm-active),
+.headings-center-lines .HyperMD-header.cm-line:not(.cm-active),
+.headings-center-lines :is(h1,
+h2,
+h3,
+h4,
+h5,
+h6):not(.cm-active) {
+  --header-border-line-left: block;
 }
 .hcl .HyperMD-header.cm-line:not(.HyperMD-header) > :not(.collapse-indicator), .hcl .HyperMD-header.cm-line > :not(.collapse-indicator):nth-child(2):not(:last-child):not(:first-child),
 .hcl :is(h1,

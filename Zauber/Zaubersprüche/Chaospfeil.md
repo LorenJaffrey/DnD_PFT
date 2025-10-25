@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 2d8 + 1d6
-Schadensart: "[[Zufallsschaden]]"
+Schadensart: "[[Chaospfeil Schadensarten|Zufälliger Schaden]]"
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
