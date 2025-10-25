@@ -56,7 +56,7 @@ const rows = [
     "[[Bonusaktion]] / Selbst / 1 Minute",
     " ",
     "Selbst",
-    " ",
+    "<span title='Verbal' style='cursor: help;'>🗣️</span><span title='Gestik' style='cursor: help;'>💫</span>",
     " ",
     "[[Lange Rast]]",
     " "
@@ -80,7 +80,7 @@ const rows = [
     "[[Bonusaktion]] / AoE ~ Radius: 3 m",
     "[[Schallschaden]]",
     "AoE",
-    " ",
+    "<span title='Gestik' style='cursor: help;'>💫</span>",
     " ",
     "[[Kurze Rast]],</br>[[Lange Rast]]",
     "[[Stärke|STA]]"
@@ -92,7 +92,7 @@ const rows = [
     "[[Aktion]] / Selbst / 1 Minute",
     "`dice:1d4`<span title='Angriffswurf des Gegners' style='cursor: help;'>⚔️👿</span>",
     "Selbst",
-    " ",
+    "<span title='Verbal' style='cursor: help;'>🗣️</span><span title='Gestik' style='cursor: help;'>💫</span>",
     " ",
     " ",
     " "
@@ -104,7 +104,7 @@ const rows = [
     "[[Aktion]] / Selbst / 8 Stunden",
     " ",
     "Selbst",
-    " ",
+    "<span title='Verbal' style='cursor: help;'>🗣️</span><span title='Gestik' style='cursor: help;'>💫</span>",
     " ",
     " ",
     " "
@@ -116,7 +116,7 @@ const rows = [
     "[[Aktion]] / Selbst / 1 Minute",
     " ",
     "Selbst",
-    " ",
+    "<span title='Verbal' style='cursor: help;'>🗣️</span><span title='Gestik' style='cursor: help;'>💫</span>",
     " ",
     " ",
     "`dice:1d6`</br>`dice:1d6`</br>`dice:1d6`"
