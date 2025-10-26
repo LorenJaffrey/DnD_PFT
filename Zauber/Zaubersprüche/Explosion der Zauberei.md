@@ -19,7 +19,7 @@ Schaden: 1d8
 SchadenLv5: 2d8
 SchadenLv11: 3d8
 SchadenLv17: 4d8
-Schadensart: "[[Schadensarten|Schadensart]]"
+Schadensart: "[[Explosion der Zauberei Schadensarten]]"
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"

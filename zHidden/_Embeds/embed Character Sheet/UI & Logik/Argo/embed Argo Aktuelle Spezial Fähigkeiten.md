@@ -35,6 +35,12 @@ function buildAVM(aktiv, verfügbar, max) {
     return result;
 }
 
+// 🎯 Schadenslink ohne Supercharged-Emoji
+function damageLink(name, emoji) {
+  return `<a href="${name}" class="internal-link no-hcl" title="${name}" style="text-decoration:none;cursor:help;">${emoji}</a>`;
+}
+
+
 // 🧩 Hardcoded Tabelleninhalte (optimiert)
 const rows = [
   [
@@ -78,7 +84,7 @@ const rows = [
     "[[Tempestuskristall - Fragment des Donners|Druckwelle]]",
     buildAVM(null, "`INPUT[number():InputData.DruckwelleLadungen]`", "1"),
     "[[Bonusaktion]] / AoE ~ Radius: 3 m",
-    "[[Schallschaden]]",
+    damageLink("Schallschaden", "🔊"),
     "AoE",
     "<span title='Gestik' style='cursor: help;'>💫</span>",
     " ",

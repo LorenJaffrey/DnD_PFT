@@ -1,0 +1,4 @@
+/* 🚫 Deaktiviert Hypercharged-Link-Icons für Dataview-Schadensarten */
+.no-hcl::before {
+  content: none !important;
+}

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaBurningBook",
+      "LiBackpack",
       "LiArchiveX",
       "LiArchive",
-      "LiBookCopy",
-      "LiPiggyBank",
-      "🐗"
+      "LiBookCopy"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -76,10 +76,6 @@
     "iconName": "RaRuneStone",
     "iconColor": "#258bb6"
   },
-  "Kampagne/GORN/Ar'go/Inventar Ar'go.md": {
-    "iconName": "LiArchive",
-    "iconColor": "#258bb6"
-  },
   "Kampagne/GORN/Aranon/Inventar Aranon.md": {
     "iconName": "LiArchive",
     "iconColor": "#30b539"
@@ -114,28 +110,32 @@
   "Kampagne/Memoiren.md": "LiBookOpen",
   "Kampagne/Timeline Kampagne 2.md": "LiCalendarDays",
   "Kampagne/Attribut-Übersicht.md": "LiView",
-  "Kampagne/GORN/Ar'go/Zaubersprüche Ar'go.md": {
-    "iconName": "RaRuneStone",
-    "iconColor": "#258bb6"
-  },
   "Kampagne/Initiative (Spielleiter).md": "LiPieChart",
   "Kampagne/Gesinnung GORN.md": "LiActivitySquare",
   "zEmbeds": "RaHiveEmblem",
   "Kampagne/Hinweise/Grannocs Tagebuch.md": "LiPiggyBank",
-  "Kampagne/GORN/Ar'go/zArchive/Zauberer - PHB 2024.md": {
-    "iconName": "LiBookCopy",
+  "Kampagne/GORN/Ar'go/Inventar Ar'go": {
+    "iconName": "LiBackpack",
     "iconColor": "#258bb6"
   },
-  "Kampagne/GORN/Ar'go/zArchive": {
+  "Kampagne/GORN/Ar'go/Zaubersprüche Ar'go": {
+    "iconName": "RaBurningBook",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/zzArchive": {
     "iconName": "LiArchiveX",
     "iconColor": "#258bb6"
   },
-  "Kampagne/GORN/Ar'go/zArchive/Session Notes.md": {
+  "Kampagne/GORN/Ar'go/zzArchive/Ritualbuch.md": {
+    "iconName": "RaDragon",
+    "iconColor": "#258bb6"
+  },
+  "Kampagne/GORN/Ar'go/zzArchive/Session Notes.md": {
     "iconName": "LiBookLock",
     "iconColor": "#258bb6"
   },
-  "Kampagne/GORN/Ar'go/zArchive/Ritualbuch.md": {
-    "iconName": "RaDragon",
+  "Kampagne/GORN/Ar'go/zzArchive/Zauberer - PHB 2024.md": {
+    "iconName": "LiBookCopy",
     "iconColor": "#258bb6"
   }
 }

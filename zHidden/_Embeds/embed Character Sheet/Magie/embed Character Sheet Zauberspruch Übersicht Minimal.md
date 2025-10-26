@@ -1,6 +1,6 @@
 ```dataviewjs
 //---------------------------------------------------------------------
-// 🧙 Zauberliste – kompakt + Tooltips + Trenner + cursor: help
+// 🧙 Zauberliste – kompakt + Emojis für Schadensarten + Tooltips
 //---------------------------------------------------------------------
 
 // 🎲 Dice Roller
@@ -15,6 +15,44 @@ const getDamageByLevel = (level, p) => {
   if (level >= 11 && p.SchadenLv11) return diceRoller(p.SchadenLv11);
   if (level >= 5 && p.SchadenLv5)  return diceRoller(p.SchadenLv5);
   return diceRoller(p.Schaden);
+};
+
+// ✨ Schadensart → Emoji-Mapping
+const damageEmoji = (type) => {
+  if (!type) return ""; // kein Schaden angegeben
+
+  // Datei-Name aus Dataview-Link extrahieren
+  const name = type?.fileName() ?? null;
+  if (!name) return "";
+
+  // Mapping der Schadensarten zu Emojis
+  const map = {
+    "Blitzschaden": "⚡",
+    "Energieschaden": "🔋",
+    "Feuerschaden": "🔥",
+    "Giftschaden": "☠️",
+    "Gleißender Schaden": "🌟",
+    "Hiebschaden": "🗡️",
+    "Kälteschaden": "❄️",
+    "Nekrotischer Schaden": "💀",
+    "Psychischer Schaden": "🧠",
+    "Säureschaden": "🧪",
+    "Schallschaden": "🔊",
+    "Stichschaden": "🏹",
+    "Wuchtschaden": "💥",
+    "Zufallsschaden": "🎲",
+    "Chaospfeil Schadensarten": "🌈",
+    "Explosion der Zauberei Schadensarten": "☄️"
+  };
+
+  // Emoji auswählen oder Fallback
+  const emoji = map[name] ?? "❔";
+
+  // Tooltip + klickbarer Link + Fallback für kaputte Links
+  const linkPath = type?.path ?? "";
+  return linkPath
+    ? `<a href="${linkPath}" class="internal-link no-hcl" title="${name}" style="text-decoration: none; cursor: help;">${emoji}</a>`
+    : `<span title="${name}" style="cursor: help;">${emoji}</span>`;
 };
 
 // 🧩 Tabellen-Header (reduziert & mit Icons + Tooltips)
@@ -59,7 +97,9 @@ if (cantrips.length > 0) {
       p.Typ ?? " ",
       p.file.link ?? " ",
       `${p.Zeitaufwand ?? " "} / ${p.Reichweite ?? " "} / ${p.Dauer ?? " "}`,
-      p.Schadensart ? `${p.Schadensart} ${getDamageByLevel(dv.current().Stufe, p)}` : getDamageByLevel(dv.current().Stufe, p),
+      p.Schadensart
+        ? `${damageEmoji(p.Schadensart)} ${getDamageByLevel(dv.current().Stufe, p)}`
+        : getDamageByLevel(dv.current().Stufe, p),
       p.Ziel ?? " ",
       `${p.Verbal ? icon("🗣️","Verbal") : ""}${p.Geste ? icon("💫","Gestik") : ""}` || " ",
       concRitual(p),
@@ -86,7 +126,9 @@ for (let magicRank = 1; magicRank <= 9; magicRank++) {
         p.Typ ?? " ",
         p.file.link ?? " ",
         `${p.Zeitaufwand ?? " "} / ${p.Reichweite ?? " "} / ${p.Dauer ?? " "}`,
-        p.Schadensart ? `${p.Schadensart} ${diceRoller(p.Schaden)}` : diceRoller(p.Schaden),
+        p.Schadensart
+          ? `${damageEmoji(p.Schadensart)} ${diceRoller(p.Schaden)}`
+          : diceRoller(p.Schaden),
         p.Ziel ?? " ",
         `${p.Verbal ? icon("🗣️","Verbal") : ""}${p.Geste ? icon("💫","Gestik") : ""}` || " ",
         concRitual(p),
