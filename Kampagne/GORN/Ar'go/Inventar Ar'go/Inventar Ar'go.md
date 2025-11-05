@@ -39,10 +39,10 @@ Inventar:
     gewicht8: 0.5
     count9: 0
     gewicht9: 0
-    count10: 0
+    count10: 1
     gewicht10: 0
-    count11: 0
-    gewicht11: 0
+    count11: 1
+    gewicht11: 3
     count12: 0
     gewicht12: 0
     count13: 0
@@ -87,7 +87,7 @@ Inventar:
     gewicht1: 5
     count2: 1
     gewicht2: 3
-    count3: 10
+    count3: 5
     gewicht3: 0.25
     count4: 9
     gewicht4: 1
@@ -97,7 +97,7 @@ Inventar:
     gewicht6: 1
     count7: 1
     gewicht7: 0
-    count8: 15
+    count8: 0
     gewicht8: 0.6
     count9: 1
     gewicht9: 0.6
@@ -111,7 +111,7 @@ Inventar:
     gewicht13: 0.01
     count14: 1
     gewicht14: 0.5
-    count15: 0
+    count15: 1
     gewicht15: 0
     count16: 0
     gewicht16: 0
@@ -159,8 +159,8 @@ Geld:
 >> | Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
 >> | [[Heiltrank]]                                        | `INPUT[number:Inventar.Körper.count8]` | `INPUT[number:Inventar.Körper.gewicht8]` | `=round(this.Inventar.Körper.count8 * this.Inventar.Körper.gewicht8, 2)` |
 >> |   [[Goblin-König-Kopf mit Krone (Groll).jpeg]] </br>- Sildar gegeben | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
->> |                    | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
->> |                                                                    | `INPUT[number:Inventar.Körper.count11]` | `INPUT[number:Inventar.Körper.gewicht11]` | `=round(this.Inventar.Körper.count11 * this.Inventar.Körper.gewicht11, 2)` |
+>> |       Pilz-Nahrungs-Ration             | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
+>> |       Winterfeste Kleidung (zusammengeflickt) Gnom               | `INPUT[number:Inventar.Körper.count11]` | `INPUT[number:Inventar.Körper.gewicht11]` | `=round(this.Inventar.Körper.count11 * this.Inventar.Körper.gewicht11, 2)` |
 >> | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
 >
 >> ## Schriftrollenbehälter
@@ -190,7 +190,7 @@ Geld:
 >> | [[Gildenabzeichen]]                       | `INPUT[number:Inventar.Rucksack.count12]` | `INPUT[number:Inventar.Rucksack.gewicht12]` | `=round(this.Inventar.Rucksack.count12 * this.Inventar.Rucksack.gewicht12, 2)` |
 >> | Spule Draht (Meter)                       | `INPUT[number:Inventar.Rucksack.count13]` | `INPUT[number:Inventar.Rucksack.gewicht13]` | `=round(this.Inventar.Rucksack.count13 * this.Inventar.Rucksack.gewicht13, 2)` |
 >> | [[Grannocs Tagebuch]]                 | `INPUT[number:Inventar.Rucksack.count14]` | `INPUT[number:Inventar.Rucksack.gewicht14]` | `=round(this.Inventar.Rucksack.count14 * this.Inventar.Rucksack.gewicht14, 2)` |
->> |                                                       | `INPUT[number:Inventar.Rucksack.count15]` | `INPUT[number:Inventar.Rucksack.gewicht15]` | `=round(this.Inventar.Rucksack.count15 * this.Inventar.Rucksack.gewicht15, 2)` |
+>> |     Toter Mimik im Glas                | `INPUT[number:Inventar.Rucksack.count15]` | `INPUT[number:Inventar.Rucksack.gewicht15]` | `=round(this.Inventar.Rucksack.count15 * this.Inventar.Rucksack.gewicht15, 2)` |
 >> |                                                                   | `INPUT[number:Inventar.Rucksack.count16]` | `INPUT[number:Inventar.Rucksack.gewicht16]` | `=round(this.Inventar.Rucksack.count16 * this.Inventar.Rucksack.gewicht16, 2)` |
 >> |                                                                   | `INPUT[number:Inventar.Rucksack.count17]` | `INPUT[number:Inventar.Rucksack.gewicht17]` | `=round(this.Inventar.Rucksack.count17 * this.Inventar.Rucksack.gewicht17, 2)` |
 >> | **GESAMT**                                |                                           |                                             |                       `=this.Summen.Rucksack`                        |
