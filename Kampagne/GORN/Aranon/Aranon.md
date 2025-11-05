@@ -132,10 +132,10 @@ InputData:
   GlücksPunkt3: true
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 3
+  ErschöpfungsPunkte: 2
   Erschöpfung1: true
   Erschöpfung2: true
-  Erschöpfung3: true
+  Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
   TiergestaltLadung1: false
@@ -149,9 +149,9 @@ InputData:
   Stresslevel4: false
   Stresslevel5: false
   Zauberplätze:
-    Grad_1: 3
+    Grad_1: 4
     Grad_2: 3
-    Grad_3: 1
+    Grad_3: 2
     Grad_4:
     Grad_5:
     Grad_6:

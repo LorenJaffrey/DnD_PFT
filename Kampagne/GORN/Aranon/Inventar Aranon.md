@@ -30,15 +30,16 @@ Geld:
 > | Maximalbelastung | `=(this.Charakter.Attribute.Stärke*30)` Pfund |
 
 ## Am Körper
-| Gegenstand                                | Anzahl | Gewicht | Gesamt |
-| ----------------------------------------- |:------:|:-------:|:------:|
-| [[Stab des Sommerwalds]]                  |   1    |    3    |   3    |
-| [[Krummsäbel]]                            |   1    |    3    |   3    |
-| Gewöhnliche Kleidung                      |   1    |    3    |   3    |
-| [[Druidischer Fokus]] (Horn des Einhorns) |   1    |    0    |   0    |
-| [[Rucksack]]                              |   1    |    5    |   5    |
-| [[Fellrüstung]]  (voller Orkblut)         |   1    |   20    |   20   |
-| GESAMT                                    |        |         |   34   |
+| Gegenstand                                | Anzahl | Gewicht | Gesamt |     |
+| ----------------------------------------- |:------:|:-------:|:------:| --- |
+| [[Stab des Sommerwalds]]                  |   1    |    3    |   3    |     |
+| [[Krummsäbel]]                            |   1    |    3    |   3    |     |
+| Gewöhnliche Kleidung                      |   1    |    3    |   3    |     |
+| Zusammengeflickte Winterkleidung          |   1    |    3    |   3    |     | 
+| [[Druidischer Fokus]] (Horn des Einhorns) |   1    |    0    |   0    |     |
+| [[Rucksack]]                              |   1    |    5    |   5    |     |
+| [[Fellrüstung]]  (voller Orkblut)         |   1    |   20    |   20   |     |
+| GESAMT                                    |        |         |   34   |     |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
@@ -51,9 +52,9 @@ Geld:
 | [[Schleuder]]                       |   1    |    1    |   1    |
 | [[Holzschild]]                      |   1    |    6    |   6    |
 | [[Fackel]]                          |   2    |    1    |   2    |
-| [[Ration]]                          |   12   |    1    |   5    |
+| [[Ration]]                          |   13   |    1    |   5    |
 | [[Trinkschlauch]]                   |   1    |    4    |   4    |
-| [[Seil aus Hanf]] in Metern         |   13   |   0.6   |  7.8   |
+| [[Seil aus Hanf]] in Metern         |   8   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]]         |   5    |   0.5   |  2.5   |
 | [[Schriftrollenbehälter]]           |   1    |    1    |   1    |
 | Flüssigkeit (silbrig)               |   1    |    0    |   0    |
@@ -71,6 +72,6 @@ Geld:
 | [[Schriftrolle der Wiederbelebung]] |   1    |    0    |   0    |
 | [[Dornbühlbeeren]]                  |   1    |         |        |
 | [[Ring des Schutzes]]               |   1    |         |        |
-|                [[Uhrwerk Amulet]]                     |        |         |        |
+|                [[Uhrwerk Amulet]]                     |      1  |         |        |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
