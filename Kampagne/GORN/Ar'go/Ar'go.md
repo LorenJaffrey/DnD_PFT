@@ -148,14 +148,14 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   NormaleRüstung: true
-  MagierRüstung: true
+  MagierRüstung: false
   BlitzOdem: 3
   Klingenbann: false
-  Zaubereipunkte: 4
+  Zaubereipunkte: 5
   Zauberplätze:
-    Grad_1: 3
+    Grad_1: 4
     Grad_2: 3
-    Grad_3: 2
+    Grad_3: 0
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -186,18 +186,16 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  DruckwelleLadungen: 0
-  IntuitiveZaubereiLadungen: 2
-  IntuitiveZaubereiAktiv: false
-  DrakonischerFlugAktiv: false
+  DruckwelleLadungen: 1
+  IntuitiveZaubereiLadungen: 1
+  IntuitiveZaubereiAktiv: true
+  DrakonischerFlugAktiv: true
   DrakonischerFlugLadungen: 1
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: |-
-  
-  - Schuppen am ganzen Körper sind GELB (aber wieder blau genug gesoffen)
+sonstigeZustaende: "\n"
 ---
 
 > [!infobox|left]
