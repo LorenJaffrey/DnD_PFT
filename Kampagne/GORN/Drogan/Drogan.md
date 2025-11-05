@@ -129,7 +129,7 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  Rage1: true
+  Rage1: false
   Rage2: false
   Rage3: false
 tags:
