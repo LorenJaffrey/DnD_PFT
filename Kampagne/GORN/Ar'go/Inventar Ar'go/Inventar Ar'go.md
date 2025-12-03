@@ -16,9 +16,9 @@ cssclasses:
   - tag-outline
   - tag-text
 Summen:
-  Rucksack: 45.6
+  Rucksack: 35.35
   Behälter: 0
-  Körper: 12.1
+  Körper: 15.1
 Inventar:
   Körper:
     count1: 2
@@ -39,7 +39,7 @@ Inventar:
     gewicht8: 0.5
     count9: 0
     gewicht9: 0
-    count10: 1
+    count10: 0
     gewicht10: 0
     count11: 1
     gewicht11: 3
@@ -111,7 +111,7 @@ Inventar:
     gewicht13: 0.01
     count14: 1
     gewicht14: 0.5
-    count15: 1
+    count15: 0
     gewicht15: 0
     count16: 0
     gewicht16: 0
@@ -122,7 +122,7 @@ Geld:
   GM: 27
   EM: 50
   SM: 73
-  KM: 23
+  KM: 22
 ---
 
 # `=this.Name`
