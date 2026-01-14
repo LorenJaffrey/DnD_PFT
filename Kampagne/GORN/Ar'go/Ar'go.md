@@ -32,7 +32,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 39
+  TP: 24
   TW: 0
   TempTP: 0
 Attribute:
@@ -137,7 +137,7 @@ Zauber:
   - "[[Blitze herbeirufen]]"
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: true
+  GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
@@ -150,10 +150,10 @@ InputData:
   NormaleRüstung: true
   MagierRüstung: true
   BlitzOdem: 3
-  Klingenbann: false
-  Zaubereipunkte: 5
+  Klingenbann: true
+  Zaubereipunkte: 0
   Zauberplätze:
-    Grad_1: 3
+    Grad_1: 2
     Grad_2: 3
     Grad_3: 0
     Grad_4: 0
@@ -186,9 +186,9 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 1
-  IntuitiveZaubereiAktiv: false
+  DruckwelleLadungen: 0
+  IntuitiveZaubereiLadungen: 0
+  IntuitiveZaubereiAktiv: true
   DrakonischerFlugAktiv: false
   DrakonischerFlugLadungen: 0
   SpiegelbilderLadungen: 3
