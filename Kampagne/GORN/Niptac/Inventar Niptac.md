@@ -52,9 +52,10 @@ Geld:
 | [[Schlafsack]]                                                  |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                              |   1    |    1    |   1    |
 | [[Fackel]]                                                      |   8    |    1    |   8    |
-| [[Ration]]                                                      |   16   |    1    |   16   |
+| [[Ration]]                                                      |   17   |    1    |   17   |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
+| Durchaus schönes gnomische [[Winterkleidung]]                   |   1    |    2    |   2    |
 | [[Dolch]]                                                       |   5    |    1    |   5    |
 | Armbrust Bolzen                                                 |   20   |  0.075  |  1.5   |
 | [[Obsidianscherben]]                                            |   5    |  0.25   |  1.25  |
@@ -71,6 +72,6 @@ Geld:
 | Gefäß (Gold)                                                    |        |         |   0    |
 | Zauberrolle (nicht identifiziert)                               |        |         |   0    |
 | [[Zauberstecken der Vogelrufe]]                                 |   1    |    1    |   1    |
-| GESAMT                                                          |        |         | 52.25  |
+| GESAMT                                                          |        |         | 55.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

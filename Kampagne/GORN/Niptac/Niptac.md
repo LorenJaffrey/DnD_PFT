@@ -24,8 +24,10 @@ Waffen:
   - "[[Schleuder]]"
   - "[[Leichte Armbrust]]"
   - "[[Handarmbrust]]"
+  - "[[B.I.A.N.K.A.]]"
 Gesundheit:
   MaxTP: 42
+  TP: 24
   TP: 42
   TW: 5
   TempTP: 0
