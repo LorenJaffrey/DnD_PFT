@@ -27,8 +27,8 @@ Waffen:
   - "[[B.I.A.N.K.A.]]"
 Gesundheit:
   MaxTP: 42
-  TP: 42
-  TW: 5
+  TP: 28
+  TW: 0
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -121,8 +121,8 @@ Persönlichkeit:
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 InputData:
-  GlücksPunkt1: true
-  GlücksPunkt2: true
+  GlücksPunkt1: false
+  GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
