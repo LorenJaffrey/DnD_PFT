@@ -22,7 +22,7 @@ Gesundheit:
   MaxTP: 38
   TP: 21
   TW: 5
-  TempTP: 10
+  TempTP: 4
 Attribute:
   Stärke: 8
   Geschicklichkeit: 14
@@ -132,10 +132,10 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 2
+  ErschöpfungsPunkte: 3
   Erschöpfung1: true
   Erschöpfung2: true
-  Erschöpfung3: false
+  Erschöpfung3: true
   Erschöpfung4: false
   Erschöpfung5: false
   TiergestaltLadung1: false
@@ -150,7 +150,7 @@ InputData:
   Stresslevel5: false
   Zauberplätze:
     Grad_1: 2
-    Grad_2: 3
+    Grad_2: 2
     Grad_3: 1
     Grad_4:
     Grad_5:
