@@ -111,9 +111,9 @@ Inventar:
     gewicht13: 0.01
     count14: 1
     gewicht14: 0.5
-    count15: 0
+    count15: 1
     gewicht15: 0
-    count16: 0
+    count16: 10
     gewicht16: 0
     count17: 0
     gewicht17: 0
@@ -190,8 +190,8 @@ Geld:
 >> | [[Gildenabzeichen]]                       | `INPUT[number:Inventar.Rucksack.count12]` | `INPUT[number:Inventar.Rucksack.gewicht12]` | `=round(this.Inventar.Rucksack.count12 * this.Inventar.Rucksack.gewicht12, 2)` |
 >> | Spule Draht (Meter)                       | `INPUT[number:Inventar.Rucksack.count13]` | `INPUT[number:Inventar.Rucksack.gewicht13]` | `=round(this.Inventar.Rucksack.count13 * this.Inventar.Rucksack.gewicht13, 2)` |
 >> | [[Grannocs Tagebuch]]                 | `INPUT[number:Inventar.Rucksack.count14]` | `INPUT[number:Inventar.Rucksack.gewicht14]` | `=round(this.Inventar.Rucksack.count14 * this.Inventar.Rucksack.gewicht14, 2)` |
->> |     Toter Mimik im Glas                | `INPUT[number:Inventar.Rucksack.count15]` | `INPUT[number:Inventar.Rucksack.gewicht15]` | `=round(this.Inventar.Rucksack.count15 * this.Inventar.Rucksack.gewicht15, 2)` |
->> |                                                                   | `INPUT[number:Inventar.Rucksack.count16]` | `INPUT[number:Inventar.Rucksack.gewicht16]` | `=round(this.Inventar.Rucksack.count16 * this.Inventar.Rucksack.gewicht16, 2)` |
+>> |     Lappen Drachenhaut (Weißer Drache)              | `INPUT[number:Inventar.Rucksack.count15]` | `INPUT[number:Inventar.Rucksack.gewicht15]` | `=round(this.Inventar.Rucksack.count15 * this.Inventar.Rucksack.gewicht15, 2)` |
+>> |            weiße  Drachenschuppen (von Nippi bekommen)                                       | `INPUT[number:Inventar.Rucksack.count16]` | `INPUT[number:Inventar.Rucksack.gewicht16]` | `=round(this.Inventar.Rucksack.count16 * this.Inventar.Rucksack.gewicht16, 2)` |
 >> |                                                                   | `INPUT[number:Inventar.Rucksack.count17]` | `INPUT[number:Inventar.Rucksack.gewicht17]` | `=round(this.Inventar.Rucksack.count17 * this.Inventar.Rucksack.gewicht17, 2)` |
 >> | **GESAMT**                                |                                           |                                             |                       `=this.Summen.Rucksack`                        |
 
