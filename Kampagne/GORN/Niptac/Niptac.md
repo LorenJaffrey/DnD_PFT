@@ -27,7 +27,7 @@ Waffen:
   - "[[B.I.A.N.K.A.]]"
 Gesundheit:
   MaxTP: 42
-  TP: 28
+  TP: 6
   TW: 0
   TempTP: 0
 Attribute:
@@ -122,7 +122,7 @@ Persönlichkeit:
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: false
+  GlücksPunkt2: true
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
