@@ -22,7 +22,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 59
-  TP: 22
+  TP: 17
   TW: 3
   TempTP: 0
 Attribute:
@@ -118,20 +118,20 @@ Persönlichkeit:
   Bindungen: Eine furchtbare Schuld verzehrt mich. Ich hoffe durch meine Taten Erlösung zu finden.
   Makel: Ich habe eine (Alkohol-)Sucht.
 InputData:
-  GlücksPunkt1: false
+  GlücksPunkt1: true
   GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 0
-  Erschöpfung1: false
+  ErschöpfungsPunkte: 1
+  Erschöpfung1: true
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
   Rage1: true
   Rage2: true
-  Rage3: false
+  Rage3: true
 tags:
   - Charakter/GORN
 ---
