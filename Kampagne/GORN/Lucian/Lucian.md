@@ -6,15 +6,15 @@ Verteidigung:
   Zusätzliche_Rüstung: 1
   Zusätzliche_SR: 1
   Rüstung: "[[Beschlagene Lederrüstung]]"
-  Schild: 
+  Schild:
   Resistenzen:
     Schadensresistenz:
       - "[[Feuerschaden]]"
       - "[[Kälteschaden]]"
       - "[[Giftschaden]]"
-    Schadensimmunität: 
-    Schadensanfälligkeit: 
-    Zustandsimmunität: 
+    Schadensimmunität:
+    Schadensanfälligkeit:
+    Zustandsimmunität:
 Waffen:
   - "[[Dolch]]"
   - "[[Stecken der Verteidigung]]"
@@ -62,7 +62,7 @@ Fertigkeiten:
     - "[[Infernalisch]]"
     - "[[Abyssisch]]"
     - "[[Urtümlich]]"
-  Werkzeuge: 
+  Werkzeuge:
   Rüstungen:
     - "[[Leichte Rüstung]]"
   Waffen:
@@ -107,9 +107,9 @@ tags:
   - Charakter/GORN
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: true
-  GlücksPunkt3: true
-  GlücksPunkt4: true
+  GlücksPunkt2: false
+  GlücksPunkt3: false
+  GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
@@ -119,7 +119,7 @@ InputData:
   Erschöpfung5: false
   Fähigkeiten:
     Thaumaturgie: false
-    Höllischer_Tadel: false
+    Höllischer_Tadel: true
     Verschwinden: false
     Dunkelheit: false
   Stecken_der_Verteidigung:

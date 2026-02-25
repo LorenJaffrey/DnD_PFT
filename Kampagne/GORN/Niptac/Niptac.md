@@ -121,7 +121,7 @@ Persönlichkeit:
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 InputData:
-  GlücksPunkt1: false
+  GlücksPunkt1: true
   GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
