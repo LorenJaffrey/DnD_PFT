@@ -32,7 +32,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 3
+  TP: 0
   TW: 0
   TempTP: 0
 Attribute:
@@ -136,25 +136,25 @@ Zauber:
   - "[[Magisches Fliegen]]"
   - "[[Blitze herbeirufen]]"
 InputData:
-  GlücksPunkt1: true
-  GlücksPunkt2: true
+  GlücksPunkt1: false
+  GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 0
-  Erschöpfung1: false
+  ErschöpfungsPunkte: 1
+  Erschöpfung1: true
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
   NormaleRüstung: true
-  MagierRüstung: true
+  MagierRüstung: false
   BlitzOdem: 3
-  Klingenbann: true
+  Klingenbann: false
   Zaubereipunkte: 0
   Zauberplätze:
     Grad_1: 0
-    Grad_2: 2
+    Grad_2: 0
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -195,7 +195,7 @@ InputData:
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: "\n"
+sonstigeZustaende: "Status: stabilisiert"
 ---
 
 > [!infobox|left]
