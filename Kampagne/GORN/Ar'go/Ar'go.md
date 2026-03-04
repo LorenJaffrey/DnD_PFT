@@ -195,7 +195,15 @@ InputData:
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: "Status: stabilisiert"
+sonstigeZustaende: |-
+  Status: stabilisiert
+
+  Level Up Notizen:
+  - Lebenspunkte erhöhen
+  - Zauberplatz Stufe 3 wird auf 3 erhöht
+  - Zaubereipunkte steigt auf 6
+  - 1 neuer Zauber kann erlernt werden: Donnerschritt (Stufe 3)
+  - 1 bestehender Zauber kann ausgetauscht werden: Hexenpfeil -> Gegenzaube
 ---
 
 > [!infobox|left]
