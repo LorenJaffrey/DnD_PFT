@@ -197,13 +197,13 @@ tags:
   - Charakter/GORN
 sonstigeZustaende: |-
   Status: stabilisiert
-
   Level Up Notizen:
   - Lebenspunkte erhöhen
   - Zauberplatz Stufe 3 wird auf 3 erhöht
   - Zaubereipunkte steigt auf 6
   - 1 neuer Zauber kann erlernt werden: Donnerschritt (Stufe 3)
-  - 1 bestehender Zauber kann ausgetauscht werden: Hexenpfeil -> Gegenzaube
+  - 1 bestehender Zauber kann ausgetauscht werden: Hexenpfeil -> Gegenzauber
+  - bekommt Schadensresistenz gegen Blitzschaden und Schallschaden
 ---
 
 > [!infobox|left]
@@ -354,8 +354,10 @@ sonstigeZustaende: |-
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
 >>>>> ![[Stürmische Magie | no-title]]
->>>>> ![[Magische Führung | no-title]]
+>>>>> (ab Stufe 6)  ![[Herz des Sturms|no-title]]
+>>>>> (ab Stufe 6)  ![[Sturmlenker|no-title]]
 >>>>
+>>>>> ![[Magische Führung | no-title]]
 >>>>> ![[Quelle der Magie#Zauberplätze erschaffen]]
 >>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>>
