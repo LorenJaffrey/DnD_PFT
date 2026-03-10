@@ -13,7 +13,7 @@ cssclasses:
   - tag-bubble
   - tag-outline
   - tag-text
-Stufe: 5
+Stufe: 6
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
@@ -23,6 +23,8 @@ Verteidigung:
   Schild:
   Resistenzen:
     Schadensresistenz:
+    - "[[Schallschaden]]"
+    - "[[Blitzschaden]]"
     Schadensimmunität:
     Schadensanfälligkeit:
     Zustandsimmunität:
@@ -31,7 +33,7 @@ Waffen:
   - "[[Dolch]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
-  MaxTP: 39
+  MaxTP: 47
   TP: 0
   TW: 0
   TempTP: 0
@@ -99,6 +101,8 @@ Merkmale:
   - "[[Zauberwirken Zauberer]]"
   - "[[Magische Führung]]"
   - "[[Zaubereiauffrischung]]"
+  - "[[Herz des Sturms]]"
+  - "[[Sturmlenker]]"
 Talente:
   - "[[Glückspilz]]"
   - "[[Kampferprobter Zauberwirker]]"
@@ -127,7 +131,6 @@ Zauber:
   - "[[Schockgriff]]"
   - "[[Elementalismus]]"
   - "[[Chaospfeil]]"
-  - "[[Hexenpfeil]]"
   - "[[Magierrüstung]]"
   - "[[Schild]]"
   - "[[Nebelschritt]]"
@@ -135,6 +138,8 @@ Zauber:
   - "[[Blitz]]"
   - "[[Magisches Fliegen]]"
   - "[[Blitze herbeirufen]]"
+  - "[[Gegenzauber]]"
+  - "[[Donnerschritt]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
@@ -325,7 +330,9 @@ sonstigeZustaende: |-
 >> 
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> [!success]  **Blitz**  
->>>>    - erlittener Schaden halbieren (abrunden)
+>>>
+>>>> [!success]  **Schall** 
+>>>>  > erlittener Schaden halbieren (abrunden)
 >>> 
 >>> ## Bonus
 >>>> [!success]  **Fragment des Donners**  

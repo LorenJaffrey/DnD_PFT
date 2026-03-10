@@ -23,7 +23,6 @@ Zauber:
   - "[[Schockgriff]]"
   - "[[Elementalismus]]"
   - "[[Chaospfeil]]"
-  - "[[Hexenpfeil]]"
   - "[[Magierrüstung]]"
   - "[[Schild]]"
   - "[[Nebelschritt]]"
@@ -31,6 +30,8 @@ Zauber:
   - "[[Blitz]]"
   - "[[Blitze herbeirufen]]"
   - "[[Magisches Fliegen]]"
+  - "[[Gegenzauber]]"
+  - "[[Donnerschritt]]"
 Metamagie:
   - "[[Weitreichender Zauber]]"
   - "[[Beschleunigter Zauber]]"
