@@ -71,7 +71,9 @@ Geld:
 | Ritualmesser (Gold)                                             |        |         |   0    |
 | Gefäß (Gold)                                                    |        |         |   0    |
 | Zauberrolle (nicht identifiziert)                               |        |         |   0    |
-| [[Zauberstecken der Vogelrufe]]                                 |   1    |    1    |   1    |
+| Rote Korallenstöcker (a 25g)                                    |   6    |         |   0    |
+| Verziertes Fernŕohr (a 100g)                                    |   1    |         |   0    |
+| [[Zauberstecken der Vogelrufe]]                               |   1    |    1    |   1    |
 | GESAMT                                                          |        |         | 55.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
