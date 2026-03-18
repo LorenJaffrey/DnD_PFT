@@ -23,8 +23,8 @@ Verteidigung:
   Schild:
   Resistenzen:
     Schadensresistenz:
-    - "[[Schallschaden]]"
-    - "[[Blitzschaden]]"
+      - "[[Schallschaden]]"
+      - "[[Blitzschaden]]"
     Schadensimmunität:
     Schadensanfälligkeit:
     Zustandsimmunität:
@@ -200,15 +200,7 @@ InputData:
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: |-
-  Status: stabilisiert
-  Level Up Notizen:
-  - Lebenspunkte erhöhen
-  - Zauberplatz Stufe 3 wird auf 3 erhöht
-  - Zaubereipunkte steigt auf 6
-  - 1 neuer Zauber kann erlernt werden: Donnerschritt (Stufe 3)
-  - 1 bestehender Zauber kann ausgetauscht werden: Hexenpfeil -> Gegenzauber
-  - bekommt Schadensresistenz gegen Blitzschaden und Schallschaden
+sonstigeZustaende: "Status: stabilisiert"
 ---
 
 > [!infobox|left]
@@ -305,7 +297,7 @@ sonstigeZustaende: |-
 >---
 
 # `=this.Hintergrund.Name`,
-#####  der Sturmgezeichnete von der Insel der Drachenkulte, Auserwählter Kords, Träger des ersten Splitters des Tempestus, Bezwinger des Donnerebers Grannocs, der Orks und der wandelnden Schatten gemeinsam mit der ruhmreichen Schar GORN, der Schläfer unter freiem Himmel, Freund von Donner und Regen, Verkoster der Welt in all ihrer Bitterkeit und Süße, Sturmzauberer der tosenden Lüfte, Sucher des zerschlagenen Kristalls, der Gelbgezeichnete im Strudel der Zauberei
+#####  der Sturmgezeichnete von der Insel der Drachenkulte, Auserwählter Kords, Träger des ersten Splitters des Tempestus, Bezwinger des Donnerebers Grannocs, der Orks und der wandelnden Schatten gemeinsam mit der ruhmreichen Schar GORN, der Schläfer unter freiem Himmel, Freund von Donner und Regen, Verkoster der Welt in all ihrer Bitterkeit und Süße, Sturmzauberer der tosenden Lüfte, Sucher des zerschlagenen Kristalls, der Gelbgezeichnete im Strudel der Zauberei, Bezwinger des großen weißen Drachen, Fädenreißer im Schattengewebe
 
 > [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
 >> [!column | 3 no-title]
@@ -361,8 +353,8 @@ sonstigeZustaende: |-
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
 >>>>> ![[Stürmische Magie | no-title]]
->>>>> (ab Stufe 6)  ![[Herz des Sturms|no-title]]
->>>>> (ab Stufe 6)  ![[Sturmlenker|no-title]]
+>>>>>  ![[Herz des Sturms|no-title]]
+>>>>>  ![[Sturmlenker|no-title]]
 >>>>
 >>>>> ![[Magische Führung | no-title]]
 >>>>> ![[Quelle der Magie#Zauberplätze erschaffen]]

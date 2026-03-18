@@ -18,7 +18,7 @@ cssclasses:
 Summen:
   Rucksack: 35.35
   Behälter: 0
-  Körper: 15.1
+  Körper: 14.6
 Inventar:
   Körper:
     count1: 2
