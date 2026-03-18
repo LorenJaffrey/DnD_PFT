@@ -1,5 +1,5 @@
 ---
-Stufe: 5
+Stufe: 6
 Bewegung: 8
 Verteidigung:
   Natürliche_Rüstung: 10
@@ -21,7 +21,7 @@ Waffen:
   - "[[Kriegsflegel]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
-  MaxTP: 59
+  MaxTP: 71
   TP: 17
   TW: 3
   TempTP: 0
@@ -97,6 +97,8 @@ Merkmale:
   - "[[Furchtlos]]"
   - "[[Schnelles Ziehen]]"
   - "[[Verbesserter Kampf mit zwei Waffen]]"
+  - "[[Unerschütterlich]]"
+  - "[[Slayerzorn]]"
 Talente:
   - "[[Wilder Angreifer]]"
   - "[[Meisterschaft Kampf mit zwei Waffen]]"
