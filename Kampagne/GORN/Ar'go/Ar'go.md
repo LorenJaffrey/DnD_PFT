@@ -34,8 +34,8 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 47
-  TP: 0
-  TW: 0
+  TP: 47
+  TW: 6
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -146,8 +146,8 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 1
-  Erschöpfung1: true
+  ErschöpfungsPunkte: 0
+  Erschöpfung1: false
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
@@ -156,11 +156,11 @@ InputData:
   MagierRüstung: false
   BlitzOdem: 3
   Klingenbann: false
-  Zaubereipunkte: 0
+  Zaubereipunkte: 6
   Zauberplätze:
-    Grad_1: 0
-    Grad_2: 0
-    Grad_3: 0
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 3
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -191,16 +191,16 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  DruckwelleLadungen: 0
-  IntuitiveZaubereiLadungen: 0
+  DruckwelleLadungen: 1
+  IntuitiveZaubereiLadungen: 2
   IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
-  DrakonischerFlugLadungen: 0
+  DrakonischerFlugLadungen: 1
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: "Status: stabilisiert"
+sonstigeZustaende: ""
 ---
 
 > [!infobox|left]
