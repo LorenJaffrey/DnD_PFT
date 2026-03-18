@@ -1,5 +1,5 @@
 ---
-Stufe: 5
+Stufe: 6
 Niptac:
   Apparaturen:
     - "[[Gnomischer Flammenwerfer]]"
@@ -26,9 +26,9 @@ Waffen:
   - "[[Handarmbrust]]"
   - "[[B.I.A.N.K.A.]]"
 Gesundheit:
-  MaxTP: 42
-  TP: 6
-  TW: 0
+  MaxTP: 48
+  TP: 48
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -55,14 +55,14 @@ Fertigkeiten:
   Heilkunde: 0
   Heimlichkeit: 1
   Mit_Tieren_umgehen: 0
-  Motiv_erkennen: 1
+  Motiv_erkennen: 2
   Nachforschungen: 1
   Naturkunde: 0
   Religion: 0
   Täuschen: 2
   Überlebenskunst: 0
   Überzeugen: 1
-  Wahrnehmung: 1
+  Wahrnehmung: 2
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
