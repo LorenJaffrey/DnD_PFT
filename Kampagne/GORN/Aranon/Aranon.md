@@ -1,7 +1,7 @@
 ---
 cssclasses:
   - dnd
-Stufe: 5
+Stufe: 6
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
@@ -19,9 +19,9 @@ Waffen:
   - "[[Krummsäbel]]"
   - "[[Schleuder]]"
 Gesundheit:
-  MaxTP: 38
-  TP: 21
-  TW: 5
+  MaxTP: 44
+  TP: 44
+  TW: 6
   TempTP: 4
 Attribute:
   Stärke: 8
@@ -86,6 +86,7 @@ Merkmale:
   - "[[Druidisches Zauberwirken]]"
   - "[[Verbesserte Tiergestalt]]"
   - "[[Wilder Gefährte]]"
+  - "[[Mächtiger Beschwörer]]"
   - "[[Wilde Wiederkehr]]"
   - "[[Die Sprache des Waldes]]"
   - "[[Geistertotem]]"
@@ -132,16 +133,16 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 3
+  ErschöpfungsPunkte: 1
   Erschöpfung1: true
-  Erschöpfung2: true
-  Erschöpfung3: true
+  Erschöpfung2: false
+  Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
   TiergestaltLadung1: false
   TiergestaltLadung2: false
-  GeistertotemLadung: true
-  NebelschrittLadung: true
+  GeistertotemLadung: false
+  NebelschrittLadung: false
   IdentifizierenLadung: false
   Stresslevel1: false
   Stresslevel2: false
@@ -149,9 +150,9 @@ InputData:
   Stresslevel4: false
   Stresslevel5: false
   Zauberplätze:
-    Grad_1: 2
-    Grad_2: 2
-    Grad_3: 1
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 3
     Grad_4:
     Grad_5:
     Grad_6:
