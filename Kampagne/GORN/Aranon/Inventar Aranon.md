@@ -52,7 +52,7 @@ Geld:
 | [[Schleuder]]                       |   1    |    1    |   1    |
 | [[Holzschild]]                      |   1    |    6    |   6    |
 | [[Fackel]]                          |   2    |    1    |   2    |
-| [[Ration]]                          |   13   |    1    |   5    |
+| [[Ration]]                          |   11   |    1    |   5    |
 | [[Trinkschlauch]]                   |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern         |   8   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]]         |   5    |   0.5   |  2.5   |

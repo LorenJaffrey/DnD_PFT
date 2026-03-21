@@ -20,6 +20,7 @@ Zauber:
   - "[[Spurloses Gehen]]"
   - "[[Tiere beschwören]]"
   - "[[Mit Pflanzen sprechen]]"
+  - "[[Aura der Gesundheit]]"
 ---
 # `=this.file.name`
 
