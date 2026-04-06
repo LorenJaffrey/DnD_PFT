@@ -16,7 +16,7 @@ cssclasses:
   - tag-outline
   - tag-text
 Summen:
-  Rucksack: 35.35
+  Rucksack: 31.35
   Behälter: 0
   Körper: 14.6
 Inventar:
@@ -123,6 +123,7 @@ Geld:
   EM: 50
   SM: 73
   KM: 23
+schnelleInventarNotizen: ""
 ---
 
 # `=this.Name`
@@ -194,6 +195,13 @@ Geld:
 >> |            weiße  Drachenschuppen (von Nippi bekommen)                                       | `INPUT[number:Inventar.Rucksack.count16]` | `INPUT[number:Inventar.Rucksack.gewicht16]` | `=round(this.Inventar.Rucksack.count16 * this.Inventar.Rucksack.gewicht16, 2)` |
 >> |                                                                   | `INPUT[number:Inventar.Rucksack.count17]` | `INPUT[number:Inventar.Rucksack.gewicht17]` | `=round(this.Inventar.Rucksack.count17 * this.Inventar.Rucksack.gewicht17, 2)` |
 >> | **GESAMT**                                |                                           |                                             |                       `=this.Summen.Rucksack`                        |
+
+
+## Inventar Notizen
+
+```meta-bind
+INPUT[editor(class(dndSmallHeight)):schnelleInventarNotizen]
+```
 
 
 ```js-engine
