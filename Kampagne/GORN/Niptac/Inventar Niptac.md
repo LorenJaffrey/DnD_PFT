@@ -64,7 +64,7 @@ Geld:
 | Edelsteine (undurchsichtig, rotbraun)                           |   5    |    0    |   0    |
 | Perle                                                           |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| [[Heiltrank]]                                                   |   0    |   0.5   |   0    |
+| [[Heiltrank]]                                                   |   1    |   0.5   |   0    |
 | [[Feine Kleidung]]                                              |   1    |    6    |   6    |
 | Goblins Alchemistengerümpel                                     |   1    |   0.5   |  0.5   |
 | Pokal (Gold)                                                    |        |         |   0    |
