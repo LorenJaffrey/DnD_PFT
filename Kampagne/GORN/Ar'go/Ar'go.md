@@ -34,7 +34,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 47
-  TP: 47
+  TP: 42
   TW: 6
   TempTP: 0
 Attribute:
@@ -153,14 +153,14 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   NormaleRüstung: true
-  MagierRüstung: false
+  MagierRüstung: true
   BlitzOdem: 3
   Klingenbann: false
   Zaubereipunkte: 6
   Zauberplätze:
-    Grad_1: 4
+    Grad_1: 2
     Grad_2: 3
-    Grad_3: 3
+    Grad_3: 2
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -192,15 +192,17 @@ InputData:
   UhrzeitToogle1: false
   UhrzeitToogle2: false
   DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 2
-  IntuitiveZaubereiAktiv: false
-  DrakonischerFlugAktiv: false
+  IntuitiveZaubereiLadungen: 1
+  IntuitiveZaubereiAktiv: true
+  DrakonischerFlugAktiv: true
   DrakonischerFlugLadungen: 1
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: ""
+sonstigeZustaende: |-
+  - ich fliege in 11 Meter Höhe
+  - Blitze herbeirufen ist **aktiv** - heißt ohne Zauberplätze weiter schaden machen
 ---
 
 > [!infobox|left]
