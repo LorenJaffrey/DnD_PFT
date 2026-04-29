@@ -34,7 +34,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 47
-  TP: 42
+  TP: 47
   TW: 6
   TempTP: 0
 Attribute:
@@ -195,7 +195,7 @@ InputData:
   IntuitiveZaubereiLadungen: 1
   IntuitiveZaubereiAktiv: true
   DrakonischerFlugAktiv: true
-  DrakonischerFlugLadungen: 1
+  DrakonischerFlugLadungen: 0
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false
 tags:
