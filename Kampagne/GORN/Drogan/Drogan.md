@@ -133,7 +133,7 @@ InputData:
   Erschöpfung5: false
   Rage1: true
   Rage2: true
-  Rage3: false
+  Rage3: true
 tags:
   - Charakter/GORN
 ---
