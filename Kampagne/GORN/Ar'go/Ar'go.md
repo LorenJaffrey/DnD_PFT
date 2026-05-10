@@ -34,7 +34,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 47
-  TP: 39
+  TP: 17
   TW: 6
   TempTP: 0
 Attribute:
@@ -159,8 +159,8 @@ InputData:
   Zaubereipunkte: 0
   Zauberplätze:
     Grad_1: 2
-    Grad_2: 2
-    Grad_3: 1
+    Grad_2: 0
+    Grad_3: 0
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -200,9 +200,7 @@ InputData:
   SpiegelbilderAktiv: true
 tags:
   - Charakter/GORN
-sonstigeZustaende: |-
-  - ich fliege in 11 Meter Höhe
-  - Blitze herbeirufen ist **aktiv** - heißt ohne Zauberplätze weiter schaden machen
+sonstigeZustaende: ""
 ---
 
 > [!infobox|left]
@@ -299,7 +297,7 @@ sonstigeZustaende: |-
 >---
 
 # `=this.Hintergrund.Name`,
-#####  der Sturmgezeichnete von der Insel der Drachenkulte, Auserwählter Kords, Träger des ersten Splitters des Tempestus, Bezwinger des Donnerebers Grannocs, der Orks und der wandelnden Schatten gemeinsam mit der ruhmreichen Schar GORN, der Schläfer unter freiem Himmel, Freund von Donner und Regen, Verkoster der Welt in all ihrer Bitterkeit und Süße, Sturmzauberer der tosenden Lüfte, Sucher des zerschlagenen Kristalls, der Gelbgezeichnete im Strudel der Zauberei, Bezwinger des großen weißen Drachen, Fädenreißer im Schattengewebe, Meister der wintergrauen Schergen
+#####  der Sturmgezeichnete von der Insel der Drachenkulte, Auserwählter Kords, Träger des ersten Splitters des Tempestus, Bezwinger des Donnerebers Grannocs, der Orks und der wandelnden Schatten gemeinsam mit der ruhmreichen Schar GORN, der Schläfer unter freiem Himmel, Freund von Donner und Regen, Verkoster der Welt in all ihrer Bitterkeit und Süße, Sturmzauberer der tosenden Lüfte, Sucher des zerschlagenen Kristalls, der Gelbgezeichnete im Strudel der Zauberei, Bezwinger des großen weißen Drachen, Fädenreißer im Schattengewebe, Meister der wintergrauen Schergen, Herr der Blitz-Wolken, der geflügelte Sturmzauberer
 
 > [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
 >> [!column | 3 no-title]
